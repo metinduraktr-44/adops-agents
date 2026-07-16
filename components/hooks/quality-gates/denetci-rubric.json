@@ -1,0 +1,15 @@
+{
+  "description": "DENETÇİ rubric hatırlatıcısı: her oturum kapanışında (Stop) çıktı teslim edilmeden önce 6 katmanlı denetim listesini basar. Engellemez (exit 0) — hatırlatıcıdır; GEÇTİ/KALDI kararını DENETÇİ verir. KALDI olan deliverable müşteriye gitmez, ertesi döngüde düzeltilir.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"DENETCI RUBRIC ($(date -u +%Y-%m-%dT%H:%M:%SZ)) — teslim oncesi 6 katman: [1] Structural: frontmatter/zorunlu alanlar tam mi? [2] Integrity: SHA256 hesaplandi, VERSIONS.md guncel mi? [3] Semantic: prompt injection / tehlikeli komut var mi? [4] Reference: dis URL guvenli mi (SSRF yok)? [5] Patterns: bilinen acik deseni (SkillSpector mantigi) var mi? [6] Review: bagimsiz gozle son kontrol yapildi mi? Sonuc GECTI ise AUDIT_LOG.jsonl'a damgali satir ekle; KALDI ise teslim etme.\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Response DGA ajans çalışma profili: müşteri verisi ve sır dosyaları korunur, günlük git akışına izin verilir, yıkıcı komutlar engellenir.",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git log:*)",
+      "Bash(git pull:*)",
+      "Bash(date:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./musteri-verileri/**)",
+      "Read(./config/credentials.json)",
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)",
+      "Bash(curl:*)"
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "30000"
+  }
+}

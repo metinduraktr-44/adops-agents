@@ -1,0 +1,50 @@
+{
+  "name": "adops-response-dga",
+  "version": "1.0.0",
+  "description": "Response DGA (Türk dijital medya ajansı) için performance/programmatic bileşen paketi: pitch üretimi, atıf/rakip analizi, TR ücretli reklam + SEO becerileri, denetim kancaları ve Perşembe pilot deliverable döngüsü tek pakette.",
+  "author": {
+    "name": "Metin Durak"
+  },
+  "category": "performance-marketing",
+  "keywords": ["performance-marketing", "programmatic", "pitch-deck", "attribution", "roas", "adops", "ajans", "turkce", "response-dga"],
+  "license": "MIT",
+  "created": "2026-07-16T08:17:06Z",
+  "components": {
+    "agents": [
+      "performance-marketing/pitch-deck-uretici",
+      "performance-marketing/roas-optimizer",
+      "performance-marketing/campaign-auditor",
+      "performance-marketing/programmatic-strategist",
+      "business-intel/atif-analisti",
+      "business-intel/rakip-analisti"
+    ],
+    "commands": [
+      "marketing/pitch-brifi",
+      "marketing/linkedin-yayinci",
+      "marketing/channel-report",
+      "marketing/generate-media-plan"
+    ],
+    "skills": [
+      "marketing/paid-ads-tr",
+      "marketing/seo-denetimi",
+      "web-data/rakip-reklam-cikarici",
+      "analytics/ga4-analysis"
+    ],
+    "hooks": [
+      "quality-gates/denetci-rubric",
+      "audit/timestamp-audit"
+    ],
+    "mcps": [
+      "marketing/google-ads",
+      "marketing/facebook-ads",
+      "marketing/supermetrics",
+      "web-data/brightdata"
+    ],
+    "settings": [
+      "response-dga"
+    ],
+    "loops": [
+      "operations/persembe-pilot-deliverable-loop"
+    ]
+  }
+}

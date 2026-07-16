@@ -1,0 +1,12 @@
+{
+  "name": "adops-agents",
+  "version": "0.1.0",
+  "description": "Claude Code agents, skills, commands & hooks for performance marketing & programmatic advertising.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "python3 scripts/validate.py",
+    "stamp": "bash scripts/timestamp.sh",
+    "nightly": "bash scripts/nightly.sh"
+  },
+  "keywords": ["claude", "claude-code", "performance-marketing", "programmatic", "dv360", "ga4", "agents"]
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Bright Data web verisi bağlayıcısı. Ne için: rakip-reklam-cikarici skill'inin reklam kütüphanesi taraması, rakip-analisti ajanının rakip site/fiyat izlemesi, pitch öncesi sektör sinyali toplama. Müşteri senaryosu: perakende müşterisi için 4 rakibin kampanya ve fiyat hareketleri haftalık taranır, çıktı pitch-brifi komutuna girdi olur. URL'deki token placeholder'ını kur; token'ı repoya commit etme. 🚩 Ücretli kota harcar — tarama kapsamını sınırla.",
+  "mcpServers": {
+    "brightdata": {
+      "description": "Web arama, kazıma ve yapılandırılmış veri çıkarımı için Bright Data MCP sunucusu.",
+      "url": "https://mcp.brightdata.com/mcp?token=BRIGHTDATA_API_TOKEN_BURAYA&pro=1"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "Meta (Facebook/Instagram) Ads bağlayıcısı. Ne için: müşteri Meta hesaplarında kampanya/reklam seti performansı çekme, kreatif yorgunluğu takibi, bütçe pacing kontrolü. Müşteri senaryosu: e-ticaret müşterisinde roas-optimizer haftalık Advantage+ verisini buradan okur; Efsane Cuma döneminde günlük pacing raporu üretilir. Token'ı env değişkeninden ver (META_ACCESS_TOKEN) — argümana veya dosyaya düz metin yazma.",
+  "mcpServers": {
+    "facebook-ads": {
+      "description": "Meta Ads API'sine programatik erişim sağlayan MCP sunucusu (hesap, kampanya, içgörü verileri).",
+      "command": "python",
+      "args": ["/kurulum/yolu/fb-ads-mcp-server/server.py"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

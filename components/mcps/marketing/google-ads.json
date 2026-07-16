@@ -1,0 +1,13 @@
+{
+  "_comment": "Google Ads API bağlayıcısı. Ne için: müşteri hesaplarında haftalık kampanya denetimi, arama terimi israfı taraması ve QBR/pitch için performans verisi çekimi. Müşteri senaryosu: campaign-auditor ajanı Pazartesi sabahı hesabı tarar, atif-analisti QBR öncesi kanal verisini bu MCP'den alır. Yol placeholder'larını kendi kurulumunla değiştir; kimlik bilgileri google-ads.yaml/env üzerinden — asla bu dosyaya gömme.",
+  "mcpServers": {
+    "google-ads": {
+      "description": "Google Ads API için MCP sunucusu; OAuth 2.0 ile hesap, kampanya ve rapor erişimi.",
+      "command": "/kurulum/yolu/.venv/bin/python",
+      "args": ["/kurulum/yolu/google-ads-mcp/server.py"],
+      "env": {
+        "GOOGLE_ADS_CONFIG": "${GOOGLE_ADS_CONFIG}"
+      }
+    }
+  }
+}

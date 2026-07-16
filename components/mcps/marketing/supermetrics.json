@@ -1,0 +1,10 @@
+{
+  "_note": "Template. Fill real endpoint/auth per your Supermetrics setup. Never commit secrets; use env vars.",
+  "mcpServers": {
+    "supermetrics": {
+      "command": "npx",
+      "args": ["-y", "supermetrics-mcp"],
+      "env": { "SUPERMETRICS_API_KEY": "${SUPERMETRICS_API_KEY}" }
+    }
+  }
+}
