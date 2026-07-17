@@ -72,6 +72,19 @@ for d in onduty:
     lines.append(f"### {d['code'].upper()} — {d['name_tr']}")
     lines.append(f"- Odak: {d['units'][DOY % len(d['units'])]} · Sorumlu hat: `{lead['slug']}` → `{d['roles'][0]['slug']}`")
     lines.append(f"- Bugünün 3 aksiyonu: (1) birim playbook'unda 1 iyileştirme, (2) KPI kesiti ({d['kpis'][0]}), (3) öğrenimi BILGI_TABANI'na damıt.")
+
+# Öz-denetim: bankadan deterministik günlük soru seti (DOY tabanlı; Math.random yok)
+bank_path = os.path.join(ROOT, "data", "soru_bankasi.json")
+if os.path.exists(bank_path):
+    bank = json.load(open(bank_path, encoding="utf-8"))
+    flat = [q for v in bank.get("universal", {}).values() for q in v]
+    flat += [q for v in bank.get("by_tier", {}).values() for q in v]
+    if flat:
+        picks = [flat[(DOY * 7 + i * 53) % len(flat)] for i in range(8)]
+        lines.append("\n## Günün öz-denetim soruları (banka: docs/OZ-DENETIM-SORU-BANKASI.md, 500+)")
+        for i, q in enumerate(picks, 1):
+            lines.append(f"{i}. {q}")
+        lines.append("> Her nöbetçi hat bu soruları yanıtlar; kritik 'hayır'lar IS_LISTESI'ne aksiyon olarak düşer.")
 write(f"gundem/{TODAY}-standup.md", "\n".join(lines) + "\n")
 
 # ---------------------------------------------------------------- 2) MAKALE

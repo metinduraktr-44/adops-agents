@@ -13,6 +13,80 @@ NOW = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"
 TODAY = NOW[:10]
 SHIFTS = ["00–08 UTC", "08–16 UTC", "16–24 UTC"]
 
+# Soru bankası (varsa) — kart başına departman+kademe alt-seti gömülür
+_SB_PATH = os.path.join(ROOT, "data", "soru_bankasi.json")
+SORU_BANKASI = json.load(open(_SB_PATH, encoding="utf-8")) if os.path.exists(_SB_PATH) else {"by_dept": {}, "by_tier": {}}
+
+# Departman-özel GERÇEK öğrenme kaynakları (resmi changelog/eğitim/beta/blog URL'leri)
+DEPT_SOURCES = {
+ "prg": [("DV360 Yardım/Changelog", "https://support.google.com/displayvideo/answer/9059050"),
+         ("The Trade Desk Haber", "https://www.thetradedesk.com/us/news"),
+         ("IAB Tech Lab", "https://iabtechlab.com"), ("Skillshop (DV360)", "https://skillshop.exceedlms.com")],
+ "sea": [("Google Ads Yardım", "https://support.google.com/google-ads"),
+         ("Google Ads Blog", "https://blog.google/products/ads-commerce/"),
+         ("Search Engine Land", "https://searchengineland.com"), ("Skillshop", "https://skillshop.exceedlms.com")],
+ "soc": [("Meta for Business Haber", "https://www.facebook.com/business/news"),
+         ("Meta Blueprint", "https://www.facebook.com/business/learn"),
+         ("TikTok for Business", "https://ads.tiktok.com/business/en"),
+         ("LinkedIn Marketing Blog", "https://www.linkedin.com/business/marketing/blog")],
+ "mob": [("Apple Search Ads", "https://searchads.apple.com"), ("AppsFlyer Blog", "https://www.appsflyer.com/blog"),
+         ("Adjust Blog", "https://www.adjust.com/blog"),
+         ("Google App Kampanyaları", "https://support.google.com/google-ads/answer/6247380")],
+ "ret": [("Amazon Ads Kütüphane", "https://advertising.amazon.com/library"),
+         ("Criteo Blog", "https://www.criteo.com/blog"),
+         ("Think with Google Retail", "https://www.thinkwithgoogle.com")],
+ "seo": [("Google Search Central", "https://developers.google.com/search"),
+         ("Search Central Blog", "https://developers.google.com/search/blog"),
+         ("Ahrefs Blog", "https://ahrefs.com/blog"), ("Moz Blog", "https://moz.com/blog")],
+ "cro": [("CXL Blog", "https://cxl.com/blog"), ("Baymard Institute", "https://baymard.com"),
+         ("GoodUI", "https://goodui.org")],
+ "ana": [("GA4 Changelog", "https://support.google.com/analytics/answer/9164320"),
+         ("Simo Ahava Blog", "https://www.simoahava.com"),
+         ("Google Analytics Blog", "https://blog.google/products/marketingplatform/analytics/")],
+ "dsc": [("arXiv cs.LG", "https://arxiv.org/list/cs.LG/recent"),
+         ("Google Research Blog", "https://research.google/blog/"),
+         ("Papers with Code", "https://paperswithcode.com")],
+ "ops": [("Campaign Manager 360 Yardım", "https://support.google.com/campaignmanager"),
+         ("Google Tag Manager", "https://support.google.com/tagmanager"), ("IAB", "https://www.iab.com")],
+ "cre": [("TikTok Creative Center", "https://ads.tiktok.com/business/creativecenter"),
+         ("Meta Creative Hub", "https://www.facebook.com/business/tools/creative-hub"),
+         ("Think with Google Creative", "https://www.thinkwithgoogle.com")],
+ "str": [("Think with Google", "https://www.thinkwithgoogle.com"),
+         ("IAB Insights", "https://www.iab.com/insights/"), ("WARC", "https://www.warc.com")],
+ "cls": [("HubSpot Blog", "https://blog.hubspot.com"),
+         ("Google Skillshop", "https://skillshop.exceedlms.com")],
+ "nbd": [("HubSpot Sales Blog", "https://blog.hubspot.com/sales"),
+         ("Evil Martians OSS", "https://evilmartians.com/opensource")],
+ "prt": [("Neon OSS Program", "https://neon.com/programs/open-source"),
+         ("Supermetrics Partners", "https://supermetrics.com/partners"),
+         ("Railway OSS Kickback", "https://railway.com/open-source-kickback"),
+         ("GitHub Sponsors Docs", "https://docs.github.com/en/sponsors")],
+ "prd": [("Anthropic Docs", "https://docs.claude.com"),
+         ("Claude Code Docs", "https://code.claude.com/docs"),
+         ("awesome-claude-code", "https://github.com/hesreallyhim/awesome-claude-code")],
+ "fin": [("Anthropic Pricing", "https://www.anthropic.com/pricing"),
+         ("GitHub Actions Faturalama", "https://docs.github.com/en/billing")],
+ "leg": [("KVKK", "https://www.kvkk.gov.tr"), ("GDPR.eu", "https://gdpr.eu"),
+         ("IAB TCF", "https://iabeurope.eu/transparency-consent-framework/")],
+ "tal": [("Anthropic Prompting Docs", "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview"),
+         ("Claude Cookbook", "https://github.com/anthropics/anthropic-cookbook")],
+ "inf": [("GitHub Changelog", "https://github.blog/changelog/"),
+         ("GitHub Actions Docs", "https://docs.github.com/en/actions"),
+         ("MCP Spec", "https://modelcontextprotocol.io"),
+         ("Anthropic Docs", "https://docs.claude.com")],
+ "yonetim": [("Anthropic Docs", "https://docs.claude.com"),
+             ("Think with Google", "https://www.thinkwithgoogle.com"),
+             ("GitHub Changelog", "https://github.blog/changelog/")],
+}
+LEARN_CADENCE = {
+ "C-LEVEL": "Günlük 1 sektör/ekosistem kaynağı · haftalık 1 POV · aylık 1 stratejik makale.",
+ "EVP": "Günlük 1 platform changelog · haftalık 1 departman öğrenim notu · aylık 1 sertifika modülü.",
+ "DIRECTOR": "Günlük 1 kaynak · haftalık 1 birim öğrenimi · aylık 1 beta test raporu.",
+ "LEAD": "Günlük 1 kaynak · haftalık 1 iş-akışı notu · 2 haftada 1 makale taslağı.",
+ "SPECIALIST": "Günlük 1 kaynak okuma + 1 satır not · haftalık 1 iyileştirme.",
+ "ANALYST": "Günlük 1 kaynak · haftalık 1 veri/metodoloji notu.",
+}
+
 # ----------------------------------------------------------------------------
 # C-LEVEL (10)
 # ----------------------------------------------------------------------------
@@ -287,7 +361,7 @@ SHIFT_HOURS = {"00–08 UTC": "Asya-Pasifik penceresi", "08–16 UTC": "EMEA pen
                "16–24 UTC": "Amerika penceresi", "follow-the-sun": "kesintisiz (3 vardiya devri)"}
 
 def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, mission,
-             resp, kpis, tools, model, meetings):
+             resp, kpis, tools, model, meetings, dept_code="yonetim"):
     resp_all = list(resp) + [
         f"{TIER_MANDATE[tier]}",
         "Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).",
@@ -297,6 +371,13 @@ def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, missi
     meet_md = "\n".join(f"- {m}" for m in meetings)
     f30_md = "\n".join(f"- {x}" for x in TIER_FIRST30[tier])
     d_alone, d_rec, d_esc = TIER_DECISION[tier]
+    # Öğrenme kaynakları + soru alt-seti
+    srcs = DEPT_SOURCES.get(dept_code, DEPT_SOURCES["yonetim"])
+    src_md = "\n".join(f"- [{lbl}]({url})" for lbl, url in srcs)
+    dept_qs = SORU_BANKASI.get("by_dept", {}).get(dept_code, [])[:12]
+    tier_qs = SORU_BANKASI.get("by_tier", {}).get(tier, [])
+    q_lines = [f"{i+1}. {q}" for i, q in enumerate(tier_qs + dept_qs)]
+    q_md = "\n".join(q_lines) if q_lines else "1. Bu çıktı metrik gerekçeli mi ve damgalı mı?"
     return f"""---
 name: {slug}
 description: {_yaml_q(desc)}
@@ -368,9 +449,36 @@ Bu rol, ajansın "{dept_en}" hattında {tier} kademesinin sorumluluğunu taşır
 - Metrik gerekçesi olmayan öneri yok; her artefakt zaman-damgalı (AUDIT_LOG.jsonl).
 - Kopyala-yapıştır hazır çıktı; dolgu cümle yok; sinyal > uzunluk.
 
-## 15. Bağlantılar / Links
+## 15. Öz-Öğrenim Döngüsü / Self-Learning Loop
+- **Kadans:** {LEARN_CADENCE[tier]}
+- **Akış:** oku → tek satır BILGI_TABANI.md'ye damıt → uygula (bir çıktıya) → paylaş (standup/makale).
+- **Zincir:** her koşum önceki öğrenimi girdi alır (🔗); tekrar analiz yasak (BILGI_TABANI'nda varsa oku-kullan).
+
+## 16. Öğrenme Kaynakları / Learning Sources (URL)
+{src_md}
+- Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
+- Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
+
+## 17. Panel & Güncelleme Takibi / Platform Update Tracking
+- İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
+- Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.
+
+## 18. Eğitim & Beta / Training & Beta
+- Rolle ilgili sertifika (Skillshop / Meta Blueprint / ilgili resmi program) modülünü aylık ilerlet.
+- Ayda en az 1 beta/yeni özelliği test et; bulguyu BILGI_TABANI.md'ye + gerekiyorsa makaleye taşı.
+
+## 19. Makale Üretimi / Article Output
+- Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
+- Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
+
+## 20. Öz-Denetim Soru Seti / Self-Inquiry ({len(tier_qs)+len(dept_qs)} soru; tam banka 500+)
+> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+{q_md}
+
+## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
 - Toplantı protokolü: `docs/TOPLANTI-PROTOKOLU.md` · Gelir: `docs/GELIR-MODELI-TAKIP.md`
+- Soru bankası: `docs/OZ-DENETIM-SORU-BANKASI.md` · Öğrenme kaynakları: bu kartın §16
 """
 
 def write_agent(path, content):
@@ -421,7 +529,7 @@ for dx in D:
                   [f"Set and track OKRs for {dx['en']}", "Chair weekly department sync; publish minutes",
                    "Approve playbooks/components before merge", "Manage director bench and coverage",
                    f"Report weekly to {dx['sponsor']}"],
-                  dx["kpis"], dx["tools"], "sonnet", meets_evp)
+                  dx["kpis"], dx["tools"], "sonnet", meets_evp, dept_code=dx["code"])
     write_agent(os.path.join(ddir, f"{evp_slug}.md"), md)
     droles.append({"slug": evp_slug, "title": evp_title, "tier": "EVP", "reports_to": dx["sponsor"]})
 
@@ -440,7 +548,8 @@ for dx in D:
                        "Run unit-level retros; feed learnings to BILGI_TABANI.md",
                        "Escalate cross-unit conflicts to EVP"],
                       dx["kpis"], dx["tools"], "sonnet",
-                      ["Daily standup — unit line", "Weekly dept sync", "Unit retro (bi-weekly)"])
+                      ["Daily standup — unit line", "Weekly dept sync", "Unit retro (bi-weekly)"],
+                      dept_code=dx["code"])
         write_agent(os.path.join(ddir, f"{slug}.md"), md)
         droles.append({"slug": slug, "title": title, "tier": "DIRECTOR", "reports_to": evp_slug})
         dir_slugs.append(slug)
@@ -461,7 +570,8 @@ for dx in D:
                        "Assign and review specialist tasks daily",
                        "Publish a weekly workstream summary", "Flag risks with metric evidence"],
                       dx["kpis"], dx["tools"], "sonnet",
-                      ["Daily standup — workstream line", "Weekly dept sync", "Ad-hoc pairing with specialists"])
+                      ["Daily standup — workstream line", "Weekly dept sync", "Ad-hoc pairing with specialists"],
+                      dept_code=dx["code"])
         write_agent(os.path.join(ddir, f"{slug}.md"), md)
         droles.append({"slug": slug, "title": title, "tier": "LEAD", "reports_to": mgr})
         lead_slugs.append(slug)
@@ -484,7 +594,8 @@ for dx in D:
                        "Propose one improvement per week to the playbook",
                        "Keep outputs copy-paste-ready (signal over length)"],
                       dx["kpis"], dx["tools"], "sonnet",
-                      ["Daily standup — task line", "Weekly dept sync (listener)", "Pairing with lead as needed"])
+                      ["Daily standup — task line", "Weekly dept sync (listener)", "Pairing with lead as needed"],
+                      dept_code=dx["code"])
         write_agent(os.path.join(ddir, f"{slug}.md"), md)
         droles.append({"slug": slug, "title": title, "tier": "SPECIALIST", "reports_to": mgr})
 
@@ -506,7 +617,8 @@ for dx in D:
                        "Never fabricate — mark estimates explicitly",
                        "Feed distilled learnings upward"],
                       dx["kpis"], dx["tools"], "haiku",
-                      ["Daily standup — numbers line", "Weekly dept sync (listener)"])
+                      ["Daily standup — numbers line", "Weekly dept sync (listener)"],
+                      dept_code=dx["code"])
         write_agent(os.path.join(ddir, f"{slug}.md"), md)
         droles.append({"slug": slug, "title": title, "tier": "ANALYST", "reports_to": mgr})
 

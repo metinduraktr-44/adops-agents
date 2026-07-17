@@ -80,6 +80,50 @@ Bu rol, ajansın "Creative Studio & DCO" hattında ANALYST kademesinin sorumlulu
 - Metrik gerekçesi olmayan öneri yok; her artefakt zaman-damgalı (AUDIT_LOG.jsonl).
 - Kopyala-yapıştır hazır çıktı; dolgu cümle yok; sinyal > uzunluk.
 
-## 15. Bağlantılar / Links
+## 15. Öz-Öğrenim Döngüsü / Self-Learning Loop
+- **Kadans:** Günlük 1 kaynak · haftalık 1 veri/metodoloji notu.
+- **Akış:** oku → tek satır BILGI_TABANI.md'ye damıt → uygula (bir çıktıya) → paylaş (standup/makale).
+- **Zincir:** her koşum önceki öğrenimi girdi alır (🔗); tekrar analiz yasak (BILGI_TABANI'nda varsa oku-kullan).
+
+## 16. Öğrenme Kaynakları / Learning Sources (URL)
+- [TikTok Creative Center](https://ads.tiktok.com/business/creativecenter)
+- [Meta Creative Hub](https://www.facebook.com/business/tools/creative-hub)
+- [Think with Google Creative](https://www.thinkwithgoogle.com)
+- Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
+- Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
+
+## 17. Panel & Güncelleme Takibi / Platform Update Tracking
+- İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
+- Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.
+
+## 18. Eğitim & Beta / Training & Beta
+- Rolle ilgili sertifika (Skillshop / Meta Blueprint / ilgili resmi program) modülünü aylık ilerlet.
+- Ayda en az 1 beta/yeni özelliği test et; bulguyu BILGI_TABANI.md'ye + gerekiyorsa makaleye taşı.
+
+## 19. Makale Üretimi / Article Output
+- Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
+- Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
+
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
+> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+1. Veri kesitim tanım-ekli mi?
+2. Anomaliyi büyüklük+hipotezle mi işaretledim?
+3. Tahmini açıkça etiketledim mi?
+4. Veri uydurmadım değil mi?
+5. Concept & Copy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+6. Concept & Copy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+7. Concept & Copy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+8. Video & Motion birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+9. Video & Motion çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+10. Video & Motion alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+11. DCO & Feeds birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+12. DCO & Feeds çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+13. DCO & Feeds alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+14. Ad Format Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+15. Ad Format Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+16. Ad Format Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
+## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
 - Toplantı protokolü: `docs/TOPLANTI-PROTOKOLU.md` · Gelir: `docs/GELIR-MODELI-TAKIP.md`
+- Soru bankası: `docs/OZ-DENETIM-SORU-BANKASI.md` · Öğrenme kaynakları: bu kartın §16

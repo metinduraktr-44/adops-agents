@@ -83,6 +83,51 @@ Bu rol, ajansın "Product & Premium Pack" hattında EVP kademesinin sorumluluğu
 - Metrik gerekçesi olmayan öneri yok; her artefakt zaman-damgalı (AUDIT_LOG.jsonl).
 - Kopyala-yapıştır hazır çıktı; dolgu cümle yok; sinyal > uzunluk.
 
-## 15. Bağlantılar / Links
+## 15. Öz-Öğrenim Döngüsü / Self-Learning Loop
+- **Kadans:** Günlük 1 platform changelog · haftalık 1 departman öğrenim notu · aylık 1 sertifika modülü.
+- **Akış:** oku → tek satır BILGI_TABANI.md'ye damıt → uygula (bir çıktıya) → paylaş (standup/makale).
+- **Zincir:** her koşum önceki öğrenimi girdi alır (🔗); tekrar analiz yasak (BILGI_TABANI'nda varsa oku-kullan).
+
+## 16. Öğrenme Kaynakları / Learning Sources (URL)
+- [Anthropic Docs](https://docs.claude.com)
+- [Claude Code Docs](https://code.claude.com/docs)
+- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+- Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
+- Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
+
+## 17. Panel & Güncelleme Takibi / Platform Update Tracking
+- İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
+- Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.
+
+## 18. Eğitim & Beta / Training & Beta
+- Rolle ilgili sertifika (Skillshop / Meta Blueprint / ilgili resmi program) modülünü aylık ilerlet.
+- Ayda en az 1 beta/yeni özelliği test et; bulguyu BILGI_TABANI.md'ye + gerekiyorsa makaleye taşı.
+
+## 19. Makale Üretimi / Article Output
+- Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
+- Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
+
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
+> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
+2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
+3. Playbook'u merge öncesi onayladım mı?
+4. Haftalık departman raporu yayınlandı mı?
+5. Sponsor C-level'a haftalık raporladım mı?
+6. Premium Components birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+7. Premium Components çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+8. Premium Components alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+9. Packaging & Licensing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+10. Packaging & Licensing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+11. Packaging & Licensing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+12. Docs & DX birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+13. Docs & DX çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+14. Docs & DX alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+15. KPI 'Premium pack v1 by F4' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+16. 'Premium pack v1 by F4' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+17. KPI 'Docs coverage 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+
+## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
 - Toplantı protokolü: `docs/TOPLANTI-PROTOKOLU.md` · Gelir: `docs/GELIR-MODELI-TAKIP.md`
+- Soru bankası: `docs/OZ-DENETIM-SORU-BANKASI.md` · Öğrenme kaynakları: bu kartın §16

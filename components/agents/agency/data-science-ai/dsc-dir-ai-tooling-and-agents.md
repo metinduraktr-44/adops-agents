@@ -81,6 +81,50 @@ Bu rol, ajansın "Data Science & AI" hattında DIRECTOR kademesinin sorumluluğu
 - Metrik gerekçesi olmayan öneri yok; her artefakt zaman-damgalı (AUDIT_LOG.jsonl).
 - Kopyala-yapıştır hazır çıktı; dolgu cümle yok; sinyal > uzunluk.
 
-## 15. Bağlantılar / Links
+## 15. Öz-Öğrenim Döngüsü / Self-Learning Loop
+- **Kadans:** Günlük 1 kaynak · haftalık 1 birim öğrenimi · aylık 1 beta test raporu.
+- **Akış:** oku → tek satır BILGI_TABANI.md'ye damıt → uygula (bir çıktıya) → paylaş (standup/makale).
+- **Zincir:** her koşum önceki öğrenimi girdi alır (🔗); tekrar analiz yasak (BILGI_TABANI'nda varsa oku-kullan).
+
+## 16. Öğrenme Kaynakları / Learning Sources (URL)
+- [arXiv cs.LG](https://arxiv.org/list/cs.LG/recent)
+- [Google Research Blog](https://research.google/blog/)
+- [Papers with Code](https://paperswithcode.com)
+- Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
+- Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
+
+## 17. Panel & Güncelleme Takibi / Platform Update Tracking
+- İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
+- Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.
+
+## 18. Eğitim & Beta / Training & Beta
+- Rolle ilgili sertifika (Skillshop / Meta Blueprint / ilgili resmi program) modülünü aylık ilerlet.
+- Ayda en az 1 beta/yeni özelliği test et; bulguyu BILGI_TABANI.md'ye + gerekiyorsa makaleye taşı.
+
+## 19. Makale Üretimi / Article Output
+- Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
+- Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
+
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
+> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+1. Birim backlog'u doğru önceliklendi mi?
+2. Uzman çıktısını publish öncesi review ettim mi?
+3. Birim retrosundan öğrenim damıttım mı?
+4. Cross-unit çakışmayı EVP'ye taşıdım mı?
+5. Forecasting & LTV birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+6. Forecasting & LTV çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+7. Forecasting & LTV alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+8. Optimization Models birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+9. Optimization Models çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+10. Optimization Models alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+11. AI Tooling & Agents birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+12. AI Tooling & Agents çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+13. AI Tooling & Agents alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+14. KPI 'Forecast MAPE ≤ 15%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+15. 'Forecast MAPE ≤ 15%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+16. KPI '1 model improvement/month' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+
+## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
 - Toplantı protokolü: `docs/TOPLANTI-PROTOKOLU.md` · Gelir: `docs/GELIR-MODELI-TAKIP.md`
+- Soru bankası: `docs/OZ-DENETIM-SORU-BANKASI.md` · Öğrenme kaynakları: bu kartın §16

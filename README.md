@@ -28,6 +28,8 @@ This repo is structured as **the org chart of a full-scale performance-marketing
 
 Org changes are made **only** via `scripts/generate_org.py` (asserts exactly 600 agents), docs via `scripts/generate_docs.py`.
 
+Each of the 600 role cards is a **21-section maximum-detail spec**: identity, mission, responsibilities, decision rights (RACI), KPI/OKR, weekly rhythm, meetings, I/O + definition-of-done, interfaces, tools & data, escalation matrix, first-30-days, anti-patterns, self-check, **self-learning loop, department learning sources (real URLs), platform-update tracking, training & beta, article output**, and a role-tailored **self-inquiry set** drawn from a central **501-question bank** (`docs/OZ-DENETIM-SORU-BANKASI.md`). The daily loop samples the bank each run so agents audit themselves continuously.
+
 ## ⚡ Quick start
 ```bash
 # Option A — copy a department into your Claude Code project
