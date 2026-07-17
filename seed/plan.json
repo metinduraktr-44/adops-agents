@@ -1,8 +1,8 @@
 {
   "hedef": "prs",
   "start": 0,
-  "adet": 150,
-  "adim": 2,
-  "aciklama": "Segment-600 adim 2/6: PR batch 1 (0-150). Her PR aktivasyon dosyasi + merge + validate-components dispatch -> Actions/Insights de dolar.",
-  "ts": "2026-07-17T10:15:00Z"
+  "adet": 600,
+  "adim": "final",
+  "aciklama": "Segment-600 PR tamamlama: idempotent tek sunucu-tarafi kosum (mevcut PR'lar atlanir, kalanlar uretilir). Token'siz calisir (GITHUB_TOKEN). Rate-limit'te yarida kalirsa Actions -> seed-600 tekrar tetiklenir.",
+  "ts": "2026-07-17T11:10:00Z"
 }

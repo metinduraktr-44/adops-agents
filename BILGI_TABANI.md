@@ -17,3 +17,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-07-17T09:37:36Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
 - [2026-07-17T09:51:13Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
+- [] v2.3: 600 rol karti MAKSIMIZE edildi (15 bolum: kimlik/misyon/sorumluluk/RACI-karar-yetkileri/OKR/haftalik-ritim/toplanti/IO-DoD/arayuzler/araclar/eskalasyon-matrisi/ilk-30-gun/anti-desen/oz-denetim/baglantilar). KRITIK BUGFIX: frontmatter description tirnaksiz iki-nokta YAML hatasi (delivery: programmatic) tum kartlarda duzeltildi -> _yaml_q(). generate_docs curated dosyalari (GELIR-TAKIP, IS_LISTESI) artik W_seed ile koruyor. Ogrenim: jenerator collision-suffix disk durumunu okuyor -> yeniden uretimde once dizini temizle.

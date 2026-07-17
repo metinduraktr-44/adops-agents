@@ -206,43 +206,171 @@ def slugify(s):
 org = {"generated_utc": NOW, "total": 0, "c_level": [], "departments": []}
 agents_written = 0
 
+def _yaml_q(s):
+    """YAML güvenli çift-tırnak: iki nokta/virgül içeren description'ı bozmaz (BUGFIX)."""
+    return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+# --- Kademe-özel içerik sözlükleri (maksimum-detay kart üretimi) ---
+TIER_MANDATE = {
+ "C-LEVEL": "Ajans genelinde politika, kaynak dağıtımı ve nihai karar mercii. Yetki kaynağı: CEO/sahip.",
+ "EVP": "Departmanın P&L eşdeğeri: OKR, kadro, kalite bar'ı ve dış-departman taahhütleri.",
+ "DIRECTOR": "Birim düzeyi plan, teslim kalitesi ve lead koçluğu; EVP'nin operasyonel uzantısı.",
+ "LEAD": "İş akışı standardı sahibi; yürütme kalitesi ve uzman/analist yönlendirmesi.",
+ "SPECIALIST": "Somut, tekrarlanabilir yürütme; kanıt ve checklist üreten uygulayıcı.",
+ "ANALYST": "Karar-hazır veri kesiti, anomali tespiti ve tanım-ekli raporlama.",
+}
+TIER_SPAN = {
+ "C-LEVEL": "Sponsoru olduğu departman(lar) + kurul", "EVP": "Departmanın tüm kadrosu (direktör→analist)",
+ "DIRECTOR": "Birimindeki lead + uzman + analistler", "LEAD": "İş akışındaki uzman ve analistler",
+ "SPECIALIST": "Bireysel katkı (kendi görev kuyruğu)", "ANALYST": "Bireysel katkı (kendi veri kuyruğu)",
+}
+# (tek başına karar / öner-onaya sun / eskale et)
+TIER_DECISION = {
+ "C-LEVEL": ("Departman OKR'ları, faz kapısı GEÇTİ/KALDI, bütçe tavanı içinde tahsis",
+             "Org yapısı değişikliği → sahip onayı", "Yasal/gelir taahhüdü, bütçe aşımı → sahip"),
+ "EVP": ("Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı",
+         "Yeni birim/rol, çeyreklik OKR → sponsor C-level", "Bütçe/politika riski → fin/leg; kapsam çakışması → CEO"),
+ "DIRECTOR": ("Birim sprint önceliği, uzman görev ataması, teslim onayı",
+              "Birimler-arası bağımlılık → EVP", "Kaynak/kapasite darboğazı → EVP"),
+ "LEAD": ("İş akışı standardı, günlük görev sırası, review geçişi",
+          "Playbook değişikliği → direktör", "Cross-workstream çakışma → direktör"),
+ "SPECIALIST": ("Kendi görevinin yöntemi ve kontrol listesi",
+                "Yöntem/standart değişikliği önerisi → lead", "Bloklayıcı > 4h → lead"),
+ "ANALYST": ("Veri kesiti metodu, tanım ve örneklem seçimi",
+             "KPI tanımı değişikliği → lead/CDO", "Veri erişimi/kalite sorunu → lead"),
+}
+TIER_INTERFACES = {
+ "C-LEVEL": "Yukarı: sahip · Yatay: diğer C-level · Aşağı: sponsoru olduğu EVP'ler",
+ "EVP": "Yukarı: sponsor C-level · Yatay: diğer EVP'ler (bağımlılık) · Aşağı: direktörler",
+ "DIRECTOR": "Yukarı: EVP · Yatay: aynı departman direktörleri · Aşağı: lead'ler",
+ "LEAD": "Yukarı: direktör · Yatay: diğer lead'ler · Aşağı: uzman + analist",
+ "SPECIALIST": "Yukarı: lead · Yatay: aynı iş akışı uzmanları · Veri: analist hattı",
+ "ANALYST": "Yukarı: lead · Tüketici: uzman + direktör (rapor) · Kaynak: veri/analitik departmanı",
+}
+TIER_DOD = {
+ "C-LEVEL": "Karar KARAR_LOGU'na K-no ile işlendi; kurul tutanağında kanıt linki var.",
+ "EVP": "Departman haftalık raporu yayınlandı; OKR skoru güncel; açık eskalasyon yok.",
+ "DIRECTOR": "Birim çıktısı review'dan geçti; öğrenim BILGI_TABANI'na damıtıldı.",
+ "LEAD": "İş akışı çıktısı standart-uyumlu; haftalık özet yazıldı; risk metrikle işaretli.",
+ "SPECIALIST": "Çıktı kopyala-yapıştır hazır; checklist eklendi; AUDIT_LOG damgası atıldı.",
+ "ANALYST": "Veri kesiti tanım-ekli; anomali büyüklük+hipotezle işaretli; tahmin etiketli.",
+}
+TIER_FIRST30 = {
+ "C-LEVEL": ["Hafta 1: sponsoru olduğu departmanların OKR'larını sahiple hizala",
+             "Hafta 2: çeyreklik faz kapısı kriterlerini kanıt-linkli tanımla",
+             "Hafta 3-4: kurul ritmini ve karar kaydını işler hale getir"],
+ "EVP": ["Hafta 1: departman kadrosu + backlog envanteri; kalite bar'ını yaz",
+         "Hafta 2: 3 birim önceliğini kilitle, direktörlere devret",
+         "Hafta 3-4: ilk haftalık departman raporunu yayınla, OKR baseline'ı kur"],
+ "DIRECTOR": ["Hafta 1: birim playbook'unu v2 yapısına bağla",
+              "Hafta 2: uzman/analist görev kuyruğunu önceliklendir",
+              "Hafta 3-4: ilk birim retrosu + öğrenim damıtımı"],
+ "LEAD": ["Hafta 1: iş akışı standardını/checklist'ini yaz",
+          "Hafta 2: günlük görev atama ritmini kur",
+          "Hafta 3-4: ilk haftalık iş akışı özetini yayınla"],
+ "SPECIALIST": ["Hafta 1: iş akışı playbook'unu oku, ilk görevi teslim et",
+                "Hafta 2: bir iyileştirme önerisi çıkar",
+                "Hafta 3-4: çıktı şablonunu kopyala-hazır hale getir"],
+ "ANALYST": ["Hafta 1: veri kaynaklarına eriş, ilk kesiti üret",
+             "Hafta 2: KPI tanım sözlüğüne katkı ver",
+             "Hafta 3-4: anomali tespit rutinini kur"],
+}
+TIER_ANTI = {
+ "C-LEVEL": "Mikro-yönetim; kanıtsız faz-geçişi; sahibe danışmadan gelir taahhüdü.",
+ "EVP": "Kadroyu aşırı yükleme; OKR'sız iş başlatma; sessiz eskalasyon.",
+ "DIRECTOR": "Review'suz teslim; birim silosu; öğrenimi damıtmama.",
+ "LEAD": "Standartsız yürütme; metriksiz risk beyanı; uzmanı yönlendirmeden bırakma.",
+ "SPECIALIST": "Gerekçesiz öneri; dolgu metin; damgasız çıktı.",
+ "ANALYST": "Veri uydurma; tanımsız KPI; anomaliyi büyüklüksüz raporlama.",
+}
+SHIFT_HOURS = {"00–08 UTC": "Asya-Pasifik penceresi", "08–16 UTC": "EMEA penceresi",
+               "16–24 UTC": "Amerika penceresi", "follow-the-sun": "kesintisiz (3 vardiya devri)"}
+
 def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, mission,
              resp, kpis, tools, model, meetings):
-    resp_md = "\n".join(f"- {r}" for r in resp)
-    kpi_md = "\n".join(f"- {k}" for k in kpis)
+    resp_all = list(resp) + [
+        f"{TIER_MANDATE[tier]}",
+        "Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).",
+        "Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala."]
+    resp_md = "\n".join(f"- {r}" for r in resp_all)
+    kpi_md = "\n".join(f"- {k} · ölçüm: haftalık kesit · sahip: `{slug}`" for k in kpis)
     meet_md = "\n".join(f"- {m}" for m in meetings)
+    f30_md = "\n".join(f"- {x}" for x in TIER_FIRST30[tier])
+    d_alone, d_rec, d_esc = TIER_DECISION[tier]
     return f"""---
 name: {slug}
-description: {desc}
+description: {_yaml_q(desc)}
 tools: {tools}
 model: {model}
+tier: {tier}
+department: {_yaml_q(dept_en)}
+reports_to: {reports_to}
+shift: {_yaml_q(shift)}
 ---
 # {title}
 {mission} **TR:** {dept_tr} departmanı, {tier} kademesi.
 
-## Role & Tier
-- Tier: **{tier}** · Department: **{dept_en}** · Reports to: **{reports_to}**
-- On-call shift (7/24 rotation): **{shift}**
+## 1. Kimlik / Identity
+- **Tier:** {tier} · **Department:** {dept_en} ({dept_tr}) · **Reports to:** `{reports_to}`
+- **Yönetim alanı (span):** {TIER_SPAN[tier]}
+- **Nöbet (7/24):** {shift} — {SHIFT_HOURS.get(shift, shift)}
+- **Yetki (mandate):** {TIER_MANDATE[tier]}
 
-## Responsibilities
+## 2. Misyon / Mission
+{mission}
+Bu rol, ajansın "{dept_en}" hattında {tier} kademesinin sorumluluğunu taşır; çıktı ölçüsü sinyal yoğunluğudur (uzunluk değil).
+
+## 3. Sorumluluklar / Responsibilities
 {resp_md}
 
-## KPIs
+## 4. Karar Yetkileri / Decision Rights (RACI)
+- **Tek başına karar (R/A):** {d_alone}
+- **Öner, onaya sun (C):** {d_rec}
+- **Eskale et (I):** {d_esc}
+
+## 5. KPI & OKR
 {kpi_md}
+- OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
-## Inputs / Outputs
-- Inputs: data/org.json role card, department backlog in IS_LISTESI.md, latest gundem/ standup
-- Outputs: daily standup line, weekly department report section, playbook/component updates
+## 6. Haftalık Ritim / Weekly Rhythm
+- **Her gün:** 07:30 TRT async standup satırı (dün/bugün/blocker) → gundem/
+- **Hafta içi:** görev kuyruğu yürütme + metrikli risk bayrağı
+- **Hafta sonu:** haftalık rapor/özet katkısı + BILGI_TABANI damıtımı
 
-## Meetings
+## 7. Toplantılar / Meetings
 {meet_md}
 
-## Escalation
-- Blocker > 4h → line manager · budget/policy risk → finance-billing / legal-compliance
-- Impossible target → 🚩 [what] · [why] · [realistic alternative] (never silent)
+## 8. Girdi / Çıktı / I-O
+- **Girdi:** `data/org.json` rol kartı · `IS_LISTESI.md` departman kuyruğu · en yeni `gundem/` standup · ilgili playbook/bileşen
+- **Çıktı:** günlük standup satırı · haftalık departman raporu bölümü · playbook/bileşen güncellemesi
+- **Definition of Done:** {TIER_DOD[tier]}
 
-## Self-check
-- No recommendation without a metric rationale; timestamp every artifact (AUDIT_LOG.jsonl).
+## 9. Arayüzler / Interfaces
+- {TIER_INTERFACES[tier]}
+
+## 10. Araçlar & Veri Kaynakları / Tools & Data
+- İzinli araçlar: {tools}
+- Veri yüzeyleri: AUDIT_LOG.jsonl · BILGI_TABANI.md · docs/GELIR-MODELI-TAKIP.md · docs/YOL-HARITASI.md
+
+## 11. Eskalasyon Matrisi / Escalation
+- Bloklayıcı > 4h → yönetici (`{reports_to}`)
+- Bütçe/politika riski → `fin-evp-finance-billing` / `leg-evp-legal-compliance`
+- Güvenlik/lisans bulgusu → `cco-compliance`
+- İmkânsız hedef → 🚩 [ne] · [neden] · [gerçekçi alternatif] (asla sessiz kalma)
+
+## 12. İlk 30 Gün / First 30 Days
+{f30_md}
+
+## 13. Anti-desenler / Anti-patterns
+- {TIER_ANTI[tier]}
+
+## 14. Öz-denetim / Self-check
+- Metrik gerekçesi olmayan öneri yok; her artefakt zaman-damgalı (AUDIT_LOG.jsonl).
+- Kopyala-yapıştır hazır çıktı; dolgu cümle yok; sinyal > uzunluk.
+
+## 15. Bağlantılar / Links
+- Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
+- Toplantı protokolü: `docs/TOPLANTI-PROTOKOLU.md` · Gelir: `docs/GELIR-MODELI-TAKIP.md`
 """
 
 def write_agent(path, content):

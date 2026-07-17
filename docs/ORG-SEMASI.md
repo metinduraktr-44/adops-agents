@@ -1,5 +1,5 @@
 # ORG ŞEMASI — ADOPS AI AGENCY (600 ajan)
-> Üretim: 2026-07-17T08:02:22Z · Kaynak: data/org.json
+> Üretim: 2026-07-17T10:37:15Z · Kaynak: data/org.json
 
 ```mermaid
 flowchart TD

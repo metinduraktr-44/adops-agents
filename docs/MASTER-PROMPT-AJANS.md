@@ -1,5 +1,5 @@
 # MASTER-PROMPT — ADOPS AI AGENCY (v2) · 924 başlık
-> Üretim: 2026-07-17T08:02:22Z · Kaynak: scripts/generate_org.py + generate_docs.py · Ajan sayısı: 600 · Bu belge ajansın anayasasıdır; her ajan kendi rol kartını buradan ve components/agents/agency/ altından okur.
+> Üretim: 2026-07-17T10:37:15Z · Kaynak: scripts/generate_org.py + generate_docs.py · Ajan sayısı: 600 · Bu belge ajansın anayasasıdır; her ajan kendi rol kartını buradan ve components/agents/agency/ altından okur.
 
 ## BÖLÜM I — KİMLİK VE MİSYON
 ### I.Vizyon

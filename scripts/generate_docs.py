@@ -46,6 +46,15 @@ def W(rel, content):
         f.write(content)
     print("WROTE", rel, f"({len(content):,} ch)")
 
+# Elle-düzenlenen canlı dosyalar: yalnızca YOKSA tohumla, VARSA dokunma (curated içerik korunur).
+CURATED = {"docs/GELIR-MODELI-TAKIP.md", "IS_LISTESI.md"}
+def W_seed(rel, content):
+    p = os.path.join(ROOT, rel)
+    if os.path.exists(p):
+        print("SKIP (curated korunuyor)", rel)
+        return
+    W(rel, content)
+
 # ============================================================================
 # 1) MASTER-PROMPT-AJANS.md — 900+ başlık
 # ============================================================================
@@ -314,7 +323,7 @@ for kod, ad, sahip, ozet, adim in GELIR:
     G.append("")
 G.append("## İlerleme günlüğü (append-only)\n| Tarih | Kanal | Olay | Kanıt |\n|---|---|---|---|")
 G.append(f"| {TODAY} | TÜMÜ | Takip sistemi kuruldu, kanallar tanımlandı | docs/MASTER-PROMPT-AJANS.md BÖLÜM VII |")
-W("docs/GELIR-MODELI-TAKIP.md", "\n".join(G) + "\n")
+W_seed("docs/GELIR-MODELI-TAKIP.md", "\n".join(G) + "\n")
 
 # ============================================================================
 # 5) YOL-HARITASI.md
@@ -350,7 +359,7 @@ for d in org["departments"]:
     I.append(f"- [ ] {d['units'][0]} playbook'unu v2 yapısına bağla → {d['roles'][0]['slug']}")
     I.append(f"- [ ] Haftalık rapor şablonunu doldurmaya başla → analist hattı")
 I.append("\n## Arşiv\n(biten işler buraya taşınır — silinmez)")
-W("IS_LISTESI.md", "\n".join(I) + "\n")
+W_seed("IS_LISTESI.md", "\n".join(I) + "\n")
 
 # ============================================================================
 # 7) loop + commands
