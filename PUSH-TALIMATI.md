@@ -1,3 +1,18 @@
+# PUSH TALİMATI
+
+## v2 AJANS GÜNCELLEMESİ (mevcut repoya push — 1 dakika)
+Cowork'ün ürettiği `adops-agents-v2.zip` içeriğini mevcut klonunun üzerine aç, sonra:
+```bash
+cd adops-agents
+git add -A
+git commit -m "v2: 600-ajan AI Agency yapısı + 7/24 operasyon döngüleri"
+git push origin main
+```
+Push sonrası kontrol: Actions sekmesinde `gunluk-operasyon` görünmeli (elle test: Run workflow).
+`ANTHROPIC_API_KEY` secret'ı ekliysen makale hattı tam üretime geçer; değilse iskelet modda döner (döngü kırılmaz).
+
+---
+
 # Bu repoyu yeni bir GitHub reposuna gönder (2 dakika)
 
 ## Yol A — GitHub CLI (en kolay)

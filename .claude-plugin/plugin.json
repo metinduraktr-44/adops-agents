@@ -1,7 +1,15 @@
 {
   "name": "adops-response-dga",
-  "version": "1.0.0",
-  "description": "Response DGA (Türk dijital medya ajansı) için performance/programmatic bileşen paketi: pitch üretimi, atıf/rakip analizi, TR ücretli reklam + SEO becerileri, denetim kancaları ve Perşembe pilot deliverable döngüsü tek pakette.",
+  "version": "2.0.0",
+  "description": "600 ajanlık AI Agency (6 kademe, 20 departman) + performance/programmatic bileşen paketi: günlük standup/makale/iş listesi cron döngüleri, haftalık liderlik + aylık kurul, pitch üretimi, atıf/rakip analizi, TR ücretli reklam + SEO becerileri, denetim kancaları. Org kaynağı: data/org.json (üretici: scripts/generate_org.py).",
+  "agency": {
+    "agents_total": 600,
+    "tiers": ["c-level", "evp", "director", "lead", "specialist", "analyst"],
+    "departments": 20,
+    "roster": "components/agents/agency/",
+    "org_source": "data/org.json",
+    "constitution": "docs/MASTER-PROMPT-AJANS.md"
+  },
   "author": {
     "name": "Metin Durak"
   },
@@ -19,6 +27,9 @@
       "business-intel/rakip-analisti"
     ],
     "commands": [
+      "agency/gunluk-standup",
+      "agency/toplanti-tutanagi",
+      "agency/makale-uret",
       "marketing/pitch-brifi",
       "marketing/linkedin-yayinci",
       "marketing/channel-report",
@@ -44,7 +55,8 @@
       "response-dga"
     ],
     "loops": [
-      "operations/persembe-pilot-deliverable-loop"
+      "operations/persembe-pilot-deliverable-loop",
+      "operations/ajans-7-24-loop"
     ]
   }
 }

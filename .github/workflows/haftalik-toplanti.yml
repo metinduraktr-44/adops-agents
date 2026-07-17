@@ -1,0 +1,23 @@
+name: haftalik-toplanti
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Monday 06:00 UTC = 09:00 Istanbul
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  leadership:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Liderlik sync tutanağı
+        run: python3 scripts/weekly_board.py
+      - name: Commit
+        run: |
+          git config user.name "adops-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "liderlik-sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push || echo "push skipped"
