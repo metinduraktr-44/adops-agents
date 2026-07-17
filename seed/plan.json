@@ -1,8 +1,8 @@
 {
-  "hedef": "wiki",
+  "hedef": "prs",
   "start": 0,
-  "adet": 623,
-  "adim": "1b",
-  "aciklama": "Segment-600 adim 1b: Wiki Home olusturuldu (Metin) -> 623 sayfa push. Concurrency: issues kosumu bitince otomatik baslar.",
-  "ts": "2026-07-17T09:45:00Z"
+  "adet": 150,
+  "adim": 2,
+  "aciklama": "Segment-600 adim 2/6: PR batch 1 (0-150). Her PR aktivasyon dosyasi + merge + validate-components dispatch -> Actions/Insights de dolar.",
+  "ts": "2026-07-17T10:15:00Z"
 }
