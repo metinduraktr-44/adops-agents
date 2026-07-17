@@ -1,5 +1,5 @@
 # TOPLANTI PROTOKOLÜ
-> Üretim: 2026-07-17T10:51:22Z · Tüm toplantılar yazılı/async üretilir; çıktısız toplantı yok.
+> Üretim: 2026-07-17T11:10:38Z · Tüm toplantılar yazılı/async üretilir; çıktısız toplantı yok.
 
 | Toplantı | Kadans | Başkan | Katılım | Çıktı |
 |---|---|---|---|---|

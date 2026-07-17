@@ -21,3 +21,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-07-17T10:51:10Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
 - [] v2.4: 600 kart 21 bolume genisletildi (+oz-ogrenim dongusu, +departman-ozel GERCEK kaynak URLleri, +panel/guncelleme takibi, +egitim&beta, +makale uretimi, +rol-ozel soru seti). 501-soruluk merkezi oz-denetim bankasi kuruldu (docs/OZ-DENETIM-SORU-BANKASI.md + data/soru_bankasi.json); gunluk dongu her kosumda bankadan 8 soru cekip standupta denetliyor. "500 soru/kart" 🚩 K-003 -> merkezi banka + kart alt-seti (gercekci esdeger).
+
+- [] v2.5: kartlar role-ozellestirildi — §3a sorumluluk oz-denetimi (her sorumluluk+dept sorusu), §5 her KPI altina 3 tani sorusu, §20 tam kademe+departman blogu. Her kart ~50 KENDI KPI/biriminden turetilmis soru tasiyor. "+100 soru/bolum" 🚩 K-003 -> role-turetilmis gomulu sorular + 501 merkezi banka.

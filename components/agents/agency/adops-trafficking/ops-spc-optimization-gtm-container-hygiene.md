@@ -30,15 +30,36 @@ Bu rol, ajansın "Ad Ops & Trafficking" hattında SPECIALIST kademesinin sorumlu
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Run optimization passes on gtm container hygiene deliverables' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Document findings as checklists usable by other agents' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Propose one improvement per week to the playbook' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Keep outputs copy-paste-ready (signal over length)' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] CM360 Trafficking birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] CM360 Trafficking çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] CM360 Trafficking alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Tag Management birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Tag Management çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Tag Management alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Kendi görevinin yöntemi ve kontrol listesi
 - **Öner, onaya sun (C):** Yöntem/standart değişikliği önerisi → lead
 - **Eskale et (I):** Bloklayıcı > 4h → lead
 
 ## 5. KPI & OKR
-- Launch error rate < 1% · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
-- Tag QA pass 100% pre-launch · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
-- Discrepancy < 5% · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
+- **Launch error rate < 1%** · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Tag QA pass 100% pre-launch** · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Discrepancy < 5%** · ölçüm: haftalık kesit · sahip: `ops-spc-optimization-gtm-container-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -105,8 +126,8 @@ Bu rol, ajansın "Ad Ops & Trafficking" hattında SPECIALIST kademesinin sorumlu
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (22 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Çıktım kopyala-hazır ve checklist'li mi?
 2. Bu hafta playbook'a 1 iyileştirme önerdim mi?
 3. İşi metrik gerekçesi olmadan mı sundum?
@@ -123,6 +144,12 @@ Bu rol, ajansın "Ad Ops & Trafficking" hattında SPECIALIST kademesinin sorumlu
 14. Consent & Privacy Ops birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Consent & Privacy Ops çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Consent & Privacy Ops alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'Launch error rate < 1%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'Launch error rate < 1%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Tag QA pass 100% pre-launch' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Tag QA pass 100% pre-launch' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI 'Discrepancy < 5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. 'Discrepancy < 5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

@@ -30,16 +30,40 @@ Bu rol, ajansın "Tech & Infrastructure" hattında ANALYST kademesinin sorumlulu
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Prepare daily/weekly data cuts with definitions attached' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag anomalies with magnitude and hypothesis' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Never fabricate — mark estimates explicitly' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Feed distilled learnings upward' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] CI/CD & Actions birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] CI/CD & Actions çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] CI/CD & Actions alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Validation & Security birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Validation & Security çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Validation & Security alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Veri kesiti metodu, tanım ve örneklem seçimi
 - **Öner, onaya sun (C):** KPI tanımı değişikliği → lead/CDO
 - **Eskale et (I):** Veri erişimi/kalite sorunu → lead
 
 ## 5. KPI & OKR
-- CI green ≥ 99% · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
-- Integrity file current · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
-- 0 secret leaks · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
-- Issue triage ≤ 24h · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
+- **CI green ≥ 99%** · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Integrity file current** · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **0 secret leaks** · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Issue triage ≤ 24h** · ölçüm: haftalık kesit · sahip: `inf-anl-reporting-analyst-secrets-hygiene`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +130,8 @@ Bu rol, ajansın "Tech & Infrastructure" hattında ANALYST kademesinin sorumlulu
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (24 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Veri kesitim tanım-ekli mi?
 2. Anomaliyi büyüklük+hipotezle mi işaretledim?
 3. Tahmini açıkça etiketledim mi?
@@ -124,6 +148,14 @@ Bu rol, ajansın "Tech & Infrastructure" hattında ANALYST kademesinin sorumlulu
 14. Repo Hygiene birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Repo Hygiene çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Repo Hygiene alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'CI green ≥ 99%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'CI green ≥ 99%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Integrity file current' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Integrity file current' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI '0 secret leaks' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. '0 secret leaks' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+23. KPI 'Issue triage ≤ 24h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+24. 'Issue triage ≤ 24h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

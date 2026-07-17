@@ -30,16 +30,40 @@ Bu rol, ajansın "Programmatic Trading" hattında LEAD kademesinin sorumluluğun
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Maintain the pmp deal desk playbook/component' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Assign and review specialist tasks daily' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Publish a weekly workstream summary' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag risks with metric evidence' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Open Auction & Curation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Open Auction & Curation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Open Auction & Curation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] PMP & Deals birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] PMP & Deals çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] PMP & Deals alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** İş akışı standardı, günlük görev sırası, review geçişi
 - **Öner, onaya sun (C):** Playbook değişikliği → direktör
 - **Eskale et (I):** Cross-workstream çakışma → direktör
 
 ## 5. KPI & OKR
-- Viewability ≥ 70% · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
-- Supply-path cost ≤ 15% · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
-- PMP share of spend on target · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
-- eCPM/CPA vs plan · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
+- **Viewability ≥ 70%** · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Supply-path cost ≤ 15%** · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **PMP share of spend on target** · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **eCPM/CPA vs plan** · ölçüm: haftalık kesit · sahip: `prg-lead-pmp-deal-desk`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -107,8 +131,8 @@ Bu rol, ajansın "Programmatic Trading" hattında LEAD kademesinin sorumluluğun
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (27 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. İş akışı standardı/checklist güncel mi?
 2. Uzman görevlerini günlük atadım/review ettim mi?
 3. Haftalık iş akışı özetini yazdım mı?
@@ -125,6 +149,17 @@ Bu rol, ajansın "Programmatic Trading" hattında LEAD kademesinin sorumluluğun
 14. DOOH & Audio birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. DOOH & Audio çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. DOOH & Audio alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. Bid Algorithms birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+18. Bid Algorithms çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+19. Bid Algorithms alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+20. KPI 'Viewability ≥ 70%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+21. 'Viewability ≥ 70%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+22. KPI 'Supply-path cost ≤ 15%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+23. 'Supply-path cost ≤ 15%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+24. KPI 'PMP share of spend on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+25. 'PMP share of spend on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+26. KPI 'eCPM/CPA vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+27. 'eCPM/CPA vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

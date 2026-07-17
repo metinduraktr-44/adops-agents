@@ -31,15 +31,37 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında EVP kademesinin sorum
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Set and track OKRs for New Business & Inbound Funnel' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Chair weekly department sync; publish minutes' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Approve playbooks/components before merge' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Manage director bench and coverage' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Report weekly to cro-revenue' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Inbound Capture birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Inbound Capture çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Inbound Capture alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Pitch Factory birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Pitch Factory çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Pitch Factory alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı
 - **Öner, onaya sun (C):** Yeni birim/rol, çeyreklik OKR → sponsor C-level
 - **Eskale et (I):** Bütçe/politika riski → fin/leg; kapsam çakışması → CEO
 
 ## 5. KPI & OKR
-- Inbound path live (README→contact) F2 · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
-- Pitch turnaround ≤ 48h · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
-- First qualified lead by F5 · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
+- **Inbound path live (README→contact) F2** · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Pitch turnaround ≤ 48h** · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **First qualified lead by F5** · ölçüm: haftalık kesit · sahip: `nbd-evp-new-business`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +128,8 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında EVP kademesinin sorum
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (20 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
 2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
 3. Playbook'u merge öncesi onayladım mı?
@@ -125,6 +147,9 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında EVP kademesinin sorum
 15. KPI 'Inbound path live (README→contact) F2' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 16. 'Inbound path live (README→contact) F2' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 17. KPI 'Pitch turnaround ≤ 48h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'Pitch turnaround ≤ 48h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'First qualified lead by F5' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'First qualified lead by F5' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

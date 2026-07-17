@@ -30,16 +30,40 @@ Bu rol, ajansın "Paid Social" hattında ANALYST kademesinin sorumluluğunu taş
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Prepare daily/weekly data cuts with definitions attached' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag anomalies with magnitude and hypothesis' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Never fabricate — mark estimates explicitly' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Feed distilled learnings upward' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Meta birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Meta çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Meta alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] TikTok birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] TikTok çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] TikTok alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Veri kesiti metodu, tanım ve örneklem seçimi
 - **Öner, onaya sun (C):** KPI tanımı değişikliği → lead/CDO
 - **Eskale et (I):** Veri erişimi/kalite sorunu → lead
 
 ## 5. KPI & OKR
-- Thumbstop/hook rate on target · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
-- CAPI EMQ ≥ 8 · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
-- Creative refresh cadence met · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
-- Blended CPA vs plan · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
+- **Thumbstop/hook rate on target** · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **CAPI EMQ ≥ 8** · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Creative refresh cadence met** · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Blended CPA vs plan** · ölçüm: haftalık kesit · sahip: `soc-anl-performance-analyst-meta-aso-structure-6`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +130,8 @@ Bu rol, ajansın "Paid Social" hattında ANALYST kademesinin sorumluluğunu taş
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (27 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Veri kesitim tanım-ekli mi?
 2. Anomaliyi büyüklük+hipotezle mi işaretledim?
 3. Tahmini açıkça etiketledim mi?
@@ -124,6 +148,17 @@ Bu rol, ajansın "Paid Social" hattında ANALYST kademesinin sorumluluğunu taş
 14. Snap & Pinterest birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Snap & Pinterest çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Snap & Pinterest alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. Creative Testing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+18. Creative Testing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+19. Creative Testing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+20. KPI 'Thumbstop/hook rate on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+21. 'Thumbstop/hook rate on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+22. KPI 'CAPI EMQ ≥ 8' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+23. 'CAPI EMQ ≥ 8' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+24. KPI 'Creative refresh cadence met' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+25. 'Creative refresh cadence met' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+26. KPI 'Blended CPA vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+27. 'Blended CPA vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

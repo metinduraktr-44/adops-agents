@@ -31,15 +31,37 @@ Bu rol, ajansın "Data Science & AI" hattında EVP kademesinin sorumluluğunu ta
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Set and track OKRs for Data Science & AI' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Chair weekly department sync; publish minutes' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Approve playbooks/components before merge' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Manage director bench and coverage' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Report weekly to cdo-data' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Forecasting & LTV birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Forecasting & LTV çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Forecasting & LTV alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Optimization Models birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Optimization Models çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Optimization Models alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı
 - **Öner, onaya sun (C):** Yeni birim/rol, çeyreklik OKR → sponsor C-level
 - **Eskale et (I):** Bütçe/politika riski → fin/leg; kapsam çakışması → CEO
 
 ## 5. KPI & OKR
-- Forecast MAPE ≤ 15% · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
-- 1 model improvement/month · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
-- Agent eval pass rate ≥ 95% · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
+- **Forecast MAPE ≤ 15%** · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **1 model improvement/month** · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Agent eval pass rate ≥ 95%** · ölçüm: haftalık kesit · sahip: `dsc-evp-data-science-ai`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -107,8 +129,8 @@ Bu rol, ajansın "Data Science & AI" hattında EVP kademesinin sorumluluğunu ta
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (20 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
 2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
 3. Playbook'u merge öncesi onayladım mı?
@@ -126,6 +148,9 @@ Bu rol, ajansın "Data Science & AI" hattında EVP kademesinin sorumluluğunu ta
 15. KPI 'Forecast MAPE ≤ 15%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 16. 'Forecast MAPE ≤ 15%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 17. KPI '1 model improvement/month' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. '1 model improvement/month' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Agent eval pass rate ≥ 95%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Agent eval pass rate ≥ 95%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

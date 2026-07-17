@@ -30,15 +30,36 @@ Bu rol, ajansın "Talent & Agent Quality" hattında LEAD kademesinin sorumluluğ
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Maintain the prompt review rubric playbook/component' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Assign and review specialist tasks daily' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Publish a weekly workstream summary' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag risks with metric evidence' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Agent Lifecycle birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Agent Lifecycle çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Agent Lifecycle alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Quality Bar birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Quality Bar çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Quality Bar alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** İş akışı standardı, günlük görev sırası, review geçişi
 - **Öner, onaya sun (C):** Playbook değişikliği → direktör
 - **Eskale et (I):** Cross-workstream çakışma → direktör
 
 ## 5. KPI & OKR
-- Quality audit ≥ 95% pass · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
-- Role gaps closed ≤ 14 days · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
-- Roster coverage 100% · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
+- **Quality audit ≥ 95% pass** · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Role gaps closed ≤ 14 days** · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Roster coverage 100%** · ölçüm: haftalık kesit · sahip: `tal-lead-prompt-review-rubric`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -104,8 +125,8 @@ Bu rol, ajansın "Talent & Agent Quality" hattında LEAD kademesinin sorumluluğ
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (19 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. İş akışı standardı/checklist güncel mi?
 2. Uzman görevlerini günlük atadım/review ettim mi?
 3. Haftalık iş akışı özetini yazdım mı?
@@ -122,6 +143,9 @@ Bu rol, ajansın "Talent & Agent Quality" hattında LEAD kademesinin sorumluluğ
 14. KPI 'Quality audit ≥ 95% pass' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 15. 'Quality audit ≥ 95% pass' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 16. KPI 'Role gaps closed ≤ 14 days' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+17. 'Role gaps closed ≤ 14 days' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+18. KPI 'Roster coverage 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'Roster coverage 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

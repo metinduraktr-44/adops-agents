@@ -31,15 +31,37 @@ Bu rol, ajansın "Creative Studio & DCO" hattında EVP kademesinin sorumluluğun
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Set and track OKRs for Creative Studio & DCO' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Chair weekly department sync; publish minutes' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Approve playbooks/components before merge' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Manage director bench and coverage' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Report weekly to cmo-brand' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Concept & Copy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Concept & Copy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Concept & Copy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Video & Motion birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Video & Motion çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Video & Motion alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı
 - **Öner, onaya sun (C):** Yeni birim/rol, çeyreklik OKR → sponsor C-level
 - **Eskale et (I):** Bütçe/politika riski → fin/leg; kapsam çakışması → CEO
 
 ## 5. KPI & OKR
-- Creative turnaround SLA · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
-- Hook-rate lift per iteration · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
-- 100% assets spec-compliant · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
+- **Creative turnaround SLA** · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Hook-rate lift per iteration** · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **100% assets spec-compliant** · ölçüm: haftalık kesit · sahip: `cre-evp-creative-studio`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -107,8 +129,8 @@ Bu rol, ajansın "Creative Studio & DCO" hattında EVP kademesinin sorumluluğun
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (23 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
 2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
 3. Playbook'u merge öncesi onayladım mı?
@@ -126,6 +148,12 @@ Bu rol, ajansın "Creative Studio & DCO" hattında EVP kademesinin sorumluluğun
 15. Ad Format Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 16. Ad Format Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 17. Ad Format Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+18. KPI 'Creative turnaround SLA' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'Creative turnaround SLA' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+20. KPI 'Hook-rate lift per iteration' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+21. 'Hook-rate lift per iteration' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+22. KPI '100% assets spec-compliant' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+23. '100% assets spec-compliant' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

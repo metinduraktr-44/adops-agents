@@ -30,15 +30,36 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında SPECIALIST kademesini
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Run automation passes on lead scoring model deliverables' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Document findings as checklists usable by other agents' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Propose one improvement per week to the playbook' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Keep outputs copy-paste-ready (signal over length)' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Inbound Capture birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Inbound Capture çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Inbound Capture alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Pitch Factory birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Pitch Factory çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Pitch Factory alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Kendi görevinin yöntemi ve kontrol listesi
 - **Öner, onaya sun (C):** Yöntem/standart değişikliği önerisi → lead
 - **Eskale et (I):** Bloklayıcı > 4h → lead
 
 ## 5. KPI & OKR
-- Inbound path live (README→contact) F2 · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
-- Pitch turnaround ≤ 48h · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
-- First qualified lead by F5 · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
+- **Inbound path live (README→contact) F2** · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Pitch turnaround ≤ 48h** · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **First qualified lead by F5** · ölçüm: haftalık kesit · sahip: `nbd-spc-automation-lead-scoring-model`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -104,8 +125,8 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında SPECIALIST kademesini
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (19 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Çıktım kopyala-hazır ve checklist'li mi?
 2. Bu hafta playbook'a 1 iyileştirme önerdim mi?
 3. İşi metrik gerekçesi olmadan mı sundum?
@@ -122,6 +143,9 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında SPECIALIST kademesini
 14. KPI 'Inbound path live (README→contact) F2' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 15. 'Inbound path live (README→contact) F2' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 16. KPI 'Pitch turnaround ≤ 48h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+17. 'Pitch turnaround ≤ 48h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+18. KPI 'First qualified lead by F5' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'First qualified lead by F5' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

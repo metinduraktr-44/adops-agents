@@ -30,15 +30,36 @@ Bu rol, ajansın "Legal & Compliance" hattında DIRECTOR kademesinin sorumluluğ
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Own the Licensing unit backlog and priorities' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Review specialist outputs before publish' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Run unit-level retros; feed learnings to BILGI_TABANI.md' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Escalate cross-unit conflicts to EVP' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Licensing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Licensing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Licensing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Privacy (KVKK/GDPR) birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Privacy (KVKK/GDPR) çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Privacy (KVKK/GDPR) alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Birim sprint önceliği, uzman görev ataması, teslim onayı
 - **Öner, onaya sun (C):** Birimler-arası bağımlılık → EVP
 - **Eskale et (I):** Kaynak/kapasite darboğazı → EVP
 
 ## 5. KPI & OKR
-- 0 violations · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
-- 100% components screened · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
-- Policy answers ≤ 24h · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
+- **0 violations** · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **100% components screened** · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Policy answers ≤ 24h** · ölçüm: haftalık kesit · sahip: `leg-dir-licensing`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -105,8 +126,8 @@ Bu rol, ajansın "Legal & Compliance" hattında DIRECTOR kademesinin sorumluluğ
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (19 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Birim backlog'u doğru önceliklendi mi?
 2. Uzman çıktısını publish öncesi review ettim mi?
 3. Birim retrosundan öğrenim damıttım mı?
@@ -123,6 +144,9 @@ Bu rol, ajansın "Legal & Compliance" hattında DIRECTOR kademesinin sorumluluğ
 14. KPI '0 violations' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 15. '0 violations' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 16. KPI '100% components screened' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+17. '100% components screened' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+18. KPI 'Policy answers ≤ 24h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'Policy answers ≤ 24h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

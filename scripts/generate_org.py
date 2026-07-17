@@ -371,13 +371,26 @@ def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, missi
     meet_md = "\n".join(f"- {m}" for m in meetings)
     f30_md = "\n".join(f"- {x}" for x in TIER_FIRST30[tier])
     d_alone, d_rec, d_esc = TIER_DECISION[tier]
-    # Öğrenme kaynakları + soru alt-seti
+    # Öğrenme kaynakları + role-özel soru setleri (kartın KENDİ KPI + birimlerinden türetilir)
     srcs = DEPT_SOURCES.get(dept_code, DEPT_SOURCES["yonetim"])
     src_md = "\n".join(f"- [{lbl}]({url})" for lbl, url in srcs)
-    dept_qs = SORU_BANKASI.get("by_dept", {}).get(dept_code, [])[:12]
+    dept_qs_all = SORU_BANKASI.get("by_dept", {}).get(dept_code, [])
     tier_qs = SORU_BANKASI.get("by_tier", {}).get(tier, [])
-    q_lines = [f"{i+1}. {q}" for i, q in enumerate(tier_qs + dept_qs)]
-    q_md = "\n".join(q_lines) if q_lines else "1. Bu çıktı metrik gerekçeli mi ve damgalı mı?"
+    # §3a — sorumluluk öz-denetimi (her sorumluluk maddesine bağlı soru)
+    resp_q = [f"- [ ] '{r}' — bugün bunu ilerlettim mi; kanıt/metrik ne?" for r in resp]
+    resp_q += [f"- [ ] {q}" for q in dept_qs_all[:6]]
+    resp_q_md = "\n".join(resp_q)
+    # §5 — her KPI'nın altına 2 tanı sorusu (role-özel)
+    kpi_lines = []
+    for k in kpis:
+        kpi_lines.append(f"- **{k}** · ölçüm: haftalık kesit · sahip: `{slug}`")
+        kpi_lines.append(f"  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?")
+        kpi_lines.append(f"  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?")
+        kpi_lines.append(f"  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?")
+    kpi_md = "\n".join(kpi_lines)
+    # §20 — tam kademe + departman bloğu
+    q_all = tier_qs + dept_qs_all
+    q_md = "\n".join(f"{i+1}. {q}" for i, q in enumerate(q_all)) if q_all else "1. Bu çıktı metrik gerekçeli mi ve damgalı mı?"
     return f"""---
 name: {slug}
 description: {_yaml_q(desc)}
@@ -403,6 +416,9 @@ Bu rol, ajansın "{dept_en}" hattında {tier} kademesinin sorumluluğunu taşır
 
 ## 3. Sorumluluklar / Responsibilities
 {resp_md}
+
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+{resp_q_md}
 
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** {d_alone}
@@ -471,8 +487,8 @@ Bu rol, ajansın "{dept_en}" hattında {tier} kademesinin sorumluluğunu taşır
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry ({len(tier_qs)+len(dept_qs)} soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry ({len(q_all)} role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 {q_md}
 
 ## 21. Bağlantılar / Links

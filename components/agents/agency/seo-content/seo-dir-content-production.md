@@ -30,16 +30,40 @@ Bu rol, ajansın "SEO & Content Engine" hattında DIRECTOR kademesinin sorumlulu
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Own the Content Production unit backlog and priorities' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Review specialist outputs before publish' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Run unit-level retros; feed learnings to BILGI_TABANI.md' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Escalate cross-unit conflicts to EVP' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Technical SEO birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Technical SEO çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Technical SEO alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Content Production birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Content Production çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Content Production alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Birim sprint önceliği, uzman görev ataması, teslim onayı
 - **Öner, onaya sun (C):** Birimler-arası bağımlılık → EVP
 - **Eskale et (I):** Kaynak/kapasite darboğazı → EVP
 
 ## 5. KPI & OKR
-- 1+ article/day shipped · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
-- Organic clicks trend up · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
-- Core Web Vitals green · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
-- Directory listings ≥ 3 · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
+- **1+ article/day shipped** · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Organic clicks trend up** · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Core Web Vitals green** · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Directory listings ≥ 3** · ölçüm: haftalık kesit · sahip: `seo-dir-content-production`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -107,8 +131,8 @@ Bu rol, ajansın "SEO & Content Engine" hattında DIRECTOR kademesinin sorumlulu
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (24 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Birim backlog'u doğru önceliklendi mi?
 2. Uzman çıktısını publish öncesi review ettim mi?
 3. Birim retrosundan öğrenim damıttım mı?
@@ -125,6 +149,14 @@ Bu rol, ajansın "SEO & Content Engine" hattında DIRECTOR kademesinin sorumlulu
 14. Repo Storefront birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Repo Storefront çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Repo Storefront alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI '1+ article/day shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. '1+ article/day shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Organic clicks trend up' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Organic clicks trend up' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI 'Core Web Vitals green' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. 'Core Web Vitals green' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+23. KPI 'Directory listings ≥ 3' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+24. 'Directory listings ≥ 3' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

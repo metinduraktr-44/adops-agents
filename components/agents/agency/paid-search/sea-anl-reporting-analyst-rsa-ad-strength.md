@@ -30,16 +30,40 @@ Bu rol, ajansın "Paid Search" hattında ANALYST kademesinin sorumluluğunu taş
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Prepare daily/weekly data cuts with definitions attached' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag anomalies with magnitude and hypothesis' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Never fabricate — mark estimates explicitly' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Feed distilled learnings upward' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Google Ads Core birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Google Ads Core çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Google Ads Core alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] SA360 & Automation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] SA360 & Automation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] SA360 & Automation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Veri kesiti metodu, tanım ve örneklem seçimi
 - **Öner, onaya sun (C):** KPI tanımı değişikliği → lead/CDO
 - **Eskale et (I):** Veri erişimi/kalite sorunu → lead
 
 ## 5. KPI & OKR
-- Impression share on brand ≥ 90% · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
-- Wasted spend < 5% · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
-- tCPA/tROAS attainment · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
-- QS trend up · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
+- **Impression share on brand ≥ 90%** · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Wasted spend < 5%** · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **tCPA/tROAS attainment** · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **QS trend up** · ölçüm: haftalık kesit · sahip: `sea-anl-reporting-analyst-rsa-ad-strength`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +130,8 @@ Bu rol, ajansın "Paid Search" hattında ANALYST kademesinin sorumluluğunu taş
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (24 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Veri kesitim tanım-ekli mi?
 2. Anomaliyi büyüklük+hipotezle mi işaretledim?
 3. Tahmini açıkça etiketledim mi?
@@ -124,6 +148,14 @@ Bu rol, ajansın "Paid Search" hattında ANALYST kademesinin sorumluluğunu taş
 14. Microsoft Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Microsoft Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Microsoft Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'Impression share on brand ≥ 90%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'Impression share on brand ≥ 90%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Wasted spend < 5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Wasted spend < 5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI 'tCPA/tROAS attainment' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. 'tCPA/tROAS attainment' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+23. KPI 'QS trend up' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+24. 'QS trend up' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

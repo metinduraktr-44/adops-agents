@@ -30,16 +30,40 @@ Bu rol, ajansın "Mobile UA & App Growth" hattında ANALYST kademesinin sorumlul
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Prepare daily/weekly data cuts with definitions attached' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag anomalies with magnitude and hypothesis' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Never fabricate — mark estimates explicitly' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Feed distilled learnings upward' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Apple Search Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Apple Search Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Apple Search Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Google App Campaigns birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Google App Campaigns çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Google App Campaigns alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Veri kesiti metodu, tanım ve örneklem seçimi
 - **Öner, onaya sun (C):** KPI tanımı değişikliği → lead/CDO
 - **Eskale et (I):** Veri erişimi/kalite sorunu → lead
 
 ## 5. KPI & OKR
-- SKAN CV coverage ≥ 85% · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
-- Fraud rate < 3% · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
-- D7 ROAS vs plan · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
-- Organic uplift measured · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
+- **SKAN CV coverage ≥ 85%** · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Fraud rate < 3%** · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **D7 ROAS vs plan** · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Organic uplift measured** · ölçüm: haftalık kesit · sahip: `mob-anl-performance-analyst-aso-store-page`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +130,8 @@ Bu rol, ajansın "Mobile UA & App Growth" hattında ANALYST kademesinin sorumlul
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (24 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Veri kesitim tanım-ekli mi?
 2. Anomaliyi büyüklük+hipotezle mi işaretledim?
 3. Tahmini açıkça etiketledim mi?
@@ -124,6 +148,14 @@ Bu rol, ajansın "Mobile UA & App Growth" hattında ANALYST kademesinin sorumlul
 14. Retargeting & CRM birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Retargeting & CRM çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Retargeting & CRM alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'SKAN CV coverage ≥ 85%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'SKAN CV coverage ≥ 85%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Fraud rate < 3%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Fraud rate < 3%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI 'D7 ROAS vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. 'D7 ROAS vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+23. KPI 'Organic uplift measured' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+24. 'Organic uplift measured' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

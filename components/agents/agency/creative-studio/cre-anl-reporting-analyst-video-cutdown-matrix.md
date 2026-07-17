@@ -30,15 +30,36 @@ Bu rol, ajansın "Creative Studio & DCO" hattında ANALYST kademesinin sorumlulu
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Prepare daily/weekly data cuts with definitions attached' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Flag anomalies with magnitude and hypothesis' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Never fabricate — mark estimates explicitly' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Feed distilled learnings upward' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Concept & Copy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Concept & Copy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Concept & Copy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Video & Motion birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Video & Motion çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Video & Motion alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Veri kesiti metodu, tanım ve örneklem seçimi
 - **Öner, onaya sun (C):** KPI tanımı değişikliği → lead/CDO
 - **Eskale et (I):** Veri erişimi/kalite sorunu → lead
 
 ## 5. KPI & OKR
-- Creative turnaround SLA · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
-- Hook-rate lift per iteration · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
-- 100% assets spec-compliant · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
+- **Creative turnaround SLA** · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Hook-rate lift per iteration** · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **100% assets spec-compliant** · ölçüm: haftalık kesit · sahip: `cre-anl-reporting-analyst-video-cutdown-matrix`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -104,8 +125,8 @@ Bu rol, ajansın "Creative Studio & DCO" hattında ANALYST kademesinin sorumlulu
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (22 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Veri kesitim tanım-ekli mi?
 2. Anomaliyi büyüklük+hipotezle mi işaretledim?
 3. Tahmini açıkça etiketledim mi?
@@ -122,6 +143,12 @@ Bu rol, ajansın "Creative Studio & DCO" hattında ANALYST kademesinin sorumlulu
 14. Ad Format Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Ad Format Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Ad Format Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'Creative turnaround SLA' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'Creative turnaround SLA' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Hook-rate lift per iteration' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Hook-rate lift per iteration' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI '100% assets spec-compliant' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. '100% assets spec-compliant' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

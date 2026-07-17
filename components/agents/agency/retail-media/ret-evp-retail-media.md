@@ -31,16 +31,41 @@ Bu rol, ajansın "Retail & Commerce Media" hattında EVP kademesinin sorumluluğ
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Set and track OKRs for Retail & Commerce Media' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Chair weekly department sync; publish minutes' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Approve playbooks/components before merge' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Manage director bench and coverage' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Report weekly to coo-delivery' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Amazon Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Amazon Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Amazon Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] TR Marketplaces (Trendyol/Hepsiburada) birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] TR Marketplaces (Trendyol/Hepsiburada) çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] TR Marketplaces (Trendyol/Hepsiburada) alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı
 - **Öner, onaya sun (C):** Yeni birim/rol, çeyreklik OKR → sponsor C-level
 - **Eskale et (I):** Bütçe/politika riski → fin/leg; kapsam çakışması → CEO
 
 ## 5. KPI & OKR
-- ACOS/TACOS on target · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
-- Share of voice on hero SKUs · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
-- PDP conversion uplift · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
-- Incremental ROAS · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
+- **ACOS/TACOS on target** · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Share of voice on hero SKUs** · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **PDP conversion uplift** · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Incremental ROAS** · ölçüm: haftalık kesit · sahip: `ret-evp-retail-media`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -108,8 +133,8 @@ Bu rol, ajansın "Retail & Commerce Media" hattında EVP kademesinin sorumluluğ
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (25 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
 2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
 3. Playbook'u merge öncesi onayladım mı?
@@ -127,6 +152,14 @@ Bu rol, ajansın "Retail & Commerce Media" hattında EVP kademesinin sorumluluğ
 15. Offsite & DSP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 16. Offsite & DSP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 17. Offsite & DSP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+18. KPI 'ACOS/TACOS on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'ACOS/TACOS on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+20. KPI 'Share of voice on hero SKUs' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+21. 'Share of voice on hero SKUs' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+22. KPI 'PDP conversion uplift' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+23. 'PDP conversion uplift' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+24. KPI 'Incremental ROAS' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+25. 'Incremental ROAS' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

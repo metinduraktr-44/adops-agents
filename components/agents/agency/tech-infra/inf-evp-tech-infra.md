@@ -31,16 +31,41 @@ Bu rol, ajansın "Tech & Infrastructure" hattında EVP kademesinin sorumluluğun
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Set and track OKRs for Tech & Infrastructure' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Chair weekly department sync; publish minutes' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Approve playbooks/components before merge' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Manage director bench and coverage' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Report weekly to cto-platform' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] CI/CD & Actions birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] CI/CD & Actions çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] CI/CD & Actions alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Validation & Security birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Validation & Security çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Validation & Security alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Departman backlog önceliği, playbook onayı, kadro içi görev dağılımı
 - **Öner, onaya sun (C):** Yeni birim/rol, çeyreklik OKR → sponsor C-level
 - **Eskale et (I):** Bütçe/politika riski → fin/leg; kapsam çakışması → CEO
 
 ## 5. KPI & OKR
-- CI green ≥ 99% · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
-- Integrity file current · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
-- 0 secret leaks · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
-- Issue triage ≤ 24h · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
+- **CI green ≥ 99%** · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Integrity file current** · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **0 secret leaks** · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Issue triage ≤ 24h** · ölçüm: haftalık kesit · sahip: `inf-evp-tech-infra`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -109,8 +134,8 @@ Bu rol, ajansın "Tech & Infrastructure" hattında EVP kademesinin sorumluluğun
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (17 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (25 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
 2. Kadroyu aşırı yükledim mi; kapasite dengeli mi?
 3. Playbook'u merge öncesi onayladım mı?
@@ -128,6 +153,14 @@ Bu rol, ajansın "Tech & Infrastructure" hattında EVP kademesinin sorumluluğun
 15. Repo Hygiene birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 16. Repo Hygiene çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 17. Repo Hygiene alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+18. KPI 'CI green ≥ 99%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'CI green ≥ 99%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+20. KPI 'Integrity file current' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+21. 'Integrity file current' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+22. KPI '0 secret leaks' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+23. '0 secret leaks' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+24. KPI 'Issue triage ≤ 24h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+25. 'Issue triage ≤ 24h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

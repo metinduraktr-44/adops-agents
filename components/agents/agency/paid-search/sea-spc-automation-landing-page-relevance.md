@@ -30,16 +30,40 @@ Bu rol, ajansın "Paid Search" hattında SPECIALIST kademesinin sorumluluğunu t
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Run automation passes on landing page relevance deliverables' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Document findings as checklists usable by other agents' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Propose one improvement per week to the playbook' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Keep outputs copy-paste-ready (signal over length)' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Google Ads Core birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Google Ads Core çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Google Ads Core alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] SA360 & Automation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] SA360 & Automation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] SA360 & Automation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Kendi görevinin yöntemi ve kontrol listesi
 - **Öner, onaya sun (C):** Yöntem/standart değişikliği önerisi → lead
 - **Eskale et (I):** Bloklayıcı > 4h → lead
 
 ## 5. KPI & OKR
-- Impression share on brand ≥ 90% · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
-- Wasted spend < 5% · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
-- tCPA/tROAS attainment · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
-- QS trend up · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
+- **Impression share on brand ≥ 90%** · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Wasted spend < 5%** · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **tCPA/tROAS attainment** · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **QS trend up** · ölçüm: haftalık kesit · sahip: `sea-spc-automation-landing-page-relevance`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -107,8 +131,8 @@ Bu rol, ajansın "Paid Search" hattında SPECIALIST kademesinin sorumluluğunu t
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (24 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Çıktım kopyala-hazır ve checklist'li mi?
 2. Bu hafta playbook'a 1 iyileştirme önerdim mi?
 3. İşi metrik gerekçesi olmadan mı sundum?
@@ -125,6 +149,14 @@ Bu rol, ajansın "Paid Search" hattında SPECIALIST kademesinin sorumluluğunu t
 14. Microsoft Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
 15. Microsoft Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
 16. Microsoft Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+17. KPI 'Impression share on brand ≥ 90%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+18. 'Impression share on brand ≥ 90%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+19. KPI 'Wasted spend < 5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+20. 'Wasted spend < 5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+21. KPI 'tCPA/tROAS attainment' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+22. 'tCPA/tROAS attainment' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+23. KPI 'QS trend up' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+24. 'QS trend up' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

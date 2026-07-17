@@ -30,15 +30,36 @@ Bu rol, ajansın "Partnerships & Sponsorships" hattında DIRECTOR kademesinin so
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Own the Referral Programs unit backlog and priorities' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Review specialist outputs before publish' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Run unit-level retros; feed learnings to BILGI_TABANI.md' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Escalate cross-unit conflicts to EVP' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Infra Sponsors birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Infra Sponsors çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Infra Sponsors alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Referral Programs birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Referral Programs çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Referral Programs alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Birim sprint önceliği, uzman görev ataması, teslim onayı
 - **Öner, onaya sun (C):** Birimler-arası bağımlılık → EVP
 - **Eskale et (I):** Kaynak/kapasite darboğazı → EVP
 
 ## 5. KPI & OKR
-- 10 sponsor conversations by F3 · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
-- 2 referral agreements by F4 · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
-- 3 directory listings by F2 · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
+- **10 sponsor conversations by F3** · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **2 referral agreements by F4** · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **3 directory listings by F2** · ölçüm: haftalık kesit · sahip: `prt-dir-referral-programs`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -106,8 +127,8 @@ Bu rol, ajansın "Partnerships & Sponsorships" hattında DIRECTOR kademesinin so
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (19 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Birim backlog'u doğru önceliklendi mi?
 2. Uzman çıktısını publish öncesi review ettim mi?
 3. Birim retrosundan öğrenim damıttım mı?
@@ -124,6 +145,9 @@ Bu rol, ajansın "Partnerships & Sponsorships" hattında DIRECTOR kademesinin so
 14. KPI '10 sponsor conversations by F3' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 15. '10 sponsor conversations by F3' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 16. KPI '2 referral agreements by F4' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+17. '2 referral agreements by F4' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+18. KPI '3 directory listings by F2' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. '3 directory listings by F2' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`

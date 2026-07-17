@@ -30,15 +30,36 @@ Bu rol, ajansın "Strategy & Comms Planning" hattında SPECIALIST kademesinin so
 - Her çıktıyı 6-katman doğrulamadan geçir (structural/integrity/semantic/reference/known-patterns/review).
 - Öğrenimi tek satır BILGI_TABANI.md'ye damıt; işlemi AUDIT_LOG.jsonl'e damgala.
 
+### 3a. Sorumluluk öz-denetimi / Responsibility self-check (role-özel)
+- [ ] 'Run automation passes on competitive landscape deliverables' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Document findings as checklists usable by other agents' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Propose one improvement per week to the playbook' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] 'Keep outputs copy-paste-ready (signal over length)' — bugün bunu ilerlettim mi; kanıt/metrik ne?
+- [ ] Audience & Insight birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Audience & Insight çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Audience & Insight alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- [ ] Media Mix birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- [ ] Media Mix çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- [ ] Media Mix alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+
 ## 4. Karar Yetkileri / Decision Rights (RACI)
 - **Tek başına karar (R/A):** Kendi görevinin yöntemi ve kontrol listesi
 - **Öner, onaya sun (C):** Yöntem/standart değişikliği önerisi → lead
 - **Eskale et (I):** Bloklayıcı > 4h → lead
 
 ## 5. KPI & OKR
-- Every plan carries mix rationale · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
-- POV per major platform change ≤ 7 days · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
-- Benchmarks refreshed monthly · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
+- **Every plan carries mix rationale** · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **POV per major platform change ≤ 7 days** · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
+- **Benchmarks refreshed monthly** · ölçüm: haftalık kesit · sahip: `str-spc-automation-competitive-landscape`
+  - [ ] Hedefte mi? Sapma varsa kök neden + düzeltme ne?
+  - [ ] Tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+  - [ ] Bu KPI'ı bir öncekiyle kıyasladım mı (trend yönü)?
 - OKR ritmi: çeyreklik hedef → haftalık kesit → aylık kurul skorlaması. Tanımsız KPI yayınlanamaz.
 
 ## 6. Haftalık Ritim / Weekly Rhythm
@@ -105,8 +126,8 @@ Bu rol, ajansın "Strategy & Comms Planning" hattında SPECIALIST kademesinin so
 - Editoryal rotasyondan konu seç (`components/commands/agency/makale-uret.md`); çıktı: kaynaklı, TR özetli, CTA'lı → `makaleler/`.
 - Makale ajansın inbound hunisine (K5) hizmet eder; her makale repoya geri link taşır.
 
-## 20. Öz-Denetim Soru Seti / Self-Inquiry (16 soru; tam banka 500+)
-> Bu rol için kademe + departman soruları. Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
+## 20. Öz-Denetim Soru Seti / Self-Inquiry (19 role-özel soru; tam banka 501)
+> Bu rol için kademe + departman soruları (+§3a sorumluluk + §5 KPI tanı soruları ayrıca). Tam 501-soruluk banka: `docs/OZ-DENETIM-SORU-BANKASI.md`. Günlük döngü her koşumda bankadan örnekleyip yanıtlar.
 1. Çıktım kopyala-hazır ve checklist'li mi?
 2. Bu hafta playbook'a 1 iyileştirme önerdim mi?
 3. İşi metrik gerekçesi olmadan mı sundum?
@@ -123,6 +144,9 @@ Bu rol, ajansın "Strategy & Comms Planning" hattında SPECIALIST kademesinin so
 14. KPI 'Every plan carries mix rationale' hedefte mi; sapma varsa kök neden ve düzeltme ne?
 15. 'Every plan carries mix rationale' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 16. KPI 'POV per major platform change ≤ 7 days' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+17. 'POV per major platform change ≤ 7 days' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+18. KPI 'Benchmarks refreshed monthly' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+19. 'Benchmarks refreshed monthly' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
 
 ## 21. Bağlantılar / Links
 - Anayasa: `docs/MASTER-PROMPT-AJANS.md` · Org: `data/org.json` · Şema: `docs/ORG-SEMASI.md`
