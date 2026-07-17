@@ -118,7 +118,7 @@ Bu rol, ajansın "Legal & Compliance" hattında EVP kademesinin sorumluluğunu t
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Daniel J. Solove** — gizlilik hukuku profesörü, TeachPrivacy · [kaynak](https://www.danielsolove.com/)
+- **Daniel J. Solove** — gizlilik hukuku profesörü, TeachPrivacy · **ilke:** gizlilik = zararların taksonomisi + bağlamsal bütünlük · [kaynak](https://www.danielsolove.com/)
 - **Max Schrems** — noyb kurucusu, Schrems I/II · [kaynak](https://en.wikipedia.org/wiki/Max_Schrems)
 - **Ann Cavoukian** — 'Privacy by Design' mucidi · [kaynak](https://en.wikipedia.org/wiki/Ann_Cavoukian)
 - **Rebecca Tushnet** — Harvard, reklam hukuku · [kaynak](https://hls.harvard.edu/faculty/rebecca-tushnet/)

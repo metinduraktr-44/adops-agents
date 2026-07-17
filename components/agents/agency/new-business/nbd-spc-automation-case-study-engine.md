@@ -114,7 +114,7 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında SPECIALIST kademesini
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Blair Enns** — 'Win Without Pitching', 'Pricing Creativity' · [kaynak](https://www.winwithoutpitching.com/about/)
+- **Blair Enns** — 'Win Without Pitching', 'Pricing Creativity' · **ilke:** pitch'siz kazan — uzmanlık pozisyonuyla fiyat gücü · [kaynak](https://www.winwithoutpitching.com/about/)
 - **David C. Baker** — ajans pozisyonlama/büyüme · [kaynak](https://agencymanagementinstitute.com/podcasts/david-baker/)
 - **Drew McLellan** — Agency Management Institute · [kaynak](https://agencymanagementinstitute.com/)
 - **Mark Sneider** — RSW/US, ajans new-business · [kaynak](https://www.rswus.com/about/)

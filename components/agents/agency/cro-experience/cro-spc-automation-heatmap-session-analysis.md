@@ -119,8 +119,8 @@ Bu rol, ajansın "CRO & Experience" hattında SPECIALIST kademesinin sorumluluğ
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Peep Laja** — CXL/Speero/Wynter kurucusu · [kaynak](https://peeplaja.com/)
-- **Ronny Kohavi** — 'Trustworthy Online Controlled Experiments' · [kaynak](https://experimentguide.com/)
+- **Peep Laja** — CXL/Speero/Wynter kurucusu · **ilke:** veri, görüşü yener; her varsayımı test et · [kaynak](https://peeplaja.com/)
+- **Ronny Kohavi** — 'Trustworthy Online Controlled Experiments' · **ilke:** güvenilir kontrollü deney — önce OEC'i tanımla · [kaynak](https://experimentguide.com/)
 - **Georgi Georgiev** — A/B test istatistiği yazarı · [kaynak](https://www.abtestingstats.com/)
 - **Chris Goward** — WiderFunnel, 'You Should Test That!' · [kaynak](http://youshouldtestthat.com/author-chris.php)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

@@ -116,7 +116,7 @@ Bu rol, ajansın "Partnerships & Sponsorships" hattında LEAD kademesinin soruml
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Nadia Eghbal** — 'Working in Public', OSS finansmanı · [kaynak](https://nadiaeghbal.com/oss/)
+- **Nadia Eghbal** — 'Working in Public', OSS finansmanı · **ilke:** açık kaynak bakım işidir; finansman altyapı sorunudur · [kaynak](https://nadiaeghbal.com/oss/)
 - **Devon Zuegel** — GitHub Sponsors ürün lideri · [kaynak](https://github.blog/author/devonzuegelgithub-com/)
 - **Mary Thengvall** — 'The Business of Developer Relations' · [kaynak](https://www.marythengvall.com/devrelbook)
 - **Duane O'Brien** — FOSS Contributor Fund öncüsü · [kaynak](https://opensource.org/board-member/duane-obrien)

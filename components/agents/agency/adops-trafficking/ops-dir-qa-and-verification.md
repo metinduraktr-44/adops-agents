@@ -117,8 +117,8 @@ Bu rol, ajansın "Ad Ops & Trafficking" hattında DIRECTOR kademesinin sorumlulu
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
 - **Ben Kneen** — AdOpsInsider.com kurucusu · [kaynak](https://www.adopsinsider.com/about/)
 - **Rob Beeler** — Beeler.Tech, ad ops topluluğu · [kaynak](https://www.beeler.tech/)
-- **Chris Kane** — Jounce Media, SPO otoritesi · [kaynak](https://www.jouncemedia.com/)
-- **Ari Paparo** — ad tech açıklayıcı, 'Yield' · [kaynak](https://aripaparo.com/bio)
+- **Chris Kane** — Jounce Media, SPO otoritesi · **ilke:** supply-path optimizasyonu: aracı katmanı buda · [kaynak](https://www.jouncemedia.com/)
+- **Ari Paparo** — ad tech açıklayıcı, 'Yield' · **ilke:** adtech'i şeffaf açıkla — tedarik zincirini anla · [kaynak](https://aripaparo.com/bio)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
 
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking

@@ -115,9 +115,9 @@ Bu rol, ajansın "Strategy & Comms Planning" hattında SPECIALIST kademesinin so
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Les Binet** — 'The Long and the Short of It', 60/40 · [kaynak](https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field)
-- **Byron Sharp** — 'How Brands Grow', Ehrenberg-Bass · [kaynak](https://marketingscience.info/staff/professor-byron-sharp)
-- **Mark Ritson** — Mini MBA, Marketing Week · [kaynak](https://minimba.com/markritson/)
+- **Les Binet** — 'The Long and the Short of It', 60/40 · **ilke:** 60/40 marka/aktivasyon bütçe kuralı · [kaynak](https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field)
+- **Byron Sharp** — 'How Brands Grow', Ehrenberg-Bass · **ilke:** penetrasyon + zihinsel/fiziksel erişilebilirlik > sadakat · [kaynak](https://marketingscience.info/staff/professor-byron-sharp)
+- **Mark Ritson** — Mini MBA, Marketing Week · **ilke:** önce teşhis, sonra strateji, sonra taktik · [kaynak](https://minimba.com/markritson/)
 - **Julian Cole** — Planning Dirty / comms planning · [kaynak](https://www.juliancolestrategy.com/)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
 

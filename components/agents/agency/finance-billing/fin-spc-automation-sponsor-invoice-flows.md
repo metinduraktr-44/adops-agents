@@ -114,10 +114,10 @@ Bu rol, ajansın "Finance & Billing" hattında SPECIALIST kademesinin sorumlulu�
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Paul W. Farris** — 'Marketing Metrics' başyazarı · [kaynak](https://www.amazon.com/Marketing-Metrics-Definitive-Measuring-Performance/dp/0137058292)
+- **Paul W. Farris** — 'Marketing Metrics' başyazarı · **ilke:** her pazarlama kararını bir metriğe bağla · [kaynak](https://www.amazon.com/Marketing-Metrics-Definitive-Measuring-Performance/dp/0137058292)
 - **James Lenskold** — 'Marketing ROI' · [kaynak](https://www.amazon.com/Marketing-ROI-Campaign-Corporate-Profitability/dp/0071413634)
-- **Peter Fader** — Wharton, CLV/'Customer Centricity' · [kaynak](https://marketing.wharton.upenn.edu/profile/faderp/)
-- **Les Binet** — 60/40 bütçe tahsisi · [kaynak](https://www.marketingweek.com/this-much-i-learned-les-binet-peter-field/)
+- **Peter Fader** — Wharton, CLV/'Customer Centricity' · **ilke:** müşteri-merkezlilik: değeri CLV üzerinden yönet · [kaynak](https://marketing.wharton.upenn.edu/profile/faderp/)
+- **Les Binet** — 60/40 bütçe tahsisi · **ilke:** 60/40 marka/aktivasyon bütçe kuralı · [kaynak](https://www.marketingweek.com/this-much-i-learned-les-binet-peter-field/)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
 
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking

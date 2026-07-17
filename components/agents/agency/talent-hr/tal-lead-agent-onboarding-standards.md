@@ -114,8 +114,8 @@ Bu rol, ajansın "Talent & Agent Quality" hattında LEAD kademesinin sorumluluğ
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Hamel Husain** — LLM eval otoritesi, AI Evals kursu · [kaynak](https://hamel.dev/blog/posts/evals/)
-- **Simon Willison** — 'prompt injection', llm aracı · [kaynak](https://simonwillison.net/)
+- **Hamel Husain** — LLM eval otoritesi, AI Evals kursu · **ilke:** önce eval yaz — ölçemediğin kaliteyi iyileştiremezsin · [kaynak](https://hamel.dev/blog/posts/evals/)
+- **Simon Willison** — 'prompt injection', llm aracı · **ilke:** prompt injection'a karşı tasarla; araçları küçük/denetlenebilir tut · [kaynak](https://simonwillison.net/)
 - **Riley Goodside** — ilk Staff Prompt Engineer · [kaynak](https://thegradientpub.substack.com/p/riley-goodside)
 - **Elvis Saravia** — Prompt Engineering Guide · [kaynak](https://github.com/dair-ai/Prompt-Engineering-Guide)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

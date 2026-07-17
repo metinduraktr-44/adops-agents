@@ -118,8 +118,8 @@ Bu rol, ajansın "Analytics & Measurement" hattında ANALYST kademesinin sorumlu
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Avinash Kaushik** — 'Web Analytics 2.0', Occam's Razor · [kaynak](https://www.kaushik.net/avinash/)
-- **Simo Ahava** — GTM/GA4 server-side otoritesi · [kaynak](https://www.simoahava.com/)
+- **Avinash Kaushik** — 'Web Analytics 2.0', Occam's Razor · **ilke:** See-Think-Do-Care: niyet aşamasına göre ölç ve mesajla · [kaynak](https://www.kaushik.net/avinash/)
+- **Simo Ahava** — GTM/GA4 server-side otoritesi · **ilke:** ölçüm mimarisi önce — server-side + veri kalitesi · [kaynak](https://www.simoahava.com/)
 - **Julius Fedorovicius** — Analytics Mania, GA4/GTM eğitimi · [kaynak](https://lt.linkedin.com/in/fedorovicius)
 - **Krista Seiden** — KS Digital, GA4 geçiş · [kaynak](https://www.linkedin.com/in/kristaseiden)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

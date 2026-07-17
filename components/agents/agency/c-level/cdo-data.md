@@ -105,10 +105,10 @@ Bu rol, ajansın "Executive" hattında C-LEVEL kademesinin sorumluluğunu taşı
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Mark Ritson** — pazarlama etkinliği otoritesi · [kaynak](https://minimba.com/markritson/)
-- **Les Binet** — medya etkililiği, 60/40 · [kaynak](https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field)
-- **Blair Enns** — ajans kazanım metodolojisi · [kaynak](https://www.winwithoutpitching.com/about/)
-- **Rory Sutherland** — davranışsal + yaratıcı reklam · [kaynak](https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive))
+- **Mark Ritson** — pazarlama etkinliği otoritesi · **ilke:** önce teşhis, sonra strateji, sonra taktik · [kaynak](https://minimba.com/markritson/)
+- **Les Binet** — medya etkililiği, 60/40 · **ilke:** 60/40 marka/aktivasyon bütçe kuralı · [kaynak](https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field)
+- **Blair Enns** — ajans kazanım metodolojisi · **ilke:** pitch'siz kazan — uzmanlık pozisyonuyla fiyat gücü · [kaynak](https://www.winwithoutpitching.com/about/)
+- **Rory Sutherland** — davranışsal + yaratıcı reklam · **ilke:** psikolojik moonshot — algı mühendisliği ucuz kaldıraçtır · [kaynak](https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive))
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
 
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking

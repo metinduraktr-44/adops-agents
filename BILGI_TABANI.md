@@ -25,3 +25,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [] v2.5: kartlar role-ozellestirildi — §3a sorumluluk oz-denetimi (her sorumluluk+dept sorusu), §5 her KPI altina 3 tani sorusu, §20 tam kademe+departman blogu. Her kart ~50 KENDI KPI/biriminden turetilmis soru tasiyor. "+100 soru/bolum" 🚩 K-003 -> role-turetilmis gomulu sorular + 501 merkezi banka.
 
 - [] v2.6: 79 GERCEK rol-modeli (disiplin basi dunya top isimleri, kaynakli arastirma) data/rol_modelleri.json + docs/ROL-MODELLERI.md; kartlara §16b Rol Modelleri gomuldu. HOLDING mimarisi umbrella'ya eklendi (7 repo tek cati, is birimi segmentasyonu). "her title top-5 + her title 500 soru" 🚩 K-003 -> disiplin-bazli gercek top-5 + 501 merkezi banka.
+
+- [] v2.7: 22 rol-modeline 1 pratik ilke eklendi (Binet 60/40, Sharp penetrasyon, Kaushik STDC, Seufert LTV-once, vb; uydurma yok); O%27Kelley markdown link bug fix. Holding KOD olarak: umbrella data/holding.json + holding_report.py + holding-konsolide.yml (gunluk portfoy raporu). 3 marka alan-derinliginde org (Movea 34, VizaTrack 34, Cigkoftem 29 rol) DOKUMAN olarak (sahte issue YOK).

@@ -120,7 +120,7 @@ Bu rol, ajansın "Mobile UA & App Growth" hattında LEAD kademesinin sorumluluğ
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Eric Seufert** — Mobile Dev Memo, ATT/IDFA analisti · [kaynak](https://mobiledevmemo.com/)
+- **Eric Seufert** — Mobile Dev Memo, ATT/IDFA analisti · **ilke:** LTV-önce büyüme; ATT sonrası olasılıksal ölçüm · [kaynak](https://mobiledevmemo.com/)
 - **Shamanth Rao** — RocketShip HQ, UA podcast · [kaynak](https://www.businessofapps.com/app-leaders/shamanth-rao/)
 - **Thomas Petit** — ASA/ASO ve post-IDFA UA danışmanı · [kaynak](https://mobiledevmemo.com/)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

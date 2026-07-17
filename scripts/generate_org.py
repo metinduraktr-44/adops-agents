@@ -19,6 +19,31 @@ SORU_BANKASI = json.load(open(_SB_PATH, encoding="utf-8")) if os.path.exists(_SB
 # Rol modelleri (varsa) — disiplin başına dünya top isimleri
 _RM_PATH = os.path.join(ROOT, "data", "rol_modelleri.json")
 ROL_MODELLERI = json.load(open(_RM_PATH, encoding="utf-8")) if os.path.exists(_RM_PATH) else {}
+# Bilinen rol-modellerin 1 pratik ilkesi (yalnız emin olunanlar; uydurma yok)
+MODEL_ILKELERI = {
+ "Les Binet": "60/40 marka/aktivasyon bütçe kuralı",
+ "Byron Sharp": "penetrasyon + zihinsel/fiziksel erişilebilirlik > sadakat",
+ "Mark Ritson": "önce teşhis, sonra strateji, sonra taktik",
+ "Rory Sutherland": "psikolojik moonshot — algı mühendisliği ucuz kaldıraçtır",
+ "Avinash Kaushik": "See-Think-Do-Care: niyet aşamasına göre ölç ve mesajla",
+ "Peep Laja": "veri, görüşü yener; her varsayımı test et",
+ "Ronny Kohavi": "güvenilir kontrollü deney — önce OEC'i tanımla",
+ "Eric Seufert": "LTV-önce büyüme; ATT sonrası olasılıksal ölçüm",
+ "Rand Fishkin": "sıfır-tık dünyada değeri kanalın kendisinde ver",
+ "Simo Ahava": "ölçüm mimarisi önce — server-side + veri kalitesi",
+ "Frederick Vallaeys": "otomasyona rağmen strateji insanda kalır (katmanlı kontrol)",
+ "Blair Enns": "pitch'siz kazan — uzmanlık pozisyonuyla fiyat gücü",
+ "Nadia Eghbal": "açık kaynak bakım işidir; finansman altyapı sorunudur",
+ "Simon Willison": "prompt injection'a karşı tasarla; araçları küçük/denetlenebilir tut",
+ "Hamel Husain": "önce eval yaz — ölçemediğin kaliteyi iyileştiremezsin",
+ "Chip Huyen": "üretim ML = sistem tasarımı, tek model değil",
+ "Paul W. Farris": "her pazarlama kararını bir metriğe bağla",
+ "Peter Fader": "müşteri-merkezlilik: değeri CLV üzerinden yönet",
+ "Daniel J. Solove": "gizlilik = zararların taksonomisi + bağlamsal bütünlük",
+ "Ari Paparo": "adtech'i şeffaf açıkla — tedarik zincirini anla",
+ "Chris Kane": "supply-path optimizasyonu: aracı katmanı buda",
+ "Orlando Wood": "sağ-beyin yaratıcılık uzun-vade etkiyi taşır",
+}
 
 # Departman-özel GERÇEK öğrenme kaynakları (resmi changelog/eğitim/beta/blog URL'leri)
 DEPT_SOURCES = {
@@ -378,7 +403,11 @@ def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, missi
     srcs = DEPT_SOURCES.get(dept_code, DEPT_SOURCES["yonetim"])
     src_md = "\n".join(f"- [{lbl}]({url})" for lbl, url in srcs)
     models = ROL_MODELLERI.get(dept_code, ROL_MODELLERI.get("yonetim", []))
-    model_md = "\n".join(f"- **{nm}** — {why} · [kaynak]({url})" for nm, why, url in models) or "- (rol modeli veri seti yüklenince dolar)"
+    def _mline(nm, why, url):
+        p = MODEL_ILKELERI.get(nm)
+        pri = f" · **ilke:** {p}" if p else ""
+        return f"- **{nm}** — {why}{pri} · [kaynak]({url})"
+    model_md = "\n".join(_mline(nm, why, url) for nm, why, url in models) or "- (rol modeli veri seti yüklenince dolar)"
     dept_qs_all = SORU_BANKASI.get("by_dept", {}).get(dept_code, [])
     tier_qs = SORU_BANKASI.get("by_tier", {}).get(tier, [])
     # §3a — sorumluluk öz-denetimi (her sorumluluk maddesine bağlı soru)

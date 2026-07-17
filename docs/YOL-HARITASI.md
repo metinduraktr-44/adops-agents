@@ -1,5 +1,5 @@
 # YOL HARİTASI — DEADLINE'LI
-> Üretim: 2026-07-17T11:43:10Z · Faz kapısı: kanıtsız GEÇTİ yok. Aylık kurulda skorlanır.
+> Üretim: 2026-07-17T11:55:57Z · Faz kapısı: kanıtsız GEÇTİ yok. Aylık kurulda skorlanır.
 
 | Faz | Tarih | Ad | Kapı Kriterleri |
 |---|---|---|---|

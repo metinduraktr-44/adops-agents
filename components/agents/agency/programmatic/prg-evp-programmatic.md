@@ -123,8 +123,8 @@ Bu rol, ajansın "Programmatic Trading" hattında EVP kademesinin sorumluluğunu
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Ari Paparo** — adtech'in en tanınan sesi, 'Yield' yazarı, Marketecture · [kaynak](https://aripaparo.com/)
-- **Brian O'Kelley** — programatiğin 'vaftiz babası', AppNexus kurucusu · [kaynak](https://en.wikipedia.org/wiki/Brian_O'Kelley)
+- **Ari Paparo** — adtech'in en tanınan sesi, 'Yield' yazarı, Marketecture · **ilke:** adtech'i şeffaf açıkla — tedarik zincirini anla · [kaynak](https://aripaparo.com/)
+- **Brian O'Kelley** — programatiğin 'vaftiz babası', AppNexus kurucusu · [kaynak](https://en.wikipedia.org/wiki/Brian_O%27Kelley)
 - **Ratko Vidakovic** — AdProfs kurucusu, adtech eğitimi · [kaynak](https://adprofs.co/)
 - **Tom Triscari** — programatik ekonomisti, yield/açık artırma · [kaynak](https://www.adeconforum.com/speaker/tomtriscari/)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

@@ -120,7 +120,7 @@ Bu rol, ajansın "Tech & Infrastructure" hattında SPECIALIST kademesinin soruml
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Chip Huyen** — 'Designing ML Systems', MLOps · [kaynak](https://huyenchip.com/)
+- **Chip Huyen** — 'Designing ML Systems', MLOps · **ilke:** üretim ML = sistem tasarımı, tek model değil · [kaynak](https://huyenchip.com/)
 - **Demetrios Brinkmann** — MLOps Community kurucusu · [kaynak](https://home.mlops.community/)
 - **Charity Majors** — Honeycomb, 'Observability Engineering' · [kaynak](https://charity.wtf/about)
 > Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.

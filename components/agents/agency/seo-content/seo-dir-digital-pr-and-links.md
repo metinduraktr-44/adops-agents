@@ -120,7 +120,7 @@ Bu rol, ajansın "SEO & Content Engine" hattında DIRECTOR kademesinin sorumlulu
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Rand Fishkin** — Moz/SparkToro kurucusu · [kaynak](https://sparktoro.com/team/rand)
+- **Rand Fishkin** — Moz/SparkToro kurucusu · **ilke:** sıfır-tık dünyada değeri kanalın kendisinde ver · [kaynak](https://sparktoro.com/team/rand)
 - **Aleyda Solis** — Orainti, learningseo.io/#SEOFOMO · [kaynak](https://www.aleydasolis.com/en/)
 - **Danny Sullivan** — Search Engine Land kurucusu · [kaynak](https://dannysullivan.com/)
 - **Lily Ray** — E-E-A-T / algoritma uzmanı · [kaynak](https://lilyray.nyc/about-lily-ray/)

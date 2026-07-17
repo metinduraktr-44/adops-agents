@@ -13,3 +13,4 @@
 {"ts":"2026-07-17T10:55:00Z","op":"v2.4-oz-ogrenim-ve-soru-bankasi","detail":"600 kart 15->21 bolum; 501-soru bankasi; departman URL kaynaklari; gunluk oz-denetim dongusu","validation":"GECTI; 600 kart yaml OK; banka 501>=500","chain":"K-012 devami"}
 {"ts":"2026-07-17T11:20:00Z","op":"v2.5-kart-role-ozellestirme","detail":"§3a sorumluluk sorulari + §5 per-KPI tani sorulari + §20 tam blok; kart basi ~50 role-ozel soru","validation":"GECTI; 600 kart yaml OK","chain":"K-012"}
 {"ts":"2026-07-17T11:40:00Z","op":"v2.6-rol-modelleri-ve-holding","detail":"79 kaynakli rol-modeli §16b; ROL-MODELLERI.md; HOLDING-MIMARISI umbrella","validation":"GECTI; 600 kart yaml OK","chain":"K-012"}
+{"ts":"2026-07-17T12:00:00Z","op":"v2.7-holding-kod-marka-org-rolmodel-ilke","detail":"holding.json+report+workflow; 3 marka org dokuman; 22 model ilkesi; okelley fix","validation":"GECTI","chain":"K-012"}

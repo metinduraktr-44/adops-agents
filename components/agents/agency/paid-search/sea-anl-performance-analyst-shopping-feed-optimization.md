@@ -119,7 +119,7 @@ Bu rol, ajansın "Paid Search" hattında ANALYST kademesinin sorumluluğunu taş
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
 ### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
-- **Frederick Vallaeys** — Optmyzr CEO, PPC otomasyonu yazarı · [kaynak](https://www.optmyzr.com/)
+- **Frederick Vallaeys** — Optmyzr CEO, PPC otomasyonu yazarı · **ilke:** otomasyona rağmen strateji insanda kalır (katmanlı kontrol) · [kaynak](https://www.optmyzr.com/)
 - **Ginny Marvin** — Google Ads Product Liaison · [kaynak](https://www.linkedin.com/in/ginnymarvin/)
 - **Larry Kim** — WordStream kurucusu · [kaynak](https://www.linkedin.com/in/larrykim/)
 - **Kirk Williams** — ZATO, Shopping/PMax otoritesi · [kaynak](https://zatomarketing.com/)
