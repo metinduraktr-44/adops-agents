@@ -113,6 +113,13 @@ Bu rol, ajansın "Finance & Billing" hattında SPECIALIST kademesinin sorumlulu�
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Paul W. Farris** — 'Marketing Metrics' başyazarı · [kaynak](https://www.amazon.com/Marketing-Metrics-Definitive-Measuring-Performance/dp/0137058292)
+- **James Lenskold** — 'Marketing ROI' · [kaynak](https://www.amazon.com/Marketing-ROI-Campaign-Corporate-Profitability/dp/0071413634)
+- **Peter Fader** — Wharton, CLV/'Customer Centricity' · [kaynak](https://marketing.wharton.upenn.edu/profile/faderp/)
+- **Les Binet** — 60/40 bütçe tahsisi · [kaynak](https://www.marketingweek.com/this-much-i-learned-les-binet-peter-field/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

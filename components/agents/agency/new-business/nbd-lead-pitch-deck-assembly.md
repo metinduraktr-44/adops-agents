@@ -113,6 +113,13 @@ Bu rol, ajansın "New Business & Inbound Funnel" hattında LEAD kademesinin soru
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Blair Enns** — 'Win Without Pitching', 'Pricing Creativity' · [kaynak](https://www.winwithoutpitching.com/about/)
+- **David C. Baker** — ajans pozisyonlama/büyüme · [kaynak](https://agencymanagementinstitute.com/podcasts/david-baker/)
+- **Drew McLellan** — Agency Management Institute · [kaynak](https://agencymanagementinstitute.com/)
+- **Mark Sneider** — RSW/US, ajans new-business · [kaynak](https://www.rswus.com/about/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

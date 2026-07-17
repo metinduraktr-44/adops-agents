@@ -117,6 +117,13 @@ Bu rol, ajansın "Ad Ops & Trafficking" hattında EVP kademesinin sorumluluğunu
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Ben Kneen** — AdOpsInsider.com kurucusu · [kaynak](https://www.adopsinsider.com/about/)
+- **Rob Beeler** — Beeler.Tech, ad ops topluluğu · [kaynak](https://www.beeler.tech/)
+- **Chris Kane** — Jounce Media, SPO otoritesi · [kaynak](https://www.jouncemedia.com/)
+- **Ari Paparo** — ad tech açıklayıcı, 'Yield' · [kaynak](https://aripaparo.com/bio)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

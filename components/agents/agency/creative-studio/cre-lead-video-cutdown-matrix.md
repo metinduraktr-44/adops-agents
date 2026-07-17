@@ -114,6 +114,12 @@ Bu rol, ajansın "Creative Studio & DCO" hattında LEAD kademesinin sorumluluğu
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Orlando Wood** — System1 CCO, 'Lemon' · [kaynak](https://system1group.com/lemon)
+- **James Hurman** — 'The Case for Creativity', WARC ladder · [kaynak](https://www.thecaseforcreativity.com/)
+- **Rory Sutherland** — Ogilvy, 'Alchemy' · [kaynak](https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive))
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

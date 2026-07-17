@@ -16,6 +16,9 @@ SHIFTS = ["00–08 UTC", "08–16 UTC", "16–24 UTC"]
 # Soru bankası (varsa) — kart başına departman+kademe alt-seti gömülür
 _SB_PATH = os.path.join(ROOT, "data", "soru_bankasi.json")
 SORU_BANKASI = json.load(open(_SB_PATH, encoding="utf-8")) if os.path.exists(_SB_PATH) else {"by_dept": {}, "by_tier": {}}
+# Rol modelleri (varsa) — disiplin başına dünya top isimleri
+_RM_PATH = os.path.join(ROOT, "data", "rol_modelleri.json")
+ROL_MODELLERI = json.load(open(_RM_PATH, encoding="utf-8")) if os.path.exists(_RM_PATH) else {}
 
 # Departman-özel GERÇEK öğrenme kaynakları (resmi changelog/eğitim/beta/blog URL'leri)
 DEPT_SOURCES = {
@@ -374,6 +377,8 @@ def agent_md(slug, title, desc, dept_en, dept_tr, tier, reports_to, shift, missi
     # Öğrenme kaynakları + role-özel soru setleri (kartın KENDİ KPI + birimlerinden türetilir)
     srcs = DEPT_SOURCES.get(dept_code, DEPT_SOURCES["yonetim"])
     src_md = "\n".join(f"- [{lbl}]({url})" for lbl, url in srcs)
+    models = ROL_MODELLERI.get(dept_code, ROL_MODELLERI.get("yonetim", []))
+    model_md = "\n".join(f"- **{nm}** — {why} · [kaynak]({url})" for nm, why, url in models) or "- (rol modeli veri seti yüklenince dolar)"
     dept_qs_all = SORU_BANKASI.get("by_dept", {}).get(dept_code, [])
     tier_qs = SORU_BANKASI.get("by_tier", {}).get(tier, [])
     # §3a — sorumluluk öz-denetimi (her sorumluluk maddesine bağlı soru)
@@ -474,6 +479,10 @@ Bu rol, ajansın "{dept_en}" hattında {tier} kademesinin sorumluluğunu taşır
 {src_md}
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
+
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+{model_md}
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
 
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.

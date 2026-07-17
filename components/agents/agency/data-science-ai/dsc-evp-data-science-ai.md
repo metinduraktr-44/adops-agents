@@ -117,6 +117,13 @@ Bu rol, ajansın "Data Science & AI" hattında EVP kademesinin sorumluluğunu ta
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Dominique Hanssens** — 'Market Response Models', UCLA · [kaynak](https://en.wikipedia.org/wiki/Dominique_M._Hanssens)
+- **Koen Pauwels** — MMM/attribution araştırmacısı · [kaynak](https://journals.sagepub.com/doi/10.1509/jm.15.0417)
+- **Grace Kite** — ekonometrist, Magic Numbers · [kaynak](https://magicnumbers.co.uk/people/dr-grace-kite/)
+- **Michael Kaminsky** — Recast, Bayesian MMM · [kaynak](https://www.linkedin.com/in/michael-the-data-guy-kaminsky)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

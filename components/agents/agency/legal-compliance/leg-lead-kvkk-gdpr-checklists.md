@@ -114,6 +114,13 @@ Bu rol, ajansın "Legal & Compliance" hattında LEAD kademesinin sorumluluğunu 
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Daniel J. Solove** — gizlilik hukuku profesörü, TeachPrivacy · [kaynak](https://www.danielsolove.com/)
+- **Max Schrems** — noyb kurucusu, Schrems I/II · [kaynak](https://en.wikipedia.org/wiki/Max_Schrems)
+- **Ann Cavoukian** — 'Privacy by Design' mucidi · [kaynak](https://en.wikipedia.org/wiki/Ann_Cavoukian)
+- **Rebecca Tushnet** — Harvard, reklam hukuku · [kaynak](https://hls.harvard.edu/faculty/rebecca-tushnet/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

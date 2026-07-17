@@ -112,6 +112,13 @@ Bu rol, ajansın "Talent & Agent Quality" hattında ANALYST kademesinin sorumlul
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Hamel Husain** — LLM eval otoritesi, AI Evals kursu · [kaynak](https://hamel.dev/blog/posts/evals/)
+- **Simon Willison** — 'prompt injection', llm aracı · [kaynak](https://simonwillison.net/)
+- **Riley Goodside** — ilk Staff Prompt Engineer · [kaynak](https://thegradientpub.substack.com/p/riley-goodside)
+- **Elvis Saravia** — Prompt Engineering Guide · [kaynak](https://github.com/dair-ai/Prompt-Engineering-Guide)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

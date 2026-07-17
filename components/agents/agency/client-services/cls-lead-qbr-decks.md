@@ -113,6 +113,12 @@ Bu rol, ajansın "Client Services" hattında LEAD kademesinin sorumluluğunu ta�
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Robert Solomon** — 'The Art of Client Service' · [kaynak](https://www.amazon.com/Art-Client-Service-Marketers-Advertisers/dp/1119227828)
+- **Jenny Plant** — Account Management Skills · [kaynak](https://www.accountmanagementskills.com/)
+- **David C. Baker** — 'The Business of Expertise' · [kaynak](https://agencymanagementinstitute.com/podcasts/david-baker/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

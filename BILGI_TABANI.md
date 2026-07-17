@@ -23,3 +23,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [] v2.4: 600 kart 21 bolume genisletildi (+oz-ogrenim dongusu, +departman-ozel GERCEK kaynak URLleri, +panel/guncelleme takibi, +egitim&beta, +makale uretimi, +rol-ozel soru seti). 501-soruluk merkezi oz-denetim bankasi kuruldu (docs/OZ-DENETIM-SORU-BANKASI.md + data/soru_bankasi.json); gunluk dongu her kosumda bankadan 8 soru cekip standupta denetliyor. "500 soru/kart" 🚩 K-003 -> merkezi banka + kart alt-seti (gercekci esdeger).
 
 - [] v2.5: kartlar role-ozellestirildi — §3a sorumluluk oz-denetimi (her sorumluluk+dept sorusu), §5 her KPI altina 3 tani sorusu, §20 tam kademe+departman blogu. Her kart ~50 KENDI KPI/biriminden turetilmis soru tasiyor. "+100 soru/bolum" 🚩 K-003 -> role-turetilmis gomulu sorular + 501 merkezi banka.
+
+- [] v2.6: 79 GERCEK rol-modeli (disiplin basi dunya top isimleri, kaynakli arastirma) data/rol_modelleri.json + docs/ROL-MODELLERI.md; kartlara §16b Rol Modelleri gomuldu. HOLDING mimarisi umbrella'ya eklendi (7 repo tek cati, is birimi segmentasyonu). "her title top-5 + her title 500 soru" 🚩 K-003 -> disiplin-bazli gercek top-5 + 501 merkezi banka.

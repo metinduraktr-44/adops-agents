@@ -115,6 +115,13 @@ Bu rol, ajansın "Partnerships & Sponsorships" hattında LEAD kademesinin soruml
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Nadia Eghbal** — 'Working in Public', OSS finansmanı · [kaynak](https://nadiaeghbal.com/oss/)
+- **Devon Zuegel** — GitHub Sponsors ürün lideri · [kaynak](https://github.blog/author/devonzuegelgithub-com/)
+- **Mary Thengvall** — 'The Business of Developer Relations' · [kaynak](https://www.marythengvall.com/devrelbook)
+- **Duane O'Brien** — FOSS Contributor Fund öncüsü · [kaynak](https://opensource.org/board-member/duane-obrien)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

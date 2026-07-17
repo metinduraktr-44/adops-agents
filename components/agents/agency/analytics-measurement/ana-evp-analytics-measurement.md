@@ -121,6 +121,13 @@ Bu rol, ajansın "Analytics & Measurement" hattında EVP kademesinin sorumluluğ
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Avinash Kaushik** — 'Web Analytics 2.0', Occam's Razor · [kaynak](https://www.kaushik.net/avinash/)
+- **Simo Ahava** — GTM/GA4 server-side otoritesi · [kaynak](https://www.simoahava.com/)
+- **Julius Fedorovicius** — Analytics Mania, GA4/GTM eğitimi · [kaynak](https://lt.linkedin.com/in/fedorovicius)
+- **Krista Seiden** — KS Digital, GA4 geçiş · [kaynak](https://www.linkedin.com/in/kristaseiden)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

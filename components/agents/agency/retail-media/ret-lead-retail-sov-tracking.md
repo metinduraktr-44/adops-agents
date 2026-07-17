@@ -118,6 +118,13 @@ Bu rol, ajansın "Retail & Commerce Media" hattında LEAD kademesinin sorumlulu�
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Destaney Wishon** — BetterAMS CEO, Amazon Ads otoritesi · [kaynak](https://amzsummits.com/speakers/destaney-wishon/)
+- **Kiri Masters** — Bobsled, 'Amazon for CMOs' · [kaynak](https://www.linkedin.com/in/kiri-masters)
+- **Andrew Lipsman** — retail media analisti (eski EMARKETER) · [kaynak](https://www.linkedin.com/in/andrew-lipsman-10b2162)
+- **Ritu Java** — PPC Ninja, Amazon PPC · [kaynak](https://amzsummits.com/speakers/ritu-java/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.

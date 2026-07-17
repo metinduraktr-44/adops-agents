@@ -119,6 +119,13 @@ Bu rol, ajansın "SEO & Content Engine" hattında LEAD kademesinin sorumluluğun
 - Genel: [Anthropic Docs](https://docs.claude.com) · [Think with Google](https://www.thinkwithgoogle.com)
 - Güven sırası: resmi org > çapraz-kaynak konsensüsü > kesintisiz geçmiş > yıldız (en zayıf).
 
+### 16b. Rol Modelleri / Role Models (bu disiplinin dünya top isimleri)
+- **Rand Fishkin** — Moz/SparkToro kurucusu · [kaynak](https://sparktoro.com/team/rand)
+- **Aleyda Solis** — Orainti, learningseo.io/#SEOFOMO · [kaynak](https://www.aleydasolis.com/en/)
+- **Danny Sullivan** — Search Engine Land kurucusu · [kaynak](https://dannysullivan.com/)
+- **Lily Ray** — E-E-A-T / algoritma uzmanı · [kaynak](https://lilyray.nyc/about-lily-ray/)
+> Bunlar kamuya açık profesyonellerdir (kitap/konuşma/kurum). Onların çerçevelerini oku, uygula, kendi bağlamına uyarla — kopyalama değil, anatomi çıkar.
+
 ## 17. Panel & Güncelleme Takibi / Platform Update Tracking
 - İlgili platform changelog'unu HAFTALIK tara; API/politika değişikliği mevcut kurulumu etkiliyorsa 7 gün içinde migration/POV üret.
 - Deprecation/sunset uyarısını takvime al; yeni panel özelliğini iş akışını hızlandırıp hızlandırmayacağına göre değerlendir.
