@@ -1,8 +1,8 @@
 {
-  "hedef": "issues",
+  "hedef": "wiki",
   "start": 0,
-  "adet": 600,
-  "adim": 1,
-  "aciklama": "Segment-600 adim 1/6: 600 rol issue'su + gunluk-operasyon ve security-audit kickoff. Orkestrator: Cowork oturumu (plan.json push'u ile ilerler).",
-  "ts": "2026-07-17T09:20:00Z"
+  "adet": 623,
+  "adim": "1b",
+  "aciklama": "Segment-600 adim 1b: Wiki Home olusturuldu (Metin) -> 623 sayfa push. Concurrency: issues kosumu bitince otomatik baslar.",
+  "ts": "2026-07-17T09:45:00Z"
 }
