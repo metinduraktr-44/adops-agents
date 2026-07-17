@@ -1,14 +1,20 @@
 # PUSH TALİMATI
 
-## v2 AJANS GÜNCELLEMESİ (mevcut repoya push — 1 dakika)
-Cowork'ün ürettiği `adops-agents-v2.zip` içeriğini mevcut klonunun üzerine aç, sonra:
+## v2.1 AJANS + SEGMENT-600 GÜNCELLEMESİ (mevcut repoya push — 1 dakika)
+Cowork'ün ürettiği `adops-agents-v2.1.zip` içeriğini mevcut klonunun üzerine aç, sonra:
 ```bash
 cd adops-agents
 git add -A
-git commit -m "v2: 600-ajan AI Agency yapısı + 7/24 operasyon döngüleri"
+git commit -m "v2.1: 600-ajan AI Agency + segment-600 motoru + gelir araştırması"
 git push origin main
 ```
-Push sonrası kontrol: Actions sekmesinde `gunluk-operasyon` görünmeli (elle test: Run workflow).
+Push sonrası sıra (detay: docs/SEGMENT-600-PLANI.md):
+1. Actions → `gunluk-operasyon` → Run workflow (yeşili gör).
+2. Actions → `seed-600` → hedef=issues (600 rol issue'su, ~15 dk).
+3. Actions → `seed-600` → hedef=prs, start=0/150/300/450 × adet=150 (4 koşum → 600 PR + 600 Actions koşumu).
+4. Wiki sekmesinde Home'u BİR KEZ elle oluştur → seed-600 → hedef=wiki (633 sayfa).
+5. Actions → `security-audit` → Run (Security sekmesine 626 denetim kaydı).
+6. Opsiyonel: `PROJECTS_TOKEN` secret (PAT, scope: project) → seed-600 → hedef=projeler (600 kart).
 `ANTHROPIC_API_KEY` secret'ı ekliysen makale hattı tam üretime geçer; değilse iskelet modda döner (döngü kırılmaz).
 
 ---

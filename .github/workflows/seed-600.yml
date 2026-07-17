@@ -1,0 +1,65 @@
+name: seed-600
+# SEGMENT-600 doldurma motoru — elle tetiklenir (Actions -> seed-600 -> Run workflow).
+# Sıra: issues -> prs (4 koşum x 150) -> wiki -> projeler (PROJECTS_TOKEN gerekir).
+on:
+  workflow_dispatch:
+    inputs:
+      hedef:
+        description: "Hangi segment doldurulacak?"
+        required: true
+        type: choice
+        options: [issues, prs, wiki, projeler]
+      start:
+        description: "Başlangıç indeksi"
+        default: "0"
+      adet:
+        description: "Bu koşumda kaç işlem (prs için 150 önerilir)"
+        default: "150"
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Issues (600 rol kaydı)
+        if: inputs.hedef == 'issues'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          START: ${{ inputs.start }}
+          COUNT: ${{ inputs.adet }}
+        run: COUNT=${COUNT:-600} python3 scripts/seed_issues.py
+      - name: Pull requests (aktivasyon PR + merge)
+        if: inputs.hedef == 'prs'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          START: ${{ inputs.start }}
+          COUNT: ${{ inputs.adet }}
+        run: bash scripts/seed_prs.sh
+      - name: Wiki (620+ sayfa)
+        if: inputs.hedef == 'wiki'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/build_wiki.py
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" /tmp/wiki \
+            || { echo "::error::Wiki başlatılmamış — önce repo Wiki sekmesinden Home sayfasını bir kez oluştur."; exit 1; }
+          cp wiki-out/*.md /tmp/wiki/
+          cd /tmp/wiki
+          git config user.name "adops-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "wiki: 600+ rol sayfası $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "değişiklik yok"
+          git push
+      - name: Projects v2 (600 draft kart)
+        if: inputs.hedef == 'projeler'
+        env:
+          PROJECTS_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          START: ${{ inputs.start }}
+          COUNT: ${{ inputs.adet }}
+        run: COUNT=${COUNT:-600} python3 scripts/seed_project_items.py

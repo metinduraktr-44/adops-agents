@@ -49,6 +49,9 @@ cp -r components/agents/performance-marketing .claude/agents/
 | `aylik-kurul` | 1st, 09:00 | board meeting: OKR scoring + roadmap phase gates |
 
 Every run appends `AUDIT_LOG.jsonl` and grows `BILGI_TABANI.md` (cumulative knowledge). Weights don't change — the *knowledge base* does.
+
+## 🧮 Segment-600 engine
+Every repo surface carries **600+ real operations**: 600 role Issues, 600 activation PRs (each triggering a validation run → 600+ Actions), 623 Wiki pages, 627 SARIF audit records in Security, 600 Projects cards, 600+ commits in Insights. Seeder: `.github/workflows/seed-600.yml` (manual dispatch, built-in token). Plan & math: [`docs/SEGMENT-600-PLANI.md`](docs/SEGMENT-600-PLANI.md).
 > ⚠️ To let generation steps call an LLM, set repo secret `ANTHROPIC_API_KEY` (paid API credits). Without it, loops still run deterministically — standups, minutes, work lists, timestamps, validation — articles ship as structured skeletons.
 
 ## 🧩 Classic components (v1, still included)

@@ -2,14 +2,21 @@
 > Son güncelleme: 2026-07-17T08:04:07Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
-- [ ] v2 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
+- [ ] v2.1 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
 - [ ] ANTHROPIC_API_KEY secret kontrolü → cto-platform · 2026-07-18
+- [ ] METİN: GitHub Sponsors hesabı aç (FUNDING.yml hazır) → K1 · 2026-07-24
+- [ ] METİN: Supermetrics PartnerStack başvurusu (%20 recurring) → K3 · 2026-07-24
+- [ ] Segment-600 tohumlama: seed-600 workflow'unu sırayla koştur (issues → prs ×4 → wiki → security) → inf-evp-tech-infra · 2026-07-25
 - [ ] İlk 5 günlük döngünün kesintisiz koşması → coo-delivery · 2026-07-24
-- [ ] README inbound CTA taslağı → nbd-evp-new-business · 2026-07-24
+- [x] README inbound CTA → nbd-evp-new-business (v2 README'de yayında)
 
 ## P1 — F2 penceresi
+- [ ] Anthropic community marketplace submission (clau.de/plugin-directory-submission) → cmo-brand · 2026-07-31
+- [ ] awesome-claude-code PR + aitmpl katkısı (1-2 bileşen) → cmo-brand · 2026-07-31
+- [ ] Vercel OSS kohort başvuru taslağı (başvuru Ağustos'ta açılıyor) → prt · 2026-08-01
+- [ ] Neon başvurusu + Postgres'li rapor-arşiv bileşeni gerekçesi → prt · 2026-07-31
+- [ ] Railway deploy şablonu (%25 kickback) → inf · F3
 - [ ] Sponsor hedef listesi (20 firma) → prt-evp-partnerships-sponsorships · 2026-07-31
-- [ ] 3 dizin listeleme başvurusu → cmo-brand · 2026-07-31
 - [ ] 5 makale planı (makaleler/) → seo-evp-seo-content · 2026-07-31
 
 ## Departman kuyrukları

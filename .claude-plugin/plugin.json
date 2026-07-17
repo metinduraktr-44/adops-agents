@@ -1,6 +1,6 @@
 {
   "name": "adops-response-dga",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "600 ajanlık AI Agency (6 kademe, 20 departman) + performance/programmatic bileşen paketi: günlük standup/makale/iş listesi cron döngüleri, haftalık liderlik + aylık kurul, pitch üretimi, atıf/rakip analizi, TR ücretli reklam + SEO becerileri, denetim kancaları. Org kaynağı: data/org.json (üretici: scripts/generate_org.py).",
   "agency": {
     "agents_total": 600,
