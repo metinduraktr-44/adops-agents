@@ -14,3 +14,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [] v2-ajans-insa: 600 ajanlik agency yapisi kuruldu; org tek kaynak data/org.json; 924 baslikli anayasa docs/MASTER-PROMPT-AJANS.md; gunluk/haftalik/aylik cron ritmi tanimlandi. Ogrenim: buyuk org uretimi = generator + assert(600) deseniyle idempotent tutulur.
 
 - [] v2.1: segment-600 motoru kuruldu (her sekmede +600 gercek islem; Agents sekmesi Copilot yuzeyi oldugu icin alternatifle kapatildi) + gelir arastirmasi kaynakli emsallerle tamamlandi. Ogrenim: GitHub built-in GITHUB_TOKEN issues/PR/wiki/SARIF icin yeterli, Projects v2 icin PAT sart; secondary rate limit icin 1 islem/sn + 150lik PR batchleri guvenli bant.
+
+- [2026-07-17T09:37:36Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
