@@ -51,6 +51,9 @@ for ((i = START; i < END; i++)); do
     sleep 5
   done
   [ -z "$merged" ] && echo "merge edilemedi (elle): $PR_URL"
+  # GITHUB_TOKEN'ın merge push'u pull_request/push tetiklemez (özyineleme koruması);
+  # doğrulama koşumunu açıkça başlat -> Actions sekmesi PR başına 1 koşum kazanır.
+  gh workflow run validate-components.yml --ref main >/dev/null 2>&1 || true
   sleep 2
 done
 git checkout -q main || true
