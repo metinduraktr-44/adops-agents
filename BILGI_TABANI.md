@@ -5,3 +5,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Repo kuruldu. Dikey odak: performans pazarlama & programatik.
 - Denetim: 6 katman (structural/integrity/semantic/reference/patterns/review).
 - Gelir: sponsorluk + featured + referral + premium pack + ajans inbound.
+
+## 2026-07-17T02:06:27Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
