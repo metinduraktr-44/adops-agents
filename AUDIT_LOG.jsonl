@@ -14,3 +14,4 @@
 {"ts":"2026-07-17T11:20:00Z","op":"v2.5-kart-role-ozellestirme","detail":"§3a sorumluluk sorulari + §5 per-KPI tani sorulari + §20 tam blok; kart basi ~50 role-ozel soru","validation":"GECTI; 600 kart yaml OK","chain":"K-012"}
 {"ts":"2026-07-17T11:40:00Z","op":"v2.6-rol-modelleri-ve-holding","detail":"79 kaynakli rol-modeli §16b; ROL-MODELLERI.md; HOLDING-MIMARISI umbrella","validation":"GECTI; 600 kart yaml OK","chain":"K-012"}
 {"ts":"2026-07-17T12:00:00Z","op":"v2.7-holding-kod-marka-org-rolmodel-ilke","detail":"holding.json+report+workflow; 3 marka org dokuman; 22 model ilkesi; okelley fix","validation":"GECTI","chain":"K-012"}
+{"ts_start":"2026-07-18T01:55:14Z","ts_end":"2026-07-18T01:55:15Z","islem":"nightly","denetim":"RUN"}
