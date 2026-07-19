@@ -16,3 +16,4 @@
 {"ts":"2026-07-17T12:00:00Z","op":"v2.7-holding-kod-marka-org-rolmodel-ilke","detail":"holding.json+report+workflow; 3 marka org dokuman; 22 model ilkesi; okelley fix","validation":"GECTI","chain":"K-012"}
 {"ts_start":"2026-07-18T01:55:14Z","ts_end":"2026-07-18T01:55:15Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-07-18T06:26:20Z", "op": "gunluk-operasyon", "onduty": ["inf", "prg", "sea"], "outputs": ["gundem/2026-07-18-standup.md", "makaleler/2026-07-18-capi-signal-health.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-07-19T02:06:20Z","ts_end":"2026-07-19T02:06:21Z","islem":"nightly","denetim":"RUN"}
