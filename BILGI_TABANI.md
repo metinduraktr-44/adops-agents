@@ -45,3 +45,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-07-21T07:03:50Z] gunluk-operasyon: standup+makale üretildi; nöbet soc/mob/ret; konu creative-fatigue-signals.
+## 2026-07-22T02:03:31Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
