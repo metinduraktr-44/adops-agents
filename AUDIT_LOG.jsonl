@@ -27,3 +27,4 @@
 {"ts": "2026-07-22T07:06:02Z", "op": "gunluk-operasyon", "onduty": ["mob", "ret", "seo"], "outputs": ["gundem/2026-07-22-standup.md", "makaleler/2026-07-22-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-07-23T02:10:27Z","ts_end":"2026-07-23T02:10:27Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-07-23T06:44:21Z", "op": "gunluk-operasyon", "onduty": ["ret", "seo", "cro"], "outputs": ["gundem/2026-07-23-standup.md", "makaleler/2026-07-23-claude-code-agents-for-adops.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-07-24T02:06:41Z","ts_end":"2026-07-24T02:06:42Z","islem":"nightly","denetim":"RUN"}
