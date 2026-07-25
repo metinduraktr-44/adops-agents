@@ -59,3 +59,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-07-24T06:44:20Z] gunluk-operasyon: standup+makale üretildi; nöbet seo/cro/ana; konu dco-feed-architecture.
 ## 2026-07-25T02:06:09Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-07-25T06:35:00Z] gunluk-operasyon: standup+makale üretildi; nöbet cro/ana/dsc; konu incrementality-geo-holdouts.
