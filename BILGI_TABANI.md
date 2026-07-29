@@ -74,3 +74,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-07-28T07:06:56Z] gunluk-operasyon: standup+makale üretildi; nöbet ops/cre/str; konu agency-ai-org-design.
+## 2026-07-29T02:02:12Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
