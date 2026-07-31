@@ -82,3 +82,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-07-30T07:07:26Z] gunluk-operasyon: standup+makale üretildi; nöbet str/cls/nbd; konu skan-vs-sandbox-attribution.
+## 2026-07-31T02:11:07Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
