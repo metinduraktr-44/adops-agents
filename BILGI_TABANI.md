@@ -90,3 +90,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-01T06:44:47Z] gunluk-operasyon: standup+makale üretildi; nöbet nbd/prt/prd; konu ctv-buying-checklist.
+- [2026-08-01T08:15:02Z] kurul: tutanak toplantilar/2026-08-01-kurul.md; açık P0=6, gelir aksiyonu=19.
