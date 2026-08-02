@@ -47,3 +47,4 @@
 {"ts_start":"2026-08-01T02:12:31Z","ts_end":"2026-08-01T02:12:31Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-01T06:44:47Z", "op": "gunluk-operasyon", "onduty": ["nbd", "prt", "prd"], "outputs": ["gundem/2026-08-01-standup.md", "makaleler/2026-08-01-ctv-buying-checklist.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-08-01T08:15:02Z", "op": "kurul", "outputs": ["toplantilar/2026-08-01-kurul.md"], "validation": "GECTI"}
+{"ts_start":"2026-08-02T02:09:23Z","ts_end":"2026-08-02T02:09:23Z","islem":"nightly","denetim":"RUN"}
