@@ -49,3 +49,4 @@
 {"ts": "2026-08-01T08:15:02Z", "op": "kurul", "outputs": ["toplantilar/2026-08-01-kurul.md"], "validation": "GECTI"}
 {"ts_start":"2026-08-02T02:09:23Z","ts_end":"2026-08-02T02:09:23Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-02T07:07:49Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-08-02-standup.md", "makaleler/2026-08-02-capi-signal-health.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-08-03T02:11:31Z","ts_end":"2026-08-03T02:11:31Z","islem":"nightly","denetim":"RUN"}
