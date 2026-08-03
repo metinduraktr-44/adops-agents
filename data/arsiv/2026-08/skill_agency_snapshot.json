@@ -1,0 +1,68 @@
+{
+  "ts": "2026-08-03T16:03:26Z",
+  "skills": 696,
+  "families": 43,
+  "mcps": 81,
+  "top_families": [
+    [
+      "product-analytics",
+      108
+    ],
+    [
+      "comms-twilio",
+      56
+    ],
+    [
+      "db-relational",
+      48
+    ],
+    [
+      "obs-elastic",
+      35
+    ],
+    [
+      "data-pipeline",
+      33
+    ],
+    [
+      "web-vercel",
+      31
+    ],
+    [
+      "cloud-azure",
+      31
+    ],
+    [
+      "db-cockroach",
+      30
+    ],
+    [
+      "cicd-harness",
+      27
+    ],
+    [
+      "web-intel",
+      24
+    ],
+    [
+      "auth-identity",
+      22
+    ],
+    [
+      "backend-encore",
+      21
+    ],
+    [
+      "cloud-render",
+      21
+    ],
+    [
+      "ml-hf",
+      18
+    ],
+    [
+      "cursor-meta",
+      17
+    ]
+  ]
+}

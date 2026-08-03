@@ -100,3 +100,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-08-03T07:54:09Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu retail-media-tr-landscape.
 - [2026-08-03T10:00:47Z] liderlik-sync: tutanak toplantilar/2026-08-03-liderlik.md; açık P0=6, gelir aksiyonu=19.
+- [2026-08-03T15:48:54Z] aylik-arastirma: arşiv 2026-08 yenilendi; prev=none (first cycle or missing snapshot); ozel_yetenekler+prompt_bank(122×3)+K-003 kapsam. Ogrenim: aylık döngü = onceki snapshot oku → generator → damgala; 900B karakter talebi şablon+runtime expand ile karşılanır.
+
+- [2026-08-03T16:03:26Z] v2.9 skill-agency: 696 skill → 43 mini-ajans + 81 MCP katalog; K-003 ölçek reddi korundu; Cursor rule+skill router eklendi. Ogrenim: skill'leri tek tek çalıştırmak yerine aile RACI + MCP auth kapısı.

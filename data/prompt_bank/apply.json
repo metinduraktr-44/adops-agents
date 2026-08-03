@@ -1,0 +1,3552 @@
+{
+  "_meta": {
+    "ts": "2026-08-03T15:48:54Z",
+    "counts": {
+      "title": 122,
+      "team": 122,
+      "apply": 122
+    },
+    "char_policy": "Signal > length. Each prompt is a dense template expanded from role cards at runtime — not a fixed 900M-char blob (🚩 K-003).",
+    "accuracy_target": "99% via generators + validate.py + sourced URLs only"
+  },
+  "prompts": [
+    {
+      "id": "U-prg-intake-001",
+      "n": 1,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Programmatic · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prg-diagnose-002",
+      "n": 2,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Programmatic · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prg-plan-003",
+      "n": 3,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Programmatic · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prg-execute-004",
+      "n": 4,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Programmatic · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prg-optimize-005",
+      "n": 5,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Programmatic · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prg-report-006",
+      "n": 6,
+      "audience": "apply",
+      "dept": "prg",
+      "dept_name": "Programmatic",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Programmatic · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `prg` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-intake-007",
+      "n": 7,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Paid Search · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-diagnose-008",
+      "n": 8,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Paid Search · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-plan-009",
+      "n": 9,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Paid Search · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-execute-010",
+      "n": 10,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Paid Search · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-optimize-011",
+      "n": 11,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Paid Search · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-sea-report-012",
+      "n": 12,
+      "audience": "apply",
+      "dept": "sea",
+      "dept_name": "Paid Search",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Paid Search · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `sea` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-intake-013",
+      "n": 13,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Paid Social · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-diagnose-014",
+      "n": 14,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Paid Social · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-plan-015",
+      "n": 15,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Paid Social · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-execute-016",
+      "n": 16,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Paid Social · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-optimize-017",
+      "n": 17,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Paid Social · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-soc-report-018",
+      "n": 18,
+      "audience": "apply",
+      "dept": "soc",
+      "dept_name": "Paid Social",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Paid Social · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `soc` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-intake-019",
+      "n": 19,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Mobile UA · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-diagnose-020",
+      "n": 20,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Mobile UA · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-plan-021",
+      "n": 21,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Mobile UA · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-execute-022",
+      "n": 22,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Mobile UA · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-optimize-023",
+      "n": 23,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Mobile UA · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-mob-report-024",
+      "n": 24,
+      "audience": "apply",
+      "dept": "mob",
+      "dept_name": "Mobile UA",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Mobile UA · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `mob` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-intake-025",
+      "n": 25,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Retail Media · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-diagnose-026",
+      "n": 26,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Retail Media · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-plan-027",
+      "n": 27,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Retail Media · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-execute-028",
+      "n": 28,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Retail Media · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-optimize-029",
+      "n": 29,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Retail Media · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ret-report-030",
+      "n": 30,
+      "audience": "apply",
+      "dept": "ret",
+      "dept_name": "Retail Media",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Retail Media · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `ret` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-intake-031",
+      "n": 31,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] SEO & Content · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-diagnose-032",
+      "n": 32,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] SEO & Content · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-plan-033",
+      "n": 33,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] SEO & Content · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-execute-034",
+      "n": 34,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] SEO & Content · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-optimize-035",
+      "n": 35,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] SEO & Content · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-seo-report-036",
+      "n": 36,
+      "audience": "apply",
+      "dept": "seo",
+      "dept_name": "SEO & Content",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] SEO & Content · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `seo` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-intake-037",
+      "n": 37,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] CRO & Experience · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-diagnose-038",
+      "n": 38,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] CRO & Experience · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-plan-039",
+      "n": 39,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] CRO & Experience · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-execute-040",
+      "n": 40,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] CRO & Experience · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-optimize-041",
+      "n": 41,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] CRO & Experience · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cro-report-042",
+      "n": 42,
+      "audience": "apply",
+      "dept": "cro",
+      "dept_name": "CRO & Experience",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] CRO & Experience · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `cro` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-intake-043",
+      "n": 43,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Analytics · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-diagnose-044",
+      "n": 44,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Analytics · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-plan-045",
+      "n": 45,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Analytics · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-execute-046",
+      "n": 46,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Analytics · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-optimize-047",
+      "n": 47,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Analytics · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ana-report-048",
+      "n": 48,
+      "audience": "apply",
+      "dept": "ana",
+      "dept_name": "Analytics",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Analytics · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `ana` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-intake-049",
+      "n": 49,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Data Science & AI · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-diagnose-050",
+      "n": 50,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Data Science & AI · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-plan-051",
+      "n": 51,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Data Science & AI · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-execute-052",
+      "n": 52,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Data Science & AI · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-optimize-053",
+      "n": 53,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Data Science & AI · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-dsc-report-054",
+      "n": 54,
+      "audience": "apply",
+      "dept": "dsc",
+      "dept_name": "Data Science & AI",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Data Science & AI · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `dsc` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-intake-055",
+      "n": 55,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Ad Ops · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-diagnose-056",
+      "n": 56,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Ad Ops · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-plan-057",
+      "n": 57,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Ad Ops · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-execute-058",
+      "n": 58,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Ad Ops · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-optimize-059",
+      "n": 59,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Ad Ops · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-ops-report-060",
+      "n": 60,
+      "audience": "apply",
+      "dept": "ops",
+      "dept_name": "Ad Ops",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Ad Ops · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `ops` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-intake-061",
+      "n": 61,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Creative Studio · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-diagnose-062",
+      "n": 62,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Creative Studio · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-plan-063",
+      "n": 63,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Creative Studio · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-execute-064",
+      "n": 64,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Creative Studio · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-optimize-065",
+      "n": 65,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Creative Studio · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cre-report-066",
+      "n": 66,
+      "audience": "apply",
+      "dept": "cre",
+      "dept_name": "Creative Studio",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Creative Studio · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `cre` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-intake-067",
+      "n": 67,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Strategy · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-diagnose-068",
+      "n": 68,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Strategy · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-plan-069",
+      "n": 69,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Strategy · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-execute-070",
+      "n": 70,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Strategy · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-optimize-071",
+      "n": 71,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Strategy · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-str-report-072",
+      "n": 72,
+      "audience": "apply",
+      "dept": "str",
+      "dept_name": "Strategy",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Strategy · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `str` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-intake-073",
+      "n": 73,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Client Services · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-diagnose-074",
+      "n": 74,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Client Services · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-plan-075",
+      "n": 75,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Client Services · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-execute-076",
+      "n": 76,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Client Services · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-optimize-077",
+      "n": 77,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Client Services · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-cls-report-078",
+      "n": 78,
+      "audience": "apply",
+      "dept": "cls",
+      "dept_name": "Client Services",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Client Services · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `cls` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-intake-079",
+      "n": 79,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] New Business · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-diagnose-080",
+      "n": 80,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] New Business · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-plan-081",
+      "n": 81,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] New Business · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-execute-082",
+      "n": 82,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] New Business · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-optimize-083",
+      "n": 83,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] New Business · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-nbd-report-084",
+      "n": 84,
+      "audience": "apply",
+      "dept": "nbd",
+      "dept_name": "New Business",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] New Business · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `nbd` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-intake-085",
+      "n": 85,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Partnerships · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-diagnose-086",
+      "n": 86,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Partnerships · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-plan-087",
+      "n": 87,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Partnerships · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-execute-088",
+      "n": 88,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Partnerships · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-optimize-089",
+      "n": 89,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Partnerships · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prt-report-090",
+      "n": 90,
+      "audience": "apply",
+      "dept": "prt",
+      "dept_name": "Partnerships",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Partnerships · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `prt` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-intake-091",
+      "n": 91,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Product · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-diagnose-092",
+      "n": 92,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Product · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-plan-093",
+      "n": 93,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Product · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-execute-094",
+      "n": 94,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Product · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-optimize-095",
+      "n": 95,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Product · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-prd-report-096",
+      "n": 96,
+      "audience": "apply",
+      "dept": "prd",
+      "dept_name": "Product",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Product · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `prd` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-intake-097",
+      "n": 97,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Finance · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-diagnose-098",
+      "n": 98,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Finance · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-plan-099",
+      "n": 99,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Finance · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-execute-100",
+      "n": 100,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Finance · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-optimize-101",
+      "n": 101,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Finance · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-fin-report-102",
+      "n": 102,
+      "audience": "apply",
+      "dept": "fin",
+      "dept_name": "Finance",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Finance · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `fin` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-intake-103",
+      "n": 103,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Legal · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-diagnose-104",
+      "n": 104,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Legal · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-plan-105",
+      "n": 105,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Legal · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-execute-106",
+      "n": 106,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Legal · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-optimize-107",
+      "n": 107,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Legal · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-leg-report-108",
+      "n": 108,
+      "audience": "apply",
+      "dept": "leg",
+      "dept_name": "Legal",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Legal · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `leg` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-intake-109",
+      "n": 109,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Talent · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-diagnose-110",
+      "n": 110,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Talent · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-plan-111",
+      "n": 111,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Talent · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-execute-112",
+      "n": 112,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Talent · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-optimize-113",
+      "n": 113,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Talent · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-tal-report-114",
+      "n": 114,
+      "audience": "apply",
+      "dept": "tal",
+      "dept_name": "Talent",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Talent · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `tal` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-intake-115",
+      "n": 115,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "intake",
+      "family_label": "Brief / intake",
+      "title": "[apply] Tech Infra · Brief / intake",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `intake` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-diagnose-116",
+      "n": 116,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "diagnose",
+      "family_label": "Diagnose current state",
+      "title": "[apply] Tech Infra · Diagnose current state",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `diagnose` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-plan-117",
+      "n": 117,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "plan",
+      "family_label": "Plan & roadmap",
+      "title": "[apply] Tech Infra · Plan & roadmap",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `plan` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-execute-118",
+      "n": 118,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "execute",
+      "family_label": "Execute playbook step",
+      "title": "[apply] Tech Infra · Execute playbook step",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `execute` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-optimize-119",
+      "n": 119,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "optimize",
+      "family_label": "Optimize levers",
+      "title": "[apply] Tech Infra · Optimize levers",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `optimize` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-inf-report-120",
+      "n": 120,
+      "audience": "apply",
+      "dept": "inf",
+      "dept_name": "Tech Infra",
+      "family": "report",
+      "family_label": "Report & narrative",
+      "title": "[apply] Tech Infra · Report & narrative",
+      "prompt": "APPLY MODE — take an existing prompt output for `inf` / `report` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-x-governance-121",
+      "n": 121,
+      "audience": "apply",
+      "dept": "yonetim",
+      "dept_name": "Agency-wide",
+      "family": "governance",
+      "family_label": "Governance / red-flag",
+      "title": "[apply] Agency-wide · Governance / red-flag",
+      "prompt": "APPLY MODE — take an existing prompt output for `yonetim` / `governance` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    },
+    {
+      "id": "U-x-archive-122",
+      "n": 122,
+      "audience": "apply",
+      "dept": "yonetim",
+      "dept_name": "Agency-wide",
+      "family": "archive",
+      "family_label": "Monthly archive loop",
+      "title": "[apply] Agency-wide · Monthly archive loop",
+      "prompt": "APPLY MODE — take an existing prompt output for `yonetim` / `archive` and operationalize it.\n1. Input: prior prompt artifact ID + owner slug.\n2. Convert to IS_LISTESI.md checkboxes (P0/P1) with owner · deadline.\n3. Schedule: daily standup / weekly leadership / monthly board as appropriate.\n4. Define verification: which script/workflow proves done (validate.py, gunluk-operasyon, etc.).\n5. Run self-inquiry: sample 3 questions from docs/OZ-DENETIM-SORU-BANKASI.md.\nDo not regenerate strategy; ship the application path.",
+      "inputs": [
+        "role_card_path",
+        "IS_LISTESI.md",
+        "BILGI_TABANI.md",
+        "data/org.json"
+      ],
+      "outputs": [
+        "AUDIT_LOG.jsonl append",
+        "BILGI_TABANI.md learning line",
+        "artifacts under gundem|toplantilar|makaleler|docs"
+      ],
+      "dod": [
+        "ts_start/ts_end stamped",
+        "6-layer validation considered",
+        "🚩 for impossible/paid/unsafe",
+        "Turkish owner chat / English repo files"
+      ],
+      "min_detail_policy": "Expand from linked role card §1–§21 + dept sources; do not pad"
+    }
+  ]
+}
