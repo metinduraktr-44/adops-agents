@@ -1,0 +1,14 @@
+---
+description: Force skill/MCP requests through the AdOps skill-agency registry (K-003 scale guards).
+alwaysApply: true
+---
+
+# Skill Agency Routing
+
+When the user lists many `/skills` or asks to "run all skills":
+
+1. Do **not** attempt to invoke every skill live.
+2. Use `data/skill_agency_registry.json` + `docs/SKILL-AGENCY-REGISTRY.md`.
+3. Operate by **family mini-agency** (EVP→Analyst) with daily/weekly/monthly stamp loops.
+4. 🚩 Impossible scale (900B chars, top-100 per title) → refuse; use prompt templates + ≤5 sourced role models.
+5. MCP: discover schema first; auth failures → red-flag, continue with docs.

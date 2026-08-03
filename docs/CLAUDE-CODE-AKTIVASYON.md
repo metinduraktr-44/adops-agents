@@ -36,3 +36,25 @@ WHEN USER ASKS FOR WORK:
 
 Prompt bank meta: {"ts": "2026-08-03T15:48:54Z", "counts": {"title": 122, "team": 122, "apply": 122}, "char_policy": "Signal > length. Each prompt is a dense template expanded from role cards at runtime — not a fixed 900M-char blob (🚩 K-003).", "accuracy_target": "99% via generators + validate.py + sourced URLs only"}
 ```
+
+---
+
+## v2.9 Skill Agency Router (yapıştır ek)
+> Damga: 2026-08-03T16:02:52Z
+
+```
+SKILL AGENCY MODE (v2.9):
+- Registry: data/skill_agency_registry.json (696 skills / 44 families)
+- Family prompts: data/prompt_bank/skill_families.json
+- Index: docs/SKILL-AGENCY-REGISTRY.md
+- MCP catalog: registry.mcps[] (minimum + detailed + auth_note)
+
+When user names a /skill:
+1) Lookup skill in registry.skills[] → family
+2) Load FAM-<family> prompt
+3) Use title ladder EVP→Analyst for RACI
+4) Call MCP only after GetMcpTools; needsAuth → 🚩
+5) Archive + timestamp protocol mandatory
+
+GitHub: open issues with label lead|skill-agency; PRs via ManagePullRequest only from cloud agent tooling.
+```

@@ -1,9 +1,11 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-08-03T15:48:54Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-08-03T16:03:26Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
+- [x] v2.9 skill→agency registry: 696 skill / 43 mini-ajans / 81 MCP → cto-platform · 2026-08-03
 - [x] v2.8 araştırma paketi: 132 yetenek + 122×3 prompt + aylık arşiv döngüsü → cto-platform · 2026-08-03
-- [ ] Claude Code'a `docs/CLAUDE-CODE-AKTIVASYON.md` yapıştır + ilk title prompt smoke test → ceo-orchestrator · 2026-08-04
+- [ ] Claude Code'a `docs/CLAUDE-CODE-AKTIVASYON.md` (v2.8+v2.9) yapıştır + smoke test → ceo-orchestrator · 2026-08-04
+- [ ] MCP auth: Exa/Twilio/PostHog/Harness ihtiyaçlarına göre Cursor MCP Authorize → Metin · 2026-08-10
 - [ ] v2.1 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
 - [ ] ANTHROPIC_API_KEY secret kontrolü → cto-platform · 2026-07-18
 - [ ] METİN: GitHub Sponsors hesabı aç (FUNDING.yml hazır) → K1 · 2026-07-24

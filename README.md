@@ -20,6 +20,8 @@ This repo is structured as **the org chart of a full-scale performance-marketing
 | `docs/CLAUDE-CODE-AKTIVASYON.md` | Paste-ready Claude Code activation prompt |
 | `docs/KAPSAM-VE-KIRMIZI-BAYRAKLAR.md` | Scope + 🚩 K-003 (impossible-scale guards) |
 | `docs/PROMPT-KATALOGU.md` | **122×3** title/team/apply prompt templates |
+| `docs/SKILL-AGENCY-REGISTRY.md` | **696 skills → 43 mini-agencies** + 81 MCP catalog |
+| `data/skill_agency_registry.json` | Machine-readable skill/MCP → dept/title router |
 | `docs/OZEL-YETENEKLER.md` | **132** culture/arts/sports/craft skills |
 | `data/arsiv/YYYY-MM/` | Monthly research archive (read→refresh→stamp) |
 | `docs/ORG-SEMASI.md` | Org chart (mermaid + headcount table) |
