@@ -1,0 +1,1635 @@
+{
+ "schema": "1",
+ "guncelleme_utc": "2026-08-03T15:56:20Z",
+ "toplam": 101,
+ "not": "Ajans rollerine takılabilen ek beceri havuzu; her biri kültür/sanat/spor/zihin gelişim döngüsüyle 7/24 LLM ajans yapısına bağlanır.",
+ "kategoriler": [
+  "sanat",
+  "muzik",
+  "sahne",
+  "yazi",
+  "spor",
+  "zanaat",
+  "zihin",
+  "dijital",
+  "liderlik"
+ ],
+ "yetenekler": [
+  {
+   "id": "yt-001",
+   "ad": "Resim",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-002",
+   "ad": "Heykel",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-003",
+   "ad": "Fotoğrafçılık",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-004",
+   "ad": "Grafik Tasarım",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-005",
+   "ad": "İllüstrasyon",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-006",
+   "ad": "Ebru",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-007",
+   "ad": "Seramik",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-008",
+   "ad": "Kaligrafi",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-009",
+   "ad": "Dijital Sanat",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-010",
+   "ad": "Kolaj",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-011",
+   "ad": "Baskı Sanatı",
+   "kategori": "sanat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-012",
+   "ad": "Piyano",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-013",
+   "ad": "Gitar",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-014",
+   "ad": "Keman",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-015",
+   "ad": "Vokal",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-016",
+   "ad": "Beste",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-017",
+   "ad": "DJ/Prodüksiyon",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-018",
+   "ad": "Bağlama",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-019",
+   "ad": "Ritim/Perküsyon",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-020",
+   "ad": "Müzik Teorisi",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-021",
+   "ad": "Ses Tasarımı",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-022",
+   "ad": "Koro",
+   "kategori": "muzik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-023",
+   "ad": "Tiyatro",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-024",
+   "ad": "Doğaçlama",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-025",
+   "ad": "Dans",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-026",
+   "ad": "Bale",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-027",
+   "ad": "Modern Dans",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-028",
+   "ad": "Halk Oyunları",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-029",
+   "ad": "Gölge Oyunu",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-030",
+   "ad": "Pandomim",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-031",
+   "ad": "Sahne Yönetimi",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-032",
+   "ad": "Stand-up",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-033",
+   "ad": "Hitabet",
+   "kategori": "sahne",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-034",
+   "ad": "Yaratıcı Yazarlık",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-035",
+   "ad": "Şiir",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-036",
+   "ad": "Senaryo",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-037",
+   "ad": "Gazetecilik",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-038",
+   "ad": "Deneme",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-039",
+   "ad": "Mizah Yazarlığı",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-040",
+   "ad": "Teknik Yazım",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-041",
+   "ad": "Editörlük",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-042",
+   "ad": "Çeviri",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-043",
+   "ad": "Blog",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-044",
+   "ad": "Storytelling",
+   "kategori": "yazi",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-045",
+   "ad": "Koşu",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-046",
+   "ad": "Yüzme",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-047",
+   "ad": "Bisiklet",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-048",
+   "ad": "Futbol",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-049",
+   "ad": "Basketbol",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-050",
+   "ad": "Tenis",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-051",
+   "ad": "Voleybol",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-052",
+   "ad": "Yoga",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-053",
+   "ad": "Pilates",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-054",
+   "ad": "Tırmanış",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-055",
+   "ad": "Dövüş Sanatları",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-056",
+   "ad": "Satranç",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-057",
+   "ad": "Triatlon",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-058",
+   "ad": "Kürek",
+   "kategori": "spor",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-059",
+   "ad": "Ahşap İşçiliği",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-060",
+   "ad": "Örgü/Dokuma",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-061",
+   "ad": "Takı Tasarımı",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-062",
+   "ad": "Deri İşçiliği",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-063",
+   "ad": "Cam İşçiliği",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-064",
+   "ad": "Aşçılık",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-065",
+   "ad": "Pastacılık",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-066",
+   "ad": "Bahçıvanlık",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-067",
+   "ad": "Origami",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-068",
+   "ad": "Model Yapımı",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-069",
+   "ad": "Kokoreç/Barista",
+   "kategori": "zanaat",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-070",
+   "ad": "Meditasyon",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-071",
+   "ad": "Hızlı Okuma",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-072",
+   "ad": "Hafıza Teknikleri",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-073",
+   "ad": "Eleştirel Düşünme",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-074",
+   "ad": "Zihin Haritalama",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-075",
+   "ad": "Münazara",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-076",
+   "ad": "Yabancı Dil",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-077",
+   "ad": "Felsefe",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-078",
+   "ad": "Mantık Bulmacaları",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-079",
+   "ad": "Not Alma Sistemleri",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-080",
+   "ad": "Stoacılık Pratiği",
+   "kategori": "zihin",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-081",
+   "ad": "Video Kurgu",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-082",
+   "ad": "3B Modelleme",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-083",
+   "ad": "Animasyon",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-084",
+   "ad": "Oyun Tasarımı",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-085",
+   "ad": "Podcast Yapımı",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-086",
+   "ad": "Motion Graphics",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-087",
+   "ad": "UI/UX Eskizleme",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-088",
+   "ad": "Veri Görselleştirme",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-089",
+   "ad": "Drone Fotoğrafçılığı",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-090",
+   "ad": "AR/VR Deneyimi",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-091",
+   "ad": "No-Code Uygulama",
+   "kategori": "dijital",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-092",
+   "ad": "Koçluk",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-093",
+   "ad": "Mentorluk",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-094",
+   "ad": "Kolaylaştırıcılık (facilitation)",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-095",
+   "ad": "Müzakere",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-096",
+   "ad": "Karar Verme",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-097",
+   "ad": "Kültürlerarası İletişim",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-098",
+   "ad": "Zaman Yönetimi",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-099",
+   "ad": "Kriz İletişimi",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-100",
+   "ad": "Topluluk Kurma",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  },
+  {
+   "id": "yt-101",
+   "ad": "Geri Bildirim Verme",
+   "kategori": "liderlik",
+   "gelisim_dongusu": [
+    "incele",
+    "web-arastir(rol-model)",
+    "uygula",
+    "arsivle(zaman-damgali)",
+    "geri-oku",
+    "tekrarla"
+   ],
+   "rol_model_kaynak": "data/kaynaklar.json (aylık research_loop ile büyür)",
+   "arsiv": "arsiv/ (zaman damgalı)",
+   "durum": "aktif"
+  }
+ ]
+}
