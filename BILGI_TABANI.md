@@ -100,3 +100,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-08-03T07:54:09Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu retail-media-tr-landscape.
 - [2026-08-03T10:00:47Z] liderlik-sync: tutanak toplantilar/2026-08-03-liderlik.md; açık P0=6, gelir aksiyonu=19.
+- [2026-08-03T15:48:54Z] aylik-arastirma: arşiv 2026-08 yenilendi; prev=none (first cycle or missing snapshot); ozel_yetenekler+prompt_bank(122×3)+K-003 kapsam. Ogrenim: aylık döngü = onceki snapshot oku → generator → damgala; 900B karakter talebi şablon+runtime expand ile karşılanır.

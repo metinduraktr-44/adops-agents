@@ -1,7 +1,9 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-08-03T07:54:09Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-08-03T15:48:54Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
+- [x] v2.8 araştırma paketi: 132 yetenek + 122×3 prompt + aylık arşiv döngüsü → cto-platform · 2026-08-03
+- [ ] Claude Code'a `docs/CLAUDE-CODE-AKTIVASYON.md` yapıştır + ilk title prompt smoke test → ceo-orchestrator · 2026-08-04
 - [ ] v2.1 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
 - [ ] ANTHROPIC_API_KEY secret kontrolü → cto-platform · 2026-07-18
 - [ ] METİN: GitHub Sponsors hesabı aç (FUNDING.yml hazır) → K1 · 2026-07-24

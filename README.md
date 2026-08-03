@@ -17,6 +17,11 @@ This repo is structured as **the org chart of a full-scale performance-marketing
 | `components/agents/agency/` | **600 agent role cards** (10 C-level + 20 departments) |
 | `data/org.json` | Machine-readable org — single source of truth |
 | `docs/MASTER-PROMPT-AJANS.md` | Agency constitution — **924 hierarchical headings** |
+| `docs/CLAUDE-CODE-AKTIVASYON.md` | Paste-ready Claude Code activation prompt |
+| `docs/KAPSAM-VE-KIRMIZI-BAYRAKLAR.md` | Scope + 🚩 K-003 (impossible-scale guards) |
+| `docs/PROMPT-KATALOGU.md` | **122×3** title/team/apply prompt templates |
+| `docs/OZEL-YETENEKLER.md` | **132** culture/arts/sports/craft skills |
+| `data/arsiv/YYYY-MM/` | Monthly research archive (read→refresh→stamp) |
 | `docs/ORG-SEMASI.md` | Org chart (mermaid + headcount table) |
 | `docs/YOL-HARITASI.md` | Roadmap with hard deadlines (F0–F5) |
 | `docs/GELIR-MODELI-TAKIP.md` | Revenue channel tracker (5 channels) |
@@ -49,6 +54,7 @@ cp -r components/agents/performance-marketing .claude/agents/
 | `gunluk-operasyon` | 07:30 daily | 20-dept standup + work-list re-prioritization + **1 article/day** + tracking |
 | `haftalik-toplanti` | Mon 09:00 | leadership sync minutes (C-level + 20 EVPs) |
 | `aylik-kurul` | 1st, 09:00 | board meeting: OKR scoring + roadmap phase gates |
+| `aylik-arastirma` | 2nd, 08:00 | archive read → role/skill/prompt refresh → stamp |
 
 Every run appends `AUDIT_LOG.jsonl` and grows `BILGI_TABANI.md` (cumulative knowledge). Weights don't change — the *knowledge base* does.
 
