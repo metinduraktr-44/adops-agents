@@ -1,0 +1,27 @@
+name: holding-arastirma
+on:
+  schedule:
+    - cron: "0 1 * * *"   # her gece 01:00 UTC = 04:00 Istanbul (title+ülke başına top-5 araştırma)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Holding gece araştırma (geri oku -> top-5 -> arşiv -> takvim -> zincir)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/holding_research.py
+      - name: Validate components
+        run: python3 scripts/validate.py
+      - name: Commit
+        run: |
+          git config user.name "adops-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "holding-arastirma: $(date -u +%Y-%m-%d)" || echo "no changes"
+          git push || echo "push skipped"
