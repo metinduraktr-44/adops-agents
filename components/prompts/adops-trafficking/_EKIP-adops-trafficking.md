@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-adops-trafficking
 description: "Ad Ops & Trafficking departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Ad Ops & Trafficking (ops)
 > Headcount: 35 · Birimler: CM360 Trafficking, Tag Management, QA & Verification, Consent & Privacy Ops
-> KPI: Launch error rate < 1%, Tag QA pass 100% pre-launch, Discrepancy < 5% · Üretim: 2026-08-04T08:44:03Z
+> KPI: Launch error rate < 1%, Tag QA pass 100% pre-launch, Discrepancy < 5% · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Ad Ops & Trafficking departman lideri (EVP hattı)

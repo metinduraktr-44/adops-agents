@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-partnerships-sponsorships
 description: "Ortaklıklar & Sponsorluklar departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Ortaklıklar & Sponsorluklar (prt)
 > Headcount: 20 · Birimler: Infra Sponsors, Referral Programs, Ecosystem Relations
-> KPI: 10 sponsor conversations by F3, 2 referral agreements by F4, 3 directory listings by F2 · Üretim: 2026-08-04T08:44:03Z
+> KPI: 10 sponsor conversations by F3, 2 referral agreements by F4, 3 directory listings by F2 · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Ortaklıklar & Sponsorluklar departman lideri (EVP hattı)

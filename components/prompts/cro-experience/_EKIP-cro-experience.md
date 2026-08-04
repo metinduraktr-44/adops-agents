@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-cro-experience
 description: "CRO & Deneyim departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — CRO & Deneyim (cro)
 > Headcount: 25 · Birimler: Experimentation, Landing Systems, UX Research
-> KPI: Test velocity ≥ 4/month, Win rate documented, LP conversion uplift, Sample-size discipline 100% · Üretim: 2026-08-04T08:44:03Z
+> KPI: Test velocity ≥ 4/month, Win rate documented, LP conversion uplift, Sample-size discipline 100% · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: CRO & Deneyim departman lideri (EVP hattı)

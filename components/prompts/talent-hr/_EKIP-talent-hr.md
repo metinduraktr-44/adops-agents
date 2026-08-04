@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-talent-hr
 description: "Yetenek & Ajan Kalitesi departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Yetenek & Ajan Kalitesi (tal)
 > Headcount: 15 · Birimler: Agent Lifecycle, Quality Bar, Training Loops
-> KPI: Quality audit ≥ 95% pass, Role gaps closed ≤ 14 days, Roster coverage 100% · Üretim: 2026-08-04T08:44:03Z
+> KPI: Quality audit ≥ 95% pass, Role gaps closed ≤ 14 days, Roster coverage 100% · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Yetenek & Ajan Kalitesi departman lideri (EVP hattı)

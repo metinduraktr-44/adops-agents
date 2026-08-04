@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-tech-infra
 description: "Teknoloji & Altyapı departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Teknoloji & Altyapı (inf)
 > Headcount: 30 · Birimler: CI/CD & Actions, Validation & Security, MCP & Integrations, Repo Hygiene
-> KPI: CI green ≥ 99%, Integrity file current, 0 secret leaks, Issue triage ≤ 24h · Üretim: 2026-08-04T08:44:03Z
+> KPI: CI green ≥ 99%, Integrity file current, 0 secret leaks, Issue triage ≤ 24h · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Teknoloji & Altyapı departman lideri (EVP hattı)

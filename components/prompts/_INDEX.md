@@ -1,4 +1,4 @@
-# PROMPT KÜTÜPHANESİ (üretim: 2026-08-04T08:44:03Z)
+# PROMPT KÜTÜPHANESİ (üretim: 2026-08-04T08:49:06Z)
 > 600 title promptu + 20 ekip promptu. Her title dosyası (A)title (B)ekip (C)uygulama içerir.
 > Modül/aile: 12 · Üreteç: `scripts/generate_prompts.py`.
 

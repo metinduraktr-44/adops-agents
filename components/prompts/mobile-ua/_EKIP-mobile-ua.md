@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-mobile-ua
 description: "Mobil UA & Uygulama departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Mobil UA & Uygulama (mob)
 > Headcount: 35 · Birimler: Apple Search Ads, Google App Campaigns, MMP (Adjust/AppsFlyer), Retargeting & CRM
-> KPI: SKAN CV coverage ≥ 85%, Fraud rate < 3%, D7 ROAS vs plan, Organic uplift measured · Üretim: 2026-08-04T08:44:03Z
+> KPI: SKAN CV coverage ≥ 85%, Fraud rate < 3%, D7 ROAS vs plan, Organic uplift measured · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Mobil UA & Uygulama departman lideri (EVP hattı)

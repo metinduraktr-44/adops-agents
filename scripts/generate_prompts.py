@@ -51,6 +51,62 @@ MODULES = [
 ]
 
 
+TIER_KEY = {"C": "C-LEVEL", "EVP": "EVP", "DIRECTOR": "DIRECTOR",
+            "LEAD": "LEAD", "SPECIALIST": "SPECIALIST", "ANALYST": "ANALYST"}
+
+
+def load_bank():
+    p = os.path.join(ROOT, "data", "soru_bankasi.json")
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else None
+
+
+def build_questions(dept, role, bank, target):
+    """Deterministik ≥target öz-denetim sorusu. Uydurma yok: bunlar soru/kontrol; olgusal iddia değil."""
+    if not bank:
+        return []
+    lenses = list(bank.get("universal", {}).keys())
+    units = dept.get("units", []) or ["genel"]
+    kpis = dept.get("kpis", [])
+    qs = []
+    for items in bank.get("universal", {}).values():
+        qs += items
+    qs += bank.get("by_dept", {}).get(dept.get("code", ""), [])
+    qs += bank.get("by_tier", {}).get(TIER_KEY.get(role.get("tier", "C"), "C-LEVEL"), [])
+    for u in units:
+        for l in lenses:
+            qs.append(f"[{l}] '{u}' birimi için bu hafta hangi somut kanıtı ürettim; sonraki aksiyonun sahibi+tarihi ne?")
+    for k in kpis:
+        for l in lenses[:8]:
+            qs.append(f"[{l}] KPI '{k}' hedefte mi; sapma varsa kök neden + düzeltme sahibi+tarihi ne?")
+    seen, out = set(), []
+    for q in qs:
+        if q not in seen:
+            seen.add(q); out.append(q)
+    i = 0
+    while len(out) < target:
+        l = lenses[i % len(lenses)]
+        u = units[i % len(units)]
+        cand = (f"[{l}] '{u}' · döngü #{i}: önceki koşumun çıktısını girdi aldım mı (🔗), "
+                f"zaman damgaladım mı, öğrenimi BILGI_TABANI'na damıttım mı?")
+        if cand not in seen:
+            seen.add(cand); out.append(cand)
+        i += 1
+    return out
+
+
+def questions_section(dept, role, bank, target):
+    qlist = build_questions(dept, role, bank, target)
+    if not qlist:
+        return ""
+    lines = [f"### (D) ÖZ-DENETİM SORU SETİ — gömülü, {len(qlist)} soru (hedef ≥{target})",
+             "> Kaynak: docs/OZ-DENETIM-SORU-BANKASI.md + birim/KPI×lens türevleri. "
+             "Günlük döngü her koşumda örnekleyip yanıtlar. Uydurma yok; bunlar kontrol sorularıdır.", ""]
+    for i, q in enumerate(qlist, 1):
+        lines.append(f"{i}. {q}")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def w(path, content):
     fp = os.path.join(OUT, path)
     os.makedirs(os.path.dirname(fp), exist_ok=True)
@@ -76,7 +132,7 @@ def family(fam_name, subject, ctx, tools, modules):
     return "\n".join(lines)
 
 
-def role_doc(dept, role, modules):
+def role_doc(dept, role, modules, bank=None, questions=0):
     code = dept["code"]
     tools = tools_for(code)
     dtr = dept.get("name_tr", dept.get("name_en", code))
@@ -108,7 +164,8 @@ def role_doc(dept, role, modules):
     c = family("(C) UYGULAMA PROMPT — 7/24 worklow",
                f"{subj} için otomasyon mühendisi",
                "Yukarıdaki title+ekip promptlarını çalışan bir iş akışına bağla.", tools, modules)
-    return "\n".join(head) + a + b + c
+    d = questions_section(dept, role, bank, questions) if questions else ""
+    return "\n".join(head) + a + b + c + d
 
 
 def team_doc(dept, modules):
@@ -144,10 +201,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dept", help="sadece bu departman kodu")
     ap.add_argument("--modules", type=int, default=len(MODULES))
+    ap.add_argument("--questions", type=int, default=500,
+                    help="her title'a gömülü öz-denetim sorusu sayısı (0=kapalı)")
     args = ap.parse_args()
 
     org = json.load(open(os.path.join(ROOT, "data", "org.json"), encoding="utf-8"))
     modules = MODULES[: max(1, min(args.modules, len(MODULES)))]
+    bank = load_bank()
+    nq = max(0, args.questions)
 
     n_role = n_team = 0
 
@@ -158,14 +219,14 @@ def main():
         for r in org.get("c_level", []):
             role = {"slug": r["slug"], "title": r["title"], "tier": "C",
                     "reports_to": r.get("reports_to", "owner")}
-            w(f"c-level/{r['slug']}.md", role_doc(cdept, role, modules))
+            w(f"c-level/{r['slug']}.md", role_doc(cdept, role, modules, bank, nq))
             n_role += 1
 
     for dept in org["departments"]:
         if args.dept and dept["code"] != args.dept:
             continue
         for role in dept["roles"]:
-            w(f"{dept['slug']}/{role['slug']}.md", role_doc(dept, role, modules))
+            w(f"{dept['slug']}/{role['slug']}.md", role_doc(dept, role, modules, bank, nq))
             n_role += 1
         w(f"{dept['slug']}/_EKIP-{dept['slug']}.md", team_doc(dept, modules))
         n_team += 1
@@ -180,7 +241,7 @@ def main():
                    f"{len(dept['roles'])} rol · `components/prompts/{dept['slug']}/`")
     w("_INDEX.md", "\n".join(idx) + "\n")
 
-    print(f"PROMPTS WRITTEN: {n_role} title + {n_team} team (modules={len(modules)})")
+    print(f"PROMPTS WRITTEN: {n_role} title + {n_team} team (modules={len(modules)}, gömülü-soru≥{nq})")
 
 
 if __name__ == "__main__":

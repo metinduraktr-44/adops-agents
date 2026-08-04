@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-analytics-measurement
 description: "Analitik & Ölçümleme departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Analitik & Ölçümleme (ana)
 > Headcount: 40 · Birimler: GA4 & Tagging, Attribution, MMM & Incrementality, Clean Rooms & Privacy, Dashboards
-> KPI: Tracking coverage ≥ 95%, Attribution doc per client playbook, Dashboard SLA met, 0 unowned KPIs · Üretim: 2026-08-04T08:44:03Z
+> KPI: Tracking coverage ≥ 95%, Attribution doc per client playbook, Dashboard SLA met, 0 unowned KPIs · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Analitik & Ölçümleme departman lideri (EVP hattı)

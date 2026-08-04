@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-new-business
 description: "Yeni İş & Inbound Hunisi departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-04T08:44:03Z
+generated_utc: 2026-08-04T08:49:06Z
 ---
 # EKİP PROMPT — Yeni İş & Inbound Hunisi (nbd)
 > Headcount: 25 · Birimler: Inbound Capture, Pitch Factory, Lead Scoring
-> KPI: Inbound path live (README→contact) F2, Pitch turnaround ≤ 48h, First qualified lead by F5 · Üretim: 2026-08-04T08:44:03Z
+> KPI: Inbound path live (README→contact) F2, Pitch turnaround ≤ 48h, First qualified lead by F5 · Üretim: 2026-08-04T08:49:06Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Yeni İş & Inbound Hunisi departman lideri (EVP hattı)
