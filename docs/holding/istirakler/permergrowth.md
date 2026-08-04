@@ -1,5 +1,5 @@
 # Permergrowth — İştirak org (doküman)
-> Damga: 2026-08-04T09:40:15Z · TR: Performans büyüme holding iştiraki (aynı org deseni) · Tip: `opco_agency` · Repo: `planned/permergrowth`
+> Damga: 2026-08-04T09:52:36Z · TR: Performans büyüme holding iştiraki (aynı org deseni) · Tip: `opco_agency` · Repo: `planned/permergrowth`
 
 ## Mandate
 Client-facing performance growth; mirrors AdOps ladder at smaller scale

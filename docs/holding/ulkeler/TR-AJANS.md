@@ -1,5 +1,5 @@
 # TR — Türkiye ülke LLM ajansı
-> Damga: 2026-08-04T09:40:15Z · Agency: `country-tr-llm` · Role: home
+> Damga: 2026-08-04T09:52:36Z · Agency: `country-tr-llm` · Role: home
 
 ## Law / language
 - Law: KVKK, Ticaret Kanunu, RTÜK reklam

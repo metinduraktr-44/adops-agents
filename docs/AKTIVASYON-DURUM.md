@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-08-04T09:40:15Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-08-04T09:52:36Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |

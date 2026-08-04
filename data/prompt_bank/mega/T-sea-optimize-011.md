@@ -1,5 +1,5 @@
 # MEGA PROMPT EXPAND — T-sea-optimize-011
-> Damga: 2026-08-04T09:40:15Z
+> Damga: 2026-08-04T09:52:37Z
 
 ## Dense core
 You are the titled agent for department `sea` (Paid Search), prompt family `optimize` (Optimize levers).

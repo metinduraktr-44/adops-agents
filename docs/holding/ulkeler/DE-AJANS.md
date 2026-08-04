@@ -1,5 +1,5 @@
 # DE — Almanya ülke LLM ajansı
-> Damga: 2026-08-04T09:40:15Z · Agency: `country-de-llm` · Role: target
+> Damga: 2026-08-04T09:52:36Z · Agency: `country-de-llm` · Role: target
 
 ## Law / language
 - Law: GDPR, UWG

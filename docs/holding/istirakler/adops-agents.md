@@ -1,5 +1,5 @@
 # AdOps Agents — İştirak org (doküman)
-> Damga: 2026-08-04T09:40:15Z · TR: Performans pazarlama Claude Code ajansı · Tip: `opco_platform` · Repo: `metinduraktr-44/adops-agents`
+> Damga: 2026-08-04T09:52:36Z · TR: Performans pazarlama Claude Code ajansı · Tip: `opco_platform` · Repo: `metinduraktr-44/adops-agents`
 
 ## Mandate
 LLM agency for performance marketing delivery; 20 depts; 7/24 cron

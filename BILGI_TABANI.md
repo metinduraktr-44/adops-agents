@@ -134,3 +134,189 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-04T09:40:15Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
 
 - [2026-08-04T09:40:16Z] LIVE: terminal apply_activation+k003+holding+validate GECTI; tmux session adops-live-ops 15dk tick.
+
+- [2026-08-04T09:41:56Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:41:57Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:41:57Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:41:56Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:41:57Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:41:57Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:41:57Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:08Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:09Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:09Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:08Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:42:09Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:09Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:09Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:27Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:27Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:27Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:27Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:42:27Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:28Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:28Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:28Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:29Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:29Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:28Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:42:29Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:29Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:29Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:29Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:30Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:42:30Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:29Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:42:30Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:42:30Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:42:30Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:43:58Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:43:58Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:43:58Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:43:58Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:43:58Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:43:59Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:43:59Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:44:31Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:44:31Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:44:31Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:44:31Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:44:31Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:44:32Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:44:32Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:45:59Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:45:59Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:46:00Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:45:59Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:46:00Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:46:00Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:46:00Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:46:32Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:46:33Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:46:33Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:46:32Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:46:33Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:46:33Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:46:33Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:48:00Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:48:01Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:48:01Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:48:00Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:48:01Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:48:01Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:48:01Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:48:34Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:48:34Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:48:34Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:48:34Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:48:34Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:48:35Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:48:35Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:50:02Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:50:02Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:50:02Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:50:02Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:50:02Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:50:03Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:50:03Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:50:35Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:50:35Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:50:35Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:50:35Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:50:36Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:50:36Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:50:36Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:52:03Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:52:04Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:52:04Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:52:03Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:52:04Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:52:04Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:52:04Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:52:36Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:52:37Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T09:52:37Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:52:36Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T09:52:37Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-04T09:52:37Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T09:52:37Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+
+### 2026-08-04T09:52:46Z — live terminal
+- scripts/live_ops.sh + tmux adops-live-ops (120s): her tick stdout.
+- Tek: bash scripts/live_ops.sh | loop: --loop 120
+- validate=GECTI; paste yok; MCP Authorize owner P0.

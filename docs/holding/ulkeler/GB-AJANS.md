@@ -1,5 +1,5 @@
 # GB — Birleşik Krallık ülke LLM ajansı
-> Damga: 2026-08-04T09:40:15Z · Agency: `country-gb-llm` · Role: target
+> Damga: 2026-08-04T09:52:36Z · Agency: `country-gb-llm` · Role: target
 
 ## Law / language
 - Law: UK GDPR, ASA CAP
