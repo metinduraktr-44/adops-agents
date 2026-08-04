@@ -5,6 +5,11 @@
 set -u
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
+# Load local secrets (gitignored) — never echo values
+set -a
+[[ -f "$ROOT/.env.local" ]] && . "$ROOT/.env.local"
+[[ -f "$ROOT/.env" ]] && . "$ROOT/.env"
+set +a
 INTERVAL="${2:-120}"
 LOOP=0
 [[ "${1:-}" == "--loop" ]] && LOOP=1
@@ -23,6 +28,13 @@ tick() {
   echo "[cwd] $ROOT"
   echo "[branch] $(git branch --show-current 2>/dev/null || echo '?')"
   echo "[commit] $(git rev-parse --short HEAD 2>/dev/null || echo '?')"
+  if [[ -n "${OPENROUTER_API_KEY:-}" ]]; then
+    echo "[llm] OPENROUTER set model=${OPENROUTER_MODEL:-default}"
+  elif [[ -n "${ANTHROPIC_API_KEY:-}" ]]; then
+    echo "[llm] ANTHROPIC set"
+  else
+    echo "[llm] NO KEY (skeleton mode)"
+  fi
 
   banner "1/8 apply_activation.py"
   python3 -u scripts/apply_activation.py
