@@ -56,6 +56,16 @@ Every run appends `AUDIT_LOG.jsonl` and grows `BILGI_TABANI.md` (cumulative know
 Every repo surface carries **600+ real operations**: 600 role Issues, 600 activation PRs (each triggering a validation run → 600+ Actions), 623 Wiki pages, 627 SARIF audit records in Security, 600 Projects cards, 600+ commits in Insights. Seeder: `.github/workflows/seed-600.yml` (manual dispatch, built-in token). Plan & math: [`docs/SEGMENT-600-PLANI.md`](docs/SEGMENT-600-PLANI.md).
 > ⚠️ To let generation steps call an LLM, set repo secret `ANTHROPIC_API_KEY` (paid API credits). Without it, loops still run deterministically — standups, minutes, work lists, timestamps, validation — articles ship as structured skeletons.
 
+## 🏛️ Holding & iştirak yapısı (v2.2)
+Ajansın üstüne çok-şirketli **holding** modeli: [`data/holding.json`](data/holding.json) (PermerGrowth Holding + iştirakler: Performance, Hukuk, VizaTrack, Tech/App iOS-Android) + ülkeler + workflow tipleri. Üreteçler (Python 3 stdlib):
+| Üreteç | Çıktı |
+|---|---|
+| `scripts/generate_holding.py` | Her rol için **kişisel** workflow (eğitim/todo/roadmap/toplantı/üst-alt-yan iletişim/öz-denetim) + iştirak başına **grup** workflow → `components/holding/`, org şeması `docs/HOLDING-SEMASI.md` |
+| `scripts/holding_research.py` | Her **gece** iştirak+ülke için title başına dünya **top-5** → `data/holding_kaynaklar.json` + zaman damgalı `arsiv/holding/` + `docs/HOLDING-ARASTIRMA-TAKVIMI.md` |
+
+Gece cron: `.github/workflows/holding-arastirma.yml`. Yapıştır-hazır kurulum promptu: [`docs/meta-prompts/HOLDING-APP.md`](docs/meta-prompts/HOLDING-APP.md).
+> İştirak/rol eklemek: `data/holding.json` düzenle → üreteçleri tekrar çalıştır. 🚩 900 katrilyon karakter gibi hedefler imkânsızdır; yapı üreteçle ölçeklenir.
+
 ## 🧩 Classic components (v1, still included)
 | Type | Component | Does |
 |---|---|---|
