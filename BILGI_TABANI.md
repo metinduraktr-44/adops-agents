@@ -112,3 +112,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-04T08:44:21Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
 
 - [2026-08-04T08:44:20Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-04T08:49:12Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.

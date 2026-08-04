@@ -11,11 +11,13 @@ Progressive disclosure (read as needed):
 2. `docs/MASTER-PROMPT-AJANS.md`
 3. `docs/KAPSAM-VE-KIRMIZI-BAYRAKLAR.md`
 4. `data/org.json` + `components/agents/agency/**`
-5. `data/prompt_bank/{title,team,apply}.json` (122×3)
-6. `data/skill_agency_registry.json` (v2.9)
-7. `data/holding.json` + `docs/holding/**` (v2.10)
-8. `data/arsiv/**` before research refresh
-9. `BILGI_TABANI.md` + `AUDIT_LOG.jsonl`
+5. `data/prompt_bank/{title,team,apply}.json` (122×3) + mega expander `data/prompt_bank/mega/`
+6. `data/title_questions/<dept>.json` — ≥500 questions per title slug (not in MD cards)
+7. `data/title_top100_queues.json` — 100 slots/discipline (sourced + pending_query only)
+8. `data/skill_agency_registry.json` (v2.9)
+9. `data/holding.json` + `docs/holding/**` (v2.10)
+10. `data/arsiv/**` before research refresh
+11. `BILGI_TABANI.md` + `AUDIT_LOG.jsonl`
 
 ## Principles
 - Signal over length. No filler. Copy-paste-ready output.

@@ -1,0 +1,2147 @@
+# TITLE / DISCIPLINE TOP-100 RESEARCH QUEUES
+> Damga: 2026-08-04T08:49:12Z · 🚩 Uydurma isim YOK · Dolu slot = kaynaklı · Boş = pending_query
+
+Her title, kendi departman disiplin kuyruğunu kullanır (`data/title_top100_queues.json`).
+Aylık/gece döngü pending sorguları araştırır; URL bulunursa `sourced` yapar.
+
+## prg — sourced 4 / pending 96
+- #1 **Ari Paparo** — adtech'in en tanınan sesi, 'Yield' yazarı, Marketecture — https://aripaparo.com/
+- #2 **Brian O'Kelley** — programatiğin 'vaftiz babası', AppNexus kurucusu — https://en.wikipedia.org/wiki/Brian_O%27Kelley
+- #3 **Ratko Vidakovic** — AdProfs kurucusu, adtech eğitimi — https://adprofs.co/
+- #4 **Tom Triscari** — programatik ekonomisti, yield/açık artırma — https://www.adeconforum.com/speaker/tomtriscari/
+- #5 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #6 _pending_ — `prg performance marketing conference keynote primary source`
+- #7 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #8 _pending_ — `prg performance marketing measurement scientist primary source`
+- #9 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `prg performance marketing practitioner interview primary source`
+- #12 _pending_ — `prg performance marketing benchmark study author primary source`
+- #13 _pending_ — `prg performance marketing platform product liaison primary source`
+- #14 _pending_ — `prg performance marketing agency operator case study primary source`
+- #15 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #16 _pending_ — `prg performance marketing conference keynote primary source`
+- #17 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #18 _pending_ — `prg performance marketing measurement scientist primary source`
+- #19 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `prg performance marketing practitioner interview primary source`
+- #22 _pending_ — `prg performance marketing benchmark study author primary source`
+- #23 _pending_ — `prg performance marketing platform product liaison primary source`
+- #24 _pending_ — `prg performance marketing agency operator case study primary source`
+- #25 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #26 _pending_ — `prg performance marketing conference keynote primary source`
+- #27 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #28 _pending_ — `prg performance marketing measurement scientist primary source`
+- #29 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `prg performance marketing practitioner interview primary source`
+- #32 _pending_ — `prg performance marketing benchmark study author primary source`
+- #33 _pending_ — `prg performance marketing platform product liaison primary source`
+- #34 _pending_ — `prg performance marketing agency operator case study primary source`
+- #35 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #36 _pending_ — `prg performance marketing conference keynote primary source`
+- #37 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #38 _pending_ — `prg performance marketing measurement scientist primary source`
+- #39 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `prg performance marketing practitioner interview primary source`
+- #42 _pending_ — `prg performance marketing benchmark study author primary source`
+- #43 _pending_ — `prg performance marketing platform product liaison primary source`
+- #44 _pending_ — `prg performance marketing agency operator case study primary source`
+- #45 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #46 _pending_ — `prg performance marketing conference keynote primary source`
+- #47 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #48 _pending_ — `prg performance marketing measurement scientist primary source`
+- #49 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `prg performance marketing practitioner interview primary source`
+- #52 _pending_ — `prg performance marketing benchmark study author primary source`
+- #53 _pending_ — `prg performance marketing platform product liaison primary source`
+- #54 _pending_ — `prg performance marketing agency operator case study primary source`
+- #55 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #56 _pending_ — `prg performance marketing conference keynote primary source`
+- #57 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #58 _pending_ — `prg performance marketing measurement scientist primary source`
+- #59 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `prg performance marketing practitioner interview primary source`
+- #62 _pending_ — `prg performance marketing benchmark study author primary source`
+- #63 _pending_ — `prg performance marketing platform product liaison primary source`
+- #64 _pending_ — `prg performance marketing agency operator case study primary source`
+- #65 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #66 _pending_ — `prg performance marketing conference keynote primary source`
+- #67 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #68 _pending_ — `prg performance marketing measurement scientist primary source`
+- #69 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `prg performance marketing practitioner interview primary source`
+- #72 _pending_ — `prg performance marketing benchmark study author primary source`
+- #73 _pending_ — `prg performance marketing platform product liaison primary source`
+- #74 _pending_ — `prg performance marketing agency operator case study primary source`
+- #75 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #76 _pending_ — `prg performance marketing conference keynote primary source`
+- #77 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #78 _pending_ — `prg performance marketing measurement scientist primary source`
+- #79 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `prg performance marketing practitioner interview primary source`
+- #82 _pending_ — `prg performance marketing benchmark study author primary source`
+- #83 _pending_ — `prg performance marketing platform product liaison primary source`
+- #84 _pending_ — `prg performance marketing agency operator case study primary source`
+- #85 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #86 _pending_ — `prg performance marketing conference keynote primary source`
+- #87 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #88 _pending_ — `prg performance marketing measurement scientist primary source`
+- #89 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `prg performance marketing practitioner interview primary source`
+- #92 _pending_ — `prg performance marketing benchmark study author primary source`
+- #93 _pending_ — `prg performance marketing platform product liaison primary source`
+- #94 _pending_ — `prg performance marketing agency operator case study primary source`
+- #95 _pending_ — `prg performance marketing academic paper lead author primary source`
+- #96 _pending_ — `prg performance marketing conference keynote primary source`
+- #97 _pending_ — `prg performance marketing open-source maintainer primary source`
+- #98 _pending_ — `prg performance marketing measurement scientist primary source`
+- #99 _pending_ — `prg performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `prg performance marketing privacy counsel thought leader primary source`
+
+## sea — sourced 4 / pending 96
+- #1 **Frederick Vallaeys** — Optmyzr CEO, PPC otomasyonu yazarı — https://www.optmyzr.com/
+- #2 **Ginny Marvin** — Google Ads Product Liaison — https://www.linkedin.com/in/ginnymarvin/
+- #3 **Larry Kim** — WordStream kurucusu — https://www.linkedin.com/in/larrykim/
+- #4 **Kirk Williams** — ZATO, Shopping/PMax otoritesi — https://zatomarketing.com/
+- #5 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #6 _pending_ — `sea performance marketing conference keynote primary source`
+- #7 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #8 _pending_ — `sea performance marketing measurement scientist primary source`
+- #9 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `sea performance marketing practitioner interview primary source`
+- #12 _pending_ — `sea performance marketing benchmark study author primary source`
+- #13 _pending_ — `sea performance marketing platform product liaison primary source`
+- #14 _pending_ — `sea performance marketing agency operator case study primary source`
+- #15 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #16 _pending_ — `sea performance marketing conference keynote primary source`
+- #17 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #18 _pending_ — `sea performance marketing measurement scientist primary source`
+- #19 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `sea performance marketing practitioner interview primary source`
+- #22 _pending_ — `sea performance marketing benchmark study author primary source`
+- #23 _pending_ — `sea performance marketing platform product liaison primary source`
+- #24 _pending_ — `sea performance marketing agency operator case study primary source`
+- #25 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #26 _pending_ — `sea performance marketing conference keynote primary source`
+- #27 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #28 _pending_ — `sea performance marketing measurement scientist primary source`
+- #29 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `sea performance marketing practitioner interview primary source`
+- #32 _pending_ — `sea performance marketing benchmark study author primary source`
+- #33 _pending_ — `sea performance marketing platform product liaison primary source`
+- #34 _pending_ — `sea performance marketing agency operator case study primary source`
+- #35 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #36 _pending_ — `sea performance marketing conference keynote primary source`
+- #37 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #38 _pending_ — `sea performance marketing measurement scientist primary source`
+- #39 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `sea performance marketing practitioner interview primary source`
+- #42 _pending_ — `sea performance marketing benchmark study author primary source`
+- #43 _pending_ — `sea performance marketing platform product liaison primary source`
+- #44 _pending_ — `sea performance marketing agency operator case study primary source`
+- #45 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #46 _pending_ — `sea performance marketing conference keynote primary source`
+- #47 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #48 _pending_ — `sea performance marketing measurement scientist primary source`
+- #49 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `sea performance marketing practitioner interview primary source`
+- #52 _pending_ — `sea performance marketing benchmark study author primary source`
+- #53 _pending_ — `sea performance marketing platform product liaison primary source`
+- #54 _pending_ — `sea performance marketing agency operator case study primary source`
+- #55 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #56 _pending_ — `sea performance marketing conference keynote primary source`
+- #57 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #58 _pending_ — `sea performance marketing measurement scientist primary source`
+- #59 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `sea performance marketing practitioner interview primary source`
+- #62 _pending_ — `sea performance marketing benchmark study author primary source`
+- #63 _pending_ — `sea performance marketing platform product liaison primary source`
+- #64 _pending_ — `sea performance marketing agency operator case study primary source`
+- #65 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #66 _pending_ — `sea performance marketing conference keynote primary source`
+- #67 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #68 _pending_ — `sea performance marketing measurement scientist primary source`
+- #69 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `sea performance marketing practitioner interview primary source`
+- #72 _pending_ — `sea performance marketing benchmark study author primary source`
+- #73 _pending_ — `sea performance marketing platform product liaison primary source`
+- #74 _pending_ — `sea performance marketing agency operator case study primary source`
+- #75 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #76 _pending_ — `sea performance marketing conference keynote primary source`
+- #77 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #78 _pending_ — `sea performance marketing measurement scientist primary source`
+- #79 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `sea performance marketing practitioner interview primary source`
+- #82 _pending_ — `sea performance marketing benchmark study author primary source`
+- #83 _pending_ — `sea performance marketing platform product liaison primary source`
+- #84 _pending_ — `sea performance marketing agency operator case study primary source`
+- #85 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #86 _pending_ — `sea performance marketing conference keynote primary source`
+- #87 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #88 _pending_ — `sea performance marketing measurement scientist primary source`
+- #89 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `sea performance marketing practitioner interview primary source`
+- #92 _pending_ — `sea performance marketing benchmark study author primary source`
+- #93 _pending_ — `sea performance marketing platform product liaison primary source`
+- #94 _pending_ — `sea performance marketing agency operator case study primary source`
+- #95 _pending_ — `sea performance marketing academic paper lead author primary source`
+- #96 _pending_ — `sea performance marketing conference keynote primary source`
+- #97 _pending_ — `sea performance marketing open-source maintainer primary source`
+- #98 _pending_ — `sea performance marketing measurement scientist primary source`
+- #99 _pending_ — `sea performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `sea performance marketing privacy counsel thought leader primary source`
+
+## soc — sourced 4 / pending 96
+- #1 **Savannah Sanchez** — Meta/TikTok performans reklam eğitmeni — https://thesocialsavannah.com/
+- #2 **Andrew Foxwell** — Meta reklam denetim otoritesi — https://www.foxwelldigital.com/
+- #3 **Dara Denney** — performance creative uzmanı — https://www.daradenney.com/
+- #4 **Depesh Mandalia** — 50M$+ FB harcama, ölçekleme — https://depeshmandalia.com/
+- #5 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #6 _pending_ — `soc performance marketing conference keynote primary source`
+- #7 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #8 _pending_ — `soc performance marketing measurement scientist primary source`
+- #9 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `soc performance marketing practitioner interview primary source`
+- #12 _pending_ — `soc performance marketing benchmark study author primary source`
+- #13 _pending_ — `soc performance marketing platform product liaison primary source`
+- #14 _pending_ — `soc performance marketing agency operator case study primary source`
+- #15 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #16 _pending_ — `soc performance marketing conference keynote primary source`
+- #17 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #18 _pending_ — `soc performance marketing measurement scientist primary source`
+- #19 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `soc performance marketing practitioner interview primary source`
+- #22 _pending_ — `soc performance marketing benchmark study author primary source`
+- #23 _pending_ — `soc performance marketing platform product liaison primary source`
+- #24 _pending_ — `soc performance marketing agency operator case study primary source`
+- #25 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #26 _pending_ — `soc performance marketing conference keynote primary source`
+- #27 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #28 _pending_ — `soc performance marketing measurement scientist primary source`
+- #29 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `soc performance marketing practitioner interview primary source`
+- #32 _pending_ — `soc performance marketing benchmark study author primary source`
+- #33 _pending_ — `soc performance marketing platform product liaison primary source`
+- #34 _pending_ — `soc performance marketing agency operator case study primary source`
+- #35 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #36 _pending_ — `soc performance marketing conference keynote primary source`
+- #37 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #38 _pending_ — `soc performance marketing measurement scientist primary source`
+- #39 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `soc performance marketing practitioner interview primary source`
+- #42 _pending_ — `soc performance marketing benchmark study author primary source`
+- #43 _pending_ — `soc performance marketing platform product liaison primary source`
+- #44 _pending_ — `soc performance marketing agency operator case study primary source`
+- #45 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #46 _pending_ — `soc performance marketing conference keynote primary source`
+- #47 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #48 _pending_ — `soc performance marketing measurement scientist primary source`
+- #49 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `soc performance marketing practitioner interview primary source`
+- #52 _pending_ — `soc performance marketing benchmark study author primary source`
+- #53 _pending_ — `soc performance marketing platform product liaison primary source`
+- #54 _pending_ — `soc performance marketing agency operator case study primary source`
+- #55 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #56 _pending_ — `soc performance marketing conference keynote primary source`
+- #57 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #58 _pending_ — `soc performance marketing measurement scientist primary source`
+- #59 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `soc performance marketing practitioner interview primary source`
+- #62 _pending_ — `soc performance marketing benchmark study author primary source`
+- #63 _pending_ — `soc performance marketing platform product liaison primary source`
+- #64 _pending_ — `soc performance marketing agency operator case study primary source`
+- #65 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #66 _pending_ — `soc performance marketing conference keynote primary source`
+- #67 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #68 _pending_ — `soc performance marketing measurement scientist primary source`
+- #69 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `soc performance marketing practitioner interview primary source`
+- #72 _pending_ — `soc performance marketing benchmark study author primary source`
+- #73 _pending_ — `soc performance marketing platform product liaison primary source`
+- #74 _pending_ — `soc performance marketing agency operator case study primary source`
+- #75 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #76 _pending_ — `soc performance marketing conference keynote primary source`
+- #77 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #78 _pending_ — `soc performance marketing measurement scientist primary source`
+- #79 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `soc performance marketing practitioner interview primary source`
+- #82 _pending_ — `soc performance marketing benchmark study author primary source`
+- #83 _pending_ — `soc performance marketing platform product liaison primary source`
+- #84 _pending_ — `soc performance marketing agency operator case study primary source`
+- #85 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #86 _pending_ — `soc performance marketing conference keynote primary source`
+- #87 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #88 _pending_ — `soc performance marketing measurement scientist primary source`
+- #89 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `soc performance marketing practitioner interview primary source`
+- #92 _pending_ — `soc performance marketing benchmark study author primary source`
+- #93 _pending_ — `soc performance marketing platform product liaison primary source`
+- #94 _pending_ — `soc performance marketing agency operator case study primary source`
+- #95 _pending_ — `soc performance marketing academic paper lead author primary source`
+- #96 _pending_ — `soc performance marketing conference keynote primary source`
+- #97 _pending_ — `soc performance marketing open-source maintainer primary source`
+- #98 _pending_ — `soc performance marketing measurement scientist primary source`
+- #99 _pending_ — `soc performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `soc performance marketing privacy counsel thought leader primary source`
+
+## mob — sourced 3 / pending 97
+- #1 **Eric Seufert** — Mobile Dev Memo, ATT/IDFA analisti — https://mobiledevmemo.com/
+- #2 **Shamanth Rao** — RocketShip HQ, UA podcast — https://www.businessofapps.com/app-leaders/shamanth-rao/
+- #3 **Thomas Petit** — ASA/ASO ve post-IDFA UA danışmanı — https://mobiledevmemo.com/
+- #4 _pending_ — `mob performance marketing agency operator case study primary source`
+- #5 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #6 _pending_ — `mob performance marketing conference keynote primary source`
+- #7 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #8 _pending_ — `mob performance marketing measurement scientist primary source`
+- #9 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `mob performance marketing practitioner interview primary source`
+- #12 _pending_ — `mob performance marketing benchmark study author primary source`
+- #13 _pending_ — `mob performance marketing platform product liaison primary source`
+- #14 _pending_ — `mob performance marketing agency operator case study primary source`
+- #15 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #16 _pending_ — `mob performance marketing conference keynote primary source`
+- #17 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #18 _pending_ — `mob performance marketing measurement scientist primary source`
+- #19 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `mob performance marketing practitioner interview primary source`
+- #22 _pending_ — `mob performance marketing benchmark study author primary source`
+- #23 _pending_ — `mob performance marketing platform product liaison primary source`
+- #24 _pending_ — `mob performance marketing agency operator case study primary source`
+- #25 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #26 _pending_ — `mob performance marketing conference keynote primary source`
+- #27 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #28 _pending_ — `mob performance marketing measurement scientist primary source`
+- #29 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `mob performance marketing practitioner interview primary source`
+- #32 _pending_ — `mob performance marketing benchmark study author primary source`
+- #33 _pending_ — `mob performance marketing platform product liaison primary source`
+- #34 _pending_ — `mob performance marketing agency operator case study primary source`
+- #35 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #36 _pending_ — `mob performance marketing conference keynote primary source`
+- #37 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #38 _pending_ — `mob performance marketing measurement scientist primary source`
+- #39 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `mob performance marketing practitioner interview primary source`
+- #42 _pending_ — `mob performance marketing benchmark study author primary source`
+- #43 _pending_ — `mob performance marketing platform product liaison primary source`
+- #44 _pending_ — `mob performance marketing agency operator case study primary source`
+- #45 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #46 _pending_ — `mob performance marketing conference keynote primary source`
+- #47 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #48 _pending_ — `mob performance marketing measurement scientist primary source`
+- #49 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `mob performance marketing practitioner interview primary source`
+- #52 _pending_ — `mob performance marketing benchmark study author primary source`
+- #53 _pending_ — `mob performance marketing platform product liaison primary source`
+- #54 _pending_ — `mob performance marketing agency operator case study primary source`
+- #55 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #56 _pending_ — `mob performance marketing conference keynote primary source`
+- #57 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #58 _pending_ — `mob performance marketing measurement scientist primary source`
+- #59 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `mob performance marketing practitioner interview primary source`
+- #62 _pending_ — `mob performance marketing benchmark study author primary source`
+- #63 _pending_ — `mob performance marketing platform product liaison primary source`
+- #64 _pending_ — `mob performance marketing agency operator case study primary source`
+- #65 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #66 _pending_ — `mob performance marketing conference keynote primary source`
+- #67 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #68 _pending_ — `mob performance marketing measurement scientist primary source`
+- #69 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `mob performance marketing practitioner interview primary source`
+- #72 _pending_ — `mob performance marketing benchmark study author primary source`
+- #73 _pending_ — `mob performance marketing platform product liaison primary source`
+- #74 _pending_ — `mob performance marketing agency operator case study primary source`
+- #75 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #76 _pending_ — `mob performance marketing conference keynote primary source`
+- #77 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #78 _pending_ — `mob performance marketing measurement scientist primary source`
+- #79 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `mob performance marketing practitioner interview primary source`
+- #82 _pending_ — `mob performance marketing benchmark study author primary source`
+- #83 _pending_ — `mob performance marketing platform product liaison primary source`
+- #84 _pending_ — `mob performance marketing agency operator case study primary source`
+- #85 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #86 _pending_ — `mob performance marketing conference keynote primary source`
+- #87 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #88 _pending_ — `mob performance marketing measurement scientist primary source`
+- #89 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `mob performance marketing practitioner interview primary source`
+- #92 _pending_ — `mob performance marketing benchmark study author primary source`
+- #93 _pending_ — `mob performance marketing platform product liaison primary source`
+- #94 _pending_ — `mob performance marketing agency operator case study primary source`
+- #95 _pending_ — `mob performance marketing academic paper lead author primary source`
+- #96 _pending_ — `mob performance marketing conference keynote primary source`
+- #97 _pending_ — `mob performance marketing open-source maintainer primary source`
+- #98 _pending_ — `mob performance marketing measurement scientist primary source`
+- #99 _pending_ — `mob performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `mob performance marketing privacy counsel thought leader primary source`
+
+## ret — sourced 4 / pending 96
+- #1 **Destaney Wishon** — BetterAMS CEO, Amazon Ads otoritesi — https://amzsummits.com/speakers/destaney-wishon/
+- #2 **Kiri Masters** — Bobsled, 'Amazon for CMOs' — https://www.linkedin.com/in/kiri-masters
+- #3 **Andrew Lipsman** — retail media analisti (eski EMARKETER) — https://www.linkedin.com/in/andrew-lipsman-10b2162
+- #4 **Ritu Java** — PPC Ninja, Amazon PPC — https://amzsummits.com/speakers/ritu-java/
+- #5 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #6 _pending_ — `ret performance marketing conference keynote primary source`
+- #7 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #8 _pending_ — `ret performance marketing measurement scientist primary source`
+- #9 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `ret performance marketing practitioner interview primary source`
+- #12 _pending_ — `ret performance marketing benchmark study author primary source`
+- #13 _pending_ — `ret performance marketing platform product liaison primary source`
+- #14 _pending_ — `ret performance marketing agency operator case study primary source`
+- #15 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #16 _pending_ — `ret performance marketing conference keynote primary source`
+- #17 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #18 _pending_ — `ret performance marketing measurement scientist primary source`
+- #19 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `ret performance marketing practitioner interview primary source`
+- #22 _pending_ — `ret performance marketing benchmark study author primary source`
+- #23 _pending_ — `ret performance marketing platform product liaison primary source`
+- #24 _pending_ — `ret performance marketing agency operator case study primary source`
+- #25 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #26 _pending_ — `ret performance marketing conference keynote primary source`
+- #27 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #28 _pending_ — `ret performance marketing measurement scientist primary source`
+- #29 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `ret performance marketing practitioner interview primary source`
+- #32 _pending_ — `ret performance marketing benchmark study author primary source`
+- #33 _pending_ — `ret performance marketing platform product liaison primary source`
+- #34 _pending_ — `ret performance marketing agency operator case study primary source`
+- #35 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #36 _pending_ — `ret performance marketing conference keynote primary source`
+- #37 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #38 _pending_ — `ret performance marketing measurement scientist primary source`
+- #39 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `ret performance marketing practitioner interview primary source`
+- #42 _pending_ — `ret performance marketing benchmark study author primary source`
+- #43 _pending_ — `ret performance marketing platform product liaison primary source`
+- #44 _pending_ — `ret performance marketing agency operator case study primary source`
+- #45 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #46 _pending_ — `ret performance marketing conference keynote primary source`
+- #47 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #48 _pending_ — `ret performance marketing measurement scientist primary source`
+- #49 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `ret performance marketing practitioner interview primary source`
+- #52 _pending_ — `ret performance marketing benchmark study author primary source`
+- #53 _pending_ — `ret performance marketing platform product liaison primary source`
+- #54 _pending_ — `ret performance marketing agency operator case study primary source`
+- #55 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #56 _pending_ — `ret performance marketing conference keynote primary source`
+- #57 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #58 _pending_ — `ret performance marketing measurement scientist primary source`
+- #59 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `ret performance marketing practitioner interview primary source`
+- #62 _pending_ — `ret performance marketing benchmark study author primary source`
+- #63 _pending_ — `ret performance marketing platform product liaison primary source`
+- #64 _pending_ — `ret performance marketing agency operator case study primary source`
+- #65 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #66 _pending_ — `ret performance marketing conference keynote primary source`
+- #67 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #68 _pending_ — `ret performance marketing measurement scientist primary source`
+- #69 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `ret performance marketing practitioner interview primary source`
+- #72 _pending_ — `ret performance marketing benchmark study author primary source`
+- #73 _pending_ — `ret performance marketing platform product liaison primary source`
+- #74 _pending_ — `ret performance marketing agency operator case study primary source`
+- #75 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #76 _pending_ — `ret performance marketing conference keynote primary source`
+- #77 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #78 _pending_ — `ret performance marketing measurement scientist primary source`
+- #79 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `ret performance marketing practitioner interview primary source`
+- #82 _pending_ — `ret performance marketing benchmark study author primary source`
+- #83 _pending_ — `ret performance marketing platform product liaison primary source`
+- #84 _pending_ — `ret performance marketing agency operator case study primary source`
+- #85 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #86 _pending_ — `ret performance marketing conference keynote primary source`
+- #87 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #88 _pending_ — `ret performance marketing measurement scientist primary source`
+- #89 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `ret performance marketing practitioner interview primary source`
+- #92 _pending_ — `ret performance marketing benchmark study author primary source`
+- #93 _pending_ — `ret performance marketing platform product liaison primary source`
+- #94 _pending_ — `ret performance marketing agency operator case study primary source`
+- #95 _pending_ — `ret performance marketing academic paper lead author primary source`
+- #96 _pending_ — `ret performance marketing conference keynote primary source`
+- #97 _pending_ — `ret performance marketing open-source maintainer primary source`
+- #98 _pending_ — `ret performance marketing measurement scientist primary source`
+- #99 _pending_ — `ret performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `ret performance marketing privacy counsel thought leader primary source`
+
+## seo — sourced 4 / pending 96
+- #1 **Rand Fishkin** — Moz/SparkToro kurucusu — https://sparktoro.com/team/rand
+- #2 **Aleyda Solis** — Orainti, learningseo.io/#SEOFOMO — https://www.aleydasolis.com/en/
+- #3 **Danny Sullivan** — Search Engine Land kurucusu — https://dannysullivan.com/
+- #4 **Lily Ray** — E-E-A-T / algoritma uzmanı — https://lilyray.nyc/about-lily-ray/
+- #5 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #6 _pending_ — `seo performance marketing conference keynote primary source`
+- #7 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #8 _pending_ — `seo performance marketing measurement scientist primary source`
+- #9 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `seo performance marketing practitioner interview primary source`
+- #12 _pending_ — `seo performance marketing benchmark study author primary source`
+- #13 _pending_ — `seo performance marketing platform product liaison primary source`
+- #14 _pending_ — `seo performance marketing agency operator case study primary source`
+- #15 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #16 _pending_ — `seo performance marketing conference keynote primary source`
+- #17 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #18 _pending_ — `seo performance marketing measurement scientist primary source`
+- #19 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `seo performance marketing practitioner interview primary source`
+- #22 _pending_ — `seo performance marketing benchmark study author primary source`
+- #23 _pending_ — `seo performance marketing platform product liaison primary source`
+- #24 _pending_ — `seo performance marketing agency operator case study primary source`
+- #25 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #26 _pending_ — `seo performance marketing conference keynote primary source`
+- #27 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #28 _pending_ — `seo performance marketing measurement scientist primary source`
+- #29 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `seo performance marketing practitioner interview primary source`
+- #32 _pending_ — `seo performance marketing benchmark study author primary source`
+- #33 _pending_ — `seo performance marketing platform product liaison primary source`
+- #34 _pending_ — `seo performance marketing agency operator case study primary source`
+- #35 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #36 _pending_ — `seo performance marketing conference keynote primary source`
+- #37 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #38 _pending_ — `seo performance marketing measurement scientist primary source`
+- #39 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `seo performance marketing practitioner interview primary source`
+- #42 _pending_ — `seo performance marketing benchmark study author primary source`
+- #43 _pending_ — `seo performance marketing platform product liaison primary source`
+- #44 _pending_ — `seo performance marketing agency operator case study primary source`
+- #45 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #46 _pending_ — `seo performance marketing conference keynote primary source`
+- #47 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #48 _pending_ — `seo performance marketing measurement scientist primary source`
+- #49 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `seo performance marketing practitioner interview primary source`
+- #52 _pending_ — `seo performance marketing benchmark study author primary source`
+- #53 _pending_ — `seo performance marketing platform product liaison primary source`
+- #54 _pending_ — `seo performance marketing agency operator case study primary source`
+- #55 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #56 _pending_ — `seo performance marketing conference keynote primary source`
+- #57 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #58 _pending_ — `seo performance marketing measurement scientist primary source`
+- #59 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `seo performance marketing practitioner interview primary source`
+- #62 _pending_ — `seo performance marketing benchmark study author primary source`
+- #63 _pending_ — `seo performance marketing platform product liaison primary source`
+- #64 _pending_ — `seo performance marketing agency operator case study primary source`
+- #65 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #66 _pending_ — `seo performance marketing conference keynote primary source`
+- #67 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #68 _pending_ — `seo performance marketing measurement scientist primary source`
+- #69 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `seo performance marketing practitioner interview primary source`
+- #72 _pending_ — `seo performance marketing benchmark study author primary source`
+- #73 _pending_ — `seo performance marketing platform product liaison primary source`
+- #74 _pending_ — `seo performance marketing agency operator case study primary source`
+- #75 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #76 _pending_ — `seo performance marketing conference keynote primary source`
+- #77 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #78 _pending_ — `seo performance marketing measurement scientist primary source`
+- #79 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `seo performance marketing practitioner interview primary source`
+- #82 _pending_ — `seo performance marketing benchmark study author primary source`
+- #83 _pending_ — `seo performance marketing platform product liaison primary source`
+- #84 _pending_ — `seo performance marketing agency operator case study primary source`
+- #85 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #86 _pending_ — `seo performance marketing conference keynote primary source`
+- #87 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #88 _pending_ — `seo performance marketing measurement scientist primary source`
+- #89 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `seo performance marketing practitioner interview primary source`
+- #92 _pending_ — `seo performance marketing benchmark study author primary source`
+- #93 _pending_ — `seo performance marketing platform product liaison primary source`
+- #94 _pending_ — `seo performance marketing agency operator case study primary source`
+- #95 _pending_ — `seo performance marketing academic paper lead author primary source`
+- #96 _pending_ — `seo performance marketing conference keynote primary source`
+- #97 _pending_ — `seo performance marketing open-source maintainer primary source`
+- #98 _pending_ — `seo performance marketing measurement scientist primary source`
+- #99 _pending_ — `seo performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `seo performance marketing privacy counsel thought leader primary source`
+
+## cro — sourced 4 / pending 96
+- #1 **Peep Laja** — CXL/Speero/Wynter kurucusu — https://peeplaja.com/
+- #2 **Ronny Kohavi** — 'Trustworthy Online Controlled Experiments' — https://experimentguide.com/
+- #3 **Georgi Georgiev** — A/B test istatistiği yazarı — https://www.abtestingstats.com/
+- #4 **Chris Goward** — WiderFunnel, 'You Should Test That!' — http://youshouldtestthat.com/author-chris.php
+- #5 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #6 _pending_ — `cro performance marketing conference keynote primary source`
+- #7 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #8 _pending_ — `cro performance marketing measurement scientist primary source`
+- #9 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `cro performance marketing practitioner interview primary source`
+- #12 _pending_ — `cro performance marketing benchmark study author primary source`
+- #13 _pending_ — `cro performance marketing platform product liaison primary source`
+- #14 _pending_ — `cro performance marketing agency operator case study primary source`
+- #15 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #16 _pending_ — `cro performance marketing conference keynote primary source`
+- #17 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #18 _pending_ — `cro performance marketing measurement scientist primary source`
+- #19 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `cro performance marketing practitioner interview primary source`
+- #22 _pending_ — `cro performance marketing benchmark study author primary source`
+- #23 _pending_ — `cro performance marketing platform product liaison primary source`
+- #24 _pending_ — `cro performance marketing agency operator case study primary source`
+- #25 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #26 _pending_ — `cro performance marketing conference keynote primary source`
+- #27 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #28 _pending_ — `cro performance marketing measurement scientist primary source`
+- #29 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `cro performance marketing practitioner interview primary source`
+- #32 _pending_ — `cro performance marketing benchmark study author primary source`
+- #33 _pending_ — `cro performance marketing platform product liaison primary source`
+- #34 _pending_ — `cro performance marketing agency operator case study primary source`
+- #35 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #36 _pending_ — `cro performance marketing conference keynote primary source`
+- #37 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #38 _pending_ — `cro performance marketing measurement scientist primary source`
+- #39 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `cro performance marketing practitioner interview primary source`
+- #42 _pending_ — `cro performance marketing benchmark study author primary source`
+- #43 _pending_ — `cro performance marketing platform product liaison primary source`
+- #44 _pending_ — `cro performance marketing agency operator case study primary source`
+- #45 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #46 _pending_ — `cro performance marketing conference keynote primary source`
+- #47 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #48 _pending_ — `cro performance marketing measurement scientist primary source`
+- #49 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `cro performance marketing practitioner interview primary source`
+- #52 _pending_ — `cro performance marketing benchmark study author primary source`
+- #53 _pending_ — `cro performance marketing platform product liaison primary source`
+- #54 _pending_ — `cro performance marketing agency operator case study primary source`
+- #55 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #56 _pending_ — `cro performance marketing conference keynote primary source`
+- #57 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #58 _pending_ — `cro performance marketing measurement scientist primary source`
+- #59 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `cro performance marketing practitioner interview primary source`
+- #62 _pending_ — `cro performance marketing benchmark study author primary source`
+- #63 _pending_ — `cro performance marketing platform product liaison primary source`
+- #64 _pending_ — `cro performance marketing agency operator case study primary source`
+- #65 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #66 _pending_ — `cro performance marketing conference keynote primary source`
+- #67 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #68 _pending_ — `cro performance marketing measurement scientist primary source`
+- #69 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `cro performance marketing practitioner interview primary source`
+- #72 _pending_ — `cro performance marketing benchmark study author primary source`
+- #73 _pending_ — `cro performance marketing platform product liaison primary source`
+- #74 _pending_ — `cro performance marketing agency operator case study primary source`
+- #75 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #76 _pending_ — `cro performance marketing conference keynote primary source`
+- #77 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #78 _pending_ — `cro performance marketing measurement scientist primary source`
+- #79 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `cro performance marketing practitioner interview primary source`
+- #82 _pending_ — `cro performance marketing benchmark study author primary source`
+- #83 _pending_ — `cro performance marketing platform product liaison primary source`
+- #84 _pending_ — `cro performance marketing agency operator case study primary source`
+- #85 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #86 _pending_ — `cro performance marketing conference keynote primary source`
+- #87 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #88 _pending_ — `cro performance marketing measurement scientist primary source`
+- #89 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `cro performance marketing practitioner interview primary source`
+- #92 _pending_ — `cro performance marketing benchmark study author primary source`
+- #93 _pending_ — `cro performance marketing platform product liaison primary source`
+- #94 _pending_ — `cro performance marketing agency operator case study primary source`
+- #95 _pending_ — `cro performance marketing academic paper lead author primary source`
+- #96 _pending_ — `cro performance marketing conference keynote primary source`
+- #97 _pending_ — `cro performance marketing open-source maintainer primary source`
+- #98 _pending_ — `cro performance marketing measurement scientist primary source`
+- #99 _pending_ — `cro performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `cro performance marketing privacy counsel thought leader primary source`
+
+## ana — sourced 4 / pending 96
+- #1 **Avinash Kaushik** — 'Web Analytics 2.0', Occam's Razor — https://www.kaushik.net/avinash/
+- #2 **Simo Ahava** — GTM/GA4 server-side otoritesi — https://www.simoahava.com/
+- #3 **Julius Fedorovicius** — Analytics Mania, GA4/GTM eğitimi — https://lt.linkedin.com/in/fedorovicius
+- #4 **Krista Seiden** — KS Digital, GA4 geçiş — https://www.linkedin.com/in/kristaseiden
+- #5 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #6 _pending_ — `ana performance marketing conference keynote primary source`
+- #7 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #8 _pending_ — `ana performance marketing measurement scientist primary source`
+- #9 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `ana performance marketing practitioner interview primary source`
+- #12 _pending_ — `ana performance marketing benchmark study author primary source`
+- #13 _pending_ — `ana performance marketing platform product liaison primary source`
+- #14 _pending_ — `ana performance marketing agency operator case study primary source`
+- #15 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #16 _pending_ — `ana performance marketing conference keynote primary source`
+- #17 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #18 _pending_ — `ana performance marketing measurement scientist primary source`
+- #19 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `ana performance marketing practitioner interview primary source`
+- #22 _pending_ — `ana performance marketing benchmark study author primary source`
+- #23 _pending_ — `ana performance marketing platform product liaison primary source`
+- #24 _pending_ — `ana performance marketing agency operator case study primary source`
+- #25 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #26 _pending_ — `ana performance marketing conference keynote primary source`
+- #27 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #28 _pending_ — `ana performance marketing measurement scientist primary source`
+- #29 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `ana performance marketing practitioner interview primary source`
+- #32 _pending_ — `ana performance marketing benchmark study author primary source`
+- #33 _pending_ — `ana performance marketing platform product liaison primary source`
+- #34 _pending_ — `ana performance marketing agency operator case study primary source`
+- #35 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #36 _pending_ — `ana performance marketing conference keynote primary source`
+- #37 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #38 _pending_ — `ana performance marketing measurement scientist primary source`
+- #39 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `ana performance marketing practitioner interview primary source`
+- #42 _pending_ — `ana performance marketing benchmark study author primary source`
+- #43 _pending_ — `ana performance marketing platform product liaison primary source`
+- #44 _pending_ — `ana performance marketing agency operator case study primary source`
+- #45 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #46 _pending_ — `ana performance marketing conference keynote primary source`
+- #47 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #48 _pending_ — `ana performance marketing measurement scientist primary source`
+- #49 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `ana performance marketing practitioner interview primary source`
+- #52 _pending_ — `ana performance marketing benchmark study author primary source`
+- #53 _pending_ — `ana performance marketing platform product liaison primary source`
+- #54 _pending_ — `ana performance marketing agency operator case study primary source`
+- #55 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #56 _pending_ — `ana performance marketing conference keynote primary source`
+- #57 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #58 _pending_ — `ana performance marketing measurement scientist primary source`
+- #59 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `ana performance marketing practitioner interview primary source`
+- #62 _pending_ — `ana performance marketing benchmark study author primary source`
+- #63 _pending_ — `ana performance marketing platform product liaison primary source`
+- #64 _pending_ — `ana performance marketing agency operator case study primary source`
+- #65 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #66 _pending_ — `ana performance marketing conference keynote primary source`
+- #67 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #68 _pending_ — `ana performance marketing measurement scientist primary source`
+- #69 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `ana performance marketing practitioner interview primary source`
+- #72 _pending_ — `ana performance marketing benchmark study author primary source`
+- #73 _pending_ — `ana performance marketing platform product liaison primary source`
+- #74 _pending_ — `ana performance marketing agency operator case study primary source`
+- #75 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #76 _pending_ — `ana performance marketing conference keynote primary source`
+- #77 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #78 _pending_ — `ana performance marketing measurement scientist primary source`
+- #79 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `ana performance marketing practitioner interview primary source`
+- #82 _pending_ — `ana performance marketing benchmark study author primary source`
+- #83 _pending_ — `ana performance marketing platform product liaison primary source`
+- #84 _pending_ — `ana performance marketing agency operator case study primary source`
+- #85 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #86 _pending_ — `ana performance marketing conference keynote primary source`
+- #87 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #88 _pending_ — `ana performance marketing measurement scientist primary source`
+- #89 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `ana performance marketing practitioner interview primary source`
+- #92 _pending_ — `ana performance marketing benchmark study author primary source`
+- #93 _pending_ — `ana performance marketing platform product liaison primary source`
+- #94 _pending_ — `ana performance marketing agency operator case study primary source`
+- #95 _pending_ — `ana performance marketing academic paper lead author primary source`
+- #96 _pending_ — `ana performance marketing conference keynote primary source`
+- #97 _pending_ — `ana performance marketing open-source maintainer primary source`
+- #98 _pending_ — `ana performance marketing measurement scientist primary source`
+- #99 _pending_ — `ana performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `ana performance marketing privacy counsel thought leader primary source`
+
+## dsc — sourced 4 / pending 96
+- #1 **Dominique Hanssens** — 'Market Response Models', UCLA — https://en.wikipedia.org/wiki/Dominique_M._Hanssens
+- #2 **Koen Pauwels** — MMM/attribution araştırmacısı — https://journals.sagepub.com/doi/10.1509/jm.15.0417
+- #3 **Grace Kite** — ekonometrist, Magic Numbers — https://magicnumbers.co.uk/people/dr-grace-kite/
+- #4 **Michael Kaminsky** — Recast, Bayesian MMM — https://www.linkedin.com/in/michael-the-data-guy-kaminsky
+- #5 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #6 _pending_ — `dsc performance marketing conference keynote primary source`
+- #7 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #8 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #9 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #12 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #13 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #14 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #15 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #16 _pending_ — `dsc performance marketing conference keynote primary source`
+- #17 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #18 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #19 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #22 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #23 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #24 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #25 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #26 _pending_ — `dsc performance marketing conference keynote primary source`
+- #27 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #28 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #29 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #32 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #33 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #34 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #35 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #36 _pending_ — `dsc performance marketing conference keynote primary source`
+- #37 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #38 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #39 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #42 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #43 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #44 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #45 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #46 _pending_ — `dsc performance marketing conference keynote primary source`
+- #47 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #48 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #49 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #52 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #53 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #54 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #55 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #56 _pending_ — `dsc performance marketing conference keynote primary source`
+- #57 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #58 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #59 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #62 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #63 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #64 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #65 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #66 _pending_ — `dsc performance marketing conference keynote primary source`
+- #67 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #68 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #69 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #72 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #73 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #74 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #75 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #76 _pending_ — `dsc performance marketing conference keynote primary source`
+- #77 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #78 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #79 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #82 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #83 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #84 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #85 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #86 _pending_ — `dsc performance marketing conference keynote primary source`
+- #87 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #88 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #89 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `dsc performance marketing practitioner interview primary source`
+- #92 _pending_ — `dsc performance marketing benchmark study author primary source`
+- #93 _pending_ — `dsc performance marketing platform product liaison primary source`
+- #94 _pending_ — `dsc performance marketing agency operator case study primary source`
+- #95 _pending_ — `dsc performance marketing academic paper lead author primary source`
+- #96 _pending_ — `dsc performance marketing conference keynote primary source`
+- #97 _pending_ — `dsc performance marketing open-source maintainer primary source`
+- #98 _pending_ — `dsc performance marketing measurement scientist primary source`
+- #99 _pending_ — `dsc performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `dsc performance marketing privacy counsel thought leader primary source`
+
+## ops — sourced 4 / pending 96
+- #1 **Ben Kneen** — AdOpsInsider.com kurucusu — https://www.adopsinsider.com/about/
+- #2 **Rob Beeler** — Beeler.Tech, ad ops topluluğu — https://www.beeler.tech/
+- #3 **Chris Kane** — Jounce Media, SPO otoritesi — https://www.jouncemedia.com/
+- #4 **Ari Paparo** — ad tech açıklayıcı, 'Yield' — https://aripaparo.com/bio
+- #5 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #6 _pending_ — `ops performance marketing conference keynote primary source`
+- #7 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #8 _pending_ — `ops performance marketing measurement scientist primary source`
+- #9 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `ops performance marketing practitioner interview primary source`
+- #12 _pending_ — `ops performance marketing benchmark study author primary source`
+- #13 _pending_ — `ops performance marketing platform product liaison primary source`
+- #14 _pending_ — `ops performance marketing agency operator case study primary source`
+- #15 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #16 _pending_ — `ops performance marketing conference keynote primary source`
+- #17 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #18 _pending_ — `ops performance marketing measurement scientist primary source`
+- #19 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `ops performance marketing practitioner interview primary source`
+- #22 _pending_ — `ops performance marketing benchmark study author primary source`
+- #23 _pending_ — `ops performance marketing platform product liaison primary source`
+- #24 _pending_ — `ops performance marketing agency operator case study primary source`
+- #25 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #26 _pending_ — `ops performance marketing conference keynote primary source`
+- #27 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #28 _pending_ — `ops performance marketing measurement scientist primary source`
+- #29 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `ops performance marketing practitioner interview primary source`
+- #32 _pending_ — `ops performance marketing benchmark study author primary source`
+- #33 _pending_ — `ops performance marketing platform product liaison primary source`
+- #34 _pending_ — `ops performance marketing agency operator case study primary source`
+- #35 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #36 _pending_ — `ops performance marketing conference keynote primary source`
+- #37 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #38 _pending_ — `ops performance marketing measurement scientist primary source`
+- #39 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `ops performance marketing practitioner interview primary source`
+- #42 _pending_ — `ops performance marketing benchmark study author primary source`
+- #43 _pending_ — `ops performance marketing platform product liaison primary source`
+- #44 _pending_ — `ops performance marketing agency operator case study primary source`
+- #45 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #46 _pending_ — `ops performance marketing conference keynote primary source`
+- #47 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #48 _pending_ — `ops performance marketing measurement scientist primary source`
+- #49 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `ops performance marketing practitioner interview primary source`
+- #52 _pending_ — `ops performance marketing benchmark study author primary source`
+- #53 _pending_ — `ops performance marketing platform product liaison primary source`
+- #54 _pending_ — `ops performance marketing agency operator case study primary source`
+- #55 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #56 _pending_ — `ops performance marketing conference keynote primary source`
+- #57 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #58 _pending_ — `ops performance marketing measurement scientist primary source`
+- #59 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `ops performance marketing practitioner interview primary source`
+- #62 _pending_ — `ops performance marketing benchmark study author primary source`
+- #63 _pending_ — `ops performance marketing platform product liaison primary source`
+- #64 _pending_ — `ops performance marketing agency operator case study primary source`
+- #65 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #66 _pending_ — `ops performance marketing conference keynote primary source`
+- #67 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #68 _pending_ — `ops performance marketing measurement scientist primary source`
+- #69 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `ops performance marketing practitioner interview primary source`
+- #72 _pending_ — `ops performance marketing benchmark study author primary source`
+- #73 _pending_ — `ops performance marketing platform product liaison primary source`
+- #74 _pending_ — `ops performance marketing agency operator case study primary source`
+- #75 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #76 _pending_ — `ops performance marketing conference keynote primary source`
+- #77 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #78 _pending_ — `ops performance marketing measurement scientist primary source`
+- #79 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `ops performance marketing practitioner interview primary source`
+- #82 _pending_ — `ops performance marketing benchmark study author primary source`
+- #83 _pending_ — `ops performance marketing platform product liaison primary source`
+- #84 _pending_ — `ops performance marketing agency operator case study primary source`
+- #85 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #86 _pending_ — `ops performance marketing conference keynote primary source`
+- #87 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #88 _pending_ — `ops performance marketing measurement scientist primary source`
+- #89 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `ops performance marketing practitioner interview primary source`
+- #92 _pending_ — `ops performance marketing benchmark study author primary source`
+- #93 _pending_ — `ops performance marketing platform product liaison primary source`
+- #94 _pending_ — `ops performance marketing agency operator case study primary source`
+- #95 _pending_ — `ops performance marketing academic paper lead author primary source`
+- #96 _pending_ — `ops performance marketing conference keynote primary source`
+- #97 _pending_ — `ops performance marketing open-source maintainer primary source`
+- #98 _pending_ — `ops performance marketing measurement scientist primary source`
+- #99 _pending_ — `ops performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `ops performance marketing privacy counsel thought leader primary source`
+
+## cre — sourced 3 / pending 97
+- #1 **Orlando Wood** — System1 CCO, 'Lemon' — https://system1group.com/lemon
+- #2 **James Hurman** — 'The Case for Creativity', WARC ladder — https://www.thecaseforcreativity.com/
+- #3 **Rory Sutherland** — Ogilvy, 'Alchemy' — https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive)
+- #4 _pending_ — `cre performance marketing agency operator case study primary source`
+- #5 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #6 _pending_ — `cre performance marketing conference keynote primary source`
+- #7 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #8 _pending_ — `cre performance marketing measurement scientist primary source`
+- #9 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `cre performance marketing practitioner interview primary source`
+- #12 _pending_ — `cre performance marketing benchmark study author primary source`
+- #13 _pending_ — `cre performance marketing platform product liaison primary source`
+- #14 _pending_ — `cre performance marketing agency operator case study primary source`
+- #15 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #16 _pending_ — `cre performance marketing conference keynote primary source`
+- #17 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #18 _pending_ — `cre performance marketing measurement scientist primary source`
+- #19 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `cre performance marketing practitioner interview primary source`
+- #22 _pending_ — `cre performance marketing benchmark study author primary source`
+- #23 _pending_ — `cre performance marketing platform product liaison primary source`
+- #24 _pending_ — `cre performance marketing agency operator case study primary source`
+- #25 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #26 _pending_ — `cre performance marketing conference keynote primary source`
+- #27 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #28 _pending_ — `cre performance marketing measurement scientist primary source`
+- #29 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `cre performance marketing practitioner interview primary source`
+- #32 _pending_ — `cre performance marketing benchmark study author primary source`
+- #33 _pending_ — `cre performance marketing platform product liaison primary source`
+- #34 _pending_ — `cre performance marketing agency operator case study primary source`
+- #35 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #36 _pending_ — `cre performance marketing conference keynote primary source`
+- #37 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #38 _pending_ — `cre performance marketing measurement scientist primary source`
+- #39 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `cre performance marketing practitioner interview primary source`
+- #42 _pending_ — `cre performance marketing benchmark study author primary source`
+- #43 _pending_ — `cre performance marketing platform product liaison primary source`
+- #44 _pending_ — `cre performance marketing agency operator case study primary source`
+- #45 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #46 _pending_ — `cre performance marketing conference keynote primary source`
+- #47 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #48 _pending_ — `cre performance marketing measurement scientist primary source`
+- #49 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `cre performance marketing practitioner interview primary source`
+- #52 _pending_ — `cre performance marketing benchmark study author primary source`
+- #53 _pending_ — `cre performance marketing platform product liaison primary source`
+- #54 _pending_ — `cre performance marketing agency operator case study primary source`
+- #55 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #56 _pending_ — `cre performance marketing conference keynote primary source`
+- #57 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #58 _pending_ — `cre performance marketing measurement scientist primary source`
+- #59 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `cre performance marketing practitioner interview primary source`
+- #62 _pending_ — `cre performance marketing benchmark study author primary source`
+- #63 _pending_ — `cre performance marketing platform product liaison primary source`
+- #64 _pending_ — `cre performance marketing agency operator case study primary source`
+- #65 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #66 _pending_ — `cre performance marketing conference keynote primary source`
+- #67 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #68 _pending_ — `cre performance marketing measurement scientist primary source`
+- #69 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `cre performance marketing practitioner interview primary source`
+- #72 _pending_ — `cre performance marketing benchmark study author primary source`
+- #73 _pending_ — `cre performance marketing platform product liaison primary source`
+- #74 _pending_ — `cre performance marketing agency operator case study primary source`
+- #75 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #76 _pending_ — `cre performance marketing conference keynote primary source`
+- #77 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #78 _pending_ — `cre performance marketing measurement scientist primary source`
+- #79 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `cre performance marketing practitioner interview primary source`
+- #82 _pending_ — `cre performance marketing benchmark study author primary source`
+- #83 _pending_ — `cre performance marketing platform product liaison primary source`
+- #84 _pending_ — `cre performance marketing agency operator case study primary source`
+- #85 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #86 _pending_ — `cre performance marketing conference keynote primary source`
+- #87 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #88 _pending_ — `cre performance marketing measurement scientist primary source`
+- #89 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `cre performance marketing practitioner interview primary source`
+- #92 _pending_ — `cre performance marketing benchmark study author primary source`
+- #93 _pending_ — `cre performance marketing platform product liaison primary source`
+- #94 _pending_ — `cre performance marketing agency operator case study primary source`
+- #95 _pending_ — `cre performance marketing academic paper lead author primary source`
+- #96 _pending_ — `cre performance marketing conference keynote primary source`
+- #97 _pending_ — `cre performance marketing open-source maintainer primary source`
+- #98 _pending_ — `cre performance marketing measurement scientist primary source`
+- #99 _pending_ — `cre performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `cre performance marketing privacy counsel thought leader primary source`
+
+## str — sourced 4 / pending 96
+- #1 **Les Binet** — 'The Long and the Short of It', 60/40 — https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field
+- #2 **Byron Sharp** — 'How Brands Grow', Ehrenberg-Bass — https://marketingscience.info/staff/professor-byron-sharp
+- #3 **Mark Ritson** — Mini MBA, Marketing Week — https://minimba.com/markritson/
+- #4 **Julian Cole** — Planning Dirty / comms planning — https://www.juliancolestrategy.com/
+- #5 _pending_ — `str performance marketing academic paper lead author primary source`
+- #6 _pending_ — `str performance marketing conference keynote primary source`
+- #7 _pending_ — `str performance marketing open-source maintainer primary source`
+- #8 _pending_ — `str performance marketing measurement scientist primary source`
+- #9 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `str performance marketing practitioner interview primary source`
+- #12 _pending_ — `str performance marketing benchmark study author primary source`
+- #13 _pending_ — `str performance marketing platform product liaison primary source`
+- #14 _pending_ — `str performance marketing agency operator case study primary source`
+- #15 _pending_ — `str performance marketing academic paper lead author primary source`
+- #16 _pending_ — `str performance marketing conference keynote primary source`
+- #17 _pending_ — `str performance marketing open-source maintainer primary source`
+- #18 _pending_ — `str performance marketing measurement scientist primary source`
+- #19 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `str performance marketing practitioner interview primary source`
+- #22 _pending_ — `str performance marketing benchmark study author primary source`
+- #23 _pending_ — `str performance marketing platform product liaison primary source`
+- #24 _pending_ — `str performance marketing agency operator case study primary source`
+- #25 _pending_ — `str performance marketing academic paper lead author primary source`
+- #26 _pending_ — `str performance marketing conference keynote primary source`
+- #27 _pending_ — `str performance marketing open-source maintainer primary source`
+- #28 _pending_ — `str performance marketing measurement scientist primary source`
+- #29 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `str performance marketing practitioner interview primary source`
+- #32 _pending_ — `str performance marketing benchmark study author primary source`
+- #33 _pending_ — `str performance marketing platform product liaison primary source`
+- #34 _pending_ — `str performance marketing agency operator case study primary source`
+- #35 _pending_ — `str performance marketing academic paper lead author primary source`
+- #36 _pending_ — `str performance marketing conference keynote primary source`
+- #37 _pending_ — `str performance marketing open-source maintainer primary source`
+- #38 _pending_ — `str performance marketing measurement scientist primary source`
+- #39 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `str performance marketing practitioner interview primary source`
+- #42 _pending_ — `str performance marketing benchmark study author primary source`
+- #43 _pending_ — `str performance marketing platform product liaison primary source`
+- #44 _pending_ — `str performance marketing agency operator case study primary source`
+- #45 _pending_ — `str performance marketing academic paper lead author primary source`
+- #46 _pending_ — `str performance marketing conference keynote primary source`
+- #47 _pending_ — `str performance marketing open-source maintainer primary source`
+- #48 _pending_ — `str performance marketing measurement scientist primary source`
+- #49 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `str performance marketing practitioner interview primary source`
+- #52 _pending_ — `str performance marketing benchmark study author primary source`
+- #53 _pending_ — `str performance marketing platform product liaison primary source`
+- #54 _pending_ — `str performance marketing agency operator case study primary source`
+- #55 _pending_ — `str performance marketing academic paper lead author primary source`
+- #56 _pending_ — `str performance marketing conference keynote primary source`
+- #57 _pending_ — `str performance marketing open-source maintainer primary source`
+- #58 _pending_ — `str performance marketing measurement scientist primary source`
+- #59 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `str performance marketing practitioner interview primary source`
+- #62 _pending_ — `str performance marketing benchmark study author primary source`
+- #63 _pending_ — `str performance marketing platform product liaison primary source`
+- #64 _pending_ — `str performance marketing agency operator case study primary source`
+- #65 _pending_ — `str performance marketing academic paper lead author primary source`
+- #66 _pending_ — `str performance marketing conference keynote primary source`
+- #67 _pending_ — `str performance marketing open-source maintainer primary source`
+- #68 _pending_ — `str performance marketing measurement scientist primary source`
+- #69 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `str performance marketing practitioner interview primary source`
+- #72 _pending_ — `str performance marketing benchmark study author primary source`
+- #73 _pending_ — `str performance marketing platform product liaison primary source`
+- #74 _pending_ — `str performance marketing agency operator case study primary source`
+- #75 _pending_ — `str performance marketing academic paper lead author primary source`
+- #76 _pending_ — `str performance marketing conference keynote primary source`
+- #77 _pending_ — `str performance marketing open-source maintainer primary source`
+- #78 _pending_ — `str performance marketing measurement scientist primary source`
+- #79 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `str performance marketing practitioner interview primary source`
+- #82 _pending_ — `str performance marketing benchmark study author primary source`
+- #83 _pending_ — `str performance marketing platform product liaison primary source`
+- #84 _pending_ — `str performance marketing agency operator case study primary source`
+- #85 _pending_ — `str performance marketing academic paper lead author primary source`
+- #86 _pending_ — `str performance marketing conference keynote primary source`
+- #87 _pending_ — `str performance marketing open-source maintainer primary source`
+- #88 _pending_ — `str performance marketing measurement scientist primary source`
+- #89 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `str performance marketing practitioner interview primary source`
+- #92 _pending_ — `str performance marketing benchmark study author primary source`
+- #93 _pending_ — `str performance marketing platform product liaison primary source`
+- #94 _pending_ — `str performance marketing agency operator case study primary source`
+- #95 _pending_ — `str performance marketing academic paper lead author primary source`
+- #96 _pending_ — `str performance marketing conference keynote primary source`
+- #97 _pending_ — `str performance marketing open-source maintainer primary source`
+- #98 _pending_ — `str performance marketing measurement scientist primary source`
+- #99 _pending_ — `str performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `str performance marketing privacy counsel thought leader primary source`
+
+## cls — sourced 3 / pending 97
+- #1 **Robert Solomon** — 'The Art of Client Service' — https://www.amazon.com/Art-Client-Service-Marketers-Advertisers/dp/1119227828
+- #2 **Jenny Plant** — Account Management Skills — https://www.accountmanagementskills.com/
+- #3 **David C. Baker** — 'The Business of Expertise' — https://agencymanagementinstitute.com/podcasts/david-baker/
+- #4 _pending_ — `cls performance marketing agency operator case study primary source`
+- #5 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #6 _pending_ — `cls performance marketing conference keynote primary source`
+- #7 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #8 _pending_ — `cls performance marketing measurement scientist primary source`
+- #9 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `cls performance marketing practitioner interview primary source`
+- #12 _pending_ — `cls performance marketing benchmark study author primary source`
+- #13 _pending_ — `cls performance marketing platform product liaison primary source`
+- #14 _pending_ — `cls performance marketing agency operator case study primary source`
+- #15 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #16 _pending_ — `cls performance marketing conference keynote primary source`
+- #17 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #18 _pending_ — `cls performance marketing measurement scientist primary source`
+- #19 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `cls performance marketing practitioner interview primary source`
+- #22 _pending_ — `cls performance marketing benchmark study author primary source`
+- #23 _pending_ — `cls performance marketing platform product liaison primary source`
+- #24 _pending_ — `cls performance marketing agency operator case study primary source`
+- #25 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #26 _pending_ — `cls performance marketing conference keynote primary source`
+- #27 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #28 _pending_ — `cls performance marketing measurement scientist primary source`
+- #29 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `cls performance marketing practitioner interview primary source`
+- #32 _pending_ — `cls performance marketing benchmark study author primary source`
+- #33 _pending_ — `cls performance marketing platform product liaison primary source`
+- #34 _pending_ — `cls performance marketing agency operator case study primary source`
+- #35 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #36 _pending_ — `cls performance marketing conference keynote primary source`
+- #37 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #38 _pending_ — `cls performance marketing measurement scientist primary source`
+- #39 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `cls performance marketing practitioner interview primary source`
+- #42 _pending_ — `cls performance marketing benchmark study author primary source`
+- #43 _pending_ — `cls performance marketing platform product liaison primary source`
+- #44 _pending_ — `cls performance marketing agency operator case study primary source`
+- #45 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #46 _pending_ — `cls performance marketing conference keynote primary source`
+- #47 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #48 _pending_ — `cls performance marketing measurement scientist primary source`
+- #49 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `cls performance marketing practitioner interview primary source`
+- #52 _pending_ — `cls performance marketing benchmark study author primary source`
+- #53 _pending_ — `cls performance marketing platform product liaison primary source`
+- #54 _pending_ — `cls performance marketing agency operator case study primary source`
+- #55 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #56 _pending_ — `cls performance marketing conference keynote primary source`
+- #57 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #58 _pending_ — `cls performance marketing measurement scientist primary source`
+- #59 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `cls performance marketing practitioner interview primary source`
+- #62 _pending_ — `cls performance marketing benchmark study author primary source`
+- #63 _pending_ — `cls performance marketing platform product liaison primary source`
+- #64 _pending_ — `cls performance marketing agency operator case study primary source`
+- #65 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #66 _pending_ — `cls performance marketing conference keynote primary source`
+- #67 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #68 _pending_ — `cls performance marketing measurement scientist primary source`
+- #69 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `cls performance marketing practitioner interview primary source`
+- #72 _pending_ — `cls performance marketing benchmark study author primary source`
+- #73 _pending_ — `cls performance marketing platform product liaison primary source`
+- #74 _pending_ — `cls performance marketing agency operator case study primary source`
+- #75 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #76 _pending_ — `cls performance marketing conference keynote primary source`
+- #77 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #78 _pending_ — `cls performance marketing measurement scientist primary source`
+- #79 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `cls performance marketing practitioner interview primary source`
+- #82 _pending_ — `cls performance marketing benchmark study author primary source`
+- #83 _pending_ — `cls performance marketing platform product liaison primary source`
+- #84 _pending_ — `cls performance marketing agency operator case study primary source`
+- #85 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #86 _pending_ — `cls performance marketing conference keynote primary source`
+- #87 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #88 _pending_ — `cls performance marketing measurement scientist primary source`
+- #89 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `cls performance marketing practitioner interview primary source`
+- #92 _pending_ — `cls performance marketing benchmark study author primary source`
+- #93 _pending_ — `cls performance marketing platform product liaison primary source`
+- #94 _pending_ — `cls performance marketing agency operator case study primary source`
+- #95 _pending_ — `cls performance marketing academic paper lead author primary source`
+- #96 _pending_ — `cls performance marketing conference keynote primary source`
+- #97 _pending_ — `cls performance marketing open-source maintainer primary source`
+- #98 _pending_ — `cls performance marketing measurement scientist primary source`
+- #99 _pending_ — `cls performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `cls performance marketing privacy counsel thought leader primary source`
+
+## nbd — sourced 4 / pending 96
+- #1 **Blair Enns** — 'Win Without Pitching', 'Pricing Creativity' — https://www.winwithoutpitching.com/about/
+- #2 **David C. Baker** — ajans pozisyonlama/büyüme — https://agencymanagementinstitute.com/podcasts/david-baker/
+- #3 **Drew McLellan** — Agency Management Institute — https://agencymanagementinstitute.com/
+- #4 **Mark Sneider** — RSW/US, ajans new-business — https://www.rswus.com/about/
+- #5 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #6 _pending_ — `nbd performance marketing conference keynote primary source`
+- #7 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #8 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #9 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #12 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #13 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #14 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #15 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #16 _pending_ — `nbd performance marketing conference keynote primary source`
+- #17 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #18 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #19 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #22 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #23 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #24 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #25 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #26 _pending_ — `nbd performance marketing conference keynote primary source`
+- #27 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #28 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #29 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #32 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #33 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #34 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #35 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #36 _pending_ — `nbd performance marketing conference keynote primary source`
+- #37 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #38 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #39 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #42 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #43 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #44 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #45 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #46 _pending_ — `nbd performance marketing conference keynote primary source`
+- #47 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #48 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #49 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #52 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #53 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #54 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #55 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #56 _pending_ — `nbd performance marketing conference keynote primary source`
+- #57 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #58 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #59 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #62 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #63 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #64 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #65 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #66 _pending_ — `nbd performance marketing conference keynote primary source`
+- #67 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #68 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #69 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #72 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #73 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #74 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #75 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #76 _pending_ — `nbd performance marketing conference keynote primary source`
+- #77 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #78 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #79 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #82 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #83 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #84 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #85 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #86 _pending_ — `nbd performance marketing conference keynote primary source`
+- #87 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #88 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #89 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `nbd performance marketing practitioner interview primary source`
+- #92 _pending_ — `nbd performance marketing benchmark study author primary source`
+- #93 _pending_ — `nbd performance marketing platform product liaison primary source`
+- #94 _pending_ — `nbd performance marketing agency operator case study primary source`
+- #95 _pending_ — `nbd performance marketing academic paper lead author primary source`
+- #96 _pending_ — `nbd performance marketing conference keynote primary source`
+- #97 _pending_ — `nbd performance marketing open-source maintainer primary source`
+- #98 _pending_ — `nbd performance marketing measurement scientist primary source`
+- #99 _pending_ — `nbd performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `nbd performance marketing privacy counsel thought leader primary source`
+
+## prt — sourced 4 / pending 96
+- #1 **Nadia Eghbal** — 'Working in Public', OSS finansmanı — https://nadiaeghbal.com/oss/
+- #2 **Devon Zuegel** — GitHub Sponsors ürün lideri — https://github.blog/author/devonzuegelgithub-com/
+- #3 **Mary Thengvall** — 'The Business of Developer Relations' — https://www.marythengvall.com/devrelbook
+- #4 **Duane O'Brien** — FOSS Contributor Fund öncüsü — https://opensource.org/board-member/duane-obrien
+- #5 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #6 _pending_ — `prt performance marketing conference keynote primary source`
+- #7 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #8 _pending_ — `prt performance marketing measurement scientist primary source`
+- #9 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `prt performance marketing practitioner interview primary source`
+- #12 _pending_ — `prt performance marketing benchmark study author primary source`
+- #13 _pending_ — `prt performance marketing platform product liaison primary source`
+- #14 _pending_ — `prt performance marketing agency operator case study primary source`
+- #15 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #16 _pending_ — `prt performance marketing conference keynote primary source`
+- #17 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #18 _pending_ — `prt performance marketing measurement scientist primary source`
+- #19 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `prt performance marketing practitioner interview primary source`
+- #22 _pending_ — `prt performance marketing benchmark study author primary source`
+- #23 _pending_ — `prt performance marketing platform product liaison primary source`
+- #24 _pending_ — `prt performance marketing agency operator case study primary source`
+- #25 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #26 _pending_ — `prt performance marketing conference keynote primary source`
+- #27 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #28 _pending_ — `prt performance marketing measurement scientist primary source`
+- #29 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `prt performance marketing practitioner interview primary source`
+- #32 _pending_ — `prt performance marketing benchmark study author primary source`
+- #33 _pending_ — `prt performance marketing platform product liaison primary source`
+- #34 _pending_ — `prt performance marketing agency operator case study primary source`
+- #35 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #36 _pending_ — `prt performance marketing conference keynote primary source`
+- #37 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #38 _pending_ — `prt performance marketing measurement scientist primary source`
+- #39 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `prt performance marketing practitioner interview primary source`
+- #42 _pending_ — `prt performance marketing benchmark study author primary source`
+- #43 _pending_ — `prt performance marketing platform product liaison primary source`
+- #44 _pending_ — `prt performance marketing agency operator case study primary source`
+- #45 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #46 _pending_ — `prt performance marketing conference keynote primary source`
+- #47 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #48 _pending_ — `prt performance marketing measurement scientist primary source`
+- #49 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `prt performance marketing practitioner interview primary source`
+- #52 _pending_ — `prt performance marketing benchmark study author primary source`
+- #53 _pending_ — `prt performance marketing platform product liaison primary source`
+- #54 _pending_ — `prt performance marketing agency operator case study primary source`
+- #55 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #56 _pending_ — `prt performance marketing conference keynote primary source`
+- #57 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #58 _pending_ — `prt performance marketing measurement scientist primary source`
+- #59 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `prt performance marketing practitioner interview primary source`
+- #62 _pending_ — `prt performance marketing benchmark study author primary source`
+- #63 _pending_ — `prt performance marketing platform product liaison primary source`
+- #64 _pending_ — `prt performance marketing agency operator case study primary source`
+- #65 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #66 _pending_ — `prt performance marketing conference keynote primary source`
+- #67 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #68 _pending_ — `prt performance marketing measurement scientist primary source`
+- #69 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `prt performance marketing practitioner interview primary source`
+- #72 _pending_ — `prt performance marketing benchmark study author primary source`
+- #73 _pending_ — `prt performance marketing platform product liaison primary source`
+- #74 _pending_ — `prt performance marketing agency operator case study primary source`
+- #75 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #76 _pending_ — `prt performance marketing conference keynote primary source`
+- #77 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #78 _pending_ — `prt performance marketing measurement scientist primary source`
+- #79 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `prt performance marketing practitioner interview primary source`
+- #82 _pending_ — `prt performance marketing benchmark study author primary source`
+- #83 _pending_ — `prt performance marketing platform product liaison primary source`
+- #84 _pending_ — `prt performance marketing agency operator case study primary source`
+- #85 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #86 _pending_ — `prt performance marketing conference keynote primary source`
+- #87 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #88 _pending_ — `prt performance marketing measurement scientist primary source`
+- #89 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `prt performance marketing practitioner interview primary source`
+- #92 _pending_ — `prt performance marketing benchmark study author primary source`
+- #93 _pending_ — `prt performance marketing platform product liaison primary source`
+- #94 _pending_ — `prt performance marketing agency operator case study primary source`
+- #95 _pending_ — `prt performance marketing academic paper lead author primary source`
+- #96 _pending_ — `prt performance marketing conference keynote primary source`
+- #97 _pending_ — `prt performance marketing open-source maintainer primary source`
+- #98 _pending_ — `prt performance marketing measurement scientist primary source`
+- #99 _pending_ — `prt performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `prt performance marketing privacy counsel thought leader primary source`
+
+## prd — sourced 3 / pending 97
+- #1 **Guillermo Rauch** — Vercel CEO, Next.js/DX — https://www.linkedin.com/in/guillermo-rauch-51a852208/
+- #2 **Kin Lane** — API Evangelist — https://apievangelist.com/
+- #3 **Amir Shevat** — 'Designing Bots', dev platform ürün — https://www.amazon.com/Designing-Bots-Creating-Conversational-Experiences/dp/1491974826
+- #4 _pending_ — `prd performance marketing agency operator case study primary source`
+- #5 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #6 _pending_ — `prd performance marketing conference keynote primary source`
+- #7 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #8 _pending_ — `prd performance marketing measurement scientist primary source`
+- #9 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `prd performance marketing practitioner interview primary source`
+- #12 _pending_ — `prd performance marketing benchmark study author primary source`
+- #13 _pending_ — `prd performance marketing platform product liaison primary source`
+- #14 _pending_ — `prd performance marketing agency operator case study primary source`
+- #15 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #16 _pending_ — `prd performance marketing conference keynote primary source`
+- #17 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #18 _pending_ — `prd performance marketing measurement scientist primary source`
+- #19 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `prd performance marketing practitioner interview primary source`
+- #22 _pending_ — `prd performance marketing benchmark study author primary source`
+- #23 _pending_ — `prd performance marketing platform product liaison primary source`
+- #24 _pending_ — `prd performance marketing agency operator case study primary source`
+- #25 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #26 _pending_ — `prd performance marketing conference keynote primary source`
+- #27 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #28 _pending_ — `prd performance marketing measurement scientist primary source`
+- #29 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `prd performance marketing practitioner interview primary source`
+- #32 _pending_ — `prd performance marketing benchmark study author primary source`
+- #33 _pending_ — `prd performance marketing platform product liaison primary source`
+- #34 _pending_ — `prd performance marketing agency operator case study primary source`
+- #35 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #36 _pending_ — `prd performance marketing conference keynote primary source`
+- #37 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #38 _pending_ — `prd performance marketing measurement scientist primary source`
+- #39 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `prd performance marketing practitioner interview primary source`
+- #42 _pending_ — `prd performance marketing benchmark study author primary source`
+- #43 _pending_ — `prd performance marketing platform product liaison primary source`
+- #44 _pending_ — `prd performance marketing agency operator case study primary source`
+- #45 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #46 _pending_ — `prd performance marketing conference keynote primary source`
+- #47 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #48 _pending_ — `prd performance marketing measurement scientist primary source`
+- #49 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `prd performance marketing practitioner interview primary source`
+- #52 _pending_ — `prd performance marketing benchmark study author primary source`
+- #53 _pending_ — `prd performance marketing platform product liaison primary source`
+- #54 _pending_ — `prd performance marketing agency operator case study primary source`
+- #55 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #56 _pending_ — `prd performance marketing conference keynote primary source`
+- #57 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #58 _pending_ — `prd performance marketing measurement scientist primary source`
+- #59 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `prd performance marketing practitioner interview primary source`
+- #62 _pending_ — `prd performance marketing benchmark study author primary source`
+- #63 _pending_ — `prd performance marketing platform product liaison primary source`
+- #64 _pending_ — `prd performance marketing agency operator case study primary source`
+- #65 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #66 _pending_ — `prd performance marketing conference keynote primary source`
+- #67 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #68 _pending_ — `prd performance marketing measurement scientist primary source`
+- #69 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `prd performance marketing practitioner interview primary source`
+- #72 _pending_ — `prd performance marketing benchmark study author primary source`
+- #73 _pending_ — `prd performance marketing platform product liaison primary source`
+- #74 _pending_ — `prd performance marketing agency operator case study primary source`
+- #75 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #76 _pending_ — `prd performance marketing conference keynote primary source`
+- #77 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #78 _pending_ — `prd performance marketing measurement scientist primary source`
+- #79 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `prd performance marketing practitioner interview primary source`
+- #82 _pending_ — `prd performance marketing benchmark study author primary source`
+- #83 _pending_ — `prd performance marketing platform product liaison primary source`
+- #84 _pending_ — `prd performance marketing agency operator case study primary source`
+- #85 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #86 _pending_ — `prd performance marketing conference keynote primary source`
+- #87 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #88 _pending_ — `prd performance marketing measurement scientist primary source`
+- #89 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `prd performance marketing practitioner interview primary source`
+- #92 _pending_ — `prd performance marketing benchmark study author primary source`
+- #93 _pending_ — `prd performance marketing platform product liaison primary source`
+- #94 _pending_ — `prd performance marketing agency operator case study primary source`
+- #95 _pending_ — `prd performance marketing academic paper lead author primary source`
+- #96 _pending_ — `prd performance marketing conference keynote primary source`
+- #97 _pending_ — `prd performance marketing open-source maintainer primary source`
+- #98 _pending_ — `prd performance marketing measurement scientist primary source`
+- #99 _pending_ — `prd performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `prd performance marketing privacy counsel thought leader primary source`
+
+## fin — sourced 4 / pending 96
+- #1 **Paul W. Farris** — 'Marketing Metrics' başyazarı — https://www.amazon.com/Marketing-Metrics-Definitive-Measuring-Performance/dp/0137058292
+- #2 **James Lenskold** — 'Marketing ROI' — https://www.amazon.com/Marketing-ROI-Campaign-Corporate-Profitability/dp/0071413634
+- #3 **Peter Fader** — Wharton, CLV/'Customer Centricity' — https://marketing.wharton.upenn.edu/profile/faderp/
+- #4 **Les Binet** — 60/40 bütçe tahsisi — https://www.marketingweek.com/this-much-i-learned-les-binet-peter-field/
+- #5 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #6 _pending_ — `fin performance marketing conference keynote primary source`
+- #7 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #8 _pending_ — `fin performance marketing measurement scientist primary source`
+- #9 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `fin performance marketing practitioner interview primary source`
+- #12 _pending_ — `fin performance marketing benchmark study author primary source`
+- #13 _pending_ — `fin performance marketing platform product liaison primary source`
+- #14 _pending_ — `fin performance marketing agency operator case study primary source`
+- #15 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #16 _pending_ — `fin performance marketing conference keynote primary source`
+- #17 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #18 _pending_ — `fin performance marketing measurement scientist primary source`
+- #19 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `fin performance marketing practitioner interview primary source`
+- #22 _pending_ — `fin performance marketing benchmark study author primary source`
+- #23 _pending_ — `fin performance marketing platform product liaison primary source`
+- #24 _pending_ — `fin performance marketing agency operator case study primary source`
+- #25 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #26 _pending_ — `fin performance marketing conference keynote primary source`
+- #27 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #28 _pending_ — `fin performance marketing measurement scientist primary source`
+- #29 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `fin performance marketing practitioner interview primary source`
+- #32 _pending_ — `fin performance marketing benchmark study author primary source`
+- #33 _pending_ — `fin performance marketing platform product liaison primary source`
+- #34 _pending_ — `fin performance marketing agency operator case study primary source`
+- #35 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #36 _pending_ — `fin performance marketing conference keynote primary source`
+- #37 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #38 _pending_ — `fin performance marketing measurement scientist primary source`
+- #39 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `fin performance marketing practitioner interview primary source`
+- #42 _pending_ — `fin performance marketing benchmark study author primary source`
+- #43 _pending_ — `fin performance marketing platform product liaison primary source`
+- #44 _pending_ — `fin performance marketing agency operator case study primary source`
+- #45 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #46 _pending_ — `fin performance marketing conference keynote primary source`
+- #47 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #48 _pending_ — `fin performance marketing measurement scientist primary source`
+- #49 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `fin performance marketing practitioner interview primary source`
+- #52 _pending_ — `fin performance marketing benchmark study author primary source`
+- #53 _pending_ — `fin performance marketing platform product liaison primary source`
+- #54 _pending_ — `fin performance marketing agency operator case study primary source`
+- #55 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #56 _pending_ — `fin performance marketing conference keynote primary source`
+- #57 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #58 _pending_ — `fin performance marketing measurement scientist primary source`
+- #59 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `fin performance marketing practitioner interview primary source`
+- #62 _pending_ — `fin performance marketing benchmark study author primary source`
+- #63 _pending_ — `fin performance marketing platform product liaison primary source`
+- #64 _pending_ — `fin performance marketing agency operator case study primary source`
+- #65 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #66 _pending_ — `fin performance marketing conference keynote primary source`
+- #67 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #68 _pending_ — `fin performance marketing measurement scientist primary source`
+- #69 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `fin performance marketing practitioner interview primary source`
+- #72 _pending_ — `fin performance marketing benchmark study author primary source`
+- #73 _pending_ — `fin performance marketing platform product liaison primary source`
+- #74 _pending_ — `fin performance marketing agency operator case study primary source`
+- #75 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #76 _pending_ — `fin performance marketing conference keynote primary source`
+- #77 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #78 _pending_ — `fin performance marketing measurement scientist primary source`
+- #79 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `fin performance marketing practitioner interview primary source`
+- #82 _pending_ — `fin performance marketing benchmark study author primary source`
+- #83 _pending_ — `fin performance marketing platform product liaison primary source`
+- #84 _pending_ — `fin performance marketing agency operator case study primary source`
+- #85 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #86 _pending_ — `fin performance marketing conference keynote primary source`
+- #87 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #88 _pending_ — `fin performance marketing measurement scientist primary source`
+- #89 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `fin performance marketing practitioner interview primary source`
+- #92 _pending_ — `fin performance marketing benchmark study author primary source`
+- #93 _pending_ — `fin performance marketing platform product liaison primary source`
+- #94 _pending_ — `fin performance marketing agency operator case study primary source`
+- #95 _pending_ — `fin performance marketing academic paper lead author primary source`
+- #96 _pending_ — `fin performance marketing conference keynote primary source`
+- #97 _pending_ — `fin performance marketing open-source maintainer primary source`
+- #98 _pending_ — `fin performance marketing measurement scientist primary source`
+- #99 _pending_ — `fin performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `fin performance marketing privacy counsel thought leader primary source`
+
+## leg — sourced 4 / pending 96
+- #1 **Daniel J. Solove** — gizlilik hukuku profesörü, TeachPrivacy — https://www.danielsolove.com/
+- #2 **Max Schrems** — noyb kurucusu, Schrems I/II — https://en.wikipedia.org/wiki/Max_Schrems
+- #3 **Ann Cavoukian** — 'Privacy by Design' mucidi — https://en.wikipedia.org/wiki/Ann_Cavoukian
+- #4 **Rebecca Tushnet** — Harvard, reklam hukuku — https://hls.harvard.edu/faculty/rebecca-tushnet/
+- #5 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #6 _pending_ — `leg performance marketing conference keynote primary source`
+- #7 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #8 _pending_ — `leg performance marketing measurement scientist primary source`
+- #9 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `leg performance marketing practitioner interview primary source`
+- #12 _pending_ — `leg performance marketing benchmark study author primary source`
+- #13 _pending_ — `leg performance marketing platform product liaison primary source`
+- #14 _pending_ — `leg performance marketing agency operator case study primary source`
+- #15 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #16 _pending_ — `leg performance marketing conference keynote primary source`
+- #17 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #18 _pending_ — `leg performance marketing measurement scientist primary source`
+- #19 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `leg performance marketing practitioner interview primary source`
+- #22 _pending_ — `leg performance marketing benchmark study author primary source`
+- #23 _pending_ — `leg performance marketing platform product liaison primary source`
+- #24 _pending_ — `leg performance marketing agency operator case study primary source`
+- #25 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #26 _pending_ — `leg performance marketing conference keynote primary source`
+- #27 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #28 _pending_ — `leg performance marketing measurement scientist primary source`
+- #29 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `leg performance marketing practitioner interview primary source`
+- #32 _pending_ — `leg performance marketing benchmark study author primary source`
+- #33 _pending_ — `leg performance marketing platform product liaison primary source`
+- #34 _pending_ — `leg performance marketing agency operator case study primary source`
+- #35 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #36 _pending_ — `leg performance marketing conference keynote primary source`
+- #37 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #38 _pending_ — `leg performance marketing measurement scientist primary source`
+- #39 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `leg performance marketing practitioner interview primary source`
+- #42 _pending_ — `leg performance marketing benchmark study author primary source`
+- #43 _pending_ — `leg performance marketing platform product liaison primary source`
+- #44 _pending_ — `leg performance marketing agency operator case study primary source`
+- #45 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #46 _pending_ — `leg performance marketing conference keynote primary source`
+- #47 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #48 _pending_ — `leg performance marketing measurement scientist primary source`
+- #49 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `leg performance marketing practitioner interview primary source`
+- #52 _pending_ — `leg performance marketing benchmark study author primary source`
+- #53 _pending_ — `leg performance marketing platform product liaison primary source`
+- #54 _pending_ — `leg performance marketing agency operator case study primary source`
+- #55 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #56 _pending_ — `leg performance marketing conference keynote primary source`
+- #57 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #58 _pending_ — `leg performance marketing measurement scientist primary source`
+- #59 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `leg performance marketing practitioner interview primary source`
+- #62 _pending_ — `leg performance marketing benchmark study author primary source`
+- #63 _pending_ — `leg performance marketing platform product liaison primary source`
+- #64 _pending_ — `leg performance marketing agency operator case study primary source`
+- #65 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #66 _pending_ — `leg performance marketing conference keynote primary source`
+- #67 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #68 _pending_ — `leg performance marketing measurement scientist primary source`
+- #69 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `leg performance marketing practitioner interview primary source`
+- #72 _pending_ — `leg performance marketing benchmark study author primary source`
+- #73 _pending_ — `leg performance marketing platform product liaison primary source`
+- #74 _pending_ — `leg performance marketing agency operator case study primary source`
+- #75 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #76 _pending_ — `leg performance marketing conference keynote primary source`
+- #77 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #78 _pending_ — `leg performance marketing measurement scientist primary source`
+- #79 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `leg performance marketing practitioner interview primary source`
+- #82 _pending_ — `leg performance marketing benchmark study author primary source`
+- #83 _pending_ — `leg performance marketing platform product liaison primary source`
+- #84 _pending_ — `leg performance marketing agency operator case study primary source`
+- #85 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #86 _pending_ — `leg performance marketing conference keynote primary source`
+- #87 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #88 _pending_ — `leg performance marketing measurement scientist primary source`
+- #89 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `leg performance marketing practitioner interview primary source`
+- #92 _pending_ — `leg performance marketing benchmark study author primary source`
+- #93 _pending_ — `leg performance marketing platform product liaison primary source`
+- #94 _pending_ — `leg performance marketing agency operator case study primary source`
+- #95 _pending_ — `leg performance marketing academic paper lead author primary source`
+- #96 _pending_ — `leg performance marketing conference keynote primary source`
+- #97 _pending_ — `leg performance marketing open-source maintainer primary source`
+- #98 _pending_ — `leg performance marketing measurement scientist primary source`
+- #99 _pending_ — `leg performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `leg performance marketing privacy counsel thought leader primary source`
+
+## tal — sourced 4 / pending 96
+- #1 **Hamel Husain** — LLM eval otoritesi, AI Evals kursu — https://hamel.dev/blog/posts/evals/
+- #2 **Simon Willison** — 'prompt injection', llm aracı — https://simonwillison.net/
+- #3 **Riley Goodside** — ilk Staff Prompt Engineer — https://thegradientpub.substack.com/p/riley-goodside
+- #4 **Elvis Saravia** — Prompt Engineering Guide — https://github.com/dair-ai/Prompt-Engineering-Guide
+- #5 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #6 _pending_ — `tal performance marketing conference keynote primary source`
+- #7 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #8 _pending_ — `tal performance marketing measurement scientist primary source`
+- #9 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `tal performance marketing practitioner interview primary source`
+- #12 _pending_ — `tal performance marketing benchmark study author primary source`
+- #13 _pending_ — `tal performance marketing platform product liaison primary source`
+- #14 _pending_ — `tal performance marketing agency operator case study primary source`
+- #15 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #16 _pending_ — `tal performance marketing conference keynote primary source`
+- #17 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #18 _pending_ — `tal performance marketing measurement scientist primary source`
+- #19 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `tal performance marketing practitioner interview primary source`
+- #22 _pending_ — `tal performance marketing benchmark study author primary source`
+- #23 _pending_ — `tal performance marketing platform product liaison primary source`
+- #24 _pending_ — `tal performance marketing agency operator case study primary source`
+- #25 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #26 _pending_ — `tal performance marketing conference keynote primary source`
+- #27 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #28 _pending_ — `tal performance marketing measurement scientist primary source`
+- #29 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `tal performance marketing practitioner interview primary source`
+- #32 _pending_ — `tal performance marketing benchmark study author primary source`
+- #33 _pending_ — `tal performance marketing platform product liaison primary source`
+- #34 _pending_ — `tal performance marketing agency operator case study primary source`
+- #35 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #36 _pending_ — `tal performance marketing conference keynote primary source`
+- #37 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #38 _pending_ — `tal performance marketing measurement scientist primary source`
+- #39 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `tal performance marketing practitioner interview primary source`
+- #42 _pending_ — `tal performance marketing benchmark study author primary source`
+- #43 _pending_ — `tal performance marketing platform product liaison primary source`
+- #44 _pending_ — `tal performance marketing agency operator case study primary source`
+- #45 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #46 _pending_ — `tal performance marketing conference keynote primary source`
+- #47 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #48 _pending_ — `tal performance marketing measurement scientist primary source`
+- #49 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `tal performance marketing practitioner interview primary source`
+- #52 _pending_ — `tal performance marketing benchmark study author primary source`
+- #53 _pending_ — `tal performance marketing platform product liaison primary source`
+- #54 _pending_ — `tal performance marketing agency operator case study primary source`
+- #55 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #56 _pending_ — `tal performance marketing conference keynote primary source`
+- #57 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #58 _pending_ — `tal performance marketing measurement scientist primary source`
+- #59 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `tal performance marketing practitioner interview primary source`
+- #62 _pending_ — `tal performance marketing benchmark study author primary source`
+- #63 _pending_ — `tal performance marketing platform product liaison primary source`
+- #64 _pending_ — `tal performance marketing agency operator case study primary source`
+- #65 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #66 _pending_ — `tal performance marketing conference keynote primary source`
+- #67 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #68 _pending_ — `tal performance marketing measurement scientist primary source`
+- #69 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `tal performance marketing practitioner interview primary source`
+- #72 _pending_ — `tal performance marketing benchmark study author primary source`
+- #73 _pending_ — `tal performance marketing platform product liaison primary source`
+- #74 _pending_ — `tal performance marketing agency operator case study primary source`
+- #75 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #76 _pending_ — `tal performance marketing conference keynote primary source`
+- #77 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #78 _pending_ — `tal performance marketing measurement scientist primary source`
+- #79 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `tal performance marketing practitioner interview primary source`
+- #82 _pending_ — `tal performance marketing benchmark study author primary source`
+- #83 _pending_ — `tal performance marketing platform product liaison primary source`
+- #84 _pending_ — `tal performance marketing agency operator case study primary source`
+- #85 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #86 _pending_ — `tal performance marketing conference keynote primary source`
+- #87 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #88 _pending_ — `tal performance marketing measurement scientist primary source`
+- #89 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `tal performance marketing practitioner interview primary source`
+- #92 _pending_ — `tal performance marketing benchmark study author primary source`
+- #93 _pending_ — `tal performance marketing platform product liaison primary source`
+- #94 _pending_ — `tal performance marketing agency operator case study primary source`
+- #95 _pending_ — `tal performance marketing academic paper lead author primary source`
+- #96 _pending_ — `tal performance marketing conference keynote primary source`
+- #97 _pending_ — `tal performance marketing open-source maintainer primary source`
+- #98 _pending_ — `tal performance marketing measurement scientist primary source`
+- #99 _pending_ — `tal performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `tal performance marketing privacy counsel thought leader primary source`
+
+## inf — sourced 3 / pending 97
+- #1 **Chip Huyen** — 'Designing ML Systems', MLOps — https://huyenchip.com/
+- #2 **Demetrios Brinkmann** — MLOps Community kurucusu — https://home.mlops.community/
+- #3 **Charity Majors** — Honeycomb, 'Observability Engineering' — https://charity.wtf/about
+- #4 _pending_ — `inf performance marketing agency operator case study primary source`
+- #5 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #6 _pending_ — `inf performance marketing conference keynote primary source`
+- #7 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #8 _pending_ — `inf performance marketing measurement scientist primary source`
+- #9 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `inf performance marketing practitioner interview primary source`
+- #12 _pending_ — `inf performance marketing benchmark study author primary source`
+- #13 _pending_ — `inf performance marketing platform product liaison primary source`
+- #14 _pending_ — `inf performance marketing agency operator case study primary source`
+- #15 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #16 _pending_ — `inf performance marketing conference keynote primary source`
+- #17 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #18 _pending_ — `inf performance marketing measurement scientist primary source`
+- #19 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `inf performance marketing practitioner interview primary source`
+- #22 _pending_ — `inf performance marketing benchmark study author primary source`
+- #23 _pending_ — `inf performance marketing platform product liaison primary source`
+- #24 _pending_ — `inf performance marketing agency operator case study primary source`
+- #25 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #26 _pending_ — `inf performance marketing conference keynote primary source`
+- #27 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #28 _pending_ — `inf performance marketing measurement scientist primary source`
+- #29 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `inf performance marketing practitioner interview primary source`
+- #32 _pending_ — `inf performance marketing benchmark study author primary source`
+- #33 _pending_ — `inf performance marketing platform product liaison primary source`
+- #34 _pending_ — `inf performance marketing agency operator case study primary source`
+- #35 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #36 _pending_ — `inf performance marketing conference keynote primary source`
+- #37 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #38 _pending_ — `inf performance marketing measurement scientist primary source`
+- #39 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `inf performance marketing practitioner interview primary source`
+- #42 _pending_ — `inf performance marketing benchmark study author primary source`
+- #43 _pending_ — `inf performance marketing platform product liaison primary source`
+- #44 _pending_ — `inf performance marketing agency operator case study primary source`
+- #45 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #46 _pending_ — `inf performance marketing conference keynote primary source`
+- #47 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #48 _pending_ — `inf performance marketing measurement scientist primary source`
+- #49 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `inf performance marketing practitioner interview primary source`
+- #52 _pending_ — `inf performance marketing benchmark study author primary source`
+- #53 _pending_ — `inf performance marketing platform product liaison primary source`
+- #54 _pending_ — `inf performance marketing agency operator case study primary source`
+- #55 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #56 _pending_ — `inf performance marketing conference keynote primary source`
+- #57 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #58 _pending_ — `inf performance marketing measurement scientist primary source`
+- #59 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `inf performance marketing practitioner interview primary source`
+- #62 _pending_ — `inf performance marketing benchmark study author primary source`
+- #63 _pending_ — `inf performance marketing platform product liaison primary source`
+- #64 _pending_ — `inf performance marketing agency operator case study primary source`
+- #65 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #66 _pending_ — `inf performance marketing conference keynote primary source`
+- #67 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #68 _pending_ — `inf performance marketing measurement scientist primary source`
+- #69 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `inf performance marketing practitioner interview primary source`
+- #72 _pending_ — `inf performance marketing benchmark study author primary source`
+- #73 _pending_ — `inf performance marketing platform product liaison primary source`
+- #74 _pending_ — `inf performance marketing agency operator case study primary source`
+- #75 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #76 _pending_ — `inf performance marketing conference keynote primary source`
+- #77 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #78 _pending_ — `inf performance marketing measurement scientist primary source`
+- #79 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `inf performance marketing practitioner interview primary source`
+- #82 _pending_ — `inf performance marketing benchmark study author primary source`
+- #83 _pending_ — `inf performance marketing platform product liaison primary source`
+- #84 _pending_ — `inf performance marketing agency operator case study primary source`
+- #85 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #86 _pending_ — `inf performance marketing conference keynote primary source`
+- #87 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #88 _pending_ — `inf performance marketing measurement scientist primary source`
+- #89 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `inf performance marketing practitioner interview primary source`
+- #92 _pending_ — `inf performance marketing benchmark study author primary source`
+- #93 _pending_ — `inf performance marketing platform product liaison primary source`
+- #94 _pending_ — `inf performance marketing agency operator case study primary source`
+- #95 _pending_ — `inf performance marketing academic paper lead author primary source`
+- #96 _pending_ — `inf performance marketing conference keynote primary source`
+- #97 _pending_ — `inf performance marketing open-source maintainer primary source`
+- #98 _pending_ — `inf performance marketing measurement scientist primary source`
+- #99 _pending_ — `inf performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `inf performance marketing privacy counsel thought leader primary source`
+
+## yonetim — sourced 4 / pending 96
+- #1 **Mark Ritson** — pazarlama etkinliği otoritesi — https://minimba.com/markritson/
+- #2 **Les Binet** — medya etkililiği, 60/40 — https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field
+- #3 **Blair Enns** — ajans kazanım metodolojisi — https://www.winwithoutpitching.com/about/
+- #4 **Rory Sutherland** — davranışsal + yaratıcı reklam — https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive)
+- #5 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #6 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #7 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #8 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #9 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #10 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #11 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #12 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #13 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #14 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #15 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #16 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #17 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #18 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #19 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #20 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #21 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #22 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #23 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #24 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #25 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #26 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #27 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #28 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #29 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #30 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #31 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #32 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #33 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #34 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #35 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #36 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #37 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #38 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #39 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #40 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #41 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #42 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #43 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #44 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #45 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #46 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #47 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #48 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #49 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #50 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #51 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #52 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #53 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #54 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #55 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #56 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #57 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #58 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #59 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #60 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #61 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #62 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #63 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #64 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #65 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #66 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #67 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #68 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #69 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #70 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #71 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #72 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #73 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #74 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #75 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #76 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #77 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #78 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #79 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #80 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #81 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #82 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #83 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #84 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #85 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #86 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #87 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #88 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #89 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #90 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`
+- #91 _pending_ — `yonetim performance marketing practitioner interview primary source`
+- #92 _pending_ — `yonetim performance marketing benchmark study author primary source`
+- #93 _pending_ — `yonetim performance marketing platform product liaison primary source`
+- #94 _pending_ — `yonetim performance marketing agency operator case study primary source`
+- #95 _pending_ — `yonetim performance marketing academic paper lead author primary source`
+- #96 _pending_ — `yonetim performance marketing conference keynote primary source`
+- #97 _pending_ — `yonetim performance marketing open-source maintainer primary source`
+- #98 _pending_ — `yonetim performance marketing measurement scientist primary source`
+- #99 _pending_ — `yonetim performance marketing creative effectiveness researcher primary source`
+- #100 _pending_ — `yonetim performance marketing privacy counsel thought leader primary source`

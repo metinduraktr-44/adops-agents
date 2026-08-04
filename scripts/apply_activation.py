@@ -138,6 +138,7 @@ def main() -> int:
     for script in (
         "build_holding_pack.py",
         "build_skill_agency_registry.py",
+        "build_k003_equivalents.py",
         "daily_ops.py",
         "holding_report.py",
         "nightly_holding_research.py",
