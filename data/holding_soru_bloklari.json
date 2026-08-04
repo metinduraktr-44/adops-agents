@@ -1,0 +1,46 @@
+{
+  "ts": "2026-08-04T08:33:11Z",
+  "policy": "K-003: sample 8–17/run; do not paste 500×title",
+  "holdco": [
+    "Sermaye tahsisi bu hafta en yüksek marjinal getirili OpCo'ya mı gitti?",
+    "Portföy KPI'ları OpCo'lar arasında karşılaştırılabilir mi (ROIC/FCF)?",
+    "Bir OpCo riski ring-fence dışında mı sızıyor?",
+    "Ülke ajansı gece arşivini okuyup delta yazdı mı?",
+    "Web/iOS/Android ortak platform SLA'sı yeşil mi?"
+  ],
+  "permergrowth": [
+    "Müşteri CPA planı vs gerçekleşen sapması kök nedenli mi?",
+    "Pitch ≤48h SLA tutuldu mu?",
+    "Churn riski ≥14 gün önce bayraklandı mı?"
+  ],
+  "vizatrack": [
+    "Vaka SLA ihlali var mı; müşteri bilgilendirildi mi?",
+    "Doküman tamamlılığı ≥95% mi?",
+    "KVKK/GDPR veri minimizasyonu uygulandı mı?"
+  ],
+  "movea": [
+    "CAC payback hedefte mi?",
+    "App store rating düşüş sinyali var mı?",
+    "Ülke lokalizasyonu (dil/ödeme) QA geçti mi?"
+  ],
+  "cigkoftem": [
+    "Same-store sales trendi açıklanabilir mi?",
+    "Loyalty MAU hedefte mi?",
+    "Franchise iletişim protokolü çalıştı mı?"
+  ],
+  "hukuk": [
+    "0 ihlal hedefi kırıldı mı?",
+    "Reklam politikası taraması %100 mü?",
+    "Sözleşme incelemesi ≤24h mi?"
+  ],
+  "country": [
+    "Hedef pazar regülasyon deltası arşive damgalandı mı?",
+    "Rakip top-5 tarama bu gece koştu mu?",
+    "Yerel dil kreatif QA geçti mi?"
+  ],
+  "apps": [
+    "Web konsol P0 bug açık mı?",
+    "iOS/Android release train tarihi net mi?",
+    "Ortak auth/feature-flag regressyonu var mı?"
+  ]
+}

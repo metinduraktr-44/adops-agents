@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-04T08:33:11Z",
+  "country": "DE",
+  "name": "Almanya",
+  "role": "target",
+  "law": [
+    "GDPR",
+    "UWG"
+  ],
+  "language": [
+    "de",
+    "en"
+  ],
+  "agency": "country-de-llm",
+  "read_prior": "none",
+  "research": {
+    "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
+    "regulation_delta": "Watch: GDPR, UWG",
+    "channel_benchmarks": "Use AdOps dept playbooks + country localization checklist",
+    "role_models_ref": "data/holding_rol_modelleri.json → country_agencies"
+  },
+  "chain": "🔗 prior-archive-read"
+}

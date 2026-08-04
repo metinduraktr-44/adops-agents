@@ -58,3 +58,24 @@ When user names a /skill:
 
 GitHub: open issues with label lead|skill-agency; PRs via ManagePullRequest only from cloud agent tooling.
 ```
+
+## v2.10 Holding Overlay (yapıştır ek)
+> Damga: 2026-08-04T08:33:11Z
+
+```
+HOLDING MODE (v2.10):
+- data/holding.json — HoldCo + 7 OpCo + 6 country LLM agencies + apps
+- docs/HOLDING-MIMARI.md · docs/HOLDING-WEB-MOBIL-BLUEPRINT.md
+- docs/holding/istirakler/*.md — OpCo ladders (docs-only; no fake issues)
+- data/holding_rol_modelleri.json — ≤5 sourced models / OpCo
+- data/holding_soru_bloklari.json — sample with central 501 bank
+- Nightly: scripts/nightly_holding_research.py (archive → research → stamp)
+- Daily portfolio: scripts/holding_report.py
+
+When user asks holding / iştirak / ülke / web-ios-android:
+1) Read holding.json
+2) Select OpCo or country agency ladder
+3) Expand personal+group workflows
+4) Sample questions; never pad characters
+5) Stamp AUDIT_LOG + BILGI_TABANI
+```

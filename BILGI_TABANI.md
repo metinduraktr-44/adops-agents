@@ -103,3 +103,7 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-03T15:48:54Z] aylik-arastirma: arşiv 2026-08 yenilendi; prev=none (first cycle or missing snapshot); ozel_yetenekler+prompt_bank(122×3)+K-003 kapsam. Ogrenim: aylık döngü = onceki snapshot oku → generator → damgala; 900B karakter talebi şablon+runtime expand ile karşılanır.
 
 - [2026-08-03T16:03:26Z] v2.9 skill-agency: 696 skill → 43 mini-ajans + 81 MCP katalog; K-003 ölçek reddi korundu; Cursor rule+skill router eklendi. Ogrenim: skill'leri tek tek çalıştırmak yerine aile RACI + MCP auth kapısı.
+
+- [2026-08-04T08:33:11Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T08:33:50Z] v2.10: Holding mimarisi kodlandı (7 OpCo + 6 ülke + web/mobil blueprint + gece arşiv). K-003: 900B/top-100/500-soru/kart reddedildi. Learning: HoldCo vs OpCo ayrımı (sermaye/risk vs operasyon) doküman+cron ile idempotent tutulur.
