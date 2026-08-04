@@ -3,10 +3,10 @@ name: prompt-mob-lead-skan-4-strategy
 description: "Lead, Skan 4 Strategy — Mobile UA & App Growth — title/ekip/uygulama prompt ailesi (Mobil UA & Uygulama)."
 tier: LEAD
 department: "Mobile UA & App Growth"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Skan 4 Strategy — Mobile UA & App Growth
-> Departman: **Mobil UA & Uygulama** (mob) · Kademe: **LEAD** · Rapor: `mob-dir-mmp-adjust-appsflyer` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Mobil UA & Uygulama** (mob) · Kademe: **LEAD** · Rapor: `mob-dir-mmp-adjust-appsflyer` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Apple Search Ads, Google App Campaigns, MMP (Adjust/AppsFlyer), Retargeting & CRM · KPI: SKAN CV coverage ≥ 85%, Fraud rate < 3%, D7 ROAS vs plan, Organic uplift measured
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

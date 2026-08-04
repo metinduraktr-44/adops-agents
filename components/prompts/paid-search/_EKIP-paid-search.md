@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-paid-search
 description: "Ücretli Arama departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Ücretli Arama (sea)
 > Headcount: 40 · Birimler: Google Ads Core, SA360 & Automation, PMax & Shopping, Microsoft Ads
-> KPI: Impression share on brand ≥ 90%, Wasted spend < 5%, tCPA/tROAS attainment, QS trend up · Üretim: 2026-08-03T15:56:20Z
+> KPI: Impression share on brand ≥ 90%, Wasted spend < 5%, tCPA/tROAS attainment, QS trend up · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Ücretli Arama departman lideri (EVP hattı)

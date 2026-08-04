@@ -1,7 +1,7 @@
 ---
 name: holding-grup-permergrowth-tech
 description: "PermerGrowth Tech (App iOS/Android) grup (ekip) workflow paketi."
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # GRUP WORKFLOW — PermerGrowth Tech (App iOS/Android)
 > Alan: Web + Mobil (iOS/Android) uygulama platformu; holding yapısını taşıyan ürün · Roller: 7 · Ülke: TR, DE, NL, AE, SA, UK, US

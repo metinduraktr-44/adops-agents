@@ -3,10 +3,10 @@ name: holding-tech-spec-devops
 description: "Specialist — DevOps/SRE — PermerGrowth Tech (App iOS/Android) kişisel workflow paketi (holding)."
 tier: SPECIALIST
 subsidiary: "PermerGrowth Tech (App iOS/Android)"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Specialist — DevOps/SRE — PermerGrowth Tech (App iOS/Android)
-> İştirak: **PermerGrowth Tech (App iOS/Android)** · Alan: Web + Mobil (iOS/Android) uygulama platformu; holding yapısını taşıyan ürün · Rapor: `tech-dir-backend` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Tech (App iOS/Android)** · Alan: Web + Mobil (iOS/Android) uygulama platformu; holding yapısını taşıyan ürün · Rapor: `tech-dir-backend` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Specialist — DevOps/SRE

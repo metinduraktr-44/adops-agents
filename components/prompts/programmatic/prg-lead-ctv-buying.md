@@ -3,10 +3,10 @@ name: prompt-prg-lead-ctv-buying
 description: "Lead, Ctv Buying — Programmatic Trading — title/ekip/uygulama prompt ailesi (Programatik Satın Alma)."
 tier: LEAD
 department: "Programmatic Trading"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Ctv Buying — Programmatic Trading
-> Departman: **Programatik Satın Alma** (prg) · Kademe: **LEAD** · Rapor: `prg-dir-open-auction-and-curation` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Programatik Satın Alma** (prg) · Kademe: **LEAD** · Rapor: `prg-dir-open-auction-and-curation` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Open Auction & Curation, PMP & Deals, CTV / OTT, DOOH & Audio, Bid Algorithms · KPI: Viewability ≥ 70%, Supply-path cost ≤ 15%, PMP share of spend on target, eCPM/CPA vs plan
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

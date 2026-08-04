@@ -3,10 +3,10 @@ name: holding-perf-coo-delivery
 description: "COO — Delivery — PermerGrowth Performance kişisel workflow paketi (holding)."
 tier: C
 subsidiary: "PermerGrowth Performance"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # COO — Delivery — PermerGrowth Performance
-> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-ceo` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-ceo` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — COO — Delivery

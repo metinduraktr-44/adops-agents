@@ -3,10 +3,10 @@ name: prompt-ret-lead-amazon-sp-sb-sd
 description: "Lead, Amazon Sp Sb Sd — Retail & Commerce Media — title/ekip/uygulama prompt ailesi (Perakende Medyası)."
 tier: LEAD
 department: "Retail & Commerce Media"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Amazon Sp Sb Sd — Retail & Commerce Media
-> Departman: **Perakende Medyası** (ret) · Kademe: **LEAD** · Rapor: `ret-dir-amazon-ads` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Perakende Medyası** (ret) · Kademe: **LEAD** · Rapor: `ret-dir-amazon-ads` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Amazon Ads, TR Marketplaces (Trendyol/Hepsiburada), Criteo & Onsite, Offsite & DSP · KPI: ACOS/TACOS on target, Share of voice on hero SKUs, PDP conversion uplift, Incremental ROAS
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

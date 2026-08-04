@@ -3,10 +3,10 @@ name: prompt-ops-lead-floodlight-architecture
 description: "Lead, Floodlight Architecture — Ad Ops & Trafficking — title/ekip/uygulama prompt ailesi (Ad Ops & Trafficking)."
 tier: LEAD
 department: "Ad Ops & Trafficking"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Floodlight Architecture — Ad Ops & Trafficking
-> Departman: **Ad Ops & Trafficking** (ops) · Kademe: **LEAD** · Rapor: `ops-dir-tag-management` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ad Ops & Trafficking** (ops) · Kademe: **LEAD** · Rapor: `ops-dir-tag-management` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: CM360 Trafficking, Tag Management, QA & Verification, Consent & Privacy Ops · KPI: Launch error rate < 1%, Tag QA pass 100% pre-launch, Discrepancy < 5%
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

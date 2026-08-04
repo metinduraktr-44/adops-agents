@@ -3,10 +3,10 @@ name: prompt-nbd-lead-lead-scoring-model
 description: "Lead, Lead Scoring Model — New Business & Inbound Funnel — title/ekip/uygulama prompt ailesi (Yeni İş & Inbound Hunisi)."
 tier: LEAD
 department: "New Business & Inbound Funnel"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Lead Scoring Model — New Business & Inbound Funnel
-> Departman: **Yeni İş & Inbound Hunisi** (nbd) · Kademe: **LEAD** · Rapor: `nbd-dir-pitch-factory` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Yeni İş & Inbound Hunisi** (nbd) · Kademe: **LEAD** · Rapor: `nbd-dir-pitch-factory` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Inbound Capture, Pitch Factory, Lead Scoring · KPI: Inbound path live (README→contact) F2, Pitch turnaround ≤ 48h, First qualified lead by F5
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

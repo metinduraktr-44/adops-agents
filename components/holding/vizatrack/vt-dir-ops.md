@@ -3,10 +3,10 @@ name: holding-vt-dir-ops
 description: "Director — Operations — VizaTrack kişisel workflow paketi (holding)."
 tier: DIRECTOR
 subsidiary: "VizaTrack"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Director — Operations — VizaTrack
-> İştirak: **VizaTrack** · Alan: Vize/seyahat takibi ürünü — başvuru izleme, randevu, uyum · Rapor: `vt-ceo` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **VizaTrack** · Alan: Vize/seyahat takibi ürünü — başvuru izleme, randevu, uyum · Rapor: `vt-ceo` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Director — Operations

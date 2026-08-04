@@ -3,10 +3,10 @@ name: holding-leg-dir-compliance
 description: "Director — Compliance — PermerGrowth Hukuk kişisel workflow paketi (holding)."
 tier: DIRECTOR
 subsidiary: "PermerGrowth Hukuk"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Director — Compliance — PermerGrowth Hukuk
-> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-ceo` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-ceo` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Director — Compliance

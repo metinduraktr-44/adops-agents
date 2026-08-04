@@ -1,7 +1,7 @@
 ---
 name: holding-grup-permergrowth-performance
 description: "PermerGrowth Performance grup (ekip) workflow paketi."
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # GRUP WORKFLOW — PermerGrowth Performance
 > Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Roller: 8 · Ülke: TR, DE, NL, AE, SA, UK, US

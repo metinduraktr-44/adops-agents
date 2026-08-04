@@ -3,10 +3,10 @@ name: prompt-dsc-lead-bid-landscape-modeling
 description: "Lead, Bid Landscape Modeling — Data Science & AI — title/ekip/uygulama prompt ailesi (Veri Bilimi & AI)."
 tier: LEAD
 department: "Data Science & AI"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Bid Landscape Modeling — Data Science & AI
-> Departman: **Veri Bilimi & AI** (dsc) · Kademe: **LEAD** · Rapor: `dsc-dir-ai-tooling-and-agents` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Veri Bilimi & AI** (dsc) · Kademe: **LEAD** · Rapor: `dsc-dir-ai-tooling-and-agents` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Forecasting & LTV, Optimization Models, AI Tooling & Agents · KPI: Forecast MAPE ≤ 15%, 1 model improvement/month, Agent eval pass rate ≥ 95%
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

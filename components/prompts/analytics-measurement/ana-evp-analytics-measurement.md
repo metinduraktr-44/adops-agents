@@ -3,10 +3,10 @@ name: prompt-ana-evp-analytics-measurement
 description: "EVP, Analytics & Measurement — title/ekip/uygulama prompt ailesi (Analitik & Ölçümleme)."
 tier: EVP
 department: "Analytics & Measurement"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Analytics & Measurement
-> Departman: **Analitik & Ölçümleme** (ana) · Kademe: **EVP** · Rapor: `cdo-data` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Analitik & Ölçümleme** (ana) · Kademe: **EVP** · Rapor: `cdo-data` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: GA4 & Tagging, Attribution, MMM & Incrementality, Clean Rooms & Privacy, Dashboards · KPI: Tracking coverage ≥ 95%, Attribution doc per client playbook, Dashboard SLA met, 0 unowned KPIs
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

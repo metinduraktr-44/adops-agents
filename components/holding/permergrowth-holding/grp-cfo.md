@@ -3,10 +3,10 @@ name: holding-grp-cfo
 description: "Group CFO — PermerGrowth Holding kişisel workflow paketi (holding)."
 tier: C
 subsidiary: "PermerGrowth Holding"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Group CFO — PermerGrowth Holding
-> İştirak: **PermerGrowth Holding** · Alan: Holding merkez ofis · Rapor: `grp-ceo` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Holding** · Alan: Holding merkez ofis · Rapor: `grp-ceo` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Group CFO

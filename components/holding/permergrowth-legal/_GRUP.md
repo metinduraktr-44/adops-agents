@@ -1,7 +1,7 @@
 ---
 name: holding-grup-permergrowth-legal
 description: "PermerGrowth Hukuk grup (ekip) workflow paketi."
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # GRUP WORKFLOW — PermerGrowth Hukuk
 > Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Roller: 5 · Ülke: TR, DE, NL, AE, SA, UK, US

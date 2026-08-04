@@ -3,10 +3,10 @@ name: prompt-cls-lead-account-health-scoring
 description: "Lead, Account Health Scoring — Client Services — title/ekip/uygulama prompt ailesi (Müşteri Hizmetleri)."
 tier: LEAD
 department: "Client Services"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Account Health Scoring — Client Services
-> Departman: **Müşteri Hizmetleri** (cls) · Kademe: **LEAD** · Rapor: `cls-dir-account-leadership` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Müşteri Hizmetleri** (cls) · Kademe: **LEAD** · Rapor: `cls-dir-account-leadership` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Account Leadership, Reporting Cadence, Onboarding · KPI: Report SLA 100%, Account health scored weekly, Churn risk flagged ≥ 14 days early
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

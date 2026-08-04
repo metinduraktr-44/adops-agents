@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-07-17T11:54:25Z",
+ "generated_utc": "2026-08-04T08:44:03Z",
  "total": 600,
  "c_level": [
   {
@@ -148,163 +148,163 @@
      "reports_to": "prg-dir-ctv-ott"
     },
     {
-     "slug": "prg-spc-optimization-dv360-activation",
+     "slug": "prg-spc-optimization-dv360-activation-0",
      "title": "Optimization Specialist, Dv360 Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dv360-activation"
     },
     {
-     "slug": "prg-spc-optimization-ttd-activation",
+     "slug": "prg-spc-optimization-ttd-activation-1",
      "title": "Optimization Specialist, Ttd Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ttd-activation"
     },
     {
-     "slug": "prg-spc-optimization-xandr-activation",
+     "slug": "prg-spc-optimization-xandr-activation-2",
      "title": "Optimization Specialist, Xandr Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-xandr-activation"
     },
     {
-     "slug": "prg-spc-optimization-pmp-deal-desk",
+     "slug": "prg-spc-optimization-pmp-deal-desk-3",
      "title": "Optimization Specialist, Pmp Deal Desk — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-pmp-deal-desk"
     },
     {
-     "slug": "prg-spc-optimization-ctv-buying",
+     "slug": "prg-spc-optimization-ctv-buying-4",
      "title": "Optimization Specialist, Ctv Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ctv-buying"
     },
     {
-     "slug": "prg-spc-optimization-dooh-buying",
+     "slug": "prg-spc-optimization-dooh-buying-5",
      "title": "Optimization Specialist, Dooh Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dooh-buying"
     },
     {
-     "slug": "prg-spc-optimization-audio-buying",
+     "slug": "prg-spc-optimization-audio-buying-6",
      "title": "Optimization Specialist, Audio Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-audio-buying"
     },
     {
-     "slug": "prg-spc-optimization-curation-supply-path",
+     "slug": "prg-spc-optimization-curation-supply-path-7",
      "title": "Optimization Specialist, Curation Supply Path — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dv360-activation"
     },
     {
-     "slug": "prg-spc-optimization-brand-safety-pretargeting",
+     "slug": "prg-spc-optimization-brand-safety-pretargeting-8",
      "title": "Optimization Specialist, Brand Safety Pretargeting — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ttd-activation"
     },
     {
-     "slug": "prg-spc-optimization-bid-shading-analysis",
+     "slug": "prg-spc-optimization-bid-shading-analysis-9",
      "title": "Optimization Specialist, Bid Shading Analysis — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-xandr-activation"
     },
     {
-     "slug": "prg-spc-optimization-frequency-management",
+     "slug": "prg-spc-optimization-frequency-management-10",
      "title": "Optimization Specialist, Frequency Management — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-pmp-deal-desk"
     },
     {
-     "slug": "prg-spc-optimization-deal-troubleshooting",
+     "slug": "prg-spc-optimization-deal-troubleshooting-11",
      "title": "Optimization Specialist, Deal Troubleshooting — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ctv-buying"
     },
     {
-     "slug": "prg-spc-automation-dv360-activation",
+     "slug": "prg-spc-automation-dv360-activation-12",
      "title": "Automation Specialist, Dv360 Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dooh-buying"
     },
     {
-     "slug": "prg-spc-automation-ttd-activation",
+     "slug": "prg-spc-automation-ttd-activation-13",
      "title": "Automation Specialist, Ttd Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-audio-buying"
     },
     {
-     "slug": "prg-spc-automation-xandr-activation",
+     "slug": "prg-spc-automation-xandr-activation-14",
      "title": "Automation Specialist, Xandr Activation — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dv360-activation"
     },
     {
-     "slug": "prg-spc-automation-pmp-deal-desk",
+     "slug": "prg-spc-automation-pmp-deal-desk-15",
      "title": "Automation Specialist, Pmp Deal Desk — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ttd-activation"
     },
     {
-     "slug": "prg-spc-automation-ctv-buying",
+     "slug": "prg-spc-automation-ctv-buying-16",
      "title": "Automation Specialist, Ctv Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-xandr-activation"
     },
     {
-     "slug": "prg-spc-automation-dooh-buying",
+     "slug": "prg-spc-automation-dooh-buying-17",
      "title": "Automation Specialist, Dooh Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-pmp-deal-desk"
     },
     {
-     "slug": "prg-spc-automation-audio-buying",
+     "slug": "prg-spc-automation-audio-buying-18",
      "title": "Automation Specialist, Audio Buying — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-ctv-buying"
     },
     {
-     "slug": "prg-spc-automation-curation-supply-path",
+     "slug": "prg-spc-automation-curation-supply-path-19",
      "title": "Automation Specialist, Curation Supply Path — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-dooh-buying"
     },
     {
-     "slug": "prg-spc-automation-brand-safety-pretargeting",
+     "slug": "prg-spc-automation-brand-safety-pretargeting-20",
      "title": "Automation Specialist, Brand Safety Pretargeting — Programmatic Trading",
      "tier": "SPECIALIST",
      "reports_to": "prg-lead-audio-buying"
     },
     {
-     "slug": "prg-anl-performance-analyst-dv360-activation",
+     "slug": "prg-anl-performance-analyst-dv360-activation-0",
      "title": "Performance Analyst, Dv360 Activation — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-dv360-activation"
     },
     {
-     "slug": "prg-anl-data-analyst-xandr-activation",
+     "slug": "prg-anl-data-analyst-xandr-activation-1",
      "title": "Data Analyst, Xandr Activation — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-ttd-activation"
     },
     {
-     "slug": "prg-anl-reporting-analyst-ctv-buying",
+     "slug": "prg-anl-reporting-analyst-ctv-buying-2",
      "title": "Reporting Analyst, Ctv Buying — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-xandr-activation"
     },
     {
-     "slug": "prg-anl-performance-analyst-audio-buying",
+     "slug": "prg-anl-performance-analyst-audio-buying-3",
      "title": "Performance Analyst, Audio Buying — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-pmp-deal-desk"
     },
     {
-     "slug": "prg-anl-data-analyst-brand-safety-pretargeting",
+     "slug": "prg-anl-data-analyst-brand-safety-pretargeting-4",
      "title": "Data Analyst, Brand Safety Pretargeting — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-ctv-buying"
     },
     {
-     "slug": "prg-anl-reporting-analyst-frequency-management",
+     "slug": "prg-anl-reporting-analyst-frequency-management-5",
      "title": "Reporting Analyst, Frequency Management — Programmatic Trading",
      "tier": "ANALYST",
      "reports_to": "prg-lead-dooh-buying"
@@ -441,175 +441,175 @@
      "reports_to": "sea-dir-sa360-and-automation"
     },
     {
-     "slug": "sea-spc-optimization-query-mining",
+     "slug": "sea-spc-optimization-query-mining-0",
      "title": "Optimization Specialist, Query Mining — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-query-mining"
     },
     {
-     "slug": "sea-spc-optimization-pmax-structure",
+     "slug": "sea-spc-optimization-pmax-structure-1",
      "title": "Optimization Specialist, Pmax Structure — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-pmax-structure"
     },
     {
-     "slug": "sea-spc-optimization-shopping-feed-optimization",
+     "slug": "sea-spc-optimization-shopping-feed-optimization-2",
      "title": "Optimization Specialist, Shopping Feed Optimization — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-shopping-feed-optimization"
     },
     {
-     "slug": "sea-spc-optimization-sa360-bid-strategies",
+     "slug": "sea-spc-optimization-sa360-bid-strategies-3",
      "title": "Optimization Specialist, Sa360 Bid Strategies — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-sa360-bid-strategies"
     },
     {
-     "slug": "sea-spc-optimization-rsa-ad-strength",
+     "slug": "sea-spc-optimization-rsa-ad-strength-4",
      "title": "Optimization Specialist, Rsa Ad Strength — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-rsa-ad-strength"
     },
     {
-     "slug": "sea-spc-optimization-negative-keyword-hygiene",
+     "slug": "sea-spc-optimization-negative-keyword-hygiene-5",
      "title": "Optimization Specialist, Negative Keyword Hygiene — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-negative-keyword-hygiene"
     },
     {
-     "slug": "sea-spc-optimization-landing-page-relevance",
+     "slug": "sea-spc-optimization-landing-page-relevance-6",
      "title": "Optimization Specialist, Landing Page Relevance — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-query-mining"
     },
     {
-     "slug": "sea-spc-optimization-brand-vs-generic-split",
+     "slug": "sea-spc-optimization-brand-vs-generic-split-7",
      "title": "Optimization Specialist, Brand Vs Generic Split — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-pmax-structure"
     },
     {
-     "slug": "sea-spc-optimization-budget-pacing",
+     "slug": "sea-spc-optimization-budget-pacing-8",
      "title": "Optimization Specialist, Budget Pacing — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-shopping-feed-optimization"
     },
     {
-     "slug": "sea-spc-optimization-auction-insights",
+     "slug": "sea-spc-optimization-auction-insights-9",
      "title": "Optimization Specialist, Auction Insights — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-sa360-bid-strategies"
     },
     {
-     "slug": "sea-spc-automation-query-mining",
+     "slug": "sea-spc-automation-query-mining-10",
      "title": "Automation Specialist, Query Mining — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-rsa-ad-strength"
     },
     {
-     "slug": "sea-spc-automation-pmax-structure",
+     "slug": "sea-spc-automation-pmax-structure-11",
      "title": "Automation Specialist, Pmax Structure — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-negative-keyword-hygiene"
     },
     {
-     "slug": "sea-spc-automation-shopping-feed-optimization",
+     "slug": "sea-spc-automation-shopping-feed-optimization-12",
      "title": "Automation Specialist, Shopping Feed Optimization — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-query-mining"
     },
     {
-     "slug": "sea-spc-automation-sa360-bid-strategies",
+     "slug": "sea-spc-automation-sa360-bid-strategies-13",
      "title": "Automation Specialist, Sa360 Bid Strategies — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-pmax-structure"
     },
     {
-     "slug": "sea-spc-automation-rsa-ad-strength",
+     "slug": "sea-spc-automation-rsa-ad-strength-14",
      "title": "Automation Specialist, Rsa Ad Strength — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-shopping-feed-optimization"
     },
     {
-     "slug": "sea-spc-automation-negative-keyword-hygiene",
+     "slug": "sea-spc-automation-negative-keyword-hygiene-15",
      "title": "Automation Specialist, Negative Keyword Hygiene — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-sa360-bid-strategies"
     },
     {
-     "slug": "sea-spc-automation-landing-page-relevance",
+     "slug": "sea-spc-automation-landing-page-relevance-16",
      "title": "Automation Specialist, Landing Page Relevance — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-rsa-ad-strength"
     },
     {
-     "slug": "sea-spc-automation-brand-vs-generic-split",
+     "slug": "sea-spc-automation-brand-vs-generic-split-17",
      "title": "Automation Specialist, Brand Vs Generic Split — Paid Search",
      "tier": "SPECIALIST",
      "reports_to": "sea-lead-negative-keyword-hygiene"
     },
     {
-     "slug": "sea-anl-performance-analyst-query-mining",
+     "slug": "sea-anl-performance-analyst-query-mining-0",
      "title": "Performance Analyst, Query Mining — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-query-mining"
     },
     {
-     "slug": "sea-anl-data-analyst-shopping-feed-optimization",
+     "slug": "sea-anl-data-analyst-shopping-feed-optimization-1",
      "title": "Data Analyst, Shopping Feed Optimization — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-pmax-structure"
     },
     {
-     "slug": "sea-anl-reporting-analyst-rsa-ad-strength",
+     "slug": "sea-anl-reporting-analyst-rsa-ad-strength-2",
      "title": "Reporting Analyst, Rsa Ad Strength — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-shopping-feed-optimization"
     },
     {
-     "slug": "sea-anl-performance-analyst-landing-page-relevance",
+     "slug": "sea-anl-performance-analyst-landing-page-relevance-3",
      "title": "Performance Analyst, Landing Page Relevance — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-sa360-bid-strategies"
     },
     {
-     "slug": "sea-anl-data-analyst-budget-pacing",
+     "slug": "sea-anl-data-analyst-budget-pacing-4",
      "title": "Data Analyst, Budget Pacing — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-rsa-ad-strength"
     },
     {
-     "slug": "sea-anl-reporting-analyst-query-mining",
+     "slug": "sea-anl-reporting-analyst-query-mining-5",
      "title": "Reporting Analyst, Query Mining — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-negative-keyword-hygiene"
     },
     {
-     "slug": "sea-anl-performance-analyst-shopping-feed-optimization",
+     "slug": "sea-anl-performance-analyst-shopping-feed-optimization-6",
      "title": "Performance Analyst, Shopping Feed Optimization — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-query-mining"
     },
     {
-     "slug": "sea-anl-data-analyst-rsa-ad-strength",
+     "slug": "sea-anl-data-analyst-rsa-ad-strength-7",
      "title": "Data Analyst, Rsa Ad Strength — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-pmax-structure"
     },
     {
-     "slug": "sea-anl-reporting-analyst-landing-page-relevance",
+     "slug": "sea-anl-reporting-analyst-landing-page-relevance-8",
      "title": "Reporting Analyst, Landing Page Relevance — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-shopping-feed-optimization"
     },
     {
-     "slug": "sea-anl-performance-analyst-budget-pacing",
+     "slug": "sea-anl-performance-analyst-budget-pacing-9",
      "title": "Performance Analyst, Budget Pacing — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-sa360-bid-strategies"
     },
     {
-     "slug": "sea-anl-data-analyst-query-mining",
+     "slug": "sea-anl-data-analyst-query-mining-10",
      "title": "Data Analyst, Query Mining — Paid Search",
      "tier": "ANALYST",
      "reports_to": "sea-lead-rsa-ad-strength"
@@ -717,163 +717,163 @@
      "reports_to": "soc-dir-linkedin-and-x"
     },
     {
-     "slug": "soc-spc-optimization-meta-aso-structure",
+     "slug": "soc-spc-optimization-meta-aso-structure-0",
      "title": "Optimization Specialist, Meta Aso Structure — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-meta-aso-structure"
     },
     {
-     "slug": "soc-spc-optimization-advantage-plus-audit",
+     "slug": "soc-spc-optimization-advantage-plus-audit-1",
      "title": "Optimization Specialist, Advantage Plus Audit — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-advantage-plus-audit"
     },
     {
-     "slug": "soc-spc-optimization-tiktok-spark-ads",
+     "slug": "soc-spc-optimization-tiktok-spark-ads-2",
      "title": "Optimization Specialist, Tiktok Spark Ads — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-tiktok-spark-ads"
     },
     {
-     "slug": "soc-spc-optimization-linkedin-abm",
+     "slug": "soc-spc-optimization-linkedin-abm-3",
      "title": "Optimization Specialist, Linkedin Abm — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-linkedin-abm"
     },
     {
-     "slug": "soc-spc-optimization-creative-fatigue-detection",
+     "slug": "soc-spc-optimization-creative-fatigue-detection-4",
      "title": "Optimization Specialist, Creative Fatigue Detection — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-creative-fatigue-detection"
     },
     {
-     "slug": "soc-spc-optimization-hook-rate-analysis",
+     "slug": "soc-spc-optimization-hook-rate-analysis-5",
      "title": "Optimization Specialist, Hook Rate Analysis — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-hook-rate-analysis"
     },
     {
-     "slug": "soc-spc-optimization-capi-signal-health",
+     "slug": "soc-spc-optimization-capi-signal-health-6",
      "title": "Optimization Specialist, Capi Signal Health — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-capi-signal-health"
     },
     {
-     "slug": "soc-spc-optimization-audience-liquidity",
+     "slug": "soc-spc-optimization-audience-liquidity-7",
      "title": "Optimization Specialist, Audience Liquidity — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-meta-aso-structure"
     },
     {
-     "slug": "soc-spc-optimization-ugc-pipeline",
+     "slug": "soc-spc-optimization-ugc-pipeline-8",
      "title": "Optimization Specialist, Ugc Pipeline — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-advantage-plus-audit"
     },
     {
-     "slug": "soc-spc-optimization-cbo-abo-strategy",
+     "slug": "soc-spc-optimization-cbo-abo-strategy-9",
      "title": "Optimization Specialist, Cbo Abo Strategy — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-tiktok-spark-ads"
     },
     {
-     "slug": "soc-spc-optimization-retargeting-ladders",
+     "slug": "soc-spc-optimization-retargeting-ladders-10",
      "title": "Optimization Specialist, Retargeting Ladders — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-linkedin-abm"
     },
     {
-     "slug": "soc-spc-optimization-social-commerce",
+     "slug": "soc-spc-optimization-social-commerce-11",
      "title": "Optimization Specialist, Social Commerce — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-creative-fatigue-detection"
     },
     {
-     "slug": "soc-spc-automation-meta-aso-structure",
+     "slug": "soc-spc-automation-meta-aso-structure-12",
      "title": "Automation Specialist, Meta Aso Structure — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-hook-rate-analysis"
     },
     {
-     "slug": "soc-spc-automation-advantage-plus-audit",
+     "slug": "soc-spc-automation-advantage-plus-audit-13",
      "title": "Automation Specialist, Advantage Plus Audit — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-capi-signal-health"
     },
     {
-     "slug": "soc-spc-automation-tiktok-spark-ads",
+     "slug": "soc-spc-automation-tiktok-spark-ads-14",
      "title": "Automation Specialist, Tiktok Spark Ads — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-meta-aso-structure"
     },
     {
-     "slug": "soc-spc-automation-linkedin-abm",
+     "slug": "soc-spc-automation-linkedin-abm-15",
      "title": "Automation Specialist, Linkedin Abm — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-advantage-plus-audit"
     },
     {
-     "slug": "soc-spc-automation-creative-fatigue-detection",
+     "slug": "soc-spc-automation-creative-fatigue-detection-16",
      "title": "Automation Specialist, Creative Fatigue Detection — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-tiktok-spark-ads"
     },
     {
-     "slug": "soc-spc-automation-hook-rate-analysis",
+     "slug": "soc-spc-automation-hook-rate-analysis-17",
      "title": "Automation Specialist, Hook Rate Analysis — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-linkedin-abm"
     },
     {
-     "slug": "soc-spc-automation-capi-signal-health",
+     "slug": "soc-spc-automation-capi-signal-health-18",
      "title": "Automation Specialist, Capi Signal Health — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-creative-fatigue-detection"
     },
     {
-     "slug": "soc-spc-automation-audience-liquidity",
+     "slug": "soc-spc-automation-audience-liquidity-19",
      "title": "Automation Specialist, Audience Liquidity — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-hook-rate-analysis"
     },
     {
-     "slug": "soc-spc-automation-ugc-pipeline",
+     "slug": "soc-spc-automation-ugc-pipeline-20",
      "title": "Automation Specialist, Ugc Pipeline — Paid Social",
      "tier": "SPECIALIST",
      "reports_to": "soc-lead-capi-signal-health"
     },
     {
-     "slug": "soc-anl-performance-analyst-meta-aso-structure",
+     "slug": "soc-anl-performance-analyst-meta-aso-structure-0",
      "title": "Performance Analyst, Meta Aso Structure — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-meta-aso-structure"
     },
     {
-     "slug": "soc-anl-data-analyst-tiktok-spark-ads",
+     "slug": "soc-anl-data-analyst-tiktok-spark-ads-1",
      "title": "Data Analyst, Tiktok Spark Ads — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-advantage-plus-audit"
     },
     {
-     "slug": "soc-anl-reporting-analyst-creative-fatigue-detection",
+     "slug": "soc-anl-reporting-analyst-creative-fatigue-detection-2",
      "title": "Reporting Analyst, Creative Fatigue Detection — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-tiktok-spark-ads"
     },
     {
-     "slug": "soc-anl-performance-analyst-capi-signal-health",
+     "slug": "soc-anl-performance-analyst-capi-signal-health-3",
      "title": "Performance Analyst, Capi Signal Health — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-linkedin-abm"
     },
     {
-     "slug": "soc-anl-data-analyst-ugc-pipeline",
+     "slug": "soc-anl-data-analyst-ugc-pipeline-4",
      "title": "Data Analyst, Ugc Pipeline — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-creative-fatigue-detection"
     },
     {
-     "slug": "soc-anl-reporting-analyst-retargeting-ladders",
+     "slug": "soc-anl-reporting-analyst-retargeting-ladders-5",
      "title": "Reporting Analyst, Retargeting Ladders — Paid Social",
      "tier": "ANALYST",
      "reports_to": "soc-lead-hook-rate-analysis"
@@ -998,151 +998,151 @@
      "reports_to": "mob-dir-google-app-campaigns"
     },
     {
-     "slug": "mob-spc-optimization-asa-keyword-strategy",
+     "slug": "mob-spc-optimization-asa-keyword-strategy-0",
      "title": "Optimization Specialist, Asa Keyword Strategy — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-spc-optimization-uac-asset-groups",
+     "slug": "mob-spc-optimization-uac-asset-groups-1",
      "title": "Optimization Specialist, Uac Asset Groups — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-uac-asset-groups"
     },
     {
-     "slug": "mob-spc-optimization-skan-4-strategy",
+     "slug": "mob-spc-optimization-skan-4-strategy-2",
      "title": "Optimization Specialist, Skan 4 Strategy — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-skan-4-strategy"
     },
     {
-     "slug": "mob-spc-optimization-mmp-attribution-windows",
+     "slug": "mob-spc-optimization-mmp-attribution-windows-3",
      "title": "Optimization Specialist, Mmp Attribution Windows — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-mmp-attribution-windows"
     },
     {
-     "slug": "mob-spc-optimization-fraud-detection",
+     "slug": "mob-spc-optimization-fraud-detection-4",
      "title": "Optimization Specialist, Fraud Detection — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-fraud-detection"
     },
     {
-     "slug": "mob-spc-optimization-deeplink-qa",
+     "slug": "mob-spc-optimization-deeplink-qa-5",
      "title": "Optimization Specialist, Deeplink Qa — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-spc-optimization-aso-store-page",
+     "slug": "mob-spc-optimization-aso-store-page-6",
      "title": "Optimization Specialist, Aso Store Page — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-uac-asset-groups"
     },
     {
-     "slug": "mob-spc-optimization-reengagement-audiences",
+     "slug": "mob-spc-optimization-reengagement-audiences-7",
      "title": "Optimization Specialist, Reengagement Audiences — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-skan-4-strategy"
     },
     {
-     "slug": "mob-spc-optimization-ltv-cohorts",
+     "slug": "mob-spc-optimization-ltv-cohorts-8",
      "title": "Optimization Specialist, Ltv Cohorts — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-mmp-attribution-windows"
     },
     {
-     "slug": "mob-spc-automation-asa-keyword-strategy",
+     "slug": "mob-spc-automation-asa-keyword-strategy-9",
      "title": "Automation Specialist, Asa Keyword Strategy — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-fraud-detection"
     },
     {
-     "slug": "mob-spc-automation-uac-asset-groups",
+     "slug": "mob-spc-automation-uac-asset-groups-10",
      "title": "Automation Specialist, Uac Asset Groups — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-spc-automation-skan-4-strategy",
+     "slug": "mob-spc-automation-skan-4-strategy-11",
      "title": "Automation Specialist, Skan 4 Strategy — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-uac-asset-groups"
     },
     {
-     "slug": "mob-spc-automation-mmp-attribution-windows",
+     "slug": "mob-spc-automation-mmp-attribution-windows-12",
      "title": "Automation Specialist, Mmp Attribution Windows — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-skan-4-strategy"
     },
     {
-     "slug": "mob-spc-automation-fraud-detection",
+     "slug": "mob-spc-automation-fraud-detection-13",
      "title": "Automation Specialist, Fraud Detection — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-mmp-attribution-windows"
     },
     {
-     "slug": "mob-spc-automation-deeplink-qa",
+     "slug": "mob-spc-automation-deeplink-qa-14",
      "title": "Automation Specialist, Deeplink Qa — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-fraud-detection"
     },
     {
-     "slug": "mob-spc-automation-aso-store-page",
+     "slug": "mob-spc-automation-aso-store-page-15",
      "title": "Automation Specialist, Aso Store Page — Mobile UA & App Growth",
      "tier": "SPECIALIST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-anl-performance-analyst-asa-keyword-strategy",
+     "slug": "mob-anl-performance-analyst-asa-keyword-strategy-0",
      "title": "Performance Analyst, Asa Keyword Strategy — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-anl-data-analyst-skan-4-strategy",
+     "slug": "mob-anl-data-analyst-skan-4-strategy-1",
      "title": "Data Analyst, Skan 4 Strategy — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-uac-asset-groups"
     },
     {
-     "slug": "mob-anl-reporting-analyst-fraud-detection",
+     "slug": "mob-anl-reporting-analyst-fraud-detection-2",
      "title": "Reporting Analyst, Fraud Detection — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-skan-4-strategy"
     },
     {
-     "slug": "mob-anl-performance-analyst-aso-store-page",
+     "slug": "mob-anl-performance-analyst-aso-store-page-3",
      "title": "Performance Analyst, Aso Store Page — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-mmp-attribution-windows"
     },
     {
-     "slug": "mob-anl-data-analyst-ltv-cohorts",
+     "slug": "mob-anl-data-analyst-ltv-cohorts-4",
      "title": "Data Analyst, Ltv Cohorts — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-fraud-detection"
     },
     {
-     "slug": "mob-anl-reporting-analyst-uac-asset-groups",
+     "slug": "mob-anl-reporting-analyst-uac-asset-groups-5",
      "title": "Reporting Analyst, Uac Asset Groups — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-asa-keyword-strategy"
     },
     {
-     "slug": "mob-anl-performance-analyst-mmp-attribution-windows",
+     "slug": "mob-anl-performance-analyst-mmp-attribution-windows-6",
      "title": "Performance Analyst, Mmp Attribution Windows — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-uac-asset-groups"
     },
     {
-     "slug": "mob-anl-data-analyst-deeplink-qa",
+     "slug": "mob-anl-data-analyst-deeplink-qa-7",
      "title": "Data Analyst, Deeplink Qa — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-skan-4-strategy"
     },
     {
-     "slug": "mob-anl-reporting-analyst-reengagement-audiences",
+     "slug": "mob-anl-reporting-analyst-reengagement-audiences-8",
      "title": "Reporting Analyst, Reengagement Audiences — Mobile UA & App Growth",
      "tier": "ANALYST",
      "reports_to": "mob-lead-mmp-attribution-windows"
@@ -1237,127 +1237,127 @@
      "reports_to": "ret-dir-tr-marketplaces-trendyol-hepsiburada"
     },
     {
-     "slug": "ret-spc-optimization-amazon-sp-sb-sd",
+     "slug": "ret-spc-optimization-amazon-sp-sb-sd-0",
      "title": "Optimization Specialist, Amazon Sp Sb Sd — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-amazon-sp-sb-sd"
     },
     {
-     "slug": "ret-spc-optimization-trendyol-ads",
+     "slug": "ret-spc-optimization-trendyol-ads-1",
      "title": "Optimization Specialist, Trendyol Ads — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-trendyol-ads"
     },
     {
-     "slug": "ret-spc-optimization-hepsiburada-ads",
+     "slug": "ret-spc-optimization-hepsiburada-ads-2",
      "title": "Optimization Specialist, Hepsiburada Ads — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-hepsiburada-ads"
     },
     {
-     "slug": "ret-spc-optimization-criteo-retail",
+     "slug": "ret-spc-optimization-criteo-retail-3",
      "title": "Optimization Specialist, Criteo Retail — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-criteo-retail"
     },
     {
-     "slug": "ret-spc-optimization-retail-sov-tracking",
+     "slug": "ret-spc-optimization-retail-sov-tracking-4",
      "title": "Optimization Specialist, Retail Sov Tracking — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-retail-sov-tracking"
     },
     {
-     "slug": "ret-spc-optimization-content-pdp-optimization",
+     "slug": "ret-spc-optimization-content-pdp-optimization-5",
      "title": "Optimization Specialist, Content Pdp Optimization — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-amazon-sp-sb-sd"
     },
     {
-     "slug": "ret-spc-optimization-promo-calendar-sync",
+     "slug": "ret-spc-optimization-promo-calendar-sync-6",
      "title": "Optimization Specialist, Promo Calendar Sync — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-trendyol-ads"
     },
     {
-     "slug": "ret-spc-optimization-retail-dsp-offsite",
+     "slug": "ret-spc-optimization-retail-dsp-offsite-7",
      "title": "Optimization Specialist, Retail Dsp Offsite — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-hepsiburada-ads"
     },
     {
-     "slug": "ret-spc-automation-amazon-sp-sb-sd",
+     "slug": "ret-spc-automation-amazon-sp-sb-sd-8",
      "title": "Automation Specialist, Amazon Sp Sb Sd — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-criteo-retail"
     },
     {
-     "slug": "ret-spc-automation-trendyol-ads",
+     "slug": "ret-spc-automation-trendyol-ads-9",
      "title": "Automation Specialist, Trendyol Ads — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-retail-sov-tracking"
     },
     {
-     "slug": "ret-spc-automation-hepsiburada-ads",
+     "slug": "ret-spc-automation-hepsiburada-ads-10",
      "title": "Automation Specialist, Hepsiburada Ads — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-amazon-sp-sb-sd"
     },
     {
-     "slug": "ret-spc-automation-criteo-retail",
+     "slug": "ret-spc-automation-criteo-retail-11",
      "title": "Automation Specialist, Criteo Retail — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-trendyol-ads"
     },
     {
-     "slug": "ret-spc-automation-retail-sov-tracking",
+     "slug": "ret-spc-automation-retail-sov-tracking-12",
      "title": "Automation Specialist, Retail Sov Tracking — Retail & Commerce Media",
      "tier": "SPECIALIST",
      "reports_to": "ret-lead-hepsiburada-ads"
     },
     {
-     "slug": "ret-anl-performance-analyst-amazon-sp-sb-sd",
+     "slug": "ret-anl-performance-analyst-amazon-sp-sb-sd-0",
      "title": "Performance Analyst, Amazon Sp Sb Sd — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-amazon-sp-sb-sd"
     },
     {
-     "slug": "ret-anl-data-analyst-hepsiburada-ads",
+     "slug": "ret-anl-data-analyst-hepsiburada-ads-1",
      "title": "Data Analyst, Hepsiburada Ads — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-trendyol-ads"
     },
     {
-     "slug": "ret-anl-reporting-analyst-retail-sov-tracking",
+     "slug": "ret-anl-reporting-analyst-retail-sov-tracking-2",
      "title": "Reporting Analyst, Retail Sov Tracking — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-hepsiburada-ads"
     },
     {
-     "slug": "ret-anl-performance-analyst-promo-calendar-sync",
+     "slug": "ret-anl-performance-analyst-promo-calendar-sync-3",
      "title": "Performance Analyst, Promo Calendar Sync — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-criteo-retail"
     },
     {
-     "slug": "ret-anl-data-analyst-amazon-sp-sb-sd",
+     "slug": "ret-anl-data-analyst-amazon-sp-sb-sd-4",
      "title": "Data Analyst, Amazon Sp Sb Sd — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-retail-sov-tracking"
     },
     {
-     "slug": "ret-anl-reporting-analyst-hepsiburada-ads",
+     "slug": "ret-anl-reporting-analyst-hepsiburada-ads-5",
      "title": "Reporting Analyst, Hepsiburada Ads — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-amazon-sp-sb-sd"
     },
     {
-     "slug": "ret-anl-performance-analyst-retail-sov-tracking",
+     "slug": "ret-anl-performance-analyst-retail-sov-tracking-6",
      "title": "Performance Analyst, Retail Sov Tracking — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-trendyol-ads"
     },
     {
-     "slug": "ret-anl-data-analyst-promo-calendar-sync",
+     "slug": "ret-anl-data-analyst-promo-calendar-sync-7",
      "title": "Data Analyst, Promo Calendar Sync — Retail & Commerce Media",
      "tier": "ANALYST",
      "reports_to": "ret-lead-hepsiburada-ads"
@@ -1446,127 +1446,127 @@
      "reports_to": "seo-dir-content-production"
     },
     {
-     "slug": "seo-spc-optimization-technical-crawl-audit",
+     "slug": "seo-spc-optimization-technical-crawl-audit-0",
      "title": "Optimization Specialist, Technical Crawl Audit — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-technical-crawl-audit"
     },
     {
-     "slug": "seo-spc-optimization-keyword-clustering",
+     "slug": "seo-spc-optimization-keyword-clustering-1",
      "title": "Optimization Specialist, Keyword Clustering — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-keyword-clustering"
     },
     {
-     "slug": "seo-spc-optimization-content-brief-engine",
+     "slug": "seo-spc-optimization-content-brief-engine-2",
      "title": "Optimization Specialist, Content Brief Engine — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-content-brief-engine"
     },
     {
-     "slug": "seo-spc-optimization-internal-linking",
+     "slug": "seo-spc-optimization-internal-linking-3",
      "title": "Optimization Specialist, Internal Linking — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-internal-linking"
     },
     {
-     "slug": "seo-spc-optimization-digital-pr-outreach",
+     "slug": "seo-spc-optimization-digital-pr-outreach-4",
      "title": "Optimization Specialist, Digital Pr Outreach — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-digital-pr-outreach"
     },
     {
-     "slug": "seo-spc-optimization-serp-feature-capture",
+     "slug": "seo-spc-optimization-serp-feature-capture-5",
      "title": "Optimization Specialist, Serp Feature Capture — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-technical-crawl-audit"
     },
     {
-     "slug": "seo-spc-optimization-readme-storefront",
+     "slug": "seo-spc-optimization-readme-storefront-6",
      "title": "Optimization Specialist, Readme Storefront — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-keyword-clustering"
     },
     {
-     "slug": "seo-spc-optimization-daily-article-engine",
+     "slug": "seo-spc-optimization-daily-article-engine-7",
      "title": "Optimization Specialist, Daily Article Engine — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-content-brief-engine"
     },
     {
-     "slug": "seo-spc-automation-technical-crawl-audit",
+     "slug": "seo-spc-automation-technical-crawl-audit-8",
      "title": "Automation Specialist, Technical Crawl Audit — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-internal-linking"
     },
     {
-     "slug": "seo-spc-automation-keyword-clustering",
+     "slug": "seo-spc-automation-keyword-clustering-9",
      "title": "Automation Specialist, Keyword Clustering — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-digital-pr-outreach"
     },
     {
-     "slug": "seo-spc-automation-content-brief-engine",
+     "slug": "seo-spc-automation-content-brief-engine-10",
      "title": "Automation Specialist, Content Brief Engine — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-technical-crawl-audit"
     },
     {
-     "slug": "seo-spc-automation-internal-linking",
+     "slug": "seo-spc-automation-internal-linking-11",
      "title": "Automation Specialist, Internal Linking — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-keyword-clustering"
     },
     {
-     "slug": "seo-spc-automation-digital-pr-outreach",
+     "slug": "seo-spc-automation-digital-pr-outreach-12",
      "title": "Automation Specialist, Digital Pr Outreach — SEO & Content Engine",
      "tier": "SPECIALIST",
      "reports_to": "seo-lead-content-brief-engine"
     },
     {
-     "slug": "seo-anl-performance-analyst-technical-crawl-audit",
+     "slug": "seo-anl-performance-analyst-technical-crawl-audit-0",
      "title": "Performance Analyst, Technical Crawl Audit — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-technical-crawl-audit"
     },
     {
-     "slug": "seo-anl-data-analyst-content-brief-engine",
+     "slug": "seo-anl-data-analyst-content-brief-engine-1",
      "title": "Data Analyst, Content Brief Engine — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-keyword-clustering"
     },
     {
-     "slug": "seo-anl-reporting-analyst-digital-pr-outreach",
+     "slug": "seo-anl-reporting-analyst-digital-pr-outreach-2",
      "title": "Reporting Analyst, Digital Pr Outreach — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-content-brief-engine"
     },
     {
-     "slug": "seo-anl-performance-analyst-readme-storefront",
+     "slug": "seo-anl-performance-analyst-readme-storefront-3",
      "title": "Performance Analyst, Readme Storefront — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-internal-linking"
     },
     {
-     "slug": "seo-anl-data-analyst-technical-crawl-audit",
+     "slug": "seo-anl-data-analyst-technical-crawl-audit-4",
      "title": "Data Analyst, Technical Crawl Audit — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-digital-pr-outreach"
     },
     {
-     "slug": "seo-anl-reporting-analyst-content-brief-engine",
+     "slug": "seo-anl-reporting-analyst-content-brief-engine-5",
      "title": "Reporting Analyst, Content Brief Engine — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-technical-crawl-audit"
     },
     {
-     "slug": "seo-anl-performance-analyst-digital-pr-outreach",
+     "slug": "seo-anl-performance-analyst-digital-pr-outreach-6",
      "title": "Performance Analyst, Digital Pr Outreach — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-keyword-clustering"
     },
     {
-     "slug": "seo-anl-data-analyst-readme-storefront",
+     "slug": "seo-anl-data-analyst-readme-storefront-7",
      "title": "Data Analyst, Readme Storefront — SEO & Content Engine",
      "tier": "ANALYST",
      "reports_to": "seo-lead-content-brief-engine"
@@ -1642,109 +1642,109 @@
      "reports_to": "cro-dir-landing-systems"
     },
     {
-     "slug": "cro-spc-optimization-ab-test-design",
+     "slug": "cro-spc-optimization-ab-test-design-0",
      "title": "Optimization Specialist, Ab Test Design — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-ab-test-design"
     },
     {
-     "slug": "cro-spc-optimization-landing-page-systems",
+     "slug": "cro-spc-optimization-landing-page-systems-1",
      "title": "Optimization Specialist, Landing Page Systems — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-landing-page-systems"
     },
     {
-     "slug": "cro-spc-optimization-form-friction-audit",
+     "slug": "cro-spc-optimization-form-friction-audit-2",
      "title": "Optimization Specialist, Form Friction Audit — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-form-friction-audit"
     },
     {
-     "slug": "cro-spc-optimization-heatmap-session-analysis",
+     "slug": "cro-spc-optimization-heatmap-session-analysis-3",
      "title": "Optimization Specialist, Heatmap Session Analysis — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-heatmap-session-analysis"
     },
     {
-     "slug": "cro-spc-optimization-offer-message-testing",
+     "slug": "cro-spc-optimization-offer-message-testing-4",
      "title": "Optimization Specialist, Offer Message Testing — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-ab-test-design"
     },
     {
-     "slug": "cro-spc-optimization-checkout-optimization",
+     "slug": "cro-spc-optimization-checkout-optimization-5",
      "title": "Optimization Specialist, Checkout Optimization — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-landing-page-systems"
     },
     {
-     "slug": "cro-spc-optimization-mobile-speed-cro",
+     "slug": "cro-spc-optimization-mobile-speed-cro-6",
      "title": "Optimization Specialist, Mobile Speed Cro — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-form-friction-audit"
     },
     {
-     "slug": "cro-spc-automation-ab-test-design",
+     "slug": "cro-spc-automation-ab-test-design-7",
      "title": "Automation Specialist, Ab Test Design — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-heatmap-session-analysis"
     },
     {
-     "slug": "cro-spc-automation-landing-page-systems",
+     "slug": "cro-spc-automation-landing-page-systems-8",
      "title": "Automation Specialist, Landing Page Systems — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-ab-test-design"
     },
     {
-     "slug": "cro-spc-automation-form-friction-audit",
+     "slug": "cro-spc-automation-form-friction-audit-9",
      "title": "Automation Specialist, Form Friction Audit — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-landing-page-systems"
     },
     {
-     "slug": "cro-spc-automation-heatmap-session-analysis",
+     "slug": "cro-spc-automation-heatmap-session-analysis-10",
      "title": "Automation Specialist, Heatmap Session Analysis — CRO & Experience",
      "tier": "SPECIALIST",
      "reports_to": "cro-lead-form-friction-audit"
     },
     {
-     "slug": "cro-anl-performance-analyst-ab-test-design",
+     "slug": "cro-anl-performance-analyst-ab-test-design-0",
      "title": "Performance Analyst, Ab Test Design — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-ab-test-design"
     },
     {
-     "slug": "cro-anl-data-analyst-form-friction-audit",
+     "slug": "cro-anl-data-analyst-form-friction-audit-1",
      "title": "Data Analyst, Form Friction Audit — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-landing-page-systems"
     },
     {
-     "slug": "cro-anl-reporting-analyst-offer-message-testing",
+     "slug": "cro-anl-reporting-analyst-offer-message-testing-2",
      "title": "Reporting Analyst, Offer Message Testing — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-form-friction-audit"
     },
     {
-     "slug": "cro-anl-performance-analyst-mobile-speed-cro",
+     "slug": "cro-anl-performance-analyst-mobile-speed-cro-3",
      "title": "Performance Analyst, Mobile Speed Cro — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-heatmap-session-analysis"
     },
     {
-     "slug": "cro-anl-data-analyst-landing-page-systems",
+     "slug": "cro-anl-data-analyst-landing-page-systems-4",
      "title": "Data Analyst, Landing Page Systems — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-ab-test-design"
     },
     {
-     "slug": "cro-anl-reporting-analyst-heatmap-session-analysis",
+     "slug": "cro-anl-reporting-analyst-heatmap-session-analysis-5",
      "title": "Reporting Analyst, Heatmap Session Analysis — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-landing-page-systems"
     },
     {
-     "slug": "cro-anl-performance-analyst-checkout-optimization",
+     "slug": "cro-anl-performance-analyst-checkout-optimization-6",
      "title": "Performance Analyst, Checkout Optimization — CRO & Experience",
      "tier": "ANALYST",
      "reports_to": "cro-lead-form-friction-audit"
@@ -1846,175 +1846,175 @@
      "reports_to": "ana-dir-attribution"
     },
     {
-     "slug": "ana-spc-optimization-ga4-audit",
+     "slug": "ana-spc-optimization-ga4-audit-0",
      "title": "Optimization Specialist, Ga4 Audit — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-ga4-audit"
     },
     {
-     "slug": "ana-spc-optimization-server-side-tagging",
+     "slug": "ana-spc-optimization-server-side-tagging-1",
      "title": "Optimization Specialist, Server Side Tagging — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-server-side-tagging"
     },
     {
-     "slug": "ana-spc-optimization-consent-mode-v2",
+     "slug": "ana-spc-optimization-consent-mode-v2-2",
      "title": "Optimization Specialist, Consent Mode V2 — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-consent-mode-v2"
     },
     {
-     "slug": "ana-spc-optimization-attribution-model-selection",
+     "slug": "ana-spc-optimization-attribution-model-selection-3",
      "title": "Optimization Specialist, Attribution Model Selection — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-attribution-model-selection"
     },
     {
-     "slug": "ana-spc-optimization-mmm-lite",
+     "slug": "ana-spc-optimization-mmm-lite-4",
      "title": "Optimization Specialist, Mmm Lite — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-mmm-lite"
     },
     {
-     "slug": "ana-spc-optimization-geo-holdout-design",
+     "slug": "ana-spc-optimization-geo-holdout-design-5",
      "title": "Optimization Specialist, Geo Holdout Design — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-geo-holdout-design"
     },
     {
-     "slug": "ana-spc-optimization-clean-room-queries",
+     "slug": "ana-spc-optimization-clean-room-queries-6",
      "title": "Optimization Specialist, Clean Room Queries — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-ga4-audit"
     },
     {
-     "slug": "ana-spc-optimization-looker-dashboard-standards",
+     "slug": "ana-spc-optimization-looker-dashboard-standards-7",
      "title": "Optimization Specialist, Looker Dashboard Standards — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-server-side-tagging"
     },
     {
-     "slug": "ana-spc-optimization-data-quality-monitoring",
+     "slug": "ana-spc-optimization-data-quality-monitoring-8",
      "title": "Optimization Specialist, Data Quality Monitoring — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-consent-mode-v2"
     },
     {
-     "slug": "ana-spc-optimization-kpi-dictionary",
+     "slug": "ana-spc-optimization-kpi-dictionary-9",
      "title": "Optimization Specialist, Kpi Dictionary — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-attribution-model-selection"
     },
     {
-     "slug": "ana-spc-automation-ga4-audit",
+     "slug": "ana-spc-automation-ga4-audit-10",
      "title": "Automation Specialist, Ga4 Audit — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-mmm-lite"
     },
     {
-     "slug": "ana-spc-automation-server-side-tagging",
+     "slug": "ana-spc-automation-server-side-tagging-11",
      "title": "Automation Specialist, Server Side Tagging — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-geo-holdout-design"
     },
     {
-     "slug": "ana-spc-automation-consent-mode-v2",
+     "slug": "ana-spc-automation-consent-mode-v2-12",
      "title": "Automation Specialist, Consent Mode V2 — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-ga4-audit"
     },
     {
-     "slug": "ana-spc-automation-attribution-model-selection",
+     "slug": "ana-spc-automation-attribution-model-selection-13",
      "title": "Automation Specialist, Attribution Model Selection — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-server-side-tagging"
     },
     {
-     "slug": "ana-spc-automation-mmm-lite",
+     "slug": "ana-spc-automation-mmm-lite-14",
      "title": "Automation Specialist, Mmm Lite — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-consent-mode-v2"
     },
     {
-     "slug": "ana-spc-automation-geo-holdout-design",
+     "slug": "ana-spc-automation-geo-holdout-design-15",
      "title": "Automation Specialist, Geo Holdout Design — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-attribution-model-selection"
     },
     {
-     "slug": "ana-spc-automation-clean-room-queries",
+     "slug": "ana-spc-automation-clean-room-queries-16",
      "title": "Automation Specialist, Clean Room Queries — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-mmm-lite"
     },
     {
-     "slug": "ana-spc-automation-looker-dashboard-standards",
+     "slug": "ana-spc-automation-looker-dashboard-standards-17",
      "title": "Automation Specialist, Looker Dashboard Standards — Analytics & Measurement",
      "tier": "SPECIALIST",
      "reports_to": "ana-lead-geo-holdout-design"
     },
     {
-     "slug": "ana-anl-performance-analyst-ga4-audit",
+     "slug": "ana-anl-performance-analyst-ga4-audit-0",
      "title": "Performance Analyst, Ga4 Audit — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-ga4-audit"
     },
     {
-     "slug": "ana-anl-data-analyst-consent-mode-v2",
+     "slug": "ana-anl-data-analyst-consent-mode-v2-1",
      "title": "Data Analyst, Consent Mode V2 — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-server-side-tagging"
     },
     {
-     "slug": "ana-anl-reporting-analyst-mmm-lite",
+     "slug": "ana-anl-reporting-analyst-mmm-lite-2",
      "title": "Reporting Analyst, Mmm Lite — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-consent-mode-v2"
     },
     {
-     "slug": "ana-anl-performance-analyst-clean-room-queries",
+     "slug": "ana-anl-performance-analyst-clean-room-queries-3",
      "title": "Performance Analyst, Clean Room Queries — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-attribution-model-selection"
     },
     {
-     "slug": "ana-anl-data-analyst-data-quality-monitoring",
+     "slug": "ana-anl-data-analyst-data-quality-monitoring-4",
      "title": "Data Analyst, Data Quality Monitoring — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-mmm-lite"
     },
     {
-     "slug": "ana-anl-reporting-analyst-ga4-audit",
+     "slug": "ana-anl-reporting-analyst-ga4-audit-5",
      "title": "Reporting Analyst, Ga4 Audit — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-geo-holdout-design"
     },
     {
-     "slug": "ana-anl-performance-analyst-consent-mode-v2",
+     "slug": "ana-anl-performance-analyst-consent-mode-v2-6",
      "title": "Performance Analyst, Consent Mode V2 — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-ga4-audit"
     },
     {
-     "slug": "ana-anl-data-analyst-mmm-lite",
+     "slug": "ana-anl-data-analyst-mmm-lite-7",
      "title": "Data Analyst, Mmm Lite — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-server-side-tagging"
     },
     {
-     "slug": "ana-anl-reporting-analyst-clean-room-queries",
+     "slug": "ana-anl-reporting-analyst-clean-room-queries-8",
      "title": "Reporting Analyst, Clean Room Queries — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-consent-mode-v2"
     },
     {
-     "slug": "ana-anl-performance-analyst-data-quality-monitoring",
+     "slug": "ana-anl-performance-analyst-data-quality-monitoring-9",
      "title": "Performance Analyst, Data Quality Monitoring — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-attribution-model-selection"
     },
     {
-     "slug": "ana-anl-data-analyst-ga4-audit",
+     "slug": "ana-anl-data-analyst-ga4-audit-10",
      "title": "Data Analyst, Ga4 Audit — Analytics & Measurement",
      "tier": "ANALYST",
      "reports_to": "ana-lead-mmm-lite"
@@ -2101,127 +2101,127 @@
      "reports_to": "dsc-dir-optimization-models"
     },
     {
-     "slug": "dsc-spc-optimization-ltv-prediction",
+     "slug": "dsc-spc-optimization-ltv-prediction-0",
      "title": "Optimization Specialist, Ltv Prediction — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-ltv-prediction"
     },
     {
-     "slug": "dsc-spc-optimization-budget-allocation-models",
+     "slug": "dsc-spc-optimization-budget-allocation-models-1",
      "title": "Optimization Specialist, Budget Allocation Models — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-budget-allocation-models"
     },
     {
-     "slug": "dsc-spc-optimization-bid-landscape-modeling",
+     "slug": "dsc-spc-optimization-bid-landscape-modeling-2",
      "title": "Optimization Specialist, Bid Landscape Modeling — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-bid-landscape-modeling"
     },
     {
-     "slug": "dsc-spc-optimization-churn-propensity",
+     "slug": "dsc-spc-optimization-churn-propensity-3",
      "title": "Optimization Specialist, Churn Propensity — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-churn-propensity"
     },
     {
-     "slug": "dsc-spc-optimization-creative-scoring-models",
+     "slug": "dsc-spc-optimization-creative-scoring-models-4",
      "title": "Optimization Specialist, Creative Scoring Models — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-creative-scoring-models"
     },
     {
-     "slug": "dsc-spc-optimization-anomaly-detection",
+     "slug": "dsc-spc-optimization-anomaly-detection-5",
      "title": "Optimization Specialist, Anomaly Detection — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-ltv-prediction"
     },
     {
-     "slug": "dsc-spc-optimization-agent-eval-harness",
+     "slug": "dsc-spc-optimization-agent-eval-harness-6",
      "title": "Optimization Specialist, Agent Eval Harness — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-budget-allocation-models"
     },
     {
-     "slug": "dsc-spc-optimization-prompt-optimization",
+     "slug": "dsc-spc-optimization-prompt-optimization-7",
      "title": "Optimization Specialist, Prompt Optimization — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-bid-landscape-modeling"
     },
     {
-     "slug": "dsc-spc-automation-ltv-prediction",
+     "slug": "dsc-spc-automation-ltv-prediction-8",
      "title": "Automation Specialist, Ltv Prediction — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-churn-propensity"
     },
     {
-     "slug": "dsc-spc-automation-budget-allocation-models",
+     "slug": "dsc-spc-automation-budget-allocation-models-9",
      "title": "Automation Specialist, Budget Allocation Models — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-creative-scoring-models"
     },
     {
-     "slug": "dsc-spc-automation-bid-landscape-modeling",
+     "slug": "dsc-spc-automation-bid-landscape-modeling-10",
      "title": "Automation Specialist, Bid Landscape Modeling — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-ltv-prediction"
     },
     {
-     "slug": "dsc-spc-automation-churn-propensity",
+     "slug": "dsc-spc-automation-churn-propensity-11",
      "title": "Automation Specialist, Churn Propensity — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-budget-allocation-models"
     },
     {
-     "slug": "dsc-spc-automation-creative-scoring-models",
+     "slug": "dsc-spc-automation-creative-scoring-models-12",
      "title": "Automation Specialist, Creative Scoring Models — Data Science & AI",
      "tier": "SPECIALIST",
      "reports_to": "dsc-lead-bid-landscape-modeling"
     },
     {
-     "slug": "dsc-anl-performance-analyst-ltv-prediction",
+     "slug": "dsc-anl-performance-analyst-ltv-prediction-0",
      "title": "Performance Analyst, Ltv Prediction — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-ltv-prediction"
     },
     {
-     "slug": "dsc-anl-data-analyst-bid-landscape-modeling",
+     "slug": "dsc-anl-data-analyst-bid-landscape-modeling-1",
      "title": "Data Analyst, Bid Landscape Modeling — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-budget-allocation-models"
     },
     {
-     "slug": "dsc-anl-reporting-analyst-creative-scoring-models",
+     "slug": "dsc-anl-reporting-analyst-creative-scoring-models-2",
      "title": "Reporting Analyst, Creative Scoring Models — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-bid-landscape-modeling"
     },
     {
-     "slug": "dsc-anl-performance-analyst-agent-eval-harness",
+     "slug": "dsc-anl-performance-analyst-agent-eval-harness-3",
      "title": "Performance Analyst, Agent Eval Harness — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-churn-propensity"
     },
     {
-     "slug": "dsc-anl-data-analyst-ltv-prediction",
+     "slug": "dsc-anl-data-analyst-ltv-prediction-4",
      "title": "Data Analyst, Ltv Prediction — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-creative-scoring-models"
     },
     {
-     "slug": "dsc-anl-reporting-analyst-bid-landscape-modeling",
+     "slug": "dsc-anl-reporting-analyst-bid-landscape-modeling-5",
      "title": "Reporting Analyst, Bid Landscape Modeling — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-ltv-prediction"
     },
     {
-     "slug": "dsc-anl-performance-analyst-creative-scoring-models",
+     "slug": "dsc-anl-performance-analyst-creative-scoring-models-6",
      "title": "Performance Analyst, Creative Scoring Models — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-budget-allocation-models"
     },
     {
-     "slug": "dsc-anl-data-analyst-agent-eval-harness",
+     "slug": "dsc-anl-data-analyst-agent-eval-harness-7",
      "title": "Data Analyst, Agent Eval Harness — Data Science & AI",
      "tier": "ANALYST",
      "reports_to": "dsc-lead-bid-landscape-modeling"
@@ -2309,157 +2309,157 @@
      "reports_to": "ops-dir-tag-management"
     },
     {
-     "slug": "ops-spc-optimization-cm360-trafficking",
+     "slug": "ops-spc-optimization-cm360-trafficking-0",
      "title": "Optimization Specialist, Cm360 Trafficking — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-spc-optimization-floodlight-architecture",
+     "slug": "ops-spc-optimization-floodlight-architecture-1",
      "title": "Optimization Specialist, Floodlight Architecture — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-floodlight-architecture"
     },
     {
-     "slug": "ops-spc-optimization-gtm-container-hygiene",
+     "slug": "ops-spc-optimization-gtm-container-hygiene-2",
      "title": "Optimization Specialist, Gtm Container Hygiene — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-gtm-container-hygiene"
     },
     {
-     "slug": "ops-spc-optimization-creative-specs-qa",
+     "slug": "ops-spc-optimization-creative-specs-qa-3",
      "title": "Optimization Specialist, Creative Specs Qa — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-creative-specs-qa"
     },
     {
-     "slug": "ops-spc-optimization-ias-doubleverify-setup",
+     "slug": "ops-spc-optimization-ias-doubleverify-setup-4",
      "title": "Optimization Specialist, Ias Doubleverify Setup — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-ias-doubleverify-setup"
     },
     {
-     "slug": "ops-spc-optimization-consent-string-qa",
+     "slug": "ops-spc-optimization-consent-string-qa-5",
      "title": "Optimization Specialist, Consent String Qa — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-spc-optimization-utm-governance",
+     "slug": "ops-spc-optimization-utm-governance-6",
      "title": "Optimization Specialist, Utm Governance — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-floodlight-architecture"
     },
     {
-     "slug": "ops-spc-optimization-campaign-launch-checklist",
+     "slug": "ops-spc-optimization-campaign-launch-checklist-7",
      "title": "Optimization Specialist, Campaign Launch Checklist — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-gtm-container-hygiene"
     },
     {
-     "slug": "ops-spc-automation-cm360-trafficking",
+     "slug": "ops-spc-automation-cm360-trafficking-8",
      "title": "Automation Specialist, Cm360 Trafficking — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-creative-specs-qa"
     },
     {
-     "slug": "ops-spc-automation-floodlight-architecture",
+     "slug": "ops-spc-automation-floodlight-architecture-9",
      "title": "Automation Specialist, Floodlight Architecture — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-ias-doubleverify-setup"
     },
     {
-     "slug": "ops-spc-automation-gtm-container-hygiene",
+     "slug": "ops-spc-automation-gtm-container-hygiene-10",
      "title": "Automation Specialist, Gtm Container Hygiene — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-spc-automation-creative-specs-qa",
+     "slug": "ops-spc-automation-creative-specs-qa-11",
      "title": "Automation Specialist, Creative Specs Qa — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-floodlight-architecture"
     },
     {
-     "slug": "ops-spc-automation-ias-doubleverify-setup",
+     "slug": "ops-spc-automation-ias-doubleverify-setup-12",
      "title": "Automation Specialist, Ias Doubleverify Setup — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-gtm-container-hygiene"
     },
     {
-     "slug": "ops-spc-automation-consent-string-qa",
+     "slug": "ops-spc-automation-consent-string-qa-13",
      "title": "Automation Specialist, Consent String Qa — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-creative-specs-qa"
     },
     {
-     "slug": "ops-spc-automation-utm-governance",
+     "slug": "ops-spc-automation-utm-governance-14",
      "title": "Automation Specialist, Utm Governance — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-ias-doubleverify-setup"
     },
     {
-     "slug": "ops-spc-automation-campaign-launch-checklist",
+     "slug": "ops-spc-automation-campaign-launch-checklist-15",
      "title": "Automation Specialist, Campaign Launch Checklist — Ad Ops & Trafficking",
      "tier": "SPECIALIST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-anl-performance-analyst-cm360-trafficking",
+     "slug": "ops-anl-performance-analyst-cm360-trafficking-0",
      "title": "Performance Analyst, Cm360 Trafficking — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-anl-data-analyst-gtm-container-hygiene",
+     "slug": "ops-anl-data-analyst-gtm-container-hygiene-1",
      "title": "Data Analyst, Gtm Container Hygiene — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-floodlight-architecture"
     },
     {
-     "slug": "ops-anl-reporting-analyst-ias-doubleverify-setup",
+     "slug": "ops-anl-reporting-analyst-ias-doubleverify-setup-2",
      "title": "Reporting Analyst, Ias Doubleverify Setup — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-gtm-container-hygiene"
     },
     {
-     "slug": "ops-anl-performance-analyst-utm-governance",
+     "slug": "ops-anl-performance-analyst-utm-governance-3",
      "title": "Performance Analyst, Utm Governance — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-creative-specs-qa"
     },
     {
-     "slug": "ops-anl-data-analyst-cm360-trafficking",
+     "slug": "ops-anl-data-analyst-cm360-trafficking-4",
      "title": "Data Analyst, Cm360 Trafficking — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-ias-doubleverify-setup"
     },
     {
-     "slug": "ops-anl-reporting-analyst-gtm-container-hygiene",
+     "slug": "ops-anl-reporting-analyst-gtm-container-hygiene-5",
      "title": "Reporting Analyst, Gtm Container Hygiene — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-cm360-trafficking"
     },
     {
-     "slug": "ops-anl-performance-analyst-ias-doubleverify-setup",
+     "slug": "ops-anl-performance-analyst-ias-doubleverify-setup-6",
      "title": "Performance Analyst, Ias Doubleverify Setup — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-floodlight-architecture"
     },
     {
-     "slug": "ops-anl-data-analyst-utm-governance",
+     "slug": "ops-anl-data-analyst-utm-governance-7",
      "title": "Data Analyst, Utm Governance — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-gtm-container-hygiene"
     },
     {
-     "slug": "ops-anl-reporting-analyst-cm360-trafficking",
+     "slug": "ops-anl-reporting-analyst-cm360-trafficking-8",
      "title": "Reporting Analyst, Cm360 Trafficking — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-creative-specs-qa"
     },
     {
-     "slug": "ops-anl-performance-analyst-gtm-container-hygiene",
+     "slug": "ops-anl-performance-analyst-gtm-container-hygiene-9",
      "title": "Performance Analyst, Gtm Container Hygiene — Ad Ops & Trafficking",
      "tier": "ANALYST",
      "reports_to": "ops-lead-ias-doubleverify-setup"
@@ -2547,157 +2547,157 @@
      "reports_to": "cre-dir-video-and-motion"
     },
     {
-     "slug": "cre-spc-optimization-hook-concepting",
+     "slug": "cre-spc-optimization-hook-concepting-0",
      "title": "Optimization Specialist, Hook Concepting — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-spc-optimization-ad-copy-systems",
+     "slug": "cre-spc-optimization-ad-copy-systems-1",
      "title": "Optimization Specialist, Ad Copy Systems — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-ad-copy-systems"
     },
     {
-     "slug": "cre-spc-optimization-video-cutdown-matrix",
+     "slug": "cre-spc-optimization-video-cutdown-matrix-2",
      "title": "Optimization Specialist, Video Cutdown Matrix — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-video-cutdown-matrix"
     },
     {
-     "slug": "cre-spc-optimization-dco-feed-design",
+     "slug": "cre-spc-optimization-dco-feed-design-3",
      "title": "Optimization Specialist, Dco Feed Design — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-dco-feed-design"
     },
     {
-     "slug": "cre-spc-optimization-format-spec-library",
+     "slug": "cre-spc-optimization-format-spec-library-4",
      "title": "Optimization Specialist, Format Spec Library — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-format-spec-library"
     },
     {
-     "slug": "cre-spc-optimization-localization-tr",
+     "slug": "cre-spc-optimization-localization-tr-5",
      "title": "Optimization Specialist, Localization Tr — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-spc-optimization-creative-naming-taxonomy",
+     "slug": "cre-spc-optimization-creative-naming-taxonomy-6",
      "title": "Optimization Specialist, Creative Naming Taxonomy — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-ad-copy-systems"
     },
     {
-     "slug": "cre-spc-optimization-asset-versioning",
+     "slug": "cre-spc-optimization-asset-versioning-7",
      "title": "Optimization Specialist, Asset Versioning — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-video-cutdown-matrix"
     },
     {
-     "slug": "cre-spc-automation-hook-concepting",
+     "slug": "cre-spc-automation-hook-concepting-8",
      "title": "Automation Specialist, Hook Concepting — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-dco-feed-design"
     },
     {
-     "slug": "cre-spc-automation-ad-copy-systems",
+     "slug": "cre-spc-automation-ad-copy-systems-9",
      "title": "Automation Specialist, Ad Copy Systems — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-format-spec-library"
     },
     {
-     "slug": "cre-spc-automation-video-cutdown-matrix",
+     "slug": "cre-spc-automation-video-cutdown-matrix-10",
      "title": "Automation Specialist, Video Cutdown Matrix — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-spc-automation-dco-feed-design",
+     "slug": "cre-spc-automation-dco-feed-design-11",
      "title": "Automation Specialist, Dco Feed Design — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-ad-copy-systems"
     },
     {
-     "slug": "cre-spc-automation-format-spec-library",
+     "slug": "cre-spc-automation-format-spec-library-12",
      "title": "Automation Specialist, Format Spec Library — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-video-cutdown-matrix"
     },
     {
-     "slug": "cre-spc-automation-localization-tr",
+     "slug": "cre-spc-automation-localization-tr-13",
      "title": "Automation Specialist, Localization Tr — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-dco-feed-design"
     },
     {
-     "slug": "cre-spc-automation-creative-naming-taxonomy",
+     "slug": "cre-spc-automation-creative-naming-taxonomy-14",
      "title": "Automation Specialist, Creative Naming Taxonomy — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-format-spec-library"
     },
     {
-     "slug": "cre-spc-automation-asset-versioning",
+     "slug": "cre-spc-automation-asset-versioning-15",
      "title": "Automation Specialist, Asset Versioning — Creative Studio & DCO",
      "tier": "SPECIALIST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-anl-performance-analyst-hook-concepting",
+     "slug": "cre-anl-performance-analyst-hook-concepting-0",
      "title": "Performance Analyst, Hook Concepting — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-anl-data-analyst-video-cutdown-matrix",
+     "slug": "cre-anl-data-analyst-video-cutdown-matrix-1",
      "title": "Data Analyst, Video Cutdown Matrix — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-ad-copy-systems"
     },
     {
-     "slug": "cre-anl-reporting-analyst-format-spec-library",
+     "slug": "cre-anl-reporting-analyst-format-spec-library-2",
      "title": "Reporting Analyst, Format Spec Library — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-video-cutdown-matrix"
     },
     {
-     "slug": "cre-anl-performance-analyst-creative-naming-taxonomy",
+     "slug": "cre-anl-performance-analyst-creative-naming-taxonomy-3",
      "title": "Performance Analyst, Creative Naming Taxonomy — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-dco-feed-design"
     },
     {
-     "slug": "cre-anl-data-analyst-hook-concepting",
+     "slug": "cre-anl-data-analyst-hook-concepting-4",
      "title": "Data Analyst, Hook Concepting — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-format-spec-library"
     },
     {
-     "slug": "cre-anl-reporting-analyst-video-cutdown-matrix",
+     "slug": "cre-anl-reporting-analyst-video-cutdown-matrix-5",
      "title": "Reporting Analyst, Video Cutdown Matrix — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-hook-concepting"
     },
     {
-     "slug": "cre-anl-performance-analyst-format-spec-library",
+     "slug": "cre-anl-performance-analyst-format-spec-library-6",
      "title": "Performance Analyst, Format Spec Library — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-ad-copy-systems"
     },
     {
-     "slug": "cre-anl-data-analyst-creative-naming-taxonomy",
+     "slug": "cre-anl-data-analyst-creative-naming-taxonomy-7",
      "title": "Data Analyst, Creative Naming Taxonomy — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-video-cutdown-matrix"
     },
     {
-     "slug": "cre-anl-reporting-analyst-hook-concepting",
+     "slug": "cre-anl-reporting-analyst-hook-concepting-8",
      "title": "Reporting Analyst, Hook Concepting — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-dco-feed-design"
     },
     {
-     "slug": "cre-anl-performance-analyst-video-cutdown-matrix",
+     "slug": "cre-anl-performance-analyst-video-cutdown-matrix-9",
      "title": "Performance Analyst, Video Cutdown Matrix — Creative Studio & DCO",
      "tier": "ANALYST",
      "reports_to": "cre-lead-format-spec-library"
@@ -2784,127 +2784,127 @@
      "reports_to": "str-dir-media-mix"
     },
     {
-     "slug": "str-spc-optimization-audience-mapping",
+     "slug": "str-spc-optimization-audience-mapping-0",
      "title": "Optimization Specialist, Audience Mapping — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-audience-mapping"
     },
     {
-     "slug": "str-spc-optimization-channel-mix-modeling",
+     "slug": "str-spc-optimization-channel-mix-modeling-1",
      "title": "Optimization Specialist, Channel Mix Modeling — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-channel-mix-modeling"
     },
     {
-     "slug": "str-spc-optimization-competitive-landscape",
+     "slug": "str-spc-optimization-competitive-landscape-2",
      "title": "Optimization Specialist, Competitive Landscape — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-competitive-landscape"
     },
     {
-     "slug": "str-spc-optimization-pov-writing",
+     "slug": "str-spc-optimization-pov-writing-3",
      "title": "Optimization Specialist, Pov Writing — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-pov-writing"
     },
     {
-     "slug": "str-spc-optimization-media-plan-templates",
+     "slug": "str-spc-optimization-media-plan-templates-4",
      "title": "Optimization Specialist, Media Plan Templates — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-media-plan-templates"
     },
     {
-     "slug": "str-spc-optimization-benchmark-library",
+     "slug": "str-spc-optimization-benchmark-library-5",
      "title": "Optimization Specialist, Benchmark Library — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-audience-mapping"
     },
     {
-     "slug": "str-spc-optimization-quarterly-planning",
+     "slug": "str-spc-optimization-quarterly-planning-6",
      "title": "Optimization Specialist, Quarterly Planning — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-channel-mix-modeling"
     },
     {
-     "slug": "str-spc-automation-audience-mapping",
+     "slug": "str-spc-automation-audience-mapping-7",
      "title": "Automation Specialist, Audience Mapping — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-competitive-landscape"
     },
     {
-     "slug": "str-spc-automation-channel-mix-modeling",
+     "slug": "str-spc-automation-channel-mix-modeling-8",
      "title": "Automation Specialist, Channel Mix Modeling — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-pov-writing"
     },
     {
-     "slug": "str-spc-automation-competitive-landscape",
+     "slug": "str-spc-automation-competitive-landscape-9",
      "title": "Automation Specialist, Competitive Landscape — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-media-plan-templates"
     },
     {
-     "slug": "str-spc-automation-pov-writing",
+     "slug": "str-spc-automation-pov-writing-10",
      "title": "Automation Specialist, Pov Writing — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-audience-mapping"
     },
     {
-     "slug": "str-spc-automation-media-plan-templates",
+     "slug": "str-spc-automation-media-plan-templates-11",
      "title": "Automation Specialist, Media Plan Templates — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-channel-mix-modeling"
     },
     {
-     "slug": "str-spc-automation-benchmark-library",
+     "slug": "str-spc-automation-benchmark-library-12",
      "title": "Automation Specialist, Benchmark Library — Strategy & Comms Planning",
      "tier": "SPECIALIST",
      "reports_to": "str-lead-competitive-landscape"
     },
     {
-     "slug": "str-anl-performance-analyst-audience-mapping",
+     "slug": "str-anl-performance-analyst-audience-mapping-0",
      "title": "Performance Analyst, Audience Mapping — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-audience-mapping"
     },
     {
-     "slug": "str-anl-data-analyst-competitive-landscape",
+     "slug": "str-anl-data-analyst-competitive-landscape-1",
      "title": "Data Analyst, Competitive Landscape — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-channel-mix-modeling"
     },
     {
-     "slug": "str-anl-reporting-analyst-media-plan-templates",
+     "slug": "str-anl-reporting-analyst-media-plan-templates-2",
      "title": "Reporting Analyst, Media Plan Templates — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-competitive-landscape"
     },
     {
-     "slug": "str-anl-performance-analyst-quarterly-planning",
+     "slug": "str-anl-performance-analyst-quarterly-planning-3",
      "title": "Performance Analyst, Quarterly Planning — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-pov-writing"
     },
     {
-     "slug": "str-anl-data-analyst-channel-mix-modeling",
+     "slug": "str-anl-data-analyst-channel-mix-modeling-4",
      "title": "Data Analyst, Channel Mix Modeling — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-media-plan-templates"
     },
     {
-     "slug": "str-anl-reporting-analyst-pov-writing",
+     "slug": "str-anl-reporting-analyst-pov-writing-5",
      "title": "Reporting Analyst, Pov Writing — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-audience-mapping"
     },
     {
-     "slug": "str-anl-performance-analyst-benchmark-library",
+     "slug": "str-anl-performance-analyst-benchmark-library-6",
      "title": "Performance Analyst, Benchmark Library — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-channel-mix-modeling"
     },
     {
-     "slug": "str-anl-data-analyst-audience-mapping",
+     "slug": "str-anl-data-analyst-audience-mapping-7",
      "title": "Data Analyst, Audience Mapping — Strategy & Comms Planning",
      "tier": "ANALYST",
      "reports_to": "str-lead-competitive-landscape"
@@ -2991,127 +2991,127 @@
      "reports_to": "cls-dir-reporting-cadence"
     },
     {
-     "slug": "cls-spc-optimization-account-health-scoring",
+     "slug": "cls-spc-optimization-account-health-scoring-0",
      "title": "Optimization Specialist, Account Health Scoring — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-account-health-scoring"
     },
     {
-     "slug": "cls-spc-optimization-weekly-report-narratives",
+     "slug": "cls-spc-optimization-weekly-report-narratives-1",
      "title": "Optimization Specialist, Weekly Report Narratives — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-weekly-report-narratives"
     },
     {
-     "slug": "cls-spc-optimization-qbr-decks",
+     "slug": "cls-spc-optimization-qbr-decks-2",
      "title": "Optimization Specialist, Qbr Decks — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-qbr-decks"
     },
     {
-     "slug": "cls-spc-optimization-onboarding-checklists",
+     "slug": "cls-spc-optimization-onboarding-checklists-3",
      "title": "Optimization Specialist, Onboarding Checklists — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-onboarding-checklists"
     },
     {
-     "slug": "cls-spc-optimization-expectation-management",
+     "slug": "cls-spc-optimization-expectation-management-4",
      "title": "Optimization Specialist, Expectation Management — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-expectation-management"
     },
     {
-     "slug": "cls-spc-optimization-escalation-comms",
+     "slug": "cls-spc-optimization-escalation-comms-5",
      "title": "Optimization Specialist, Escalation Comms — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-account-health-scoring"
     },
     {
-     "slug": "cls-spc-optimization-renewal-playbooks",
+     "slug": "cls-spc-optimization-renewal-playbooks-6",
      "title": "Optimization Specialist, Renewal Playbooks — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-weekly-report-narratives"
     },
     {
-     "slug": "cls-spc-automation-account-health-scoring",
+     "slug": "cls-spc-automation-account-health-scoring-7",
      "title": "Automation Specialist, Account Health Scoring — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-qbr-decks"
     },
     {
-     "slug": "cls-spc-automation-weekly-report-narratives",
+     "slug": "cls-spc-automation-weekly-report-narratives-8",
      "title": "Automation Specialist, Weekly Report Narratives — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-onboarding-checklists"
     },
     {
-     "slug": "cls-spc-automation-qbr-decks",
+     "slug": "cls-spc-automation-qbr-decks-9",
      "title": "Automation Specialist, Qbr Decks — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-expectation-management"
     },
     {
-     "slug": "cls-spc-automation-onboarding-checklists",
+     "slug": "cls-spc-automation-onboarding-checklists-10",
      "title": "Automation Specialist, Onboarding Checklists — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-account-health-scoring"
     },
     {
-     "slug": "cls-spc-automation-expectation-management",
+     "slug": "cls-spc-automation-expectation-management-11",
      "title": "Automation Specialist, Expectation Management — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-weekly-report-narratives"
     },
     {
-     "slug": "cls-spc-automation-escalation-comms",
+     "slug": "cls-spc-automation-escalation-comms-12",
      "title": "Automation Specialist, Escalation Comms — Client Services",
      "tier": "SPECIALIST",
      "reports_to": "cls-lead-qbr-decks"
     },
     {
-     "slug": "cls-anl-performance-analyst-account-health-scoring",
+     "slug": "cls-anl-performance-analyst-account-health-scoring-0",
      "title": "Performance Analyst, Account Health Scoring — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-account-health-scoring"
     },
     {
-     "slug": "cls-anl-data-analyst-qbr-decks",
+     "slug": "cls-anl-data-analyst-qbr-decks-1",
      "title": "Data Analyst, Qbr Decks — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-weekly-report-narratives"
     },
     {
-     "slug": "cls-anl-reporting-analyst-expectation-management",
+     "slug": "cls-anl-reporting-analyst-expectation-management-2",
      "title": "Reporting Analyst, Expectation Management — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-qbr-decks"
     },
     {
-     "slug": "cls-anl-performance-analyst-renewal-playbooks",
+     "slug": "cls-anl-performance-analyst-renewal-playbooks-3",
      "title": "Performance Analyst, Renewal Playbooks — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-onboarding-checklists"
     },
     {
-     "slug": "cls-anl-data-analyst-weekly-report-narratives",
+     "slug": "cls-anl-data-analyst-weekly-report-narratives-4",
      "title": "Data Analyst, Weekly Report Narratives — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-expectation-management"
     },
     {
-     "slug": "cls-anl-reporting-analyst-onboarding-checklists",
+     "slug": "cls-anl-reporting-analyst-onboarding-checklists-5",
      "title": "Reporting Analyst, Onboarding Checklists — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-account-health-scoring"
     },
     {
-     "slug": "cls-anl-performance-analyst-escalation-comms",
+     "slug": "cls-anl-performance-analyst-escalation-comms-6",
      "title": "Performance Analyst, Escalation Comms — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-weekly-report-narratives"
     },
     {
-     "slug": "cls-anl-data-analyst-account-health-scoring",
+     "slug": "cls-anl-data-analyst-account-health-scoring-7",
      "title": "Data Analyst, Account Health Scoring — Client Services",
      "tier": "ANALYST",
      "reports_to": "cls-lead-qbr-decks"
@@ -3186,109 +3186,109 @@
      "reports_to": "nbd-dir-pitch-factory"
     },
     {
-     "slug": "nbd-spc-optimization-inbound-funnel-design",
+     "slug": "nbd-spc-optimization-inbound-funnel-design-0",
      "title": "Optimization Specialist, Inbound Funnel Design — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-inbound-funnel-design"
     },
     {
-     "slug": "nbd-spc-optimization-pitch-deck-assembly",
+     "slug": "nbd-spc-optimization-pitch-deck-assembly-1",
      "title": "Optimization Specialist, Pitch Deck Assembly — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-pitch-deck-assembly"
     },
     {
-     "slug": "nbd-spc-optimization-case-study-engine",
+     "slug": "nbd-spc-optimization-case-study-engine-2",
      "title": "Optimization Specialist, Case Study Engine — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-case-study-engine"
     },
     {
-     "slug": "nbd-spc-optimization-lead-scoring-model",
+     "slug": "nbd-spc-optimization-lead-scoring-model-3",
      "title": "Optimization Specialist, Lead Scoring Model — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-lead-scoring-model"
     },
     {
-     "slug": "nbd-spc-optimization-discovery-call-briefs",
+     "slug": "nbd-spc-optimization-discovery-call-briefs-4",
      "title": "Optimization Specialist, Discovery Call Briefs — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-inbound-funnel-design"
     },
     {
-     "slug": "nbd-spc-optimization-proposal-templates",
+     "slug": "nbd-spc-optimization-proposal-templates-5",
      "title": "Optimization Specialist, Proposal Templates — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-pitch-deck-assembly"
     },
     {
-     "slug": "nbd-spc-optimization-win-loss-analysis",
+     "slug": "nbd-spc-optimization-win-loss-analysis-6",
      "title": "Optimization Specialist, Win Loss Analysis — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-case-study-engine"
     },
     {
-     "slug": "nbd-spc-automation-inbound-funnel-design",
+     "slug": "nbd-spc-automation-inbound-funnel-design-7",
      "title": "Automation Specialist, Inbound Funnel Design — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-lead-scoring-model"
     },
     {
-     "slug": "nbd-spc-automation-pitch-deck-assembly",
+     "slug": "nbd-spc-automation-pitch-deck-assembly-8",
      "title": "Automation Specialist, Pitch Deck Assembly — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-inbound-funnel-design"
     },
     {
-     "slug": "nbd-spc-automation-case-study-engine",
+     "slug": "nbd-spc-automation-case-study-engine-9",
      "title": "Automation Specialist, Case Study Engine — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-pitch-deck-assembly"
     },
     {
-     "slug": "nbd-spc-automation-lead-scoring-model",
+     "slug": "nbd-spc-automation-lead-scoring-model-10",
      "title": "Automation Specialist, Lead Scoring Model — New Business & Inbound Funnel",
      "tier": "SPECIALIST",
      "reports_to": "nbd-lead-case-study-engine"
     },
     {
-     "slug": "nbd-anl-performance-analyst-inbound-funnel-design",
+     "slug": "nbd-anl-performance-analyst-inbound-funnel-design-0",
      "title": "Performance Analyst, Inbound Funnel Design — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-inbound-funnel-design"
     },
     {
-     "slug": "nbd-anl-data-analyst-case-study-engine",
+     "slug": "nbd-anl-data-analyst-case-study-engine-1",
      "title": "Data Analyst, Case Study Engine — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-pitch-deck-assembly"
     },
     {
-     "slug": "nbd-anl-reporting-analyst-discovery-call-briefs",
+     "slug": "nbd-anl-reporting-analyst-discovery-call-briefs-2",
      "title": "Reporting Analyst, Discovery Call Briefs — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-case-study-engine"
     },
     {
-     "slug": "nbd-anl-performance-analyst-win-loss-analysis",
+     "slug": "nbd-anl-performance-analyst-win-loss-analysis-3",
      "title": "Performance Analyst, Win Loss Analysis — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-lead-scoring-model"
     },
     {
-     "slug": "nbd-anl-data-analyst-pitch-deck-assembly",
+     "slug": "nbd-anl-data-analyst-pitch-deck-assembly-4",
      "title": "Data Analyst, Pitch Deck Assembly — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-inbound-funnel-design"
     },
     {
-     "slug": "nbd-anl-reporting-analyst-lead-scoring-model",
+     "slug": "nbd-anl-reporting-analyst-lead-scoring-model-5",
      "title": "Reporting Analyst, Lead Scoring Model — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-pitch-deck-assembly"
     },
     {
-     "slug": "nbd-anl-performance-analyst-proposal-templates",
+     "slug": "nbd-anl-performance-analyst-proposal-templates-6",
      "title": "Performance Analyst, Proposal Templates — New Business & Inbound Funnel",
      "tier": "ANALYST",
      "reports_to": "nbd-lead-case-study-engine"
@@ -3357,73 +3357,73 @@
      "reports_to": "prt-dir-infra-sponsors"
     },
     {
-     "slug": "prt-spc-optimization-sponsor-target-list",
+     "slug": "prt-spc-optimization-sponsor-target-list-0",
      "title": "Optimization Specialist, Sponsor Target List — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsor-target-list"
     },
     {
-     "slug": "prt-spc-optimization-sponsorship-pitch-kit",
+     "slug": "prt-spc-optimization-sponsorship-pitch-kit-1",
      "title": "Optimization Specialist, Sponsorship Pitch Kit — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsorship-pitch-kit"
     },
     {
-     "slug": "prt-spc-optimization-referral-terms-tracking",
+     "slug": "prt-spc-optimization-referral-terms-tracking-2",
      "title": "Optimization Specialist, Referral Terms Tracking — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-referral-terms-tracking"
     },
     {
-     "slug": "prt-spc-optimization-ecosystem-directory-relations",
+     "slug": "prt-spc-optimization-ecosystem-directory-relations-3",
      "title": "Optimization Specialist, Ecosystem Directory Relations — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsor-target-list"
     },
     {
-     "slug": "prt-spc-optimization-co-marketing-plays",
+     "slug": "prt-spc-optimization-co-marketing-plays-4",
      "title": "Optimization Specialist, Co Marketing Plays — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsorship-pitch-kit"
     },
     {
-     "slug": "prt-spc-optimization-partner-health-review",
+     "slug": "prt-spc-optimization-partner-health-review-5",
      "title": "Optimization Specialist, Partner Health Review — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-referral-terms-tracking"
     },
     {
-     "slug": "prt-spc-automation-sponsor-target-list",
+     "slug": "prt-spc-automation-sponsor-target-list-6",
      "title": "Automation Specialist, Sponsor Target List — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsor-target-list"
     },
     {
-     "slug": "prt-spc-automation-sponsorship-pitch-kit",
+     "slug": "prt-spc-automation-sponsorship-pitch-kit-7",
      "title": "Automation Specialist, Sponsorship Pitch Kit — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-sponsorship-pitch-kit"
     },
     {
-     "slug": "prt-spc-automation-referral-terms-tracking",
+     "slug": "prt-spc-automation-referral-terms-tracking-8",
      "title": "Automation Specialist, Referral Terms Tracking — Partnerships & Sponsorships",
      "tier": "SPECIALIST",
      "reports_to": "prt-lead-referral-terms-tracking"
     },
     {
-     "slug": "prt-anl-performance-analyst-sponsor-target-list",
+     "slug": "prt-anl-performance-analyst-sponsor-target-list-0",
      "title": "Performance Analyst, Sponsor Target List — Partnerships & Sponsorships",
      "tier": "ANALYST",
      "reports_to": "prt-lead-sponsor-target-list"
     },
     {
-     "slug": "prt-anl-data-analyst-referral-terms-tracking",
+     "slug": "prt-anl-data-analyst-referral-terms-tracking-1",
      "title": "Data Analyst, Referral Terms Tracking — Partnerships & Sponsorships",
      "tier": "ANALYST",
      "reports_to": "prt-lead-sponsorship-pitch-kit"
     },
     {
-     "slug": "prt-anl-reporting-analyst-co-marketing-plays",
+     "slug": "prt-anl-reporting-analyst-co-marketing-plays-2",
      "title": "Reporting Analyst, Co Marketing Plays — Partnerships & Sponsorships",
      "tier": "ANALYST",
      "reports_to": "prt-lead-referral-terms-tracking"
@@ -3504,73 +3504,73 @@
      "reports_to": "prd-dir-premium-components"
     },
     {
-     "slug": "prd-spc-optimization-premium-component-specs",
+     "slug": "prd-spc-optimization-premium-component-specs-0",
      "title": "Optimization Specialist, Premium Component Specs — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-premium-component-specs"
     },
     {
-     "slug": "prd-spc-optimization-licensing-model",
+     "slug": "prd-spc-optimization-licensing-model-1",
      "title": "Optimization Specialist, Licensing Model — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-licensing-model"
     },
     {
-     "slug": "prd-spc-optimization-component-docs-standards",
+     "slug": "prd-spc-optimization-component-docs-standards-2",
      "title": "Optimization Specialist, Component Docs Standards — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-component-docs-standards"
     },
     {
-     "slug": "prd-spc-optimization-installer-experience",
+     "slug": "prd-spc-optimization-installer-experience-3",
      "title": "Optimization Specialist, Installer Experience — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-premium-component-specs"
     },
     {
-     "slug": "prd-spc-optimization-feedback-intake",
+     "slug": "prd-spc-optimization-feedback-intake-4",
      "title": "Optimization Specialist, Feedback Intake — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-licensing-model"
     },
     {
-     "slug": "prd-spc-optimization-release-notes",
+     "slug": "prd-spc-optimization-release-notes-5",
      "title": "Optimization Specialist, Release Notes — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-component-docs-standards"
     },
     {
-     "slug": "prd-spc-automation-premium-component-specs",
+     "slug": "prd-spc-automation-premium-component-specs-6",
      "title": "Automation Specialist, Premium Component Specs — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-premium-component-specs"
     },
     {
-     "slug": "prd-spc-automation-licensing-model",
+     "slug": "prd-spc-automation-licensing-model-7",
      "title": "Automation Specialist, Licensing Model — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-licensing-model"
     },
     {
-     "slug": "prd-spc-automation-component-docs-standards",
+     "slug": "prd-spc-automation-component-docs-standards-8",
      "title": "Automation Specialist, Component Docs Standards — Product & Premium Pack",
      "tier": "SPECIALIST",
      "reports_to": "prd-lead-component-docs-standards"
     },
     {
-     "slug": "prd-anl-performance-analyst-premium-component-specs",
+     "slug": "prd-anl-performance-analyst-premium-component-specs-0",
      "title": "Performance Analyst, Premium Component Specs — Product & Premium Pack",
      "tier": "ANALYST",
      "reports_to": "prd-lead-premium-component-specs"
     },
     {
-     "slug": "prd-anl-data-analyst-component-docs-standards",
+     "slug": "prd-anl-data-analyst-component-docs-standards-1",
      "title": "Data Analyst, Component Docs Standards — Product & Premium Pack",
      "tier": "ANALYST",
      "reports_to": "prd-lead-licensing-model"
     },
     {
-     "slug": "prd-anl-reporting-analyst-feedback-intake",
+     "slug": "prd-anl-reporting-analyst-feedback-intake-2",
      "title": "Reporting Analyst, Feedback Intake — Product & Premium Pack",
      "tier": "ANALYST",
      "reports_to": "prd-lead-component-docs-standards"
@@ -3638,67 +3638,67 @@
      "reports_to": "fin-dir-cost-control"
     },
     {
-     "slug": "fin-spc-optimization-api-cost-tracking",
+     "slug": "fin-spc-optimization-api-cost-tracking-0",
      "title": "Optimization Specialist, Api Cost Tracking — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-spc-optimization-sponsor-invoice-flows",
+     "slug": "fin-spc-optimization-sponsor-invoice-flows-1",
      "title": "Optimization Specialist, Sponsor Invoice Flows — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-sponsor-invoice-flows"
     },
     {
-     "slug": "fin-spc-optimization-margin-models",
+     "slug": "fin-spc-optimization-margin-models-2",
      "title": "Optimization Specialist, Margin Models — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-spc-optimization-budget-variance-reports",
+     "slug": "fin-spc-optimization-budget-variance-reports-3",
      "title": "Optimization Specialist, Budget Variance Reports — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-sponsor-invoice-flows"
     },
     {
-     "slug": "fin-spc-automation-api-cost-tracking",
+     "slug": "fin-spc-automation-api-cost-tracking-4",
      "title": "Automation Specialist, Api Cost Tracking — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-spc-automation-sponsor-invoice-flows",
+     "slug": "fin-spc-automation-sponsor-invoice-flows-5",
      "title": "Automation Specialist, Sponsor Invoice Flows — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-sponsor-invoice-flows"
     },
     {
-     "slug": "fin-spc-automation-margin-models",
+     "slug": "fin-spc-automation-margin-models-6",
      "title": "Automation Specialist, Margin Models — Finance & Billing",
      "tier": "SPECIALIST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-anl-performance-analyst-api-cost-tracking",
+     "slug": "fin-anl-performance-analyst-api-cost-tracking-0",
      "title": "Performance Analyst, Api Cost Tracking — Finance & Billing",
      "tier": "ANALYST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-anl-data-analyst-margin-models",
+     "slug": "fin-anl-data-analyst-margin-models-1",
      "title": "Data Analyst, Margin Models — Finance & Billing",
      "tier": "ANALYST",
      "reports_to": "fin-lead-sponsor-invoice-flows"
     },
     {
-     "slug": "fin-anl-reporting-analyst-api-cost-tracking",
+     "slug": "fin-anl-reporting-analyst-api-cost-tracking-2",
      "title": "Reporting Analyst, Api Cost Tracking — Finance & Billing",
      "tier": "ANALYST",
      "reports_to": "fin-lead-api-cost-tracking"
     },
     {
-     "slug": "fin-anl-performance-analyst-margin-models",
+     "slug": "fin-anl-performance-analyst-margin-models-3",
      "title": "Performance Analyst, Margin Models — Finance & Billing",
      "tier": "ANALYST",
      "reports_to": "fin-lead-sponsor-invoice-flows"
@@ -3755,67 +3755,67 @@
      "reports_to": "leg-dir-licensing"
     },
     {
-     "slug": "leg-spc-optimization-license-audit",
+     "slug": "leg-spc-optimization-license-audit-0",
      "title": "Optimization Specialist, License Audit — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-spc-optimization-kvkk-gdpr-checklists",
+     "slug": "leg-spc-optimization-kvkk-gdpr-checklists-1",
      "title": "Optimization Specialist, Kvkk Gdpr Checklists — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-kvkk-gdpr-checklists"
     },
     {
-     "slug": "leg-spc-optimization-ad-policy-screening",
+     "slug": "leg-spc-optimization-ad-policy-screening-2",
      "title": "Optimization Specialist, Ad Policy Screening — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-spc-optimization-tos-review",
+     "slug": "leg-spc-optimization-tos-review-3",
      "title": "Optimization Specialist, Tos Review — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-kvkk-gdpr-checklists"
     },
     {
-     "slug": "leg-spc-optimization-security-rule-enforcement",
+     "slug": "leg-spc-optimization-security-rule-enforcement-4",
      "title": "Optimization Specialist, Security Rule Enforcement — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-spc-automation-license-audit",
+     "slug": "leg-spc-automation-license-audit-5",
      "title": "Automation Specialist, License Audit — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-kvkk-gdpr-checklists"
     },
     {
-     "slug": "leg-spc-automation-kvkk-gdpr-checklists",
+     "slug": "leg-spc-automation-kvkk-gdpr-checklists-6",
      "title": "Automation Specialist, Kvkk Gdpr Checklists — Legal & Compliance",
      "tier": "SPECIALIST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-anl-performance-analyst-license-audit",
+     "slug": "leg-anl-performance-analyst-license-audit-0",
      "title": "Performance Analyst, License Audit — Legal & Compliance",
      "tier": "ANALYST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-anl-data-analyst-ad-policy-screening",
+     "slug": "leg-anl-data-analyst-ad-policy-screening-1",
      "title": "Data Analyst, Ad Policy Screening — Legal & Compliance",
      "tier": "ANALYST",
      "reports_to": "leg-lead-kvkk-gdpr-checklists"
     },
     {
-     "slug": "leg-anl-reporting-analyst-security-rule-enforcement",
+     "slug": "leg-anl-reporting-analyst-security-rule-enforcement-2",
      "title": "Reporting Analyst, Security Rule Enforcement — Legal & Compliance",
      "tier": "ANALYST",
      "reports_to": "leg-lead-license-audit"
     },
     {
-     "slug": "leg-anl-performance-analyst-kvkk-gdpr-checklists",
+     "slug": "leg-anl-performance-analyst-kvkk-gdpr-checklists-3",
      "title": "Performance Analyst, Kvkk Gdpr Checklists — Legal & Compliance",
      "tier": "ANALYST",
      "reports_to": "leg-lead-kvkk-gdpr-checklists"
@@ -3872,67 +3872,67 @@
      "reports_to": "tal-dir-agent-lifecycle"
     },
     {
-     "slug": "tal-spc-optimization-agent-onboarding-standards",
+     "slug": "tal-spc-optimization-agent-onboarding-standards-0",
      "title": "Optimization Specialist, Agent Onboarding Standards — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-spc-optimization-prompt-review-rubric",
+     "slug": "tal-spc-optimization-prompt-review-rubric-1",
      "title": "Optimization Specialist, Prompt Review Rubric — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-prompt-review-rubric"
     },
     {
-     "slug": "tal-spc-optimization-underperformer-rehab",
+     "slug": "tal-spc-optimization-underperformer-rehab-2",
      "title": "Optimization Specialist, Underperformer Rehab — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-spc-optimization-role-gap-analysis",
+     "slug": "tal-spc-optimization-role-gap-analysis-3",
      "title": "Optimization Specialist, Role Gap Analysis — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-prompt-review-rubric"
     },
     {
-     "slug": "tal-spc-optimization-shift-roster-management",
+     "slug": "tal-spc-optimization-shift-roster-management-4",
      "title": "Optimization Specialist, Shift Roster Management — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-spc-automation-agent-onboarding-standards",
+     "slug": "tal-spc-automation-agent-onboarding-standards-5",
      "title": "Automation Specialist, Agent Onboarding Standards — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-prompt-review-rubric"
     },
     {
-     "slug": "tal-spc-automation-prompt-review-rubric",
+     "slug": "tal-spc-automation-prompt-review-rubric-6",
      "title": "Automation Specialist, Prompt Review Rubric — Talent & Agent Quality",
      "tier": "SPECIALIST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-anl-performance-analyst-agent-onboarding-standards",
+     "slug": "tal-anl-performance-analyst-agent-onboarding-standards-0",
      "title": "Performance Analyst, Agent Onboarding Standards — Talent & Agent Quality",
      "tier": "ANALYST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-anl-data-analyst-underperformer-rehab",
+     "slug": "tal-anl-data-analyst-underperformer-rehab-1",
      "title": "Data Analyst, Underperformer Rehab — Talent & Agent Quality",
      "tier": "ANALYST",
      "reports_to": "tal-lead-prompt-review-rubric"
     },
     {
-     "slug": "tal-anl-reporting-analyst-shift-roster-management",
+     "slug": "tal-anl-reporting-analyst-shift-roster-management-2",
      "title": "Reporting Analyst, Shift Roster Management — Talent & Agent Quality",
      "tier": "ANALYST",
      "reports_to": "tal-lead-agent-onboarding-standards"
     },
     {
-     "slug": "tal-anl-performance-analyst-prompt-review-rubric",
+     "slug": "tal-anl-performance-analyst-prompt-review-rubric-3",
      "title": "Performance Analyst, Prompt Review Rubric — Talent & Agent Quality",
      "tier": "ANALYST",
      "reports_to": "tal-lead-prompt-review-rubric"
@@ -4021,127 +4021,127 @@
      "reports_to": "inf-dir-validation-and-security"
     },
     {
-     "slug": "inf-spc-optimization-actions-reliability",
+     "slug": "inf-spc-optimization-actions-reliability-0",
      "title": "Optimization Specialist, Actions Reliability — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-actions-reliability"
     },
     {
-     "slug": "inf-spc-optimization-validator-evolution",
+     "slug": "inf-spc-optimization-validator-evolution-1",
      "title": "Optimization Specialist, Validator Evolution — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-validator-evolution"
     },
     {
-     "slug": "inf-spc-optimization-sha256-integrity",
+     "slug": "inf-spc-optimization-sha256-integrity-2",
      "title": "Optimization Specialist, Sha256 Integrity — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-sha256-integrity"
     },
     {
-     "slug": "inf-spc-optimization-mcp-config-standards",
+     "slug": "inf-spc-optimization-mcp-config-standards-3",
      "title": "Optimization Specialist, Mcp Config Standards — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-mcp-config-standards"
     },
     {
-     "slug": "inf-spc-optimization-secrets-hygiene",
+     "slug": "inf-spc-optimization-secrets-hygiene-4",
      "title": "Optimization Specialist, Secrets Hygiene — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-secrets-hygiene"
     },
     {
-     "slug": "inf-spc-optimization-org-json-schema",
+     "slug": "inf-spc-optimization-org-json-schema-5",
      "title": "Optimization Specialist, Org Json Schema — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-actions-reliability"
     },
     {
-     "slug": "inf-spc-optimization-backup-recovery",
+     "slug": "inf-spc-optimization-backup-recovery-6",
      "title": "Optimization Specialist, Backup Recovery — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-validator-evolution"
     },
     {
-     "slug": "inf-spc-optimization-issue-triage-automation",
+     "slug": "inf-spc-optimization-issue-triage-automation-7",
      "title": "Optimization Specialist, Issue Triage Automation — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-sha256-integrity"
     },
     {
-     "slug": "inf-spc-automation-actions-reliability",
+     "slug": "inf-spc-automation-actions-reliability-8",
      "title": "Automation Specialist, Actions Reliability — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-mcp-config-standards"
     },
     {
-     "slug": "inf-spc-automation-validator-evolution",
+     "slug": "inf-spc-automation-validator-evolution-9",
      "title": "Automation Specialist, Validator Evolution — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-secrets-hygiene"
     },
     {
-     "slug": "inf-spc-automation-sha256-integrity",
+     "slug": "inf-spc-automation-sha256-integrity-10",
      "title": "Automation Specialist, Sha256 Integrity — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-actions-reliability"
     },
     {
-     "slug": "inf-spc-automation-mcp-config-standards",
+     "slug": "inf-spc-automation-mcp-config-standards-11",
      "title": "Automation Specialist, Mcp Config Standards — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-validator-evolution"
     },
     {
-     "slug": "inf-spc-automation-secrets-hygiene",
+     "slug": "inf-spc-automation-secrets-hygiene-12",
      "title": "Automation Specialist, Secrets Hygiene — Tech & Infrastructure",
      "tier": "SPECIALIST",
      "reports_to": "inf-lead-sha256-integrity"
     },
     {
-     "slug": "inf-anl-performance-analyst-actions-reliability",
+     "slug": "inf-anl-performance-analyst-actions-reliability-0",
      "title": "Performance Analyst, Actions Reliability — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-actions-reliability"
     },
     {
-     "slug": "inf-anl-data-analyst-sha256-integrity",
+     "slug": "inf-anl-data-analyst-sha256-integrity-1",
      "title": "Data Analyst, Sha256 Integrity — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-validator-evolution"
     },
     {
-     "slug": "inf-anl-reporting-analyst-secrets-hygiene",
+     "slug": "inf-anl-reporting-analyst-secrets-hygiene-2",
      "title": "Reporting Analyst, Secrets Hygiene — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-sha256-integrity"
     },
     {
-     "slug": "inf-anl-performance-analyst-backup-recovery",
+     "slug": "inf-anl-performance-analyst-backup-recovery-3",
      "title": "Performance Analyst, Backup Recovery — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-mcp-config-standards"
     },
     {
-     "slug": "inf-anl-data-analyst-actions-reliability",
+     "slug": "inf-anl-data-analyst-actions-reliability-4",
      "title": "Data Analyst, Actions Reliability — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-secrets-hygiene"
     },
     {
-     "slug": "inf-anl-reporting-analyst-sha256-integrity",
+     "slug": "inf-anl-reporting-analyst-sha256-integrity-5",
      "title": "Reporting Analyst, Sha256 Integrity — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-actions-reliability"
     },
     {
-     "slug": "inf-anl-performance-analyst-secrets-hygiene",
+     "slug": "inf-anl-performance-analyst-secrets-hygiene-6",
      "title": "Performance Analyst, Secrets Hygiene — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-validator-evolution"
     },
     {
-     "slug": "inf-anl-data-analyst-backup-recovery",
+     "slug": "inf-anl-data-analyst-backup-recovery-7",
      "title": "Data Analyst, Backup Recovery — Tech & Infrastructure",
      "tier": "ANALYST",
      "reports_to": "inf-lead-sha256-integrity"

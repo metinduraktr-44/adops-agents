@@ -3,10 +3,10 @@ name: prompt-leg-evp-legal-compliance
 description: "EVP, Legal & Compliance — title/ekip/uygulama prompt ailesi (Hukuk & Uyum)."
 tier: EVP
 department: "Legal & Compliance"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Legal & Compliance
-> Departman: **Hukuk & Uyum** (leg) · Kademe: **EVP** · Rapor: `cco-compliance` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Hukuk & Uyum** (leg) · Kademe: **EVP** · Rapor: `cco-compliance` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Licensing, Privacy (KVKK/GDPR), Ad Policy · KPI: 0 violations, 100% components screened, Policy answers ≤ 24h
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

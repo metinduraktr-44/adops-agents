@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-strategy-planning
 description: "Strateji & Planlama departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Strateji & Planlama (str)
 > Headcount: 30 · Birimler: Audience & Insight, Media Mix, Playbooks & POVs
-> KPI: Every plan carries mix rationale, POV per major platform change ≤ 7 days, Benchmarks refreshed monthly · Üretim: 2026-08-03T15:56:20Z
+> KPI: Every plan carries mix rationale, POV per major platform change ≤ 7 days, Benchmarks refreshed monthly · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Strateji & Planlama departman lideri (EVP hattı)

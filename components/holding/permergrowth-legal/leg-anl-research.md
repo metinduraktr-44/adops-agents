@@ -3,10 +3,10 @@ name: holding-leg-anl-research
 description: "Analyst — Legal Research — PermerGrowth Hukuk kişisel workflow paketi (holding)."
 tier: ANALYST
 subsidiary: "PermerGrowth Hukuk"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Analyst — Legal Research — PermerGrowth Hukuk
-> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-dir-compliance` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-dir-compliance` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Analyst — Legal Research

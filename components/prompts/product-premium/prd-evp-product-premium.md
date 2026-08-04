@@ -3,10 +3,10 @@ name: prompt-prd-evp-product-premium
 description: "EVP, Product & Premium Pack — title/ekip/uygulama prompt ailesi (Ürün & Premium Paket)."
 tier: EVP
 department: "Product & Premium Pack"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Product & Premium Pack
-> Departman: **Ürün & Premium Paket** (prd) · Kademe: **EVP** · Rapor: `cpo-product` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ürün & Premium Paket** (prd) · Kademe: **EVP** · Rapor: `cpo-product` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Premium Components, Packaging & Licensing, Docs & DX · KPI: Premium pack v1 by F4, Docs coverage 100%, Install friction ≤ 2 steps
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

@@ -3,10 +3,10 @@ name: prompt-seo-evp-seo-content
 description: "EVP, SEO & Content Engine — title/ekip/uygulama prompt ailesi (SEO & İçerik Motoru)."
 tier: EVP
 department: "SEO & Content Engine"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, SEO & Content Engine
-> Departman: **SEO & İçerik Motoru** (seo) · Kademe: **EVP** · Rapor: `cmo-brand` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **SEO & İçerik Motoru** (seo) · Kademe: **EVP** · Rapor: `cmo-brand` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Technical SEO, Content Production, Digital PR & Links, Repo Storefront · KPI: 1+ article/day shipped, Organic clicks trend up, Core Web Vitals green, Directory listings ≥ 3
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

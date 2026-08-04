@@ -1,7 +1,7 @@
 ---
 name: holding-grup-permergrowth-holding
 description: "PermerGrowth Holding grup (ekip) workflow paketi."
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # GRUP WORKFLOW — PermerGrowth Holding
 > Alan: Holding merkez ofis · Roller: 6 · Ülke: TR, DE, NL, AE, SA, UK, US

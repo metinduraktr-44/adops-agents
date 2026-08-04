@@ -3,10 +3,10 @@ name: prompt-ceo-orchestrator
 description: "CEO — Chief Executive Orchestrator — title/ekip/uygulama prompt ailesi (C-Seviye Liderlik)."
 tier: C
 department: "C-Level"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — CEO — Chief Executive Orchestrator
-> Departman: **C-Seviye Liderlik** (clevel) · Kademe: **C** · Rapor: `Metin Durak (Owner)` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **C-Seviye Liderlik** (clevel) · Kademe: **C** · Rapor: `Metin Durak (Owner)` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: — · KPI: —
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

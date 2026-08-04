@@ -3,10 +3,10 @@ name: prompt-ret-lead-trendyol-ads
 description: "Lead, Trendyol Ads — Retail & Commerce Media — title/ekip/uygulama prompt ailesi (Perakende Medyası)."
 tier: LEAD
 department: "Retail & Commerce Media"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Trendyol Ads — Retail & Commerce Media
-> Departman: **Perakende Medyası** (ret) · Kademe: **LEAD** · Rapor: `ret-dir-tr-marketplaces-trendyol-hepsiburada` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Perakende Medyası** (ret) · Kademe: **LEAD** · Rapor: `ret-dir-tr-marketplaces-trendyol-hepsiburada` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Amazon Ads, TR Marketplaces (Trendyol/Hepsiburada), Criteo & Onsite, Offsite & DSP · KPI: ACOS/TACOS on target, Share of voice on hero SKUs, PDP conversion uplift, Incremental ROAS
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

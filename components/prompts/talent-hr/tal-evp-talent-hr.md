@@ -3,10 +3,10 @@ name: prompt-tal-evp-talent-hr
 description: "EVP, Talent & Agent Quality — title/ekip/uygulama prompt ailesi (Yetenek & Ajan Kalitesi)."
 tier: EVP
 department: "Talent & Agent Quality"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Talent & Agent Quality
-> Departman: **Yetenek & Ajan Kalitesi** (tal) · Kademe: **EVP** · Rapor: `cso-strategy` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Yetenek & Ajan Kalitesi** (tal) · Kademe: **EVP** · Rapor: `cso-strategy` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Agent Lifecycle, Quality Bar, Training Loops · KPI: Quality audit ≥ 95% pass, Role gaps closed ≤ 14 days, Roster coverage 100%
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

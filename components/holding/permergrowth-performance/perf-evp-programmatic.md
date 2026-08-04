@@ -3,10 +3,10 @@ name: holding-perf-evp-programmatic
 description: "EVP — Programmatic — PermerGrowth Performance kişisel workflow paketi (holding)."
 tier: EVP
 subsidiary: "PermerGrowth Performance"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # EVP — Programmatic — PermerGrowth Performance
-> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-coo-delivery` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-coo-delivery` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — EVP — Programmatic

@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-paid-social
 description: "Ücretli Sosyal departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Ücretli Sosyal (soc)
 > Headcount: 45 · Birimler: Meta, TikTok, LinkedIn & X, Snap & Pinterest, Creative Testing
-> KPI: Thumbstop/hook rate on target, CAPI EMQ ≥ 8, Creative refresh cadence met, Blended CPA vs plan · Üretim: 2026-08-03T15:56:20Z
+> KPI: Thumbstop/hook rate on target, CAPI EMQ ≥ 8, Creative refresh cadence met, Blended CPA vs plan · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Ücretli Sosyal departman lideri (EVP hattı)

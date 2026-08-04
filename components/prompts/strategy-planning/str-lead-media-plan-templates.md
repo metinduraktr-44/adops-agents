@@ -3,10 +3,10 @@ name: prompt-str-lead-media-plan-templates
 description: "Lead, Media Plan Templates — Strategy & Comms Planning — title/ekip/uygulama prompt ailesi (Strateji & Planlama)."
 tier: LEAD
 department: "Strategy & Comms Planning"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Media Plan Templates — Strategy & Comms Planning
-> Departman: **Strateji & Planlama** (str) · Kademe: **LEAD** · Rapor: `str-dir-media-mix` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Strateji & Planlama** (str) · Kademe: **LEAD** · Rapor: `str-dir-media-mix` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Audience & Insight, Media Mix, Playbooks & POVs · KPI: Every plan carries mix rationale, POV per major platform change ≤ 7 days, Benchmarks refreshed monthly
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

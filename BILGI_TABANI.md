@@ -104,3 +104,7 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-04T07:06:34Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T08:44:04Z] arastirma-dongusu: 2026-08 odak dsc/ops/cre/str; kaynaklar.json güncellendi; önceki arşiv=2026-08-arastirma.md.
+- [2026-08-04T08:44:08Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T08:44:08Z] liderlik-sync: tutanak toplantilar/2026-08-04-liderlik.md; açık P0=6, gelir aksiyonu=19.
+- [2026-08-04T08:44:08Z] kurul: tutanak toplantilar/2026-08-04-kurul.md; açık P0=6, gelir aksiyonu=19.

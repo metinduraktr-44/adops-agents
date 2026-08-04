@@ -1,5 +1,5 @@
 # MASTER-PROMPT — ADOPS AI AGENCY (v2) · 924 başlık
-> Üretim: 2026-07-17T11:55:57Z · Kaynak: scripts/generate_org.py + generate_docs.py · Ajan sayısı: 600 · Bu belge ajansın anayasasıdır; her ajan kendi rol kartını buradan ve components/agents/agency/ altından okur.
+> Üretim: 2026-08-04T08:44:03Z · Kaynak: scripts/generate_org.py + generate_docs.py · Ajan sayısı: 600 · Bu belge ajansın anayasasıdır; her ajan kendi rol kartını buradan ve components/agents/agency/ altından okur.
 
 ## BÖLÜM I — KİMLİK VE MİSYON
 ### I.Vizyon
@@ -142,59 +142,59 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Audio Buying — Programmatic Trading
 `prg-lead-audio-buying` · KADEME 4 — LEAD · Raporlar: `prg-dir-ctv-ott` · Kart: `components/agents/agency/programmatic/prg-lead-audio-buying.md`
 ##### Optimization Specialist, Dv360 Activation — Programmatic Trading
-`prg-spc-optimization-dv360-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-dv360-activation.md`
+`prg-spc-optimization-dv360-activation-0` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-dv360-activation-0.md`
 ##### Optimization Specialist, Ttd Activation — Programmatic Trading
-`prg-spc-optimization-ttd-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-ttd-activation.md`
+`prg-spc-optimization-ttd-activation-1` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-ttd-activation-1.md`
 ##### Optimization Specialist, Xandr Activation — Programmatic Trading
-`prg-spc-optimization-xandr-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-xandr-activation.md`
+`prg-spc-optimization-xandr-activation-2` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-xandr-activation-2.md`
 ##### Optimization Specialist, Pmp Deal Desk — Programmatic Trading
-`prg-spc-optimization-pmp-deal-desk` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-pmp-deal-desk.md`
+`prg-spc-optimization-pmp-deal-desk-3` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-pmp-deal-desk-3.md`
 ##### Optimization Specialist, Ctv Buying — Programmatic Trading
-`prg-spc-optimization-ctv-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-ctv-buying.md`
+`prg-spc-optimization-ctv-buying-4` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-ctv-buying-4.md`
 ##### Optimization Specialist, Dooh Buying — Programmatic Trading
-`prg-spc-optimization-dooh-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-dooh-buying.md`
+`prg-spc-optimization-dooh-buying-5` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-dooh-buying-5.md`
 ##### Optimization Specialist, Audio Buying — Programmatic Trading
-`prg-spc-optimization-audio-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-audio-buying.md`
+`prg-spc-optimization-audio-buying-6` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-audio-buying-6.md`
 ##### Optimization Specialist, Curation Supply Path — Programmatic Trading
-`prg-spc-optimization-curation-supply-path` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-curation-supply-path.md`
+`prg-spc-optimization-curation-supply-path-7` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-curation-supply-path-7.md`
 ##### Optimization Specialist, Brand Safety Pretargeting — Programmatic Trading
-`prg-spc-optimization-brand-safety-pretargeting` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-brand-safety-pretargeting.md`
+`prg-spc-optimization-brand-safety-pretargeting-8` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-brand-safety-pretargeting-8.md`
 ##### Optimization Specialist, Bid Shading Analysis — Programmatic Trading
-`prg-spc-optimization-bid-shading-analysis` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-bid-shading-analysis.md`
+`prg-spc-optimization-bid-shading-analysis-9` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-bid-shading-analysis-9.md`
 ##### Optimization Specialist, Frequency Management — Programmatic Trading
-`prg-spc-optimization-frequency-management` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-frequency-management.md`
+`prg-spc-optimization-frequency-management-10` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-frequency-management-10.md`
 ##### Optimization Specialist, Deal Troubleshooting — Programmatic Trading
-`prg-spc-optimization-deal-troubleshooting` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-deal-troubleshooting.md`
+`prg-spc-optimization-deal-troubleshooting-11` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-optimization-deal-troubleshooting-11.md`
 ##### Automation Specialist, Dv360 Activation — Programmatic Trading
-`prg-spc-automation-dv360-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-dv360-activation.md`
+`prg-spc-automation-dv360-activation-12` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-dv360-activation-12.md`
 ##### Automation Specialist, Ttd Activation — Programmatic Trading
-`prg-spc-automation-ttd-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-ttd-activation.md`
+`prg-spc-automation-ttd-activation-13` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-ttd-activation-13.md`
 ##### Automation Specialist, Xandr Activation — Programmatic Trading
-`prg-spc-automation-xandr-activation` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-xandr-activation.md`
+`prg-spc-automation-xandr-activation-14` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-xandr-activation-14.md`
 ##### Automation Specialist, Pmp Deal Desk — Programmatic Trading
-`prg-spc-automation-pmp-deal-desk` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-pmp-deal-desk.md`
+`prg-spc-automation-pmp-deal-desk-15` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-pmp-deal-desk-15.md`
 ##### Automation Specialist, Ctv Buying — Programmatic Trading
-`prg-spc-automation-ctv-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-ctv-buying.md`
+`prg-spc-automation-ctv-buying-16` · KADEME 5 — UZMAN · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-spc-automation-ctv-buying-16.md`
 ##### Automation Specialist, Dooh Buying — Programmatic Trading
-`prg-spc-automation-dooh-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-automation-dooh-buying.md`
+`prg-spc-automation-dooh-buying-17` · KADEME 5 — UZMAN · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-spc-automation-dooh-buying-17.md`
 ##### Automation Specialist, Audio Buying — Programmatic Trading
-`prg-spc-automation-audio-buying` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-audio-buying.md`
+`prg-spc-automation-audio-buying-18` · KADEME 5 — UZMAN · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-audio-buying-18.md`
 ##### Automation Specialist, Curation Supply Path — Programmatic Trading
-`prg-spc-automation-curation-supply-path` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-curation-supply-path.md`
+`prg-spc-automation-curation-supply-path-19` · KADEME 5 — UZMAN · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-curation-supply-path-19.md`
 ##### Automation Specialist, Brand Safety Pretargeting — Programmatic Trading
-`prg-spc-automation-brand-safety-pretargeting` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-brand-safety-pretargeting.md`
+`prg-spc-automation-brand-safety-pretargeting-20` · KADEME 5 — UZMAN · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-spc-automation-brand-safety-pretargeting-20.md`
 ##### Performance Analyst, Dv360 Activation — Programmatic Trading
-`prg-anl-performance-analyst-dv360-activation` · KADEME 6 — ANALİST · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-anl-performance-analyst-dv360-activation.md`
+`prg-anl-performance-analyst-dv360-activation-0` · KADEME 6 — ANALİST · Raporlar: `prg-lead-dv360-activation` · Kart: `components/agents/agency/programmatic/prg-anl-performance-analyst-dv360-activation-0.md`
 ##### Data Analyst, Xandr Activation — Programmatic Trading
-`prg-anl-data-analyst-xandr-activation` · KADEME 6 — ANALİST · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-anl-data-analyst-xandr-activation.md`
+`prg-anl-data-analyst-xandr-activation-1` · KADEME 6 — ANALİST · Raporlar: `prg-lead-ttd-activation` · Kart: `components/agents/agency/programmatic/prg-anl-data-analyst-xandr-activation-1.md`
 ##### Reporting Analyst, Ctv Buying — Programmatic Trading
-`prg-anl-reporting-analyst-ctv-buying` · KADEME 6 — ANALİST · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-anl-reporting-analyst-ctv-buying.md`
+`prg-anl-reporting-analyst-ctv-buying-2` · KADEME 6 — ANALİST · Raporlar: `prg-lead-xandr-activation` · Kart: `components/agents/agency/programmatic/prg-anl-reporting-analyst-ctv-buying-2.md`
 ##### Performance Analyst, Audio Buying — Programmatic Trading
-`prg-anl-performance-analyst-audio-buying` · KADEME 6 — ANALİST · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-anl-performance-analyst-audio-buying.md`
+`prg-anl-performance-analyst-audio-buying-3` · KADEME 6 — ANALİST · Raporlar: `prg-lead-pmp-deal-desk` · Kart: `components/agents/agency/programmatic/prg-anl-performance-analyst-audio-buying-3.md`
 ##### Data Analyst, Brand Safety Pretargeting — Programmatic Trading
-`prg-anl-data-analyst-brand-safety-pretargeting` · KADEME 6 — ANALİST · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-anl-data-analyst-brand-safety-pretargeting.md`
+`prg-anl-data-analyst-brand-safety-pretargeting-4` · KADEME 6 — ANALİST · Raporlar: `prg-lead-ctv-buying` · Kart: `components/agents/agency/programmatic/prg-anl-data-analyst-brand-safety-pretargeting-4.md`
 ##### Reporting Analyst, Frequency Management — Programmatic Trading
-`prg-anl-reporting-analyst-frequency-management` · KADEME 6 — ANALİST · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-anl-reporting-analyst-frequency-management.md`
+`prg-anl-reporting-analyst-frequency-management-5` · KADEME 6 — ANALİST · Raporlar: `prg-lead-dooh-buying` · Kart: `components/agents/agency/programmatic/prg-anl-reporting-analyst-frequency-management-5.md`
 ##### Performance Analyst, Dv360 Activation — Programmatic Trading
 `prg-anl-performance-analyst-dv360-activation-6` · KADEME 6 — ANALİST · Raporlar: `prg-lead-audio-buying` · Kart: `components/agents/agency/programmatic/prg-anl-performance-analyst-dv360-activation-6.md`
 ##### Data Analyst, Xandr Activation — Programmatic Trading
@@ -241,63 +241,63 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Negative Keyword Hygiene — Paid Search
 `sea-lead-negative-keyword-hygiene` · KADEME 4 — LEAD · Raporlar: `sea-dir-sa360-and-automation` · Kart: `components/agents/agency/paid-search/sea-lead-negative-keyword-hygiene.md`
 ##### Optimization Specialist, Query Mining — Paid Search
-`sea-spc-optimization-query-mining` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-query-mining.md`
+`sea-spc-optimization-query-mining-0` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-query-mining-0.md`
 ##### Optimization Specialist, Pmax Structure — Paid Search
-`sea-spc-optimization-pmax-structure` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-pmax-structure.md`
+`sea-spc-optimization-pmax-structure-1` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-pmax-structure-1.md`
 ##### Optimization Specialist, Shopping Feed Optimization — Paid Search
-`sea-spc-optimization-shopping-feed-optimization` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-shopping-feed-optimization.md`
+`sea-spc-optimization-shopping-feed-optimization-2` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-shopping-feed-optimization-2.md`
 ##### Optimization Specialist, Sa360 Bid Strategies — Paid Search
-`sea-spc-optimization-sa360-bid-strategies` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-sa360-bid-strategies.md`
+`sea-spc-optimization-sa360-bid-strategies-3` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-sa360-bid-strategies-3.md`
 ##### Optimization Specialist, Rsa Ad Strength — Paid Search
-`sea-spc-optimization-rsa-ad-strength` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-rsa-ad-strength.md`
+`sea-spc-optimization-rsa-ad-strength-4` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-rsa-ad-strength-4.md`
 ##### Optimization Specialist, Negative Keyword Hygiene — Paid Search
-`sea-spc-optimization-negative-keyword-hygiene` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-negative-keyword-hygiene.md`
+`sea-spc-optimization-negative-keyword-hygiene-5` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-negative-keyword-hygiene-5.md`
 ##### Optimization Specialist, Landing Page Relevance — Paid Search
-`sea-spc-optimization-landing-page-relevance` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-landing-page-relevance.md`
+`sea-spc-optimization-landing-page-relevance-6` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-landing-page-relevance-6.md`
 ##### Optimization Specialist, Brand Vs Generic Split — Paid Search
-`sea-spc-optimization-brand-vs-generic-split` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-brand-vs-generic-split.md`
+`sea-spc-optimization-brand-vs-generic-split-7` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-brand-vs-generic-split-7.md`
 ##### Optimization Specialist, Budget Pacing — Paid Search
-`sea-spc-optimization-budget-pacing` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-budget-pacing.md`
+`sea-spc-optimization-budget-pacing-8` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-budget-pacing-8.md`
 ##### Optimization Specialist, Auction Insights — Paid Search
-`sea-spc-optimization-auction-insights` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-auction-insights.md`
+`sea-spc-optimization-auction-insights-9` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-optimization-auction-insights-9.md`
 ##### Automation Specialist, Query Mining — Paid Search
-`sea-spc-automation-query-mining` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-automation-query-mining.md`
+`sea-spc-automation-query-mining-10` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-automation-query-mining-10.md`
 ##### Automation Specialist, Pmax Structure — Paid Search
-`sea-spc-automation-pmax-structure` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-automation-pmax-structure.md`
+`sea-spc-automation-pmax-structure-11` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-automation-pmax-structure-11.md`
 ##### Automation Specialist, Shopping Feed Optimization — Paid Search
-`sea-spc-automation-shopping-feed-optimization` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-automation-shopping-feed-optimization.md`
+`sea-spc-automation-shopping-feed-optimization-12` · KADEME 5 — UZMAN · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-spc-automation-shopping-feed-optimization-12.md`
 ##### Automation Specialist, Sa360 Bid Strategies — Paid Search
-`sea-spc-automation-sa360-bid-strategies` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-automation-sa360-bid-strategies.md`
+`sea-spc-automation-sa360-bid-strategies-13` · KADEME 5 — UZMAN · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-spc-automation-sa360-bid-strategies-13.md`
 ##### Automation Specialist, Rsa Ad Strength — Paid Search
-`sea-spc-automation-rsa-ad-strength` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-automation-rsa-ad-strength.md`
+`sea-spc-automation-rsa-ad-strength-14` · KADEME 5 — UZMAN · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-spc-automation-rsa-ad-strength-14.md`
 ##### Automation Specialist, Negative Keyword Hygiene — Paid Search
-`sea-spc-automation-negative-keyword-hygiene` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-automation-negative-keyword-hygiene.md`
+`sea-spc-automation-negative-keyword-hygiene-15` · KADEME 5 — UZMAN · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-spc-automation-negative-keyword-hygiene-15.md`
 ##### Automation Specialist, Landing Page Relevance — Paid Search
-`sea-spc-automation-landing-page-relevance` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-automation-landing-page-relevance.md`
+`sea-spc-automation-landing-page-relevance-16` · KADEME 5 — UZMAN · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-spc-automation-landing-page-relevance-16.md`
 ##### Automation Specialist, Brand Vs Generic Split — Paid Search
-`sea-spc-automation-brand-vs-generic-split` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-automation-brand-vs-generic-split.md`
+`sea-spc-automation-brand-vs-generic-split-17` · KADEME 5 — UZMAN · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-spc-automation-brand-vs-generic-split-17.md`
 ##### Performance Analyst, Query Mining — Paid Search
-`sea-anl-performance-analyst-query-mining` · KADEME 6 — ANALİST · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-query-mining.md`
+`sea-anl-performance-analyst-query-mining-0` · KADEME 6 — ANALİST · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-query-mining-0.md`
 ##### Data Analyst, Shopping Feed Optimization — Paid Search
-`sea-anl-data-analyst-shopping-feed-optimization` · KADEME 6 — ANALİST · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-shopping-feed-optimization.md`
+`sea-anl-data-analyst-shopping-feed-optimization-1` · KADEME 6 — ANALİST · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-shopping-feed-optimization-1.md`
 ##### Reporting Analyst, Rsa Ad Strength — Paid Search
-`sea-anl-reporting-analyst-rsa-ad-strength` · KADEME 6 — ANALİST · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-rsa-ad-strength.md`
+`sea-anl-reporting-analyst-rsa-ad-strength-2` · KADEME 6 — ANALİST · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-rsa-ad-strength-2.md`
 ##### Performance Analyst, Landing Page Relevance — Paid Search
-`sea-anl-performance-analyst-landing-page-relevance` · KADEME 6 — ANALİST · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-landing-page-relevance.md`
+`sea-anl-performance-analyst-landing-page-relevance-3` · KADEME 6 — ANALİST · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-landing-page-relevance-3.md`
 ##### Data Analyst, Budget Pacing — Paid Search
-`sea-anl-data-analyst-budget-pacing` · KADEME 6 — ANALİST · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-budget-pacing.md`
+`sea-anl-data-analyst-budget-pacing-4` · KADEME 6 — ANALİST · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-budget-pacing-4.md`
 ##### Reporting Analyst, Query Mining — Paid Search
-`sea-anl-reporting-analyst-query-mining` · KADEME 6 — ANALİST · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-query-mining.md`
+`sea-anl-reporting-analyst-query-mining-5` · KADEME 6 — ANALİST · Raporlar: `sea-lead-negative-keyword-hygiene` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-query-mining-5.md`
 ##### Performance Analyst, Shopping Feed Optimization — Paid Search
-`sea-anl-performance-analyst-shopping-feed-optimization` · KADEME 6 — ANALİST · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-shopping-feed-optimization.md`
+`sea-anl-performance-analyst-shopping-feed-optimization-6` · KADEME 6 — ANALİST · Raporlar: `sea-lead-query-mining` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-shopping-feed-optimization-6.md`
 ##### Data Analyst, Rsa Ad Strength — Paid Search
-`sea-anl-data-analyst-rsa-ad-strength` · KADEME 6 — ANALİST · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-rsa-ad-strength.md`
+`sea-anl-data-analyst-rsa-ad-strength-7` · KADEME 6 — ANALİST · Raporlar: `sea-lead-pmax-structure` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-rsa-ad-strength-7.md`
 ##### Reporting Analyst, Landing Page Relevance — Paid Search
-`sea-anl-reporting-analyst-landing-page-relevance` · KADEME 6 — ANALİST · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-landing-page-relevance.md`
+`sea-anl-reporting-analyst-landing-page-relevance-8` · KADEME 6 — ANALİST · Raporlar: `sea-lead-shopping-feed-optimization` · Kart: `components/agents/agency/paid-search/sea-anl-reporting-analyst-landing-page-relevance-8.md`
 ##### Performance Analyst, Budget Pacing — Paid Search
-`sea-anl-performance-analyst-budget-pacing` · KADEME 6 — ANALİST · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-budget-pacing.md`
+`sea-anl-performance-analyst-budget-pacing-9` · KADEME 6 — ANALİST · Raporlar: `sea-lead-sa360-bid-strategies` · Kart: `components/agents/agency/paid-search/sea-anl-performance-analyst-budget-pacing-9.md`
 ##### Data Analyst, Query Mining — Paid Search
-`sea-anl-data-analyst-query-mining` · KADEME 6 — ANALİST · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-query-mining.md`
+`sea-anl-data-analyst-query-mining-10` · KADEME 6 — ANALİST · Raporlar: `sea-lead-rsa-ad-strength` · Kart: `components/agents/agency/paid-search/sea-anl-data-analyst-query-mining-10.md`
 ### DEPARTMAN — Paid Social (SOC) · Ücretli Sosyal
 #### SOC · Künye
 Sponsor C-level: **coo-delivery** · Kadro: **45** · Birimler: Meta, TikTok, LinkedIn & X, Snap & Pinterest, Creative Testing · Karışım: {'evp': 1, 'director': 4, 'lead': 7, 'specialist': 21, 'analyst': 12}
@@ -334,59 +334,59 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Capi Signal Health — Paid Social
 `soc-lead-capi-signal-health` · KADEME 4 — LEAD · Raporlar: `soc-dir-linkedin-and-x` · Kart: `components/agents/agency/paid-social/soc-lead-capi-signal-health.md`
 ##### Optimization Specialist, Meta Aso Structure — Paid Social
-`soc-spc-optimization-meta-aso-structure` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-meta-aso-structure.md`
+`soc-spc-optimization-meta-aso-structure-0` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-meta-aso-structure-0.md`
 ##### Optimization Specialist, Advantage Plus Audit — Paid Social
-`soc-spc-optimization-advantage-plus-audit` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-advantage-plus-audit.md`
+`soc-spc-optimization-advantage-plus-audit-1` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-advantage-plus-audit-1.md`
 ##### Optimization Specialist, Tiktok Spark Ads — Paid Social
-`soc-spc-optimization-tiktok-spark-ads` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-tiktok-spark-ads.md`
+`soc-spc-optimization-tiktok-spark-ads-2` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-tiktok-spark-ads-2.md`
 ##### Optimization Specialist, Linkedin Abm — Paid Social
-`soc-spc-optimization-linkedin-abm` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-linkedin-abm.md`
+`soc-spc-optimization-linkedin-abm-3` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-linkedin-abm-3.md`
 ##### Optimization Specialist, Creative Fatigue Detection — Paid Social
-`soc-spc-optimization-creative-fatigue-detection` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-creative-fatigue-detection.md`
+`soc-spc-optimization-creative-fatigue-detection-4` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-creative-fatigue-detection-4.md`
 ##### Optimization Specialist, Hook Rate Analysis — Paid Social
-`soc-spc-optimization-hook-rate-analysis` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-hook-rate-analysis.md`
+`soc-spc-optimization-hook-rate-analysis-5` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-hook-rate-analysis-5.md`
 ##### Optimization Specialist, Capi Signal Health — Paid Social
-`soc-spc-optimization-capi-signal-health` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-capi-signal-health.md`
+`soc-spc-optimization-capi-signal-health-6` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-capi-signal-health-6.md`
 ##### Optimization Specialist, Audience Liquidity — Paid Social
-`soc-spc-optimization-audience-liquidity` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-audience-liquidity.md`
+`soc-spc-optimization-audience-liquidity-7` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-audience-liquidity-7.md`
 ##### Optimization Specialist, Ugc Pipeline — Paid Social
-`soc-spc-optimization-ugc-pipeline` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-ugc-pipeline.md`
+`soc-spc-optimization-ugc-pipeline-8` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-ugc-pipeline-8.md`
 ##### Optimization Specialist, Cbo Abo Strategy — Paid Social
-`soc-spc-optimization-cbo-abo-strategy` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-cbo-abo-strategy.md`
+`soc-spc-optimization-cbo-abo-strategy-9` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-cbo-abo-strategy-9.md`
 ##### Optimization Specialist, Retargeting Ladders — Paid Social
-`soc-spc-optimization-retargeting-ladders` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-retargeting-ladders.md`
+`soc-spc-optimization-retargeting-ladders-10` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-retargeting-ladders-10.md`
 ##### Optimization Specialist, Social Commerce — Paid Social
-`soc-spc-optimization-social-commerce` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-social-commerce.md`
+`soc-spc-optimization-social-commerce-11` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-optimization-social-commerce-11.md`
 ##### Automation Specialist, Meta Aso Structure — Paid Social
-`soc-spc-automation-meta-aso-structure` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-automation-meta-aso-structure.md`
+`soc-spc-automation-meta-aso-structure-12` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-automation-meta-aso-structure-12.md`
 ##### Automation Specialist, Advantage Plus Audit — Paid Social
-`soc-spc-automation-advantage-plus-audit` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-automation-advantage-plus-audit.md`
+`soc-spc-automation-advantage-plus-audit-13` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-automation-advantage-plus-audit-13.md`
 ##### Automation Specialist, Tiktok Spark Ads — Paid Social
-`soc-spc-automation-tiktok-spark-ads` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-automation-tiktok-spark-ads.md`
+`soc-spc-automation-tiktok-spark-ads-14` · KADEME 5 — UZMAN · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-spc-automation-tiktok-spark-ads-14.md`
 ##### Automation Specialist, Linkedin Abm — Paid Social
-`soc-spc-automation-linkedin-abm` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-automation-linkedin-abm.md`
+`soc-spc-automation-linkedin-abm-15` · KADEME 5 — UZMAN · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-spc-automation-linkedin-abm-15.md`
 ##### Automation Specialist, Creative Fatigue Detection — Paid Social
-`soc-spc-automation-creative-fatigue-detection` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-automation-creative-fatigue-detection.md`
+`soc-spc-automation-creative-fatigue-detection-16` · KADEME 5 — UZMAN · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-spc-automation-creative-fatigue-detection-16.md`
 ##### Automation Specialist, Hook Rate Analysis — Paid Social
-`soc-spc-automation-hook-rate-analysis` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-automation-hook-rate-analysis.md`
+`soc-spc-automation-hook-rate-analysis-17` · KADEME 5 — UZMAN · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-spc-automation-hook-rate-analysis-17.md`
 ##### Automation Specialist, Capi Signal Health — Paid Social
-`soc-spc-automation-capi-signal-health` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-automation-capi-signal-health.md`
+`soc-spc-automation-capi-signal-health-18` · KADEME 5 — UZMAN · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-spc-automation-capi-signal-health-18.md`
 ##### Automation Specialist, Audience Liquidity — Paid Social
-`soc-spc-automation-audience-liquidity` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-automation-audience-liquidity.md`
+`soc-spc-automation-audience-liquidity-19` · KADEME 5 — UZMAN · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-spc-automation-audience-liquidity-19.md`
 ##### Automation Specialist, Ugc Pipeline — Paid Social
-`soc-spc-automation-ugc-pipeline` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-automation-ugc-pipeline.md`
+`soc-spc-automation-ugc-pipeline-20` · KADEME 5 — UZMAN · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-spc-automation-ugc-pipeline-20.md`
 ##### Performance Analyst, Meta Aso Structure — Paid Social
-`soc-anl-performance-analyst-meta-aso-structure` · KADEME 6 — ANALİST · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-anl-performance-analyst-meta-aso-structure.md`
+`soc-anl-performance-analyst-meta-aso-structure-0` · KADEME 6 — ANALİST · Raporlar: `soc-lead-meta-aso-structure` · Kart: `components/agents/agency/paid-social/soc-anl-performance-analyst-meta-aso-structure-0.md`
 ##### Data Analyst, Tiktok Spark Ads — Paid Social
-`soc-anl-data-analyst-tiktok-spark-ads` · KADEME 6 — ANALİST · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-anl-data-analyst-tiktok-spark-ads.md`
+`soc-anl-data-analyst-tiktok-spark-ads-1` · KADEME 6 — ANALİST · Raporlar: `soc-lead-advantage-plus-audit` · Kart: `components/agents/agency/paid-social/soc-anl-data-analyst-tiktok-spark-ads-1.md`
 ##### Reporting Analyst, Creative Fatigue Detection — Paid Social
-`soc-anl-reporting-analyst-creative-fatigue-detection` · KADEME 6 — ANALİST · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-anl-reporting-analyst-creative-fatigue-detection.md`
+`soc-anl-reporting-analyst-creative-fatigue-detection-2` · KADEME 6 — ANALİST · Raporlar: `soc-lead-tiktok-spark-ads` · Kart: `components/agents/agency/paid-social/soc-anl-reporting-analyst-creative-fatigue-detection-2.md`
 ##### Performance Analyst, Capi Signal Health — Paid Social
-`soc-anl-performance-analyst-capi-signal-health` · KADEME 6 — ANALİST · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-anl-performance-analyst-capi-signal-health.md`
+`soc-anl-performance-analyst-capi-signal-health-3` · KADEME 6 — ANALİST · Raporlar: `soc-lead-linkedin-abm` · Kart: `components/agents/agency/paid-social/soc-anl-performance-analyst-capi-signal-health-3.md`
 ##### Data Analyst, Ugc Pipeline — Paid Social
-`soc-anl-data-analyst-ugc-pipeline` · KADEME 6 — ANALİST · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-anl-data-analyst-ugc-pipeline.md`
+`soc-anl-data-analyst-ugc-pipeline-4` · KADEME 6 — ANALİST · Raporlar: `soc-lead-creative-fatigue-detection` · Kart: `components/agents/agency/paid-social/soc-anl-data-analyst-ugc-pipeline-4.md`
 ##### Reporting Analyst, Retargeting Ladders — Paid Social
-`soc-anl-reporting-analyst-retargeting-ladders` · KADEME 6 — ANALİST · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-anl-reporting-analyst-retargeting-ladders.md`
+`soc-anl-reporting-analyst-retargeting-ladders-5` · KADEME 6 — ANALİST · Raporlar: `soc-lead-hook-rate-analysis` · Kart: `components/agents/agency/paid-social/soc-anl-reporting-analyst-retargeting-ladders-5.md`
 ##### Performance Analyst, Meta Aso Structure — Paid Social
 `soc-anl-performance-analyst-meta-aso-structure-6` · KADEME 6 — ANALİST · Raporlar: `soc-lead-capi-signal-health` · Kart: `components/agents/agency/paid-social/soc-anl-performance-analyst-meta-aso-structure-6.md`
 ##### Data Analyst, Tiktok Spark Ads — Paid Social
@@ -429,55 +429,55 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Fraud Detection — Mobile UA & App Growth
 `mob-lead-fraud-detection` · KADEME 4 — LEAD · Raporlar: `mob-dir-google-app-campaigns` · Kart: `components/agents/agency/mobile-ua/mob-lead-fraud-detection.md`
 ##### Optimization Specialist, Asa Keyword Strategy — Mobile UA & App Growth
-`mob-spc-optimization-asa-keyword-strategy` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-asa-keyword-strategy.md`
+`mob-spc-optimization-asa-keyword-strategy-0` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-asa-keyword-strategy-0.md`
 ##### Optimization Specialist, Uac Asset Groups — Mobile UA & App Growth
-`mob-spc-optimization-uac-asset-groups` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-uac-asset-groups.md`
+`mob-spc-optimization-uac-asset-groups-1` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-uac-asset-groups-1.md`
 ##### Optimization Specialist, Skan 4 Strategy — Mobile UA & App Growth
-`mob-spc-optimization-skan-4-strategy` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-skan-4-strategy.md`
+`mob-spc-optimization-skan-4-strategy-2` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-skan-4-strategy-2.md`
 ##### Optimization Specialist, Mmp Attribution Windows — Mobile UA & App Growth
-`mob-spc-optimization-mmp-attribution-windows` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-mmp-attribution-windows.md`
+`mob-spc-optimization-mmp-attribution-windows-3` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-mmp-attribution-windows-3.md`
 ##### Optimization Specialist, Fraud Detection — Mobile UA & App Growth
-`mob-spc-optimization-fraud-detection` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-fraud-detection.md`
+`mob-spc-optimization-fraud-detection-4` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-fraud-detection-4.md`
 ##### Optimization Specialist, Deeplink Qa — Mobile UA & App Growth
-`mob-spc-optimization-deeplink-qa` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-deeplink-qa.md`
+`mob-spc-optimization-deeplink-qa-5` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-deeplink-qa-5.md`
 ##### Optimization Specialist, Aso Store Page — Mobile UA & App Growth
-`mob-spc-optimization-aso-store-page` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-aso-store-page.md`
+`mob-spc-optimization-aso-store-page-6` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-aso-store-page-6.md`
 ##### Optimization Specialist, Reengagement Audiences — Mobile UA & App Growth
-`mob-spc-optimization-reengagement-audiences` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-reengagement-audiences.md`
+`mob-spc-optimization-reengagement-audiences-7` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-reengagement-audiences-7.md`
 ##### Optimization Specialist, Ltv Cohorts — Mobile UA & App Growth
-`mob-spc-optimization-ltv-cohorts` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-ltv-cohorts.md`
+`mob-spc-optimization-ltv-cohorts-8` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-optimization-ltv-cohorts-8.md`
 ##### Automation Specialist, Asa Keyword Strategy — Mobile UA & App Growth
-`mob-spc-automation-asa-keyword-strategy` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-asa-keyword-strategy.md`
+`mob-spc-automation-asa-keyword-strategy-9` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-asa-keyword-strategy-9.md`
 ##### Automation Specialist, Uac Asset Groups — Mobile UA & App Growth
-`mob-spc-automation-uac-asset-groups` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-uac-asset-groups.md`
+`mob-spc-automation-uac-asset-groups-10` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-uac-asset-groups-10.md`
 ##### Automation Specialist, Skan 4 Strategy — Mobile UA & App Growth
-`mob-spc-automation-skan-4-strategy` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-skan-4-strategy.md`
+`mob-spc-automation-skan-4-strategy-11` · KADEME 5 — UZMAN · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-skan-4-strategy-11.md`
 ##### Automation Specialist, Mmp Attribution Windows — Mobile UA & App Growth
-`mob-spc-automation-mmp-attribution-windows` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-mmp-attribution-windows.md`
+`mob-spc-automation-mmp-attribution-windows-12` · KADEME 5 — UZMAN · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-mmp-attribution-windows-12.md`
 ##### Automation Specialist, Fraud Detection — Mobile UA & App Growth
-`mob-spc-automation-fraud-detection` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-fraud-detection.md`
+`mob-spc-automation-fraud-detection-13` · KADEME 5 — UZMAN · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-fraud-detection-13.md`
 ##### Automation Specialist, Deeplink Qa — Mobile UA & App Growth
-`mob-spc-automation-deeplink-qa` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-deeplink-qa.md`
+`mob-spc-automation-deeplink-qa-14` · KADEME 5 — UZMAN · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-deeplink-qa-14.md`
 ##### Automation Specialist, Aso Store Page — Mobile UA & App Growth
-`mob-spc-automation-aso-store-page` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-aso-store-page.md`
+`mob-spc-automation-aso-store-page-15` · KADEME 5 — UZMAN · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-spc-automation-aso-store-page-15.md`
 ##### Performance Analyst, Asa Keyword Strategy — Mobile UA & App Growth
-`mob-anl-performance-analyst-asa-keyword-strategy` · KADEME 6 — ANALİST · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-asa-keyword-strategy.md`
+`mob-anl-performance-analyst-asa-keyword-strategy-0` · KADEME 6 — ANALİST · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-asa-keyword-strategy-0.md`
 ##### Data Analyst, Skan 4 Strategy — Mobile UA & App Growth
-`mob-anl-data-analyst-skan-4-strategy` · KADEME 6 — ANALİST · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-skan-4-strategy.md`
+`mob-anl-data-analyst-skan-4-strategy-1` · KADEME 6 — ANALİST · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-skan-4-strategy-1.md`
 ##### Reporting Analyst, Fraud Detection — Mobile UA & App Growth
-`mob-anl-reporting-analyst-fraud-detection` · KADEME 6 — ANALİST · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-fraud-detection.md`
+`mob-anl-reporting-analyst-fraud-detection-2` · KADEME 6 — ANALİST · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-fraud-detection-2.md`
 ##### Performance Analyst, Aso Store Page — Mobile UA & App Growth
-`mob-anl-performance-analyst-aso-store-page` · KADEME 6 — ANALİST · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-aso-store-page.md`
+`mob-anl-performance-analyst-aso-store-page-3` · KADEME 6 — ANALİST · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-aso-store-page-3.md`
 ##### Data Analyst, Ltv Cohorts — Mobile UA & App Growth
-`mob-anl-data-analyst-ltv-cohorts` · KADEME 6 — ANALİST · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-ltv-cohorts.md`
+`mob-anl-data-analyst-ltv-cohorts-4` · KADEME 6 — ANALİST · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-ltv-cohorts-4.md`
 ##### Reporting Analyst, Uac Asset Groups — Mobile UA & App Growth
-`mob-anl-reporting-analyst-uac-asset-groups` · KADEME 6 — ANALİST · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-uac-asset-groups.md`
+`mob-anl-reporting-analyst-uac-asset-groups-5` · KADEME 6 — ANALİST · Raporlar: `mob-lead-asa-keyword-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-uac-asset-groups-5.md`
 ##### Performance Analyst, Mmp Attribution Windows — Mobile UA & App Growth
-`mob-anl-performance-analyst-mmp-attribution-windows` · KADEME 6 — ANALİST · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-mmp-attribution-windows.md`
+`mob-anl-performance-analyst-mmp-attribution-windows-6` · KADEME 6 — ANALİST · Raporlar: `mob-lead-uac-asset-groups` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-mmp-attribution-windows-6.md`
 ##### Data Analyst, Deeplink Qa — Mobile UA & App Growth
-`mob-anl-data-analyst-deeplink-qa` · KADEME 6 — ANALİST · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-deeplink-qa.md`
+`mob-anl-data-analyst-deeplink-qa-7` · KADEME 6 — ANALİST · Raporlar: `mob-lead-skan-4-strategy` · Kart: `components/agents/agency/mobile-ua/mob-anl-data-analyst-deeplink-qa-7.md`
 ##### Reporting Analyst, Reengagement Audiences — Mobile UA & App Growth
-`mob-anl-reporting-analyst-reengagement-audiences` · KADEME 6 — ANALİST · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-reengagement-audiences.md`
+`mob-anl-reporting-analyst-reengagement-audiences-8` · KADEME 6 — ANALİST · Raporlar: `mob-lead-mmp-attribution-windows` · Kart: `components/agents/agency/mobile-ua/mob-anl-reporting-analyst-reengagement-audiences-8.md`
 ##### Performance Analyst, Asa Keyword Strategy — Mobile UA & App Growth
 `mob-anl-performance-analyst-asa-keyword-strategy-9` · KADEME 6 — ANALİST · Raporlar: `mob-lead-fraud-detection` · Kart: `components/agents/agency/mobile-ua/mob-anl-performance-analyst-asa-keyword-strategy-9.md`
 ### DEPARTMAN — Retail & Commerce Media (RET) · Perakende Medyası
@@ -510,47 +510,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Retail Sov Tracking — Retail & Commerce Media
 `ret-lead-retail-sov-tracking` · KADEME 4 — LEAD · Raporlar: `ret-dir-tr-marketplaces-trendyol-hepsiburada` · Kart: `components/agents/agency/retail-media/ret-lead-retail-sov-tracking.md`
 ##### Optimization Specialist, Amazon Sp Sb Sd — Retail & Commerce Media
-`ret-spc-optimization-amazon-sp-sb-sd` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-amazon-sp-sb-sd.md`
+`ret-spc-optimization-amazon-sp-sb-sd-0` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-amazon-sp-sb-sd-0.md`
 ##### Optimization Specialist, Trendyol Ads — Retail & Commerce Media
-`ret-spc-optimization-trendyol-ads` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-trendyol-ads.md`
+`ret-spc-optimization-trendyol-ads-1` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-trendyol-ads-1.md`
 ##### Optimization Specialist, Hepsiburada Ads — Retail & Commerce Media
-`ret-spc-optimization-hepsiburada-ads` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-hepsiburada-ads.md`
+`ret-spc-optimization-hepsiburada-ads-2` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-hepsiburada-ads-2.md`
 ##### Optimization Specialist, Criteo Retail — Retail & Commerce Media
-`ret-spc-optimization-criteo-retail` · KADEME 5 — UZMAN · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-criteo-retail.md`
+`ret-spc-optimization-criteo-retail-3` · KADEME 5 — UZMAN · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-criteo-retail-3.md`
 ##### Optimization Specialist, Retail Sov Tracking — Retail & Commerce Media
-`ret-spc-optimization-retail-sov-tracking` · KADEME 5 — UZMAN · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-retail-sov-tracking.md`
+`ret-spc-optimization-retail-sov-tracking-4` · KADEME 5 — UZMAN · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-retail-sov-tracking-4.md`
 ##### Optimization Specialist, Content Pdp Optimization — Retail & Commerce Media
-`ret-spc-optimization-content-pdp-optimization` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-content-pdp-optimization.md`
+`ret-spc-optimization-content-pdp-optimization-5` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-content-pdp-optimization-5.md`
 ##### Optimization Specialist, Promo Calendar Sync — Retail & Commerce Media
-`ret-spc-optimization-promo-calendar-sync` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-promo-calendar-sync.md`
+`ret-spc-optimization-promo-calendar-sync-6` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-promo-calendar-sync-6.md`
 ##### Optimization Specialist, Retail Dsp Offsite — Retail & Commerce Media
-`ret-spc-optimization-retail-dsp-offsite` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-retail-dsp-offsite.md`
+`ret-spc-optimization-retail-dsp-offsite-7` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-optimization-retail-dsp-offsite-7.md`
 ##### Automation Specialist, Amazon Sp Sb Sd — Retail & Commerce Media
-`ret-spc-automation-amazon-sp-sb-sd` · KADEME 5 — UZMAN · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-spc-automation-amazon-sp-sb-sd.md`
+`ret-spc-automation-amazon-sp-sb-sd-8` · KADEME 5 — UZMAN · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-spc-automation-amazon-sp-sb-sd-8.md`
 ##### Automation Specialist, Trendyol Ads — Retail & Commerce Media
-`ret-spc-automation-trendyol-ads` · KADEME 5 — UZMAN · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-spc-automation-trendyol-ads.md`
+`ret-spc-automation-trendyol-ads-9` · KADEME 5 — UZMAN · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-spc-automation-trendyol-ads-9.md`
 ##### Automation Specialist, Hepsiburada Ads — Retail & Commerce Media
-`ret-spc-automation-hepsiburada-ads` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-automation-hepsiburada-ads.md`
+`ret-spc-automation-hepsiburada-ads-10` · KADEME 5 — UZMAN · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-spc-automation-hepsiburada-ads-10.md`
 ##### Automation Specialist, Criteo Retail — Retail & Commerce Media
-`ret-spc-automation-criteo-retail` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-automation-criteo-retail.md`
+`ret-spc-automation-criteo-retail-11` · KADEME 5 — UZMAN · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-spc-automation-criteo-retail-11.md`
 ##### Automation Specialist, Retail Sov Tracking — Retail & Commerce Media
-`ret-spc-automation-retail-sov-tracking` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-automation-retail-sov-tracking.md`
+`ret-spc-automation-retail-sov-tracking-12` · KADEME 5 — UZMAN · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-spc-automation-retail-sov-tracking-12.md`
 ##### Performance Analyst, Amazon Sp Sb Sd — Retail & Commerce Media
-`ret-anl-performance-analyst-amazon-sp-sb-sd` · KADEME 6 — ANALİST · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-amazon-sp-sb-sd.md`
+`ret-anl-performance-analyst-amazon-sp-sb-sd-0` · KADEME 6 — ANALİST · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-amazon-sp-sb-sd-0.md`
 ##### Data Analyst, Hepsiburada Ads — Retail & Commerce Media
-`ret-anl-data-analyst-hepsiburada-ads` · KADEME 6 — ANALİST · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-hepsiburada-ads.md`
+`ret-anl-data-analyst-hepsiburada-ads-1` · KADEME 6 — ANALİST · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-hepsiburada-ads-1.md`
 ##### Reporting Analyst, Retail Sov Tracking — Retail & Commerce Media
-`ret-anl-reporting-analyst-retail-sov-tracking` · KADEME 6 — ANALİST · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-anl-reporting-analyst-retail-sov-tracking.md`
+`ret-anl-reporting-analyst-retail-sov-tracking-2` · KADEME 6 — ANALİST · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-anl-reporting-analyst-retail-sov-tracking-2.md`
 ##### Performance Analyst, Promo Calendar Sync — Retail & Commerce Media
-`ret-anl-performance-analyst-promo-calendar-sync` · KADEME 6 — ANALİST · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-promo-calendar-sync.md`
+`ret-anl-performance-analyst-promo-calendar-sync-3` · KADEME 6 — ANALİST · Raporlar: `ret-lead-criteo-retail` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-promo-calendar-sync-3.md`
 ##### Data Analyst, Amazon Sp Sb Sd — Retail & Commerce Media
-`ret-anl-data-analyst-amazon-sp-sb-sd` · KADEME 6 — ANALİST · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-amazon-sp-sb-sd.md`
+`ret-anl-data-analyst-amazon-sp-sb-sd-4` · KADEME 6 — ANALİST · Raporlar: `ret-lead-retail-sov-tracking` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-amazon-sp-sb-sd-4.md`
 ##### Reporting Analyst, Hepsiburada Ads — Retail & Commerce Media
-`ret-anl-reporting-analyst-hepsiburada-ads` · KADEME 6 — ANALİST · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-anl-reporting-analyst-hepsiburada-ads.md`
+`ret-anl-reporting-analyst-hepsiburada-ads-5` · KADEME 6 — ANALİST · Raporlar: `ret-lead-amazon-sp-sb-sd` · Kart: `components/agents/agency/retail-media/ret-anl-reporting-analyst-hepsiburada-ads-5.md`
 ##### Performance Analyst, Retail Sov Tracking — Retail & Commerce Media
-`ret-anl-performance-analyst-retail-sov-tracking` · KADEME 6 — ANALİST · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-retail-sov-tracking.md`
+`ret-anl-performance-analyst-retail-sov-tracking-6` · KADEME 6 — ANALİST · Raporlar: `ret-lead-trendyol-ads` · Kart: `components/agents/agency/retail-media/ret-anl-performance-analyst-retail-sov-tracking-6.md`
 ##### Data Analyst, Promo Calendar Sync — Retail & Commerce Media
-`ret-anl-data-analyst-promo-calendar-sync` · KADEME 6 — ANALİST · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-promo-calendar-sync.md`
+`ret-anl-data-analyst-promo-calendar-sync-7` · KADEME 6 — ANALİST · Raporlar: `ret-lead-hepsiburada-ads` · Kart: `components/agents/agency/retail-media/ret-anl-data-analyst-promo-calendar-sync-7.md`
 ### DEPARTMAN — SEO & Content Engine (SEO) · SEO & İçerik Motoru
 #### SEO · Künye
 Sponsor C-level: **cmo-brand** · Kadro: **30** · Birimler: Technical SEO, Content Production, Digital PR & Links, Repo Storefront · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 13, 'analyst': 8}
@@ -581,47 +581,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Digital Pr Outreach — SEO & Content Engine
 `seo-lead-digital-pr-outreach` · KADEME 4 — LEAD · Raporlar: `seo-dir-content-production` · Kart: `components/agents/agency/seo-content/seo-lead-digital-pr-outreach.md`
 ##### Optimization Specialist, Technical Crawl Audit — SEO & Content Engine
-`seo-spc-optimization-technical-crawl-audit` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-technical-crawl-audit.md`
+`seo-spc-optimization-technical-crawl-audit-0` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-technical-crawl-audit-0.md`
 ##### Optimization Specialist, Keyword Clustering — SEO & Content Engine
-`seo-spc-optimization-keyword-clustering` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-keyword-clustering.md`
+`seo-spc-optimization-keyword-clustering-1` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-keyword-clustering-1.md`
 ##### Optimization Specialist, Content Brief Engine — SEO & Content Engine
-`seo-spc-optimization-content-brief-engine` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-content-brief-engine.md`
+`seo-spc-optimization-content-brief-engine-2` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-content-brief-engine-2.md`
 ##### Optimization Specialist, Internal Linking — SEO & Content Engine
-`seo-spc-optimization-internal-linking` · KADEME 5 — UZMAN · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-internal-linking.md`
+`seo-spc-optimization-internal-linking-3` · KADEME 5 — UZMAN · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-internal-linking-3.md`
 ##### Optimization Specialist, Digital Pr Outreach — SEO & Content Engine
-`seo-spc-optimization-digital-pr-outreach` · KADEME 5 — UZMAN · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-digital-pr-outreach.md`
+`seo-spc-optimization-digital-pr-outreach-4` · KADEME 5 — UZMAN · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-digital-pr-outreach-4.md`
 ##### Optimization Specialist, Serp Feature Capture — SEO & Content Engine
-`seo-spc-optimization-serp-feature-capture` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-serp-feature-capture.md`
+`seo-spc-optimization-serp-feature-capture-5` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-serp-feature-capture-5.md`
 ##### Optimization Specialist, Readme Storefront — SEO & Content Engine
-`seo-spc-optimization-readme-storefront` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-readme-storefront.md`
+`seo-spc-optimization-readme-storefront-6` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-readme-storefront-6.md`
 ##### Optimization Specialist, Daily Article Engine — SEO & Content Engine
-`seo-spc-optimization-daily-article-engine` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-daily-article-engine.md`
+`seo-spc-optimization-daily-article-engine-7` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-optimization-daily-article-engine-7.md`
 ##### Automation Specialist, Technical Crawl Audit — SEO & Content Engine
-`seo-spc-automation-technical-crawl-audit` · KADEME 5 — UZMAN · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-spc-automation-technical-crawl-audit.md`
+`seo-spc-automation-technical-crawl-audit-8` · KADEME 5 — UZMAN · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-spc-automation-technical-crawl-audit-8.md`
 ##### Automation Specialist, Keyword Clustering — SEO & Content Engine
-`seo-spc-automation-keyword-clustering` · KADEME 5 — UZMAN · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-spc-automation-keyword-clustering.md`
+`seo-spc-automation-keyword-clustering-9` · KADEME 5 — UZMAN · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-spc-automation-keyword-clustering-9.md`
 ##### Automation Specialist, Content Brief Engine — SEO & Content Engine
-`seo-spc-automation-content-brief-engine` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-automation-content-brief-engine.md`
+`seo-spc-automation-content-brief-engine-10` · KADEME 5 — UZMAN · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-spc-automation-content-brief-engine-10.md`
 ##### Automation Specialist, Internal Linking — SEO & Content Engine
-`seo-spc-automation-internal-linking` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-automation-internal-linking.md`
+`seo-spc-automation-internal-linking-11` · KADEME 5 — UZMAN · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-spc-automation-internal-linking-11.md`
 ##### Automation Specialist, Digital Pr Outreach — SEO & Content Engine
-`seo-spc-automation-digital-pr-outreach` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-automation-digital-pr-outreach.md`
+`seo-spc-automation-digital-pr-outreach-12` · KADEME 5 — UZMAN · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-spc-automation-digital-pr-outreach-12.md`
 ##### Performance Analyst, Technical Crawl Audit — SEO & Content Engine
-`seo-anl-performance-analyst-technical-crawl-audit` · KADEME 6 — ANALİST · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-technical-crawl-audit.md`
+`seo-anl-performance-analyst-technical-crawl-audit-0` · KADEME 6 — ANALİST · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-technical-crawl-audit-0.md`
 ##### Data Analyst, Content Brief Engine — SEO & Content Engine
-`seo-anl-data-analyst-content-brief-engine` · KADEME 6 — ANALİST · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-content-brief-engine.md`
+`seo-anl-data-analyst-content-brief-engine-1` · KADEME 6 — ANALİST · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-content-brief-engine-1.md`
 ##### Reporting Analyst, Digital Pr Outreach — SEO & Content Engine
-`seo-anl-reporting-analyst-digital-pr-outreach` · KADEME 6 — ANALİST · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-anl-reporting-analyst-digital-pr-outreach.md`
+`seo-anl-reporting-analyst-digital-pr-outreach-2` · KADEME 6 — ANALİST · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-anl-reporting-analyst-digital-pr-outreach-2.md`
 ##### Performance Analyst, Readme Storefront — SEO & Content Engine
-`seo-anl-performance-analyst-readme-storefront` · KADEME 6 — ANALİST · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-readme-storefront.md`
+`seo-anl-performance-analyst-readme-storefront-3` · KADEME 6 — ANALİST · Raporlar: `seo-lead-internal-linking` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-readme-storefront-3.md`
 ##### Data Analyst, Technical Crawl Audit — SEO & Content Engine
-`seo-anl-data-analyst-technical-crawl-audit` · KADEME 6 — ANALİST · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-technical-crawl-audit.md`
+`seo-anl-data-analyst-technical-crawl-audit-4` · KADEME 6 — ANALİST · Raporlar: `seo-lead-digital-pr-outreach` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-technical-crawl-audit-4.md`
 ##### Reporting Analyst, Content Brief Engine — SEO & Content Engine
-`seo-anl-reporting-analyst-content-brief-engine` · KADEME 6 — ANALİST · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-anl-reporting-analyst-content-brief-engine.md`
+`seo-anl-reporting-analyst-content-brief-engine-5` · KADEME 6 — ANALİST · Raporlar: `seo-lead-technical-crawl-audit` · Kart: `components/agents/agency/seo-content/seo-anl-reporting-analyst-content-brief-engine-5.md`
 ##### Performance Analyst, Digital Pr Outreach — SEO & Content Engine
-`seo-anl-performance-analyst-digital-pr-outreach` · KADEME 6 — ANALİST · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-digital-pr-outreach.md`
+`seo-anl-performance-analyst-digital-pr-outreach-6` · KADEME 6 — ANALİST · Raporlar: `seo-lead-keyword-clustering` · Kart: `components/agents/agency/seo-content/seo-anl-performance-analyst-digital-pr-outreach-6.md`
 ##### Data Analyst, Readme Storefront — SEO & Content Engine
-`seo-anl-data-analyst-readme-storefront` · KADEME 6 — ANALİST · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-readme-storefront.md`
+`seo-anl-data-analyst-readme-storefront-7` · KADEME 6 — ANALİST · Raporlar: `seo-lead-content-brief-engine` · Kart: `components/agents/agency/seo-content/seo-anl-data-analyst-readme-storefront-7.md`
 ### DEPARTMAN — CRO & Experience (CRO) · CRO & Deneyim
 #### CRO · Künye
 Sponsor C-level: **cpo-product** · Kadro: **25** · Birimler: Experimentation, Landing Systems, UX Research · Karışım: {'evp': 1, 'director': 2, 'lead': 4, 'specialist': 11, 'analyst': 7}
@@ -648,41 +648,41 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Heatmap Session Analysis — CRO & Experience
 `cro-lead-heatmap-session-analysis` · KADEME 4 — LEAD · Raporlar: `cro-dir-landing-systems` · Kart: `components/agents/agency/cro-experience/cro-lead-heatmap-session-analysis.md`
 ##### Optimization Specialist, Ab Test Design — CRO & Experience
-`cro-spc-optimization-ab-test-design` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-ab-test-design.md`
+`cro-spc-optimization-ab-test-design-0` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-ab-test-design-0.md`
 ##### Optimization Specialist, Landing Page Systems — CRO & Experience
-`cro-spc-optimization-landing-page-systems` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-landing-page-systems.md`
+`cro-spc-optimization-landing-page-systems-1` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-landing-page-systems-1.md`
 ##### Optimization Specialist, Form Friction Audit — CRO & Experience
-`cro-spc-optimization-form-friction-audit` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-form-friction-audit.md`
+`cro-spc-optimization-form-friction-audit-2` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-form-friction-audit-2.md`
 ##### Optimization Specialist, Heatmap Session Analysis — CRO & Experience
-`cro-spc-optimization-heatmap-session-analysis` · KADEME 5 — UZMAN · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-heatmap-session-analysis.md`
+`cro-spc-optimization-heatmap-session-analysis-3` · KADEME 5 — UZMAN · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-heatmap-session-analysis-3.md`
 ##### Optimization Specialist, Offer Message Testing — CRO & Experience
-`cro-spc-optimization-offer-message-testing` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-offer-message-testing.md`
+`cro-spc-optimization-offer-message-testing-4` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-offer-message-testing-4.md`
 ##### Optimization Specialist, Checkout Optimization — CRO & Experience
-`cro-spc-optimization-checkout-optimization` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-checkout-optimization.md`
+`cro-spc-optimization-checkout-optimization-5` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-checkout-optimization-5.md`
 ##### Optimization Specialist, Mobile Speed Cro — CRO & Experience
-`cro-spc-optimization-mobile-speed-cro` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-mobile-speed-cro.md`
+`cro-spc-optimization-mobile-speed-cro-6` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-optimization-mobile-speed-cro-6.md`
 ##### Automation Specialist, Ab Test Design — CRO & Experience
-`cro-spc-automation-ab-test-design` · KADEME 5 — UZMAN · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-ab-test-design.md`
+`cro-spc-automation-ab-test-design-7` · KADEME 5 — UZMAN · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-ab-test-design-7.md`
 ##### Automation Specialist, Landing Page Systems — CRO & Experience
-`cro-spc-automation-landing-page-systems` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-landing-page-systems.md`
+`cro-spc-automation-landing-page-systems-8` · KADEME 5 — UZMAN · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-landing-page-systems-8.md`
 ##### Automation Specialist, Form Friction Audit — CRO & Experience
-`cro-spc-automation-form-friction-audit` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-form-friction-audit.md`
+`cro-spc-automation-form-friction-audit-9` · KADEME 5 — UZMAN · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-form-friction-audit-9.md`
 ##### Automation Specialist, Heatmap Session Analysis — CRO & Experience
-`cro-spc-automation-heatmap-session-analysis` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-heatmap-session-analysis.md`
+`cro-spc-automation-heatmap-session-analysis-10` · KADEME 5 — UZMAN · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-spc-automation-heatmap-session-analysis-10.md`
 ##### Performance Analyst, Ab Test Design — CRO & Experience
-`cro-anl-performance-analyst-ab-test-design` · KADEME 6 — ANALİST · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-ab-test-design.md`
+`cro-anl-performance-analyst-ab-test-design-0` · KADEME 6 — ANALİST · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-ab-test-design-0.md`
 ##### Data Analyst, Form Friction Audit — CRO & Experience
-`cro-anl-data-analyst-form-friction-audit` · KADEME 6 — ANALİST · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-anl-data-analyst-form-friction-audit.md`
+`cro-anl-data-analyst-form-friction-audit-1` · KADEME 6 — ANALİST · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-anl-data-analyst-form-friction-audit-1.md`
 ##### Reporting Analyst, Offer Message Testing — CRO & Experience
-`cro-anl-reporting-analyst-offer-message-testing` · KADEME 6 — ANALİST · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-anl-reporting-analyst-offer-message-testing.md`
+`cro-anl-reporting-analyst-offer-message-testing-2` · KADEME 6 — ANALİST · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-anl-reporting-analyst-offer-message-testing-2.md`
 ##### Performance Analyst, Mobile Speed Cro — CRO & Experience
-`cro-anl-performance-analyst-mobile-speed-cro` · KADEME 6 — ANALİST · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-mobile-speed-cro.md`
+`cro-anl-performance-analyst-mobile-speed-cro-3` · KADEME 6 — ANALİST · Raporlar: `cro-lead-heatmap-session-analysis` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-mobile-speed-cro-3.md`
 ##### Data Analyst, Landing Page Systems — CRO & Experience
-`cro-anl-data-analyst-landing-page-systems` · KADEME 6 — ANALİST · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-anl-data-analyst-landing-page-systems.md`
+`cro-anl-data-analyst-landing-page-systems-4` · KADEME 6 — ANALİST · Raporlar: `cro-lead-ab-test-design` · Kart: `components/agents/agency/cro-experience/cro-anl-data-analyst-landing-page-systems-4.md`
 ##### Reporting Analyst, Heatmap Session Analysis — CRO & Experience
-`cro-anl-reporting-analyst-heatmap-session-analysis` · KADEME 6 — ANALİST · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-anl-reporting-analyst-heatmap-session-analysis.md`
+`cro-anl-reporting-analyst-heatmap-session-analysis-5` · KADEME 6 — ANALİST · Raporlar: `cro-lead-landing-page-systems` · Kart: `components/agents/agency/cro-experience/cro-anl-reporting-analyst-heatmap-session-analysis-5.md`
 ##### Performance Analyst, Checkout Optimization — CRO & Experience
-`cro-anl-performance-analyst-checkout-optimization` · KADEME 6 — ANALİST · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-checkout-optimization.md`
+`cro-anl-performance-analyst-checkout-optimization-6` · KADEME 6 — ANALİST · Raporlar: `cro-lead-form-friction-audit` · Kart: `components/agents/agency/cro-experience/cro-anl-performance-analyst-checkout-optimization-6.md`
 ### DEPARTMAN — Analytics & Measurement (ANA) · Analitik & Ölçümleme
 #### ANA · Künye
 Sponsor C-level: **cdo-data** · Kadro: **40** · Birimler: GA4 & Tagging, Attribution, MMM & Incrementality, Clean Rooms & Privacy, Dashboards · Karışım: {'evp': 1, 'director': 4, 'lead': 6, 'specialist': 18, 'analyst': 11}
@@ -717,63 +717,63 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Geo Holdout Design — Analytics & Measurement
 `ana-lead-geo-holdout-design` · KADEME 4 — LEAD · Raporlar: `ana-dir-attribution` · Kart: `components/agents/agency/analytics-measurement/ana-lead-geo-holdout-design.md`
 ##### Optimization Specialist, Ga4 Audit — Analytics & Measurement
-`ana-spc-optimization-ga4-audit` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-ga4-audit.md`
+`ana-spc-optimization-ga4-audit-0` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-ga4-audit-0.md`
 ##### Optimization Specialist, Server Side Tagging — Analytics & Measurement
-`ana-spc-optimization-server-side-tagging` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-server-side-tagging.md`
+`ana-spc-optimization-server-side-tagging-1` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-server-side-tagging-1.md`
 ##### Optimization Specialist, Consent Mode V2 — Analytics & Measurement
-`ana-spc-optimization-consent-mode-v2` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-consent-mode-v2.md`
+`ana-spc-optimization-consent-mode-v2-2` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-consent-mode-v2-2.md`
 ##### Optimization Specialist, Attribution Model Selection — Analytics & Measurement
-`ana-spc-optimization-attribution-model-selection` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-attribution-model-selection.md`
+`ana-spc-optimization-attribution-model-selection-3` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-attribution-model-selection-3.md`
 ##### Optimization Specialist, Mmm Lite — Analytics & Measurement
-`ana-spc-optimization-mmm-lite` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-mmm-lite.md`
+`ana-spc-optimization-mmm-lite-4` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-mmm-lite-4.md`
 ##### Optimization Specialist, Geo Holdout Design — Analytics & Measurement
-`ana-spc-optimization-geo-holdout-design` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-geo-holdout-design.md`
+`ana-spc-optimization-geo-holdout-design-5` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-geo-holdout-design-5.md`
 ##### Optimization Specialist, Clean Room Queries — Analytics & Measurement
-`ana-spc-optimization-clean-room-queries` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-clean-room-queries.md`
+`ana-spc-optimization-clean-room-queries-6` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-clean-room-queries-6.md`
 ##### Optimization Specialist, Looker Dashboard Standards — Analytics & Measurement
-`ana-spc-optimization-looker-dashboard-standards` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-looker-dashboard-standards.md`
+`ana-spc-optimization-looker-dashboard-standards-7` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-looker-dashboard-standards-7.md`
 ##### Optimization Specialist, Data Quality Monitoring — Analytics & Measurement
-`ana-spc-optimization-data-quality-monitoring` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-data-quality-monitoring.md`
+`ana-spc-optimization-data-quality-monitoring-8` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-data-quality-monitoring-8.md`
 ##### Optimization Specialist, Kpi Dictionary — Analytics & Measurement
-`ana-spc-optimization-kpi-dictionary` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-kpi-dictionary.md`
+`ana-spc-optimization-kpi-dictionary-9` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-optimization-kpi-dictionary-9.md`
 ##### Automation Specialist, Ga4 Audit — Analytics & Measurement
-`ana-spc-automation-ga4-audit` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-ga4-audit.md`
+`ana-spc-automation-ga4-audit-10` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-ga4-audit-10.md`
 ##### Automation Specialist, Server Side Tagging — Analytics & Measurement
-`ana-spc-automation-server-side-tagging` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-server-side-tagging.md`
+`ana-spc-automation-server-side-tagging-11` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-server-side-tagging-11.md`
 ##### Automation Specialist, Consent Mode V2 — Analytics & Measurement
-`ana-spc-automation-consent-mode-v2` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-consent-mode-v2.md`
+`ana-spc-automation-consent-mode-v2-12` · KADEME 5 — UZMAN · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-consent-mode-v2-12.md`
 ##### Automation Specialist, Attribution Model Selection — Analytics & Measurement
-`ana-spc-automation-attribution-model-selection` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-attribution-model-selection.md`
+`ana-spc-automation-attribution-model-selection-13` · KADEME 5 — UZMAN · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-attribution-model-selection-13.md`
 ##### Automation Specialist, Mmm Lite — Analytics & Measurement
-`ana-spc-automation-mmm-lite` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-mmm-lite.md`
+`ana-spc-automation-mmm-lite-14` · KADEME 5 — UZMAN · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-mmm-lite-14.md`
 ##### Automation Specialist, Geo Holdout Design — Analytics & Measurement
-`ana-spc-automation-geo-holdout-design` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-geo-holdout-design.md`
+`ana-spc-automation-geo-holdout-design-15` · KADEME 5 — UZMAN · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-geo-holdout-design-15.md`
 ##### Automation Specialist, Clean Room Queries — Analytics & Measurement
-`ana-spc-automation-clean-room-queries` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-clean-room-queries.md`
+`ana-spc-automation-clean-room-queries-16` · KADEME 5 — UZMAN · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-clean-room-queries-16.md`
 ##### Automation Specialist, Looker Dashboard Standards — Analytics & Measurement
-`ana-spc-automation-looker-dashboard-standards` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-looker-dashboard-standards.md`
+`ana-spc-automation-looker-dashboard-standards-17` · KADEME 5 — UZMAN · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-spc-automation-looker-dashboard-standards-17.md`
 ##### Performance Analyst, Ga4 Audit — Analytics & Measurement
-`ana-anl-performance-analyst-ga4-audit` · KADEME 6 — ANALİST · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-ga4-audit.md`
+`ana-anl-performance-analyst-ga4-audit-0` · KADEME 6 — ANALİST · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-ga4-audit-0.md`
 ##### Data Analyst, Consent Mode V2 — Analytics & Measurement
-`ana-anl-data-analyst-consent-mode-v2` · KADEME 6 — ANALİST · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-consent-mode-v2.md`
+`ana-anl-data-analyst-consent-mode-v2-1` · KADEME 6 — ANALİST · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-consent-mode-v2-1.md`
 ##### Reporting Analyst, Mmm Lite — Analytics & Measurement
-`ana-anl-reporting-analyst-mmm-lite` · KADEME 6 — ANALİST · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-mmm-lite.md`
+`ana-anl-reporting-analyst-mmm-lite-2` · KADEME 6 — ANALİST · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-mmm-lite-2.md`
 ##### Performance Analyst, Clean Room Queries — Analytics & Measurement
-`ana-anl-performance-analyst-clean-room-queries` · KADEME 6 — ANALİST · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-clean-room-queries.md`
+`ana-anl-performance-analyst-clean-room-queries-3` · KADEME 6 — ANALİST · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-clean-room-queries-3.md`
 ##### Data Analyst, Data Quality Monitoring — Analytics & Measurement
-`ana-anl-data-analyst-data-quality-monitoring` · KADEME 6 — ANALİST · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-data-quality-monitoring.md`
+`ana-anl-data-analyst-data-quality-monitoring-4` · KADEME 6 — ANALİST · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-data-quality-monitoring-4.md`
 ##### Reporting Analyst, Ga4 Audit — Analytics & Measurement
-`ana-anl-reporting-analyst-ga4-audit` · KADEME 6 — ANALİST · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-ga4-audit.md`
+`ana-anl-reporting-analyst-ga4-audit-5` · KADEME 6 — ANALİST · Raporlar: `ana-lead-geo-holdout-design` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-ga4-audit-5.md`
 ##### Performance Analyst, Consent Mode V2 — Analytics & Measurement
-`ana-anl-performance-analyst-consent-mode-v2` · KADEME 6 — ANALİST · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-consent-mode-v2.md`
+`ana-anl-performance-analyst-consent-mode-v2-6` · KADEME 6 — ANALİST · Raporlar: `ana-lead-ga4-audit` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-consent-mode-v2-6.md`
 ##### Data Analyst, Mmm Lite — Analytics & Measurement
-`ana-anl-data-analyst-mmm-lite` · KADEME 6 — ANALİST · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-mmm-lite.md`
+`ana-anl-data-analyst-mmm-lite-7` · KADEME 6 — ANALİST · Raporlar: `ana-lead-server-side-tagging` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-mmm-lite-7.md`
 ##### Reporting Analyst, Clean Room Queries — Analytics & Measurement
-`ana-anl-reporting-analyst-clean-room-queries` · KADEME 6 — ANALİST · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-clean-room-queries.md`
+`ana-anl-reporting-analyst-clean-room-queries-8` · KADEME 6 — ANALİST · Raporlar: `ana-lead-consent-mode-v2` · Kart: `components/agents/agency/analytics-measurement/ana-anl-reporting-analyst-clean-room-queries-8.md`
 ##### Performance Analyst, Data Quality Monitoring — Analytics & Measurement
-`ana-anl-performance-analyst-data-quality-monitoring` · KADEME 6 — ANALİST · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-data-quality-monitoring.md`
+`ana-anl-performance-analyst-data-quality-monitoring-9` · KADEME 6 — ANALİST · Raporlar: `ana-lead-attribution-model-selection` · Kart: `components/agents/agency/analytics-measurement/ana-anl-performance-analyst-data-quality-monitoring-9.md`
 ##### Data Analyst, Ga4 Audit — Analytics & Measurement
-`ana-anl-data-analyst-ga4-audit` · KADEME 6 — ANALİST · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-ga4-audit.md`
+`ana-anl-data-analyst-ga4-audit-10` · KADEME 6 — ANALİST · Raporlar: `ana-lead-mmm-lite` · Kart: `components/agents/agency/analytics-measurement/ana-anl-data-analyst-ga4-audit-10.md`
 ### DEPARTMAN — Data Science & AI (DSC) · Veri Bilimi & AI
 #### DSC · Künye
 Sponsor C-level: **cdo-data** · Kadro: **30** · Birimler: Forecasting & LTV, Optimization Models, AI Tooling & Agents · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 13, 'analyst': 8}
@@ -803,47 +803,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Creative Scoring Models — Data Science & AI
 `dsc-lead-creative-scoring-models` · KADEME 4 — LEAD · Raporlar: `dsc-dir-optimization-models` · Kart: `components/agents/agency/data-science-ai/dsc-lead-creative-scoring-models.md`
 ##### Optimization Specialist, Ltv Prediction — Data Science & AI
-`dsc-spc-optimization-ltv-prediction` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-ltv-prediction.md`
+`dsc-spc-optimization-ltv-prediction-0` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-ltv-prediction-0.md`
 ##### Optimization Specialist, Budget Allocation Models — Data Science & AI
-`dsc-spc-optimization-budget-allocation-models` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-budget-allocation-models.md`
+`dsc-spc-optimization-budget-allocation-models-1` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-budget-allocation-models-1.md`
 ##### Optimization Specialist, Bid Landscape Modeling — Data Science & AI
-`dsc-spc-optimization-bid-landscape-modeling` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-bid-landscape-modeling.md`
+`dsc-spc-optimization-bid-landscape-modeling-2` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-bid-landscape-modeling-2.md`
 ##### Optimization Specialist, Churn Propensity — Data Science & AI
-`dsc-spc-optimization-churn-propensity` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-churn-propensity.md`
+`dsc-spc-optimization-churn-propensity-3` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-churn-propensity-3.md`
 ##### Optimization Specialist, Creative Scoring Models — Data Science & AI
-`dsc-spc-optimization-creative-scoring-models` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-creative-scoring-models.md`
+`dsc-spc-optimization-creative-scoring-models-4` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-creative-scoring-models-4.md`
 ##### Optimization Specialist, Anomaly Detection — Data Science & AI
-`dsc-spc-optimization-anomaly-detection` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-anomaly-detection.md`
+`dsc-spc-optimization-anomaly-detection-5` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-anomaly-detection-5.md`
 ##### Optimization Specialist, Agent Eval Harness — Data Science & AI
-`dsc-spc-optimization-agent-eval-harness` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-agent-eval-harness.md`
+`dsc-spc-optimization-agent-eval-harness-6` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-agent-eval-harness-6.md`
 ##### Optimization Specialist, Prompt Optimization — Data Science & AI
-`dsc-spc-optimization-prompt-optimization` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-prompt-optimization.md`
+`dsc-spc-optimization-prompt-optimization-7` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-optimization-prompt-optimization-7.md`
 ##### Automation Specialist, Ltv Prediction — Data Science & AI
-`dsc-spc-automation-ltv-prediction` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-ltv-prediction.md`
+`dsc-spc-automation-ltv-prediction-8` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-ltv-prediction-8.md`
 ##### Automation Specialist, Budget Allocation Models — Data Science & AI
-`dsc-spc-automation-budget-allocation-models` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-budget-allocation-models.md`
+`dsc-spc-automation-budget-allocation-models-9` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-budget-allocation-models-9.md`
 ##### Automation Specialist, Bid Landscape Modeling — Data Science & AI
-`dsc-spc-automation-bid-landscape-modeling` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-bid-landscape-modeling.md`
+`dsc-spc-automation-bid-landscape-modeling-10` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-bid-landscape-modeling-10.md`
 ##### Automation Specialist, Churn Propensity — Data Science & AI
-`dsc-spc-automation-churn-propensity` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-churn-propensity.md`
+`dsc-spc-automation-churn-propensity-11` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-churn-propensity-11.md`
 ##### Automation Specialist, Creative Scoring Models — Data Science & AI
-`dsc-spc-automation-creative-scoring-models` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-creative-scoring-models.md`
+`dsc-spc-automation-creative-scoring-models-12` · KADEME 5 — UZMAN · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-spc-automation-creative-scoring-models-12.md`
 ##### Performance Analyst, Ltv Prediction — Data Science & AI
-`dsc-anl-performance-analyst-ltv-prediction` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-ltv-prediction.md`
+`dsc-anl-performance-analyst-ltv-prediction-0` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-ltv-prediction-0.md`
 ##### Data Analyst, Bid Landscape Modeling — Data Science & AI
-`dsc-anl-data-analyst-bid-landscape-modeling` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-bid-landscape-modeling.md`
+`dsc-anl-data-analyst-bid-landscape-modeling-1` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-bid-landscape-modeling-1.md`
 ##### Reporting Analyst, Creative Scoring Models — Data Science & AI
-`dsc-anl-reporting-analyst-creative-scoring-models` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-anl-reporting-analyst-creative-scoring-models.md`
+`dsc-anl-reporting-analyst-creative-scoring-models-2` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-anl-reporting-analyst-creative-scoring-models-2.md`
 ##### Performance Analyst, Agent Eval Harness — Data Science & AI
-`dsc-anl-performance-analyst-agent-eval-harness` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-agent-eval-harness.md`
+`dsc-anl-performance-analyst-agent-eval-harness-3` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-churn-propensity` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-agent-eval-harness-3.md`
 ##### Data Analyst, Ltv Prediction — Data Science & AI
-`dsc-anl-data-analyst-ltv-prediction` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-ltv-prediction.md`
+`dsc-anl-data-analyst-ltv-prediction-4` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-creative-scoring-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-ltv-prediction-4.md`
 ##### Reporting Analyst, Bid Landscape Modeling — Data Science & AI
-`dsc-anl-reporting-analyst-bid-landscape-modeling` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-anl-reporting-analyst-bid-landscape-modeling.md`
+`dsc-anl-reporting-analyst-bid-landscape-modeling-5` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-ltv-prediction` · Kart: `components/agents/agency/data-science-ai/dsc-anl-reporting-analyst-bid-landscape-modeling-5.md`
 ##### Performance Analyst, Creative Scoring Models — Data Science & AI
-`dsc-anl-performance-analyst-creative-scoring-models` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-creative-scoring-models.md`
+`dsc-anl-performance-analyst-creative-scoring-models-6` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-budget-allocation-models` · Kart: `components/agents/agency/data-science-ai/dsc-anl-performance-analyst-creative-scoring-models-6.md`
 ##### Data Analyst, Agent Eval Harness — Data Science & AI
-`dsc-anl-data-analyst-agent-eval-harness` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-agent-eval-harness.md`
+`dsc-anl-data-analyst-agent-eval-harness-7` · KADEME 6 — ANALİST · Raporlar: `dsc-lead-bid-landscape-modeling` · Kart: `components/agents/agency/data-science-ai/dsc-anl-data-analyst-agent-eval-harness-7.md`
 ### DEPARTMAN — Ad Ops & Trafficking (OPS) · Ad Ops & Trafficking
 #### OPS · Künye
 Sponsor C-level: **coo-delivery** · Kadro: **35** · Birimler: CM360 Trafficking, Tag Management, QA & Verification, Consent & Privacy Ops · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 16, 'analyst': 10}
@@ -873,57 +873,57 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Ias Doubleverify Setup — Ad Ops & Trafficking
 `ops-lead-ias-doubleverify-setup` · KADEME 4 — LEAD · Raporlar: `ops-dir-tag-management` · Kart: `components/agents/agency/adops-trafficking/ops-lead-ias-doubleverify-setup.md`
 ##### Optimization Specialist, Cm360 Trafficking — Ad Ops & Trafficking
-`ops-spc-optimization-cm360-trafficking` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-cm360-trafficking.md`
+`ops-spc-optimization-cm360-trafficking-0` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-cm360-trafficking-0.md`
 ##### Optimization Specialist, Floodlight Architecture — Ad Ops & Trafficking
-`ops-spc-optimization-floodlight-architecture` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-floodlight-architecture.md`
+`ops-spc-optimization-floodlight-architecture-1` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-floodlight-architecture-1.md`
 ##### Optimization Specialist, Gtm Container Hygiene — Ad Ops & Trafficking
-`ops-spc-optimization-gtm-container-hygiene` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-gtm-container-hygiene.md`
+`ops-spc-optimization-gtm-container-hygiene-2` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-gtm-container-hygiene-2.md`
 ##### Optimization Specialist, Creative Specs Qa — Ad Ops & Trafficking
-`ops-spc-optimization-creative-specs-qa` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-creative-specs-qa.md`
+`ops-spc-optimization-creative-specs-qa-3` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-creative-specs-qa-3.md`
 ##### Optimization Specialist, Ias Doubleverify Setup — Ad Ops & Trafficking
-`ops-spc-optimization-ias-doubleverify-setup` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-ias-doubleverify-setup.md`
+`ops-spc-optimization-ias-doubleverify-setup-4` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-ias-doubleverify-setup-4.md`
 ##### Optimization Specialist, Consent String Qa — Ad Ops & Trafficking
-`ops-spc-optimization-consent-string-qa` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-consent-string-qa.md`
+`ops-spc-optimization-consent-string-qa-5` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-consent-string-qa-5.md`
 ##### Optimization Specialist, Utm Governance — Ad Ops & Trafficking
-`ops-spc-optimization-utm-governance` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-utm-governance.md`
+`ops-spc-optimization-utm-governance-6` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-utm-governance-6.md`
 ##### Optimization Specialist, Campaign Launch Checklist — Ad Ops & Trafficking
-`ops-spc-optimization-campaign-launch-checklist` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-campaign-launch-checklist.md`
+`ops-spc-optimization-campaign-launch-checklist-7` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-optimization-campaign-launch-checklist-7.md`
 ##### Automation Specialist, Cm360 Trafficking — Ad Ops & Trafficking
-`ops-spc-automation-cm360-trafficking` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-cm360-trafficking.md`
+`ops-spc-automation-cm360-trafficking-8` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-cm360-trafficking-8.md`
 ##### Automation Specialist, Floodlight Architecture — Ad Ops & Trafficking
-`ops-spc-automation-floodlight-architecture` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-floodlight-architecture.md`
+`ops-spc-automation-floodlight-architecture-9` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-floodlight-architecture-9.md`
 ##### Automation Specialist, Gtm Container Hygiene — Ad Ops & Trafficking
-`ops-spc-automation-gtm-container-hygiene` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-gtm-container-hygiene.md`
+`ops-spc-automation-gtm-container-hygiene-10` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-gtm-container-hygiene-10.md`
 ##### Automation Specialist, Creative Specs Qa — Ad Ops & Trafficking
-`ops-spc-automation-creative-specs-qa` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-creative-specs-qa.md`
+`ops-spc-automation-creative-specs-qa-11` · KADEME 5 — UZMAN · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-creative-specs-qa-11.md`
 ##### Automation Specialist, Ias Doubleverify Setup — Ad Ops & Trafficking
-`ops-spc-automation-ias-doubleverify-setup` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-ias-doubleverify-setup.md`
+`ops-spc-automation-ias-doubleverify-setup-12` · KADEME 5 — UZMAN · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-ias-doubleverify-setup-12.md`
 ##### Automation Specialist, Consent String Qa — Ad Ops & Trafficking
-`ops-spc-automation-consent-string-qa` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-consent-string-qa.md`
+`ops-spc-automation-consent-string-qa-13` · KADEME 5 — UZMAN · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-consent-string-qa-13.md`
 ##### Automation Specialist, Utm Governance — Ad Ops & Trafficking
-`ops-spc-automation-utm-governance` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-utm-governance.md`
+`ops-spc-automation-utm-governance-14` · KADEME 5 — UZMAN · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-utm-governance-14.md`
 ##### Automation Specialist, Campaign Launch Checklist — Ad Ops & Trafficking
-`ops-spc-automation-campaign-launch-checklist` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-campaign-launch-checklist.md`
+`ops-spc-automation-campaign-launch-checklist-15` · KADEME 5 — UZMAN · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-spc-automation-campaign-launch-checklist-15.md`
 ##### Performance Analyst, Cm360 Trafficking — Ad Ops & Trafficking
-`ops-anl-performance-analyst-cm360-trafficking` · KADEME 6 — ANALİST · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-cm360-trafficking.md`
+`ops-anl-performance-analyst-cm360-trafficking-0` · KADEME 6 — ANALİST · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-cm360-trafficking-0.md`
 ##### Data Analyst, Gtm Container Hygiene — Ad Ops & Trafficking
-`ops-anl-data-analyst-gtm-container-hygiene` · KADEME 6 — ANALİST · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-gtm-container-hygiene.md`
+`ops-anl-data-analyst-gtm-container-hygiene-1` · KADEME 6 — ANALİST · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-gtm-container-hygiene-1.md`
 ##### Reporting Analyst, Ias Doubleverify Setup — Ad Ops & Trafficking
-`ops-anl-reporting-analyst-ias-doubleverify-setup` · KADEME 6 — ANALİST · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-ias-doubleverify-setup.md`
+`ops-anl-reporting-analyst-ias-doubleverify-setup-2` · KADEME 6 — ANALİST · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-ias-doubleverify-setup-2.md`
 ##### Performance Analyst, Utm Governance — Ad Ops & Trafficking
-`ops-anl-performance-analyst-utm-governance` · KADEME 6 — ANALİST · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-utm-governance.md`
+`ops-anl-performance-analyst-utm-governance-3` · KADEME 6 — ANALİST · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-utm-governance-3.md`
 ##### Data Analyst, Cm360 Trafficking — Ad Ops & Trafficking
-`ops-anl-data-analyst-cm360-trafficking` · KADEME 6 — ANALİST · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-cm360-trafficking.md`
+`ops-anl-data-analyst-cm360-trafficking-4` · KADEME 6 — ANALİST · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-cm360-trafficking-4.md`
 ##### Reporting Analyst, Gtm Container Hygiene — Ad Ops & Trafficking
-`ops-anl-reporting-analyst-gtm-container-hygiene` · KADEME 6 — ANALİST · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-gtm-container-hygiene.md`
+`ops-anl-reporting-analyst-gtm-container-hygiene-5` · KADEME 6 — ANALİST · Raporlar: `ops-lead-cm360-trafficking` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-gtm-container-hygiene-5.md`
 ##### Performance Analyst, Ias Doubleverify Setup — Ad Ops & Trafficking
-`ops-anl-performance-analyst-ias-doubleverify-setup` · KADEME 6 — ANALİST · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-ias-doubleverify-setup.md`
+`ops-anl-performance-analyst-ias-doubleverify-setup-6` · KADEME 6 — ANALİST · Raporlar: `ops-lead-floodlight-architecture` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-ias-doubleverify-setup-6.md`
 ##### Data Analyst, Utm Governance — Ad Ops & Trafficking
-`ops-anl-data-analyst-utm-governance` · KADEME 6 — ANALİST · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-utm-governance.md`
+`ops-anl-data-analyst-utm-governance-7` · KADEME 6 — ANALİST · Raporlar: `ops-lead-gtm-container-hygiene` · Kart: `components/agents/agency/adops-trafficking/ops-anl-data-analyst-utm-governance-7.md`
 ##### Reporting Analyst, Cm360 Trafficking — Ad Ops & Trafficking
-`ops-anl-reporting-analyst-cm360-trafficking` · KADEME 6 — ANALİST · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-cm360-trafficking.md`
+`ops-anl-reporting-analyst-cm360-trafficking-8` · KADEME 6 — ANALİST · Raporlar: `ops-lead-creative-specs-qa` · Kart: `components/agents/agency/adops-trafficking/ops-anl-reporting-analyst-cm360-trafficking-8.md`
 ##### Performance Analyst, Gtm Container Hygiene — Ad Ops & Trafficking
-`ops-anl-performance-analyst-gtm-container-hygiene` · KADEME 6 — ANALİST · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-gtm-container-hygiene.md`
+`ops-anl-performance-analyst-gtm-container-hygiene-9` · KADEME 6 — ANALİST · Raporlar: `ops-lead-ias-doubleverify-setup` · Kart: `components/agents/agency/adops-trafficking/ops-anl-performance-analyst-gtm-container-hygiene-9.md`
 ### DEPARTMAN — Creative Studio & DCO (CRE) · Kreatif Stüdyo & DCO
 #### CRE · Künye
 Sponsor C-level: **cmo-brand** · Kadro: **35** · Birimler: Concept & Copy, Video & Motion, DCO & Feeds, Ad Format Lab · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 16, 'analyst': 10}
@@ -953,57 +953,57 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Format Spec Library — Creative Studio & DCO
 `cre-lead-format-spec-library` · KADEME 4 — LEAD · Raporlar: `cre-dir-video-and-motion` · Kart: `components/agents/agency/creative-studio/cre-lead-format-spec-library.md`
 ##### Optimization Specialist, Hook Concepting — Creative Studio & DCO
-`cre-spc-optimization-hook-concepting` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-hook-concepting.md`
+`cre-spc-optimization-hook-concepting-0` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-hook-concepting-0.md`
 ##### Optimization Specialist, Ad Copy Systems — Creative Studio & DCO
-`cre-spc-optimization-ad-copy-systems` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-ad-copy-systems.md`
+`cre-spc-optimization-ad-copy-systems-1` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-ad-copy-systems-1.md`
 ##### Optimization Specialist, Video Cutdown Matrix — Creative Studio & DCO
-`cre-spc-optimization-video-cutdown-matrix` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-video-cutdown-matrix.md`
+`cre-spc-optimization-video-cutdown-matrix-2` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-video-cutdown-matrix-2.md`
 ##### Optimization Specialist, Dco Feed Design — Creative Studio & DCO
-`cre-spc-optimization-dco-feed-design` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-dco-feed-design.md`
+`cre-spc-optimization-dco-feed-design-3` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-dco-feed-design-3.md`
 ##### Optimization Specialist, Format Spec Library — Creative Studio & DCO
-`cre-spc-optimization-format-spec-library` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-format-spec-library.md`
+`cre-spc-optimization-format-spec-library-4` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-format-spec-library-4.md`
 ##### Optimization Specialist, Localization Tr — Creative Studio & DCO
-`cre-spc-optimization-localization-tr` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-localization-tr.md`
+`cre-spc-optimization-localization-tr-5` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-localization-tr-5.md`
 ##### Optimization Specialist, Creative Naming Taxonomy — Creative Studio & DCO
-`cre-spc-optimization-creative-naming-taxonomy` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-creative-naming-taxonomy.md`
+`cre-spc-optimization-creative-naming-taxonomy-6` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-creative-naming-taxonomy-6.md`
 ##### Optimization Specialist, Asset Versioning — Creative Studio & DCO
-`cre-spc-optimization-asset-versioning` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-asset-versioning.md`
+`cre-spc-optimization-asset-versioning-7` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-optimization-asset-versioning-7.md`
 ##### Automation Specialist, Hook Concepting — Creative Studio & DCO
-`cre-spc-automation-hook-concepting` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-hook-concepting.md`
+`cre-spc-automation-hook-concepting-8` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-hook-concepting-8.md`
 ##### Automation Specialist, Ad Copy Systems — Creative Studio & DCO
-`cre-spc-automation-ad-copy-systems` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-ad-copy-systems.md`
+`cre-spc-automation-ad-copy-systems-9` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-ad-copy-systems-9.md`
 ##### Automation Specialist, Video Cutdown Matrix — Creative Studio & DCO
-`cre-spc-automation-video-cutdown-matrix` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-video-cutdown-matrix.md`
+`cre-spc-automation-video-cutdown-matrix-10` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-video-cutdown-matrix-10.md`
 ##### Automation Specialist, Dco Feed Design — Creative Studio & DCO
-`cre-spc-automation-dco-feed-design` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-dco-feed-design.md`
+`cre-spc-automation-dco-feed-design-11` · KADEME 5 — UZMAN · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-dco-feed-design-11.md`
 ##### Automation Specialist, Format Spec Library — Creative Studio & DCO
-`cre-spc-automation-format-spec-library` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-format-spec-library.md`
+`cre-spc-automation-format-spec-library-12` · KADEME 5 — UZMAN · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-format-spec-library-12.md`
 ##### Automation Specialist, Localization Tr — Creative Studio & DCO
-`cre-spc-automation-localization-tr` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-localization-tr.md`
+`cre-spc-automation-localization-tr-13` · KADEME 5 — UZMAN · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-localization-tr-13.md`
 ##### Automation Specialist, Creative Naming Taxonomy — Creative Studio & DCO
-`cre-spc-automation-creative-naming-taxonomy` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-creative-naming-taxonomy.md`
+`cre-spc-automation-creative-naming-taxonomy-14` · KADEME 5 — UZMAN · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-creative-naming-taxonomy-14.md`
 ##### Automation Specialist, Asset Versioning — Creative Studio & DCO
-`cre-spc-automation-asset-versioning` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-asset-versioning.md`
+`cre-spc-automation-asset-versioning-15` · KADEME 5 — UZMAN · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-spc-automation-asset-versioning-15.md`
 ##### Performance Analyst, Hook Concepting — Creative Studio & DCO
-`cre-anl-performance-analyst-hook-concepting` · KADEME 6 — ANALİST · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-hook-concepting.md`
+`cre-anl-performance-analyst-hook-concepting-0` · KADEME 6 — ANALİST · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-hook-concepting-0.md`
 ##### Data Analyst, Video Cutdown Matrix — Creative Studio & DCO
-`cre-anl-data-analyst-video-cutdown-matrix` · KADEME 6 — ANALİST · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-video-cutdown-matrix.md`
+`cre-anl-data-analyst-video-cutdown-matrix-1` · KADEME 6 — ANALİST · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-video-cutdown-matrix-1.md`
 ##### Reporting Analyst, Format Spec Library — Creative Studio & DCO
-`cre-anl-reporting-analyst-format-spec-library` · KADEME 6 — ANALİST · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-format-spec-library.md`
+`cre-anl-reporting-analyst-format-spec-library-2` · KADEME 6 — ANALİST · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-format-spec-library-2.md`
 ##### Performance Analyst, Creative Naming Taxonomy — Creative Studio & DCO
-`cre-anl-performance-analyst-creative-naming-taxonomy` · KADEME 6 — ANALİST · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-creative-naming-taxonomy.md`
+`cre-anl-performance-analyst-creative-naming-taxonomy-3` · KADEME 6 — ANALİST · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-creative-naming-taxonomy-3.md`
 ##### Data Analyst, Hook Concepting — Creative Studio & DCO
-`cre-anl-data-analyst-hook-concepting` · KADEME 6 — ANALİST · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-hook-concepting.md`
+`cre-anl-data-analyst-hook-concepting-4` · KADEME 6 — ANALİST · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-hook-concepting-4.md`
 ##### Reporting Analyst, Video Cutdown Matrix — Creative Studio & DCO
-`cre-anl-reporting-analyst-video-cutdown-matrix` · KADEME 6 — ANALİST · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-video-cutdown-matrix.md`
+`cre-anl-reporting-analyst-video-cutdown-matrix-5` · KADEME 6 — ANALİST · Raporlar: `cre-lead-hook-concepting` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-video-cutdown-matrix-5.md`
 ##### Performance Analyst, Format Spec Library — Creative Studio & DCO
-`cre-anl-performance-analyst-format-spec-library` · KADEME 6 — ANALİST · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-format-spec-library.md`
+`cre-anl-performance-analyst-format-spec-library-6` · KADEME 6 — ANALİST · Raporlar: `cre-lead-ad-copy-systems` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-format-spec-library-6.md`
 ##### Data Analyst, Creative Naming Taxonomy — Creative Studio & DCO
-`cre-anl-data-analyst-creative-naming-taxonomy` · KADEME 6 — ANALİST · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-creative-naming-taxonomy.md`
+`cre-anl-data-analyst-creative-naming-taxonomy-7` · KADEME 6 — ANALİST · Raporlar: `cre-lead-video-cutdown-matrix` · Kart: `components/agents/agency/creative-studio/cre-anl-data-analyst-creative-naming-taxonomy-7.md`
 ##### Reporting Analyst, Hook Concepting — Creative Studio & DCO
-`cre-anl-reporting-analyst-hook-concepting` · KADEME 6 — ANALİST · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-hook-concepting.md`
+`cre-anl-reporting-analyst-hook-concepting-8` · KADEME 6 — ANALİST · Raporlar: `cre-lead-dco-feed-design` · Kart: `components/agents/agency/creative-studio/cre-anl-reporting-analyst-hook-concepting-8.md`
 ##### Performance Analyst, Video Cutdown Matrix — Creative Studio & DCO
-`cre-anl-performance-analyst-video-cutdown-matrix` · KADEME 6 — ANALİST · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-video-cutdown-matrix.md`
+`cre-anl-performance-analyst-video-cutdown-matrix-9` · KADEME 6 — ANALİST · Raporlar: `cre-lead-format-spec-library` · Kart: `components/agents/agency/creative-studio/cre-anl-performance-analyst-video-cutdown-matrix-9.md`
 ### DEPARTMAN — Strategy & Comms Planning (STR) · Strateji & Planlama
 #### STR · Künye
 Sponsor C-level: **cso-strategy** · Kadro: **30** · Birimler: Audience & Insight, Media Mix, Playbooks & POVs · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 13, 'analyst': 8}
@@ -1033,47 +1033,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Media Plan Templates — Strategy & Comms Planning
 `str-lead-media-plan-templates` · KADEME 4 — LEAD · Raporlar: `str-dir-media-mix` · Kart: `components/agents/agency/strategy-planning/str-lead-media-plan-templates.md`
 ##### Optimization Specialist, Audience Mapping — Strategy & Comms Planning
-`str-spc-optimization-audience-mapping` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-audience-mapping.md`
+`str-spc-optimization-audience-mapping-0` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-audience-mapping-0.md`
 ##### Optimization Specialist, Channel Mix Modeling — Strategy & Comms Planning
-`str-spc-optimization-channel-mix-modeling` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-channel-mix-modeling.md`
+`str-spc-optimization-channel-mix-modeling-1` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-channel-mix-modeling-1.md`
 ##### Optimization Specialist, Competitive Landscape — Strategy & Comms Planning
-`str-spc-optimization-competitive-landscape` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-competitive-landscape.md`
+`str-spc-optimization-competitive-landscape-2` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-competitive-landscape-2.md`
 ##### Optimization Specialist, Pov Writing — Strategy & Comms Planning
-`str-spc-optimization-pov-writing` · KADEME 5 — UZMAN · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-pov-writing.md`
+`str-spc-optimization-pov-writing-3` · KADEME 5 — UZMAN · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-pov-writing-3.md`
 ##### Optimization Specialist, Media Plan Templates — Strategy & Comms Planning
-`str-spc-optimization-media-plan-templates` · KADEME 5 — UZMAN · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-media-plan-templates.md`
+`str-spc-optimization-media-plan-templates-4` · KADEME 5 — UZMAN · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-media-plan-templates-4.md`
 ##### Optimization Specialist, Benchmark Library — Strategy & Comms Planning
-`str-spc-optimization-benchmark-library` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-benchmark-library.md`
+`str-spc-optimization-benchmark-library-5` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-benchmark-library-5.md`
 ##### Optimization Specialist, Quarterly Planning — Strategy & Comms Planning
-`str-spc-optimization-quarterly-planning` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-quarterly-planning.md`
+`str-spc-optimization-quarterly-planning-6` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-optimization-quarterly-planning-6.md`
 ##### Automation Specialist, Audience Mapping — Strategy & Comms Planning
-`str-spc-automation-audience-mapping` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-audience-mapping.md`
+`str-spc-automation-audience-mapping-7` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-audience-mapping-7.md`
 ##### Automation Specialist, Channel Mix Modeling — Strategy & Comms Planning
-`str-spc-automation-channel-mix-modeling` · KADEME 5 — UZMAN · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-channel-mix-modeling.md`
+`str-spc-automation-channel-mix-modeling-8` · KADEME 5 — UZMAN · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-channel-mix-modeling-8.md`
 ##### Automation Specialist, Competitive Landscape — Strategy & Comms Planning
-`str-spc-automation-competitive-landscape` · KADEME 5 — UZMAN · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-competitive-landscape.md`
+`str-spc-automation-competitive-landscape-9` · KADEME 5 — UZMAN · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-competitive-landscape-9.md`
 ##### Automation Specialist, Pov Writing — Strategy & Comms Planning
-`str-spc-automation-pov-writing` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-pov-writing.md`
+`str-spc-automation-pov-writing-10` · KADEME 5 — UZMAN · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-pov-writing-10.md`
 ##### Automation Specialist, Media Plan Templates — Strategy & Comms Planning
-`str-spc-automation-media-plan-templates` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-media-plan-templates.md`
+`str-spc-automation-media-plan-templates-11` · KADEME 5 — UZMAN · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-media-plan-templates-11.md`
 ##### Automation Specialist, Benchmark Library — Strategy & Comms Planning
-`str-spc-automation-benchmark-library` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-benchmark-library.md`
+`str-spc-automation-benchmark-library-12` · KADEME 5 — UZMAN · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-spc-automation-benchmark-library-12.md`
 ##### Performance Analyst, Audience Mapping — Strategy & Comms Planning
-`str-anl-performance-analyst-audience-mapping` · KADEME 6 — ANALİST · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-audience-mapping.md`
+`str-anl-performance-analyst-audience-mapping-0` · KADEME 6 — ANALİST · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-audience-mapping-0.md`
 ##### Data Analyst, Competitive Landscape — Strategy & Comms Planning
-`str-anl-data-analyst-competitive-landscape` · KADEME 6 — ANALİST · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-competitive-landscape.md`
+`str-anl-data-analyst-competitive-landscape-1` · KADEME 6 — ANALİST · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-competitive-landscape-1.md`
 ##### Reporting Analyst, Media Plan Templates — Strategy & Comms Planning
-`str-anl-reporting-analyst-media-plan-templates` · KADEME 6 — ANALİST · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-anl-reporting-analyst-media-plan-templates.md`
+`str-anl-reporting-analyst-media-plan-templates-2` · KADEME 6 — ANALİST · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-anl-reporting-analyst-media-plan-templates-2.md`
 ##### Performance Analyst, Quarterly Planning — Strategy & Comms Planning
-`str-anl-performance-analyst-quarterly-planning` · KADEME 6 — ANALİST · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-quarterly-planning.md`
+`str-anl-performance-analyst-quarterly-planning-3` · KADEME 6 — ANALİST · Raporlar: `str-lead-pov-writing` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-quarterly-planning-3.md`
 ##### Data Analyst, Channel Mix Modeling — Strategy & Comms Planning
-`str-anl-data-analyst-channel-mix-modeling` · KADEME 6 — ANALİST · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-channel-mix-modeling.md`
+`str-anl-data-analyst-channel-mix-modeling-4` · KADEME 6 — ANALİST · Raporlar: `str-lead-media-plan-templates` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-channel-mix-modeling-4.md`
 ##### Reporting Analyst, Pov Writing — Strategy & Comms Planning
-`str-anl-reporting-analyst-pov-writing` · KADEME 6 — ANALİST · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-anl-reporting-analyst-pov-writing.md`
+`str-anl-reporting-analyst-pov-writing-5` · KADEME 6 — ANALİST · Raporlar: `str-lead-audience-mapping` · Kart: `components/agents/agency/strategy-planning/str-anl-reporting-analyst-pov-writing-5.md`
 ##### Performance Analyst, Benchmark Library — Strategy & Comms Planning
-`str-anl-performance-analyst-benchmark-library` · KADEME 6 — ANALİST · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-benchmark-library.md`
+`str-anl-performance-analyst-benchmark-library-6` · KADEME 6 — ANALİST · Raporlar: `str-lead-channel-mix-modeling` · Kart: `components/agents/agency/strategy-planning/str-anl-performance-analyst-benchmark-library-6.md`
 ##### Data Analyst, Audience Mapping — Strategy & Comms Planning
-`str-anl-data-analyst-audience-mapping` · KADEME 6 — ANALİST · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-audience-mapping.md`
+`str-anl-data-analyst-audience-mapping-7` · KADEME 6 — ANALİST · Raporlar: `str-lead-competitive-landscape` · Kart: `components/agents/agency/strategy-planning/str-anl-data-analyst-audience-mapping-7.md`
 ### DEPARTMAN — Client Services (CLS) · Müşteri Hizmetleri
 #### CLS · Künye
 Sponsor C-level: **cro-revenue** · Kadro: **30** · Birimler: Account Leadership, Reporting Cadence, Onboarding · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 13, 'analyst': 8}
@@ -1103,47 +1103,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Expectation Management — Client Services
 `cls-lead-expectation-management` · KADEME 4 — LEAD · Raporlar: `cls-dir-reporting-cadence` · Kart: `components/agents/agency/client-services/cls-lead-expectation-management.md`
 ##### Optimization Specialist, Account Health Scoring — Client Services
-`cls-spc-optimization-account-health-scoring` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-optimization-account-health-scoring.md`
+`cls-spc-optimization-account-health-scoring-0` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-optimization-account-health-scoring-0.md`
 ##### Optimization Specialist, Weekly Report Narratives — Client Services
-`cls-spc-optimization-weekly-report-narratives` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-optimization-weekly-report-narratives.md`
+`cls-spc-optimization-weekly-report-narratives-1` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-optimization-weekly-report-narratives-1.md`
 ##### Optimization Specialist, Qbr Decks — Client Services
-`cls-spc-optimization-qbr-decks` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-optimization-qbr-decks.md`
+`cls-spc-optimization-qbr-decks-2` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-optimization-qbr-decks-2.md`
 ##### Optimization Specialist, Onboarding Checklists — Client Services
-`cls-spc-optimization-onboarding-checklists` · KADEME 5 — UZMAN · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-spc-optimization-onboarding-checklists.md`
+`cls-spc-optimization-onboarding-checklists-3` · KADEME 5 — UZMAN · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-spc-optimization-onboarding-checklists-3.md`
 ##### Optimization Specialist, Expectation Management — Client Services
-`cls-spc-optimization-expectation-management` · KADEME 5 — UZMAN · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-spc-optimization-expectation-management.md`
+`cls-spc-optimization-expectation-management-4` · KADEME 5 — UZMAN · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-spc-optimization-expectation-management-4.md`
 ##### Optimization Specialist, Escalation Comms — Client Services
-`cls-spc-optimization-escalation-comms` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-optimization-escalation-comms.md`
+`cls-spc-optimization-escalation-comms-5` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-optimization-escalation-comms-5.md`
 ##### Optimization Specialist, Renewal Playbooks — Client Services
-`cls-spc-optimization-renewal-playbooks` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-optimization-renewal-playbooks.md`
+`cls-spc-optimization-renewal-playbooks-6` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-optimization-renewal-playbooks-6.md`
 ##### Automation Specialist, Account Health Scoring — Client Services
-`cls-spc-automation-account-health-scoring` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-automation-account-health-scoring.md`
+`cls-spc-automation-account-health-scoring-7` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-automation-account-health-scoring-7.md`
 ##### Automation Specialist, Weekly Report Narratives — Client Services
-`cls-spc-automation-weekly-report-narratives` · KADEME 5 — UZMAN · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-spc-automation-weekly-report-narratives.md`
+`cls-spc-automation-weekly-report-narratives-8` · KADEME 5 — UZMAN · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-spc-automation-weekly-report-narratives-8.md`
 ##### Automation Specialist, Qbr Decks — Client Services
-`cls-spc-automation-qbr-decks` · KADEME 5 — UZMAN · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-spc-automation-qbr-decks.md`
+`cls-spc-automation-qbr-decks-9` · KADEME 5 — UZMAN · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-spc-automation-qbr-decks-9.md`
 ##### Automation Specialist, Onboarding Checklists — Client Services
-`cls-spc-automation-onboarding-checklists` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-automation-onboarding-checklists.md`
+`cls-spc-automation-onboarding-checklists-10` · KADEME 5 — UZMAN · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-spc-automation-onboarding-checklists-10.md`
 ##### Automation Specialist, Expectation Management — Client Services
-`cls-spc-automation-expectation-management` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-automation-expectation-management.md`
+`cls-spc-automation-expectation-management-11` · KADEME 5 — UZMAN · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-spc-automation-expectation-management-11.md`
 ##### Automation Specialist, Escalation Comms — Client Services
-`cls-spc-automation-escalation-comms` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-automation-escalation-comms.md`
+`cls-spc-automation-escalation-comms-12` · KADEME 5 — UZMAN · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-spc-automation-escalation-comms-12.md`
 ##### Performance Analyst, Account Health Scoring — Client Services
-`cls-anl-performance-analyst-account-health-scoring` · KADEME 6 — ANALİST · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-account-health-scoring.md`
+`cls-anl-performance-analyst-account-health-scoring-0` · KADEME 6 — ANALİST · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-account-health-scoring-0.md`
 ##### Data Analyst, Qbr Decks — Client Services
-`cls-anl-data-analyst-qbr-decks` · KADEME 6 — ANALİST · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-qbr-decks.md`
+`cls-anl-data-analyst-qbr-decks-1` · KADEME 6 — ANALİST · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-qbr-decks-1.md`
 ##### Reporting Analyst, Expectation Management — Client Services
-`cls-anl-reporting-analyst-expectation-management` · KADEME 6 — ANALİST · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-anl-reporting-analyst-expectation-management.md`
+`cls-anl-reporting-analyst-expectation-management-2` · KADEME 6 — ANALİST · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-anl-reporting-analyst-expectation-management-2.md`
 ##### Performance Analyst, Renewal Playbooks — Client Services
-`cls-anl-performance-analyst-renewal-playbooks` · KADEME 6 — ANALİST · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-renewal-playbooks.md`
+`cls-anl-performance-analyst-renewal-playbooks-3` · KADEME 6 — ANALİST · Raporlar: `cls-lead-onboarding-checklists` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-renewal-playbooks-3.md`
 ##### Data Analyst, Weekly Report Narratives — Client Services
-`cls-anl-data-analyst-weekly-report-narratives` · KADEME 6 — ANALİST · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-weekly-report-narratives.md`
+`cls-anl-data-analyst-weekly-report-narratives-4` · KADEME 6 — ANALİST · Raporlar: `cls-lead-expectation-management` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-weekly-report-narratives-4.md`
 ##### Reporting Analyst, Onboarding Checklists — Client Services
-`cls-anl-reporting-analyst-onboarding-checklists` · KADEME 6 — ANALİST · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-anl-reporting-analyst-onboarding-checklists.md`
+`cls-anl-reporting-analyst-onboarding-checklists-5` · KADEME 6 — ANALİST · Raporlar: `cls-lead-account-health-scoring` · Kart: `components/agents/agency/client-services/cls-anl-reporting-analyst-onboarding-checklists-5.md`
 ##### Performance Analyst, Escalation Comms — Client Services
-`cls-anl-performance-analyst-escalation-comms` · KADEME 6 — ANALİST · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-escalation-comms.md`
+`cls-anl-performance-analyst-escalation-comms-6` · KADEME 6 — ANALİST · Raporlar: `cls-lead-weekly-report-narratives` · Kart: `components/agents/agency/client-services/cls-anl-performance-analyst-escalation-comms-6.md`
 ##### Data Analyst, Account Health Scoring — Client Services
-`cls-anl-data-analyst-account-health-scoring` · KADEME 6 — ANALİST · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-account-health-scoring.md`
+`cls-anl-data-analyst-account-health-scoring-7` · KADEME 6 — ANALİST · Raporlar: `cls-lead-qbr-decks` · Kart: `components/agents/agency/client-services/cls-anl-data-analyst-account-health-scoring-7.md`
 ### DEPARTMAN — New Business & Inbound Funnel (NBD) · Yeni İş & Inbound Hunisi
 #### NBD · Künye
 Sponsor C-level: **cro-revenue** · Kadro: **25** · Birimler: Inbound Capture, Pitch Factory, Lead Scoring · Karışım: {'evp': 1, 'director': 2, 'lead': 4, 'specialist': 11, 'analyst': 7}
@@ -1169,41 +1169,41 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Lead Scoring Model — New Business & Inbound Funnel
 `nbd-lead-lead-scoring-model` · KADEME 4 — LEAD · Raporlar: `nbd-dir-pitch-factory` · Kart: `components/agents/agency/new-business/nbd-lead-lead-scoring-model.md`
 ##### Optimization Specialist, Inbound Funnel Design — New Business & Inbound Funnel
-`nbd-spc-optimization-inbound-funnel-design` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-inbound-funnel-design.md`
+`nbd-spc-optimization-inbound-funnel-design-0` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-inbound-funnel-design-0.md`
 ##### Optimization Specialist, Pitch Deck Assembly — New Business & Inbound Funnel
-`nbd-spc-optimization-pitch-deck-assembly` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-pitch-deck-assembly.md`
+`nbd-spc-optimization-pitch-deck-assembly-1` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-pitch-deck-assembly-1.md`
 ##### Optimization Specialist, Case Study Engine — New Business & Inbound Funnel
-`nbd-spc-optimization-case-study-engine` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-case-study-engine.md`
+`nbd-spc-optimization-case-study-engine-2` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-case-study-engine-2.md`
 ##### Optimization Specialist, Lead Scoring Model — New Business & Inbound Funnel
-`nbd-spc-optimization-lead-scoring-model` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-lead-scoring-model.md`
+`nbd-spc-optimization-lead-scoring-model-3` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-lead-scoring-model-3.md`
 ##### Optimization Specialist, Discovery Call Briefs — New Business & Inbound Funnel
-`nbd-spc-optimization-discovery-call-briefs` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-discovery-call-briefs.md`
+`nbd-spc-optimization-discovery-call-briefs-4` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-discovery-call-briefs-4.md`
 ##### Optimization Specialist, Proposal Templates — New Business & Inbound Funnel
-`nbd-spc-optimization-proposal-templates` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-proposal-templates.md`
+`nbd-spc-optimization-proposal-templates-5` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-proposal-templates-5.md`
 ##### Optimization Specialist, Win Loss Analysis — New Business & Inbound Funnel
-`nbd-spc-optimization-win-loss-analysis` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-win-loss-analysis.md`
+`nbd-spc-optimization-win-loss-analysis-6` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-optimization-win-loss-analysis-6.md`
 ##### Automation Specialist, Inbound Funnel Design — New Business & Inbound Funnel
-`nbd-spc-automation-inbound-funnel-design` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-spc-automation-inbound-funnel-design.md`
+`nbd-spc-automation-inbound-funnel-design-7` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-spc-automation-inbound-funnel-design-7.md`
 ##### Automation Specialist, Pitch Deck Assembly — New Business & Inbound Funnel
-`nbd-spc-automation-pitch-deck-assembly` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-automation-pitch-deck-assembly.md`
+`nbd-spc-automation-pitch-deck-assembly-8` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-spc-automation-pitch-deck-assembly-8.md`
 ##### Automation Specialist, Case Study Engine — New Business & Inbound Funnel
-`nbd-spc-automation-case-study-engine` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-automation-case-study-engine.md`
+`nbd-spc-automation-case-study-engine-9` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-spc-automation-case-study-engine-9.md`
 ##### Automation Specialist, Lead Scoring Model — New Business & Inbound Funnel
-`nbd-spc-automation-lead-scoring-model` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-automation-lead-scoring-model.md`
+`nbd-spc-automation-lead-scoring-model-10` · KADEME 5 — UZMAN · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-spc-automation-lead-scoring-model-10.md`
 ##### Performance Analyst, Inbound Funnel Design — New Business & Inbound Funnel
-`nbd-anl-performance-analyst-inbound-funnel-design` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-inbound-funnel-design.md`
+`nbd-anl-performance-analyst-inbound-funnel-design-0` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-inbound-funnel-design-0.md`
 ##### Data Analyst, Case Study Engine — New Business & Inbound Funnel
-`nbd-anl-data-analyst-case-study-engine` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-anl-data-analyst-case-study-engine.md`
+`nbd-anl-data-analyst-case-study-engine-1` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-anl-data-analyst-case-study-engine-1.md`
 ##### Reporting Analyst, Discovery Call Briefs — New Business & Inbound Funnel
-`nbd-anl-reporting-analyst-discovery-call-briefs` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-anl-reporting-analyst-discovery-call-briefs.md`
+`nbd-anl-reporting-analyst-discovery-call-briefs-2` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-anl-reporting-analyst-discovery-call-briefs-2.md`
 ##### Performance Analyst, Win Loss Analysis — New Business & Inbound Funnel
-`nbd-anl-performance-analyst-win-loss-analysis` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-win-loss-analysis.md`
+`nbd-anl-performance-analyst-win-loss-analysis-3` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-lead-scoring-model` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-win-loss-analysis-3.md`
 ##### Data Analyst, Pitch Deck Assembly — New Business & Inbound Funnel
-`nbd-anl-data-analyst-pitch-deck-assembly` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-anl-data-analyst-pitch-deck-assembly.md`
+`nbd-anl-data-analyst-pitch-deck-assembly-4` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-inbound-funnel-design` · Kart: `components/agents/agency/new-business/nbd-anl-data-analyst-pitch-deck-assembly-4.md`
 ##### Reporting Analyst, Lead Scoring Model — New Business & Inbound Funnel
-`nbd-anl-reporting-analyst-lead-scoring-model` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-anl-reporting-analyst-lead-scoring-model.md`
+`nbd-anl-reporting-analyst-lead-scoring-model-5` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-pitch-deck-assembly` · Kart: `components/agents/agency/new-business/nbd-anl-reporting-analyst-lead-scoring-model-5.md`
 ##### Performance Analyst, Proposal Templates — New Business & Inbound Funnel
-`nbd-anl-performance-analyst-proposal-templates` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-proposal-templates.md`
+`nbd-anl-performance-analyst-proposal-templates-6` · KADEME 6 — ANALİST · Raporlar: `nbd-lead-case-study-engine` · Kart: `components/agents/agency/new-business/nbd-anl-performance-analyst-proposal-templates-6.md`
 ### DEPARTMAN — Partnerships & Sponsorships (PRT) · Ortaklıklar & Sponsorluklar
 #### PRT · Künye
 Sponsor C-level: **cro-revenue** · Kadro: **20** · Birimler: Infra Sponsors, Referral Programs, Ecosystem Relations · Karışım: {'evp': 1, 'director': 2, 'lead': 3, 'specialist': 9, 'analyst': 5}
@@ -1227,29 +1227,29 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Referral Terms Tracking — Partnerships & Sponsorships
 `prt-lead-referral-terms-tracking` · KADEME 4 — LEAD · Raporlar: `prt-dir-infra-sponsors` · Kart: `components/agents/agency/partnerships-sponsorships/prt-lead-referral-terms-tracking.md`
 ##### Optimization Specialist, Sponsor Target List — Partnerships & Sponsorships
-`prt-spc-optimization-sponsor-target-list` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-sponsor-target-list.md`
+`prt-spc-optimization-sponsor-target-list-0` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-sponsor-target-list-0.md`
 ##### Optimization Specialist, Sponsorship Pitch Kit — Partnerships & Sponsorships
-`prt-spc-optimization-sponsorship-pitch-kit` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-sponsorship-pitch-kit.md`
+`prt-spc-optimization-sponsorship-pitch-kit-1` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-sponsorship-pitch-kit-1.md`
 ##### Optimization Specialist, Referral Terms Tracking — Partnerships & Sponsorships
-`prt-spc-optimization-referral-terms-tracking` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-referral-terms-tracking.md`
+`prt-spc-optimization-referral-terms-tracking-2` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-referral-terms-tracking-2.md`
 ##### Optimization Specialist, Ecosystem Directory Relations — Partnerships & Sponsorships
-`prt-spc-optimization-ecosystem-directory-relations` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-ecosystem-directory-relations.md`
+`prt-spc-optimization-ecosystem-directory-relations-3` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-ecosystem-directory-relations-3.md`
 ##### Optimization Specialist, Co Marketing Plays — Partnerships & Sponsorships
-`prt-spc-optimization-co-marketing-plays` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-co-marketing-plays.md`
+`prt-spc-optimization-co-marketing-plays-4` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-co-marketing-plays-4.md`
 ##### Optimization Specialist, Partner Health Review — Partnerships & Sponsorships
-`prt-spc-optimization-partner-health-review` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-partner-health-review.md`
+`prt-spc-optimization-partner-health-review-5` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-optimization-partner-health-review-5.md`
 ##### Automation Specialist, Sponsor Target List — Partnerships & Sponsorships
-`prt-spc-automation-sponsor-target-list` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-sponsor-target-list.md`
+`prt-spc-automation-sponsor-target-list-6` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-sponsor-target-list-6.md`
 ##### Automation Specialist, Sponsorship Pitch Kit — Partnerships & Sponsorships
-`prt-spc-automation-sponsorship-pitch-kit` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-sponsorship-pitch-kit.md`
+`prt-spc-automation-sponsorship-pitch-kit-7` · KADEME 5 — UZMAN · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-sponsorship-pitch-kit-7.md`
 ##### Automation Specialist, Referral Terms Tracking — Partnerships & Sponsorships
-`prt-spc-automation-referral-terms-tracking` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-referral-terms-tracking.md`
+`prt-spc-automation-referral-terms-tracking-8` · KADEME 5 — UZMAN · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-spc-automation-referral-terms-tracking-8.md`
 ##### Performance Analyst, Sponsor Target List — Partnerships & Sponsorships
-`prt-anl-performance-analyst-sponsor-target-list` · KADEME 6 — ANALİST · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-performance-analyst-sponsor-target-list.md`
+`prt-anl-performance-analyst-sponsor-target-list-0` · KADEME 6 — ANALİST · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-performance-analyst-sponsor-target-list-0.md`
 ##### Data Analyst, Referral Terms Tracking — Partnerships & Sponsorships
-`prt-anl-data-analyst-referral-terms-tracking` · KADEME 6 — ANALİST · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-data-analyst-referral-terms-tracking.md`
+`prt-anl-data-analyst-referral-terms-tracking-1` · KADEME 6 — ANALİST · Raporlar: `prt-lead-sponsorship-pitch-kit` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-data-analyst-referral-terms-tracking-1.md`
 ##### Reporting Analyst, Co Marketing Plays — Partnerships & Sponsorships
-`prt-anl-reporting-analyst-co-marketing-plays` · KADEME 6 — ANALİST · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-reporting-analyst-co-marketing-plays.md`
+`prt-anl-reporting-analyst-co-marketing-plays-2` · KADEME 6 — ANALİST · Raporlar: `prt-lead-referral-terms-tracking` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-reporting-analyst-co-marketing-plays-2.md`
 ##### Performance Analyst, Sponsor Target List — Partnerships & Sponsorships
 `prt-anl-performance-analyst-sponsor-target-list-3` · KADEME 6 — ANALİST · Raporlar: `prt-lead-sponsor-target-list` · Kart: `components/agents/agency/partnerships-sponsorships/prt-anl-performance-analyst-sponsor-target-list-3.md`
 ##### Data Analyst, Referral Terms Tracking — Partnerships & Sponsorships
@@ -1277,29 +1277,29 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Component Docs Standards — Product & Premium Pack
 `prd-lead-component-docs-standards` · KADEME 4 — LEAD · Raporlar: `prd-dir-premium-components` · Kart: `components/agents/agency/product-premium/prd-lead-component-docs-standards.md`
 ##### Optimization Specialist, Premium Component Specs — Product & Premium Pack
-`prd-spc-optimization-premium-component-specs` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-premium-component-specs.md`
+`prd-spc-optimization-premium-component-specs-0` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-premium-component-specs-0.md`
 ##### Optimization Specialist, Licensing Model — Product & Premium Pack
-`prd-spc-optimization-licensing-model` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-licensing-model.md`
+`prd-spc-optimization-licensing-model-1` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-licensing-model-1.md`
 ##### Optimization Specialist, Component Docs Standards — Product & Premium Pack
-`prd-spc-optimization-component-docs-standards` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-component-docs-standards.md`
+`prd-spc-optimization-component-docs-standards-2` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-component-docs-standards-2.md`
 ##### Optimization Specialist, Installer Experience — Product & Premium Pack
-`prd-spc-optimization-installer-experience` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-installer-experience.md`
+`prd-spc-optimization-installer-experience-3` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-installer-experience-3.md`
 ##### Optimization Specialist, Feedback Intake — Product & Premium Pack
-`prd-spc-optimization-feedback-intake` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-feedback-intake.md`
+`prd-spc-optimization-feedback-intake-4` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-feedback-intake-4.md`
 ##### Optimization Specialist, Release Notes — Product & Premium Pack
-`prd-spc-optimization-release-notes` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-release-notes.md`
+`prd-spc-optimization-release-notes-5` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-optimization-release-notes-5.md`
 ##### Automation Specialist, Premium Component Specs — Product & Premium Pack
-`prd-spc-automation-premium-component-specs` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-automation-premium-component-specs.md`
+`prd-spc-automation-premium-component-specs-6` · KADEME 5 — UZMAN · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-spc-automation-premium-component-specs-6.md`
 ##### Automation Specialist, Licensing Model — Product & Premium Pack
-`prd-spc-automation-licensing-model` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-automation-licensing-model.md`
+`prd-spc-automation-licensing-model-7` · KADEME 5 — UZMAN · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-spc-automation-licensing-model-7.md`
 ##### Automation Specialist, Component Docs Standards — Product & Premium Pack
-`prd-spc-automation-component-docs-standards` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-automation-component-docs-standards.md`
+`prd-spc-automation-component-docs-standards-8` · KADEME 5 — UZMAN · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-spc-automation-component-docs-standards-8.md`
 ##### Performance Analyst, Premium Component Specs — Product & Premium Pack
-`prd-anl-performance-analyst-premium-component-specs` · KADEME 6 — ANALİST · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-anl-performance-analyst-premium-component-specs.md`
+`prd-anl-performance-analyst-premium-component-specs-0` · KADEME 6 — ANALİST · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-anl-performance-analyst-premium-component-specs-0.md`
 ##### Data Analyst, Component Docs Standards — Product & Premium Pack
-`prd-anl-data-analyst-component-docs-standards` · KADEME 6 — ANALİST · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-anl-data-analyst-component-docs-standards.md`
+`prd-anl-data-analyst-component-docs-standards-1` · KADEME 6 — ANALİST · Raporlar: `prd-lead-licensing-model` · Kart: `components/agents/agency/product-premium/prd-anl-data-analyst-component-docs-standards-1.md`
 ##### Reporting Analyst, Feedback Intake — Product & Premium Pack
-`prd-anl-reporting-analyst-feedback-intake` · KADEME 6 — ANALİST · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-anl-reporting-analyst-feedback-intake.md`
+`prd-anl-reporting-analyst-feedback-intake-2` · KADEME 6 — ANALİST · Raporlar: `prd-lead-component-docs-standards` · Kart: `components/agents/agency/product-premium/prd-anl-reporting-analyst-feedback-intake-2.md`
 ##### Performance Analyst, Premium Component Specs — Product & Premium Pack
 `prd-anl-performance-analyst-premium-component-specs-3` · KADEME 6 — ANALİST · Raporlar: `prd-lead-premium-component-specs` · Kart: `components/agents/agency/product-premium/prd-anl-performance-analyst-premium-component-specs-3.md`
 ##### Data Analyst, Component Docs Standards — Product & Premium Pack
@@ -1323,27 +1323,27 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Sponsor Invoice Flows — Finance & Billing
 `fin-lead-sponsor-invoice-flows` · KADEME 4 — LEAD · Raporlar: `fin-dir-cost-control` · Kart: `components/agents/agency/finance-billing/fin-lead-sponsor-invoice-flows.md`
 ##### Optimization Specialist, Api Cost Tracking — Finance & Billing
-`fin-spc-optimization-api-cost-tracking` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-api-cost-tracking.md`
+`fin-spc-optimization-api-cost-tracking-0` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-api-cost-tracking-0.md`
 ##### Optimization Specialist, Sponsor Invoice Flows — Finance & Billing
-`fin-spc-optimization-sponsor-invoice-flows` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-sponsor-invoice-flows.md`
+`fin-spc-optimization-sponsor-invoice-flows-1` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-sponsor-invoice-flows-1.md`
 ##### Optimization Specialist, Margin Models — Finance & Billing
-`fin-spc-optimization-margin-models` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-margin-models.md`
+`fin-spc-optimization-margin-models-2` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-margin-models-2.md`
 ##### Optimization Specialist, Budget Variance Reports — Finance & Billing
-`fin-spc-optimization-budget-variance-reports` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-budget-variance-reports.md`
+`fin-spc-optimization-budget-variance-reports-3` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-optimization-budget-variance-reports-3.md`
 ##### Automation Specialist, Api Cost Tracking — Finance & Billing
-`fin-spc-automation-api-cost-tracking` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-api-cost-tracking.md`
+`fin-spc-automation-api-cost-tracking-4` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-api-cost-tracking-4.md`
 ##### Automation Specialist, Sponsor Invoice Flows — Finance & Billing
-`fin-spc-automation-sponsor-invoice-flows` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-sponsor-invoice-flows.md`
+`fin-spc-automation-sponsor-invoice-flows-5` · KADEME 5 — UZMAN · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-sponsor-invoice-flows-5.md`
 ##### Automation Specialist, Margin Models — Finance & Billing
-`fin-spc-automation-margin-models` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-margin-models.md`
+`fin-spc-automation-margin-models-6` · KADEME 5 — UZMAN · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-spc-automation-margin-models-6.md`
 ##### Performance Analyst, Api Cost Tracking — Finance & Billing
-`fin-anl-performance-analyst-api-cost-tracking` · KADEME 6 — ANALİST · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-anl-performance-analyst-api-cost-tracking.md`
+`fin-anl-performance-analyst-api-cost-tracking-0` · KADEME 6 — ANALİST · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-anl-performance-analyst-api-cost-tracking-0.md`
 ##### Data Analyst, Margin Models — Finance & Billing
-`fin-anl-data-analyst-margin-models` · KADEME 6 — ANALİST · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-anl-data-analyst-margin-models.md`
+`fin-anl-data-analyst-margin-models-1` · KADEME 6 — ANALİST · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-anl-data-analyst-margin-models-1.md`
 ##### Reporting Analyst, Api Cost Tracking — Finance & Billing
-`fin-anl-reporting-analyst-api-cost-tracking` · KADEME 6 — ANALİST · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-anl-reporting-analyst-api-cost-tracking.md`
+`fin-anl-reporting-analyst-api-cost-tracking-2` · KADEME 6 — ANALİST · Raporlar: `fin-lead-api-cost-tracking` · Kart: `components/agents/agency/finance-billing/fin-anl-reporting-analyst-api-cost-tracking-2.md`
 ##### Performance Analyst, Margin Models — Finance & Billing
-`fin-anl-performance-analyst-margin-models` · KADEME 6 — ANALİST · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-anl-performance-analyst-margin-models.md`
+`fin-anl-performance-analyst-margin-models-3` · KADEME 6 — ANALİST · Raporlar: `fin-lead-sponsor-invoice-flows` · Kart: `components/agents/agency/finance-billing/fin-anl-performance-analyst-margin-models-3.md`
 ### DEPARTMAN — Legal & Compliance (LEG) · Hukuk & Uyum
 #### LEG · Künye
 Sponsor C-level: **cco-compliance** · Kadro: **15** · Birimler: Licensing, Privacy (KVKK/GDPR), Ad Policy · Karışım: {'evp': 1, 'director': 1, 'lead': 2, 'specialist': 7, 'analyst': 4}
@@ -1363,27 +1363,27 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Kvkk Gdpr Checklists — Legal & Compliance
 `leg-lead-kvkk-gdpr-checklists` · KADEME 4 — LEAD · Raporlar: `leg-dir-licensing` · Kart: `components/agents/agency/legal-compliance/leg-lead-kvkk-gdpr-checklists.md`
 ##### Optimization Specialist, License Audit — Legal & Compliance
-`leg-spc-optimization-license-audit` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-license-audit.md`
+`leg-spc-optimization-license-audit-0` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-license-audit-0.md`
 ##### Optimization Specialist, Kvkk Gdpr Checklists — Legal & Compliance
-`leg-spc-optimization-kvkk-gdpr-checklists` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-kvkk-gdpr-checklists.md`
+`leg-spc-optimization-kvkk-gdpr-checklists-1` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-kvkk-gdpr-checklists-1.md`
 ##### Optimization Specialist, Ad Policy Screening — Legal & Compliance
-`leg-spc-optimization-ad-policy-screening` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-ad-policy-screening.md`
+`leg-spc-optimization-ad-policy-screening-2` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-ad-policy-screening-2.md`
 ##### Optimization Specialist, Tos Review — Legal & Compliance
-`leg-spc-optimization-tos-review` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-tos-review.md`
+`leg-spc-optimization-tos-review-3` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-tos-review-3.md`
 ##### Optimization Specialist, Security Rule Enforcement — Legal & Compliance
-`leg-spc-optimization-security-rule-enforcement` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-security-rule-enforcement.md`
+`leg-spc-optimization-security-rule-enforcement-4` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-optimization-security-rule-enforcement-4.md`
 ##### Automation Specialist, License Audit — Legal & Compliance
-`leg-spc-automation-license-audit` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-automation-license-audit.md`
+`leg-spc-automation-license-audit-5` · KADEME 5 — UZMAN · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-spc-automation-license-audit-5.md`
 ##### Automation Specialist, Kvkk Gdpr Checklists — Legal & Compliance
-`leg-spc-automation-kvkk-gdpr-checklists` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-automation-kvkk-gdpr-checklists.md`
+`leg-spc-automation-kvkk-gdpr-checklists-6` · KADEME 5 — UZMAN · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-spc-automation-kvkk-gdpr-checklists-6.md`
 ##### Performance Analyst, License Audit — Legal & Compliance
-`leg-anl-performance-analyst-license-audit` · KADEME 6 — ANALİST · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-anl-performance-analyst-license-audit.md`
+`leg-anl-performance-analyst-license-audit-0` · KADEME 6 — ANALİST · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-anl-performance-analyst-license-audit-0.md`
 ##### Data Analyst, Ad Policy Screening — Legal & Compliance
-`leg-anl-data-analyst-ad-policy-screening` · KADEME 6 — ANALİST · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-anl-data-analyst-ad-policy-screening.md`
+`leg-anl-data-analyst-ad-policy-screening-1` · KADEME 6 — ANALİST · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-anl-data-analyst-ad-policy-screening-1.md`
 ##### Reporting Analyst, Security Rule Enforcement — Legal & Compliance
-`leg-anl-reporting-analyst-security-rule-enforcement` · KADEME 6 — ANALİST · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-anl-reporting-analyst-security-rule-enforcement.md`
+`leg-anl-reporting-analyst-security-rule-enforcement-2` · KADEME 6 — ANALİST · Raporlar: `leg-lead-license-audit` · Kart: `components/agents/agency/legal-compliance/leg-anl-reporting-analyst-security-rule-enforcement-2.md`
 ##### Performance Analyst, Kvkk Gdpr Checklists — Legal & Compliance
-`leg-anl-performance-analyst-kvkk-gdpr-checklists` · KADEME 6 — ANALİST · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-anl-performance-analyst-kvkk-gdpr-checklists.md`
+`leg-anl-performance-analyst-kvkk-gdpr-checklists-3` · KADEME 6 — ANALİST · Raporlar: `leg-lead-kvkk-gdpr-checklists` · Kart: `components/agents/agency/legal-compliance/leg-anl-performance-analyst-kvkk-gdpr-checklists-3.md`
 ### DEPARTMAN — Talent & Agent Quality (TAL) · Yetenek & Ajan Kalitesi
 #### TAL · Künye
 Sponsor C-level: **cso-strategy** · Kadro: **15** · Birimler: Agent Lifecycle, Quality Bar, Training Loops · Karışım: {'evp': 1, 'director': 1, 'lead': 2, 'specialist': 7, 'analyst': 4}
@@ -1403,27 +1403,27 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Prompt Review Rubric — Talent & Agent Quality
 `tal-lead-prompt-review-rubric` · KADEME 4 — LEAD · Raporlar: `tal-dir-agent-lifecycle` · Kart: `components/agents/agency/talent-hr/tal-lead-prompt-review-rubric.md`
 ##### Optimization Specialist, Agent Onboarding Standards — Talent & Agent Quality
-`tal-spc-optimization-agent-onboarding-standards` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-agent-onboarding-standards.md`
+`tal-spc-optimization-agent-onboarding-standards-0` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-agent-onboarding-standards-0.md`
 ##### Optimization Specialist, Prompt Review Rubric — Talent & Agent Quality
-`tal-spc-optimization-prompt-review-rubric` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-prompt-review-rubric.md`
+`tal-spc-optimization-prompt-review-rubric-1` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-prompt-review-rubric-1.md`
 ##### Optimization Specialist, Underperformer Rehab — Talent & Agent Quality
-`tal-spc-optimization-underperformer-rehab` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-underperformer-rehab.md`
+`tal-spc-optimization-underperformer-rehab-2` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-underperformer-rehab-2.md`
 ##### Optimization Specialist, Role Gap Analysis — Talent & Agent Quality
-`tal-spc-optimization-role-gap-analysis` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-role-gap-analysis.md`
+`tal-spc-optimization-role-gap-analysis-3` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-role-gap-analysis-3.md`
 ##### Optimization Specialist, Shift Roster Management — Talent & Agent Quality
-`tal-spc-optimization-shift-roster-management` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-shift-roster-management.md`
+`tal-spc-optimization-shift-roster-management-4` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-optimization-shift-roster-management-4.md`
 ##### Automation Specialist, Agent Onboarding Standards — Talent & Agent Quality
-`tal-spc-automation-agent-onboarding-standards` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-automation-agent-onboarding-standards.md`
+`tal-spc-automation-agent-onboarding-standards-5` · KADEME 5 — UZMAN · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-spc-automation-agent-onboarding-standards-5.md`
 ##### Automation Specialist, Prompt Review Rubric — Talent & Agent Quality
-`tal-spc-automation-prompt-review-rubric` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-automation-prompt-review-rubric.md`
+`tal-spc-automation-prompt-review-rubric-6` · KADEME 5 — UZMAN · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-spc-automation-prompt-review-rubric-6.md`
 ##### Performance Analyst, Agent Onboarding Standards — Talent & Agent Quality
-`tal-anl-performance-analyst-agent-onboarding-standards` · KADEME 6 — ANALİST · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-anl-performance-analyst-agent-onboarding-standards.md`
+`tal-anl-performance-analyst-agent-onboarding-standards-0` · KADEME 6 — ANALİST · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-anl-performance-analyst-agent-onboarding-standards-0.md`
 ##### Data Analyst, Underperformer Rehab — Talent & Agent Quality
-`tal-anl-data-analyst-underperformer-rehab` · KADEME 6 — ANALİST · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-anl-data-analyst-underperformer-rehab.md`
+`tal-anl-data-analyst-underperformer-rehab-1` · KADEME 6 — ANALİST · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-anl-data-analyst-underperformer-rehab-1.md`
 ##### Reporting Analyst, Shift Roster Management — Talent & Agent Quality
-`tal-anl-reporting-analyst-shift-roster-management` · KADEME 6 — ANALİST · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-anl-reporting-analyst-shift-roster-management.md`
+`tal-anl-reporting-analyst-shift-roster-management-2` · KADEME 6 — ANALİST · Raporlar: `tal-lead-agent-onboarding-standards` · Kart: `components/agents/agency/talent-hr/tal-anl-reporting-analyst-shift-roster-management-2.md`
 ##### Performance Analyst, Prompt Review Rubric — Talent & Agent Quality
-`tal-anl-performance-analyst-prompt-review-rubric` · KADEME 6 — ANALİST · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-anl-performance-analyst-prompt-review-rubric.md`
+`tal-anl-performance-analyst-prompt-review-rubric-3` · KADEME 6 — ANALİST · Raporlar: `tal-lead-prompt-review-rubric` · Kart: `components/agents/agency/talent-hr/tal-anl-performance-analyst-prompt-review-rubric-3.md`
 ### DEPARTMAN — Tech & Infrastructure (INF) · Teknoloji & Altyapı
 #### INF · Künye
 Sponsor C-level: **cto-platform** · Kadro: **30** · Birimler: CI/CD & Actions, Validation & Security, MCP & Integrations, Repo Hygiene · Karışım: {'evp': 1, 'director': 3, 'lead': 5, 'specialist': 13, 'analyst': 8}
@@ -1454,47 +1454,47 @@ Günlük async standup (07:30 TRT) · Haftalık departman sync (EVP başkanlık)
 ##### Lead, Secrets Hygiene — Tech & Infrastructure
 `inf-lead-secrets-hygiene` · KADEME 4 — LEAD · Raporlar: `inf-dir-validation-and-security` · Kart: `components/agents/agency/tech-infra/inf-lead-secrets-hygiene.md`
 ##### Optimization Specialist, Actions Reliability — Tech & Infrastructure
-`inf-spc-optimization-actions-reliability` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-actions-reliability.md`
+`inf-spc-optimization-actions-reliability-0` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-actions-reliability-0.md`
 ##### Optimization Specialist, Validator Evolution — Tech & Infrastructure
-`inf-spc-optimization-validator-evolution` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-validator-evolution.md`
+`inf-spc-optimization-validator-evolution-1` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-validator-evolution-1.md`
 ##### Optimization Specialist, Sha256 Integrity — Tech & Infrastructure
-`inf-spc-optimization-sha256-integrity` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-sha256-integrity.md`
+`inf-spc-optimization-sha256-integrity-2` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-sha256-integrity-2.md`
 ##### Optimization Specialist, Mcp Config Standards — Tech & Infrastructure
-`inf-spc-optimization-mcp-config-standards` · KADEME 5 — UZMAN · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-mcp-config-standards.md`
+`inf-spc-optimization-mcp-config-standards-3` · KADEME 5 — UZMAN · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-mcp-config-standards-3.md`
 ##### Optimization Specialist, Secrets Hygiene — Tech & Infrastructure
-`inf-spc-optimization-secrets-hygiene` · KADEME 5 — UZMAN · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-secrets-hygiene.md`
+`inf-spc-optimization-secrets-hygiene-4` · KADEME 5 — UZMAN · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-secrets-hygiene-4.md`
 ##### Optimization Specialist, Org Json Schema — Tech & Infrastructure
-`inf-spc-optimization-org-json-schema` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-org-json-schema.md`
+`inf-spc-optimization-org-json-schema-5` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-org-json-schema-5.md`
 ##### Optimization Specialist, Backup Recovery — Tech & Infrastructure
-`inf-spc-optimization-backup-recovery` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-backup-recovery.md`
+`inf-spc-optimization-backup-recovery-6` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-backup-recovery-6.md`
 ##### Optimization Specialist, Issue Triage Automation — Tech & Infrastructure
-`inf-spc-optimization-issue-triage-automation` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-issue-triage-automation.md`
+`inf-spc-optimization-issue-triage-automation-7` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-optimization-issue-triage-automation-7.md`
 ##### Automation Specialist, Actions Reliability — Tech & Infrastructure
-`inf-spc-automation-actions-reliability` · KADEME 5 — UZMAN · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-actions-reliability.md`
+`inf-spc-automation-actions-reliability-8` · KADEME 5 — UZMAN · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-actions-reliability-8.md`
 ##### Automation Specialist, Validator Evolution — Tech & Infrastructure
-`inf-spc-automation-validator-evolution` · KADEME 5 — UZMAN · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-validator-evolution.md`
+`inf-spc-automation-validator-evolution-9` · KADEME 5 — UZMAN · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-validator-evolution-9.md`
 ##### Automation Specialist, Sha256 Integrity — Tech & Infrastructure
-`inf-spc-automation-sha256-integrity` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-sha256-integrity.md`
+`inf-spc-automation-sha256-integrity-10` · KADEME 5 — UZMAN · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-sha256-integrity-10.md`
 ##### Automation Specialist, Mcp Config Standards — Tech & Infrastructure
-`inf-spc-automation-mcp-config-standards` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-mcp-config-standards.md`
+`inf-spc-automation-mcp-config-standards-11` · KADEME 5 — UZMAN · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-mcp-config-standards-11.md`
 ##### Automation Specialist, Secrets Hygiene — Tech & Infrastructure
-`inf-spc-automation-secrets-hygiene` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-secrets-hygiene.md`
+`inf-spc-automation-secrets-hygiene-12` · KADEME 5 — UZMAN · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-spc-automation-secrets-hygiene-12.md`
 ##### Performance Analyst, Actions Reliability — Tech & Infrastructure
-`inf-anl-performance-analyst-actions-reliability` · KADEME 6 — ANALİST · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-actions-reliability.md`
+`inf-anl-performance-analyst-actions-reliability-0` · KADEME 6 — ANALİST · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-actions-reliability-0.md`
 ##### Data Analyst, Sha256 Integrity — Tech & Infrastructure
-`inf-anl-data-analyst-sha256-integrity` · KADEME 6 — ANALİST · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-sha256-integrity.md`
+`inf-anl-data-analyst-sha256-integrity-1` · KADEME 6 — ANALİST · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-sha256-integrity-1.md`
 ##### Reporting Analyst, Secrets Hygiene — Tech & Infrastructure
-`inf-anl-reporting-analyst-secrets-hygiene` · KADEME 6 — ANALİST · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-anl-reporting-analyst-secrets-hygiene.md`
+`inf-anl-reporting-analyst-secrets-hygiene-2` · KADEME 6 — ANALİST · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-anl-reporting-analyst-secrets-hygiene-2.md`
 ##### Performance Analyst, Backup Recovery — Tech & Infrastructure
-`inf-anl-performance-analyst-backup-recovery` · KADEME 6 — ANALİST · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-backup-recovery.md`
+`inf-anl-performance-analyst-backup-recovery-3` · KADEME 6 — ANALİST · Raporlar: `inf-lead-mcp-config-standards` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-backup-recovery-3.md`
 ##### Data Analyst, Actions Reliability — Tech & Infrastructure
-`inf-anl-data-analyst-actions-reliability` · KADEME 6 — ANALİST · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-actions-reliability.md`
+`inf-anl-data-analyst-actions-reliability-4` · KADEME 6 — ANALİST · Raporlar: `inf-lead-secrets-hygiene` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-actions-reliability-4.md`
 ##### Reporting Analyst, Sha256 Integrity — Tech & Infrastructure
-`inf-anl-reporting-analyst-sha256-integrity` · KADEME 6 — ANALİST · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-anl-reporting-analyst-sha256-integrity.md`
+`inf-anl-reporting-analyst-sha256-integrity-5` · KADEME 6 — ANALİST · Raporlar: `inf-lead-actions-reliability` · Kart: `components/agents/agency/tech-infra/inf-anl-reporting-analyst-sha256-integrity-5.md`
 ##### Performance Analyst, Secrets Hygiene — Tech & Infrastructure
-`inf-anl-performance-analyst-secrets-hygiene` · KADEME 6 — ANALİST · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-secrets-hygiene.md`
+`inf-anl-performance-analyst-secrets-hygiene-6` · KADEME 6 — ANALİST · Raporlar: `inf-lead-validator-evolution` · Kart: `components/agents/agency/tech-infra/inf-anl-performance-analyst-secrets-hygiene-6.md`
 ##### Data Analyst, Backup Recovery — Tech & Infrastructure
-`inf-anl-data-analyst-backup-recovery` · KADEME 6 — ANALİST · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-backup-recovery.md`
+`inf-anl-data-analyst-backup-recovery-7` · KADEME 6 — ANALİST · Raporlar: `inf-lead-sha256-integrity` · Kart: `components/agents/agency/tech-infra/inf-anl-data-analyst-backup-recovery-7.md`
 
 ## BÖLÜM IV — 7/24 OPERASYON RİTMİ
 ### Günlük Ritim (her gün, minimum 1 tam döngü)

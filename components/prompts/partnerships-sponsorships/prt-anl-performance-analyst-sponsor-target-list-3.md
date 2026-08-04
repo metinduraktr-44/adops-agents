@@ -3,10 +3,10 @@ name: prompt-prt-anl-performance-analyst-sponsor-target-list-3
 description: "Performance Analyst, Sponsor Target List — Partnerships & Sponsorships — title/ekip/uygulama prompt ailesi (Ortaklıklar & Sponsorluklar)."
 tier: ANALYST
 department: "Partnerships & Sponsorships"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Performance Analyst, Sponsor Target List — Partnerships & Sponsorships
-> Departman: **Ortaklıklar & Sponsorluklar** (prt) · Kademe: **ANALYST** · Rapor: `prt-lead-sponsor-target-list` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ortaklıklar & Sponsorluklar** (prt) · Kademe: **ANALYST** · Rapor: `prt-lead-sponsor-target-list` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Infra Sponsors, Referral Programs, Ecosystem Relations · KPI: 10 sponsor conversations by F3, 2 referral agreements by F4, 3 directory listings by F2
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

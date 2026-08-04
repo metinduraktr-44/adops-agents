@@ -3,10 +3,10 @@ name: holding-perf-spec-campaign
 description: "Specialist — Campaign — PermerGrowth Performance kişisel workflow paketi (holding)."
 tier: SPECIALIST
 subsidiary: "PermerGrowth Performance"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Specialist — Campaign — PermerGrowth Performance
-> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-lead-activation` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Performance** · Alan: Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json) · Rapor: `perf-lead-activation` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Specialist — Campaign

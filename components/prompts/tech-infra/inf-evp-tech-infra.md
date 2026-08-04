@@ -3,10 +3,10 @@ name: prompt-inf-evp-tech-infra
 description: "EVP, Tech & Infrastructure — title/ekip/uygulama prompt ailesi (Teknoloji & Altyapı)."
 tier: EVP
 department: "Tech & Infrastructure"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Tech & Infrastructure
-> Departman: **Teknoloji & Altyapı** (inf) · Kademe: **EVP** · Rapor: `cto-platform` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Teknoloji & Altyapı** (inf) · Kademe: **EVP** · Rapor: `cto-platform` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: CI/CD & Actions, Validation & Security, MCP & Integrations, Repo Hygiene · KPI: CI green ≥ 99%, Integrity file current, 0 secret leaks, Issue triage ≤ 24h
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-programmatic
 description: "Programatik Satın Alma departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Programatik Satın Alma (prg)
 > Headcount: 45 · Birimler: Open Auction & Curation, PMP & Deals, CTV / OTT, DOOH & Audio, Bid Algorithms
-> KPI: Viewability ≥ 70%, Supply-path cost ≤ 15%, PMP share of spend on target, eCPM/CPA vs plan · Üretim: 2026-08-03T15:56:20Z
+> KPI: Viewability ≥ 70%, Supply-path cost ≤ 15%, PMP share of spend on target, eCPM/CPA vs plan · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Programatik Satın Alma departman lideri (EVP hattı)

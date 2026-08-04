@@ -3,10 +3,10 @@ name: holding-vt-anl-data
 description: "Analyst — Appointment Data — VizaTrack kişisel workflow paketi (holding)."
 tier: ANALYST
 subsidiary: "VizaTrack"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Analyst — Appointment Data — VizaTrack
-> İştirak: **VizaTrack** · Alan: Vize/seyahat takibi ürünü — başvuru izleme, randevu, uyum · Rapor: `vt-lead-integrations` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **VizaTrack** · Alan: Vize/seyahat takibi ürünü — başvuru izleme, randevu, uyum · Rapor: `vt-lead-integrations` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Analyst — Appointment Data

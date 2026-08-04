@@ -3,10 +3,10 @@ name: prompt-prd-lead-component-docs-standards
 description: "Lead, Component Docs Standards — Product & Premium Pack — title/ekip/uygulama prompt ailesi (Ürün & Premium Paket)."
 tier: LEAD
 department: "Product & Premium Pack"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Component Docs Standards — Product & Premium Pack
-> Departman: **Ürün & Premium Paket** (prd) · Kademe: **LEAD** · Rapor: `prd-dir-premium-components` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ürün & Premium Paket** (prd) · Kademe: **LEAD** · Rapor: `prd-dir-premium-components` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Premium Components, Packaging & Licensing, Docs & DX · KPI: Premium pack v1 by F4, Docs coverage 100%, Install friction ≤ 2 steps
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

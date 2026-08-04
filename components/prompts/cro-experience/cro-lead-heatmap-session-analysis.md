@@ -3,10 +3,10 @@ name: prompt-cro-lead-heatmap-session-analysis
 description: "Lead, Heatmap Session Analysis — CRO & Experience — title/ekip/uygulama prompt ailesi (CRO & Deneyim)."
 tier: LEAD
 department: "CRO & Experience"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Lead, Heatmap Session Analysis — CRO & Experience
-> Departman: **CRO & Deneyim** (cro) · Kademe: **LEAD** · Rapor: `cro-dir-landing-systems` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **CRO & Deneyim** (cro) · Kademe: **LEAD** · Rapor: `cro-dir-landing-systems` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Experimentation, Landing Systems, UX Research · KPI: Test velocity ≥ 4/month, Win rate documented, LP conversion uplift, Sample-size discipline 100%
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

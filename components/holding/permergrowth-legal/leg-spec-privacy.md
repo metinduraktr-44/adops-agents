@@ -3,10 +3,10 @@ name: holding-leg-spec-privacy
 description: "Specialist — Privacy (KVKK/GDPR) — PermerGrowth Hukuk kişisel workflow paketi (holding)."
 tier: SPECIALIST
 subsidiary: "PermerGrowth Hukuk"
-generated_utc: 2026-08-04T08:35:51Z
+generated_utc: 2026-08-04T08:44:04Z
 ---
 # Specialist — Privacy (KVKK/GDPR) — PermerGrowth Hukuk
-> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-lead-contracts` · Üretim: 2026-08-04T08:35:51Z
+> İştirak: **PermerGrowth Hukuk** · Alan: Hukuk, Uyum, Sözleşme, KVKK/GDPR · Rapor: `leg-lead-contracts` · Üretim: 2026-08-04T08:44:04Z
 
 7/24 LLM ajans olarak çalışır: incele → araştır (top-5 rol-model) → uygula → zaman damgalı arşivle → geri oku → tekrarla.
 ## Kişisel Workflow'lar — Specialist — Privacy (KVKK/GDPR)

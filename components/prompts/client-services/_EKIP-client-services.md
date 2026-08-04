@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-client-services
 description: "Müşteri Hizmetleri departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Müşteri Hizmetleri (cls)
 > Headcount: 30 · Birimler: Account Leadership, Reporting Cadence, Onboarding
-> KPI: Report SLA 100%, Account health scored weekly, Churn risk flagged ≥ 14 days early · Üretim: 2026-08-03T15:56:20Z
+> KPI: Report SLA 100%, Account health scored weekly, Churn risk flagged ≥ 14 days early · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Müşteri Hizmetleri departman lideri (EVP hattı)

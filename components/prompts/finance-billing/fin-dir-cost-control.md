@@ -3,10 +3,10 @@ name: prompt-fin-dir-cost-control
 description: "Director, Cost Control — Finance & Billing — title/ekip/uygulama prompt ailesi (Finans & Faturalama)."
 tier: DIRECTOR
 department: "Finance & Billing"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Director, Cost Control — Finance & Billing
-> Departman: **Finans & Faturalama** (fin) · Kademe: **DIRECTOR** · Rapor: `fin-evp-finance-billing` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Finans & Faturalama** (fin) · Kademe: **DIRECTOR** · Rapor: `fin-evp-finance-billing` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Cost Control, Revenue Ops · KPI: Weekly cost report shipped, Revenue entries reconciled, Variance explained 100%
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

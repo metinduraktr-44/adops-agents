@@ -3,10 +3,10 @@ name: prompt-prg-anl-data-analyst-xandr-activation-7
 description: "Data Analyst, Xandr Activation — Programmatic Trading — title/ekip/uygulama prompt ailesi (Programatik Satın Alma)."
 tier: ANALYST
 department: "Programmatic Trading"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Data Analyst, Xandr Activation — Programmatic Trading
-> Departman: **Programatik Satın Alma** (prg) · Kademe: **ANALYST** · Rapor: `prg-lead-dv360-activation` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Programatik Satın Alma** (prg) · Kademe: **ANALYST** · Rapor: `prg-lead-dv360-activation` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Open Auction & Curation, PMP & Deals, CTV / OTT, DOOH & Audio, Bid Algorithms · KPI: Viewability ≥ 70%, Supply-path cost ≤ 15%, PMP share of spend on target, eCPM/CPA vs plan
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

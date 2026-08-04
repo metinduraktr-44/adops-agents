@@ -3,10 +3,10 @@ name: prompt-soc-evp-paid-social
 description: "EVP, Paid Social — title/ekip/uygulama prompt ailesi (Ücretli Sosyal)."
 tier: EVP
 department: "Paid Social"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — EVP, Paid Social
-> Departman: **Ücretli Sosyal** (soc) · Kademe: **EVP** · Rapor: `coo-delivery` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ücretli Sosyal** (soc) · Kademe: **EVP** · Rapor: `coo-delivery` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Meta, TikTok, LinkedIn & X, Snap & Pinterest, Creative Testing · KPI: Thumbstop/hook rate on target, CAPI EMQ ≥ 8, Creative refresh cadence met, Blended CPA vs plan
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

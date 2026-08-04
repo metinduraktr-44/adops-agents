@@ -1,5 +1,5 @@
 # HOLDING ŞEMASI
-> Üretim: 2026-08-04T08:35:51Z · Kaynak: data/holding.json
+> Üretim: 2026-08-04T08:44:04Z · Kaynak: data/holding.json
 
 ```mermaid
 flowchart TD

@@ -3,10 +3,10 @@ name: prompt-soc-anl-data-analyst-ugc-pipeline-10
 description: "Data Analyst, Ugc Pipeline — Paid Social — title/ekip/uygulama prompt ailesi (Ücretli Sosyal)."
 tier: ANALYST
 department: "Paid Social"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Data Analyst, Ugc Pipeline — Paid Social
-> Departman: **Ücretli Sosyal** (soc) · Kademe: **ANALYST** · Rapor: `soc-lead-linkedin-abm` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ücretli Sosyal** (soc) · Kademe: **ANALYST** · Rapor: `soc-lead-linkedin-abm` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Meta, TikTok, LinkedIn & X, Snap & Pinterest, Creative Testing · KPI: Thumbstop/hook rate on target, CAPI EMQ ≥ 8, Creative refresh cadence met, Blended CPA vs plan
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

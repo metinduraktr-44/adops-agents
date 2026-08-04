@@ -3,10 +3,10 @@ name: prompt-sea-dir-microsoft-ads
 description: "Director, Microsoft Ads — Paid Search — title/ekip/uygulama prompt ailesi (Ücretli Arama)."
 tier: DIRECTOR
 department: "Paid Search"
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # PROMPT — Director, Microsoft Ads — Paid Search
-> Departman: **Ücretli Arama** (sea) · Kademe: **DIRECTOR** · Rapor: `sea-evp-paid-search` · Üretim: 2026-08-03T15:56:20Z
+> Departman: **Ücretli Arama** (sea) · Kademe: **DIRECTOR** · Rapor: `sea-evp-paid-search` · Üretim: 2026-08-04T08:44:03Z
 > Birimler: Google Ads Core, SA360 & Automation, PMax & Shopping, Microsoft Ads · KPI: Impression share on brand ≥ 90%, Wasted spend < 5%, tCPA/tROAS attainment, QS trend up
 
 Bu dosya 3 kopyala-yapıştır-hazır prompt ailesi içerir. LLM ajans (Claude Code / Cursor / Lovable / GitHub Actions) her aileyi ilgili tetikleyicide çağırır.

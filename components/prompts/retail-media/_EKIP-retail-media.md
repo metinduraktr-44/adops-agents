@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-retail-media
 description: "Perakende Medyası departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Perakende Medyası (ret)
 > Headcount: 30 · Birimler: Amazon Ads, TR Marketplaces (Trendyol/Hepsiburada), Criteo & Onsite, Offsite & DSP
-> KPI: ACOS/TACOS on target, Share of voice on hero SKUs, PDP conversion uplift, Incremental ROAS · Üretim: 2026-08-03T15:56:20Z
+> KPI: ACOS/TACOS on target, Share of voice on hero SKUs, PDP conversion uplift, Incremental ROAS · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Perakende Medyası departman lideri (EVP hattı)

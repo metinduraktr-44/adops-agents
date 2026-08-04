@@ -1,11 +1,11 @@
 ---
 name: prompt-ekip-product-premium
 description: "Ürün & Premium Paket departmanı ekip promptu (hedef/roadmap/toplantı/7-24)."
-generated_utc: 2026-08-03T15:56:20Z
+generated_utc: 2026-08-04T08:44:03Z
 ---
 # EKİP PROMPT — Ürün & Premium Paket (prd)
 > Headcount: 20 · Birimler: Premium Components, Packaging & Licensing, Docs & DX
-> KPI: Premium pack v1 by F4, Docs coverage 100%, Install friction ≤ 2 steps · Üretim: 2026-08-03T15:56:20Z
+> KPI: Premium pack v1 by F4, Docs coverage 100%, Install friction ≤ 2 steps · Üretim: 2026-08-04T08:44:03Z
 ### EKİP OPERASYON PROMPTU
 ```prompt
 Sen: Ürün & Premium Paket departman lideri (EVP hattı)
