@@ -1,0 +1,241 @@
+{
+ "schema": "1",
+ "guncelleme_utc": "2026-08-04T08:35:51Z",
+ "hedef_per_title": 5,
+ "ulkeler": [
+  "TR",
+  "DE",
+  "NL",
+  "AE",
+  "SA",
+  "UK",
+  "US"
+ ],
+ "not": "Her iştirak+ülke için title başına dünya top-5. Gece worklow ile büyür. Uydurma yok; URL'li.",
+ "titles": {
+  "grp-ceo": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group CEO",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "grp-coo": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group COO",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "grp-cfo": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group CFO",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "grp-cto": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group CTO",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "grp-clo": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group Chief Legal Officer",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "grp-cpo": {
+   "istirak": "PermerGrowth Holding",
+   "title": "Group Chief People Officer",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-ceo": {
+   "istirak": "PermerGrowth Performance",
+   "title": "CEO — Performance",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-coo-delivery": {
+   "istirak": "PermerGrowth Performance",
+   "title": "COO — Delivery",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-evp-programmatic": {
+   "istirak": "PermerGrowth Performance",
+   "title": "EVP — Programmatic",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-evp-paid-social": {
+   "istirak": "PermerGrowth Performance",
+   "title": "EVP — Paid Social",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-dir-analytics": {
+   "istirak": "PermerGrowth Performance",
+   "title": "Director — Analytics",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-lead-activation": {
+   "istirak": "PermerGrowth Performance",
+   "title": "Lead — Activation",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-spec-campaign": {
+   "istirak": "PermerGrowth Performance",
+   "title": "Specialist — Campaign",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "perf-anl-data": {
+   "istirak": "PermerGrowth Performance",
+   "title": "Analyst — Data",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "leg-ceo": {
+   "istirak": "PermerGrowth Hukuk",
+   "title": "Managing Partner — Legal",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "leg-dir-compliance": {
+   "istirak": "PermerGrowth Hukuk",
+   "title": "Director — Compliance",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "leg-lead-contracts": {
+   "istirak": "PermerGrowth Hukuk",
+   "title": "Lead — Contracts",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "leg-spec-privacy": {
+   "istirak": "PermerGrowth Hukuk",
+   "title": "Specialist — Privacy (KVKK/GDPR)",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "leg-anl-research": {
+   "istirak": "PermerGrowth Hukuk",
+   "title": "Analyst — Legal Research",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-ceo": {
+   "istirak": "VizaTrack",
+   "title": "CEO — VizaTrack",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-cpo-product": {
+   "istirak": "VizaTrack",
+   "title": "CPO — Product",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-dir-ops": {
+   "istirak": "VizaTrack",
+   "title": "Director — Operations",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-lead-integrations": {
+   "istirak": "VizaTrack",
+   "title": "Lead — Consulate Integrations",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-spec-support": {
+   "istirak": "VizaTrack",
+   "title": "Specialist — Customer Success",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "vt-anl-data": {
+   "istirak": "VizaTrack",
+   "title": "Analyst — Appointment Data",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-cto": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "CTO — Platform",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-dir-mobile": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Director — Mobile (iOS/Android)",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-dir-backend": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Director — Backend/API",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-lead-ios": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Lead — iOS",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-lead-android": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Lead — Android",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-spec-devops": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Specialist — DevOps/SRE",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  },
+  "tech-anl-qa": {
+   "istirak": "PermerGrowth Tech (App iOS/Android)",
+   "title": "Analyst — QA",
+   "hedef": 5,
+   "kisiler": [],
+   "durum": "arastirilacak(0/5)"
+  }
+ }
+}

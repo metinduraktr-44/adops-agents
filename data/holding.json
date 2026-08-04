@@ -1,0 +1,82 @@
+{
+ "schema": "1",
+ "not": "Holding + iştirak (subsidiary) modeli. Tek doğruluk kaynağı. generate_holding.py bunu tüketip her rol için kişisel+grup workflow üretir; holding_research.py ülke+title başına top-5 araştırır. İhtiyaç oldukça iştirak/rol eklenebilir.",
+ "holding": {
+  "slug": "permergrowth-holding",
+  "name": "PermerGrowth Holding",
+  "reports_to": "Metin Durak (Owner)",
+  "c_level": [
+   {"slug": "grp-ceo", "title": "Group CEO", "tier": "C", "reports_to": "owner"},
+   {"slug": "grp-coo", "title": "Group COO", "tier": "C", "reports_to": "grp-ceo"},
+   {"slug": "grp-cfo", "title": "Group CFO", "tier": "C", "reports_to": "grp-ceo"},
+   {"slug": "grp-cto", "title": "Group CTO", "tier": "C", "reports_to": "grp-ceo"},
+   {"slug": "grp-clo", "title": "Group Chief Legal Officer", "tier": "C", "reports_to": "grp-ceo"},
+   {"slug": "grp-cpo", "title": "Group Chief People Officer", "tier": "C", "reports_to": "grp-ceo"}
+  ]
+ },
+ "countries": {
+  "hedef": ["TR", "DE", "NL", "AE", "SA", "UK", "US"],
+  "pazar": ["TR", "DE", "NL", "AE", "SA", "UK", "US", "FR", "ES", "PL"]
+ },
+ "workflow_types": {
+  "kisisel": ["egitim", "todo", "roadmap", "toplanti", "iletisim-ust", "iletisim-alt", "iletisim-yan", "oz-denetim"],
+  "grup": ["ekip-egitim", "ekip-todo", "ekip-roadmap", "ekip-toplanti", "ekip-iletisim", "ekip-raporlama", "7-24-nobet"]
+ },
+ "subsidiaries": [
+  {
+   "slug": "permergrowth-performance",
+   "name": "PermerGrowth Performance",
+   "alan": "Performans Pazarlama & Programatik (600-ajanlık ajans buraya bağlanır: data/org.json)",
+   "baglar": "data/org.json",
+   "roles": [
+    {"slug": "perf-ceo", "title": "CEO — Performance", "tier": "C", "reports_to": "grp-ceo"},
+    {"slug": "perf-coo-delivery", "title": "COO — Delivery", "tier": "C", "reports_to": "perf-ceo"},
+    {"slug": "perf-evp-programmatic", "title": "EVP — Programmatic", "tier": "EVP", "reports_to": "perf-coo-delivery"},
+    {"slug": "perf-evp-paid-social", "title": "EVP — Paid Social", "tier": "EVP", "reports_to": "perf-coo-delivery"},
+    {"slug": "perf-dir-analytics", "title": "Director — Analytics", "tier": "DIRECTOR", "reports_to": "perf-coo-delivery"},
+    {"slug": "perf-lead-activation", "title": "Lead — Activation", "tier": "LEAD", "reports_to": "perf-evp-programmatic"},
+    {"slug": "perf-spec-campaign", "title": "Specialist — Campaign", "tier": "SPECIALIST", "reports_to": "perf-lead-activation"},
+    {"slug": "perf-anl-data", "title": "Analyst — Data", "tier": "ANALYST", "reports_to": "perf-dir-analytics"}
+   ]
+  },
+  {
+   "slug": "permergrowth-legal",
+   "name": "PermerGrowth Hukuk",
+   "alan": "Hukuk, Uyum, Sözleşme, KVKK/GDPR",
+   "roles": [
+    {"slug": "leg-ceo", "title": "Managing Partner — Legal", "tier": "C", "reports_to": "grp-clo"},
+    {"slug": "leg-dir-compliance", "title": "Director — Compliance", "tier": "DIRECTOR", "reports_to": "leg-ceo"},
+    {"slug": "leg-lead-contracts", "title": "Lead — Contracts", "tier": "LEAD", "reports_to": "leg-dir-compliance"},
+    {"slug": "leg-spec-privacy", "title": "Specialist — Privacy (KVKK/GDPR)", "tier": "SPECIALIST", "reports_to": "leg-lead-contracts"},
+    {"slug": "leg-anl-research", "title": "Analyst — Legal Research", "tier": "ANALYST", "reports_to": "leg-dir-compliance"}
+   ]
+  },
+  {
+   "slug": "vizatrack",
+   "name": "VizaTrack",
+   "alan": "Vize/seyahat takibi ürünü — başvuru izleme, randevu, uyum",
+   "roles": [
+    {"slug": "vt-ceo", "title": "CEO — VizaTrack", "tier": "C", "reports_to": "grp-ceo"},
+    {"slug": "vt-cpo-product", "title": "CPO — Product", "tier": "C", "reports_to": "vt-ceo"},
+    {"slug": "vt-dir-ops", "title": "Director — Operations", "tier": "DIRECTOR", "reports_to": "vt-ceo"},
+    {"slug": "vt-lead-integrations", "title": "Lead — Consulate Integrations", "tier": "LEAD", "reports_to": "vt-dir-ops"},
+    {"slug": "vt-spec-support", "title": "Specialist — Customer Success", "tier": "SPECIALIST", "reports_to": "vt-dir-ops"},
+    {"slug": "vt-anl-data", "title": "Analyst — Appointment Data", "tier": "ANALYST", "reports_to": "vt-lead-integrations"}
+   ]
+  },
+  {
+   "slug": "permergrowth-tech",
+   "name": "PermerGrowth Tech (App iOS/Android)",
+   "alan": "Web + Mobil (iOS/Android) uygulama platformu; holding yapısını taşıyan ürün",
+   "roles": [
+    {"slug": "tech-cto", "title": "CTO — Platform", "tier": "C", "reports_to": "grp-cto"},
+    {"slug": "tech-dir-mobile", "title": "Director — Mobile (iOS/Android)", "tier": "DIRECTOR", "reports_to": "tech-cto"},
+    {"slug": "tech-dir-backend", "title": "Director — Backend/API", "tier": "DIRECTOR", "reports_to": "tech-cto"},
+    {"slug": "tech-lead-ios", "title": "Lead — iOS", "tier": "LEAD", "reports_to": "tech-dir-mobile"},
+    {"slug": "tech-lead-android", "title": "Lead — Android", "tier": "LEAD", "reports_to": "tech-dir-mobile"},
+    {"slug": "tech-spec-devops", "title": "Specialist — DevOps/SRE", "tier": "SPECIALIST", "reports_to": "tech-dir-backend"},
+    {"slug": "tech-anl-qa", "title": "Analyst — QA", "tier": "ANALYST", "reports_to": "tech-dir-mobile"}
+   ]
+  }
+ ]
+}

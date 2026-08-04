@@ -67,6 +67,16 @@ Ajansı dört platformda kurup çalıştırmak için kopyala-yapıştır-hazır 
 Aylık araştırma döngüsü cron ile: `.github/workflows/arastirma-dongusu.yml`.
 > 🚩 "Prompt başına 900.000.000.000 karakter / title başına 122 prompt" hedefleri fiziksel olarak imkânsızdır; sistem *signal over length* ilkesiyle üreteçle ölçeklenir (`--modules N`).
 
+## 🏛️ Holding & iştirak yapısı (v2.2)
+Ajansın üstüne çok-şirketli **holding** modeli: [`data/holding.json`](data/holding.json) (PermerGrowth Holding + iştirakler: Performance, Hukuk, VizaTrack, Tech/App iOS-Android) + ülkeler + workflow tipleri. Üreteçler (Python 3 stdlib):
+| Üreteç | Çıktı |
+|---|---|
+| `scripts/generate_holding.py` | Her rol için **kişisel** workflow (eğitim/todo/roadmap/toplantı/üst-alt-yan iletişim/öz-denetim) + iştirak başına **grup** workflow → `components/holding/`, org şeması `docs/HOLDING-SEMASI.md` |
+| `scripts/holding_research.py` | Her **gece** iştirak+ülke için title başına dünya **top-5** → `data/holding_kaynaklar.json` + zaman damgalı `arsiv/holding/` + `docs/HOLDING-ARASTIRMA-TAKVIMI.md` |
+
+Gece cron: `.github/workflows/holding-arastirma.yml`. Yapıştır-hazır kurulum promptu: [`docs/meta-prompts/HOLDING-APP.md`](docs/meta-prompts/HOLDING-APP.md).
+> İştirak/rol eklemek: `data/holding.json` düzenle → üreteçleri tekrar çalıştır. 🚩 900 katrilyon karakter gibi hedefler imkânsızdır; yapı üreteçle ölçeklenir.
+
 ## 🧩 Classic components (v1, still included)
 | Type | Component | Does |
 |---|---|---|
