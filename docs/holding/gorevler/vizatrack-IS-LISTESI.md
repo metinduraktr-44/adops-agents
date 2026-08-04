@@ -1,5 +1,5 @@
 # VizaTrack — OpCo iş listesi
-> Damga: 2026-08-04T08:44:20Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
+> Damga: 2026-08-04T09:40:15Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
 
 ## Mandate
 Case tracking, document readiness, status notifications

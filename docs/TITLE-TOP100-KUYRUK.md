@@ -1,5 +1,5 @@
 # TITLE / DISCIPLINE TOP-100 RESEARCH QUEUES
-> Damga: 2026-08-04T08:49:12Z · 🚩 Uydurma isim YOK · Dolu slot = kaynaklı · Boş = pending_query
+> Damga: 2026-08-04T09:40:15Z · 🚩 Uydurma isim YOK · Dolu slot = kaynaklı · Boş = pending_query
 
 Her title, kendi departman disiplin kuyruğunu kullanır (`data/title_top100_queues.json`).
 Aylık/gece döngü pending sorguları araştırır; URL bulunursa `sourced` yapar.

@@ -1,5 +1,5 @@
 # AE — Birleşik Arap Emirlikleri ülke LLM ajansı
-> Damga: 2026-08-04T08:44:20Z · Agency: `country-ae-llm` · Role: target
+> Damga: 2026-08-04T09:40:15Z · Agency: `country-ae-llm` · Role: target
 
 ## Law / language
 - Law: PDPL UAE, local ad permits

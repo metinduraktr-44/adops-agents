@@ -1,5 +1,5 @@
 # ÖZET — Holding v2.10 (tek sayfa)
-> Damga: 2026-08-04T08:44:20Z
+> Damga: 2026-08-04T09:40:15Z
 
 ## Ne yaptık
 1. **HoldCo** (`Performance Growth Holding`) C-level + portföy governance
@@ -18,7 +18,7 @@
 - Claude cowork URL oturumlarına erişim (dışarı kapalı)
 
 ## Aktivasyon
-Claude Code yapıştır **İPTAL**. Uygulandı: `docs/AKTIVASYON-DURUM.md` · `scripts/apply_activation.py`
+Claude Code yapıştır **İPTAL**. Kanıt: `docs/AKTIVASYON-DURUM.md` · `scripts/apply_activation.py`
 
 ## Sonraki P0
 - MCP Authorize (ihtiyaç olanlar)

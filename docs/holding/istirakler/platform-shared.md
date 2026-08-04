@@ -1,5 +1,5 @@
 # Shared Platform — İştirak org (doküman)
-> Damga: 2026-08-04T08:44:20Z · TR: Kimlik, bildirim, analitik, CI ortak katmanı · Tip: `shared_service` · Repo: `planned/platform-shared`
+> Damga: 2026-08-04T09:40:15Z · TR: Kimlik, bildirim, analitik, CI ortak katmanı · Tip: `shared_service` · Repo: `planned/platform-shared`
 
 ## Mandate
 Auth, feature flags, observability, mobile CI for all apps

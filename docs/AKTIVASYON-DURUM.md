@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-08-04T08:44:20Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-08-04T09:40:15Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -35,6 +35,7 @@
 {
   "build_holding_pack.py": 0,
   "build_skill_agency_registry.py": 0,
+  "build_k003_equivalents.py": 0,
   "daily_ops.py": 0,
   "holding_report.py": 0,
   "nightly_holding_research.py": 0,

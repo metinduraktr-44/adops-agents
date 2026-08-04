@@ -1,5 +1,5 @@
 # NL — Hollanda ülke LLM ajansı
-> Damga: 2026-08-04T08:44:20Z · Agency: `country-nl-llm` · Role: market
+> Damga: 2026-08-04T09:40:15Z · Agency: `country-nl-llm` · Role: market
 
 ## Law / language
 - Law: GDPR, ACM
