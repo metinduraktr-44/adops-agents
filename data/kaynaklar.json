@@ -1,0 +1,299 @@
+{
+ "schema": "1",
+ "guncelleme_utc": "2026-08-03T15:56:20Z",
+ "hedef_kisi_per_disiplin": 100,
+ "not": "ROL-MODELLERI.md'den tohumlandı; aylık research_loop ile büyür. Uydurma yok; her kişi URL'li.",
+ "disiplinler": {
+  "prg": {
+   "ad_tr": "Programatik Satın Alma",
+   "ad_en": "Programmatic Trading",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Ari Paparo",
+     "url": "https://aripaparo.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Brian O'Kelley",
+     "url": "https://en.wikipedia.org/wiki/Brian_O'Kelley",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Ratko Vidakovic",
+     "url": "https://adprofs.co/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Tom Triscari",
+     "url": "https://www.adeconforum.com/speaker/tomtriscari/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(4/100)"
+  },
+  "sea": {
+   "ad_tr": "Ücretli Arama",
+   "ad_en": "Paid Search",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Frederick Vallaeys",
+     "url": "https://www.optmyzr.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Ginny Marvin",
+     "url": "https://www.linkedin.com/in/ginnymarvin/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Larry Kim",
+     "url": "https://www.linkedin.com/in/larrykim/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Kirk Williams",
+     "url": "https://zatomarketing.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(4/100)"
+  },
+  "soc": {
+   "ad_tr": "Ücretli Sosyal",
+   "ad_en": "Paid Social",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Savannah Sanchez",
+     "url": "https://thesocialsavannah.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Andrew Foxwell",
+     "url": "https://www.foxwelldigital.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Dara Denney",
+     "url": "https://www.daradenney.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Depesh Mandalia",
+     "url": "https://depeshmandalia.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(4/100)"
+  },
+  "mob": {
+   "ad_tr": "Mobil UA & Uygulama",
+   "ad_en": "Mobile UA & App Growth",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Eric Seufert",
+     "url": "https://mobiledevmemo.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Shamanth Rao",
+     "url": "https://www.businessofapps.com/app-leaders/shamanth-rao/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Thomas Petit",
+     "url": "https://mobiledevmemo.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(3/100)"
+  },
+  "ret": {
+   "ad_tr": "Perakende Medyası",
+   "ad_en": "Retail & Commerce Media",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Destaney Wishon",
+     "url": "https://amzsummits.com/speakers/destaney-wishon/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Kiri Masters",
+     "url": "https://www.linkedin.com/in/kiri-masters",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Andrew Lipsman",
+     "url": "https://www.linkedin.com/in/andrew-lipsman-10b2162",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Ritu Java",
+     "url": "https://amzsummits.com/speakers/ritu-java/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(4/100)"
+  },
+  "seo": {
+   "ad_tr": "SEO & İçerik Motoru",
+   "ad_en": "SEO & Content Engine",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Rand Fishkin",
+     "url": "https://sparktoro.com/team/rand",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Aleyda Solis",
+     "url": "https://www.aleydasolis.com/en/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Danny Sullivan",
+     "url": "https://dannysullivan.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    },
+    {
+     "ad": "Lily Ray",
+     "url": "https://lilyray.nyc/about-lily-ray/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(4/100)"
+  },
+  "cro": {
+   "ad_tr": "CRO & Deneyim",
+   "ad_en": "CRO & Experience",
+   "hedef": 100,
+   "kisiler": [
+    {
+     "ad": "Peep Laja",
+     "url": "https://peeplaja.com/",
+     "tur": "otorite",
+     "kaynaklar": []
+    }
+   ],
+   "durum": "tohum(1/100)"
+  },
+  "ana": {
+   "ad_tr": "Analitik & Ölçümleme",
+   "ad_en": "Analytics & Measurement",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "dsc": {
+   "ad_tr": "Veri Bilimi & AI",
+   "ad_en": "Data Science & AI",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "ops": {
+   "ad_tr": "Ad Ops & Trafficking",
+   "ad_en": "Ad Ops & Trafficking",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "cre": {
+   "ad_tr": "Kreatif Stüdyo & DCO",
+   "ad_en": "Creative Studio & DCO",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "str": {
+   "ad_tr": "Strateji & Planlama",
+   "ad_en": "Strategy & Comms Planning",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "cls": {
+   "ad_tr": "Müşteri Hizmetleri",
+   "ad_en": "Client Services",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "nbd": {
+   "ad_tr": "Yeni İş & Inbound Hunisi",
+   "ad_en": "New Business & Inbound Funnel",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "prt": {
+   "ad_tr": "Ortaklıklar & Sponsorluklar",
+   "ad_en": "Partnerships & Sponsorships",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "prd": {
+   "ad_tr": "Ürün & Premium Paket",
+   "ad_en": "Product & Premium Pack",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "fin": {
+   "ad_tr": "Finans & Faturalama",
+   "ad_en": "Finance & Billing",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "leg": {
+   "ad_tr": "Hukuk & Uyum",
+   "ad_en": "Legal & Compliance",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "tal": {
+   "ad_tr": "Yetenek & Ajan Kalitesi",
+   "ad_en": "Talent & Agent Quality",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  },
+  "inf": {
+   "ad_tr": "Teknoloji & Altyapı",
+   "ad_en": "Tech & Infrastructure",
+   "hedef": 100,
+   "kisiler": [],
+   "durum": "tohum(0/100)"
+  }
+ }
+}
