@@ -59,7 +59,13 @@ def latest():
 def main():
     reg = bootstrap()
     prev_name, prev_head = latest()
-    has_llm = bool(os.environ.get("ANTHROPIC_API_KEY", "").strip())
+
+    try:
+        import llm_client
+        prov = llm_client.provider()
+    except Exception:
+        llm_client, prov = None, None
+    has_llm = prov is not None
 
     units = all_units()
     ulkeler = H["countries"]["hedef"]
@@ -68,7 +74,7 @@ def main():
     focus_ulke = [ulkeler[(DOY + i) % len(ulkeler)] for i in range(2)]
 
     lines = [f"# HOLDING ARAŞTIRMA — {DAY}",
-             f"> Zaman damgası: {TS} · Mod: {'LLM/web' if has_llm else 'deterministik iskelet'}",
+             f"> Zaman damgası: {TS} · Mod: {('LLM/web ('+prov+')') if has_llm else 'deterministik iskelet'}",
              f"> Geri okunan önceki arşiv: {prev_name or '(yok — ilk koşum)'}",
              f"> Odak ülkeler: {', '.join(focus_ulke)}",
              "> Kural: veri uydurma yok · her kişi URL'li · 'bulunamadı' açıkça yazılır.", ""]
@@ -84,6 +90,24 @@ def main():
         if n < TOP:
             lines.append(f"- 🚩 ARAŞTIRILACAK: +{TOP - n} kişi (makale·röportaj·proje) × ülke {', '.join(focus_ulke)} — "
                          f"{'bu koşumda LLM/web' if has_llm else 'API anahtarı gelince'}.")
+        lines.append("")
+
+    # LLM taslağı (yalnızca sağlayıcı varsa) — DOĞRULANMAMIŞ; kayıt defterine YAZILMAZ.
+    if has_llm and llm_client is not None:
+        sub_slug, sub_name, role_slug, role_title = focus[0]
+        prompt = (f"'{role_title}' ({sub_name}) alanında dünyada tanınan gerçek profesyonellerden en fazla 5 kişi öner. "
+                  f"Ülke odağı: {', '.join(focus_ulke)}. Her satır: Ad — kısa neden — resmi/kamuya açık URL. "
+                  f"Emin olmadığın URL'yi UYDURMA; bilmiyorsan 'URL doğrulanmalı' yaz.")
+        draft = None
+        try:
+            draft = llm_client.complete(prompt, max_tokens=500)
+        except Exception as e:
+            print("LLM draft skipped:", type(e).__name__, str(e)[:120])
+        lines.append("## LLM aday taslağı — 🚩 DOĞRULANMAMIŞ (kayıt defterine yazılmaz; URL'ler insanca doğrulanmalı)")
+        lines.append(f"> Sağlayıcı: {prov} · Title: {role_title} · Ülke: {', '.join(focus_ulke)}")
+        lines.append("```")
+        lines.append((draft or "(LLM yanıtı alınamadı — kredi/model/ağ; deterministik iskelet geçerli)").strip())
+        lines.append("```")
         lines.append("")
 
     os.makedirs(ARSIV, exist_ok=True)

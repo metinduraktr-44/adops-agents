@@ -90,11 +90,16 @@ def main():
 
     # 2) ODAK departmanlar
     focus = pick_focus(org, month)
-    has_llm = bool(os.environ.get("ANTHROPIC_API_KEY", "").strip())
+    try:
+        import llm_client
+        prov = llm_client.provider()
+    except Exception:
+        prov = None
+    has_llm = prov is not None
 
     # 3) ARŞİV dosyası
     lines = [f"# ARAŞTIRMA ARŞİVİ — {month}",
-             f"> Zaman damgası: {TS} · Mod: {'LLM/web zenginleştirme' if has_llm else 'deterministik iskelet'}",
+             f"> Zaman damgası: {TS} · Mod: {('LLM/web ('+prov+')') if has_llm else 'deterministik iskelet'}",
              f"> Geri okunan önceki arşiv: {prev_name or '(yok — ilk koşum)'}",
              "> Kural: veri uydurma yok · her bulgu URL'li · 'bulunamadı' açıkça yazılır.", ""]
     if prev_head:
