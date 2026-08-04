@@ -4,7 +4,7 @@
 ## Nasıl kullanılır
 1. `data/prompt_bank/title.json` / `team.json` / `apply.json` içinden `id` seç.
 2. Role card + org.json + arşiv oku.
-3. Prompt gövdesini Claude Code'a yapıştır; değişkenleri doldur.
+3. Prompt gövdesini **bu ajan/orkestratör uygular** (Claude Code yapıştır İPTAL); değişkenleri doldur.
 4. Çıktıyı denetim kuyruğundan geçir.
 
 ## Index (ilk 12 + meta)

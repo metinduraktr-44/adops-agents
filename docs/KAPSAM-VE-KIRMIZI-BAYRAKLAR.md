@@ -10,7 +10,7 @@
 | Tüm MCP/skill evrenini tek promptta | Progressive disclosure ihlali | CILT4 + ihtiyaç anında skill okuma |
 | Ücretli API zorunlu araştırma | ANTHROPIC/Exa kredisi yoksa kırılır | Deterministik aylık/gece arşiv döngüsü; API varsa zenginleştir |
 | Ücretsiz 3. parti API key mint (Twilio/Exa/…) | Hesap/OAuth sahibi gerekir | Cursor MCP Authorize + repo secrets (sahip) |
-| Claude cowork URL oturumuna erişim | Bu ajan dış oturuma giremez | `CLAUDE-CODE-AKTIVASYON.md` yapıştır |
+| Claude cowork URL oturumuna erişim | Bu ajan dış oturuma giremez | Aynı promptu `apply_activation.py` ile repoda uygula (yapıştır İPTAL) |
 
 ## Onaylı kapsam (v2.8–v2.10)
 - 600 ajan / 6 kademe / 20 departman (mevcut)
@@ -19,7 +19,8 @@
 - Aylık arşiv: oku → araştır → damgala → güncelle → tekrar
 - Skill→43 mini-ajans + 81 MCP katalog (v2.9)
 - **Holding (v2.10):** HoldCo + 7 OpCo + 6 ülke LLM ajansı + web/iOS/Android blueprint
-- Claude Code aktivasyon: `docs/CLAUDE-CODE-AKTIVASYON.md` (v2.8+v2.9+v2.10)
+- Claude Code aktivasyon: **in-repo uygulandı** (`docs/AKTIVASYON-DURUM.md`); yapıştır adımı İPTAL
+- Holding OpCo/ülke görev tahtaları: `docs/holding/gorevler/` · `docs/holding/ulkeler/`
 
 ## Araştırma notu (web)
 - 2026-08-03: Ajans org hibrit (CoE + client pod). Kaynak: aamax / marketingjuice / agencydashboard / enests.

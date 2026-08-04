@@ -1,5 +1,5 @@
 # ÖZET — Holding v2.10 (tek sayfa)
-> Damga: 2026-08-04T08:33:11Z
+> Damga: 2026-08-04T08:44:20Z
 
 ## Ne yaptık
 1. **HoldCo** (`Performance Growth Holding`) C-level + portföy governance
@@ -17,8 +17,8 @@
 - Twilio/Exa vb. ücretsiz API key mint (hesap sende)
 - Claude cowork URL oturumlarına erişim (dışarı kapalı)
 
-## Claude Code yapıştır
-`docs/CLAUDE-CODE-AKTIVASYON.md` (+ v2.10 holding bloğu)
+## Aktivasyon
+Claude Code yapıştır **İPTAL**. Uygulandı: `docs/AKTIVASYON-DURUM.md` · `scripts/apply_activation.py`
 
 ## Sonraki P0
 - MCP Authorize (ihtiyaç olanlar)

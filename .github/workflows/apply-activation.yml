@@ -1,0 +1,22 @@
+name: apply-activation
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"  # daily re-apply proof
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply activation in-repo
+        run: python3 scripts/apply_activation.py
+      - name: Commit
+        run: |
+          git config user.name "adops-bots"
+          git config user.email "bots@adops-agents.local"
+          git add -A
+          git diff --cached --quiet || git commit -m "apply-activation: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push || true

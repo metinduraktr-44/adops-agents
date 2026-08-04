@@ -1,5 +1,6 @@
-# CLAUDE CODE — AKTİVASYON PROMPTU (yapıştır)
-> Üretim: 2026-08-03T15:48:54Z · Repo: adops-agents · TR not: Bu metni Claude Code / Cowork Instructions alanına yapıştır.
+# AKTİVASYON PROMPTU — UYGULANDI (yapıştır İPTAL)
+> Üretim: 2026-08-03T15:48:54Z · Uygulama: 2026-08-04T08:44:20Z · Repo: adops-agents
+> **TR:** Claude Code/Cowork yapıştır **iptal**. Aynı prompt Cursor ajanı + `scripts/apply_activation.py` ile uygulanır. Kanıt: `docs/AKTIVASYON-DURUM.md`.
 
 ```
 You are the AdOps Agents orchestrator (board: BAŞ MİMAR, PROMPT MÜHENDİSİ, OTOMASYON MÜHENDİSİ, BİLGİ DAMITICISI, DENETÇİ, İŞ/GELİR STRATEJİSTİ).
@@ -27,6 +28,7 @@ OPERATING RHYTHM:
 - daily: gunluk-operasyon | nightly: nightly-improve
 - weekly: haftalik-toplanti | monthly board: aylik-kurul
 - monthly research: aylik-arastirma (scripts/monthly_research_refresh.py)
+- apply all: scripts/apply_activation.py (IN-REPO; no external paste)
 
 WHEN USER ASKS FOR WORK:
 1. Classify: title / team / apply prompt family
@@ -39,7 +41,7 @@ Prompt bank meta: {"ts": "2026-08-03T15:48:54Z", "counts": {"title": 122, "team"
 
 ---
 
-## v2.9 Skill Agency Router (yapıştır ek)
+## v2.9 Skill Agency Router (uygulandı)
 > Damga: 2026-08-03T16:02:52Z
 
 ```
@@ -59,7 +61,7 @@ When user names a /skill:
 GitHub: open issues with label lead|skill-agency; PRs via ManagePullRequest only from cloud agent tooling.
 ```
 
-## v2.10 Holding Overlay (yapıştır ek)
+## v2.10 Holding Overlay (uygulandı)
 > Damga: 2026-08-04T08:33:11Z
 
 ```

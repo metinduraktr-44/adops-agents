@@ -17,7 +17,9 @@ This repo is structured as **the org chart of a full-scale performance-marketing
 | `components/agents/agency/` | **600 agent role cards** (10 C-level + 20 departments) |
 | `data/org.json` | Machine-readable org — single source of truth |
 | `docs/MASTER-PROMPT-AJANS.md` | Agency constitution — **924 hierarchical headings** |
-| `docs/CLAUDE-CODE-AKTIVASYON.md` | Paste-ready Claude Code activation prompt |
+| `docs/CLAUDE-CODE-AKTIVASYON.md` | Activation prompt (**applied in-repo**; paste cancelled) |
+| `docs/AKTIVASYON-DURUM.md` | Live proof that activation ran (Cursor agent) |
+| `docs/HOLDING-MIMARI.md` | HoldCo + 7 OpCo + 6 country LLM agencies |
 | `docs/KAPSAM-VE-KIRMIZI-BAYRAKLAR.md` | Scope + 🚩 K-003 (impossible-scale guards) |
 | `docs/PROMPT-KATALOGU.md` | **122×3** title/team/apply prompt templates |
 | `docs/SKILL-AGENCY-REGISTRY.md` | **696 skills → 43 mini-agencies** + 81 MCP catalog |

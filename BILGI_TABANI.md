@@ -107,3 +107,8 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-04T08:33:11Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
 
 - [2026-08-04T08:33:50Z] v2.10: Holding mimarisi kodlandı (7 OpCo + 6 ülke + web/mobil blueprint + gece arşiv). K-003: 900B/top-100/500-soru/kart reddedildi. Learning: HoldCo vs OpCo ayrımı (sermaye/risk vs operasyon) doküman+cron ile idempotent tutulur.
+
+- [2026-08-04T08:44:21Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+- [2026-08-04T08:44:21Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-04T08:44:20Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.

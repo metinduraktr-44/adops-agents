@@ -617,8 +617,8 @@ def write_one_pager(h: dict) -> str:
 - Twilio/Exa vb. ücretsiz API key mint (hesap sende)
 - Claude cowork URL oturumlarına erişim (dışarı kapalı)
 
-## Claude Code yapıştır
-`docs/CLAUDE-CODE-AKTIVASYON.md` (+ v2.10 holding bloğu)
+## Aktivasyon
+Claude Code yapıştır **İPTAL**. Kanıt: `docs/AKTIVASYON-DURUM.md` · `scripts/apply_activation.py`
 
 ## Sonraki P0
 - MCP Authorize (ihtiyaç olanlar)
@@ -628,7 +628,7 @@ def write_one_pager(h: dict) -> str:
 
 def write_activation_block() -> str:
     return f"""
-## v2.10 Holding Overlay (yapıştır ek)
+## v2.10 Holding Overlay (uygulandı)
 > Damga: {TS}
 
 ```
