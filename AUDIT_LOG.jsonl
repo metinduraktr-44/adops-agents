@@ -54,3 +54,8 @@
 {"ts": "2026-08-03T10:00:47Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-08-03-liderlik.md"], "validation": "GECTI"}
 {"ts_start":"2026-08-04T01:57:19Z","ts_end":"2026-08-04T01:57:19Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-04T07:06:34Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-08-04-standup.md", "makaleler/2026-08-04-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-08-04T08:44:04Z", "op": "arastirma-dongusu", "month": "2026-08", "focus": ["dsc", "ops", "cre", "str"], "outputs": ["arsiv/2026-08-arastirma.md", "data/kaynaklar.json", "docs/ARASTIRMA-TAKVIMI.md"], "validation": "GECTI", "chain": "prev=2026-08-arastirma.md"}
+{"ts": "2026-08-04T08:44:04Z", "op": "holding-arastirma", "day": "2026-08-04", "focus": ["perf-evp-programmatic", "perf-evp-paid-social", "perf-dir-analytics"], "ulke": ["US", "TR"], "outputs": ["arsiv/holding/2026-08-04.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-08-04.md"}
+{"ts": "2026-08-04T08:44:08Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-08-04-standup.md", "makaleler/2026-08-04-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-08-04T08:44:08Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-08-04-liderlik.md"], "validation": "GECTI"}
+{"ts": "2026-08-04T08:44:08Z", "op": "kurul", "outputs": ["toplantilar/2026-08-04-kurul.md"], "validation": "GECTI"}

@@ -1,5 +1,5 @@
 # ÖZ-DENETİM SORU BANKASI (501 soru)
-> Üretim: 2026-07-17T10:48:31Z · Kaynak: scripts/build_question_bank.py · data/soru_bankasi.json
+> Üretim: 2026-08-04T08:44:03Z · Kaynak: scripts/build_question_bank.py · data/soru_bankasi.json
 Her ajan her süreçte kendine bu soruları sorar. Günlük döngü (scripts/daily_ops.py) her koşumda örnek çeker ve standup'ta yanıtlar. Kart başına alt-set: departman + kademe blokları.
 
 ## A. Evrensel sorular (tüm roller)

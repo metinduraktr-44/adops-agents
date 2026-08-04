@@ -41,18 +41,10 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
-    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    if not key:
-        return None
-    body = json.dumps({"model": "claude-sonnet-4-5", "max_tokens": max_tokens,
-                       "messages": [{"role": "user", "content": prompt}]}).encode()
-    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
-        headers={"x-api-key": key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"})
+    # Sağlayıcı-bağımsız: OpenRouter → Anthropic (scripts/llm_client.py). Yoksa None.
     try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            data = json.loads(r.read())
-        return "".join(b.get("text", "") for b in data.get("content", []))
+        import llm_client
+        return llm_client.complete(prompt, max_tokens=max_tokens)
     except Exception as e:
         print("LLM SKIPPED:", e)
         return None
