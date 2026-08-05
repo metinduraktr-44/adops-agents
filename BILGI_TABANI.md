@@ -106,3 +106,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-04T07:06:34Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
 ## 2026-08-05T01:56:48Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-05T07:08:29Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu creative-fatigue-signals.
