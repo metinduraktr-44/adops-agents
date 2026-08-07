@@ -114,3 +114,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-06T07:10:38Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu consent-mode-v2-pitfalls.
 ## 2026-08-07T02:22:20Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-07T05:55:07Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu claude-code-agents-for-adops.
