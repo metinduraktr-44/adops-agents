@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Shared LLM client: OpenRouter (preferred) or Anthropic.
+"""Shared LLM client: Gemini / OpenRouter / Anthropic.
 
 Loads secrets from env and optional .env / .env.local (never committed).
 TR: Anahtar repoya yazılmaz; sadece lokal env.
@@ -34,16 +34,95 @@ def load_dotenv() -> None:
 def llm(prompt: str, max_tokens: int = 1600) -> str | None:
     """Return completion text or None if no key / request fails."""
     load_dotenv()
+    provider = os.environ.get("LLM_PROVIDER", "").strip().lower()
+    gem_key = os.environ.get("GEMINI_API_KEY", "").strip() or os.environ.get(
+        "GOOGLE_API_KEY", ""
+    ).strip()
     or_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
     anth_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    provider = os.environ.get("LLM_PROVIDER", "").strip().lower()
 
-    if or_key and (provider in ("", "openrouter", "auto") or not anth_key):
-        return _openrouter(or_key, prompt, max_tokens)
-    if anth_key:
-        return _anthropic(anth_key, prompt, max_tokens)
-    print("LLM SKIPPED: no OPENROUTER_API_KEY or ANTHROPIC_API_KEY")
+    chain: list[tuple[str, object]] = []
+    if provider == "gemini":
+        if gem_key:
+            chain.append(("gemini", lambda: _gemini(gem_key, prompt, max_tokens)))
+        if or_key:
+            chain.append(("openrouter", lambda: _openrouter(or_key, prompt, max_tokens)))
+        if anth_key:
+            chain.append(("anthropic", lambda: _anthropic(anth_key, prompt, max_tokens)))
+    elif provider == "openrouter":
+        if or_key:
+            chain.append(("openrouter", lambda: _openrouter(or_key, prompt, max_tokens)))
+        if gem_key:
+            chain.append(("gemini", lambda: _gemini(gem_key, prompt, max_tokens)))
+        if anth_key:
+            chain.append(("anthropic", lambda: _anthropic(anth_key, prompt, max_tokens)))
+    elif provider == "anthropic":
+        if anth_key:
+            chain.append(("anthropic", lambda: _anthropic(anth_key, prompt, max_tokens)))
+        if gem_key:
+            chain.append(("gemini", lambda: _gemini(gem_key, prompt, max_tokens)))
+        if or_key:
+            chain.append(("openrouter", lambda: _openrouter(or_key, prompt, max_tokens)))
+    else:
+        # auto
+        if gem_key:
+            chain.append(("gemini", lambda: _gemini(gem_key, prompt, max_tokens)))
+        if or_key:
+            chain.append(("openrouter", lambda: _openrouter(or_key, prompt, max_tokens)))
+        if anth_key:
+            chain.append(("anthropic", lambda: _anthropic(anth_key, prompt, max_tokens)))
+
+    if not chain:
+        print("LLM SKIPPED: no GEMINI_API_KEY / OPENROUTER_API_KEY / ANTHROPIC_API_KEY")
+        return None
+
+    for name, fn in chain:
+        out = fn()
+        if out:
+            if name != (provider or "auto") and provider not in ("", "auto"):
+                print(f"LLM fallback ok via {name}")
+            return out
     return None
+
+
+def _gemini(key: str, prompt: str, max_tokens: int) -> str | None:
+    model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest").strip()
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{model}:generateContent"
+    )
+    body = json.dumps(
+        {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": max_tokens},
+        }
+    ).encode()
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={
+            "Content-Type": "application/json",
+            "X-goog-api-key": key,
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = json.loads(r.read())
+        cands = data.get("candidates") or []
+        if not cands:
+            print("LLM SKIPPED: gemini empty candidates", data.get("error"))
+            return None
+        parts = ((cands[0].get("content") or {}).get("parts")) or []
+        text = "".join(p.get("text", "") for p in parts if isinstance(p, dict))
+        return text.strip() or None
+    except urllib.error.HTTPError as e:
+        err = e.read().decode("utf-8", errors="replace")[:400]
+        print(f"LLM SKIPPED: gemini HTTP {e.code}: {err}")
+        return None
+    except Exception as e:
+        print("LLM SKIPPED:", e)
+        return None
 
 
 def _openrouter(key: str, prompt: str, max_tokens: int) -> str | None:
@@ -113,8 +192,16 @@ def _anthropic(key: str, prompt: str, max_tokens: int) -> str | None:
 
 if __name__ == "__main__":
     load_dotenv()
+    has_g = bool(
+        os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    )
     has_or = bool(os.environ.get("OPENROUTER_API_KEY"))
     has_an = bool(os.environ.get("ANTHROPIC_API_KEY"))
-    print(f"openrouter={'set' if has_or else 'missing'} anthropic={'set' if has_an else 'missing'}")
+    prov = os.environ.get("LLM_PROVIDER", "auto")
+    print(
+        f"provider={prov} gemini={'set' if has_g else 'missing'} "
+        f"openrouter={'set' if has_or else 'missing'} "
+        f"anthropic={'set' if has_an else 'missing'}"
+    )
     out = llm("Reply with exactly: PONG", max_tokens=16)
     print("reply:", (out or "")[:80])

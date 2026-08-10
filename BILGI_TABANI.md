@@ -1159,3 +1159,11 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 ### 2026-08-10T10:10:53Z — domain pack v2.13
 - Owner docx → Domain1–7 + Domain2 TF/OTel referans. 900B/top100 uydurma yok.
 - Apply yok (creds). MCP Authorize owner P0.
+
+- [2026-08-10T12:33:31Z] gunluk-operasyon: standup+makale üretildi; nöbet soc/mob/ret; konu sa360-bid-strategy-selection.
+- [2026-08-10T12:34:26Z] gunluk-operasyon: standup+makale üretildi; nöbet soc/mob/ret; konu sa360-bid-strategy-selection.
+
+### 2026-08-10T12:35:23Z — Gemini LLM
+- `.env.local` GEMINI_API_KEY (gitignore). Client destekliyor: Gemini → OpenRouter → Anthropic.
+- İlk curl PONG; free-tier 429 sonrası iskelet. Anthropic env var var ama bakiye yok.
+- 🚩 chat key → rotate: https://aistudio.google.com/apikey

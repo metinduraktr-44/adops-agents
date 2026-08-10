@@ -158,3 +158,26 @@ Kod: `scripts/llm_client.py`
 - [ ] `python3 scripts/llm_client.py` → `PONG` aldım
 
 Hazır. Başka bir şey yapmana gerek yok; ajan / `daily_ops` / live loop key’i buradan okur.
+
+
+---
+
+## Gemini (Google AI)
+
+Chat'te verilen `curl` örneği bu projede `.env.local` + `scripts/llm_client.py` ile kullanılır.
+
+```bash
+# .env.local
+GEMINI_API_KEY=AQ....          # Google AI Studio / Gemini key
+GEMINI_MODEL=gemini-flash-latest
+LLM_PROVIDER=gemini
+```
+
+Test:
+```bash
+python3 scripts/llm_client.py   # expect: reply PONG
+```
+
+Öncelik (`LLM_PROVIDER=auto`): Gemini → OpenRouter → Anthropic → iskelet.
+
+🚩 Key'i chat/PR/commit'e yapıştırma. Sızdıysa: https://aistudio.google.com/apikey → revoke + yeni key.

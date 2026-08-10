@@ -91,7 +91,12 @@ Structure: intro (why now), 4-6 concrete tactics with metric rationale, pitfalls
 End with: (1) a 3-line Turkish summary titled 'TR Özet', (2) one CTA sentence pointing readers
 to the open-source AdOps Agents component pack (github.com/metinduraktr-44/adops-agents).""")
     if gen:
-        provider = "openrouter" if os.environ.get("OPENROUTER_API_KEY") else "anthropic"
+        if os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
+            provider = "gemini"
+        elif os.environ.get("OPENROUTER_API_KEY"):
+            provider = "openrouter"
+        else:
+            provider = "anthropic"
         write(art_path, f"---\ntitle: {topic.replace('-', ' ').title()}\ndate: {TODAY}\nsource: daily-ops llm ({provider})\n---\n{gen}\n")
     else:
         d = onduty[0]
@@ -101,7 +106,7 @@ date: {TODAY}
 source: daily-ops deterministic
 ---
 # {topic.replace('-', ' ').title()}
-> İskelet üretim ({TS}). OPENROUTER_API_KEY / ANTHROPIC_API_KEY gelince bu slot tam makale ile dolar.
+> İskelet üretim ({TS}). GEMINI_API_KEY / OPENROUTER_API_KEY / ANTHROPIC_API_KEY gelince bu slot tam makale ile dolar.
 
 ## Neden şimdi
 {topic.replace('-', ' ')} — {d['name_tr']} hattının bu haftaki odağıyla kesişiyor.
