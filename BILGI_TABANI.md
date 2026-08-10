@@ -1155,3 +1155,7 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - `.env.local` OPENROUTER_API_KEY (gitignore). Client: `scripts/llm_client.py`.
 - daily_ops skeleton → full article when key present. Ping=PONG, article source=openrouter.
 - 🚩 chat'te paylaşılan key → rotate öner.
+
+### 2026-08-10T10:10:53Z — domain pack v2.13
+- Owner docx → Domain1–7 + Domain2 TF/OTel referans. 900B/top100 uydurma yok.
+- Apply yok (creds). MCP Authorize owner P0.

@@ -1,0 +1,18 @@
+---
+description: Domain 1–7 observability pack routing (PagerDuty/Slack/OTel/Datadog/Sentry)
+alwaysApply: false
+globs:
+  - infra/observability/**
+  - data/domains/**
+  - docs/domains/**
+  - docs/OZET-DOMAIN-PACK-V213.md
+---
+# Domain Observability Pack (v2.13)
+
+When editing or discussing Domain 1–7 / PagerDuty / Slack alerts / OTel / Datadog / Sentry:
+
+1. Prefer `data/domains/domain_pack.json` as source of truth for routing.
+2. Treat `infra/observability/**` as **reference IaC** — do not `terraform apply` / `kubectl apply` without owner credentials and explicit approval.
+3. Alert policy: WARN → Slack only; CRITICAL → Slack + PagerDuty page; recovery auto-resolves.
+4. K-003: no 900B prompt blobs; no invented top-100 people lists; use research queues.
+5. Rebuild with `python3 scripts/build_domain_observability_pack.py`.

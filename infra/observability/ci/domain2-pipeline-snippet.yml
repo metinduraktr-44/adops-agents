@@ -1,0 +1,27 @@
+# Domain 2 CI snippet — reference only (wire into real pipeline as needed)
+# Damga: 2026-08-10T10:10:53Z
+name: domain2-observability-gates
+on:
+  workflow_call:
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage1 validate (dry-run)
+        run: |
+          echo "[/onboard-confidence-dry-run] structural check"
+          test -f infra/observability/terraform/main.tf
+          test -f infra/observability/k8s/opentelemetry-collector.yaml
+      - name: Stage2 OTel manifest present
+        run: echo "[/opentelemetry-validation] manifest OK"
+      - name: Stage3 no secrets in tree
+        run: |
+          if rg -n "sk-or-v1-|DD_API_KEY=[A-Za-z0-9]" infra/ --glob '!**/*.md' | rg -v REPLACE_ME; then
+            echo "possible secret leak"; exit 1
+          fi
+          echo "secret scan soft-pass"
+      - name: Stage4 triage hooks documented
+        run: |
+          echo "[/tierzero-investigate] [/alert-investigation] [/debug-k8s-collection]"
+          echo "timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)"

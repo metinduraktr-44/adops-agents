@@ -40,27 +40,31 @@ tick() {
   python3 -u scripts/apply_activation.py
   echo "exit=$?"
 
-  banner "2/8 build_k003_equivalents.py"
+  banner "2/9 build_k003_equivalents.py"
   python3 -u scripts/build_k003_equivalents.py
   echo "exit=$?"
 
-  banner "3/8 holding_report.py"
+  banner "3/9 build_domain_observability_pack.py"
+  python3 -u scripts/build_domain_observability_pack.py
+  echo "exit=$?"
+
+  banner "4/9 holding_report.py"
   python3 -u scripts/holding_report.py
   echo "exit=$?"
 
-  banner "4/8 nightly_holding_research.py"
+  banner "5/9 nightly_holding_research.py"
   python3 -u scripts/nightly_holding_research.py
   echo "exit=$?"
 
-  banner "5/8 daily_ops.py"
+  banner "6/9 daily_ops.py"
   python3 -u scripts/daily_ops.py
   echo "exit=$?"
 
-  banner "6/8 validate.py"
+  banner "7/9 validate.py"
   python3 -u scripts/validate.py
   echo "exit=$?"
 
-  banner "7/8 durum özeti"
+  banner "8/9 durum özeti"
   echo "--- AKTIVASYON-DURUM.md (ilk 40 satır) ---"
   head -n 40 docs/AKTIVASYON-DURUM.md 2>/dev/null || echo "(yok)"
   echo "--- holding.json özet ---"
@@ -74,26 +78,29 @@ for s in h.get("subsidiaries",[]):
 for c in h.get("country_agencies",[]):
     print(f"  · country {c.get('code',c.get('id','?'))}: {c.get('name','')}")
 PY
+  echo "--- domain_pack ---"
+  python3 - <<'PY'
+import json
+from pathlib import Path
+p=Path("data/domains/domain_pack.json")
+if p.exists():
+    d=json.loads(p.read_text(encoding="utf-8"))
+    print(f"domains={d['_meta']['domain_count']} skills={d['_meta']['skill_mentions']} ver={d['_meta']['version']}")
+else:
+    print("MISSING")
+PY
   echo "--- title_questions ---"
   python3 - <<'PY'
 from pathlib import Path
 p=Path("data/title_questions")
 files=sorted(p.glob("*.json")) if p.exists() else []
 print(f"files={len(files)}")
-if files:
-    import json
-    d=json.loads(files[0].read_text(encoding="utf-8"))
-    titles=d.get("titles") or d.get("by_title") or d
-    if isinstance(titles, dict):
-        first=next(iter(titles.values()))
-        n=len(first) if isinstance(first, list) else "?"
-        print(f"sample_file={files[0].name} first_title_q_count={n}")
-    print(f"top100_queue={'OK' if Path('data/title_top100_queues.json').exists() else 'MISSING'}")
+print(f"top100_queue={'OK' if Path('data/title_top100_queues.json').exists() else 'MISSING'}")
 PY
   echo "--- AUDIT_LOG son 3 ---"
   tail -n 3 AUDIT_LOG.jsonl 2>/dev/null || echo "(yok)"
 
-  banner "8/8 LIVE OK @ $ts"
+  banner "9/9 LIVE OK @ $ts"
 }
 
 if [[ "$LOOP" -eq 1 ]]; then

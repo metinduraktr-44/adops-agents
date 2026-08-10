@@ -34,3 +34,14 @@
 | Her title +500 soru | 🚩 kart gömme yasak | `600` title × ≥500 soru → `data/title_questions/` |
 
 Kanıt index: `data/title_questions/index.json` · `data/title_top100_queues.json` · `data/prompt_bank/mega/EXPAND-RECIPE.json`
+
+
+## v2.13 — Domain observability pack (2026-08-10T10:10:53Z)
+| Sahip talebi (docx) | Literalle | Bu pakette |
+|---|---|---|
+| Datadog/Sentry → PagerDuty+Slack | Canlı apply | Referans TF `infra/observability/terraform/` |
+| OTel Collector K8s | Canlı cluster | Referans YAML `infra/observability/k8s/` |
+| Domain 1–7 mini-ajans | 900B prompt | `data/domains/domain_pack.json` + yoğun prompts |
+| Top-100 kişi / title | Uydurma yasak | `data/domains/research_queues.json` (sourced+pending) |
+
+Kanıt: `docs/OZET-DOMAIN-PACK-V213.md`

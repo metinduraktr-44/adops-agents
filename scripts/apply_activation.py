@@ -139,6 +139,7 @@ def main() -> int:
         "build_holding_pack.py",
         "build_skill_agency_registry.py",
         "build_k003_equivalents.py",
+        "build_domain_observability_pack.py",
         "daily_ops.py",
         "holding_report.py",
         "nightly_holding_research.py",
@@ -171,6 +172,7 @@ def main() -> int:
 | Prompt bank 122×3 | AKTİF | data/prompt_bank/ |
 | Skill mini-ajans (v2.9) | AKTİF | data/skill_agency_registry.json |
 | Holding (v2.10) | AKTİF | data/holding.json |
+| Domain pack (v2.13) | AKTİF | data/domains/domain_pack.json + infra/observability/ |
 | Daily standup | KOŞTU | gundem/{DAY}-standup.md |
 | HoldCo portföy | KOŞTU | gundem/{DAY}-holding-portfoy.md |
 | Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-{DAY}.json |
@@ -189,7 +191,8 @@ def main() -> int:
 ```
 
 ## Owner next (Metin)
-- MCP Authorize yalnızca ihtiyaç olanlar (Exa/Twilio/…)
+- MCP Authorize yalnızca ihtiyaç olanlar (Exa/Twilio/Datadog/Sentry/PagerDuty/…)
+- Domain2 TF/OTel apply için credential + cluster onayı
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
 """,

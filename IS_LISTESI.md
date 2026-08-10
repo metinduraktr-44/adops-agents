@@ -2,6 +2,7 @@
 > Son güncelleme: 2026-08-04T12:49:21Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
+- [x] v2.13 Domain1–7 observability pack (TF+OTel+mini-ajans) → cto-platform · 2026-08-10
 - [x] v2.12 K-003 eşdeğerleri: title≥500 soru setleri + top100 kuyruk + mega expander → cto-platform · 2026-08-04
 - [x] v2.10 holding: HoldCo + 7 OpCo + 6 ülke + web/mobil blueprint + gece arşiv → holdco-coo · 2026-08-04
 - [x] v2.9 skill→agency registry: 696 skill / 43 mini-ajans / 81 MCP → cto-platform · 2026-08-03

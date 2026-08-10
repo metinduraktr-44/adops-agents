@@ -1,0 +1,4422 @@
+{
+  "ts": "2026-08-10T10:10:53Z",
+  "domains": {
+    "d1-infra": {
+      "domain": "d1-infra",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Infrastructure, Kubernetes & Cloud Computing operating model 2026 · domain=d1-infra · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices setup-linux-host-collection · domain=d1-infra · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d1-infra · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d1-infra · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d1-infra · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d2-observability": {
+      "domain": "d2-observability",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Telemetry, Observability & Diagnostics operating model 2026 · domain=d2-observability · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices opentelemetry-validation · domain=d2-observability · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d2-observability · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d2-observability · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d2-observability · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d3-data": {
+      "domain": "d3-data",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Data Engineering, Pipelines & Storage operating model 2026 · domain=d3-data · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices setup-warehouse · domain=d3-data · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d3-data · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d3-data · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d3-data · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d4-platform": {
+      "domain": "d4-platform",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Full-Stack Platform, Identity & Frontend UI operating model 2026 · domain=d4-platform · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices nextjs · domain=d4-platform · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d4-platform · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d4-platform · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d4-platform · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d5-comms": {
+      "domain": "d5-comms",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Communications, Engagement & Scrapers operating model 2026 · domain=d5-comms · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices twilio-send-message · domain=d5-comms · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d5-comms · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d5-comms · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d5-comms · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d6-product-sec-ai": {
+      "domain": "d6-product-sec-ai",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Product Management, Security & AI/ML Models operating model 2026 · domain=d6-product-sec-ai · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices write-prd · domain=d6-product-sec-ai · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d6-product-sec-ai · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d6-product-sec-ai · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d6-product-sec-ai · slot=100",
+          "sources": []
+        }
+      ]
+    },
+    "d7-governance": {
+      "domain": "d7-governance",
+      "slots": 100,
+      "items": [
+        {
+          "slot": 1,
+          "status": "sourced",
+          "query": "Google SRE Book — Monitoring Distributed Systems",
+          "sources": [
+            {
+              "title": "Google SRE Book — Monitoring Distributed Systems",
+              "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+            }
+          ]
+        },
+        {
+          "slot": 2,
+          "status": "sourced",
+          "query": "OpenTelemetry Collector docs",
+          "sources": [
+            {
+              "title": "OpenTelemetry Collector docs",
+              "url": "https://opentelemetry.io/docs/collector/"
+            }
+          ]
+        },
+        {
+          "slot": 3,
+          "status": "sourced",
+          "query": "PagerDuty Events API v2",
+          "sources": [
+            {
+              "title": "PagerDuty Events API v2",
+              "url": "https://developer.pagerduty.com/docs/events-api-v2/overview/"
+            }
+          ]
+        },
+        {
+          "slot": 4,
+          "status": "sourced",
+          "query": "Datadog monitors",
+          "sources": [
+            {
+              "title": "Datadog monitors",
+              "url": "https://docs.datadoghq.com/monitors/"
+            }
+          ]
+        },
+        {
+          "slot": 5,
+          "status": "sourced",
+          "query": "Sentry issue alerts",
+          "sources": [
+            {
+              "title": "Sentry issue alerts",
+              "url": "https://docs.sentry.io/product/alerts/"
+            }
+          ]
+        },
+        {
+          "slot": 6,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=6",
+          "sources": []
+        },
+        {
+          "slot": 7,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=7",
+          "sources": []
+        },
+        {
+          "slot": 8,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=8",
+          "sources": []
+        },
+        {
+          "slot": 9,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=9",
+          "sources": []
+        },
+        {
+          "slot": 10,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=10",
+          "sources": []
+        },
+        {
+          "slot": 11,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=11",
+          "sources": []
+        },
+        {
+          "slot": 12,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=12",
+          "sources": []
+        },
+        {
+          "slot": 13,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=13",
+          "sources": []
+        },
+        {
+          "slot": 14,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=14",
+          "sources": []
+        },
+        {
+          "slot": 15,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=15",
+          "sources": []
+        },
+        {
+          "slot": 16,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=16",
+          "sources": []
+        },
+        {
+          "slot": 17,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=17",
+          "sources": []
+        },
+        {
+          "slot": 18,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=18",
+          "sources": []
+        },
+        {
+          "slot": 19,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=19",
+          "sources": []
+        },
+        {
+          "slot": 20,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=20",
+          "sources": []
+        },
+        {
+          "slot": 21,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=21",
+          "sources": []
+        },
+        {
+          "slot": 22,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=22",
+          "sources": []
+        },
+        {
+          "slot": 23,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=23",
+          "sources": []
+        },
+        {
+          "slot": 24,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=24",
+          "sources": []
+        },
+        {
+          "slot": 25,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=25",
+          "sources": []
+        },
+        {
+          "slot": 26,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=26",
+          "sources": []
+        },
+        {
+          "slot": 27,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=27",
+          "sources": []
+        },
+        {
+          "slot": 28,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=28",
+          "sources": []
+        },
+        {
+          "slot": 29,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=29",
+          "sources": []
+        },
+        {
+          "slot": 30,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=30",
+          "sources": []
+        },
+        {
+          "slot": 31,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=31",
+          "sources": []
+        },
+        {
+          "slot": 32,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=32",
+          "sources": []
+        },
+        {
+          "slot": 33,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=33",
+          "sources": []
+        },
+        {
+          "slot": 34,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=34",
+          "sources": []
+        },
+        {
+          "slot": 35,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=35",
+          "sources": []
+        },
+        {
+          "slot": 36,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=36",
+          "sources": []
+        },
+        {
+          "slot": 37,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=37",
+          "sources": []
+        },
+        {
+          "slot": 38,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=38",
+          "sources": []
+        },
+        {
+          "slot": 39,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=39",
+          "sources": []
+        },
+        {
+          "slot": 40,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=40",
+          "sources": []
+        },
+        {
+          "slot": 41,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=41",
+          "sources": []
+        },
+        {
+          "slot": 42,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=42",
+          "sources": []
+        },
+        {
+          "slot": 43,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=43",
+          "sources": []
+        },
+        {
+          "slot": 44,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=44",
+          "sources": []
+        },
+        {
+          "slot": 45,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=45",
+          "sources": []
+        },
+        {
+          "slot": 46,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=46",
+          "sources": []
+        },
+        {
+          "slot": 47,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=47",
+          "sources": []
+        },
+        {
+          "slot": 48,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=48",
+          "sources": []
+        },
+        {
+          "slot": 49,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=49",
+          "sources": []
+        },
+        {
+          "slot": 50,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=50",
+          "sources": []
+        },
+        {
+          "slot": 51,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=51",
+          "sources": []
+        },
+        {
+          "slot": 52,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=52",
+          "sources": []
+        },
+        {
+          "slot": 53,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=53",
+          "sources": []
+        },
+        {
+          "slot": 54,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=54",
+          "sources": []
+        },
+        {
+          "slot": 55,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=55",
+          "sources": []
+        },
+        {
+          "slot": 56,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=56",
+          "sources": []
+        },
+        {
+          "slot": 57,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=57",
+          "sources": []
+        },
+        {
+          "slot": 58,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=58",
+          "sources": []
+        },
+        {
+          "slot": 59,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=59",
+          "sources": []
+        },
+        {
+          "slot": 60,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=60",
+          "sources": []
+        },
+        {
+          "slot": 61,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=61",
+          "sources": []
+        },
+        {
+          "slot": 62,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=62",
+          "sources": []
+        },
+        {
+          "slot": 63,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=63",
+          "sources": []
+        },
+        {
+          "slot": 64,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=64",
+          "sources": []
+        },
+        {
+          "slot": 65,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=65",
+          "sources": []
+        },
+        {
+          "slot": 66,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=66",
+          "sources": []
+        },
+        {
+          "slot": 67,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=67",
+          "sources": []
+        },
+        {
+          "slot": 68,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=68",
+          "sources": []
+        },
+        {
+          "slot": 69,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=69",
+          "sources": []
+        },
+        {
+          "slot": 70,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=70",
+          "sources": []
+        },
+        {
+          "slot": 71,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=71",
+          "sources": []
+        },
+        {
+          "slot": 72,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=72",
+          "sources": []
+        },
+        {
+          "slot": 73,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=73",
+          "sources": []
+        },
+        {
+          "slot": 74,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=74",
+          "sources": []
+        },
+        {
+          "slot": 75,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=75",
+          "sources": []
+        },
+        {
+          "slot": 76,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=76",
+          "sources": []
+        },
+        {
+          "slot": 77,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=77",
+          "sources": []
+        },
+        {
+          "slot": 78,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=78",
+          "sources": []
+        },
+        {
+          "slot": 79,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=79",
+          "sources": []
+        },
+        {
+          "slot": 80,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=80",
+          "sources": []
+        },
+        {
+          "slot": 81,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=81",
+          "sources": []
+        },
+        {
+          "slot": 82,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=82",
+          "sources": []
+        },
+        {
+          "slot": 83,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=83",
+          "sources": []
+        },
+        {
+          "slot": 84,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=84",
+          "sources": []
+        },
+        {
+          "slot": 85,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=85",
+          "sources": []
+        },
+        {
+          "slot": 86,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=86",
+          "sources": []
+        },
+        {
+          "slot": 87,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=87",
+          "sources": []
+        },
+        {
+          "slot": 88,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=88",
+          "sources": []
+        },
+        {
+          "slot": 89,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=89",
+          "sources": []
+        },
+        {
+          "slot": 90,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=90",
+          "sources": []
+        },
+        {
+          "slot": 91,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=91",
+          "sources": []
+        },
+        {
+          "slot": 92,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=92",
+          "sources": []
+        },
+        {
+          "slot": 93,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=93",
+          "sources": []
+        },
+        {
+          "slot": 94,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=94",
+          "sources": []
+        },
+        {
+          "slot": 95,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=95",
+          "sources": []
+        },
+        {
+          "slot": 96,
+          "status": "pending_research",
+          "query": "Governance, Workflow Automation & Self-Improvement operating model 2026 · domain=d7-governance · slot=96",
+          "sources": []
+        },
+        {
+          "slot": 97,
+          "status": "pending_research",
+          "query": "best practices run-pipeline · domain=d7-governance · slot=97",
+          "sources": []
+        },
+        {
+          "slot": 98,
+          "status": "pending_research",
+          "query": "incident response on-call patterns · domain=d7-governance · slot=98",
+          "sources": []
+        },
+        {
+          "slot": 99,
+          "status": "pending_research",
+          "query": "OpenTelemetry production collector topology · domain=d7-governance · slot=99",
+          "sources": []
+        },
+        {
+          "slot": 100,
+          "status": "pending_research",
+          "query": "Datadog vs Sentry alert fatigue reduction · domain=d7-governance · slot=100",
+          "sources": []
+        }
+      ]
+    }
+  }
+}

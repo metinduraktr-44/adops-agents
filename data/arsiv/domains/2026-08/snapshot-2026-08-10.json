@@ -1,0 +1,22 @@
+{
+  "ts": "2026-08-10T10:10:53Z",
+  "domains": [
+    "d1-infra",
+    "d2-observability",
+    "d3-data",
+    "d4-platform",
+    "d5-comms",
+    "d6-product-sec-ai",
+    "d7-governance"
+  ],
+  "alert_policy": {
+    "warn": "Slack #alerts-warnings only (no page)",
+    "critical": "Slack #alerts-critical + PagerDuty Events API v2 page",
+    "auto_resolve": true,
+    "thresholds": {
+      "error_rate_warn": 0.02,
+      "error_rate_critical": 0.05,
+      "spike_per_min": 50
+    }
+  }
+}
