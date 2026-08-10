@@ -28,7 +28,9 @@ tick() {
   echo "[cwd] $ROOT"
   echo "[branch] $(git branch --show-current 2>/dev/null || echo '?')"
   echo "[commit] $(git rev-parse --short HEAD 2>/dev/null || echo '?')"
-  if [[ -n "${OPENROUTER_API_KEY:-}" ]]; then
+  if [[ -n "${GEMINI_API_KEY:-}${GOOGLE_API_KEY:-}" ]]; then
+    echo "[llm] GEMINI set model=${GEMINI_MODEL:-gemini-flash-latest} provider=${LLM_PROVIDER:-auto}"
+  elif [[ -n "${OPENROUTER_API_KEY:-}" ]]; then
     echo "[llm] OPENROUTER set model=${OPENROUTER_MODEL:-default}"
   elif [[ -n "${ANTHROPIC_API_KEY:-}" ]]; then
     echo "[llm] ANTHROPIC set"
