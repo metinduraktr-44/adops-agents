@@ -64,3 +64,4 @@
 {"ts": "2026-08-08T05:13:19Z", "op": "gunluk-operasyon", "onduty": ["prg", "sea", "soc"], "outputs": ["gundem/2026-08-08-standup.md", "makaleler/2026-08-08-dco-feed-architecture.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-09T01:13:15Z","ts_end":"2026-08-09T01:13:15Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-09T05:27:38Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-08-09-standup.md", "makaleler/2026-08-09-incrementality-geo-holdouts.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-08-10T01:15:07Z","ts_end":"2026-08-10T01:15:07Z","islem":"nightly","denetim":"RUN"}
