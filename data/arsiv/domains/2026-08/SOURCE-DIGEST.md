@@ -20,3 +20,7 @@
 3. Domain 1–7 MCP/skill mini-ajans orkestrasyonu
 
 4. 🚩 900B prompt / uydurma top-100 → K-003 eşdeğer (yoğun şablon + kuyruk)
+
+## Re-upload ack (2026-08-10T10:22:58Z)
+- Aynı 9 docx tekrar yüklendi; whitespace-normalize sonrası içerik **SAME**.
+- Yeni kod yok; v2.13 (`7a9868a`) geçerli.
