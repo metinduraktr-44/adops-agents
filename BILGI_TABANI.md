@@ -131,3 +131,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-10T07:56:06Z] liderlik-sync: tutanak toplantilar/2026-08-10-liderlik.md; açık P0=6, gelir aksiyonu=19.
 ## 2026-08-11T01:13:37Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-11T05:32:36Z] gunluk-operasyon: standup+makale üretildi; nöbet mob/ret/seo; konu amazon-acos-tacos-playbook.
