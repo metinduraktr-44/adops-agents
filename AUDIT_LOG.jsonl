@@ -77,3 +77,4 @@
 {"ts": "2026-08-14T05:51:50Z", "op": "gunluk-operasyon", "onduty": ["cro", "ana", "dsc"], "outputs": ["gundem/2026-08-14-standup.md", "makaleler/2026-08-14-skan-vs-sandbox-attribution.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-15T00:53:39Z","ts_end":"2026-08-15T00:53:39Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-15T04:53:31Z", "op": "gunluk-operasyon", "onduty": ["ana", "dsc", "ops"], "outputs": ["gundem/2026-08-15-standup.md", "makaleler/2026-08-15-pmax-transparency-levers.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-08-16T00:56:10Z","ts_end":"2026-08-16T00:56:10Z","islem":"nightly","denetim":"RUN"}
