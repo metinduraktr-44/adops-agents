@@ -1,5 +1,5 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-08-16T04:56:40Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-08-17T05:04:21Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
 - [ ] v2.1 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
