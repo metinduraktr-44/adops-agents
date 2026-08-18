@@ -160,3 +160,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-17T07:09:02Z] liderlik-sync: tutanak toplantilar/2026-08-17-liderlik.md; açık P0=6, gelir aksiyonu=19.
 ## 2026-08-18T00:52:50Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-18T04:59:15Z] gunluk-operasyon: standup+makale üretildi; nöbet cre/str/cls; konu retail-media-tr-landscape.
