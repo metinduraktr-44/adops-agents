@@ -1167,3 +1167,40 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - `.env.local` GEMINI_API_KEY (gitignore). Client destekliyor: Gemini → OpenRouter → Anthropic.
 - İlk curl PONG; free-tier 429 sonrası iskelet. Anthropic env var var ama bakiye yok.
 - 🚩 chat key → rotate: https://aistudio.google.com/apikey
+## 2026-08-04T01:57:19Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+- [2026-08-04T07:06:34Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu mmm-lite-for-smb.
+## 2026-08-05T01:56:48Z — nightly run
+- [2026-08-05T07:08:29Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu creative-fatigue-signals.
+## 2026-08-06T02:00:19Z — nightly run
+- [2026-08-06T07:10:38Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu consent-mode-v2-pitfalls.
+## 2026-08-07T02:22:20Z — nightly run
+- [2026-08-07T05:55:07Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu claude-code-agents-for-adops.
+## 2026-08-08T01:08:21Z — nightly run
+- [2026-08-08T05:13:19Z] gunluk-operasyon: standup+makale üretildi; nöbet prg/sea/soc; konu dco-feed-architecture.
+## 2026-08-09T01:13:15Z — nightly run
+- [2026-08-09T05:27:38Z] gunluk-operasyon: standup+makale üretildi; nöbet sea/soc/mob; konu incrementality-geo-holdouts.
+## 2026-08-10T01:15:07Z — nightly run
+- [2026-08-10T05:51:48Z] gunluk-operasyon: standup+makale üretildi; nöbet soc/mob/ret; konu sa360-bid-strategy-selection.
+- [2026-08-10T07:56:06Z] liderlik-sync: tutanak toplantilar/2026-08-10-liderlik.md; açık P0=6, gelir aksiyonu=19.
+## 2026-08-11T01:13:37Z — nightly run
+- [2026-08-11T05:32:36Z] gunluk-operasyon: standup+makale üretildi; nöbet mob/ret/seo; konu amazon-acos-tacos-playbook.
+## 2026-08-12T01:21:25Z — nightly run
+- [2026-08-12T05:51:49Z] gunluk-operasyon: standup+makale üretildi; nöbet ret/seo/cro; konu agency-ai-org-design.
+## 2026-08-13T01:22:52Z — nightly run
+- [2026-08-13T05:53:39Z] gunluk-operasyon: standup+makale üretildi; nöbet seo/cro/ana; konu programmatic-supply-path-2026.
+## 2026-08-14T01:22:49Z — nightly run
+- [2026-08-14T05:51:50Z] gunluk-operasyon: standup+makale üretildi; nöbet cro/ana/dsc; konu skan-vs-sandbox-attribution.
+## 2026-08-15T00:53:39Z — nightly run
+- [2026-08-15T04:53:31Z] gunluk-operasyon: standup+makale üretildi; nöbet ana/dsc/ops; konu pmax-transparency-levers.
+## 2026-08-16T00:56:10Z — nightly run
+- [2026-08-16T04:56:40Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu ctv-buying-checklist.
+## 2026-08-17T00:54:02Z — nightly run
+- [2026-08-17T05:04:21Z] gunluk-operasyon: standup+makale üretildi; nöbet ops/cre/str; konu capi-signal-health.
+- [2026-08-17T07:09:02Z] liderlik-sync: tutanak toplantilar/2026-08-17-liderlik.md; açık P0=6, gelir aksiyonu=19.
+## 2026-08-18T00:52:50Z — nightly run
+- [2026-08-18T04:59:15Z] gunluk-operasyon: standup+makale üretildi; nöbet cre/str/cls; konu retail-media-tr-landscape.
+## 2026-08-19T00:53:07Z — nightly run
+- [2026-08-19T04:59:05Z] gunluk-operasyon: standup+makale üretildi; nöbet str/cls/nbd; konu mmm-lite-for-smb.
+## 2026-08-20T00:53:26Z — nightly run
+- [2026-08-20T05:01:00Z] gunluk-operasyon: standup+makale üretildi; nöbet cls/nbd/prt; konu creative-fatigue-signals.
