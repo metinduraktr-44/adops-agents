@@ -1,0 +1,90 @@
+{
+  "ts": "2026-08-04T09:52:37Z",
+  "char_policy": "🚩 Literal 900_000_000_000-char files are refused. Mega = runtime expansion of dense template + layers; effective context is bounded by model window.",
+  "layers": [
+    "CLAUDE.md",
+    "docs/KAPSAM-VE-KIRMIZI-BAYRAKLAR.md",
+    "docs/MASTER-PROMPT-AJANS.md",
+    "data/org.json",
+    "ROLE_CARD:components/agents/agency/**/<slug>.md",
+    "data/title_questions/<dept>.json#<slug>",
+    "data/title_top100_queues.json#<dept>",
+    "data/rol_modelleri.json#<dept>",
+    "data/arsiv/<YYYY-MM>/NOTES.md",
+    "BILGI_TABANI.md (tail)"
+  ],
+  "expanded_samples": [
+    {
+      "id": "T-prg-intake-001",
+      "path": "data/prompt_bank/mega/T-prg-intake-001.md",
+      "dense_chars": 591,
+      "expanded_file_chars": 1232
+    },
+    {
+      "id": "T-prg-diagnose-002",
+      "path": "data/prompt_bank/mega/T-prg-diagnose-002.md",
+      "dense_chars": 611,
+      "expanded_file_chars": 1254
+    },
+    {
+      "id": "T-prg-plan-003",
+      "path": "data/prompt_bank/mega/T-prg-plan-003.md",
+      "dense_chars": 587,
+      "expanded_file_chars": 1226
+    },
+    {
+      "id": "T-prg-execute-004",
+      "path": "data/prompt_bank/mega/T-prg-execute-004.md",
+      "dense_chars": 607,
+      "expanded_file_chars": 1249
+    },
+    {
+      "id": "T-prg-optimize-005",
+      "path": "data/prompt_bank/mega/T-prg-optimize-005.md",
+      "dense_chars": 597,
+      "expanded_file_chars": 1240
+    },
+    {
+      "id": "T-prg-report-006",
+      "path": "data/prompt_bank/mega/T-prg-report-006.md",
+      "dense_chars": 599,
+      "expanded_file_chars": 1240
+    },
+    {
+      "id": "T-sea-intake-007",
+      "path": "data/prompt_bank/mega/T-sea-intake-007.md",
+      "dense_chars": 590,
+      "expanded_file_chars": 1231
+    },
+    {
+      "id": "T-sea-diagnose-008",
+      "path": "data/prompt_bank/mega/T-sea-diagnose-008.md",
+      "dense_chars": 610,
+      "expanded_file_chars": 1253
+    },
+    {
+      "id": "T-sea-plan-009",
+      "path": "data/prompt_bank/mega/T-sea-plan-009.md",
+      "dense_chars": 586,
+      "expanded_file_chars": 1225
+    },
+    {
+      "id": "T-sea-execute-010",
+      "path": "data/prompt_bank/mega/T-sea-execute-010.md",
+      "dense_chars": 606,
+      "expanded_file_chars": 1248
+    },
+    {
+      "id": "T-sea-optimize-011",
+      "path": "data/prompt_bank/mega/T-sea-optimize-011.md",
+      "dense_chars": 596,
+      "expanded_file_chars": 1239
+    },
+    {
+      "id": "T-sea-report-012",
+      "path": "data/prompt_bank/mega/T-sea-report-012.md",
+      "dense_chars": 598,
+      "expanded_file_chars": 1239
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+---
+description: Holding / iştirak / ülke LLM ajansı / web-iOS-Android portföy yönlendirmesi. Use when user mentions holding, OpCo, Permergrowth, VizaTrack, Movea, Cigkoftem, hukuk, country markets.
+globs:
+alwaysApply: false
+---
+
+# Holding Agency Routing
+
+1. Read `data/holding.json` first.
+2. OpCo ladders: `docs/holding/istirakler/<id>.md` (docs-only; do not invent GitHub issues).
+3. Role models ≤5: `data/holding_rol_modelleri.json` (sourced only).
+4. Questions: sample `data/holding_soru_bloklari.json` + central 501 bank — never pad.
+5. Nightly chain: `scripts/nightly_holding_research.py` → `data/arsiv/holding/<CC>/`.
+6. Portfolio: `scripts/holding_report.py`.
+7. Apps blueprint: `docs/HOLDING-WEB-MOBIL-BLUEPRINT.md` (architecture, not fake native code).
+8. K-003: no 900B prompts, no top-100 invention, no secret minting.

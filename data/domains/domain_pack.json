@@ -1,0 +1,747 @@
+{
+  "_meta": {
+    "ts": "2026-08-10T10:10:53Z",
+    "version": "v2.13-domain-pack",
+    "domain_count": 7,
+    "skill_mentions": 103,
+    "policy": "K-003: no 900B prompts; no invented top-100; Domain2 ships reference TF+OTel only until owner creds",
+    "note_tr": "Owner docx paketi → Domain 1–7 mini-ajans + Domain2 infra referansı.",
+    "source": "data/arsiv/domains/2026-08/SOURCE-DIGEST.md"
+  },
+  "alert_policy": {
+    "warn": "Slack #alerts-warnings only (no page)",
+    "critical": "Slack #alerts-critical + PagerDuty Events API v2 page",
+    "auto_resolve": true,
+    "thresholds": {
+      "error_rate_warn": 0.02,
+      "error_rate_critical": 0.05,
+      "spike_per_min": 50
+    }
+  },
+  "domains": [
+    {
+      "id": "d1-infra",
+      "num": 1,
+      "name": "Infrastructure, Kubernetes & Cloud Computing",
+      "c_owner": "holdco-cto",
+      "primary_dept": "inf",
+      "skills": [
+        "setup-linux-host-collection",
+        "setup-linux-host-backend",
+        "setup-k8s-collection",
+        "setup-k8s-backend",
+        "deploy-linux-host-explorer",
+        "deploy-k8s-explorer",
+        "debug-linux-host-collection",
+        "debug-k8s-collection",
+        "azure-kubernetes",
+        "airunway-aks-setup",
+        "aws-step-functions",
+        "aws-serverless-deployment",
+        "aws-lambda",
+        "render-workflows",
+        "cloudflare",
+        "wrangler",
+        "create-infrastructure",
+        "azure-deploy",
+        "azure-compute",
+        "azure-validate",
+        "azure-cost",
+        "azure-rbac",
+        "chaos-experiment",
+        "managing-tls-certificates",
+        "configuring-ip-allowlists",
+        "analyze-costs",
+        "onboard-confidence-dry-run",
+        "audit-report"
+      ],
+      "directives": [
+        "Dry-run before mutate: /onboard-confidence-dry-run + /azure-validate",
+        "K8s crash → /debug-k8s-collection first",
+        "Host IO/mem → /debug-linux-host-collection",
+        "Cost ceiling → /azure-cost + /analyze-costs",
+        "Weekly chaos → /chaos-experiment",
+        "Timestamp every infra action → /audit-report"
+      ],
+      "mcp_hints": [
+        "Azure",
+        "Render",
+        "Cloudflare-docs",
+        "Harness",
+        "Aws-mcp"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d1-infra-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d1-infra-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d1-infra-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d1-infra-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d1-infra-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d1-infra-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d1-infra-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d1-infra-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 28
+    },
+    {
+      "id": "d2-observability",
+      "num": 2,
+      "name": "Telemetry, Observability & Diagnostics",
+      "c_owner": "cto-platform",
+      "primary_dept": "ops",
+      "skills": [
+        "opentelemetry-validation",
+        "opentelemetry-manual-instrumentation",
+        "opentelemetry-auto-instrumentation",
+        "observe-cli",
+        "alert-investigation",
+        "tierzero-investigate",
+        "tierzero-fetch",
+        "sentry-create-alert",
+        "sentry-debug-issue",
+        "kibana-alerting-rules",
+        "observability-service-health",
+        "observability-manage-slos",
+        "observability-logs-search",
+        "observability-llm-obs",
+        "grafana-cloud-mcp-tools",
+        "ddconfig",
+        "ddsetup",
+        "signals-scout-anomaly-detection",
+        "finding-replay-for-issue",
+        "elasticsearch-esql",
+        "configuring-log-export",
+        "pagerduty-mcp-setup"
+      ],
+      "directives": [
+        "Every new service ships with /opentelemetry-auto-instrumentation",
+        "Incident first call: /tierzero-investigate + /alert-investigation",
+        "WARN → Slack only; CRITICAL → Slack + PagerDuty page",
+        "Auto-resolve PD on Datadog/Sentry recovery",
+        "Validate pipelines with /opentelemetry-validation after deploy",
+        "Mask PII via /configuring-log-export"
+      ],
+      "mcp_hints": [
+        "Datadog",
+        "Sentry",
+        "Pagerduty-mcp",
+        "Grafana-cloud",
+        "Tierzero",
+        "Elastic-docs"
+      ],
+      "artifacts": [
+        "infra/observability/terraform/main.tf",
+        "infra/observability/k8s/opentelemetry-collector.yaml"
+      ],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d2-observability-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d2-observability-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d2-observability-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d2-observability-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d2-observability-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d2-observability-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d2-observability-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d2-observability-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 22
+    },
+    {
+      "id": "d3-data",
+      "num": 3,
+      "name": "Data Engineering, Pipelines & Storage",
+      "c_owner": "cdo-data",
+      "primary_dept": "ana",
+      "skills": [
+        "setup-warehouse",
+        "setup-warehouse-snowflake",
+        "setup-warehouse-bigquery",
+        "warehouse-init",
+        "airflow",
+        "debugging-dags",
+        "testing-dags",
+        "dagster-expert",
+        "tracing-upstream-lineage",
+        "tracing-downstream-lineage",
+        "pinecone-query",
+        "scylladb-data-modeling",
+        "mongodb-query-optimizer",
+        "profiling-tables",
+        "building-dbt-semantic-layer",
+        "running-dbt-commands"
+      ],
+      "directives": [
+        "Warehouse via /warehouse-init before loads",
+        "Lineage on every model change",
+        "DAG fail → /debugging-dags then /testing-dags"
+      ],
+      "mcp_hints": [
+        "Snowflake",
+        "Neon",
+        "Mongodb",
+        "Pinecone",
+        "Clickhouse"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d3-data-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d3-data-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d3-data-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d3-data-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d3-data-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d3-data-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d3-data-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d3-data-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 16
+    },
+    {
+      "id": "d4-platform",
+      "num": 4,
+      "name": "Full-Stack Platform, Identity & Frontend UI",
+      "c_owner": "holdco-cto",
+      "primary_dept": "prd",
+      "skills": [
+        "nextjs",
+        "react-best-practices",
+        "encore-api",
+        "encore-auth",
+        "workos",
+        "firebase-auth-basics",
+        "clerk-setup",
+        "convex-quickstart",
+        "gsap-core",
+        "figma-design-to-code"
+      ],
+      "directives": [
+        "Auth before feature: WorkOS/Clerk/Encore auth patterns",
+        "No secrets in client bundles"
+      ],
+      "mcp_hints": [
+        "Convex",
+        "Clerk",
+        "Workos",
+        "Firebase",
+        "Figma"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d4-platform-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d4-platform-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d4-platform-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d4-platform-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d4-platform-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d4-platform-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d4-platform-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d4-platform-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 10
+    },
+    {
+      "id": "d5-comms",
+      "num": 5,
+      "name": "Communications, Engagement & Scrapers",
+      "c_owner": "cmo-brand",
+      "primary_dept": "nbd",
+      "skills": [
+        "twilio-send-message",
+        "twilio-sms-send-message",
+        "twilio-email-send",
+        "twilio-webhook-architecture",
+        "twilio-security-hardening",
+        "apify-actor-development",
+        "bd-scrape",
+        "exa-web-search",
+        "exa-fetch"
+      ],
+      "directives": [
+        "Comms webhooks verified before prod send",
+        "Scrape → archive with timestamp; no PII leakage"
+      ],
+      "mcp_hints": [
+        "Twilio-docs",
+        "Apify",
+        "Bright Data",
+        "Exa",
+        "Slack"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d5-comms-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d5-comms-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d5-comms-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d5-comms-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d5-comms-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d5-comms-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d5-comms-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d5-comms-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 9
+    },
+    {
+      "id": "d6-product-sec-ai",
+      "num": 6,
+      "name": "Product Management, Security & AI/ML Models",
+      "c_owner": "cpo-product",
+      "primary_dept": "prd",
+      "skills": [
+        "write-prd",
+        "update-prd",
+        "check-prd-alignment",
+        "implement-from-prd",
+        "review-security",
+        "auditing-cloud-cluster-security",
+        "manage-feature-flags",
+        "migrate-posthog",
+        "onboard-confidence"
+      ],
+      "directives": [
+        "PRD alignment gate before implement",
+        "Security review on auth/payment paths"
+      ],
+      "mcp_hints": [
+        "ChatPRD",
+        "Posthog",
+        "Sentry",
+        "Braintrust"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d6-product-sec-ai-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d6-product-sec-ai-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d6-product-sec-ai-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d6-product-sec-ai-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d6-product-sec-ai-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d6-product-sec-ai-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d6-product-sec-ai-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d6-product-sec-ai-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 9
+    },
+    {
+      "id": "d7-governance",
+      "num": 7,
+      "name": "Governance, Workflow Automation & Self-Improvement",
+      "c_owner": "ceo-orchestrator",
+      "primary_dept": "yonetim",
+      "skills": [
+        "run-pipeline",
+        "create-pipeline-v1",
+        "dora-metrics",
+        "gitops-status",
+        "manage-slos",
+        "knowledge-update",
+        "deep-research",
+        "audit-report",
+        "manage-pull-requests"
+      ],
+      "directives": [
+        "RFC 3339 timestamp every governance action",
+        "Read prior archive before monthly research refresh",
+        "DORA + SLO reviewed weekly"
+      ],
+      "mcp_hints": [
+        "Harness",
+        "GitHub",
+        "Tierzero",
+        "Linear"
+      ],
+      "artifacts": [],
+      "titles": [
+        {
+          "tier": "CEA",
+          "slug": "d7-governance-cea",
+          "mandate": "CEA owns Domain pack decisions at altitude 0; escalate up, execute down."
+        },
+        {
+          "tier": "CTO",
+          "slug": "d7-governance-cto",
+          "mandate": "CTO owns Domain pack decisions at altitude 1; escalate up, execute down."
+        },
+        {
+          "tier": "EVP",
+          "slug": "d7-governance-evp",
+          "mandate": "EVP owns Domain pack decisions at altitude 2; escalate up, execute down."
+        },
+        {
+          "tier": "Director",
+          "slug": "d7-governance-director",
+          "mandate": "Director owns Domain pack decisions at altitude 3; escalate up, execute down."
+        },
+        {
+          "tier": "Lead",
+          "slug": "d7-governance-lead",
+          "mandate": "Lead owns Domain pack decisions at altitude 4; escalate up, execute down."
+        },
+        {
+          "tier": "Senior",
+          "slug": "d7-governance-senior",
+          "mandate": "Senior owns Domain pack decisions at altitude 5; escalate up, execute down."
+        },
+        {
+          "tier": "Analyst",
+          "slug": "d7-governance-analyst",
+          "mandate": "Analyst owns Domain pack decisions at altitude 6; escalate up, execute down."
+        },
+        {
+          "tier": "Worker",
+          "slug": "d7-governance-worker",
+          "mandate": "Worker owns Domain pack decisions at altitude 7; escalate up, execute down."
+        }
+      ],
+      "workflows": {
+        "realtime": [
+          "alert-investigation",
+          "tierzero-investigate",
+          "opentelemetry-validation"
+        ],
+        "daily": [
+          "observability-service-health",
+          "debug-k8s-collection",
+          "gitops-status"
+        ],
+        "weekly": [
+          "review-security",
+          "chaos-experiment",
+          "dora-metrics"
+        ],
+        "monthly": [
+          "deep-research",
+          "knowledge-update",
+          "analyze-costs",
+          "audit-report"
+        ]
+      },
+      "skill_count": 9
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ts": "2026-08-04T09:52:37Z",
+  "policy": "≥500 questions per title slug; NOT embedded in agent MD cards (K-003)",
+  "titles": 600,
+  "min_q": 500,
+  "max_q": 500,
+  "files": [
+    "data/title_questions/yonetim.json",
+    "data/title_questions/prg.json",
+    "data/title_questions/sea.json",
+    "data/title_questions/soc.json",
+    "data/title_questions/mob.json",
+    "data/title_questions/ret.json",
+    "data/title_questions/seo.json",
+    "data/title_questions/cro.json",
+    "data/title_questions/ana.json",
+    "data/title_questions/dsc.json",
+    "data/title_questions/ops.json",
+    "data/title_questions/cre.json",
+    "data/title_questions/str.json",
+    "data/title_questions/cls.json",
+    "data/title_questions/nbd.json",
+    "data/title_questions/prt.json",
+    "data/title_questions/prd.json",
+    "data/title_questions/fin.json",
+    "data/title_questions/leg.json",
+    "data/title_questions/tal.json",
+    "data/title_questions/inf.json"
+  ]
+}

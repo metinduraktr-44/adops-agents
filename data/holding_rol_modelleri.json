@@ -1,0 +1,196 @@
+{
+  "_note": "Holding OpCo top models (≤5). Sourced only. Damga: 2026-08-04T09:52:36Z",
+  "adops-agents": {
+    "discipline_map": "data/rol_modelleri.json",
+    "note": "Uses existing 20-dept role models"
+  },
+  "permergrowth": [
+    [
+      "Blair Enns",
+      "Win Without Pitching",
+      "https://www.winwithoutpitching.com/about/"
+    ],
+    [
+      "Les Binet",
+      "60/40 effectiveness",
+      "https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field"
+    ],
+    [
+      "Byron Sharp",
+      "How Brands Grow",
+      "https://marketingscience.info/staff/professor-byron-sharp"
+    ],
+    [
+      "Mark Ritson",
+      "Mini MBA",
+      "https://minimba.com/markritson/"
+    ],
+    [
+      "Avinash Kaushik",
+      "Web Analytics 2.0",
+      "https://www.kaushik.net/avinash/"
+    ]
+  ],
+  "vizatrack": [
+    [
+      "Ann Cavoukian",
+      "Privacy by Design",
+      "https://en.wikipedia.org/wiki/Ann_Cavoukian"
+    ],
+    [
+      "Daniel J. Solove",
+      "Privacy law",
+      "https://www.danielsolove.com/"
+    ],
+    [
+      "Max Schrems",
+      "noyb / GDPR enforcement",
+      "https://en.wikipedia.org/wiki/Max_Schrems"
+    ],
+    [
+      "Chip Huyen",
+      "ML/product systems",
+      "https://huyenchip.com/"
+    ],
+    [
+      "Guillermo Rauch",
+      "DX / shipping",
+      "https://www.linkedin.com/in/guillermo-rauch-51a852208/"
+    ]
+  ],
+  "movea": [
+    [
+      "Byron Sharp",
+      "Mental/physical availability",
+      "https://marketingscience.info/staff/professor-byron-sharp"
+    ],
+    [
+      "Les Binet",
+      "Brand+activation",
+      "https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field"
+    ],
+    [
+      "Eric Seufert",
+      "Mobile UA economics",
+      "https://mobiledevmemo.com/"
+    ],
+    [
+      "Peep Laja",
+      "CRO discipline",
+      "https://peeplaja.com/"
+    ],
+    [
+      "Rory Sutherland",
+      "Behavioral creative",
+      "https://en.wikipedia.org/wiki/Rory_Sutherland_(advertising_executive)"
+    ]
+  ],
+  "cigkoftem": [
+    [
+      "Byron Sharp",
+      "Category entry points",
+      "https://marketingscience.info/staff/professor-byron-sharp"
+    ],
+    [
+      "Mark Ritson",
+      "Brand positioning",
+      "https://minimba.com/markritson/"
+    ],
+    [
+      "Orlando Wood",
+      "System1 creative",
+      "https://system1group.com/lemon"
+    ],
+    [
+      "Peter Fader",
+      "CLV / loyalty",
+      "https://marketing.wharton.upenn.edu/profile/faderp/"
+    ],
+    [
+      "Jenny Plant",
+      "Client/account ops transfer",
+      "https://www.accountmanagementskills.com/"
+    ]
+  ],
+  "hukuk": [
+    [
+      "Daniel J. Solove",
+      "Privacy",
+      "https://www.danielsolove.com/"
+    ],
+    [
+      "Ann Cavoukian",
+      "PbD",
+      "https://en.wikipedia.org/wiki/Ann_Cavoukian"
+    ],
+    [
+      "Max Schrems",
+      "Enforcement",
+      "https://en.wikipedia.org/wiki/Max_Schrems"
+    ],
+    [
+      "Rebecca Tushnet",
+      "Advertising law",
+      "https://hls.harvard.edu/faculty/rebecca-tushnet/"
+    ],
+    [
+      "Kin Lane",
+      "API governance mindset",
+      "https://apievangelist.com/"
+    ]
+  ],
+  "platform-shared": [
+    [
+      "Charity Majors",
+      "Observability",
+      "https://charity.wtf/about"
+    ],
+    [
+      "Chip Huyen",
+      "ML systems",
+      "https://huyenchip.com/"
+    ],
+    [
+      "Simon Willison",
+      "LLM ops / injection",
+      "https://simonwillison.net/"
+    ],
+    [
+      "Hamel Husain",
+      "Evals",
+      "https://hamel.dev/blog/posts/evals/"
+    ],
+    [
+      "Guillermo Rauch",
+      "Platform DX",
+      "https://www.linkedin.com/in/guillermo-rauch-51a852208/"
+    ]
+  ],
+  "country_agencies": [
+    [
+      "Mark Ritson",
+      "Market localization",
+      "https://minimba.com/markritson/"
+    ],
+    [
+      "Les Binet",
+      "Effectiveness by market",
+      "https://ipa.co.uk/knowledge/effectiveness-research-analysis/les-binet-peter-field"
+    ],
+    [
+      "Aleyda Solis",
+      "Intl SEO",
+      "https://www.aleydasolis.com/en/"
+    ],
+    [
+      "Ann Cavoukian",
+      "Cross-border privacy",
+      "https://en.wikipedia.org/wiki/Ann_Cavoukian"
+    ],
+    [
+      "Blair Enns",
+      "Pricing/positioning by geo",
+      "https://www.winwithoutpitching.com/about/"
+    ]
+  ]
+}

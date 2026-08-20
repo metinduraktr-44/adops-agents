@@ -1,0 +1,22 @@
+name: domain-observability-pack
+# TR: Domain 1–7 pack yenile + validate (referans IaC; canlı apply yok)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 4 1 * *"  # aylık
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build domain pack
+        run: python3 scripts/build_domain_observability_pack.py
+      - name: Validate
+        run: python3 scripts/validate.py
+      - name: Stamp note
+        run: |
+          TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          echo "- [$TS] domain-observability-pack workflow" >> BILGI_TABANI.md

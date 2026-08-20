@@ -1,0 +1,1210 @@
+{
+  "ts": "2026-08-04T09:52:36Z",
+  "version": "2.10",
+  "name": "Performance Growth Holding",
+  "name_tr": "Performans Büyüme Holding",
+  "owner": "Metin Durak",
+  "charter": "House of brands + shared platform; HoldCo allocates capital/risk; OpCos execute.",
+  "c_level": [
+    {
+      "slug": "holdco-ceo",
+      "title": "HoldCo CEO",
+      "reports_to": "Metin Durak (Owner)"
+    },
+    {
+      "slug": "holdco-coo",
+      "title": "HoldCo COO — Portfolio Ops",
+      "reports_to": "holdco-ceo"
+    },
+    {
+      "slug": "holdco-cfo",
+      "title": "HoldCo CFO — Capital & Risk",
+      "reports_to": "holdco-ceo"
+    },
+    {
+      "slug": "holdco-clo",
+      "title": "HoldCo CLO — Legal Ring-fence",
+      "reports_to": "holdco-ceo"
+    },
+    {
+      "slug": "holdco-cto",
+      "title": "HoldCo CTO — Shared Platform",
+      "reports_to": "holdco-ceo"
+    },
+    {
+      "slug": "holdco-cdo",
+      "title": "HoldCo CDO — Data & Privacy",
+      "reports_to": "holdco-ceo"
+    }
+  ],
+  "tiers": [
+    "C-LEVEL",
+    "EVP",
+    "DIRECTOR",
+    "LEAD",
+    "SPECIALIST",
+    "ANALYST"
+  ],
+  "subsidiaries": [
+    {
+      "id": "adops-agents",
+      "name": "AdOps Agents",
+      "tr": "Performans pazarlama Claude Code ajansı",
+      "type": "opco_platform",
+      "repo": "metinduraktr-44/adops-agents",
+      "org_source": "data/org.json",
+      "headcount_roles": 600,
+      "mandate": "LLM agency for performance marketing delivery; 20 depts; 7/24 cron",
+      "reports_to_holdco": "holdco-coo",
+      "ladder": "uses full data/org.json (600)",
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web_admin",
+        "cli",
+        "github"
+      ],
+      "kpis": [
+        "CI green ≥99%",
+        "Agent eval ≥95%",
+        "Inbound path live"
+      ]
+    },
+    {
+      "id": "permergrowth",
+      "name": "Permergrowth",
+      "tr": "Performans büyüme holding iştiraki (aynı org deseni)",
+      "type": "opco_agency",
+      "repo": "planned/permergrowth",
+      "org_source": "docs/holding/istirakler/permergrowth.md",
+      "headcount_roles": 48,
+      "mandate": "Client-facing performance growth; mirrors AdOps ladder at smaller scale",
+      "reports_to_holdco": "holdco-coo",
+      "ladder": [
+        {
+          "slug": "pg-ceo",
+          "title": "CEO — performance-growth",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "pg-evp-performance-growth",
+          "title": "EVP, performance-growth",
+          "tier": "EVP",
+          "reports_to": "pg-ceo"
+        },
+        {
+          "slug": "pg-dir-ops",
+          "title": "Director, Operations — performance-growth",
+          "tier": "DIRECTOR",
+          "reports_to": "pg-evp-performance-growth"
+        },
+        {
+          "slug": "pg-lead-delivery",
+          "title": "Lead, Delivery — performance-growth",
+          "tier": "LEAD",
+          "reports_to": "pg-dir-ops"
+        },
+        {
+          "slug": "pg-spec-core",
+          "title": "Specialist, Core — performance-growth",
+          "tier": "SPECIALIST",
+          "reports_to": "pg-lead-delivery"
+        },
+        {
+          "slug": "pg-analyst-metrics",
+          "title": "Analyst, Metrics — performance-growth",
+          "tier": "ANALYST",
+          "reports_to": "pg-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "kpis": [
+        "Client CPA vs plan",
+        "Report SLA 100%",
+        "Churn risk ≥14d early"
+      ]
+    },
+    {
+      "id": "vizatrack",
+      "name": "VizaTrack",
+      "tr": "Vize / başvuru takip ürünü",
+      "type": "opco_product",
+      "repo": "planned/vizatrack",
+      "org_source": "docs/holding/istirakler/vizatrack.md",
+      "headcount_roles": 34,
+      "mandate": "Case tracking, document readiness, status notifications",
+      "reports_to_holdco": "holdco-cto",
+      "ladder": [
+        {
+          "slug": "vt-ceo",
+          "title": "CEO — vizatrack",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "vt-evp-vizatrack",
+          "title": "EVP, vizatrack",
+          "tier": "EVP",
+          "reports_to": "vt-ceo"
+        },
+        {
+          "slug": "vt-dir-ops",
+          "title": "Director, Operations — vizatrack",
+          "tier": "DIRECTOR",
+          "reports_to": "vt-evp-vizatrack"
+        },
+        {
+          "slug": "vt-lead-delivery",
+          "title": "Lead, Delivery — vizatrack",
+          "tier": "LEAD",
+          "reports_to": "vt-dir-ops"
+        },
+        {
+          "slug": "vt-spec-core",
+          "title": "Specialist, Core — vizatrack",
+          "tier": "SPECIALIST",
+          "reports_to": "vt-lead-delivery"
+        },
+        {
+          "slug": "vt-analyst-metrics",
+          "title": "Analyst, Metrics — vizatrack",
+          "tier": "ANALYST",
+          "reports_to": "vt-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "kpis": [
+        "Case SLA",
+        "Doc completeness ≥95%",
+        "Push delivery ≥99%"
+      ]
+    },
+    {
+      "id": "movea",
+      "name": "Movea",
+      "tr": "Mobilite / seyahat markası",
+      "type": "opco_brand",
+      "repo": "planned/movea",
+      "org_source": "docs/holding/istirakler/movea.md",
+      "headcount_roles": 34,
+      "mandate": "Brand + booking funnel + paid acquisition",
+      "reports_to_holdco": "holdco-coo",
+      "ladder": [
+        {
+          "slug": "mv-ceo",
+          "title": "CEO — movea",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "mv-evp-movea",
+          "title": "EVP, movea",
+          "tier": "EVP",
+          "reports_to": "mv-ceo"
+        },
+        {
+          "slug": "mv-dir-ops",
+          "title": "Director, Operations — movea",
+          "tier": "DIRECTOR",
+          "reports_to": "mv-evp-movea"
+        },
+        {
+          "slug": "mv-lead-delivery",
+          "title": "Lead, Delivery — movea",
+          "tier": "LEAD",
+          "reports_to": "mv-dir-ops"
+        },
+        {
+          "slug": "mv-spec-core",
+          "title": "Specialist, Core — movea",
+          "tier": "SPECIALIST",
+          "reports_to": "mv-lead-delivery"
+        },
+        {
+          "slug": "mv-analyst-metrics",
+          "title": "Analyst, Metrics — movea",
+          "tier": "ANALYST",
+          "reports_to": "mv-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "kpis": [
+        "Bookings vs plan",
+        "CAC payback",
+        "App store rating ≥4.5"
+      ]
+    },
+    {
+      "id": "cigkoftem",
+      "name": "Cigkoftem",
+      "tr": "QSR / F&B markası",
+      "type": "opco_brand",
+      "repo": "planned/cigkoftem",
+      "org_source": "docs/holding/istirakler/cigkoftem.md",
+      "headcount_roles": 29,
+      "mandate": "Franchise ops + local demand gen + loyalty",
+      "reports_to_holdco": "holdco-coo",
+      "ladder": [
+        {
+          "slug": "ck-ceo",
+          "title": "CEO — cigkoftem",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "ck-evp-cigkoftem",
+          "title": "EVP, cigkoftem",
+          "tier": "EVP",
+          "reports_to": "ck-ceo"
+        },
+        {
+          "slug": "ck-dir-ops",
+          "title": "Director, Operations — cigkoftem",
+          "tier": "DIRECTOR",
+          "reports_to": "ck-evp-cigkoftem"
+        },
+        {
+          "slug": "ck-lead-delivery",
+          "title": "Lead, Delivery — cigkoftem",
+          "tier": "LEAD",
+          "reports_to": "ck-dir-ops"
+        },
+        {
+          "slug": "ck-spec-core",
+          "title": "Specialist, Core — cigkoftem",
+          "tier": "SPECIALIST",
+          "reports_to": "ck-lead-delivery"
+        },
+        {
+          "slug": "ck-analyst-metrics",
+          "title": "Analyst, Metrics — cigkoftem",
+          "tier": "ANALYST",
+          "reports_to": "ck-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "kpis": [
+        "Same-store sales",
+        "Loyalty MAU",
+        "Delivery partner SLA"
+      ]
+    },
+    {
+      "id": "hukuk",
+      "name": "Hukuk OpCo",
+      "tr": "Grup hukuk / KVKK / reklam politikası",
+      "type": "shared_service",
+      "repo": "planned/hukuk",
+      "org_source": "docs/holding/istirakler/hukuk.md",
+      "headcount_roles": 18,
+      "mandate": "Ring-fence, privacy, ad policy, contracts across OpCos",
+      "reports_to_holdco": "holdco-clo",
+      "ladder": [
+        {
+          "slug": "hk-ceo",
+          "title": "CEO — legal-compliance",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "hk-evp-legal-compliance",
+          "title": "EVP, legal-compliance",
+          "tier": "EVP",
+          "reports_to": "hk-ceo"
+        },
+        {
+          "slug": "hk-dir-ops",
+          "title": "Director, Operations — legal-compliance",
+          "tier": "DIRECTOR",
+          "reports_to": "hk-evp-legal-compliance"
+        },
+        {
+          "slug": "hk-lead-delivery",
+          "title": "Lead, Delivery — legal-compliance",
+          "tier": "LEAD",
+          "reports_to": "hk-dir-ops"
+        },
+        {
+          "slug": "hk-spec-core",
+          "title": "Specialist, Core — legal-compliance",
+          "tier": "SPECIALIST",
+          "reports_to": "hk-lead-delivery"
+        },
+        {
+          "slug": "hk-analyst-metrics",
+          "title": "Analyst, Metrics — legal-compliance",
+          "tier": "ANALYST",
+          "reports_to": "hk-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "web_admin"
+      ],
+      "kpis": [
+        "0 violations",
+        "Policy answers ≤24h",
+        "100% contracts screened"
+      ]
+    },
+    {
+      "id": "platform-shared",
+      "name": "Shared Platform",
+      "tr": "Kimlik, bildirim, analitik, CI ortak katmanı",
+      "type": "shared_service",
+      "repo": "planned/platform-shared",
+      "org_source": "docs/holding/istirakler/platform-shared.md",
+      "headcount_roles": 22,
+      "mandate": "Auth, feature flags, observability, mobile CI for all apps",
+      "reports_to_holdco": "holdco-cto",
+      "ladder": [
+        {
+          "slug": "pl-ceo",
+          "title": "CEO — shared-platform",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "pl-evp-shared-platform",
+          "title": "EVP, shared-platform",
+          "tier": "EVP",
+          "reports_to": "pl-ceo"
+        },
+        {
+          "slug": "pl-dir-ops",
+          "title": "Director, Operations — shared-platform",
+          "tier": "DIRECTOR",
+          "reports_to": "pl-evp-shared-platform"
+        },
+        {
+          "slug": "pl-lead-delivery",
+          "title": "Lead, Delivery — shared-platform",
+          "tier": "LEAD",
+          "reports_to": "pl-dir-ops"
+        },
+        {
+          "slug": "pl-spec-core",
+          "title": "Specialist, Core — shared-platform",
+          "tier": "SPECIALIST",
+          "reports_to": "pl-lead-delivery"
+        },
+        {
+          "slug": "pl-analyst-metrics",
+          "title": "Analyst, Metrics — shared-platform",
+          "tier": "ANALYST",
+          "reports_to": "pl-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review"
+        ]
+      },
+      "surfaces": [
+        "api",
+        "web_admin"
+      ],
+      "kpis": [
+        "Uptime ≥99.9%",
+        "MTTR ≤30m",
+        "0 secret leaks"
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "code": "TR",
+      "role": "home",
+      "name": "Türkiye",
+      "language": [
+        "tr"
+      ],
+      "law": [
+        "KVKK",
+        "Ticaret Kanunu",
+        "RTÜK reklam"
+      ],
+      "priority": 1,
+      "agency": "country-tr-llm"
+    },
+    {
+      "code": "DE",
+      "role": "target",
+      "name": "Almanya",
+      "language": [
+        "de",
+        "en"
+      ],
+      "law": [
+        "GDPR",
+        "UWG"
+      ],
+      "priority": 2,
+      "agency": "country-de-llm"
+    },
+    {
+      "code": "GB",
+      "role": "target",
+      "name": "Birleşik Krallık",
+      "language": [
+        "en"
+      ],
+      "law": [
+        "UK GDPR",
+        "ASA CAP"
+      ],
+      "priority": 3,
+      "agency": "country-gb-llm"
+    },
+    {
+      "code": "US",
+      "role": "target",
+      "name": "Amerika Birleşik Devletleri",
+      "language": [
+        "en"
+      ],
+      "law": [
+        "CCPA/CPRA",
+        "FTC ad rules"
+      ],
+      "priority": 4,
+      "agency": "country-us-llm"
+    },
+    {
+      "code": "AE",
+      "role": "target",
+      "name": "Birleşik Arap Emirlikleri",
+      "language": [
+        "ar",
+        "en"
+      ],
+      "law": [
+        "PDPL UAE",
+        "local ad permits"
+      ],
+      "priority": 5,
+      "agency": "country-ae-llm"
+    },
+    {
+      "code": "NL",
+      "role": "market",
+      "name": "Hollanda",
+      "language": [
+        "nl",
+        "en"
+      ],
+      "law": [
+        "GDPR",
+        "ACM"
+      ],
+      "priority": 6,
+      "agency": "country-nl-llm"
+    }
+  ],
+  "country_agencies": [
+    {
+      "id": "country-tr-llm",
+      "country": "TR",
+      "mandate": "7/24 LLM agency for Türkiye: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-tr-ceo",
+          "title": "CEO — country-tr",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-tr-evp-country-tr",
+          "title": "EVP, country-tr",
+          "tier": "EVP",
+          "reports_to": "cty-tr-ceo"
+        },
+        {
+          "slug": "cty-tr-dir-ops",
+          "title": "Director, Operations — country-tr",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-tr-evp-country-tr"
+        },
+        {
+          "slug": "cty-tr-lead-delivery",
+          "title": "Lead, Delivery — country-tr",
+          "tier": "LEAD",
+          "reports_to": "cty-tr-dir-ops"
+        },
+        {
+          "slug": "cty-tr-spec-core",
+          "title": "Specialist, Core — country-tr",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-tr-lead-delivery"
+        },
+        {
+          "slug": "cty-tr-analyst-metrics",
+          "title": "Analyst, Metrics — country-tr",
+          "tier": "ANALYST",
+          "reports_to": "cty-tr-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/TR/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    },
+    {
+      "id": "country-de-llm",
+      "country": "DE",
+      "mandate": "7/24 LLM agency for Almanya: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-de-ceo",
+          "title": "CEO — country-de",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-de-evp-country-de",
+          "title": "EVP, country-de",
+          "tier": "EVP",
+          "reports_to": "cty-de-ceo"
+        },
+        {
+          "slug": "cty-de-dir-ops",
+          "title": "Director, Operations — country-de",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-de-evp-country-de"
+        },
+        {
+          "slug": "cty-de-lead-delivery",
+          "title": "Lead, Delivery — country-de",
+          "tier": "LEAD",
+          "reports_to": "cty-de-dir-ops"
+        },
+        {
+          "slug": "cty-de-spec-core",
+          "title": "Specialist, Core — country-de",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-de-lead-delivery"
+        },
+        {
+          "slug": "cty-de-analyst-metrics",
+          "title": "Analyst, Metrics — country-de",
+          "tier": "ANALYST",
+          "reports_to": "cty-de-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/DE/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    },
+    {
+      "id": "country-gb-llm",
+      "country": "GB",
+      "mandate": "7/24 LLM agency for Birleşik Krallık: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-gb-ceo",
+          "title": "CEO — country-gb",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-gb-evp-country-gb",
+          "title": "EVP, country-gb",
+          "tier": "EVP",
+          "reports_to": "cty-gb-ceo"
+        },
+        {
+          "slug": "cty-gb-dir-ops",
+          "title": "Director, Operations — country-gb",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-gb-evp-country-gb"
+        },
+        {
+          "slug": "cty-gb-lead-delivery",
+          "title": "Lead, Delivery — country-gb",
+          "tier": "LEAD",
+          "reports_to": "cty-gb-dir-ops"
+        },
+        {
+          "slug": "cty-gb-spec-core",
+          "title": "Specialist, Core — country-gb",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-gb-lead-delivery"
+        },
+        {
+          "slug": "cty-gb-analyst-metrics",
+          "title": "Analyst, Metrics — country-gb",
+          "tier": "ANALYST",
+          "reports_to": "cty-gb-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/GB/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    },
+    {
+      "id": "country-us-llm",
+      "country": "US",
+      "mandate": "7/24 LLM agency for Amerika Birleşik Devletleri: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-us-ceo",
+          "title": "CEO — country-us",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-us-evp-country-us",
+          "title": "EVP, country-us",
+          "tier": "EVP",
+          "reports_to": "cty-us-ceo"
+        },
+        {
+          "slug": "cty-us-dir-ops",
+          "title": "Director, Operations — country-us",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-us-evp-country-us"
+        },
+        {
+          "slug": "cty-us-lead-delivery",
+          "title": "Lead, Delivery — country-us",
+          "tier": "LEAD",
+          "reports_to": "cty-us-dir-ops"
+        },
+        {
+          "slug": "cty-us-spec-core",
+          "title": "Specialist, Core — country-us",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-us-lead-delivery"
+        },
+        {
+          "slug": "cty-us-analyst-metrics",
+          "title": "Analyst, Metrics — country-us",
+          "tier": "ANALYST",
+          "reports_to": "cty-us-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/US/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    },
+    {
+      "id": "country-ae-llm",
+      "country": "AE",
+      "mandate": "7/24 LLM agency for Birleşik Arap Emirlikleri: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-ae-ceo",
+          "title": "CEO — country-ae",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-ae-evp-country-ae",
+          "title": "EVP, country-ae",
+          "tier": "EVP",
+          "reports_to": "cty-ae-ceo"
+        },
+        {
+          "slug": "cty-ae-dir-ops",
+          "title": "Director, Operations — country-ae",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-ae-evp-country-ae"
+        },
+        {
+          "slug": "cty-ae-lead-delivery",
+          "title": "Lead, Delivery — country-ae",
+          "tier": "LEAD",
+          "reports_to": "cty-ae-dir-ops"
+        },
+        {
+          "slug": "cty-ae-spec-core",
+          "title": "Specialist, Core — country-ae",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-ae-lead-delivery"
+        },
+        {
+          "slug": "cty-ae-analyst-metrics",
+          "title": "Analyst, Metrics — country-ae",
+          "tier": "ANALYST",
+          "reports_to": "cty-ae-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/AE/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    },
+    {
+      "id": "country-nl-llm",
+      "country": "NL",
+      "mandate": "7/24 LLM agency for Hollanda: localize playbooks, law, creatives, meetings",
+      "ladder": [
+        {
+          "slug": "cty-nl-ceo",
+          "title": "CEO — country-nl",
+          "tier": "C-LEVEL",
+          "reports_to": "holdco-ceo"
+        },
+        {
+          "slug": "cty-nl-evp-country-nl",
+          "title": "EVP, country-nl",
+          "tier": "EVP",
+          "reports_to": "cty-nl-ceo"
+        },
+        {
+          "slug": "cty-nl-dir-ops",
+          "title": "Director, Operations — country-nl",
+          "tier": "DIRECTOR",
+          "reports_to": "cty-nl-evp-country-nl"
+        },
+        {
+          "slug": "cty-nl-lead-delivery",
+          "title": "Lead, Delivery — country-nl",
+          "tier": "LEAD",
+          "reports_to": "cty-nl-dir-ops"
+        },
+        {
+          "slug": "cty-nl-spec-core",
+          "title": "Specialist, Core — country-nl",
+          "tier": "SPECIALIST",
+          "reports_to": "cty-nl-lead-delivery"
+        },
+        {
+          "slug": "cty-nl-analyst-metrics",
+          "title": "Analyst, Metrics — country-nl",
+          "tier": "ANALYST",
+          "reports_to": "cty-nl-lead-delivery"
+        }
+      ],
+      "workflows": {
+        "personal": [
+          "daily_standup_line",
+          "todo_queue_from_IS_LISTESI",
+          "education_module_monthly",
+          "self_inquiry_sample_8",
+          "upward_report_weekly",
+          "downward_assign_daily",
+          "lateral_dependency_ping",
+          "roadmap_slice_own_OKRs"
+        ],
+        "group": [
+          "dept_weekly_sync",
+          "cross_sub_dependency_board",
+          "monthly_board_score",
+          "incident_war_room",
+          "release_train_comms",
+          "country_localization_review",
+          "nightly_market_research",
+          "top5_competitor_scan",
+          "locale_qa"
+        ]
+      },
+      "nightly": {
+        "read_archive": "data/arsiv/holding/NL/",
+        "research": [
+          "competitors_top5",
+          "regulation_delta",
+          "channel_benchmarks"
+        ],
+        "stamp": true,
+        "write_back": true
+      }
+    }
+  ],
+  "apps": {
+    "web": {
+      "stack_hint": [
+        "Next.js",
+        "Vercel",
+        "Clerk/WorkOS auth via HoldCo platform"
+      ],
+      "surfaces": [
+        "holdco_console",
+        "opco_dashboards",
+        "public_marketing"
+      ],
+      "owners": [
+        "holdco-cto",
+        "platform-shared"
+      ]
+    },
+    "ios": {
+      "stack_hint": [
+        "SwiftUI",
+        "TestFlight",
+        "shared API"
+      ],
+      "surfaces": [
+        "vizatrack",
+        "movea",
+        "cigkoftem",
+        "permergrowth_client"
+      ],
+      "owners": [
+        "holdco-cto",
+        "each OpCo product lead"
+      ]
+    },
+    "android": {
+      "stack_hint": [
+        "Kotlin",
+        "Play Console",
+        "shared API"
+      ],
+      "surfaces": [
+        "vizatrack",
+        "movea",
+        "cigkoftem",
+        "permergrowth_client"
+      ],
+      "owners": [
+        "holdco-cto",
+        "each OpCo product lead"
+      ]
+    }
+  },
+  "governance": {
+    "model": "holding_company_portfolio",
+    "sources": [
+      "https://umbrex.com/resources/corporate-strategy-playbook/designing-the-role-of-the-corporate-center/",
+      "https://www.diligent.com/resources/blog/what-is-a-holding-company",
+      "https://ctacquisitions.com/how-to-build-holdco-from-your-existing-business/"
+    ],
+    "holdco_owns": [
+      "capital_allocation",
+      "portfolio_entry_exit",
+      "major_risk",
+      "shared_platform_investment",
+      "c_level_appointments"
+    ],
+    "opco_owns": [
+      "competitive_strategy",
+      "day_to_day_ops",
+      "hiring_within_budget",
+      "product_roadmap_within_envelope"
+    ],
+    "raci_escalation": {
+      "budget_policy": "holdco-cfo + holdco-clo",
+      "security": "holdco-cto + cco-compliance (adops)",
+      "impossible_target": "🚩 [ne]·[neden]·[alternatif]"
+    },
+    "meeting_cadence": {
+      "daily": "OpCo standups → gundem/",
+      "weekly": "HoldCo portfolio sync (Mon)",
+      "monthly": "Board score + country research rollup",
+      "nightly": "country + holding research archive loop"
+    }
+  },
+  "links": {
+    "org_adops": "data/org.json",
+    "questions": "data/soru_bankasi.json",
+    "role_models": "data/rol_modelleri.json",
+    "holding_role_models": "data/holding_rol_modelleri.json",
+    "holding_questions": "data/holding_soru_bloklari.json",
+    "blueprint": "docs/HOLDING-WEB-MOBIL-BLUEPRINT.md",
+    "architecture": "docs/HOLDING-MIMARI.md"
+  },
+  "red_flags": [
+    "Do not invent 900B-char prompts",
+    "Do not invent top-100 people per title",
+    "Do not embed 500 unique questions per title card",
+    "Do not mint third-party API keys without owner account"
+  ]
+}

@@ -1,0 +1,24 @@
+name: holding-konsolide
+on:
+  schedule:
+    - cron: "15 7 * * 1-5"  # weekdays ~10:15 TRT
+  workflow_dispatch:
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ensure holding pack
+        run: python3 scripts/build_holding_pack.py
+      - name: Portfolio report
+        run: python3 scripts/holding_report.py
+      - name: Commit if dirty
+        run: |
+          git config user.name "adops-bots"
+          git config user.email "bots@adops-agents.local"
+          git add gundem/*-holding-portfoy.md AUDIT_LOG.jsonl data/holding.json docs/HOLDING-MIMARI.md docs/holding || true
+          git diff --cached --quiet || git commit -m "holding-konsolide: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push || true

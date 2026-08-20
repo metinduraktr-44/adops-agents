@@ -1,21 +1,22 @@
 ---
-title: Sa360 Bid Strategy Selection (iskelet — LLM anahtarı bekleniyor)
+title: Sa360 Bid Strategy Selection (iskelet — Gemini kota)
 date: 2026-08-10
-source: daily-ops deterministic
+source: daily-ops deterministic (gemini key set; free-tier 429)
 ---
 # Sa360 Bid Strategy Selection
-> İskelet üretim (2026-08-10T05:51:48Z). ANTHROPIC_API_KEY secret'ı eklendiğinde bu slot tam makale ile dolar.
+> İskelet (2026-08-10). `GEMINI_API_KEY` bağlı ve ilk ping **PONG** verdi; free-tier kota (429) dolunca tam makale yazılamadı.
+> Kota reset / billing sonrası: `FORCE_LLM_ARTICLE=1 python3 scripts/daily_ops.py`
 
 ## Neden şimdi
-sa360 bid strategy selection — Ücretli Sosyal hattının bu haftaki odağıyla kesişiyor.
+SA360 bid strategy selection — günlük rotasyon konusu.
 
 ## Taktik iskeleti
-1. Mevcut durum kesiti (Thumbstop/hook rate on target)
-2. En yüksek etkili kaldıraç + metrik gerekçesi
-3. Tuzaklar / 🚩 sınırları
+1. Mevcut durum kesiti
+2. En yüksek etkili kaldıraç + metrik
+3. Tuzaklar / 🚩
 4. Kontrol listesi
 
 ## TR Özet
-Konu rotasyondan otomatik seçildi; LLM anahtarı gelince tam üretime döner. Döngü kırılmadı.
+Gemini wire tamam; kota açılınca tam üretim.
 
-*CTA: Open-source AdOps Agents pack → github.com/metinduraktr-44/adops-agents*
+*CTA: github.com/metinduraktr-44/adops-agents*

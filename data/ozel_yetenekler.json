@@ -1,0 +1,2939 @@
+{
+  "_meta": {
+    "ts": "2026-08-03T15:48:54Z",
+    "count": 132,
+    "policy": "K-003: ≤5 sourced role models per skill; empty allowed; no invented people/URLs",
+    "research_note_tr": "Kültür/sanat/spor craft'ları ajans kreatifi + operasyonuna transfer edilebilir mekanizma olarak kodlandı."
+  },
+  "skills": [
+    {
+      "id": "visual-composition",
+      "domain": "arts",
+      "title": "Visual composition & hierarchy",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Figure-ground, contrast, alignment → ad frame readability",
+      "role_models": [
+        {
+          "name": "Josef Albers",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ellen Lupton",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Edward Tufte",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "color-systems",
+      "domain": "arts",
+      "title": "Color systems & brand palettes",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hue/value/chroma + accessibility contrast for performance creative",
+      "role_models": [
+        {
+          "name": "Josef Albers",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Johannes Itten",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Leatrice Eiseman",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "typography",
+      "domain": "arts",
+      "title": "Typography for screens",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Type scale, legibility at mobile sizes, CTA hierarchy",
+      "role_models": [
+        {
+          "name": "Robert Bringhurst",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ellen Lupton",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Erik Spiekermann",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "photography-direction",
+      "domain": "arts",
+      "title": "Photography direction",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Briefing: subject, light, emotion → UGC/studio briefs",
+      "role_models": [
+        {
+          "name": "Annie Leibovitz",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Platon",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Steve McCurry",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "motion-design",
+      "domain": "arts",
+      "title": "Motion design & kinetic type",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Attention arcs for 6s/15s/30s video ads",
+      "role_models": [
+        {
+          "name": "Saul Bass",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Kyle Cooper",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ben Marriott",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "illustration",
+      "domain": "arts",
+      "title": "Illustration systems",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Consistent visual language across DCO variants",
+      "role_models": [
+        {
+          "name": "Christoph Niemann",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Malika Favre",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Jean Jullien",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "storyboarding",
+      "domain": "arts",
+      "title": "Storyboarding",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Beat sheets for performance video narratives",
+      "role_models": [
+        {
+          "name": "Andrew Stanton",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Robert McKee",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Blake Snyder",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "sound-design",
+      "domain": "arts",
+      "title": "Sound design & sonic brand",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Audio hooks, silence, brand stings in social video",
+      "role_models": [
+        {
+          "name": "Walter Murch",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Hans Zimmer",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Brian Eno",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "copywriting-craft",
+      "domain": "arts",
+      "title": "Copywriting craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Clarity, offer, proof, CTA — line-level craft",
+      "role_models": [
+        {
+          "name": "David Ogilvy",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Luke Sullivan",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ann Handley",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "narrative-structure",
+      "domain": "arts",
+      "title": "Narrative structure",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hook→tension→payoff for ads and case studies",
+      "role_models": [
+        {
+          "name": "Joseph Campbell",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Robert McKee",
+          "note": "public craft reference"
+        },
+        {
+          "name": "John Yorke",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "cross-cultural-comms",
+      "domain": "culture",
+      "title": "Cross-cultural communication",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Market-local tone, taboo, humor for multi-geo campaigns",
+      "role_models": [
+        {
+          "name": "Erin Meyer",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Geert Hofstede",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Richard Lewis",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "semiotics",
+      "domain": "culture",
+      "title": "Semiotics in advertising",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Sign systems in creative — denotation vs connotation",
+      "role_models": [
+        {
+          "name": "Roland Barthes",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Umberto Eco",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Judith Williamson",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "meme-literacy",
+      "domain": "culture",
+      "title": "Meme & internet culture literacy",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Platform-native humor without brand risk",
+      "role_models": [
+        {
+          "name": "Limor Shifman",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ryan Milner",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Whitney Phillips",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "influencer-dynamics",
+      "domain": "culture",
+      "title": "Influencer & creator dynamics",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Creator formats, authenticity signals, disclosure norms",
+      "role_models": [
+        {
+          "name": "Jake Paul",
+          "note": "public craft reference"
+        },
+        {
+          "name": "MrBeast",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Emma Chamberlain",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "community-building",
+      "domain": "culture",
+      "title": "Community building",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Belonging loops → retention/advocacy",
+      "role_models": [
+        {
+          "name": "Seth Godin",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Rosie Sherry",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Carrie Melissa Jones",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "persuasion-ethics",
+      "domain": "culture",
+      "title": "Persuasion ethics",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Influence principles with consent & compliance",
+      "role_models": [
+        {
+          "name": "Robert Cialdini",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Cass Sunstein",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Daniel Kahneman",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "rhetoric",
+      "domain": "culture",
+      "title": "Rhetoric & argumentation",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Claims/evidence/warrant in pitches & QBRs",
+      "role_models": [
+        {
+          "name": "Aristotle",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Stephen Toulmin",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Jay Heinrichs",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "facilitation",
+      "domain": "culture",
+      "title": "Meeting facilitation",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "7/24 standup & leadership sync quality",
+      "role_models": [
+        {
+          "name": "Priya Parker",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Sam Kaner",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Roger Schwarz",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "negotiation",
+      "domain": "culture",
+      "title": "Negotiation",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Media deals, renewals, sponsorship terms",
+      "role_models": [
+        {
+          "name": "Chris Voss",
+          "note": "public craft reference"
+        },
+        {
+          "name": "William Ury",
+          "note": "public craft reference"
+        },
+        {
+          "name": "G. Richard Shell",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "stakeholder-mapping",
+      "domain": "culture",
+      "title": "Stakeholder mapping",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Client org politics → account strategy",
+      "role_models": [
+        {
+          "name": "R. Edward Freeman",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Mendelow",
+          "note": "public craft reference"
+        },
+        {
+          "name": "David C. Baker",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "str",
+        "cls",
+        "nbd",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "deliberate-practice",
+      "domain": "sports",
+      "title": "Deliberate practice systems",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Agent skill drills with feedback loops",
+      "role_models": [
+        {
+          "name": "Anders Ericsson",
+          "note": "public craft reference"
+        },
+        {
+          "name": "James Clear",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Peak Performance authors",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "periodization",
+      "domain": "sports",
+      "title": "Periodization & peaking",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Campaign flighting: build → peak → recover",
+      "role_models": [
+        {
+          "name": "Tudor Bompa",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Vern Gambetta",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "team-roles-belbin",
+      "domain": "sports",
+      "title": "Team role balance",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Pod staffing: completer vs plant vs coordinator",
+      "role_models": [
+        {
+          "name": "Meredith Belbin",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Patrick Lencioni",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "coaching-feedback",
+      "domain": "sports",
+      "title": "Coaching & feedback",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Radical candor in talent/agent QA",
+      "role_models": [
+        {
+          "name": "Bill Walsh",
+          "note": "public craft reference"
+        },
+        {
+          "name": "John Wooden",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Kim Scott",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "competitive-analysis",
+      "domain": "sports",
+      "title": "Competitive analysis mindset",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Auction/share-of-voice rivalry mapping",
+      "role_models": [
+        {
+          "name": "Sun Tzu",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Michael Porter",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Roger Martin",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "resilience-under-pressure",
+      "domain": "sports",
+      "title": "Resilience under pressure",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Incident response & pacing crises",
+      "role_models": [
+        {
+          "name": "Angela Duckworth",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Carol Dweck",
+          "note": "public craft reference"
+        },
+        {
+          "name": "James Clear",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "scouting",
+      "domain": "sports",
+      "title": "Scouting & talent ID",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hiring signals vs noise for agent roles",
+      "role_models": [
+        {
+          "name": "Moneyball / Billy Beane",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Daniel Kahneman",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "game-film-review",
+      "domain": "sports",
+      "title": "Game-film review rituals",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Post-mortem: creative/auction/landing tape review",
+      "role_models": [
+        {
+          "name": "Bill Belichick",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Gregg Popovich",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "warmup-cooldown",
+      "domain": "sports",
+      "title": "Warm-up / cool-down protocols",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Deep-work blocks for specialists",
+      "role_models": [
+        {
+          "name": "Tim Ferriss",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Cal Newport",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "scoreboard-design",
+      "domain": "sports",
+      "title": "Scoreboard design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "OKR/KPI boards that change behavior",
+      "role_models": [
+        {
+          "name": "Dean Spitzer",
+          "note": "public craft reference"
+        },
+        {
+          "name": "John Doerr",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "coo",
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "systems-thinking",
+      "domain": "craft",
+      "title": "Systems thinking",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Funnel as system; leverage points",
+      "role_models": [
+        {
+          "name": "Donella Meadows",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Peter Senge",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Russell Ackoff",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "first-principles",
+      "domain": "craft",
+      "title": "First-principles reasoning",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Strip platform folklore → testable claims",
+      "role_models": [
+        {
+          "name": "Aristotle",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Elon Musk (as method ref)",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Richard Feynman",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "checklist-discipline",
+      "domain": "craft",
+      "title": "Checklist discipline",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Launch/trafficking checklists",
+      "role_models": [
+        {
+          "name": "Atul Gawande",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Charles Duhigg",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "documentation",
+      "domain": "craft",
+      "title": "Documentation craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Role cards, runbooks, DoD clarity",
+      "role_models": [
+        {
+          "name": "Write the Docs community",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Divio docs system",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "prompt-engineering",
+      "domain": "craft",
+      "title": "Prompt engineering",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Role-card prompts, eval harnesses",
+      "role_models": [
+        {
+          "name": "Riley Goodside",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Simon Willison",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Elvis Saravia",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "eval-design",
+      "domain": "craft",
+      "title": "Evaluation design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Agent quality gates before ship",
+      "role_models": [
+        {
+          "name": "Hamel Husain",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Eugene Yan",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Chip Huyen",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "observability",
+      "domain": "craft",
+      "title": "Observability thinking",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "AUDIT_LOG + metrics that explain why",
+      "role_models": [
+        {
+          "name": "Charity Majors",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Cindy Sridharan",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "incident-command",
+      "domain": "craft",
+      "title": "Incident command",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Ad account / tracking outages",
+      "role_models": [
+        {
+          "name": "PagerDuty IC model",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Google SRE",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "knowledge-management",
+      "domain": "craft",
+      "title": "Knowledge management",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "BILGI_TABANI growth without bloat",
+      "role_models": [
+        {
+          "name": "Tiago Forte",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Andy Matuschak",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "prioritization",
+      "domain": "craft",
+      "title": "Prioritization frameworks",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "IS_LISTESI P0/P1 triage",
+      "role_models": [
+        {
+          "name": "Eisenhower",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Ruth Sullivan RICE",
+          "note": "public craft reference"
+        },
+        {
+          "name": "Donald Reinertsen",
+          "note": "public craft reference"
+        }
+      ],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ugc-briefing",
+      "domain": "arts",
+      "discipline": null,
+      "title": "UGC creator briefing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hook / demo / CTA shot list",
+      "role_models": [],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "dco-variant-matrix",
+      "domain": "arts",
+      "discipline": null,
+      "title": "DCO variant matrix design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Factorial creative × offer × audience",
+      "role_models": [],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "landing-wireframe",
+      "domain": "arts",
+      "discipline": null,
+      "title": "Landing wireframing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Message match + friction map",
+      "role_models": [],
+      "agency_hooks": [
+        "cre",
+        "soc",
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "heatmap-read",
+      "domain": "discipline",
+      "discipline": "cro",
+      "title": "Heatmap reading",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Attention vs intent vs rage-click",
+      "role_models": [],
+      "agency_hooks": [
+        "cro"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "form-ux",
+      "domain": "discipline",
+      "discipline": "cro",
+      "title": "Form UX craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Field count, error recovery, trust",
+      "role_models": [],
+      "agency_hooks": [
+        "cro"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "query-mining",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "Search query mining",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "N-gram → neg/pos keyword ops",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "rsa-asset-orchestration",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "RSA asset orchestration",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Pin strategy + asset coverage",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "pmax-signal-hygiene",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "PMax signal hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Assets, feeds, audience signals",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "auction-insights",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "Auction insights reading",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "IS/overlap/outranking share",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "meta-structure",
+      "domain": "discipline",
+      "discipline": "soc",
+      "title": "Meta account structure",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "CBO vs ABO, scaling ladders",
+      "role_models": [],
+      "agency_hooks": [
+        "soc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "creative-fatigue-detect",
+      "domain": "discipline",
+      "discipline": "soc",
+      "title": "Creative fatigue detection",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Freq × CTR decay rules",
+      "role_models": [],
+      "agency_hooks": [
+        "soc",
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "spark-ads",
+      "domain": "discipline",
+      "discipline": "soc",
+      "title": "Spark / whitelisting ops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Organic→paid amplification",
+      "role_models": [],
+      "agency_hooks": [
+        "soc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "tiktok-hooks",
+      "domain": "discipline",
+      "discipline": "soc",
+      "title": "TikTok hook craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "0–1s pattern interrupt",
+      "role_models": [],
+      "agency_hooks": [
+        "soc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "asa-match-types",
+      "domain": "discipline",
+      "discipline": "mob",
+      "title": "ASA match-type strategy",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Exact/broad + CPT control",
+      "role_models": [],
+      "agency_hooks": [
+        "mob"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "skan-interpretation",
+      "domain": "discipline",
+      "discipline": "mob",
+      "title": "SKAN/conversion value craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Schema → bid decisions",
+      "role_models": [],
+      "agency_hooks": [
+        "mob"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ltv-cohort",
+      "domain": "discipline",
+      "discipline": "mob",
+      "title": "LTV cohort framing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Payback windows for UA",
+      "role_models": [],
+      "agency_hooks": [
+        "mob"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "mmp-taxonomy",
+      "domain": "discipline",
+      "discipline": "mob",
+      "title": "MMP event taxonomy",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Event naming + dedupe",
+      "role_models": [],
+      "agency_hooks": [
+        "mob"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "amazon-acos",
+      "domain": "discipline",
+      "discipline": "ret",
+      "title": "Amazon ACOS/TACOS craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Efficiency vs share tradeoff",
+      "role_models": [],
+      "agency_hooks": [
+        "ret"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "retail-on-site",
+      "domain": "discipline",
+      "discipline": "ret",
+      "title": "On-site retail media",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Placement + sponsored brand",
+      "role_models": [],
+      "agency_hooks": [
+        "ret"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "feed-quality",
+      "domain": "discipline",
+      "discipline": "ret",
+      "title": "Product feed quality",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Title/image/attr completeness",
+      "role_models": [],
+      "agency_hooks": [
+        "ret"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "technical-crawl",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "Technical crawl triage",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Index bloat, CWV, canonicals",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "keyword-cluster",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "Keyword clustering",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Intent → content briefs",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "eeat-signals",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "E-E-A-T signal design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Author, evidence, experience",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "internal-link-graph",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "Internal link graph",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hub-spoke equity flow",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "experiment-design",
+      "domain": "discipline",
+      "discipline": "cro",
+      "title": "Experiment design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "OEC, sample, peeking control",
+      "role_models": [],
+      "agency_hooks": [
+        "cro"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "checkout-friction",
+      "domain": "discipline",
+      "discipline": "cro",
+      "title": "Checkout friction audit",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Steps, payment, trust marks",
+      "role_models": [],
+      "agency_hooks": [
+        "cro"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ga4-event-schema",
+      "domain": "discipline",
+      "discipline": "ana",
+      "title": "GA4 event schema",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Params, items, consent mode",
+      "role_models": [],
+      "agency_hooks": [
+        "ana"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "gtm-ss",
+      "domain": "discipline",
+      "discipline": "ana",
+      "title": "Server-side GTM",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "First-party + CAPI bridge",
+      "role_models": [],
+      "agency_hooks": [
+        "ana"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "attribution-honesty",
+      "domain": "discipline",
+      "discipline": "ana",
+      "title": "Attribution honesty",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Model limits labeled",
+      "role_models": [],
+      "agency_hooks": [
+        "ana"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "mmm-lite",
+      "domain": "discipline",
+      "discipline": "dsc",
+      "title": "Lightweight MMM framing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Priors, geo, holdouts",
+      "role_models": [],
+      "agency_hooks": [
+        "dsc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "forecasting",
+      "domain": "discipline",
+      "discipline": "dsc",
+      "title": "Demand forecasting",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Seasonality + promo shocks",
+      "role_models": [],
+      "agency_hooks": [
+        "dsc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "incrementality",
+      "domain": "discipline",
+      "discipline": "dsc",
+      "title": "Incrementality tests",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Geo/PSA/switchback",
+      "role_models": [],
+      "agency_hooks": [
+        "dsc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "cm360-trafficking",
+      "domain": "discipline",
+      "discipline": "ops",
+      "title": "CM360 trafficking craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Placement QA + macros",
+      "role_models": [],
+      "agency_hooks": [
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "tag-governance",
+      "domain": "discipline",
+      "discipline": "ops",
+      "title": "Tag governance",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Consent, priority, dedupe",
+      "role_models": [],
+      "agency_hooks": [
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "spo-hygiene",
+      "domain": "discipline",
+      "discipline": "ops",
+      "title": "Supply-path hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Reseller + IVT filters",
+      "role_models": [],
+      "agency_hooks": [
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "brand-safety",
+      "domain": "discipline",
+      "discipline": "ops",
+      "title": "Brand safety ops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Lists, floors, exclusions",
+      "role_models": [],
+      "agency_hooks": [
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "concepting",
+      "domain": "discipline",
+      "discipline": "cre",
+      "title": "Concepting sprints",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Divergent→convergent",
+      "role_models": [],
+      "agency_hooks": [
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "offer-architecture",
+      "domain": "discipline",
+      "discipline": "cre",
+      "title": "Offer architecture",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Value stack + risk reversal",
+      "role_models": [],
+      "agency_hooks": [
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "static-to-video",
+      "domain": "discipline",
+      "discipline": "cre",
+      "title": "Static→video adaptation",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Asset reuse rules",
+      "role_models": [],
+      "agency_hooks": [
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "audience-insight",
+      "domain": "discipline",
+      "discipline": "str",
+      "title": "Audience insight synthesis",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Jobs-to-be-done → media",
+      "role_models": [],
+      "agency_hooks": [
+        "str"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "channel-mix",
+      "domain": "discipline",
+      "discipline": "str",
+      "title": "Channel mix modeling",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "60/40 + efficiency floors",
+      "role_models": [],
+      "agency_hooks": [
+        "str"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "brief-writing",
+      "domain": "discipline",
+      "discipline": "str",
+      "title": "Media brief writing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Objective, KPI, constraints",
+      "role_models": [],
+      "agency_hooks": [
+        "str"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "qbr-narrative",
+      "domain": "discipline",
+      "discipline": "cls",
+      "title": "QBR narrative craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Story + numbers + asks",
+      "role_models": [],
+      "agency_hooks": [
+        "cls"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "escalation-comms",
+      "domain": "discipline",
+      "discipline": "cls",
+      "title": "Escalation communications",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Severity, owner, ETA",
+      "role_models": [],
+      "agency_hooks": [
+        "cls"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "onboarding-checklist",
+      "domain": "discipline",
+      "discipline": "cls",
+      "title": "Client onboarding",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Access, pixels, baselines",
+      "role_models": [],
+      "agency_hooks": [
+        "cls"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "discovery-calls",
+      "domain": "discipline",
+      "discipline": "nbd",
+      "title": "Discovery call craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Diagnose before prescribe",
+      "role_models": [],
+      "agency_hooks": [
+        "nbd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "proposal-pricing",
+      "domain": "discipline",
+      "discipline": "nbd",
+      "title": "Proposal & pricing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Value-based vs hourly",
+      "role_models": [],
+      "agency_hooks": [
+        "nbd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "case-study-engine",
+      "domain": "discipline",
+      "discipline": "nbd",
+      "title": "Case study engine",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Problem→approach→proof",
+      "role_models": [],
+      "agency_hooks": [
+        "nbd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "sponsor-fit",
+      "domain": "discipline",
+      "discipline": "prt",
+      "title": "Sponsor fit scoring",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Audience overlap + ethics",
+      "role_models": [],
+      "agency_hooks": [
+        "prt"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "oss-sponsorship",
+      "domain": "discipline",
+      "discipline": "prt",
+      "title": "OSS sponsorship ops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "FUNDING.yml + reports",
+      "role_models": [],
+      "agency_hooks": [
+        "prt"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "referral-hygiene",
+      "domain": "discipline",
+      "discipline": "prt",
+      "title": "Referral program hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Disclosure + tracking",
+      "role_models": [],
+      "agency_hooks": [
+        "prt"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "component-packaging",
+      "domain": "discipline",
+      "discipline": "prd",
+      "title": "Component packaging",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "aitmpl-compatible fronts",
+      "role_models": [],
+      "agency_hooks": [
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "premium-gating",
+      "domain": "discipline",
+      "discipline": "prd",
+      "title": "Premium gating design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "MIT core vs paid pack",
+      "role_models": [],
+      "agency_hooks": [
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "semver-discipline",
+      "domain": "discipline",
+      "discipline": "prd",
+      "title": "Semver + SHA256 discipline",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "VERSIONS.md integrity",
+      "role_models": [],
+      "agency_hooks": [
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "media-cost-control",
+      "domain": "discipline",
+      "discipline": "fin",
+      "title": "Media cost control",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Pacing vs committed",
+      "role_models": [],
+      "agency_hooks": [
+        "fin"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "unit-economics",
+      "domain": "discipline",
+      "discipline": "fin",
+      "title": "Unit economics",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "CAC/LTV/payback",
+      "role_models": [],
+      "agency_hooks": [
+        "fin"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "invoice-hygiene",
+      "domain": "discipline",
+      "discipline": "fin",
+      "title": "Invoice hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "PO, tax, currency",
+      "role_models": [],
+      "agency_hooks": [
+        "fin"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "privacy-by-design",
+      "domain": "discipline",
+      "discipline": "leg",
+      "title": "Privacy by design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "PbD principles in tags",
+      "role_models": [],
+      "agency_hooks": [
+        "leg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "claims-review",
+      "domain": "discipline",
+      "discipline": "leg",
+      "title": "Ad claims review",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Evidence before publish",
+      "role_models": [],
+      "agency_hooks": [
+        "leg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "license-compat",
+      "domain": "discipline",
+      "discipline": "leg",
+      "title": "License compatibility",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "MIT + third-party terms",
+      "role_models": [],
+      "agency_hooks": [
+        "leg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "agent-lifecycle",
+      "domain": "discipline",
+      "discipline": "tal",
+      "title": "Agent lifecycle QA",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hire→train→eval→retire",
+      "role_models": [],
+      "agency_hooks": [
+        "tal"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "prompt-injection-defense",
+      "domain": "discipline",
+      "discipline": "tal",
+      "title": "Prompt-injection defense",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Tool/data boundaries",
+      "role_models": [],
+      "agency_hooks": [
+        "tal"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "shift-handoff",
+      "domain": "discipline",
+      "discipline": "tal",
+      "title": "Shift handoff ritual",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Follow-the-sun notes",
+      "role_models": [],
+      "agency_hooks": [
+        "tal"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ci-cd-agency",
+      "domain": "discipline",
+      "discipline": "inf",
+      "title": "Agency CI/CD",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "validate.py + Actions",
+      "role_models": [],
+      "agency_hooks": [
+        "inf"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "secret-hygiene",
+      "domain": "discipline",
+      "discipline": "inf",
+      "title": "Secret hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "No keys in cards/logs",
+      "role_models": [],
+      "agency_hooks": [
+        "inf"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "rate-limit-ops",
+      "domain": "discipline",
+      "discipline": "inf",
+      "title": "API rate-limit ops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Backoff + batching",
+      "role_models": [],
+      "agency_hooks": [
+        "inf"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "wiki-seeding",
+      "domain": "discipline",
+      "discipline": "inf",
+      "title": "Wiki/segment seeding",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "600-surface discipline",
+      "role_models": [],
+      "agency_hooks": [
+        "inf"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "pod-orchestration",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Client-pod orchestration",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hybrid functional+pod",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "raci-clarity",
+      "domain": "craft",
+      "discipline": null,
+      "title": "RACI clarity",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Decision rights on cards",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "definition-of-done",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Definition of Done",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Ship gates per deliverable",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "anti-pattern-catalog",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Anti-pattern catalog",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Named failure modes",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "self-inquiry",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Self-inquiry loops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "501-bank sampling",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "archive-hygiene",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Research archive hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Timestamp + re-read",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "calendar-ops",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Ops calendar design",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Daily/weekly/monthly crons",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "signal-over-length",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Signal-over-length editing",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "K-003 enforcement",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "red-flag-protocol",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Red-flag protocol",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "🚩 what · why · alt",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "holding-reporting",
+      "domain": "craft",
+      "discipline": null,
+      "title": "Holding portfolio report",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Multi-brand rollup",
+      "role_models": [],
+      "agency_hooks": [
+        "tal",
+        "inf",
+        "prd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "inbound-capture",
+      "domain": "discipline",
+      "discipline": "nbd",
+      "title": "Inbound lead capture",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "48h pitch brief SLA",
+      "role_models": [],
+      "agency_hooks": [
+        "nbd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "renewal-playbook",
+      "domain": "discipline",
+      "discipline": "cls",
+      "title": "Renewal playbook",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Health score → ask",
+      "role_models": [],
+      "agency_hooks": [
+        "cls"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "win-loss",
+      "domain": "discipline",
+      "discipline": "nbd",
+      "title": "Win/loss analysis",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Pattern → product",
+      "role_models": [],
+      "agency_hooks": [
+        "nbd"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "creative-testing-ladder",
+      "domain": "discipline",
+      "discipline": "cre",
+      "title": "Creative testing ladder",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Hook→body→offer",
+      "role_models": [],
+      "agency_hooks": [
+        "cre"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "brand-vs-generic",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "Brand vs generic split",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Protect + harvest",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "negative-hygiene",
+      "domain": "discipline",
+      "discipline": "sea",
+      "title": "Negative keyword hygiene",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Waste kill loops",
+      "role_models": [],
+      "agency_hooks": [
+        "sea"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ctv-buying",
+      "domain": "discipline",
+      "discipline": "prg",
+      "title": "CTV buying craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Deal ID + frequency",
+      "role_models": [],
+      "agency_hooks": [
+        "prg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "pmp-negotiation",
+      "domain": "discipline",
+      "discipline": "prg",
+      "title": "PMP negotiation",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Floor, inventory, data",
+      "role_models": [],
+      "agency_hooks": [
+        "prg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "curation-deals",
+      "domain": "discipline",
+      "discipline": "prg",
+      "title": "Curation & deal craft",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Path length + quality",
+      "role_models": [],
+      "agency_hooks": [
+        "prg"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "ivt-defense",
+      "domain": "discipline",
+      "discipline": "ops",
+      "title": "IVT defense",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Filters + post-bid",
+      "role_models": [],
+      "agency_hooks": [
+        "ops"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "consent-mode",
+      "domain": "discipline",
+      "discipline": "ana",
+      "title": "Consent Mode ops",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Modeled vs observed",
+      "role_models": [],
+      "agency_hooks": [
+        "ana"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "capi-health",
+      "domain": "discipline",
+      "discipline": "soc",
+      "title": "CAPI signal health",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "EMQ + match quality",
+      "role_models": [],
+      "agency_hooks": [
+        "soc"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "retail-media-tr",
+      "domain": "discipline",
+      "discipline": "ret",
+      "title": "TR retail media landscape",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Local marketplace nuance",
+      "role_models": [],
+      "agency_hooks": [
+        "ret"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "digital-pr",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "Digital PR outreach",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "Newsworthy angles",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    },
+    {
+      "id": "content-brief",
+      "domain": "discipline",
+      "discipline": "seo",
+      "title": "Content brief engine",
+      "hierarchy": [
+        "novice",
+        "practitioner",
+        "lead",
+        "master"
+      ],
+      "mechanism": "SERP → outline → DoD",
+      "role_models": [],
+      "agency_hooks": [
+        "seo"
+      ],
+      "update_cadence": "monthly"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+# OpenTelemetry Collector — Domain 2 reference (DaemonSet + gateway Deployment)
+# TR: Pipeline Stage-2 uyumlu OTLP alıcı; gerçek cluster apply owner onayı + kubeconfig ister.
+# Skills: /opentelemetry-validation /opentelemetry-auto-instrumentation /setup-k8s-collection
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: monitoring
+  labels:
+    app.kubernetes.io/part-of: opentelemetry
+    domain: "2"
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: otel-collector
+  namespace: monitoring
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: otel-collector
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "namespaces", "nodes", "nodes/stats", "endpoints", "services"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["apps"]
+    resources: ["replicasets", "deployments", "daemonsets", "statefulsets"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["batch"]
+    resources: ["jobs", "cronjobs"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: otel-collector
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: otel-collector
+subjects:
+  - kind: ServiceAccount
+    name: otel-collector
+    namespace: monitoring
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: otel-collector-config
+  namespace: monitoring
+data:
+  relay.yaml: |
+    receivers:
+      otlp:
+        protocols:
+          grpc:
+            endpoint: 0.0.0.0:4317
+          http:
+            endpoint: 0.0.0.0:4318
+      k8s_cluster:
+        collection_interval: 30s
+      kubeletstats:
+        collection_interval: 30s
+        auth_type: serviceAccount
+    processors:
+      batch:
+        timeout: 5s
+        send_batch_size: 1024
+      memory_limiter:
+        check_interval: 2s
+        limit_mib: 512
+      attributes/env:
+        actions:
+          - key: deployment.environment
+            value: production
+            action: upsert
+          - key: domain
+            value: "2"
+            action: upsert
+      filter/drop_health:
+        metrics:
+          exclude:
+            match_type: regexp
+            metric_names:
+              - ".*health.*"
+    exporters:
+      otlp/datadog:
+        endpoint: ${env:DD_OTLP_ENDPOINT}
+        headers:
+          api-key: ${env:DD_API_KEY}
+      otlphttp/sentry:
+        endpoint: ${env:SENTRY_OTLP_ENDPOINT}
+      logging:
+        loglevel: warn
+    extensions:
+      health_check:
+        endpoint: 0.0.0.0:13133
+      pprof:
+        endpoint: 0.0.0.0:1777
+    service:
+      extensions: [health_check, pprof]
+      pipelines:
+        traces:
+          receivers: [otlp]
+          processors: [memory_limiter, attributes/env, batch]
+          exporters: [otlp/datadog, logging]
+        metrics:
+          receivers: [otlp, k8s_cluster, kubeletstats]
+          processors: [memory_limiter, filter/drop_health, attributes/env, batch]
+          exporters: [otlp/datadog, logging]
+        logs:
+          receivers: [otlp]
+          processors: [memory_limiter, attributes/env, batch]
+          exporters: [otlphttp/sentry, logging]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: otel-collector-gateway
+  namespace: monitoring
+  labels:
+    app: otel-collector
+    role: gateway
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: otel-collector
+      role: gateway
+  template:
+    metadata:
+      labels:
+        app: otel-collector
+        role: gateway
+    spec:
+      serviceAccountName: otel-collector
+      containers:
+        - name: otel-collector
+          image: otel/opentelemetry-collector-contrib:0.105.0
+          args: ["--config=/conf/relay.yaml"]
+          ports:
+            - name: otlp-grpc
+              containerPort: 4317
+            - name: otlp-http
+              containerPort: 4318
+            - name: health
+              containerPort: 13133
+          envFrom:
+            - secretRef:
+                name: otel-exporter-secrets
+          volumeMounts:
+            - name: config
+              mountPath: /conf
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 13133
+            initialDelaySeconds: 5
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 1Gi
+      volumes:
+        - name: config
+          configMap:
+            name: otel-collector-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: otel-collector
+  namespace: monitoring
+spec:
+  selector:
+    app: otel-collector
+    role: gateway
+  ports:
+    - name: otlp-grpc
+      port: 4317
+      targetPort: 4317
+    - name: otlp-http
+      port: 4318
+      targetPort: 4318
+---
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: otel-collector-agent
+  namespace: monitoring
+  labels:
+    app: otel-collector
+    role: agent
+spec:
+  selector:
+    matchLabels:
+      app: otel-collector
+      role: agent
+  template:
+    metadata:
+      labels:
+        app: otel-collector
+        role: agent
+    spec:
+      serviceAccountName: otel-collector
+      containers:
+        - name: otel-collector
+          image: otel/opentelemetry-collector-contrib:0.105.0
+          args: ["--config=/conf/relay.yaml"]
+          env:
+            - name: K8S_NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+          envFrom:
+            - secretRef:
+                name: otel-exporter-secrets
+          volumeMounts:
+            - name: config
+              mountPath: /conf
+          resources:
+            requests:
+              cpu: 50m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+      volumes:
+        - name: config
+          configMap:
+            name: otel-collector-config
+---
+# Secret placeholder — create out-of-band; never commit real keys
+# kubectl -n monitoring create secret generic otel-exporter-secrets \
+#   --from-literal=DD_API_KEY=... --from-literal=DD_OTLP_ENDPOINT=... \
+#   --from-literal=SENTRY_OTLP_ENDPOINT=...
+apiVersion: v1
+kind: Secret
+metadata:
+  name: otel-exporter-secrets
+  namespace: monitoring
+type: Opaque
+stringData:
+  DD_API_KEY: "REPLACE_ME"
+  DD_OTLP_ENDPOINT: "REPLACE_ME:4317"
+  SENTRY_OTLP_ENDPOINT: "https://REPLACE_ME/api/0/otlp/"

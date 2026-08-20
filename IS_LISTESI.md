@@ -1,7 +1,17 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-08-20T05:01:00Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-08-10T12:34:26Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
+- [x] v2.13 Domain1–7 observability pack (TF+OTel+mini-ajans) → cto-platform · 2026-08-10
+- [x] v2.12 K-003 eşdeğerleri: title≥500 soru setleri + top100 kuyruk + mega expander → cto-platform · 2026-08-04
+- [x] v2.10 holding: HoldCo + 7 OpCo + 6 ülke + web/mobil blueprint + gece arşiv → holdco-coo · 2026-08-04
+- [x] v2.9 skill→agency registry: 696 skill / 43 mini-ajans / 81 MCP → cto-platform · 2026-08-03
+- [x] v2.8 araştırma paketi: 132 yetenek + 122×3 prompt + aylık arşiv döngüsü → cto-platform · 2026-08-03
+- [x] **Aktivasyon Cursor ajanında uygulandı** (`apply_activation.py`) — Claude Code yapıştır **İPTAL** → ceo-orchestrator · 2026-08-04
+- [x] OpCo + ülke görev tahtaları (`docs/holding/gorevler/`, `docs/holding/ulkeler/`) → holdco-coo · 2026-08-04
+- [x] Günlük standup + HoldCo portföy 2026-08-04 → coo-delivery · 2026-08-04
+- [ ] MCP auth: Exa/Twilio/PostHog/Harness ihtiyaçlarına göre Cursor MCP Authorize → Metin · 2026-08-10
+- [ ] OpCo native scaffold PR'ları (VizaTrack/Movea/…) — Metin onayı → holdco-cto · 2026-08-15
 - [ ] v2.1 push + Actions yeşil → inf-evp-tech-infra · 2026-07-18
 - [ ] ANTHROPIC_API_KEY secret kontrolü → cto-platform · 2026-07-18
 - [ ] METİN: GitHub Sponsors hesabı aç (FUNDING.yml hazır) → K1 · 2026-07-24

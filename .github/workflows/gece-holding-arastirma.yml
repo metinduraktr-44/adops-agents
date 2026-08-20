@@ -1,0 +1,24 @@
+name: gece-holding-arastirma
+on:
+  schedule:
+    - cron: "30 23 * * *"  # ~02:30 TRT
+  workflow_dispatch:
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build holding pack (idempotent)
+        run: python3 scripts/build_holding_pack.py
+      - name: Nightly research loop
+        run: python3 scripts/nightly_holding_research.py
+      - name: Commit archive
+        run: |
+          git config user.name "adops-bots"
+          git config user.email "bots@adops-agents.local"
+          git add data/arsiv/holding AUDIT_LOG.jsonl BILGI_TABANI.md data/holding.json docs || true
+          git diff --cached --quiet || git commit -m "gece-holding: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push || true

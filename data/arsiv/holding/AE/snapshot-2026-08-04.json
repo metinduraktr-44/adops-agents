@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-04T09:52:37Z",
+  "country": "AE",
+  "name": "Birleşik Arap Emirlikleri",
+  "role": "target",
+  "law": [
+    "PDPL UAE",
+    "local ad permits"
+  ],
+  "language": [
+    "ar",
+    "en"
+  ],
+  "agency": "country-ae-llm",
+  "read_prior": "snapshot-2026-08-04.json ts=2026-08-04T09:52:37Z",
+  "research": {
+    "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
+    "regulation_delta": "Watch: PDPL UAE, local ad permits",
+    "channel_benchmarks": "Use AdOps dept playbooks + country localization checklist",
+    "role_models_ref": "data/holding_rol_modelleri.json → country_agencies"
+  },
+  "chain": "🔗 prior-archive-read"
+}

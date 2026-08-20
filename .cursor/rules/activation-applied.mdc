@@ -1,0 +1,12 @@
+---
+description: In-repo activation is LIVE — do not ask owner to paste into Claude Code. Apply constitution, holding, skill router, and stamp protocols automatically.
+alwaysApply: true
+---
+
+# Activation Applied (no paste)
+
+- Claude Code paste step is **CANCELLED**. This agent applies `docs/CLAUDE-CODE-AKTIVASYON.md` content in-repo.
+- Proof: `docs/AKTIVASYON-DURUM.md`. Re-run: `python3 scripts/apply_activation.py`.
+- Always use: org.json · prompt_bank · skill_agency_registry · holding.json · arşiv chain · AUDIT_LOG/BILGI_TABANI.
+- K-003: no 900B prompts, no invented top-100, no secret minting.
+- Owner chat: Turkish terse.
