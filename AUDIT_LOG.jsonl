@@ -87,3 +87,4 @@
 {"ts_start":"2026-08-19T00:53:06Z","ts_end":"2026-08-19T00:53:07Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-19T04:59:05Z", "op": "gunluk-operasyon", "onduty": ["str", "cls", "nbd"], "outputs": ["gundem/2026-08-19-standup.md", "makaleler/2026-08-19-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-20T00:53:26Z","ts_end":"2026-08-20T00:53:26Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-08-20T05:01:00Z", "op": "gunluk-operasyon", "onduty": ["cls", "nbd", "prt"], "outputs": ["gundem/2026-08-20-standup.md", "makaleler/2026-08-20-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
