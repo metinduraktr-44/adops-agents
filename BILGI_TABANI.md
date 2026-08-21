@@ -1207,3 +1207,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 ## 2026-08-21T00:56:42Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-21T05:01:13Z] gunluk-operasyon: standup+makale üretildi; nöbet nbd/prt/prd; konu consent-mode-v2-pitfalls.

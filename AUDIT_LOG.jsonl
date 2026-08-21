@@ -736,3 +736,4 @@
 {"ts": "2026-08-20T05:01:00Z", "op": "gunluk-operasyon", "onduty": ["cls", "nbd", "prt"], "outputs": ["gundem/2026-08-20-standup.md", "makaleler/2026-08-20-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-08-20T11:21:01Z", "op": "owner-approve-merge", "pr": 607, "action": "resolve-conflicts-with-main", "validation": "PENDING"}
 {"ts_start":"2026-08-21T00:56:41Z","ts_end":"2026-08-21T00:56:42Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-08-21T05:01:13Z", "op": "gunluk-operasyon", "onduty": ["nbd", "prt", "prd"], "outputs": ["gundem/2026-08-21-standup.md", "makaleler/2026-08-21-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
