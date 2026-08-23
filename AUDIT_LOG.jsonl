@@ -739,3 +739,4 @@
 {"ts": "2026-08-21T05:01:13Z", "op": "gunluk-operasyon", "onduty": ["nbd", "prt", "prd"], "outputs": ["gundem/2026-08-21-standup.md", "makaleler/2026-08-21-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-22T00:53:09Z","ts_end":"2026-08-22T00:53:09Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-22T04:56:11Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-08-22-standup.md", "makaleler/2026-08-22-claude-code-agents-for-adops.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-08-23T00:57:39Z","ts_end":"2026-08-23T00:57:39Z","islem":"nightly","denetim":"RUN"}

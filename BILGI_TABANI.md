@@ -1213,3 +1213,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-22T04:56:11Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu claude-code-agents-for-adops.
+## 2026-08-23T00:57:39Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
