@@ -1222,3 +1222,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-08-24T05:07:59Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu incrementality-geo-holdouts.
 - [2026-08-24T07:12:30Z] liderlik-sync: tutanak toplantilar/2026-08-24-liderlik.md; açık P0=8, gelir aksiyonu=19.
+## 2026-08-25T00:55:05Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.

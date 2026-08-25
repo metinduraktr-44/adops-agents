@@ -744,3 +744,4 @@
 {"ts_start":"2026-08-24T00:55:20Z","ts_end":"2026-08-24T00:55:21Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-24T05:07:59Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-08-24-standup.md", "makaleler/2026-08-24-incrementality-geo-holdouts.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-08-24T07:12:30Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-08-24-liderlik.md"], "validation": "GECTI"}
+{"ts_start":"2026-08-25T00:55:05Z","ts_end":"2026-08-25T00:55:05Z","islem":"nightly","denetim":"RUN"}
