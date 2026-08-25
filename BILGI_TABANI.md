@@ -1243,3 +1243,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Matrix gaps G-MAT-01..07; ASSESSMENTS gap+risk filled; ISO 27001 SoA draft; QA/findings checklist; CALENDAR monthly stub.
 - Skill references expanded via `--expand-refs` (~1.2M aggregate depth-01..11); K-003 no single 900k blob.
 - MODE remains ASSESS-ONLY. Ogrenim: expand generator + HAND_AUTHORED inventory; ethics-safe out-of-scope wording.
+
+- [2026-08-25T14:09:37Z] live-terminal-ops: tmux adops-live-ops 120s loop; domain-obs-router skill; OWNER-TALEP raporu. Learning: live ops = additive skill+docs, main cron korunur.

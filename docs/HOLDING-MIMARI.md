@@ -1,5 +1,5 @@
 # HOLDING MİMARİSİ
-> Damga: 2026-08-04T09:52:36Z · v2.10 · Performance Growth Holding (Performans Büyüme Holding) · Owner: Metin Durak
+> Damga: 2026-08-25T14:09:35Z · v2.10 · Performance Growth Holding (Performans Büyüme Holding) · Owner: Metin Durak
 
 ## Charter
 House of brands + shared platform; HoldCo allocates capital/risk; OpCos execute.

@@ -2,7 +2,7 @@
 description: Build/refresh Domain 1–7 observability pack (v2.13)
 ---
 # /domain-observability
-Damga: 2026-08-10T10:10:53Z
+Damga: 2026-08-25T14:09:36Z
 
 ```bash
 python3 scripts/build_domain_observability_pack.py

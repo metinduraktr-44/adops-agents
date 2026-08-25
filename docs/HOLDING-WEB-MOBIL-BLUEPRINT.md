@@ -1,5 +1,5 @@
 # HOLDING WEB / iOS / ANDROID BLUEPRINT
-> Damga: 2026-08-04T09:52:36Z · TR: Ürün kodu değil; mimari + workflow iskeleti.
+> Damga: 2026-08-25T14:09:35Z · TR: Ürün kodu değil; mimari + workflow iskeleti.
 
 ## Katmanlar
 1. **HoldCo Console (Web)** — portföy KPI, sermaye zarfı, ülke ajans durumu

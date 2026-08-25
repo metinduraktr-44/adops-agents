@@ -1,5 +1,5 @@
 # Movea — OpCo iş listesi
-> Damga: 2026-08-04T09:52:36Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
+> Damga: 2026-08-25T14:09:35Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
 
 ## Mandate
 Brand + booking funnel + paid acquisition
@@ -36,7 +36,7 @@ Brand + booking funnel + paid acquisition
 ## Roadmap dilimleri
 | Dilim | Hedef | Sahip | Deadline |
 |---|---|---|---|
-| F0 | Org + workflow canlı | `movea-ceo` | 2026-08-04 |
+| F0 | Org + workflow canlı | `movea-ceo` | 2026-08-25 |
 | F1 | İlk KPI kesiti + eğitim modülü | `movea-evp-*` | +7g |
 | F2 | Web/mobil yüzey DoD (blueprint) | holdco-cto + OpCo | +21g |
 | F3 | Ülke lokalizasyon QA (TR+) | country agency | +30g |

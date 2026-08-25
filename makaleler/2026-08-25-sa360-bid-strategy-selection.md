@@ -4,7 +4,7 @@ date: 2026-08-25
 source: daily-ops deterministic
 ---
 # Sa360 Bid Strategy Selection
-> İskelet üretim (2026-08-25T05:00:56Z). GEMINI_API_KEY / OPENROUTER_API_KEY / ANTHROPIC_API_KEY gelince bu slot tam makale ile dolar.
+> İskelet üretim (2026-08-25T14:09:36Z). GEMINI_API_KEY / OPENROUTER_API_KEY / ANTHROPIC_API_KEY gelince bu slot tam makale ile dolar.
 
 ## Neden şimdi
 sa360 bid strategy selection — Hukuk & Uyum hattının bu haftaki odağıyla kesişiyor.

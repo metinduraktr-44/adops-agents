@@ -1,0 +1,23 @@
+{
+  "ts": "2026-08-25T14:09:36Z",
+  "country": "NL",
+  "name": "Hollanda",
+  "role": "market",
+  "law": [
+    "GDPR",
+    "ACM"
+  ],
+  "language": [
+    "nl",
+    "en"
+  ],
+  "agency": "country-nl-llm",
+  "read_prior": "snapshot-2026-08-25.json ts=2026-08-25T14:09:24Z",
+  "research": {
+    "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
+    "regulation_delta": "Watch: GDPR, ACM",
+    "channel_benchmarks": "Use AdOps dept playbooks + country localization checklist",
+    "role_models_ref": "data/holding_rol_modelleri.json → country_agencies"
+  },
+  "chain": "🔗 prior-archive-read"
+}

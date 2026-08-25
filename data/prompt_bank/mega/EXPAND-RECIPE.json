@@ -1,5 +1,5 @@
 {
-  "ts": "2026-08-04T09:52:37Z",
+  "ts": "2026-08-25T14:09:35Z",
   "char_policy": "🚩 Literal 900_000_000_000-char files are refused. Mega = runtime expansion of dense template + layers; effective context is bounded by model window.",
   "layers": [
     "CLAUDE.md",

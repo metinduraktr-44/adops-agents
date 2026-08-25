@@ -1,0 +1,27 @@
+{
+  "ts": "2026-08-25T14:09:36Z",
+  "subsidiaries": [
+    "adops-agents",
+    "permergrowth",
+    "vizatrack",
+    "movea",
+    "cigkoftem",
+    "hukuk",
+    "platform-shared"
+  ],
+  "models_keys": [
+    "adops-agents",
+    "permergrowth",
+    "vizatrack",
+    "movea",
+    "cigkoftem",
+    "hukuk",
+    "platform-shared",
+    "country_agencies"
+  ],
+  "apps": [
+    "web",
+    "ios",
+    "android"
+  ]
+}

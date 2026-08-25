@@ -1,5 +1,5 @@
 # Movea — İştirak org (doküman)
-> Damga: 2026-08-04T09:52:36Z · TR: Mobilite / seyahat markası · Tip: `opco_brand` · Repo: `planned/movea`
+> Damga: 2026-08-25T14:09:35Z · TR: Mobilite / seyahat markası · Tip: `opco_brand` · Repo: `planned/movea`
 
 ## Mandate
 Brand + booking funnel + paid acquisition

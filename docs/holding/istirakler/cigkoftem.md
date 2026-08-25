@@ -1,5 +1,5 @@
 # Cigkoftem — İştirak org (doküman)
-> Damga: 2026-08-04T09:52:36Z · TR: QSR / F&B markası · Tip: `opco_brand` · Repo: `planned/cigkoftem`
+> Damga: 2026-08-25T14:09:35Z · TR: QSR / F&B markası · Tip: `opco_brand` · Repo: `planned/cigkoftem`
 
 ## Mandate
 Franchise ops + local demand gen + loyalty

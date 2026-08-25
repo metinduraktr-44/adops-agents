@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-08-27T12:43:28Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-08-31T20:30:00Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -10,11 +10,12 @@
 | Skill mini-ajans (v2.9) | AKTİF | data/skill_agency_registry.json |
 | Holding (v2.10) | AKTİF | data/holding.json |
 | Domain pack (v2.13) | AKTİF | data/domains/domain_pack.json + infra/observability/ |
-| **Security GIGA pack** | **AKTİF (in-repo)** | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` · `SECURITY_STATE.md` MODE=ASSESS-ONLY |
+| Creative Agency OS | AKTİF | `.cursor/plans/master-plan.md` · CANVA:BRIEF-ONLY |
+| Security GIGA pack | AKTİF (in-repo) | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` · `SECURITY_STATE.md` MODE=ASSESS-ONLY |
 | Security Claude Code paste | **İPTAL** | `docs/SECURITY-GIGA-BOOTSTRAP.md` |
-| Daily standup | KOŞTU | gundem/2026-08-27-standup.md |
-| HoldCo portföy | KOŞTU | gundem/2026-08-27-holding-portfoy.md |
-| Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-27.json |
+| Daily standup | KOŞTU | gundem/2026-08-31-standup.md |
+| HoldCo portföy | KOŞTU | gundem/2026-08-31-holding-portfoy.md |
+| Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-31.json |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
 | validate.py | GEÇTİ | exit 0 |
@@ -48,8 +49,9 @@
 ```
 
 ## Owner next (Metin)
-- MCP Authorize yalnızca ihtiyaç olanlar (Exa/Twilio/Datadog/Sentry/PagerDuty/…)
+- MCP Authorize yalnızca ihtiyaç olanlar (Canva/Semgrep/Exa/Datadog/Sentry/PagerDuty/…)
 - Domain2 TF/OTel apply için credential + cluster onayı
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
 - **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; MCP security catalog off until enable; `/sec-baslat`
+- **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat` (PR #619 merge sonrası)
