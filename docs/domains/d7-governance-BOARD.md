@@ -1,5 +1,5 @@
 # Domain 7 — Governance, Workflow Automation & Self-Improvement
-> Damga: 2026-08-25T14:09:36Z · Owner: `ceo-orchestrator` · Dept: `yonetim`
+> Damga: 2026-08-25T14:44:29Z · Owner: `ceo-orchestrator` · Dept: `yonetim`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

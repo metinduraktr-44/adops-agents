@@ -1,5 +1,5 @@
 # Hukuk OpCo — İştirak org (doküman)
-> Damga: 2026-08-25T14:09:35Z · TR: Grup hukuk / KVKK / reklam politikası · Tip: `shared_service` · Repo: `planned/hukuk`
+> Damga: 2026-08-25T14:44:29Z · TR: Grup hukuk / KVKK / reklam politikası · Tip: `shared_service` · Repo: `planned/hukuk`
 
 ## Mandate
 Ring-fence, privacy, ad policy, contracts across OpCos

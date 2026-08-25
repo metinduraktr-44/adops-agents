@@ -1,5 +1,5 @@
 # Domain 6 — Product Management, Security & AI/ML Models
-> Damga: 2026-08-25T14:09:36Z · Owner: `cpo-product` · Dept: `prd`
+> Damga: 2026-08-25T14:44:29Z · Owner: `cpo-product` · Dept: `prd`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

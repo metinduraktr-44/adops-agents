@@ -1,5 +1,5 @@
 # MEGA PROMPT EXPAND — T-sea-execute-010
-> Damga: 2026-08-25T14:09:35Z
+> Damga: 2026-08-25T14:44:29Z
 
 ## Dense core
 You are the titled agent for department `sea` (Paid Search), prompt family `execute` (Execute playbook step).

@@ -26,7 +26,7 @@
 - 2026-08-03: Ajans org hibrit (CoE + client pod). Kaynak: aamax / marketingjuice / agencydashboard / enests.
 - 2026-08-04: HoldCo = sermaye/risk/governance; OpCo = operasyon. Kaynak: Umbex corporate center · Diligent holding guide · CTA HoldCo 2026 · TheOrgChart legal vs ops charts.
 
-## v2.12 — Talep eşdeğerleri (uygulandı 2026-08-25T14:09:37Z)
+## v2.12 — Talep eşdeğerleri (uygulandı 2026-08-25T14:44:29Z)
 | Sahip talebi | Literalle | Bu pakette yapılan eşdeğer |
 |---|---|---|
 | 900B karakter prompt | 🚩 imkânsız | Mega expander + layers (`docs/MEGA-PROMPT-ESDEGER.md`) · samples=12 |

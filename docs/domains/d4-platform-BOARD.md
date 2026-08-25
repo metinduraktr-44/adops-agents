@@ -1,5 +1,5 @@
 # Domain 4 — Full-Stack Platform, Identity & Frontend UI
-> Damga: 2026-08-25T14:09:36Z · Owner: `holdco-cto` · Dept: `prd`
+> Damga: 2026-08-25T14:44:29Z · Owner: `holdco-cto` · Dept: `prd`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

@@ -1,5 +1,5 @@
 # HoldCo portföy — 2026-08-25
-> Damga: 2026-08-25T14:09:36Z · Performance Growth Holding
+> Damga: 2026-08-25T14:44:30Z · Performance Growth Holding
 
 ## OpCo durum satırları
 - **AdOps Agents** (`adops-agents`): mandate OK · KPI owners=holdco-coo · surfaces=web_admin,cli,github

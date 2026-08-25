@@ -1,5 +1,5 @@
 {
-  "ts": "2026-08-25T14:09:36Z",
+  "ts": "2026-08-25T14:44:30Z",
   "country": "US",
   "name": "Amerika Birleşik Devletleri",
   "role": "target",
@@ -11,7 +11,7 @@
     "en"
   ],
   "agency": "country-us-llm",
-  "read_prior": "snapshot-2026-08-25.json ts=2026-08-25T14:09:24Z",
+  "read_prior": "snapshot-2026-08-25.json ts=2026-08-25T14:44:10Z",
   "research": {
     "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
     "regulation_delta": "Watch: CCPA/CPRA, FTC ad rules",

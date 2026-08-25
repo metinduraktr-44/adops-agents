@@ -1,5 +1,5 @@
 # ÖZET — Holding v2.10 (tek sayfa)
-> Damga: 2026-08-25T14:09:35Z
+> Damga: 2026-08-25T14:44:29Z
 
 ## Ne yaptık
 1. **HoldCo** (`Performance Growth Holding`) C-level + portföy governance

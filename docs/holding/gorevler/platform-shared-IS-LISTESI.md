@@ -1,5 +1,5 @@
 # Shared Platform — OpCo iş listesi
-> Damga: 2026-08-25T14:09:35Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
+> Damga: 2026-08-25T14:44:29Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
 
 ## Mandate
 Auth, feature flags, observability, mobile CI for all apps

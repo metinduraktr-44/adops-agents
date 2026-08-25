@@ -1,5 +1,5 @@
 # US — Amerika Birleşik Devletleri ülke LLM ajansı
-> Damga: 2026-08-25T14:09:35Z · Agency: `country-us-llm` · Role: target
+> Damga: 2026-08-25T14:44:29Z · Agency: `country-us-llm` · Role: target
 
 ## Law / language
 - Law: CCPA/CPRA, FTC ad rules

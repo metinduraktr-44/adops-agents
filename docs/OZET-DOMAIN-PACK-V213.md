@@ -1,5 +1,5 @@
 # ÖZET — Domain Pack v2.13
-> Damga: 2026-08-25T14:09:36Z · TR: Owner docx (PagerDuty/Slack/OTel/Domain1–7) → in-repo pack.
+> Damga: 2026-08-25T14:44:29Z · TR: Owner docx (PagerDuty/Slack/OTel/Domain1–7) → in-repo pack.
 
 ## Ne geldi (docx)
 | Dosya teması | Sonuç |

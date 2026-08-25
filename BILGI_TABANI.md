@@ -1244,4 +1244,116 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Skill references expanded via `--expand-refs` (~1.2M aggregate depth-01..11); K-003 no single 900k blob.
 - MODE remains ASSESS-ONLY. Ogrenim: expand generator + HAND_AUTHORED inventory; ethics-safe out-of-scope wording.
 
+<<<<<<< HEAD
 - [2026-08-25T14:09:37Z] live-terminal-ops: tmux adops-live-ops 120s loop; domain-obs-router skill; OWNER-TALEP raporu. Learning: live ops = additive skill+docs, main cron korunur.
+=======
+- [2026-08-25T14:09:25Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:09:35Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:09:36Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:09:36Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:09:35Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:09:37Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:09:37Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:09:37Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:11:38Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:11:39Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:11:39Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:11:38Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:11:40Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:11:40Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:11:40Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:13:41Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:13:42Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:13:42Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:13:41Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:13:43Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:13:43Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:13:43Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:15:44Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:15:45Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:15:45Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:15:44Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:15:46Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:15:46Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:15:46Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:17:47Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:17:48Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:17:48Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:17:47Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:17:49Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:17:49Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:17:49Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:19:50Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:19:51Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:19:52Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:19:50Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:19:52Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:19:52Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:19:53Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:21:54Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:21:54Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:21:55Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:21:53Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:21:55Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:21:55Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:21:56Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:44:08Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:44:08Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:44:09Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:44:07Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+- [2026-08-25T14:44:09Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:44:10Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:44:10Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:44:28Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:44:29Z] v2.12: K-003 eşdeğerleri — 600×≥500 soru seti, disiplin×100 research queue, mega expander. Learning: talep 'yap' = maksimum gerçekçi eşdeğer; literalle imkânsızı üretmek değil.
+
+- [2026-08-25T14:44:29Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu sa360-bid-strategy-selection.
+- [2026-08-25T14:44:30Z] gece-holding-arastirma: 6 ülke + OpCo rollup damgalandı; prior arşiv okundu (🔗).
+
+- [2026-08-25T14:44:29Z] aktivasyon: Claude Code yapıştır İPTAL; prompt Cursor ajanında uygulandı. daily_ops+holding+nightly+OpCo/ülke görev tahtaları. Learning: aktivasyon = kod+cron+kanıt dosyası, dış yapıştırma değil.
+
+### 2026-08-25T14:45:01Z — mega skill talep
+- Live invoke all skills reddedildi → registry route (696/43).
+- 900B/paste/uydurma top-100 → K-003 eşdeğer. Kanıt: docs/OWNER-TALEP-YANIT-2026-08-25.md
+>>>>>>> 424343e (ops: apply mega skill demand via K-003 equivalents (no 900B/paste))

@@ -1,5 +1,5 @@
 # Domain 3 — Data Engineering, Pipelines & Storage
-> Damga: 2026-08-25T14:09:36Z · Owner: `cdo-data` · Dept: `ana`
+> Damga: 2026-08-25T14:44:29Z · Owner: `cdo-data` · Dept: `ana`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

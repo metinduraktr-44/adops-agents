@@ -1,5 +1,5 @@
 # MEGA PROMPT EŞDEĞERİ (900B talebinin gerçekçi hali)
-> Damga: 2026-08-25T14:09:37Z
+> Damga: 2026-08-25T14:44:29Z
 
 ## 🚩 Red flag
 `≥900.000.000.000 karakter` tek dosya/prompt **üretilemez** ve üretilmemelidir (disk, token, sinyal sıfır).
