@@ -1,0 +1,26 @@
+---
+description: Output folder conventions for the Creative Agency OS (Bolum 12).
+globs: **/*
+---
+
+# File Structure (Bölüm 12)
+
+Türkçe not: Her fazın çıktısı sabit klasöre yazılır. Additive — mevcut `components/**`, `data/**` corpus'una dokunma.
+
+## Output folders
+- `CONTEXT/` — `CONTEXT_BRIEF.md` (marka + hedef girdi), `INBOX/` (ham owner girdileri).
+- `RESEARCH/` — `RESEARCH_NOTES.md`, `COMPETITORS.md`, `INSIGHTS.md`.
+- `TASKS/` — `MASTER_TASKS.md` (tüm iş kırılımı).
+- `ORG/` — `ORG_CHART.md`, `SKILLS_INVENTORY.md`, `SKILL_MATRIX.md`.
+- `EXPERTS/` — `DIGEST.md` + README (aylık READ→DELTA→DIFF→WRITE→DIGEST döngüsü, seed isimler doğrulanacak).
+- `SCENARIOS/` — 8-senaryo çerçevesi.
+- `MATRIX/` — `CHANNEL_MATRIX.md`, `PRODUCTION_GRID.csv`.
+- `BRIEFS/` — kanal/senaryo başına üretim brief'leri.
+- `CANVA_OPS/` — `DESIGN_REGISTRY.csv`, `ERRORS.md`, `MCP_TOOLS.md`, `VALIDATION.log`.
+- `QA/` — `QA_REPORT.md`.
+- `ARCHIVE/` — tamamlanmış faz çıktılarının arşivi.
+
+## Conventions
+- File names: `UPPER_SNAKE.md` for docs, `kebab-case` for command/skill folders, dates as `YYYY-MM-DD`.
+- Never overwrite existing artifacts silently; append or version. Registries are append-only CSV with a stable header.
+- Do not commit `node_modules/`, `__pycache__/`, `*.pyc`, or secret files.

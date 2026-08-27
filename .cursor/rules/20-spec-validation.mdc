@@ -1,0 +1,21 @@
+---
+description: Channel x size spec validation for matrix and Canva ops.
+globs: MATRIX/**, CANVA_OPS/**
+---
+
+# Spec Validation (channel × size)
+
+Türkçe not: Her üretim, kanal×boyut spec'ine uymalı. Kaynak: `MATRIX/CHANNEL_MATRIX.md` (2026 tablosu — resmi platform dokümanına karşı doğrulanmalı).
+
+## Rules
+- Every produced asset must match an approved row in `MATRIX/PRODUCTION_GRID.csv` (channel, placement, width×height, aspect ratio, max file size, format).
+- Validate **exact pixel dimensions** and **aspect ratio** (tolerance 0). Off-spec = reject, log to `CANVA_OPS/VALIDATION.log`.
+- Validate **file size** against the channel max; oversize = reject with a compression note.
+- Validate **format** (JPG/PNG/MP4/GIF) per placement.
+- Safe-area / text-ratio: keep critical text within platform safe zones; flag likely overflow.
+- The `afterFileEdit` hook runs `scripts/spec_validate.py` on generated images; it is advisory and fail-open (never blocks the agent).
+
+## On failure
+- Write a line to `CANVA_OPS/VALIDATION.log` with file, expected vs actual, and verdict.
+- Do not mark the phase complete while any asset is off-spec.
+- Always add: "verify against official platform docs before production."
