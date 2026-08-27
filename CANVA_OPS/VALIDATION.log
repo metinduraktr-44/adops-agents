@@ -1,0 +1,3 @@
+# VALIDATION.log — spec_validate.py hook output (placeholder)
+# Turkce not: afterFileEdit hook'u uretilen gorselleri buraya denetler. Append-only.
+# Format: <ISO8601> <VERDICT> <path> <WxH> ratio=<r> size=<bytes> [notes]
