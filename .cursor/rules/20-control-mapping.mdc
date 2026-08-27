@@ -1,0 +1,30 @@
+---
+description: Mandatory standards mapping for every security control in the 6x100 frameworks.
+globs: LAYERS/**, FIREWALLS/**, ENCRYPTION/**, CHANGE/**, TRANSPARENT_CODE/**, CONDITIONAL/**
+---
+
+# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+
+# Control Mapping (mandatory)
+
+Türkçe not: Bu klasörlerdeki her kontrol satırı, standartlara eşlenmeden "tamam" sayılmaz.
+
+## Every control row MUST carry
+| field | meaning |
+|---|---|
+| `id` | stable control id (e.g. `LAY-001`) |
+| `ad` | control name (kısa) |
+| `NIST_CSF` | NIST CSF 2.0 function/category (verify vs official) |
+| `800-53` | NIST SP 800-53 Rev.5 control id (family range ~1,189–1,196 controls; verify) |
+| `ISO27001` | ISO/IEC 27001:2022 Annex A ref (93 controls; verify) |
+| `CIS` | CIS Controls v8.1 safeguard (verify) |
+| `OWASP` | OWASP ASVS 5.0.0 requirement where applicable (verify) |
+| `doğrulama_yöntemi` | how the control is verified (test/evidence) |
+| `savunma_gerekçesi` | defensive rationale (why it reduces risk) |
+
+## Rules
+1. **No unmapped controls.** At minimum map NIST CSF 2.0 + 800-53 Rev.5 + ISO 27001:2022; add CIS/OWASP when applicable.
+2. **Verify banner.** Standard values are reproduced for scaffolding; add "verify against official source before production" wherever cited.
+3. **Defensive rationale required.** Each control states the risk it mitigates (defense-only).
+4. Do NOT enumerate all 600 controls in scaffold — define the schema + template example rows; controls are filled in phased runs.
+5. Detections may reference MITRE ATT&CK technique ids **only** to justify a D3FEND countermeasure/detection — never to build offense.
