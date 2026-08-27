@@ -1236,3 +1236,10 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-27T12:43:57Z] Security GIGA in-repo bootstrap: dense master + 20 skills/references + 6×100 draft controls; MODE=ASSESS-ONLY; ethics+secret hooks. Learning: K-003 = progressive refs/generator, not literal 900k; experts = Dan Kaminsky seed + pending_research only.
 
 ⏱️[2026-08-27T12:43:57Z→2026-08-27T12:43:57Z] 🔍[pending-validate] 📚[defense-only+sec-* commands] 🔗[prev AKTIVASYON/GIGA pattern used]
+
+## 2026-08-27T13:00:21Z — Security GIGA ASSESS deepen (PR #617)
+- Faz 1 inventory/attack-surface refreshed from repo scan (langs/CI/IaC/auth patterns; secrets location+type only).
+- SECURITY_RESEARCH timestamped defensive standards note (CSF 2.0, ZTMM 2.0, SLSA v1.0) with citations.
+- Matrix gaps G-MAT-01..07; ASSESSMENTS gap+risk filled; ISO 27001 SoA draft; QA/findings checklist; CALENDAR monthly stub.
+- Skill references expanded via `--expand-refs` (~1.2M aggregate depth-01..11); K-003 no single 900k blob.
+- MODE remains ASSESS-ONLY. Ogrenim: expand generator + HAND_AUTHORED inventory; ethics-safe out-of-scope wording.

@@ -19,3 +19,7 @@
 ## Notes
 - Do not implement remediations until `SECURITY_STATE.md` MODE=IMPLEMENT.
 - Mappings draft — needs_expert_review.
+
+## Filled assessments
+- `gap-2026-08-27.md`
+- `risk-2026-08-27.md`

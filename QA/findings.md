@@ -1,17 +1,34 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# QA — Security findings (readonly review)
 
-# QA — Security Findings (skeleton)
+> HAND_AUTHORED · damga: 2026-08-27T12:55:00Z · MODE=ASSESS-ONLY
 
-Türkçe not: Güvenlik-yönetişim OS için QA bulguları. Yaratıcı-ajans `QA/QA_REPORT.md`'den ayrı, additive. `/etik-denetim` ve `security-qa` skill buraya yazar.
+## Ethics checklist
+| Check | Result | Notes |
+|---|---|---|
+| No exploit / PoC content in controls & skills | **PASS** | `ethics_check.py` GECTI |
+| ATT&CK used only as coverage labels | PASS | Prefer D3FEND in refs |
+| Secrets redacted / placeholders only | **PASS** | `secret_scan.py` GECTI |
+| K-003: no 900k single file | PASS | Max skill depth file ≪ 900k; aggregate ~900k |
+| K-003: experts sourced + pending only | PASS | Dan Kaminsky seed; others pending_research |
+| Canva/creative coexistence preserved | PASS | No Canva file deletion |
 
-## Audit log format
-`YYYY-MM-DD | check | verdict (PASS/PARTIAL/FAIL) | REDACTED pointer | remediation`
+## Mapping completeness checklist
+| Check | Result | Notes |
+|---|---|---|
+| 6×100 controls present | PASS | 101 files/family incl. README |
+| Matrix family table | PASS | Updated with gaps G-MAT-01..07 |
+| Standards pins cited | PASS | CSF 2.0, ZTMM 2.0, SLSA v1.0 URLs |
+| SoA draft exists | PASS | Marked draft/needs expert review |
+| Gap + risk assessments filled from inventory | PASS | ASSESSMENTS/*-2026-08-27.md |
+| Skill refs progressive depth 01–11 | PASS | Generator `--expand-refs` · ~1.2M aggregate after ethics-safe rewrite |
+| ORG/ROLES security titles | PASS | ≥40 |
+| EXPERTS queues | PASS | seeds + pending slots |
+| CALENDAR monthly loop stub | PASS | See CALENDAR/ |
 
-## Checks tracked
-- defense-only (no offense/exploit/weaponization)
-- secret hygiene (no plaintext/realistic secrets; only `${VAR}`/`vault://`/`op://`/`<REDACTED>`)
-- standard-mapping completeness + verify-banner present
-- no fabricated facts/URLs
+## Open QA items
+- [ ] Human expert sample of 20 control mappings (SEC-T002)
+- [ ] Re-run ethics_check + secret_scan on full tree after this commit
+- [ ] Owner Cursor restart for skill discovery
 
-## Entries
-- _(none yet — `/etik-denetim` appends dated verdicts. Never echo a secret value; reference `QA/secret-scan.log` / `QA/ethics-check.log` which are gitignored `*.log`.)_
+## Critic notes
+Readonly pass only — no IMPLEMENT remediations.

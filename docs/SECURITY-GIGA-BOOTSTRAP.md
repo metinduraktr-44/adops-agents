@@ -9,6 +9,7 @@ Claude Code'a security master prompt **yapıştırılmaz**. Bu bootstrap repoda 
 - Ana referans: `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
 - Kanıt: `SECURITY_STATE.md` Faz 0 = DONE · `MODE=ASSESS-ONLY`
 - Yeniden üret: `python3 scripts/generate_security_giga_pack.py`
+- Skill refs expand (~900k aggregate): `python3 scripts/generate_security_giga_pack.py --expand-refs`
 - Gate: `python3 scripts/validate.py`
 
 ## Hızlı başlangıç

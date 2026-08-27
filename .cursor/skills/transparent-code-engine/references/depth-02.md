@@ -1,34 +1,66 @@
-# transparent-code-engine depth module 2
+# transparent-code-engine depth module 02 — asset-and-data-classification
 
-> progressive disclosure · damga: 2026-08-27T12:40:00Z
+> progressive disclosure · defense-only · damga: 2026-08-27T12:40:00Z
 
-## Focus
-Defense checklist block 2 for `transparent-code-engine`.
+## Purpose
+Deepen ASSESS-ONLY coverage for `transparent-code-engine` on topic **asset-and-data-classification**.
+Produce gap rows and evidence pointers — do **not** auto-remediate production.
+
+## Ethics
+- Refuse weaponization, exploit how-to, phishing lure templates, C2 setup.
+- Prefer D3FEND-style detect / harden / isolate / recover wording.
+- Secrets: `${VAR}` / `vault://` / `<REDACTED>` only.
+
+## Operator steps
+1. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY).
+2. Sample related controls in family folders; note draft mapping status.
+3. Record gaps in `ASSESSMENTS/` with severity + defense recommendation.
+4. Stamp learning to `BILGI_TABANI.md` + `AUDIT_LOG.jsonl` when closing a pass.
 
 ## Checklist
-- [ ] Item 2.1: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.2: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.3: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.4: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.5: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.6: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.7: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.8: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.9: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.10: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.11: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.12: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.13: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.14: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.15: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.16: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.17: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.18: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.19: verify control evidence; document gap; no offensive steps.
-- [ ] Item 2.20: verify control evidence; document gap; no offensive steps.
+- [ ] asset-and-data-classification item 2.01: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.02: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.03: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.04: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.05: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.06: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.07: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.08: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.09: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.10: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.11: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.12: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.13: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.14: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.15: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.16: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.17: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.18: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.19: verify evidence exists; if missing, open gap; document owner; no offensive steps.
+- [ ] asset-and-data-classification item 2.20: verify evidence exists; if missing, open gap; document owner; no offensive steps.
 
 ## Mapping hint
-CSF:GV.RR · 800-53:AC-7 · ISO:A.5.23
+| Framework | Draft pin |
+|---|---|
+| NIST CSF 2.0 | GV.RR |
+| NIST SP 800-53 Rev.5 | AC-7 |
+| ISO/IEC 27001:2022 | A.5.23 |
+| CIS Controls v8.1 | CIS-3 |
+| OWASP ASVS 5.0.0 | V3 |
 
-## Refuse
-Exploit code, credential harvest, phishing lures.
+## Evidence examples (non-secret)
+- Config screenshot / export path (redact tokens)
+- CI job name + run id proving gate ran
+- Policy markdown link under `docs/` or control id
+- Ticket / CAB id for exceptions
+
+## Negative tests (secure behavior only)
+- Confirm unauthorized path is **denied** in staging (no payload crafting).
+- Confirm secret scanner hooks fire on staged files.
+- Confirm ethics_check.py clean on authored security content.
+
+## Out of scope (forbidden)
+Refuse: exploit how-to, credential harvest, auth bypass instructions, malware generation.
+
+## K-003
+This is one progressive module — aggregate coverage via many files, never a 900k single prompt.

@@ -4,16 +4,20 @@
 Defense-only. No exploit/PoC content. K-003: no 900k blob, no invented top-100.
 Usage:
   python3 scripts/generate_security_giga_pack.py [--force]
+  python3 scripts/generate_security_giga_pack.py --expand-refs
+  python3 scripts/generate_security_giga_pack.py --expand-refs --depth-end 11
 """
 from __future__ import annotations
 
 import argparse
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TS = "2026-08-27T12:40:00Z"
+EXPAND_TS = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # Sourced ONLY from operator prompt (Dan Kaminsky historical note). No invention.
 EXPERT_SEEDS = [
@@ -315,7 +319,95 @@ def control_md(family: str, prefix: str, n: int, theme: str) -> str:
 """
 
 
-def generate_skills(force: bool) -> int:
+DEPTH_TOPICS = [
+    "governance-and-ownership",
+    "asset-and-data-classification",
+    "identity-and-least-privilege",
+    "network-and-segmentation",
+    "logging-and-detection",
+    "incident-readiness",
+    "change-and-cab-gates",
+    "supply-chain-and-sbom",
+    "crypto-and-key-lifecycle",
+    "privacy-and-retention",
+    "cloud-posture-baselines",
+    "secure-defaults-review",
+    "evidence-and-audit-trail",
+    "vendor-and-third-party",
+    "recovery-and-continuity",
+    "metrics-and-kris",
+    "exception-and-risk-accept",
+    "training-and-awareness",
+    "policy-as-code-checks",
+    "continuous-improvement",
+]
+
+
+def depth_module_body(name: str, i: int, expand: bool = False) -> str:
+    topic = DEPTH_TOPICS[(i - 1) % len(DEPTH_TOPICS)]
+    damga = EXPAND_TS if expand else TS
+    # Richer progressive modules for expand mode — still per-file, never one blob.
+    checklist_n = 28 if expand else 20
+    lines = [
+        f"# {name} depth module {i:02d} — {topic}\n",
+        f"\n> progressive disclosure · defense-only · damga: {damga}\n",
+        f"\n## Purpose\n",
+        f"Deepen ASSESS-ONLY coverage for `{name}` on topic **{topic}**.\n",
+        f"Produce gap rows and evidence pointers — do **not** auto-remediate production.\n",
+        f"\n## Ethics\n",
+        f"- Refuse weaponization, exploit how-to, phishing lure templates, C2 setup.\n",
+        f"- Prefer D3FEND-style detect / harden / isolate / recover wording.\n",
+        f"- Secrets: `${{VAR}}` / `vault://` / `<REDACTED>` only.\n",
+        f"\n## Operator steps\n",
+        f"1. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY).\n",
+        f"2. Sample related controls in family folders; note draft mapping status.\n",
+        f"3. Record gaps in `ASSESSMENTS/` with severity + defense recommendation.\n",
+        f"4. Stamp learning to `BILGI_TABANI.md` + `AUDIT_LOG.jsonl` when closing a pass.\n",
+        f"\n## Checklist\n",
+    ]
+    for j in range(1, checklist_n + 1):
+        lines.append(
+            f"- [ ] {topic} item {i}.{j:02d}: verify evidence exists; if missing, open gap; "
+            f"document owner; no offensive steps.\n"
+        )
+    lines += [
+        f"\n## Mapping hint\n",
+        f"| Framework | Draft pin |\n|---|---|\n",
+        f"| NIST CSF 2.0 | {NIST_CSF[i % len(NIST_CSF)]} |\n",
+        f"| NIST SP 800-53 Rev.5 | {SP80053[i * 3 % len(SP80053)]} |\n",
+        f"| ISO/IEC 27001:2022 | {ISO27001[i % len(ISO27001)]} |\n",
+        f"| CIS Controls v8.1 | {CIS[i % len(CIS)]} |\n",
+        f"| OWASP ASVS 5.0.0 | {OWASP[i % len(OWASP)]} |\n",
+        f"\n## Evidence examples (non-secret)\n",
+        f"- Config screenshot / export path (redact tokens)\n",
+        f"- CI job name + run id proving gate ran\n",
+        f"- Policy markdown link under `docs/` or control id\n",
+        f"- Ticket / CAB id for exceptions\n",
+        f"\n## Negative tests (secure behavior only)\n",
+        f"- Confirm unauthorized path is **denied** in staging (no payload crafting).\n",
+        f"- Confirm secret scanner hooks fire on staged files.\n",
+        f"- Confirm ethics_check.py clean on authored security content.\n",
+        f"\n## Out of scope (forbidden)\n",
+        f"Refuse: exploit how-to, credential harvest, auth bypass instructions, malware generation.\n",
+        f"\n## K-003\n",
+        f"This is one progressive module — aggregate coverage via many files, never a 900k single prompt.\n",
+    ]
+    if expand:
+        lines += [
+            f"\n## Scenario notes ({topic})\n",
+            f"For AdOps Agents (markdown/Python component pack + GitHub Actions):\n",
+            f"- Map `{topic}` to repo surfaces: `.github/workflows/`, `scripts/`, `.cursor/`, `data/`.\n",
+            f"- Holding OpCos inherit shared controls; country LLM agencies need privacy overlays.\n",
+            f"- Canva/creative GIGA files coexist — do not delete; security uses `SECURITY_STATE.md`.\n",
+            f"- MCP security catalog stays **off** until owner Authorize with `${{VAR}}` only.\n",
+            f"\n## Review flags\n",
+            f"- status: draft · needs_expert_review\n",
+            f"- MODE: ASSESS-ONLY unless owner flips `SECURITY_STATE.md`\n",
+        ]
+    return "".join(lines)
+
+
+def generate_skills(force: bool, depth_end: int = 5) -> int:
     n = 0
     for name, desc in SKILLS:
         base = ROOT / ".cursor" / "skills" / name
@@ -330,23 +422,25 @@ def generate_skills(force: bool) -> int:
         ]:
             if write_if_needed(base / rel if rel == "SKILL.md" else refs / Path(rel).name, body, force):
                 n += 1
-        # Extra depth files for char coverage toward progressive disclosure
-        for i in range(1, 6):
+        for i in range(1, depth_end + 1):
             extra = refs / f"depth-{i:02d}.md"
-            body = (
-                f"# {name} depth module {i}\n\n"
-                f"> progressive disclosure · damga: {TS}\n\n"
-                f"## Focus\nDefense checklist block {i} for `{name}`.\n\n"
-                f"## Checklist\n"
-                + "".join(
-                    f"- [ ] Item {i}.{j}: verify control evidence; document gap; no offensive steps.\n"
-                    for j in range(1, 21)
-                )
-                + f"\n## Mapping hint\nCSF:{NIST_CSF[i % len(NIST_CSF)]} · "
-                f"800-53:{SP80053[i * 3 % len(SP80053)]} · ISO:{ISO27001[i % len(ISO27001)]}\n"
-                f"\n## Refuse\nExploit code, credential harvest, phishing lures.\n"
-            )
+            expand = i > 5
+            body = depth_module_body(name, i, expand=expand)
             if write_if_needed(extra, body, force):
+                n += 1
+    return n
+
+
+def expand_skill_refs(force: bool, depth_start: int, depth_end: int) -> int:
+    """Add progressive depth modules (K-003: many files, no single 900k blob)."""
+    n = 0
+    for name, _desc in SKILLS:
+        refs = ROOT / ".cursor" / "skills" / name / "references"
+        refs.mkdir(parents=True, exist_ok=True)
+        for i in range(depth_start, depth_end + 1):
+            path = refs / f"depth-{i:02d}.md"
+            body = depth_module_body(name, i, expand=True)
+            if write_if_needed(path, body, force):
                 n += 1
     return n
 
@@ -503,16 +597,30 @@ def ensure_dirs() -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
+    ap.add_argument(
+        "--expand-refs",
+        action="store_true",
+        help="Write progressive depth-NN.md modules toward ~900k aggregate skill refs",
+    )
+    ap.add_argument("--depth-start", type=int, default=6, help="First depth module for --expand-refs")
+    ap.add_argument("--depth-end", type=int, default=11, help="Last depth module (inclusive); ~900k aggregate target")
+    ap.add_argument("--scaffold-only", action="store_true", help="Skip controls/roles when expanding")
     args = ap.parse_args()
     ensure_dirs()
-    counts = {
-        "skills": generate_skills(args.force),
-        "controls": generate_controls(args.force),
-        "roles": generate_roles(args.force),
-        "experts": generate_experts(args.force),
-        "matrix": generate_matrix(args.force),
-    }
-    print(json.dumps({"ok": True, "written_or_updated": counts, "damga": TS}, indent=2))
+    counts: dict = {}
+    if args.expand_refs:
+        counts["expand_refs"] = expand_skill_refs(args.force, args.depth_start, args.depth_end)
+        # Also refresh base depth 1-5 bodies if force
+        if args.force:
+            counts["skills_base"] = generate_skills(True, depth_end=5)
+    if not args.expand_refs or not args.scaffold_only:
+        if not args.expand_refs:
+            counts["skills"] = generate_skills(args.force, depth_end=5)
+            counts["controls"] = generate_controls(args.force)
+            counts["roles"] = generate_roles(args.force)
+            counts["experts"] = generate_experts(args.force)
+            counts["matrix"] = generate_matrix(args.force)
+    print(json.dumps({"ok": True, "written_or_updated": counts, "damga": EXPAND_TS}, indent=2))
     return 0
 
 
