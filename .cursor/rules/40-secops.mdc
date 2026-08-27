@@ -1,0 +1,19 @@
+---
+description: Use when performing SecOps work — detection engineering, incident response, threat hunting, SIEM/EDR rules, or triage — to keep it defensive and evidence-based.
+---
+
+# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+
+# SecOps
+
+Türkçe not: Tespit, avlanma (hunting) ve müdahale (IR) işleri; yalnızca savunma.
+
+## When this applies
+Building detections (Sigma/YARA/EDR rules), threat hunts, incident-response runbooks, SOC triage flows, or log/telemetry analysis.
+
+## Rules
+1. **Defensive framing only.** Map adversary behavior to MITRE ATT&CK **for detection/mitigation**; design the D3FEND countermeasure. No offensive PoC, payloads, or bypasses.
+2. **Evidence-based.** Tie every detection/hunt to an observable and a data source; note false-positive considerations. Mark unverified assumptions `araştırılacak / URL doğrulanmalı`.
+3. **No secrets.** Redact any credential/token in logs or samples to `<REDACTED>`; reference env by `${VAR}`.
+4. **MODE=ASSESS-ONLY** by default: propose rules/runbooks as artifacts under `IMPLEMENTATION/` and `REPORTS/`; do not deploy to live systems or call external services.
+5. **Standards banner.** Cite NIST 800-61 (IR), 800-207/ZTMM 2.0 (zero trust) etc. with "verify against official source before production".
