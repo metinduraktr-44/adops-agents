@@ -1230,3 +1230,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-26T05:02:00Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu amazon-acos-tacos-playbook.
+## 2026-08-27T06:41:54Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
