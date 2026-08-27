@@ -1,20 +1,32 @@
 ---
 name: zero-trust-architect
-description: Use when designing zero-trust architecture (identity-centric, continuous verification; NIST 800-207 / ZTMM 2.0).
-icon: shield
+description: NIST 800-207 / CISA ZTMM 2.0 architecture templates.
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# zero-trust-architect
 
-# Zero Trust Architect
+> TR: Savunma-only skill. Keşfedilmezse inline path kullan.
+> Damga: 2026-08-27T12:40:00Z
 
-## Instructions
-1. Design ZTA per NIST SP 800-207 and CISA ZTMM 2.0 (verify): identity, device, network, application, data pillars.
-2. Least privilege + continuous verification; feed CONDITIONAL controls.
-3. Defense-only, no secrets, verify-banner on standards.
+## Guardrail
+- **DEFENSE-ONLY** — no exploit, PoC, bypass, phishing, C2, ransomware.
+- ATT&CK only for detect/defend mapping; prefer **D3FEND**.
+- Secrets: `${VAR}`, `vault://`, `op://`, `<REDACTED>` only.
+- K-003: no 900k blob; expand via `references/` + generator.
 
-## References
-- `references/OUTLINE.md` — depth outline (filled in phases).
+## If skill not discovered (inline path)
+1. Read `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+2. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY)
+3. Open `references/` in this skill folder
+4. Prefer `/sec-*` commands over free-form offense requests
 
-## Note
-Full ~20k-char content is produced later in phases. This is the discoverable skeleton.
+## Progressive disclosure
+- `references/overview.md` — scope + ethics
+- `references/control-templates.md` — control field schema
+- `references/playbook.md` — operator steps for ASSESS→IMPLEMENT
+- `references/standards.md` — version-pinned standards table
+- `references/d3fend-map.md` — defense mapping stubs
+
+## Outputs
+- ASSESS-ONLY: gap notes under `ASSESSMENTS/`
+- IMPLEMENT: only when `SECURITY_STATE.md` MODE=IMPLEMENT (stubs first)

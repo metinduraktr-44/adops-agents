@@ -1,0 +1,508 @@
+{
+  "title": "sec-iam",
+  "target_slots": 100,
+  "filled_sourced": 0,
+  "slots": [
+    {
+      "slot": 1,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 2,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 3,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 4,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 5,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 6,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 7,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 8,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 9,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 10,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 11,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 12,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 13,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 14,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 15,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 16,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 17,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 18,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 19,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 20,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 21,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 22,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 23,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 24,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 25,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 26,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 27,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 28,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 29,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 30,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 31,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 32,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 33,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 34,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 35,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 36,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 37,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 38,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 39,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 40,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 41,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 42,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 43,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 44,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 45,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 46,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 47,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 48,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 49,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 50,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 51,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 52,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 53,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 54,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 55,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 56,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 57,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 58,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 59,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 60,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 61,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 62,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 63,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 64,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 65,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 66,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 67,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 68,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 69,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 70,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 71,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 72,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 73,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 74,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 75,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 76,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 77,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 78,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 79,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 80,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 81,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 82,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 83,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 84,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 85,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 86,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 87,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 88,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 89,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 90,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 91,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 92,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 93,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 94,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 95,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 96,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 97,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 98,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 99,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    },
+    {
+      "slot": 100,
+      "status": "pending_research",
+      "query_hint": "sec-iam public expert source needed"
+    }
+  ],
+  "damga": "2026-08-27T12:40:00Z"
+}

@@ -1233,21 +1233,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 ## 2026-08-27T06:41:54Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
-- [2026-08-27T15:21:47Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu agency-ai-org-design.
-## 2026-08-28T08:31:57Z — nightly run
-- Ran read->distill->produce->validate->stamp. Generation: off.
+- [2026-08-27T12:43:57Z] Security GIGA in-repo bootstrap: dense master + 20 skills/references + 6×100 draft controls; MODE=ASSESS-ONLY; ethics+secret hooks. Learning: K-003 = progressive refs/generator, not literal 900k; experts = Dan Kaminsky seed + pending_research only.
 
-- [2026-08-28T16:45:40Z] gunluk-operasyon: standup+makale üretildi; nöbet prg/sea/soc; konu programmatic-supply-path-2026.
-## 2026-08-29T05:11:53Z — nightly run
-- Ran read->distill->produce->validate->stamp. Generation: off.
-
-- [2026-08-29T11:13:50Z] gunluk-operasyon: standup+makale üretildi; nöbet sea/soc/mob; konu skan-vs-sandbox-attribution.
-## 2026-08-30T03:03:27Z — nightly run
-- Ran read->distill->produce->validate->stamp. Generation: off.
-
-- [2026-08-30T10:01:03Z] gunluk-operasyon: standup+makale üretildi; nöbet soc/mob/ret; konu pmax-transparency-levers.
-## 2026-08-31T02:57:29Z — nightly run
-- Ran read->distill->produce->validate->stamp. Generation: off.
-
-- [2026-08-31T10:59:52Z] gunluk-operasyon: standup+makale üretildi; nöbet mob/ret/seo; konu ctv-buying-checklist.
-- [2026-08-31T13:27:33Z] liderlik-sync: tutanak toplantilar/2026-08-31-liderlik.md; açık P0=8, gelir aksiyonu=19.
+⏱️[2026-08-27T12:43:57Z→2026-08-27T12:43:57Z] 🔍[pending-validate] 📚[defense-only+sec-* commands] 🔗[prev AKTIVASYON/GIGA pattern used]

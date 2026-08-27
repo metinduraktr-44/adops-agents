@@ -1,18 +1,28 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# Security Context — Inventory (defense perspective)
 
-# Security Context — Asset Inventory (skeleton)
+> Damga: 2026-08-27T12:40:00Z · MODE=ASSESS-ONLY · no secret values
 
-Türkçe not: Faz 0 girdisi. Varlık envanteri (sistemler, veri, kimlikler, bağımlılıklar). MODE=ASSESS-ONLY.
+## Repo type
+- Claude Code / Cursor component pack + agency automation (`adops-agents`)
+- Content: `components/`, `docs/`, `data/`
+- Automation: `scripts/` (Python stdlib + Bash)
 
-> No secrets here. Reference credentials/config only via `${VAR}` / `vault://` / `op://`.
+## Assets to protect
+| Asset class | Path / surface | Notes |
+|---|---|---|
+| Org model | `data/org.json` | 600 agents — change only via generate_org.py |
+| Prompt banks | `data/prompt_bank/` | IP / operational prompts |
+| Holding model | `data/holding.json` | OpCo + country LLM agencies |
+| Skill registry | `data/skill_agency_registry.json` | routing |
+| Audit chain | `AUDIT_LOG.jsonl`, `BILGI_TABANI.md` | integrity |
+| Cursor config | `.cursor/` | rules, hooks, MCP URLs |
+| CI | `.github/workflows/` | supply chain |
+| Secrets | env / MCP Authorize | never in repo — `${VAR}` only |
 
-## Assets (fill in Faz 0)
-| asset_id | tür (system/data/identity/dependency) | sahibi | kritiklik (L/M/H) | veri_sınıfı | notlar |
-|---|---|---|---|---|---|
-| (template) | system | araştırılacak | H | araştırılacak | example row — replace |
+## Trust boundaries
+- Public GitHub remote vs local workspace
+- MCP servers (OAuth by owner) vs local files
+- Generated automation writes (daily_ops, nightly) vs human review
 
-## Data classes
-- Public / Internal / Confidential / Restricted (define per org; verify against policy).
-
-## Dependencies
-- Third-party services, libraries, cloud accounts — list by name; no tokens. Mark unknowns `araştırılacak`.
+## Ingestion method
+Quick path scan + README/AGENTS — no credential probing.

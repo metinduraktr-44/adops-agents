@@ -2,6 +2,25 @@
 
 `adops-agents` is a Claude Code component pack + agency-automation repo (not a deployable web app). Content lives in `components/`, `docs/`, and `data/`; automation lives in `scripts/`. See `README.md` and `CONTRIBUTING.md` for the product overview and contribution rules.
 
+## Security GIGA (defense-only)
+
+In-repo Security GIGA bootstrap — Claude Code paste **cancelled** (K-003). Coexists with Canva/creative packs when present.
+
+| Area | Location |
+|---|---|
+| Master prompt | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` |
+| Bootstrap + usage | `docs/SECURITY-GIGA-BOOTSTRAP.md` |
+| Phase / MODE | `SECURITY_STATE.md` (default **ASSESS-ONLY**; pointer in `STATE.md`) |
+| Plan | `.cursor/plans/security-master-plan.md` |
+| Controls | `LAYERS/` `FIREWALLS/` `ENCRYPTION/` `CHANGE/` `TRANSPARENT_CODE/` `CONDITIONAL/` |
+| Matrix | `SECURITY_MATRIX/matrix.md` |
+| Roles / experts | `ORG/ROLES/`, `EXPERTS/` (sourced + pending_research) |
+| Commands | `.cursor/commands/sec-*.md` (`/sec-baslat`, `/sec-gap-analizi`, `/sec-etik-denetim`, …) |
+| Hooks / scanners | `.cursor/hooks.json`, `scripts/secret_scan.py`, `scripts/ethics_check.py` |
+| Generator | `scripts/generate_security_giga_pack.py` |
+
+**Hard rules:** defense-only (no exploit/PoC); secrets only `${VAR}` / `vault://` / `op://` / `<REDACTED>`; no 900k prompt blob; no invented top-100 experts. MODE order: assess → implement → audit.
+
 ## Cursor Cloud specific instructions
 
 ### Runtime & dependencies

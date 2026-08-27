@@ -1,63 +1,48 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# ORG/ROLES — Security titles
 
-# ORG/ROLES — Security Organization (Bölüm 5)
+Count: 43 · Not part of org.json 600 resize.
+Damga: 2026-08-27T12:40:00Z
 
-Türkçe not: Güvenlik organizasyon şeması — 40+ savunma rolü (C-level → SOC). Yaratıcı-ajans `ORG/ORG_CHART.md`'den ayrı, additive. Kişi/isim atanmaz; yalnızca roller. MODE=ASSESS-ONLY.
-
-## Leadership / C-level & governance
-1. CISO — Chief Information Security Officer
-2. Deputy CISO
-3. CSO — Chief Security Officer (physical + info)
-4. BISO — Business Information Security Officer
-5. Head of Security Governance, Risk & Compliance (GRC)
-6. DPO — Data Protection Officer (privacy)
-7. Security Program / PMO Lead
-
-## Architecture & engineering
-8. Security Architect (enterprise)
-9. Application Security Architect
-10. Cloud Security Architect
-11. Zero-Trust Architect
-12. Cryptography / Crypto-Agility Lead
-13. Identity & Access Management (IAM) Architect
-14. Network Security Engineer
-15. Product Security Engineer (ProdSec)
-16. DevSecOps Engineer
-17. Security Automation Engineer
-18. Data Security Engineer
-
-## Application & software security
-19. AppSec Engineer
-20. Secure Code Reviewer
-21. Software Supply-Chain Security Engineer (SBOM/provenance)
-22. API Security Specialist
-
-## Detection, response & operations (SecOps / SOC)
-23. SOC Manager
-24. SOC Analyst — Tier 1 (triage)
-25. SOC Analyst — Tier 2 (investigation)
-26. SOC Analyst — Tier 3 (advanced)
-27. Detection Engineer
-28. Threat Hunter
-29. Incident Responder (DFIR)
-30. Digital Forensics Analyst
-31. Malware Analyst (defensive / detection)
-32. Threat Intelligence Analyst (defensive)
-33. SIEM / Detection Content Engineer
-
-## Risk, compliance & assurance
-34. GRC Analyst
-35. Security Compliance Auditor
-36. Risk Analyst (security)
-37. Third-Party / Vendor Risk Manager
-38. Privacy Engineer
-39. Security Awareness & Training Lead
-
-## Assessment & validation (authorized, defensive)
-40. Vulnerability Management Lead
-41. Penetration Testing Lead (authorized, scoped — findings/defense only)
-42. Red Team Lead (authorized, purple-team focus — no external weaponization)
-43. Blue Team Lead
-44. Security QA / Control Validation Engineer
-
-> Roles only — no individuals named. Map each role to controls/skills as phases progress. Verify titles/scope against org policy before production.
+- `ciso.md`
+- `deputy-ciso.md`
+- `v-ciso.md`
+- `security-architect.md`
+- `enterprise-security-architect.md`
+- `cloud-security-architect.md`
+- `zero-trust-architect.md`
+- `application-security-lead.md`
+- `product-security-engineer.md`
+- `devsecops-lead.md`
+- `secops-manager.md`
+- `soc-manager.md`
+- `detection-engineer.md`
+- `threat-hunter.md`
+- `incident-response-lead.md`
+- `forensics-analyst.md`
+- `vulnerability-manager.md`
+- `penetration-test-coordinator.md`
+- `red-team-liaison.md`
+- `blue-team-lead.md`
+- `purple-team-facilitator.md`
+- `grc-manager.md`
+- `compliance-officer.md`
+- `privacy-officer.md`
+- `dpo-liaison.md`
+- `identity-access-manager.md`
+- `privileged-access-admin.md`
+- `crypto-engineer.md`
+- `pqc-migration-lead.md`
+- `sbom-provenance-owner.md`
+- `supply-chain-security.md`
+- `cloud-security-posture-analyst.md`
+- `container-security-engineer.md`
+- `network-security-engineer.md`
+- `firewall-policy-owner.md`
+- `data-protection-officer-ops.md`
+- `security-awareness-lead.md`
+- `security-qa-lead.md`
+- `third-party-risk-manager.md`
+- `business-continuity-security.md`
+- `ot-ics-security-liaison.md`
+- `ai-security-governance.md`
+- `metrics-reporting-analyst.md`

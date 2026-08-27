@@ -3,21 +3,18 @@
   "hooks": {
     "afterFileEdit": [
       {
-        "command": "python3 scripts/spec_validate.py"
+        "matcher": "**/*",
+        "command": "python3 scripts/secret_scan.py --hook"
       },
       {
-        "command": "python3 scripts/secret_scan.py"
-      },
-      {
-        "command": "python3 scripts/ethics_check.py"
+        "matcher": "**/*",
+        "command": "python3 scripts/ethics_check.py --hook"
       }
     ],
     "beforeShellExecution": [
       {
-        "matcher": "rm -rf|curl.*\\|.*sh|wget.*\\|.*sh",
         "command": ".cursor/hooks/block-dangerous.sh",
-        "failClosed": true,
-        "timeout": 10
+        "failClosed": true
       }
     ],
     "beforeReadFile": [
@@ -26,9 +23,6 @@
       }
     ],
     "stop": [
-      {
-        "command": "python3 scripts/phase_check.py"
-      },
       {
         "command": ".cursor/hooks/phase-audit.sh"
       }

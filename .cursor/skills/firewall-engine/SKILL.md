@@ -1,20 +1,32 @@
 ---
 name: firewall-engine
-description: Use when generating or mapping the FIREWALLS 100-control framework (network/host/WAF/cloud firewall policy).
-icon: shield
+description: Network/host/app firewall policy templates — defense only.
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# firewall-engine
 
-# Firewall Engine
+> TR: Savunma-only skill. Keşfedilmezse inline path kullan.
+> Damga: 2026-08-27T12:40:00Z
 
-## Instructions
-1. Generate/maintain `FIREWALLS/` policy controls (100-control target): network ACLs, host firewall, WAF, cloud security groups, egress control.
-2. Every row mapped per `20-control-mapping.mdc`; add verify-banner to standard values.
-3. Default-deny / least-exposure framing; no bypass techniques. Defense-only.
+## Guardrail
+- **DEFENSE-ONLY** — no exploit, PoC, bypass, phishing, C2, ransomware.
+- ATT&CK only for detect/defend mapping; prefer **D3FEND**.
+- Secrets: `${VAR}`, `vault://`, `op://`, `<REDACTED>` only.
+- K-003: no 900k blob; expand via `references/` + generator.
 
-## References
-- `references/OUTLINE.md` — depth outline (filled in phases).
+## If skill not discovered (inline path)
+1. Read `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+2. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY)
+3. Open `references/` in this skill folder
+4. Prefer `/sec-*` commands over free-form offense requests
 
-## Note
-Full ~20k-char content is produced later in phases. This is the discoverable skeleton.
+## Progressive disclosure
+- `references/overview.md` — scope + ethics
+- `references/control-templates.md` — control field schema
+- `references/playbook.md` — operator steps for ASSESS→IMPLEMENT
+- `references/standards.md` — version-pinned standards table
+- `references/d3fend-map.md` — defense mapping stubs
+
+## Outputs
+- ASSESS-ONLY: gap notes under `ASSESSMENTS/`
+- IMPLEMENT: only when `SECURITY_STATE.md` MODE=IMPLEMENT (stubs first)

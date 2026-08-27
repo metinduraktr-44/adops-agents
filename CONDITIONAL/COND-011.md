@@ -1,0 +1,20 @@
+# COND-011 — mfa-stepup control 11
+
+| Field | Value |
+|---|---|
+| id | COND-011 |
+| ad | Mfa Stepup control 011 |
+| açıklama | Defense control for mfa-stepup in CONDITIONAL. Draft template for ASSESS-ONLY gap analysis. |
+| NIST_CSF | DE.AE |
+| 800-53 | AC-11 |
+| ISO27001 | A.8.24 |
+| CIS | CIS-11 |
+| OWASP | ASVS V11 (map refine in review) |
+| doğrulama_yöntemi | Config review + evidence sample + negative test of secure behavior (no exploit payload) |
+| savunma_gerekçesi | Reduces attack surface / improves detectability / supports recovery for mfa-stepup |
+| status | draft · needs_expert_review |
+| damga | 2026-08-27T12:40:00Z |
+
+## Notes
+- Crosswalk is **template-reasonable**, not certified.
+- MODE=ASSESS-ONLY by default; do not auto-remediate production.

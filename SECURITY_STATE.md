@@ -1,26 +1,37 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# SECURITY_STATE — Security GIGA Phase Tracker
 
-# SECURITY_STATE — Security Governance OS
+> Damga: 2026-08-27T12:40:00Z · TR: Varsayılan ASSESS-ONLY
 
-Türkçe not: `/sec-devam` / `/sec-resume` bu dosyayı okur. Kaynak-doğruluk (source of truth) burasıdır. Yaratıcı-ajans `STATE.md`'den ayrı, additive.
+## Mode flags
 
-| Field | Value |
-|---|---|
-| current_phase | Faz 0 — Context & Bootstrap |
-| MODE | ASSESS-ONLY |
-| posture | defense-only |
-| last_completed_phase | (none) |
-| last_update | 2026-08-27 (scaffold init) |
-| mcp_servers | default OFF (enable in Cursor Settings > MCP) |
+| Flag | Value | Not |
+|---|---|---|
+| `MODE` | **ASSESS-ONLY** | Default — no live remediations |
+| `ETHICS` | defense-only | Exploit/PoC forbidden |
+| `SECRETS` | redact-only | `${VAR}` / vault / `<REDACTED>` |
+| `MCP_SECURITY_CATALOG` | off | Owner enable with env vars |
 
-## Flags
-- `MODE=ASSESS-ONLY` = true (assess/model/map/document; no live changes, no network, no secrets)
-- `DEFENSE-ONLY` = true (no exploits/weaponization/C2/ransomware/phishing/bypass/exfil)
-- `SECRETS-REDACTED` = true (only `${VAR}` / `vault://` / `op://` / `<REDACTED>`)
+## Phase status
 
-## Resume notes
-- Scaffold committed (this branch STACKS on `cursor/creative-agency-os-c8d4`, PR #616).
-- Next action: fill `SECURITY_CONTEXT/inventory.md` + `attack-surface.md` (Faz 0), then advance
-  `.cursor/plans/security-master-plan.md` in order.
-- Do NOT enable MCP servers or any network/live actions autonomously. Do NOT run always-on loops.
-- Standard values throughout carry "verify against official source before production".
+| Faz | Ad | Durum |
+|---|---|---|
+| 0 | Bootstrap (.cursor + scripts + docs) | **DONE** |
+| 1 | Context ingestion | scaffold |
+| 2 | 6×100 controls + matrix | draft generated |
+| 3 | Experts + ORG/ROLES | sourced+pending |
+| 4 | ASSESS gap + scanner stubs | **partial** |
+| 5 | IMPLEMENT loop | blocked (MODE) |
+| 6 | AUDIT / compliance pack | pending |
+
+## Active task
+
+- Run `/sec-baslat` → review `SECURITY_CONTEXT/` + `ASSESSMENTS/gap-template.md`
+
+## Canonical entry
+
+- Master: `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+- Bootstrap: `docs/SECURITY-GIGA-BOOTSTRAP.md`
+
+## Last audit
+
+- Security GIGA bootstrap on branch `cursor/security-giga-master-50e1`

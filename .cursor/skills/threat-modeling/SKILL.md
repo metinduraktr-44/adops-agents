@@ -1,20 +1,32 @@
 ---
 name: threat-modeling
-description: Use when threat-modeling a system or feature (STRIDE/attack-surface/data-flow) to derive defensive controls.
-icon: shield
+description: STRIDE/LINDDUN-style threat modeling — defend/detect focus.
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# threat-modeling
 
-# Threat Modeling
+> TR: Savunma-only skill. Keşfedilmezse inline path kullan.
+> Damga: 2026-08-27T12:40:00Z
 
-## Instructions
-1. Model assets, trust boundaries, data flows; enumerate threats with STRIDE.
-2. Map threats to MITRE ATT&CK **only** to design D3FEND countermeasures/detections — no offense.
-3. Output prioritized defensive mitigations tied to control frameworks. No secrets, no fabrication.
+## Guardrail
+- **DEFENSE-ONLY** — no exploit, PoC, bypass, phishing, C2, ransomware.
+- ATT&CK only for detect/defend mapping; prefer **D3FEND**.
+- Secrets: `${VAR}`, `vault://`, `op://`, `<REDACTED>` only.
+- K-003: no 900k blob; expand via `references/` + generator.
 
-## References
-- `references/OUTLINE.md` — depth outline (filled in phases).
+## If skill not discovered (inline path)
+1. Read `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+2. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY)
+3. Open `references/` in this skill folder
+4. Prefer `/sec-*` commands over free-form offense requests
 
-## Note
-Full ~20k-char content is produced later in phases. This is the discoverable skeleton.
+## Progressive disclosure
+- `references/overview.md` — scope + ethics
+- `references/control-templates.md` — control field schema
+- `references/playbook.md` — operator steps for ASSESS→IMPLEMENT
+- `references/standards.md` — version-pinned standards table
+- `references/d3fend-map.md` — defense mapping stubs
+
+## Outputs
+- ASSESS-ONLY: gap notes under `ASSESSMENTS/`
+- IMPLEMENT: only when `SECURITY_STATE.md` MODE=IMPLEMENT (stubs first)

@@ -1,17 +1,23 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# Attack Surface — Defense View
 
-# Security Context — Attack Surface (skeleton)
+> Damga: 2026-08-27T12:40:00Z · what to **protect**, not how to attack
 
-Türkçe not: Saldırı yüzeyi haritası — savunma amaçlı (nereyi sertleştirmeli). Exploit üretilmez. MODE=ASSESS-ONLY.
+## Surfaces
 
-## Entry points (defensive mapping)
-| surface | exposure (public/internal) | trust_boundary | ilgili_kontrol (LAYERS/FIREWALLS/…) | savunma_notu |
-|---|---|---|---|---|
-| (template) external HTTPS endpoint | public | internet→app | FW-001, ENC-001 | default-deny + TLS enforce |
+1. **Source repository** — unauthorized commits, secret commits, dependency confusion
+2. **CI/CD workflows** — poisoned actions, over-privileged tokens (`${{ secrets.* }}` only)
+3. **Cursor MCP integrations** — token theft if misconfigured; keep catalog minimal
+4. **Generated scripts** — dangerous shell patterns (hooks **refuse/forbid** destructive wipe-root and pipe-to-shell idioms)
+5. **Prompt / agent content** — prompt injection into agency components
+6. **Data archives** — `data/arsiv/**` integrity and over-sharing
+7. **Supply chain** — third-party actions, Python stdlib assumption (no pip deps today)
 
-## Threat mapping (defense-only)
-- Use `threat-modeling` skill: STRIDE per element → map to MITRE ATT&CK **only** to design D3FEND countermeasures/detections. No offensive PoC.
-- Record derived detections under `IMPLEMENTATION/` and coverage in `SECURITY_MATRIX/matrix.md`.
+## Priority controls (map to families)
+- Secrets → secret-hygiene + ENC/TC controls
+- Change integrity → CHANGE + TRANSPARENT_CODE
+- Identity to MCP/CI → CONDITIONAL + IAM
+- Network egress assumptions → FIREWALLS (policy templates)
+- Defense-in-depth docs → LAYERS
 
-## To verify
-- All external references / CVE ids: `araştırılacak / URL doğrulanmalı`.
+## Out of scope here
+Exploit development, PoC content, and any weaponization — **forbidden** (defense-only).

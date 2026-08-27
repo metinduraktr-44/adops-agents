@@ -1,18 +1,8 @@
 ---
-name: sec-resume
-description: Alias of sec-devam — resume Security Governance OS from SECURITY_STATE.md.
+description: Resume interrupted security session from SECURITY_STATE + MEMORY.
 ---
+# /sec-resume
 
-# /sec-resume (RESUME — Security)
-
-## Objective
-Same as `/sec-devam`: pick up security work exactly where it left off.
-
-## Requirements
-- Read `SECURITY_STATE.md` first, then `.cursor/plans/security-master-plan.md`.
-- Resume the first unchecked item; do not redo completed phases.
-- `MODE=ASSESS-ONLY`, defense-only, no secrets/accounts/network.
-
-## Output
-- Continued artifacts + updated `SECURITY_STATE.md`.
-- Status line: phase, MODE, next action.
+1. `SECURITY_STATE.md` + `MEMORY/` latest note.
+2. Re-open incomplete TASKS/ card.
+3. Re-run secret_scan/ethics_check if mid-edit.
