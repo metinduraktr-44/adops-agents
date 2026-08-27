@@ -1,0 +1,19 @@
+{
+  "name": "@adops/canva-client",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Scaffold for the Canva Connect API client (Bolum 9 Mod A2). Stubs only — no live API calls. Turkce not: sadece iskelet, gercek API cagirmaz.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": ["canva", "connect-api", "oauth2-pkce", "autofill", "scaffold"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
