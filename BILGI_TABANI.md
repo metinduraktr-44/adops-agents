@@ -1230,3 +1230,9 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-26T05:02:00Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu amazon-acos-tacos-playbook.
+
+## 2026-08-27 — GIGA Creative Agency Bootstrap
+- In-repo apply: `docs/CURSOR-GIGA-MASTER-PROMPT.md` + phased bootstrap (K-003 — no 900B blob).
+- Canva Dual-Mode: default `BRIEF-ONLY`; FULL after owner OAuth via `.cursor/mcp.json`.
+- Autofill Enterprise-only; EXPERTS/ uses sourced seeds + pending_research (no invented bios).
+- Gate: `validate.py` + `spec_validate.py` both GECTI on branch `cursor/giga-creative-agency-50e1`.

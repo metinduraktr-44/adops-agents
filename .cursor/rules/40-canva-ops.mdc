@@ -1,0 +1,25 @@
+---
+description: Canva Dual-Mode ops — BRIEF-ONLY vs FULL, MCP OAuth, export and autofill rules. Request when user mentions Canva, design export, or CANVA_OPS.
+---
+
+# Canva Ops (Agent Requested)
+
+## Modes
+
+- **BRIEF-ONLY** (`STATE.md`): write CANVA_OPS/ job manifests only; no MCP calls.
+- **FULL**: after owner OAuth, use Canva MCP (`GetDynamicTools` → `Canva` namespace).
+
+## MCP
+
+- Config: `.cursor/mcp.json` → `https://mcp.canva.com/mcp`
+- Auth: owner Cursor MCP Authorize; never commit tokens.
+- Discover schema before every tool call; auth failure → 🚩 continue offline.
+
+## Autofill
+
+- **Enterprise-only.** If plan unknown, manifest stub + owner confirm.
+
+## Export
+
+- Record format, dimensions, and design ID in CANVA_OPS/ manifest.
+- Client scaffold: `tools/canva-client/` (no fake OAuth).

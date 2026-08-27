@@ -1,0 +1,9 @@
+{
+  "title": "copy-chief",
+  "queue": "data/title_top100_queues.json",
+  "slots": [
+    {"slot": 1, "status": "sourced", "ref": "seed.json[0]"},
+    {"slot": 2, "status": "pending_research", "query": "chief copywriter performance marketing sourced profile"}
+  ],
+  "note": "Slots 3-100 empty"
+}

@@ -2,6 +2,22 @@
 
 `adops-agents` is a Claude Code component pack + agency-automation repo (not a deployable web app). Content lives in `components/`, `docs/`, and `data/`; automation lives in `scripts/`. See `README.md` and `CONTRIBUTING.md` for the product overview and contribution rules.
 
+## GIGA Creative Agency (Canva Dual-Mode)
+
+In-repo bootstrap — Claude Code paste **cancelled** (K-003).
+
+| Area | Location |
+|---|---|
+| Master prompt | `docs/CURSOR-GIGA-MASTER-PROMPT.md` |
+| Bootstrap + usage | `docs/GIGA-AGENCY-BOOTSTRAP.md` |
+| Phase tracker | `STATE.md` |
+| Plan | `.cursor/plans/master-plan.md` |
+| Creative artifacts | `BRIEFS/`, `MATRIX/`, `CANVA_OPS/`, `QA/`, `ARCHIVE/` |
+| Canva MCP | `.cursor/mcp.json` → owner OAuth required |
+| Spec hook | `scripts/spec_validate.py` |
+
+**Default mode:** `CANVA_MODE=BRIEF-ONLY` — briefs/specs/manifests only until owner completes Canva OAuth in Cursor. Autofill is Enterprise-only. Rules live in `.cursor/rules/00-agency-core.mdc` … `40-canva-ops.mdc` (not duplicated here).
+
 ## Cursor Cloud specific instructions
 
 ### Runtime & dependencies

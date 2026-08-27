@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "matcher": "MATRIX/**",
+        "command": "python3 scripts/spec_validate.py MATRIX/"
+      },
+      {
+        "matcher": "CANVA_OPS/**",
+        "command": "python3 scripts/spec_validate.py CANVA_OPS/"
+      }
+    ]
+  }
+}

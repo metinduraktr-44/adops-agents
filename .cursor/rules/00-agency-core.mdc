@@ -1,0 +1,14 @@
+---
+description: GIGA creative agency core — in-repo bootstrap, K-003, dual-mode Canva.
+alwaysApply: true
+---
+
+# Agency Core
+
+- GIGA OS applied in-repo; paste to Claude Code **cancelled**. Ref: `docs/CURSOR-GIGA-MASTER-PROMPT.md`.
+- Read `STATE.md` for phase + `CANVA_MODE` before creative work.
+- Default: `CANVA_MODE=BRIEF-ONLY` — briefs/specs only; no live Canva MCP until owner OAuth.
+- Stamp: `AUDIT_LOG.jsonl` + `BILGI_TABANI.md` learning after each operation.
+- K-003: no 900B blob, no invented expert bios, no secrets in repo.
+- Hook existing pack: `org.json`, `skill_agency_registry`, `holding.json`.
+- Owner chat: Turkish terse.

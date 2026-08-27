@@ -1,0 +1,10 @@
+{
+  "title": "design-figma-lead",
+  "queue": "data/title_top100_queues.json",
+  "slots": [
+    {"slot": 1, "status": "sourced", "ref": "seed.json[0]"},
+    {"slot": 2, "status": "pending_research", "query": "design systems lead public profile"},
+    {"slot": 3, "status": "pending_research", "query": null}
+  ],
+  "note": "Remaining slots 4-100 empty — do not invent"
+}

@@ -1,0 +1,12 @@
+---
+description: GIGA agency folder conventions — CONTEXT through ARCHIVE placement rules.
+globs: **/*
+---
+
+# File Structure
+
+- Creative artifacts live under: CONTEXT/, RESEARCH/, BRIEFS/, SCENARIOS/, MATRIX/, CANVA_OPS/, QA/, ARCHIVE/.
+- Do not scatter briefs outside BRIEFS/; specs outside MATRIX/.
+- EXPERTS/{title}/: seed.json (sourced only) + pending_research.json — no invented bios.
+- Completed packages: move to ARCHIVE/YYYY-MM/ with manifest.
+- Plans and phase docs: `.cursor/plans/` — not mixed into BRIEFS/.

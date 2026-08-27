@@ -1,0 +1,12 @@
+{
+  "title": "copy-chief",
+  "seeds": [
+    {
+      "name": "David Ogilvy",
+      "role": "Advertising copywriting (historical reference)",
+      "source_url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+      "note": "Classic copy principles — public historical source"
+    }
+  ],
+  "pending_research_slots": 99
+}

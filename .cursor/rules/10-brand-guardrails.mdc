@@ -1,0 +1,12 @@
+---
+description: Brand tone, claims, and visual guardrails for briefs and scenarios.
+globs: BRIEFS/**, SCENARIOS/**
+---
+
+# Brand Guardrails
+
+- Load `CONTEXT/brand.md` before editing briefs or scenarios.
+- No unsubstantiated performance claims; flag regulated categories (finance, health).
+- Tone must match brand voice defined in CONTEXT; reject off-brand slang.
+- Logo/color references: cite asset IDs or paths, never invent hex without source.
+- CTA copy: one primary CTA per asset unless MATRIX specifies A/B variants.

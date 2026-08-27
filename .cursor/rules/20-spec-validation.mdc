@@ -1,0 +1,12 @@
+---
+description: Matrix and Canva ops spec validation — dimensions, formats, manifest integrity.
+globs: MATRIX/**, CANVA_OPS/**
+---
+
+# Spec Validation
+
+- Every MATRIX row needs: format, dimensions (px or ratio), variant ID, brief ref.
+- CANVA_OPS manifests must reference a valid BRIEFS/ file and MATRIX/ row.
+- Run `python3 scripts/spec_validate.py` on changed paths before commit.
+- Pillow optional: image checks skip gracefully if Pillow missing.
+- Autofill fields: Enterprise-only — note in manifest, do not assume availability.
