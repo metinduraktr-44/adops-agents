@@ -751,3 +751,4 @@
 {"ts_start":"2026-08-27T06:41:54Z","ts_end":"2026-08-27T06:41:54Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-27T15:21:47Z", "op": "gunluk-operasyon", "onduty": ["inf", "prg", "sea"], "outputs": ["gundem/2026-08-27-standup.md", "makaleler/2026-08-27-agency-ai-org-design.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-28T08:31:56Z","ts_end":"2026-08-28T08:31:57Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-08-28T16:45:40Z", "op": "gunluk-operasyon", "onduty": ["prg", "sea", "soc"], "outputs": ["gundem/2026-08-28-standup.md", "makaleler/2026-08-28-programmatic-supply-path-2026.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
