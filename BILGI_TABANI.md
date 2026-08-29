@@ -1240,3 +1240,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-08-28T16:45:40Z] gunluk-operasyon: standup+makale üretildi; nöbet prg/sea/soc; konu programmatic-supply-path-2026.
 ## 2026-08-29T05:11:53Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-29T11:13:50Z] gunluk-operasyon: standup+makale üretildi; nöbet sea/soc/mob; konu skan-vs-sandbox-attribution.
