@@ -755,3 +755,4 @@
 {"ts_start":"2026-08-29T05:11:53Z","ts_end":"2026-08-29T05:11:53Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-29T11:13:50Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-08-29-standup.md", "makaleler/2026-08-29-skan-vs-sandbox-attribution.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-30T03:03:27Z","ts_end":"2026-08-30T03:03:27Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-08-30T10:01:03Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-08-30-standup.md", "makaleler/2026-08-30-pmax-transparency-levers.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
