@@ -2,7 +2,7 @@
 > Owner onayı: Metin · Merge batch tamam · Main validate GEÇTİ
 
 ## 1) Durum özeti
-Owner onayıyla 8 PR merge edildi; main'de Creative Agency OS + Security GIGA (bootstrap+depth) + LATOS GIGA + live-ops refresh + dependabot güncellemeleri birleşti. `npm run validate` → **GEÇTİ**. Claude Code paste **İPTAL**; tüm GIGA paketleri in-repo. #615 superseded (#616 ile aynı içerik) — kapatılmayı bekliyor.
+Owner onayıyla 7 PR merge edildi; main'de Creative Agency OS + Security GIGA (bootstrap+depth) + LATOS GIGA + live-ops refresh + dependabot güncellemeleri birleşti. `npm run validate` → **GEÇTİ**. Claude Code paste **İPTAL**; tüm GIGA paketleri in-repo. #615 superseded → **kapatıldı**.
 
 Main: https://github.com/metinduraktr-44/adops-agents
 
@@ -46,7 +46,7 @@ Kanıt: `docs/AKTIVASYON-DURUM.md` · `SECURITY_STATE.md` · `LATOS_STATE.md` ·
 | LATOS job-card genişletme PR | `/latos-devam` generator batch |
 | Security ASSESS deepen | Monthly loop stub → `CALENDAR/` |
 | Domain2 pilot apply PR hazırla | Token gelince TF plan-only |
-| #615 close PR | Superseded by #616 — owner veya admin |
+| ~~#615 close PR~~ | Kapatıldı (superseded by #616) |
 | BILGI_TABANI conflict marker fix | Bu rapor commit'inde düzeltildi |
 
 ## 6) Owner'da bekleyenler (P0)
@@ -57,13 +57,10 @@ Kanıt: `docs/AKTIVASYON-DURUM.md` · `SECURITY_STATE.md` · `LATOS_STATE.md` ·
 | **`.env.local` rotate** | Leaked key'leri değiştir · https://github.com/settings/tokens · `docs/LLM-ENV.md` |
 | **Security MODE flip** | Gap/risk review → onay → IMPLEMENT · `SECURITY_STATE.md` · `/sec-gap-analizi` |
 | **LATOS CONTEXT/INBOX** | Marka brief + inbox dosyaları · `CONTEXT/` · `/latos-baslat` |
-| **#615 kapat** | Superseded · https://github.com/metinduraktr-44/adops-agents/pull/615 |
 | **Domain TF apply** | Vault creds → cluster onayı · `infra/observability/terraform/` |
 
 ## 7) Açık PR'lar
-| PR | Durum | URL |
-|---|---|---|
-| #615 | **SUPERSEDED** (#616 merged) — kapat | https://github.com/metinduraktr-44/adops-agents/pull/615 |
+Yok — #615 kapatıldı (superseded by #616).
 
 ## 8) Risk / K-003
 - 🚩 900B prompt / uydurma top-100 → **yapılmadı** (K-003)
