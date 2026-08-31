@@ -1,0 +1,18 @@
+---
+description: Use when performing Canva design creation, autofill, resize, or export operations.
+---
+
+# Canva Ops
+
+Türkçe not: Yalnızca `CANVA:ON` modunda ve kullanıcı OAuth'u tamamladıktan sonra gerçek Canva işlemleri yapılır. Aksi halde `CANVA:BRIEF-ONLY`.
+
+## When this applies
+Creating, autofilling, resizing, bulk-generating, or exporting Canva designs (via Canva MCP `.cursor/mcp.json` or the `tools/canva-client/` Connect API scaffold).
+
+## Rules
+1. **Mode check first.** If mode is `CANVA:BRIEF-ONLY`, do not call Canva — produce briefs/specs and write intended operations to `CANVA_OPS/`. Only operate when `CANVA:ON`.
+2. **Auth is a user action.** Never store or request secrets in-repo. If MCP `needsAuth`, 🚩 and continue in dry-run.
+3. **Spec-gate every asset** against `MATRIX/PRODUCTION_GRID.csv` (see `20-spec-validation`).
+4. **Register everything** in `CANVA_OPS/DESIGN_REGISTRY.csv`; log failures to `CANVA_OPS/ERRORS.md`.
+5. **Idempotent + polled.** Long jobs (autofill/resize/export) use poll + retry/backoff; never block on a single call.
+6. Prefer Canva MCP tools; discover the tool schema before calling. Fall back to `tools/canva-client/` only when MCP is unavailable.

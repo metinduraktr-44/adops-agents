@@ -1,0 +1,19 @@
+---
+description: Brand guardrails for briefs and scenarios (colors, fonts, tone).
+globs: BRIEFS/**, SCENARIOS/**
+---
+
+# Brand Guardrails
+
+Türkçe not: Marka kuralları `CONTEXT/CONTEXT_BRIEF.md` doldurulunca buradan güncellenir. Placeholder — do not fabricate brand values.
+
+## Rules (fill from CONTEXT_BRIEF)
+- **Colors**: use only the approved palette declared in `CONTEXT/CONTEXT_BRIEF.md`. `<PRIMARY_HEX>`, `<SECONDARY_HEX>`, `<ACCENT_HEX>` — araştırılacak / owner tarafından doldurulacak.
+- **Fonts**: only approved type families from CONTEXT_BRIEF. Do not substitute silently; if missing, flag 🚩.
+- **Tone of voice**: follow CONTEXT_BRIEF tone matrix (formal↔playful, per channel). No off-brand slang unless approved.
+- **Logo/clearspace**: respect minimum clearspace and never distort/recolor the logo outside approved variants.
+- **Legal/claims**: no unverified performance claims, prices, or superlatives. Mark claims needing legal review.
+
+## Enforcement
+- Any brief or scenario that references a color/font/claim not present in CONTEXT_BRIEF must be marked `verify` and cannot advance to production.
+- On conflict between a creative idea and a guardrail, the guardrail wins; note the trade-off.

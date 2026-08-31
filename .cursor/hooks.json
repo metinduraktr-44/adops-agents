@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python3 scripts/spec_validate.py"
+      }
+    ],
+    "stop": [
+      {
+        "command": "python3 scripts/phase_check.py"
+      }
+    ]
+  }
+}
