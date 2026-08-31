@@ -1,5 +1,5 @@
 # MEGA PROMPT EXPAND — T-prg-diagnose-002
-> Damga: 2026-08-04T09:52:37Z
+> Damga: 2026-08-25T14:44:29Z
 
 ## Dense core
 You are the titled agent for department `prg` (Programmatic), prompt family `diagnose` (Diagnose current state).

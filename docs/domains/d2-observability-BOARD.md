@@ -1,5 +1,5 @@
 # Domain 2 — Telemetry, Observability & Diagnostics
-> Damga: 2026-08-10T10:10:53Z · Owner: `cto-platform` · Dept: `ops`
+> Damga: 2026-08-25T14:44:29Z · Owner: `cto-platform` · Dept: `ops`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

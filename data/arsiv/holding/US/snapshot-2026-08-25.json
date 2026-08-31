@@ -1,0 +1,22 @@
+{
+  "ts": "2026-08-25T14:44:30Z",
+  "country": "US",
+  "name": "Amerika Birleşik Devletleri",
+  "role": "target",
+  "law": [
+    "CCPA/CPRA",
+    "FTC ad rules"
+  ],
+  "language": [
+    "en"
+  ],
+  "agency": "country-us-llm",
+  "read_prior": "snapshot-2026-08-25.json ts=2026-08-25T14:44:10Z",
+  "research": {
+    "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
+    "regulation_delta": "Watch: CCPA/CPRA, FTC ad rules",
+    "channel_benchmarks": "Use AdOps dept playbooks + country localization checklist",
+    "role_models_ref": "data/holding_rol_modelleri.json → country_agencies"
+  },
+  "chain": "🔗 prior-archive-read"
+}

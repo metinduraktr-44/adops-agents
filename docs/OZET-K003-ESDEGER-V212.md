@@ -1,5 +1,5 @@
 # ÖZET — K-003 talep eşdeğerleri v2.12
-> Damga: 2026-08-04T09:52:37Z
+> Damga: 2026-08-25T14:44:29Z
 
 ## Yapılan
 1. **Title soruları:** 600 slug × ≥500 soru (max 500) → `data/title_questions/`

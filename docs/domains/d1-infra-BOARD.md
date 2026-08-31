@@ -1,5 +1,5 @@
 # Domain 1 — Infrastructure, Kubernetes & Cloud Computing
-> Damga: 2026-08-10T10:10:53Z · Owner: `holdco-cto` · Dept: `inf`
+> Damga: 2026-08-25T14:44:29Z · Owner: `holdco-cto` · Dept: `inf`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

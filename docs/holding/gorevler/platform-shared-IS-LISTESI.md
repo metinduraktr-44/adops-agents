@@ -1,5 +1,5 @@
 # Shared Platform — OpCo iş listesi
-> Damga: 2026-08-04T09:52:36Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
+> Damga: 2026-08-25T14:44:29Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-cto`
 
 ## Mandate
 Auth, feature flags, observability, mobile CI for all apps
@@ -36,7 +36,7 @@ Auth, feature flags, observability, mobile CI for all apps
 ## Roadmap dilimleri
 | Dilim | Hedef | Sahip | Deadline |
 |---|---|---|---|
-| F0 | Org + workflow canlı | `platform-shared-ceo` | 2026-08-04 |
+| F0 | Org + workflow canlı | `platform-shared-ceo` | 2026-08-25 |
 | F1 | İlk KPI kesiti + eğitim modülü | `platform-shared-evp-*` | +7g |
 | F2 | Web/mobil yüzey DoD (blueprint) | holdco-cto + OpCo | +21g |
 | F3 | Ülke lokalizasyon QA (TR+) | country agency | +30g |

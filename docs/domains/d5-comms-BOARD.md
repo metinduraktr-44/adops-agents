@@ -1,5 +1,5 @@
 # Domain 5 — Communications, Engagement & Scrapers
-> Damga: 2026-08-10T10:10:53Z · Owner: `cmo-brand` · Dept: `nbd`
+> Damga: 2026-08-25T14:44:29Z · Owner: `cmo-brand` · Dept: `nbd`
 
 ## Mandate
 Mini-LLM agency for this domain. Route skills; do not invent people; do not pad prompts.

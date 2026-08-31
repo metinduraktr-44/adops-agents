@@ -1,5 +1,5 @@
 # AdOps Agents — OpCo iş listesi
-> Damga: 2026-08-04T09:52:36Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
+> Damga: 2026-08-25T14:44:29Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
 
 ## Mandate
 LLM agency for performance marketing delivery; 20 depts; 7/24 cron
@@ -36,7 +36,7 @@ LLM agency for performance marketing delivery; 20 depts; 7/24 cron
 ## Roadmap dilimleri
 | Dilim | Hedef | Sahip | Deadline |
 |---|---|---|---|
-| F0 | Org + workflow canlı | `adops-agents-ceo` | 2026-08-04 |
+| F0 | Org + workflow canlı | `adops-agents-ceo` | 2026-08-25 |
 | F1 | İlk KPI kesiti + eğitim modülü | `adops-agents-evp-*` | +7g |
 | F2 | Web/mobil yüzey DoD (blueprint) | holdco-cto + OpCo | +21g |
 | F3 | Ülke lokalizasyon QA (TR+) | country agency | +30g |

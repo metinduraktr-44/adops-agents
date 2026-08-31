@@ -1,5 +1,5 @@
 # Permergrowth — OpCo iş listesi
-> Damga: 2026-08-04T09:52:36Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
+> Damga: 2026-08-25T14:44:29Z · Aktif orkestratör: Cursor (yapıştır iptal) · Reports: `holdco-coo`
 
 ## Mandate
 Client-facing performance growth; mirrors AdOps ladder at smaller scale
@@ -36,7 +36,7 @@ Client-facing performance growth; mirrors AdOps ladder at smaller scale
 ## Roadmap dilimleri
 | Dilim | Hedef | Sahip | Deadline |
 |---|---|---|---|
-| F0 | Org + workflow canlı | `permergrowth-ceo` | 2026-08-04 |
+| F0 | Org + workflow canlı | `permergrowth-ceo` | 2026-08-25 |
 | F1 | İlk KPI kesiti + eğitim modülü | `permergrowth-evp-*` | +7g |
 | F2 | Web/mobil yüzey DoD (blueprint) | holdco-cto + OpCo | +21g |
 | F3 | Ülke lokalizasyon QA (TR+) | country agency | +30g |

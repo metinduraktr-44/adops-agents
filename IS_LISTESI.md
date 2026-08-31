@@ -1,7 +1,8 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-08-31T10:59:52Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-08-31T20:30:00Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
+- [x] Mega skill/MCP talep → K-003 route+activation (yapıştır/900B yok) → cto-platform · 2026-08-25
 - [x] v2.13 Domain1–7 observability pack (TF+OTel+mini-ajans) → cto-platform · 2026-08-10
 - [x] v2.12 K-003 eşdeğerleri: title≥500 soru setleri + top100 kuyruk + mega expander → cto-platform · 2026-08-04
 - [x] v2.10 holding: HoldCo + 7 OpCo + 6 ülke + web/mobil blueprint + gece arşiv → holdco-coo · 2026-08-04

@@ -1,5 +1,5 @@
 # SKILL AGENCY REGISTRY — 696 skills → 43 mini-ajans
-> Damga: 2026-08-04T09:52:36Z · Politika: K-003: route & operate; do not invent top-100 people; do not pad prompts; auth-gated MCPs 🚩 until connected
+> Damga: 2026-08-25T14:44:29Z · Politika: K-003: route & operate; do not invent top-100 people; do not pad prompts; auth-gated MCPs 🚩 until connected
 
 ## TR
 Her skill ailesi mini LLM ajansı: EVP→Analyst + günlük/haftalık/aylık döngü. 900B karakter talebi reddedildi.

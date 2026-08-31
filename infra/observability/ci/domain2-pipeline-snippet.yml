@@ -1,5 +1,5 @@
 # Domain 2 CI snippet — reference only (wire into real pipeline as needed)
-# Damga: 2026-08-10T10:10:53Z
+# Damga: 2026-08-25T14:44:29Z
 name: domain2-observability-gates
 on:
   workflow_call:

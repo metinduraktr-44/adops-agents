@@ -1,0 +1,22 @@
+{
+  "ts": "2026-08-25T14:44:30Z",
+  "country": "GB",
+  "name": "Birleşik Krallık",
+  "role": "target",
+  "law": [
+    "UK GDPR",
+    "ASA CAP"
+  ],
+  "language": [
+    "en"
+  ],
+  "agency": "country-gb-llm",
+  "read_prior": "snapshot-2026-08-25.json ts=2026-08-25T14:44:10Z",
+  "research": {
+    "competitors_top5": "queue — fill via WebSearch/Exa when auth; keep empty over invention",
+    "regulation_delta": "Watch: UK GDPR, ASA CAP",
+    "channel_benchmarks": "Use AdOps dept playbooks + country localization checklist",
+    "role_models_ref": "data/holding_rol_modelleri.json → country_agencies"
+  },
+  "chain": "🔗 prior-archive-read"
+}

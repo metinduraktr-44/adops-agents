@@ -3,7 +3,7 @@ name: domain-obs-router
 description: Route Domain 1–7 / observability requests to domain_pack + infra/observability artifacts.
 ---
 # Domain Observability Router
-Damga: 2026-08-10T10:10:53Z
+Damga: 2026-08-25T14:44:29Z
 
 When user asks about PagerDuty, Slack alerts, Datadog, Sentry, OpenTelemetry, Domain 1/2:
 1. Read `data/domains/domain_pack.json`
