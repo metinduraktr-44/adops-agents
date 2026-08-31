@@ -1,0 +1,19 @@
+---
+description: Job card standard — CARD.md + H001..H200 index pattern.
+globs: JOB_CARDS/**
+---
+
+# Job Card Standard
+
+## Structure
+- `JOB_CARDS/{slug}/CARD.md` — identity, mission, RACI, KPI, heading index
+- `JOB_CARDS/{slug}/H###.md` — description + guidance + training (200+ chars each when expanded)
+- `HEADINGS_INDEX.md` — tracks H001..H200 status
+
+## QA thresholds (scaffold phase)
+- CARD.md ≥ 500 chars (scaffold); target 2000+ via `/devam`
+- Each H*.md ≥ 200 chars when marked `expanded`
+- QA hook warns; does not block scaffold
+
+## Critic loop
+generate → critique → revise (max 3) → escalate to human

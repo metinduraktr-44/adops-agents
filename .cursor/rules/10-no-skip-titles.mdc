@@ -1,0 +1,21 @@
+---
+description: No title skipped — inventory vs job cards must match org.json 600.
+alwaysApply: true
+---
+
+# No Skip Titles
+
+- Master list: `ROSTER/TITLE_INVENTORY.md` (org.json + git-deleted + archive)
+- Every slug needs `JOB_CARDS/{slug}/` — scaffold ok; full 200 headings via `/devam`
+- `scripts/qa_check.py` diffs inventory vs org.json on hook
+- Git restore of deleted titles: **human approval gate** — document in inventory first
+
+## Progressive targets (not single-pass)
+| Target | Approach |
+|---|---|
+| 2000+ chars / card | CARD.md + H001..H200 |
+| 200+ headings × 200+200+200 | generator + parallel agents |
+| 122 prompts/title | PROMPTS/TITLES/{slug}/P001..P122 |
+| 200 forecasts/day/title | FORECASTS workflow + `/latos-tahmin` |
+
+🚩 Claiming full completion in one output = refuse; expand via generator.
