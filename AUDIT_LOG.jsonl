@@ -758,3 +758,4 @@
 {"ts": "2026-08-30T10:01:03Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-08-30-standup.md", "makaleler/2026-08-30-pmax-transparency-levers.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-08-31T02:57:29Z","ts_end":"2026-08-31T02:57:29Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-08-31T10:59:52Z", "op": "gunluk-operasyon", "onduty": ["mob", "ret", "seo"], "outputs": ["gundem/2026-08-31-standup.md", "makaleler/2026-08-31-ctv-buying-checklist.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-08-31T13:27:33Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-08-31-liderlik.md"], "validation": "GECTI"}
