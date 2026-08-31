@@ -1,26 +1,42 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# SECURITY_STATE — Security GIGA Phase Tracker
 
-# SECURITY_STATE — Security Governance OS
+> Damga: 2026-08-27T12:55:00Z · TR: Varsayılan ASSESS-ONLY
 
-Türkçe not: `/sec-devam` / `/sec-resume` bu dosyayı okur. Kaynak-doğruluk (source of truth) burasıdır. Yaratıcı-ajans `STATE.md`'den ayrı, additive.
+## Mode flags
 
-| Field | Value |
-|---|---|
-| current_phase | Faz 0 — Context & Bootstrap |
-| MODE | ASSESS-ONLY |
-| posture | defense-only |
-| last_completed_phase | (none) |
-| last_update | 2026-08-27 (scaffold init) |
-| mcp_servers | default OFF (enable in Cursor Settings > MCP) |
+| Flag | Value | Not |
+|---|---|---|
+| `MODE` | **ASSESS-ONLY** | Default — no live remediations |
+| `ETHICS` | defense-only | Exploit/PoC forbidden |
+| `SECRETS` | redact-only | `${VAR}` / vault / `<REDACTED>` |
+| `MCP_SECURITY_CATALOG` | off | Owner enable with env vars |
 
-## Flags
-- `MODE=ASSESS-ONLY` = true (assess/model/map/document; no live changes, no network, no secrets)
-- `DEFENSE-ONLY` = true (no exploits/weaponization/C2/ransomware/phishing/bypass/exfil)
-- `SECRETS-REDACTED` = true (only `${VAR}` / `vault://` / `op://` / `<REDACTED>`)
+## Phase status
 
-## Resume notes
-- Scaffold committed (this branch STACKS on `cursor/creative-agency-os-c8d4`, PR #616).
-- Next action: fill `SECURITY_CONTEXT/inventory.md` + `attack-surface.md` (Faz 0), then advance
-  `.cursor/plans/security-master-plan.md` in order.
-- Do NOT enable MCP servers or any network/live actions autonomously. Do NOT run always-on loops.
-- Standard values throughout carry "verify against official source before production".
+| Faz | Ad | Durum |
+|---|---|---|
+| 0 | Bootstrap (.cursor + scripts + docs) | **DONE** |
+| 1 | Context ingestion | **DONE** (inventory + attack-surface refreshed from repo scan) |
+| 2 | 6×100 controls + matrix | **DONE draft** — matrix gaps G-MAT-01..07 explicit; expert review still open |
+| 3 | Experts + ORG/ROLES | **DONE** sourced+pending · calendar monthly stub |
+| 4 | ASSESS gap + scanner stubs | **DONE draft** — gap+risk filled; SoA stub; QA findings |
+| 5 | IMPLEMENT loop | **blocked** (MODE=ASSESS-ONLY) |
+| 6 | AUDIT / compliance pack | **partial** — SoA draft only (needs expert review) |
+
+## Active task / next `/sec-devam`
+
+1. Owner: **Cursor restart** (skills/rules discovery)
+2. Optional: sample expert review of 20 control mappings (SEC-T002)
+3. Owner: define MODE=IMPLEMENT unlock criteria (SEC-T003) — do **not** flip yet
+4. Later: SBOM/provenance stub under TRANSPARENT_CODE when IMPLEMENT authorized
+
+## Progressive content
+- Skill `references/` aggregate ≈ **1.2M** chars across depth-01..11 (no single-file 900k blob; ethics-safe rewrite)
+- Generator: `python3 scripts/generate_security_giga_pack.py --expand-refs`
+
+## Canonical entry
+- Master: `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+- Bootstrap: `docs/SECURITY-GIGA-BOOTSTRAP.md`
+
+## Last audit
+- 2026-08-27 ASSESS deepen on `cursor/security-giga-master-50e1` (PR #617)

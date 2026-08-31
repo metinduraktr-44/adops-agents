@@ -1,27 +1,11 @@
 ---
-description: Canonical file structure for the Security Governance OS (Bolum 12).
+description: Security canonical directories and STATE paths.
 alwaysApply: true
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# Security File Structure
 
-# Security File Structure (Bölüm 12)
-
-Türkçe not: Her fazın çıktısı sabit klasöre yazılır. Additive — mevcut `components/**`, `data/**` corpus'una dokunma.
-
-## Canonical tree (security-namespaced)
-- `SECURITY_CONTEXT/` — `inventory.md`, `attack-surface.md`.
-- `SECURITY_RESEARCH/` — research notes + `README.md`.
-- `TASKS/security-master.md` — security work breakdown.
-- `ORG/ROLES/` — 40+ security role titles (Bölüm 5: C-level → SOC).
-- `EXPERTS/` — `SECURITY_DIGEST.md` + README (monthly READ→DELTA→DIFF→WRITE→DIGEST; seeds to-verify).
-- `LAYERS/` `FIREWALLS/` `ENCRYPTION/` `CHANGE/` `TRANSPARENT_CODE/` `CONDITIONAL/` — 6×100 control frameworks (schema + template rows; see `20-control-mapping`).
-- `SECURITY_MATRIX/matrix.md` — cross-map schema + standards list (Bölüm 8).
-- `IMPLEMENTATION/` `ASSESSMENTS/` `COMPLIANCE/` — rollout, gap assessments, ISO 27001 SoA stub.
-- `CALENDAR/` `QA/` `MEMORY/` `REPORTS/` `ARCHIVE/` — cadence, findings, memory, reports, archive.
-- `SECURITY_STATE.md` — source of truth (Faz + MODE). `.cursor/plans/security-master-plan.md` — Faz 0..8.
-
-## Conventions
-- Docs `UPPER_SNAKE.md` or kebab; command/skill folders kebab-case; dates `YYYY-MM-DD`.
-- Never overwrite existing artifacts silently; append or version.
-- Do not commit `node_modules/`, `__pycache__/`, `*.pyc`, `*.log`, or secret files.
+Use: SECURITY_CONTEXT, SECURITY_RESEARCH, TASKS, ORG/ROLES, EXPERTS, LAYERS, FIREWALLS, ENCRYPTION, CHANGE, TRANSPARENT_CODE, CONDITIONAL, SECURITY_MATRIX, IMPLEMENTATION, ASSESSMENTS, COMPLIANCE, ARCHIVE, CALENDAR, QA, MEMORY, REPORTS.
+Phase/mode: `SECURITY_STATE.md` (pointer in `STATE.md`).
+Do not resize org.json 600 for security titles — use ORG/ROLES.
+Generator: `scripts/generate_security_giga_pack.py`.

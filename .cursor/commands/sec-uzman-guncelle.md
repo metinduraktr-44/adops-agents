@@ -1,18 +1,9 @@
 ---
-name: sec-uzman-guncelle
-description: Update the security experts roster/digest without fabrication (defense-only sources).
+description: Update expert queues — sourced seeds only; pending_research fill. Alias /uzman-guncelle (security).
 ---
+# /sec-uzman-guncelle
 
-# /sec-uzman-guncelle (UZMAN GÜNCELLE — Security)
-
-## Objective
-Add or update entries in the security experts roster/digest.
-
-## Requirements
-- Edit `EXPERTS/SECURITY_DIGEST.md`; keep entries factual.
-- Seeds (Bruce Schneier, Dan Boneh, Katie Moussouris, Dan Kaminsky [historical, 2021], …) are real public figures — list as seeds; mark bios/affiliations/URLs `araştırılacak / URL doğrulanmalı`.
-- Never invent people, quotes, affiliations, or URLs. No secrets.
-
-## Output
-- Updated roster entries with explicit to-verify markers.
-- A one-line changelog appended to `EXPERTS/SECURITY_DIGEST.md`.
+1. Open `EXPERTS/<discipline>/seed.json` + `pending_research.json`.
+2. Add **only** sourced public profiles with URL.
+3. Never invent biographies. Empty > hallucination.
+4. Dan Kaminsky remains historical seed reference.

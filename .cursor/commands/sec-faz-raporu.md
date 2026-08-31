@@ -1,19 +1,9 @@
 ---
-name: sec-faz-raporu
-description: Produce a concise phase report for the current Security Governance OS phase.
+description: Emit security phase report into REPORTS/.
 ---
+# /sec-faz-raporu
 
-# /sec-faz-raporu (FAZ RAPORU — Security)
-
-## Objective
-Summarize the current security phase: what was produced, what is open, and risks.
-
-## Requirements
-- Read `SECURITY_STATE.md` and `.cursor/plans/security-master-plan.md`.
-- List completed vs open `- [ ]` items for the current phase.
-- Note any 🚩 red-flags, unverified standards (`verify against official source`), and to-verify items.
-- Do not fabricate; do not expose secrets.
-
-## Output
-- A short report written to `REPORTS/<YYYY-MM-DD>-faz-raporu.md`.
-- Inline summary: phase, % complete, blockers, next action.
+1. Read phase table in SECURITY_STATE.md.
+2. Write `REPORTS/faz-YYYY-MM-DD.md` with GEÇTİ/KALDI per faz.
+3. List coverage gaps from SECURITY_MATRIX/matrix.md.
+4. Stamp AUDIT_LOG.

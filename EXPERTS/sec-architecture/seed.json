@@ -1,0 +1,15 @@
+{
+  "title": "sec-architecture",
+  "policy": "sourced_only_plus_pending_research",
+  "seeds": [
+    {
+      "name": "Dan Kaminsky",
+      "role": "DNS/security researcher (historical reference)",
+      "source_url": "https://en.wikipedia.org/wiki/Dan_Kaminsky",
+      "note": "Historical public figure — defense lessons only; no exploit reproduction",
+      "status": "sourced_historical"
+    }
+  ],
+  "note": "Only prompt-listed sourced names. Empty preferred over invention.",
+  "damga": "2026-08-27T12:40:00Z"
+}

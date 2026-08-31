@@ -1,15 +1,17 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# IMPLEMENTATION — Stubs (MODE=IMPLEMENT only)
 
-# IMPLEMENTATION — defensive rollout artifacts (skeleton)
+> Damga: 2026-08-27T12:40:00Z · **Blocked** while MODE=ASSESS-ONLY
 
-Türkçe not: Kontrollerin uygulanma çıktıları — sertleştirme rehberleri, tespit kuralları (Sigma/YARA/EDR), IR runbook'ları, policy-as-code (OPA/Rego). MODE=ASSESS-ONLY: artefakt üret, canlı sisteme uygulama.
+When owner sets `MODE=IMPLEMENT` in SECURITY_STATE.md:
 
-## Contents (fill in phases)
-- `hardening/` — baseline hardening guides per layer.
-- `detections/` — Sigma/YARA/EDR rules (descriptive; ATT&CK ids only to justify detection).
-- `runbooks/` — incident-response runbooks (NIST 800-61 — verify).
-- `policies/` — OPA/Rego policies (test via `tools/security-scanners/opa_test.sh`).
+1. Create change ticket under CHANGE/ CAB gates
+2. Add implementation note here with control IDs
+3. Prefer config-as-code PRs; no secret material
+4. Verify with security-qa skill + `/sec-etik-denetim`
 
-## Rules
-- Defense-only; no offensive PoC/payloads/bypasses. No secrets (`${VAR}`/`vault://`/`op://`).
-- Every artifact references the control id(s) it implements.
+```text
+# Example stub (do not execute as offense)
+# control: ENC-011
+# change: hybrid TLS planning note
+# secret refs: vault://pki/tls-cert  OR  ${TLS_CERT_PATH}
+```

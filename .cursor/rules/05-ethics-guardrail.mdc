@@ -1,22 +1,12 @@
 ---
-description: Enforceable defense-only ethics guardrail and secret-redaction rule for all security work.
+description: Ethics guardrail — refuse offensive security generation.
 alwaysApply: true
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# Ethics Guardrail
 
-# Ethics Guardrail (enforceable)
-
-Türkçe not: Bu kural bağlayıcıdır. İhlal → dur, 🚩 ver, savunma alternatifi öner.
-
-## Defense-only (kesin sınır)
-Do NOT create, complete, or "improve": working exploits/PoC exploit code, malware/ransomware, C2/beacons, phishing kits or credential harvesters, auth/security/sandbox bypass code, data-exfiltration tooling, or any weaponization. Offensive/red-team topics are covered only at an **authorized, conceptual, detection-and-mitigation** level — map to MITRE ATT&CK solely to design D3FEND countermeasures, detections, and hardening.
-
-## Secret redaction (kesin sınır)
-Never write real OR realistic-format secret values anywhere — not even as examples/dummies. Allowed forms only: `${VAR}`, `vault://…`, `op://…`, `<REDACTED>`. Reference env vars, never inline credentials. `.cursor/mcp.json` uses `${VAR}` env only.
-
-## Enforcement behavior
-- On any offensive request: refuse the offensive part, 🚩 `[what] · [why] · [defensive alternative]`, and continue with defensive framing.
-- On any secret encountered: redact to `<REDACTED>`, warn, and log a REDACTED note (no value) to `QA/`.
-- Hooks `scripts/ethics_check.py` (ask on violation) and `scripts/secret_scan.py` (warn) back this rule; they are advisory/fail-open, not a substitute for judgment.
-- No fabrication of facts, sources, or URLs to satisfy a request.
+Refuse: exploit code, PoCs, bypass techniques, phishing lures, C2, ransomware, weaponization, credential exfil.
+If asked for attack steps: short refuse + defense alternative (control, detect, harden).
+Run mindset: `/sec-etik-denetim` · agent `ethics-checker`.
+Scripts: `scripts/ethics_check.py` blocks exploit keywords in generated content.
+Never suggest `rm -rf /` or `curl|bash` in executable guidance.

@@ -1,25 +1,32 @@
 ---
 name: expert-engine
-description: Use when running the monthly EXPERTS knowledge loop — reading, diffing, and updating the expert digest without fabrication.
+description: Expert queue research — sourced seeds + pending_research only.
 ---
 
-# Expert Engine
+# expert-engine
 
-## Instructions
-Run the monthly loop defined in `EXPERTS/README.md`:
-1. **READ** current `EXPERTS/DIGEST.md`.
-2. **DELTA** gather new, dated findings (only if research tools are enabled; else placeholder).
-3. **DIFF** compare against prior digest; keep only real changes.
-4. **WRITE** update roster/notes; mark unsourced items `araştırılacak / URL doğrulanmalı`.
-5. **DIGEST** write a concise dated summary.
+> TR: Savunma-only skill. Keşfedilmezse inline path kullan.
+> Damga: 2026-08-27T12:40:00Z
 
-Seed names are real owner-supplied public figures; never invent URLs/bios. Piyush Pandey = memorial reference (deceased 23 Oct 2025).
+## Guardrail
+- **DEFENSE-ONLY** — no exploit, PoC, bypass, phishing, C2, ransomware.
+- ATT&CK only for detect/defend mapping; prefer **D3FEND**.
+- Secrets: `${VAR}`, `vault://`, `op://`, `<REDACTED>` only.
+- K-003: no 900k blob; expand via `references/` + generator.
 
-## Examples
-- "Run this month's expert refresh" → dated DELTA section + verification TODOs.
+## If skill not discovered (inline path)
+1. Read `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+2. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY)
+3. Open `references/` in this skill folder
+4. Prefer `/sec-*` commands over free-form offense requests
 
-## Performance Notes
-- Progressive disclosure: only load roster entries you are updating.
+## Progressive disclosure
+- `references/overview.md` — scope + ethics
+- `references/control-templates.md` — control field schema
+- `references/playbook.md` — operator steps for ASSESS→IMPLEMENT
+- `references/standards.md` — version-pinned standards table
+- `references/d3fend-map.md` — defense mapping stubs
 
-## Troubleshooting
-- No research tools/network → produce structured placeholders, do not fabricate.
+## Outputs
+- ASSESS-ONLY: gap notes under `ASSESSMENTS/`
+- IMPLEMENT: only when `SECURITY_STATE.md` MODE=IMPLEMENT (stubs first)

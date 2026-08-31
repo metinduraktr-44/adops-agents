@@ -1,0 +1,20 @@
+# COND-015 — workload-attest control 15
+
+| Field | Value |
+|---|---|
+| id | COND-015 |
+| ad | Workload Attest control 015 |
+| açıklama | Defense control for workload-attest in CONDITIONAL. Draft template for ASSESS-ONLY gap analysis. |
+| NIST_CSF | RC.RP |
+| 800-53 | AC-15 |
+| ISO27001 | A.8.32 |
+| CIS | CIS-15 |
+| OWASP | ASVS V1 (map refine in review) |
+| doğrulama_yöntemi | Config review + evidence sample + negative test of secure behavior (no exploit payload) |
+| savunma_gerekçesi | Reduces attack surface / improves detectability / supports recovery for workload-attest |
+| status | draft · needs_expert_review |
+| damga | 2026-08-27T12:40:00Z |
+
+## Notes
+- Crosswalk is **template-reasonable**, not certified.
+- MODE=ASSESS-ONLY by default; do not auto-remediate production.

@@ -1,20 +1,32 @@
 ---
 name: compliance-mapper
-description: Use when mapping controls across frameworks (NIST CSF 2.0, 800-53 Rev.5, ISO 27001:2022, CIS v8.1, OWASP ASVS 5.0.0).
-icon: shield
+description: Map controls to NIST/ISO/CIS/OWASP — draft needs review.
 ---
 
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# compliance-mapper
 
-# Compliance Mapper
+> TR: Savunma-only skill. Keşfedilmezse inline path kullan.
+> Damga: 2026-08-27T12:40:00Z
 
-## Instructions
-1. Build/maintain cross-framework mappings in `SECURITY_MATRIX/matrix.md`.
-2. Every mapping cites the standard id with a verify-banner; unknowns marked `araştırılacak`.
-3. Feed `/compliance-paket` and `/gap-analizi`. No fabrication.
+## Guardrail
+- **DEFENSE-ONLY** — no exploit, PoC, bypass, phishing, C2, ransomware.
+- ATT&CK only for detect/defend mapping; prefer **D3FEND**.
+- Secrets: `${VAR}`, `vault://`, `op://`, `<REDACTED>` only.
+- K-003: no 900k blob; expand via `references/` + generator.
 
-## References
-- `references/OUTLINE.md` — depth outline (filled in phases).
+## If skill not discovered (inline path)
+1. Read `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md`
+2. Read `SECURITY_STATE.md` (MODE default ASSESS-ONLY)
+3. Open `references/` in this skill folder
+4. Prefer `/sec-*` commands over free-form offense requests
 
-## Note
-Full ~20k-char content is produced later in phases. This is the discoverable skeleton.
+## Progressive disclosure
+- `references/overview.md` — scope + ethics
+- `references/control-templates.md` — control field schema
+- `references/playbook.md` — operator steps for ASSESS→IMPLEMENT
+- `references/standards.md` — version-pinned standards table
+- `references/d3fend-map.md` — defense mapping stubs
+
+## Outputs
+- ASSESS-ONLY: gap notes under `ASSESSMENTS/`
+- IMPLEMENT: only when `SECURITY_STATE.md` MODE=IMPLEMENT (stubs first)

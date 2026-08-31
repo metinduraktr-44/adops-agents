@@ -1,0 +1,20 @@
+# COND-030 — context-acl control 30
+
+| Field | Value |
+|---|---|
+| id | COND-030 |
+| ad | Context Acl control 030 |
+| açıklama | Defense control for context-acl in CONDITIONAL. Draft template for ASSESS-ONLY gap analysis. |
+| NIST_CSF | RC.RP |
+| 800-53 | SC-6 |
+| ISO27001 | A.8.32 |
+| CIS | CIS-12 |
+| OWASP | ASVS V2 (map refine in review) |
+| doğrulama_yöntemi | Config review + evidence sample + negative test of secure behavior (no exploit payload) |
+| savunma_gerekçesi | Reduces attack surface / improves detectability / supports recovery for context-acl |
+| status | draft · needs_expert_review |
+| damga | 2026-08-27T12:40:00Z |
+
+## Notes
+- Crosswalk is **template-reasonable**, not certified.
+- MODE=ASSESS-ONLY by default; do not auto-remediate production.

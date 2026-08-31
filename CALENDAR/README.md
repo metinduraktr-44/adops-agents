@@ -1,17 +1,24 @@
-# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+# CALENDAR — Security monthly loop
 
-# CALENDAR — security cadence (skeleton)
+> HAND_AUTHORED · damga: 2026-08-27T12:55:00Z · MODE=ASSESS-ONLY
 
-Türkçe not: Güvenlik takvimi — tekrarlayan savunma faaliyetleri. Otomatik/always-on döngü YOK; owner tetikler.
+## Rhythm
+| Cadence | Command / script | Output |
+|---|---|---|
+| Daily | Agency `daily_ops` (existing) | Standup — security note optional |
+| Weekly | `.github/workflows/security-audit.yml` | validate + SARIF |
+| Monthly | `/sec-aylik-dongu` | Expert queue refresh + research note |
+| On demand | `/sec-devam` | Advance incomplete ASSESS phases |
 
-## Recurring (owner-triggered, not always-on)
-| cadence | activity | command | çıktı |
-|---|---|---|---|
-| monthly | experts + standards watch | `/sec-aylik-dongu` | `EXPERTS/SECURITY_DIGEST.md` |
-| monthly | vulnerability review | (vulnerability-management skill) | `REPORTS/` |
-| quarterly | gap analysis | `/gap-analizi` | `ASSESSMENTS/` |
-| quarterly | compliance package refresh | `/compliance-paket` | `COMPLIANCE/` |
-| per-change | ethics + secret audit | `/etik-denetim` | `QA/findings.md` |
+## Monthly loop stub (checklist)
+1. [ ] Read `SECURITY_STATE.md` — confirm MODE
+2. [ ] Append timestamped note under `SECURITY_RESEARCH/`
+3. [ ] Review `EXPERTS/*/pending_research.json` — fill **only** when sourced URL exists
+4. [ ] Sample 10 control mappings for expert review flags
+5. [ ] Refresh inventory if repo surfaces changed
+6. [ ] Run `secret_scan.py` + `ethics_check.py` + `validate.py`
+7. [ ] Stamp `AUDIT_LOG.jsonl` + `BILGI_TABANI.md`
 
-## Rules
-- Nothing runs automatically here. No network side-effects. MODE=ASSESS-ONLY.
+## Next scheduled marker
+- Target: first monthly pass after owner Cursor restart + PR merge decision
+- Command: `/sec-aylik-dongu`
