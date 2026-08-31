@@ -1,0 +1,12 @@
+---
+description: Forecast calibration — Brier score and Tetlock practices.
+globs: FORECASTS/**
+---
+
+# Forecast Calibration
+
+- Workflow target: 200 forecasts/day/title via `/latos-tahmin` — not one commit
+- Format: probabilistic claim, confidence, resolve_by, source or `unverified`
+- Track Brier in `FORECASTS/CALIBRATION.md` (superforecaster ~0.166 benchmark)
+- Recalibrate if Brier worsens 2 consecutive weeks — human gate
+- Fermi decomposition + disconfirming evidence encouraged

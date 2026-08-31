@@ -21,6 +21,25 @@ In-repo Security GIGA bootstrap — Claude Code paste **cancelled** (K-003). Coe
 
 **Hard rules:** defense-only (no exploit/PoC); secrets only `${VAR}` / `vault://` / `op://` / `<REDACTED>`; no 900k prompt blob; no invented top-100 experts. MODE order: assess → implement → audit.
 
+## LATOS GIGA (Living AI Talent & Organization System)
+
+In-repo LATOS bootstrap — Claude Code paste **cancelled** (K-003). Coexists with Security + Canva packs.
+
+| Area | Location |
+|---|---|
+| Master prompt | `docs/CURSOR-LATOS-GIGA-MASTER-PROMPT.md` |
+| Bootstrap + usage | `docs/LATOS-GIGA-BOOTSTRAP.md` |
+| Phase / state | `LATOS_STATE.md` (pointer in `STATE.md`) |
+| Plan | `.cursor/plans/latos-master-plan.md` |
+| Title inventory | `ROSTER/TITLE_INVENTORY.md` (600 org.json slugs) |
+| Job cards | `JOB_CARDS/{slug}/` (sample + `/latos-devam` expansion) |
+| Experts / talent | `EXPERTS/`, `SKILLS_TALENT/` (pending_research + sourced seeds) |
+| Commands | `.cursor/commands/latos-*.md` (`/latos-baslat`, `/latos-devam`, …) |
+| Hooks / QA | `scripts/qa_check.py`, `scripts/citation_check.py` |
+| Generator | `scripts/generate_latos_giga_pack.py` |
+
+**Hard rules:** no 900M-char prompt; no invented top-100; all 600 titles inventoried; job cards/forecasts expand via generator + `/latos-devam`; human approval for git restore and expert publish.
+
 ## Cursor Cloud specific instructions
 
 ### Runtime & dependencies

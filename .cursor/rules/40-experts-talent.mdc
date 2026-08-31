@@ -1,0 +1,13 @@
+---
+description: Experts and talent — citation required or unverified flag.
+globs: EXPERTS/**,EXPERTS_TALENT/**,SKILLS_TALENT/**
+---
+
+# Experts & Talent
+
+- Mirror `data/title_top100_queues.json`: **sourced** + **pending_research** only
+- No invented names for top-100 slots
+- Each entry: name (or null), status, URL, timestamp, query
+- `scripts/citation_check.py` runs on hook
+- Monthly update: `CALENDAR/EXPERTS_UPDATE.md` + `/latos-aylik-dongu`
+- Human approval before promoting `pending_research` → `sourced`

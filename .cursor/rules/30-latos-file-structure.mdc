@@ -1,0 +1,18 @@
+---
+description: LATOS canonical file tree and write locations.
+alwaysApply: true
+---
+
+# LATOS File Structure
+
+```
+CONTEXT/INBOX/     ROSTER/          RESEARCH/        TASKS/
+ORG/               JOB_CARDS/       EXPERTS/         SKILLS_TALENT/
+EXPERTS_TALENT/    ROADMAP/         OPERATIONS/      PROMPTS/{TITLES,TEAMS,EXECUTION}/
+FORECASTS/         ARCHIVE/         CALENDAR/        QA/              MEMORY/          REPORTS/
+LATOS_STATE.md     .cursor/skills/  scripts/generate_latos_giga_pack.py
+```
+
+- Archive: never delete ancestors under `ARCHIVE/YYYY-MM-DD_HHMM/`
+- Security paths (`LAYERS/`, `SECURITY_STATE.md`) — separate pack, same repo
+- Org resize only via `scripts/generate_org.py` (600 assert)

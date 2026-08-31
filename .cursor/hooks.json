@@ -9,6 +9,26 @@
       {
         "matcher": "**/*",
         "command": "python3 scripts/ethics_check.py --hook"
+      },
+      {
+        "matcher": "JOB_CARDS/**",
+        "command": "python3 scripts/qa_check.py --hook"
+      },
+      {
+        "matcher": "EXPERTS/**",
+        "command": "python3 scripts/citation_check.py --hook"
+      },
+      {
+        "matcher": "EXPERTS_TALENT/**",
+        "command": "python3 scripts/citation_check.py --hook"
+      },
+      {
+        "matcher": "RESEARCH/**",
+        "command": "python3 scripts/citation_check.py --hook"
+      },
+      {
+        "matcher": "FORECASTS/**",
+        "command": "python3 scripts/citation_check.py --hook"
       }
     ],
     "beforeShellExecution": [
@@ -25,6 +45,9 @@
     "stop": [
       {
         "command": ".cursor/hooks/phase-audit.sh"
+      },
+      {
+        "command": ".cursor/hooks/phase-audit-latos.sh"
       }
     ]
   }
