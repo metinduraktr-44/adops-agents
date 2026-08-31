@@ -2,6 +2,57 @@
   "mcpServers": {
     "canva": {
       "url": "https://mcp.canva.com/mcp"
+    },
+    "semgrep": {
+      "command": "uvx",
+      "args": ["semgrep-mcp"],
+      "env": {
+        "SEMGREP_APP_TOKEN": "${SEMGREP_APP_TOKEN}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. Defensive SAST only. No token committed."
+    },
+    "snyk": {
+      "command": "npx",
+      "args": ["-y", "snyk@latest", "mcp", "-t", "stdio"],
+      "env": {
+        "SNYK_TOKEN": "${SNYK_TOKEN}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. SCA/SAST. Token via env only."
+    },
+    "sonarqube": {
+      "command": "npx",
+      "args": ["-y", "sonarqube-mcp-server@latest"],
+      "env": {
+        "SONARQUBE_TOKEN": "${SONARQUBE_TOKEN}",
+        "SONARQUBE_URL": "${SONARQUBE_URL}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. Code quality/security. Token+URL via env only."
+    },
+    "trivy": {
+      "command": "trivy",
+      "args": ["mcp"],
+      "env": {
+        "TRIVY_SERVER": "${TRIVY_SERVER}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. Vuln/SBOM/IaC scanning. No secret required for local scans."
+    },
+    "jfrog": {
+      "command": "npx",
+      "args": ["-y", "github:jfrog/mcp-jfrog"],
+      "env": {
+        "JFROG_ACCESS_TOKEN": "${JFROG_ACCESS_TOKEN}",
+        "JFROG_URL": "${JFROG_URL}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. Artifact/SBOM/Xray. Token+URL via env only."
+    },
+    "endor-labs": {
+      "command": "endorctl",
+      "args": ["mcp"],
+      "env": {
+        "ENDOR_API_CREDENTIALS_KEY": "${ENDOR_API_CREDENTIALS_KEY}",
+        "ENDOR_API_CREDENTIALS_SECRET": "${ENDOR_API_CREDENTIALS_SECRET}"
+      },
+      "_note": "DEFAULT OFF — enable in Cursor Settings > MCP. SCA/reachability/SBOM. Credentials via env only."
     }
   }
 }

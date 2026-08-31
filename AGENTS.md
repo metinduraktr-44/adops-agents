@@ -48,3 +48,37 @@ An additive scaffold that turns this repo into a runnable creative-agency operat
 
 ### Quality gate
 Same as the rest of the repo: `python3 scripts/validate.py` must print `VALIDATION: GECTI`. `validate.py` only scans `components/**`, so Creative Agency OS files do not affect it — but always run it before committing.
+
+## Security Governance OS (Cursor)
+
+Türkçe not: Bu bölüm, "Güvenlik Odaklı GIGA MASTER PROMPT — Otonom AI Security Architecture & Governance Operating System" master prompt'unun işletim iskeletidir. **MODE=ASSESS-ONLY**, **savunma-only (defense-only)** modundadır — hiçbir exploit, hesap, anahtar veya ağ yan etkisi yoktur. Bu OS, Creative Agency OS ile aynı `.cursor/` altında **additive** olarak yaşar (STACKS on `cursor/creative-agency-os-c8d4`, PR #616).
+
+### Defense-only principle (kesin sınır)
+Never produce exploits, weaponization, C2, ransomware, phishing, bypass code, or data-exfiltration tooling. Pen-test/red-team topics stay authorized, conceptual, and detection-focused. Prioritize **D3FEND** (defense); reference **MITRE ATT&CK** only to design detections/countermeasures. Enforced by `.cursor/rules/05-ethics-guardrail.mdc` + `scripts/ethics_check.py`.
+
+### No plaintext secrets (kesin sınır)
+Never write real or realistic-format secret values anywhere (including examples/dummies). Only `${VAR}`, `vault://…`, `op://…`, or `<REDACTED>`. `.cursor/mcp.json` uses `${VAR}` env only; security MCP servers (Semgrep, Snyk, SonarQube, Trivy, JFrog, Endor Labs) default **OFF** — enable in Cursor Settings > MCP. Enforced by `.cursor/rules/10-secret-hygiene.mdc` + `scripts/secret_scan.py`.
+
+### Owner commands
+- `/sec-baslat` — cold start from `.cursor/plans/security-master-plan.md` Faz 0.
+- `/sec-devam` · `/sec-resume` — resume from `SECURITY_STATE.md`.
+- `/sec-faz-raporu` — phase report. `/sec-aylik-dongu` — monthly experts/standards loop. `/sec-uzman-guncelle` — update expert digest. `/sec-arsivle` — archive a phase.
+- `/kontrol-uret` — generate mapped controls for a framework. `/gap-analizi` — gap analysis. `/compliance-paket` — ISO 27001 SoA / evidence package. `/etik-denetim` — defense-only + secret audit.
+
+### 6×100 control framework
+Six defense-in-depth frameworks, ~100 controls each: `LAYERS/` (defense-in-depth), `FIREWALLS/` (exposure policy), `ENCRYPTION/` (crypto + PQC), `CHANGE/` (change/CI-CD), `TRANSPARENT_CODE/` (secure SDLC/SBOM), `CONDITIONAL/` (conditional access / zero-trust). Every control row carries `id, ad, NIST_CSF, 800-53, ISO27001, CIS, OWASP, doğrulama_yöntemi, savunma_gerekçesi` (see `.cursor/rules/20-control-mapping.mdc`). Scaffold ships the schema + template rows only — full controls are produced in phased runs via `/kontrol-uret`.
+
+### File map (security-namespaced)
+- `.cursor/rules/{00-security-core,05-ethics-guardrail,10-secret-hygiene,20-control-mapping,30-security-file-structure,40-secops}.mdc`.
+- `.cursor/commands/{sec-*, kontrol-uret, gap-analizi, compliance-paket, etik-denetim}.md`.
+- `.cursor/skills/<name>/SKILL.md` — 20 security skeletons (engines + threat-modeling, compliance-mapper, incident-response, zero-trust-architect, crypto-agility, sbom-provenance, iam-hardening, cloud-security-posture, detection-engineering, vulnerability-management, privacy-engineering, security-qa, security-expert-engine).
+- `.cursor/agents/{security-reviewer,compliance-auditor,ethics-checker}.md` — read-only critics.
+- `.cursor/hooks.json` — merged: `afterFileEdit` → `scripts/{secret_scan,ethics_check}.py`; `beforeShellExecution` → `.cursor/hooks/block-dangerous.sh` (fail-closed); `beforeReadFile` → `.cursor/hooks/redact-secrets.sh`; `stop` → `.cursor/hooks/phase-audit.sh`.
+- `tools/security-scanners/` — offline, dependency-free validation wrappers (`secret_scan.py`, `control_validate.py`, `opa_test.sh`).
+- Bölüm 12 folders: `SECURITY_CONTEXT/`, `SECURITY_RESEARCH/`, `ORG/ROLES/`, `EXPERTS/SECURITY_DIGEST.md`, `LAYERS/ FIREWALLS/ ENCRYPTION/ CHANGE/ TRANSPARENT_CODE/ CONDITIONAL/`, `SECURITY_MATRIX/`, `IMPLEMENTATION/`, `ASSESSMENTS/`, `COMPLIANCE/`, `CALENDAR/`, `QA/findings.md`, `MEMORY/`, `REPORTS/`. State: `SECURITY_STATE.md`; plan: `.cursor/plans/security-master-plan.md`.
+
+### Standards (reproduce with a "verify against official source before production" banner)
+NIST CSF 2.0 · NIST SP 800-53 Rev.5 (~1,189–1,196 controls) · ISO/IEC 27001:2022 (93 Annex A controls) · CIS Controls v8.1 · OWASP ASVS 5.0.0 · PQC FIPS 203/204/205 · SLSA v1.0 · NIST SP 800-207 / CISA ZTMM 2.0. Never fabricate facts/URLs; mark unknowns `araştırılacak / URL doğrulanmalı`.
+
+### Quality gate
+Same as the rest of the repo: `python3 scripts/validate.py` must print `VALIDATION: GECTI`. Security OS files live under `.cursor/`, `tools/`, `scripts/`, and new top-level SECURITY dirs — `validate.py` only scans `components/**`, so they do not affect it, but always run it before committing.
