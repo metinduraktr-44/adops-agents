@@ -1258,3 +1258,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-09-01T09:30:25Z] gunluk-operasyon: standup+makale üretildi; nöbet ret/seo/cro; konu capi-signal-health.
+- [2026-09-01T11:03:33Z] kurul: tutanak toplantilar/2026-09-01-kurul.md; açık P0=8, gelir aksiyonu=19.

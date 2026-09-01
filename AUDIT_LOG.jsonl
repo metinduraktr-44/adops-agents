@@ -847,3 +847,4 @@
 {"ts_start":"2026-08-31T20:23:00Z","ts_end":"2026-08-31T20:30:00Z","op":"owner-merge-batch","owner":"Metin","merged_prs":[616,618,617,619,614,612,620],"superseded":[615],"outputs":["docs/RAPOR-TEK-SAYFA-2026-08-31.md"],"validation":"GECTI","k003":["no-900B","no-invented-top100","defense-only-ASSESS"],"chain":"prev=BILGI_TABANI+AKTIVASYON"}
 {"ts_start":"2026-09-01T03:04:53Z","ts_end":"2026-09-01T03:04:54Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-01T09:30:25Z", "op": "gunluk-operasyon", "onduty": ["ret", "seo", "cro"], "outputs": ["gundem/2026-09-01-standup.md", "makaleler/2026-09-01-capi-signal-health.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-09-01T11:03:33Z", "op": "kurul", "outputs": ["toplantilar/2026-09-01-kurul.md"], "validation": "GECTI"}
