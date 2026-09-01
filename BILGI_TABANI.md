@@ -1253,3 +1253,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 ## 2026-08-31T20:30:00Z — Owner merge batch (Metin onayı)
 - PR #616 Creative Agency OS · #618 Security Governance · #617 Security GIGA depth · #619 LATOS GIGA · #614 live-ops · #612/#620 dependabot — MERGED.
 - Conflict fix: BILGI_TABANI conflict marker temizlendi. Learning: stacked GIGA PR'ları sırayla rebase (#616→#618→#617→#619); #615 superseded by #616.
+
+## 2026-09-01T03:04:54Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
