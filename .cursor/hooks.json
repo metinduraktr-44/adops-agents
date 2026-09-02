@@ -29,6 +29,9 @@
       {
         "matcher": "FORECASTS/**",
         "command": "python3 scripts/citation_check.py --hook"
+      },
+      {
+        "command": "python3 scripts/spec_validate.py"
       }
     ],
     "beforeShellExecution": [
@@ -48,6 +51,9 @@
       },
       {
         "command": ".cursor/hooks/phase-audit-latos.sh"
+      },
+      {
+        "command": "python3 scripts/phase_check.py"
       }
     ]
   }
