@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-08-31T20:30:00Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-09-02T20:51:39Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -13,9 +13,11 @@
 | Creative Agency OS | AKTİF | `.cursor/plans/master-plan.md` · CANVA:BRIEF-ONLY |
 | Security GIGA pack | AKTİF (in-repo) | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` · `SECURITY_STATE.md` MODE=ASSESS-ONLY |
 | Security Claude Code paste | **İPTAL** | `docs/SECURITY-GIGA-BOOTSTRAP.md` |
-| Daily standup | KOŞTU | gundem/2026-08-31-standup.md |
+| Daily standup | KOŞTU | gundem/2026-09-02-standup.md |
 | HoldCo portföy | KOŞTU | gundem/2026-08-31-holding-portfoy.md |
 | Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-31.json |
+| Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-09/snapshot.json |
+| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-09-02.md |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
 | validate.py | GEÇTİ | exit 0 |
