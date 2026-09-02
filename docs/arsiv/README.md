@@ -11,4 +11,4 @@ data/arsiv/YYYY-MM/
 ## Workflow
 `.github/workflows/aylik-arastirma.yml` → `scripts/monthly_research_refresh.py`
 
-Son üretim: 2026-08-03T15:48:54Z
+Son üretim: 2026-09-02T09:17:01Z

@@ -1263,3 +1263,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-09-02T08:53:13Z] gunluk-operasyon: standup+makale üretildi; nöbet seo/cro/ana; konu retail-media-tr-landscape.
+- [2026-09-02T09:17:01Z] aylik-arastirma: arşiv 2026-09 yenilendi; prev=2026-08 ts=2026-08-03T15:48:54Z skills=132; ozel_yetenekler+prompt_bank(122×3)+K-003 kapsam. Ogrenim: aylık döngü = onceki snapshot oku → generator → damgala; 900B karakter talebi şablon+runtime expand ile karşılanır.

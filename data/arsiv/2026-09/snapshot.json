@@ -1,0 +1,49 @@
+{
+  "ts": "2026-09-02T09:17:01Z",
+  "ym": "2026-09",
+  "rol_modelleri_note": "Disiplin başına dünya çapında tanınmış rol-modelleri (kamuya açık profesyoneller: kitap yazarı/konuşmacı/kurum lideri). Rol-model referansıdır. Araştırma: 2026-07-17, kaynaklı.",
+  "rol_modelleri_depts": [
+    "prg",
+    "sea",
+    "soc",
+    "mob",
+    "ret",
+    "seo",
+    "cro",
+    "ana",
+    "dsc",
+    "ops",
+    "cre",
+    "str",
+    "cls",
+    "nbd",
+    "prt",
+    "prd",
+    "fin",
+    "leg",
+    "tal",
+    "inf",
+    "yonetim"
+  ],
+  "skills_count": 132,
+  "prompt_counts": {
+    "title": 122,
+    "team": 122,
+    "apply": 122
+  },
+  "loop": "read_archive → research → stamp → update → next_month_reads_this",
+  "web_research": {
+    "ts": "2026-09-02T09:17:01Z",
+    "findings": [
+      "2026 agency orgs favor hybrid: functional CoE + client pods",
+      "Three pillars: Client Services, Delivery, Operations",
+      "C-suite expands with specialized chiefs (CMO/CTO/CSO/CDO) as scale grows"
+    ],
+    "sources": [
+      "https://aamax.co/blog/digital-marketing-agency-structure",
+      "https://themarketingjuice.com/marketing-agency-org-chart/",
+      "https://agencydashboard.io/blog/marketing-agency-org-chart",
+      "https://enests.co/blog/digital-marketing-agency-org-chart"
+    ]
+  }
+}

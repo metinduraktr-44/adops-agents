@@ -1,5 +1,5 @@
 # ÖZEL YETENEKLER — kültür / sanat / spor / craft (+100)
-> Üretim: 2026-08-03T15:48:54Z · Adet: 132 · Politika: K-003: ≤5 sourced role models per skill; empty allowed; no invented people/URLs
+> Üretim: 2026-09-02T09:17:01Z · Adet: 132 · Politika: K-003: ≤5 sourced role models per skill; empty allowed; no invented people/URLs
 
 ## TR not
 Kültür/sanat/spor craft'ları ajans kreatifi + operasyonuna transfer edilebilir mekanizma olarak kodlandı.
