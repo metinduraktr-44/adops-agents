@@ -1,5 +1,5 @@
 # İŞ LİSTESİ (CANLI)
-> Son güncelleme: 2026-09-01T09:30:25Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
+> Son güncelleme: 2026-09-02T08:53:13Z · Günlük 07:35 TRT'de gunluk-operasyon workflow'u yeniden önceliklendirir.
 
 ## P0 — Bu hafta (F0/F1)
 - [x] Mega skill/MCP talep → K-003 route+activation (yapıştır/900B yok) → cto-platform · 2026-08-25
