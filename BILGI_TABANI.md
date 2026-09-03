@@ -1272,3 +1272,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 ## 2026-09-03T02:31:37Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-09-03T09:02:13Z] gunluk-operasyon: standup+makale üretildi; nöbet cro/ana/dsc; konu mmm-lite-for-smb.
