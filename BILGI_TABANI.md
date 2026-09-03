@@ -1269,3 +1269,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Merge pass: açık PR yok; önceki batch (#616–#620) main'de.
 - `docs/RAPOR-TEK-SAYFA-2026-09-02.md` yazıldı; validate GEÇTİ (633 dosya).
 - Ogrenim: merge pass boşken rapor yine güncellenmeli — F5 inbound + aylık arşiv + owner P0 listesi tazelenir.
+
+## 2026-09-03T02:31:37Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
