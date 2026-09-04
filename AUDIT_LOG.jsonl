@@ -854,3 +854,4 @@
 {"ts_start":"2026-09-02T20:51:00Z","ts_end":"2026-09-02T20:51:39Z","op":"merge-pass-tek-sayfa-rapor","owner":"Metin","merges":[],"open_prs":0,"outputs":["docs/RAPOR-TEK-SAYFA-2026-09-02.md","docs/AKTIVASYON-DURUM.md","BILGI_TABANI.md"],"validation":"GECTI","chain":"prev=RAPOR-TEK-SAYFA-2026-08-31"}
 {"ts_start":"2026-09-03T02:31:36Z","ts_end":"2026-09-03T02:31:37Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-03T09:02:13Z", "op": "gunluk-operasyon", "onduty": ["cro", "ana", "dsc"], "outputs": ["gundem/2026-09-03-standup.md", "makaleler/2026-09-03-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-09-04T02:27:59Z","ts_end":"2026-09-04T02:28:01Z","islem":"nightly","denetim":"RUN"}
