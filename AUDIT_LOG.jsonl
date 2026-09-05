@@ -856,3 +856,4 @@
 {"ts": "2026-09-03T09:02:13Z", "op": "gunluk-operasyon", "onduty": ["cro", "ana", "dsc"], "outputs": ["gundem/2026-09-03-standup.md", "makaleler/2026-09-03-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-09-04T02:27:59Z","ts_end":"2026-09-04T02:28:01Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-04T08:56:43Z", "op": "gunluk-operasyon", "onduty": ["ana", "dsc", "ops"], "outputs": ["gundem/2026-09-04-standup.md", "makaleler/2026-09-04-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-09-05T02:28:51Z","ts_end":"2026-09-05T02:28:54Z","islem":"nightly","denetim":"RUN"}
