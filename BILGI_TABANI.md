@@ -1291,3 +1291,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-09-07T09:31:16Z] gunluk-operasyon: standup+makale üretildi; nöbet cre/str/cls; konu dco-feed-architecture.
 - [2026-09-07T12:15:52Z] liderlik-sync: tutanak toplantilar/2026-09-07-liderlik.md; açık P0=8, gelir aksiyonu=19.
+## 2026-09-08T02:34:53Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
