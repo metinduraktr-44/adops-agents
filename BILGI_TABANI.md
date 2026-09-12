@@ -1309,3 +1309,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-09-11T08:59:41Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu agency-ai-org-design.
 ## 2026-09-12T02:40:10Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-09-12T08:43:08Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu programmatic-supply-path-2026.
