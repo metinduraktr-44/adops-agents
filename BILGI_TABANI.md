@@ -1334,3 +1334,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-09-17T09:33:11Z] gunluk-operasyon: standup+makale üretildi; nöbet prg/sea/soc; konu retail-media-tr-landscape.
 ## 2026-09-18T02:42:44Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-09-18T09:05:37Z] gunluk-operasyon: standup+makale üretildi; nöbet sea/soc/mob; konu mmm-lite-for-smb.

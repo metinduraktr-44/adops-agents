@@ -885,3 +885,4 @@
 {"ts_start":"2026-09-17T02:56:23Z","ts_end":"2026-09-17T02:56:24Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-17T09:33:11Z", "op": "gunluk-operasyon", "onduty": ["prg", "sea", "soc"], "outputs": ["gundem/2026-09-17-standup.md", "makaleler/2026-09-17-retail-media-tr-landscape.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-09-18T02:42:43Z","ts_end":"2026-09-18T02:42:44Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-09-18T09:05:37Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-09-18-standup.md", "makaleler/2026-09-18-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
