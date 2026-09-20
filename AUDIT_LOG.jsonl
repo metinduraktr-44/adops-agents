@@ -888,3 +888,4 @@
 {"ts": "2026-09-18T09:05:37Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-09-18-standup.md", "makaleler/2026-09-18-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-09-19T02:41:49Z","ts_end":"2026-09-19T02:41:50Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-19T08:52:54Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-09-19-standup.md", "makaleler/2026-09-19-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-09-20T02:53:51Z","ts_end":"2026-09-20T02:53:53Z","islem":"nightly","denetim":"RUN"}
