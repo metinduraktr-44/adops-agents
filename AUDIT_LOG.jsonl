@@ -890,3 +890,4 @@
 {"ts": "2026-09-19T08:52:54Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-09-19-standup.md", "makaleler/2026-09-19-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-09-20T02:53:51Z","ts_end":"2026-09-20T02:53:53Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-20T09:22:13Z", "op": "gunluk-operasyon", "onduty": ["mob", "ret", "seo"], "outputs": ["gundem/2026-09-20-standup.md", "makaleler/2026-09-20-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-09-21T02:51:02Z","ts_end":"2026-09-21T02:51:03Z","islem":"nightly","denetim":"RUN"}
