@@ -1359,3 +1359,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-09-23T04:37:02Z] gunluk-operasyon: standup+makale üretildi; nöbet cro/ana/dsc; konu incrementality-geo-holdouts.
 ## 2026-09-24T00:18:23Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-09-24T04:37:28Z] gunluk-operasyon: standup+makale üretildi; nöbet ana/dsc/ops; konu sa360-bid-strategy-selection.
