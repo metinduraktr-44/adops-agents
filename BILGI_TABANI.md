@@ -1363,3 +1363,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-09-24T04:37:28Z] gunluk-operasyon: standup+makale üretildi; nöbet ana/dsc/ops; konu sa360-bid-strategy-selection.
 ## 2026-09-25T00:19:39Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-09-25T04:38:21Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu amazon-acos-tacos-playbook.
