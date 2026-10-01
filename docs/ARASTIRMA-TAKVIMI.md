@@ -4,4 +4,5 @@
 | Ay | Odak disiplinler | Arşiv | Durum |
 |---|---|---|---|
 | 2026-08 | dsc, ops, cre, str | `arsiv/2026-08-arastirma.md` | ✅ arşivlendi |
-| 2026-09 | cls, nbd, prt, prd | (planlandı) | ⏳ sıradaki |
+| 2026-10 | fin, leg, tal, inf | `arsiv/2026-10-arastirma.md` | ✅ arşivlendi |
+| 2026-11 | prg, sea, soc, mob | (planlandı) | ⏳ sıradaki |

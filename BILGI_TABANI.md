@@ -1390,3 +1390,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-10-01T04:40:01Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu capi-signal-health.
+- [2026-10-01T12:03:59Z] arastirma-dongusu: 2026-10 odak fin/leg/tal/inf; kaynaklar.json güncellendi; önceki arşiv=2026-08-arastirma.md.
