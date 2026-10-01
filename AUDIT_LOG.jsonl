@@ -913,3 +913,4 @@
 {"ts_start":"2026-09-30T00:21:10Z","ts_end":"2026-09-30T00:21:11Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-09-30T04:39:54Z", "op": "gunluk-operasyon", "onduty": ["nbd", "prt", "prd"], "outputs": ["gundem/2026-09-30-standup.md", "makaleler/2026-09-30-ctv-buying-checklist.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-01T00:24:04Z","ts_end":"2026-10-01T00:24:06Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-10-01T04:40:01Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-10-01-standup.md", "makaleler/2026-10-01-capi-signal-health.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
