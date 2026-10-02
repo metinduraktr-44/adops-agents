@@ -916,3 +916,4 @@
 {"ts": "2026-10-01T04:40:01Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-10-01-standup.md", "makaleler/2026-10-01-capi-signal-health.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-10-01T12:03:59Z", "op": "arastirma-dongusu", "month": "2026-10", "focus": ["fin", "leg", "tal", "inf"], "outputs": ["arsiv/2026-10-arastirma.md", "data/kaynaklar.json", "docs/ARASTIRMA-TAKVIMI.md"], "validation": "GECTI", "chain": "prev=2026-08-arastirma.md"}
 {"ts": "2026-10-01T12:23:34Z", "op": "kurul", "outputs": ["toplantilar/2026-10-01-kurul.md"], "validation": "GECTI"}
+{"ts_start":"2026-10-02T00:20:47Z","ts_end":"2026-10-02T00:20:49Z","islem":"nightly","denetim":"RUN"}

@@ -1392,3 +1392,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-10-01T04:40:01Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu capi-signal-health.
 - [2026-10-01T12:03:59Z] arastirma-dongusu: 2026-10 odak fin/leg/tal/inf; kaynaklar.json güncellendi; önceki arşiv=2026-08-arastirma.md.
 - [2026-10-01T12:23:34Z] kurul: tutanak toplantilar/2026-10-01-kurul.md; açık P0=8, gelir aksiyonu=19.
+## 2026-10-02T00:20:49Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
