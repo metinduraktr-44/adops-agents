@@ -1394,3 +1394,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-10-01T12:23:34Z] kurul: tutanak toplantilar/2026-10-01-kurul.md; açık P0=8, gelir aksiyonu=19.
 ## 2026-10-02T00:20:49Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-10-02T04:39:37Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu retail-media-tr-landscape.
