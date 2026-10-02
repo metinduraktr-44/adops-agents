@@ -1,5 +1,5 @@
 # KAPSAM VE KIRMIZI BAYRAKLAR (K-003)
-> Damga: 2026-09-02T09:17:01Z · Sahip taleplerinin gerçekçi eşleniği.
+> Damga: 2026-10-02T10:52:12Z · Sahip taleplerinin gerçekçi eşleniği.
 
 ## 🚩 Red flags
 | Talep | Neden imkânsız/zararlı | Gerçekçi alternatif (bu pakette) |
@@ -17,6 +17,6 @@
 - Aylık arşiv: oku → araştır → damgala → güncelle → tekrar
 - Claude Code aktivasyon metni: `docs/CLAUDE-CODE-AKTIVASYON.md`
 
-## Araştırma notu (web, 2026-09-02)
+## Araştırma notu (web, 2026-10-02)
 Ajans org desenleri 2026'da hibrit (fonksiyonel CoE + client pod) lehine; üç sütun: Client Services / Delivery / Operations. Bu repo fonksiyonel 20 departmanı tutar, CLS üzerinden pod çekimi yapar — sektörle uyumlu.
 Kaynak örnekleri: aamax.co, themarketingjuice.com, agencydashboard.io, enests.co (org-chart makaleleri).

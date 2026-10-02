@@ -1,5 +1,5 @@
 # PROMPT KATALOĞU — title × team × apply (122 each)
-> Üretim: 2026-09-02T09:17:01Z · {'title': 122, 'team': 122, 'apply': 122} · Signal > length. Each prompt is a dense template expanded from role cards at runtime — not a fixed 900M-char blob (🚩 K-003).
+> Üretim: 2026-10-02T10:52:12Z · {'title': 122, 'team': 122, 'apply': 122} · Signal > length. Each prompt is a dense template expanded from role cards at runtime — not a fixed 900M-char blob (🚩 K-003).
 
 ## Nasıl kullanılır
 1. `data/prompt_bank/title.json` / `team.json` / `apply.json` içinden `id` seç.
