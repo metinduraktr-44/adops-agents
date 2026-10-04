@@ -922,3 +922,4 @@
 {"ts_start":"2026-10-03T00:19:09Z","ts_end":"2026-10-03T00:19:11Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-03T04:40:44Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-10-03-standup.md", "makaleler/2026-10-03-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-04T01:01:29Z","ts_end":"2026-10-04T01:01:30Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-10-04T06:03:49Z", "op": "gunluk-operasyon", "onduty": ["leg", "tal", "inf"], "outputs": ["gundem/2026-10-04-standup.md", "makaleler/2026-10-04-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
