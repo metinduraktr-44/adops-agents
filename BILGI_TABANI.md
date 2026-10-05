@@ -1410,3 +1410,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-10-05T05:02:19Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu consent-mode-v2-pitfalls.
+- [2026-10-05T06:49:49Z] liderlik-sync: tutanak toplantilar/2026-10-05-liderlik.md; açık P0=8, gelir aksiyonu=19.
