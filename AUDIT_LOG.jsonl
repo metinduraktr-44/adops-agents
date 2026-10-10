@@ -935,3 +935,4 @@
 {"ts_start":"2026-10-09T00:21:51Z","ts_end":"2026-10-09T00:21:53Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-09T04:42:29Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-10-09-standup.md", "makaleler/2026-10-09-sa360-bid-strategy-selection.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-10T00:21:13Z","ts_end":"2026-10-10T00:21:14Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-10-10T04:40:01Z", "op": "gunluk-operasyon", "onduty": ["mob", "ret", "seo"], "outputs": ["gundem/2026-10-10-standup.md", "makaleler/2026-10-10-amazon-acos-tacos-playbook.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
