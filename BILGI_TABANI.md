@@ -1433,3 +1433,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-10-10T04:40:01Z] gunluk-operasyon: standup+makale üretildi; nöbet mob/ret/seo; konu amazon-acos-tacos-playbook.
 ## 2026-10-11T00:23:29Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-10-11T04:41:14Z] gunluk-operasyon: standup+makale üretildi; nöbet ret/seo/cro; konu agency-ai-org-design.
