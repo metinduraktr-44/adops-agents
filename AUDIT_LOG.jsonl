@@ -940,3 +940,4 @@
 {"ts": "2026-10-11T04:41:14Z", "op": "gunluk-operasyon", "onduty": ["ret", "seo", "cro"], "outputs": ["gundem/2026-10-11-standup.md", "makaleler/2026-10-11-agency-ai-org-design.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-12T00:23:53Z","ts_end":"2026-10-12T00:23:55Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-12T04:51:37Z", "op": "gunluk-operasyon", "onduty": ["seo", "cro", "ana"], "outputs": ["gundem/2026-10-12-standup.md", "makaleler/2026-10-12-programmatic-supply-path-2026.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-10-12T06:50:52Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-10-12-liderlik.md"], "validation": "GECTI"}
