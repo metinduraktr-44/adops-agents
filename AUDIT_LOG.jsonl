@@ -943,3 +943,4 @@
 {"ts": "2026-10-12T06:50:52Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-10-12-liderlik.md"], "validation": "GECTI"}
 {"ts_start":"2026-10-13T00:22:36Z","ts_end":"2026-10-13T00:22:37Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-13T04:45:41Z", "op": "gunluk-operasyon", "onduty": ["cro", "ana", "dsc"], "outputs": ["gundem/2026-10-13-standup.md", "makaleler/2026-10-13-skan-vs-sandbox-attribution.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-10-14T00:18:01Z","ts_end":"2026-10-14T00:18:02Z","islem":"nightly","denetim":"RUN"}
