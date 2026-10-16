@@ -1454,3 +1454,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-10-15T04:37:15Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu ctv-buying-checklist.
 ## 2026-10-16T00:16:53Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-10-16T04:37:45Z] gunluk-operasyon: standup+makale üretildi; nöbet ops/cre/str; konu capi-signal-health.
