@@ -1483,3 +1483,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-10-22T04:38:22Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu dco-feed-architecture.
 ## 2026-10-23T00:18:31Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-10-23T04:39:17Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu incrementality-geo-holdouts.

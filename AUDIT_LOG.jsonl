@@ -963,3 +963,4 @@
 {"ts_start":"2026-10-22T00:17:12Z","ts_end":"2026-10-22T00:17:14Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-22T04:38:22Z", "op": "gunluk-operasyon", "onduty": ["prd", "fin", "leg"], "outputs": ["gundem/2026-10-22-standup.md", "makaleler/2026-10-22-dco-feed-architecture.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-23T00:18:29Z","ts_end":"2026-10-23T00:18:31Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-10-23T04:39:17Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-10-23-standup.md", "makaleler/2026-10-23-incrementality-geo-holdouts.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
