@@ -973,3 +973,4 @@
 {"ts": "2026-10-26T06:42:40Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-10-26-liderlik.md"], "validation": "GECTI"}
 {"ts_start":"2026-10-27T00:17:43Z","ts_end":"2026-10-27T00:17:45Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-27T04:39:27Z", "op": "gunluk-operasyon", "onduty": ["prg", "sea", "soc"], "outputs": ["gundem/2026-10-27-standup.md", "makaleler/2026-10-27-programmatic-supply-path-2026.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-10-28T00:14:28Z","ts_end":"2026-10-28T00:14:30Z","islem":"nightly","denetim":"RUN"}
