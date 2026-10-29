@@ -975,3 +975,4 @@
 {"ts": "2026-10-27T04:39:27Z", "op": "gunluk-operasyon", "onduty": ["prg", "sea", "soc"], "outputs": ["gundem/2026-10-27-standup.md", "makaleler/2026-10-27-programmatic-supply-path-2026.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-10-28T00:14:28Z","ts_end":"2026-10-28T00:14:30Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-10-28T04:32:22Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-10-28-standup.md", "makaleler/2026-10-28-skan-vs-sandbox-attribution.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-10-29T00:14:33Z","ts_end":"2026-10-29T00:14:36Z","islem":"nightly","denetim":"RUN"}
