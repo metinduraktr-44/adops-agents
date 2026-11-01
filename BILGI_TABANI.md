@@ -1522,3 +1522,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-01T04:31:43Z] gunluk-operasyon: standup+makale üretildi; nöbet seo/cro/ana; konu retail-media-tr-landscape.
+- [2026-11-01T06:04:16Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-10-arastirma.md.

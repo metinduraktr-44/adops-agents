@@ -5,4 +5,5 @@
 |---|---|---|---|
 | 2026-08 | dsc, ops, cre, str | `arsiv/2026-08-arastirma.md` | ✅ arşivlendi |
 | 2026-10 | fin, leg, tal, inf | `arsiv/2026-10-arastirma.md` | ✅ arşivlendi |
-| 2026-11 | prg, sea, soc, mob | (planlandı) | ⏳ sıradaki |
+| 2026-11 | prg, sea, soc, mob | `arsiv/2026-11-arastirma.md` | ✅ arşivlendi |
+| 2026-12 | ret, seo, cro, ana | (planlandı) | ⏳ sıradaki |
