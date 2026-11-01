@@ -984,3 +984,4 @@
 {"ts_start":"2026-11-01T00:15:07Z","ts_end":"2026-11-01T00:15:09Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-01T04:31:43Z", "op": "gunluk-operasyon", "onduty": ["seo", "cro", "ana"], "outputs": ["gundem/2026-11-01-standup.md", "makaleler/2026-11-01-retail-media-tr-landscape.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-11-01T06:04:16Z", "op": "arastirma-dongusu", "month": "2026-11", "focus": ["prg", "sea", "soc", "mob"], "outputs": ["arsiv/2026-11-arastirma.md", "data/kaynaklar.json", "docs/ARASTIRMA-TAKVIMI.md"], "validation": "GECTI", "chain": "prev=2026-10-arastirma.md"}
+{"ts": "2026-11-01T06:10:11Z", "op": "kurul", "outputs": ["toplantilar/2026-11-01-kurul.md"], "validation": "GECTI"}
