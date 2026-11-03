@@ -38,6 +38,10 @@
       },
       {
         "command": "python3 scripts/ethics_check.py"
+      },
+      {
+        "matcher": "**/*",
+        "command": "python3 scripts/prompt_injection_guard.py --hook"
       }
     ],
     "beforeShellExecution": [
@@ -46,14 +50,7 @@
         "command": ".cursor/hooks/block-dangerous.sh",
         "failClosed": true,
         "timeout": 10
-      }
-    ],
-    "beforeReadFile": [
-      {
-        "command": ".cursor/hooks/redact-secrets.sh"
-      }
-    ],
-    "beforeShellExecution": [
+      },
       {
         "command": ".cursor/hooks/block-dangerous.sh",
         "failClosed": true
@@ -73,9 +70,12 @@
       },
       {
         "command": "python3 scripts/phase_check.py"
-      },
+      }
+    ],
+    "beforeSubmitPrompt": [
       {
-        "command": ".cursor/hooks/phase-audit.sh"
+        "command": "python3 scripts/prompt_injection_guard.py --prompt-hook",
+        "failClosed": false
       }
     ]
   }
