@@ -13,3 +13,5 @@ or email **metindurak.tr@gmail.com**. Response target: 72h. Please do not open p
 issues for exploitable findings.
 
 **TR:** Güvenlik bulgusu için private advisory ya da e-posta; kamuya açık issue açma. Yanıt hedefi 72 saat.
+
+Agent context hygiene (Claude Code warnings, in-repo): `docs/CLAUDE-CODE-GUVENLIK-UYGULAMA.md`. Claude Code product issues: [HackerOne](https://hackerone.com/anthropic) — no public PoC.

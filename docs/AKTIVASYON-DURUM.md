@@ -1,7 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-11-15T09:58:00Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
-> Damga: 2026-11-04T11:35:21Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
-> Damga: 2026-11-10T11:55:24Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-15T10:04:59Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -15,13 +13,14 @@
 | Creative Agency OS | AKTİF | `.cursor/plans/master-plan.md` · CANVA:BRIEF-ONLY |
 | Security GIGA pack | AKTİF (in-repo) | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` · `SECURITY_STATE.md` MODE=ASSESS-ONLY |
 | Security Claude Code paste | **İPTAL** | `docs/SECURITY-GIGA-BOOTSTRAP.md` |
+| Claude Code güvenlik uyarıları | AKTİF (in-repo; binary VM’de yok) | `docs/CLAUDE-CODE-BILGILERI-VE-GUVENLIK-UYARILARI.md` · runbook `docs/CLAUDE-CODE-GUVENLIK-UYGULAMA.md` · `/cc-guvenlik` |
+| LATOS GIGA pack | AKTİF (in-repo) | `docs/CURSOR-LATOS-GIGA-MASTER-PROMPT.md` · `LATOS_STATE.md` |
 | Daily standup | KOŞTU | gundem/2026-09-02-standup.md |
 | HoldCo portföy | KOŞTU | gundem/2026-08-31-holding-portfoy.md |
-| Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-31.json |
+| Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-*.json |
 | Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-11/snapshot.json + LOOP.json |
 | LLM research-loop continue | KOŞTU | scripts/research_loop_continue.py · kuyruk pending_research |
-| Claude Code güvenlik uyarıları | AYRI DAL | PR #628 · .docx/.pdf VM’de yok |
-| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-11-10.md (prev 2026-11-04) |
+| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-11-15.md |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
 | validate.py | GEÇTİ | exit 0 |
@@ -51,7 +50,8 @@
   "holding_report.py": 0,
   "nightly_holding_research.py": 0,
   "validate.py": 0,
-  "research_loop_continue.py": 0
+  "research_loop_continue.py": 0,
+  "holding_research.py": 0
 }
 ```
 
@@ -60,12 +60,8 @@
 - Domain2 TF/OTel apply için credential + cluster onayı
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
-- **Yükle:** `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` — bu VM’de **yok** (`docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`). PR #628 taslak; byte-faithful değil.
-- **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; imza: `TASKS/SEC-T003.md`; MCP security catalog off until enable; `/sec-baslat`
-- **Creative OS:** `CONTEXT/CONTEXT_BRIEF.md` doldur (marka uydurma yok) · CANVA:BRIEF-ONLY
-- **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat` (PR #619 merge sonrası)
-- **P0 kuyruk:** research-loop 79 sourced / 2021 pending — isim uydurma yok (K-003)
-- **Security GIGA:** MODE=ASSESS-ONLY kalır; `/sec-baslat`
+- **Yükle:** `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` — VM’de yok (`docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`); in-repo extract var, byte-faithful değil
+- **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; imza: `TASKS/SEC-T003.md`; `/sec-baslat`; `/cc-guvenlik`
+- **Creative OS:** `CONTEXT/CONTEXT_BRIEF.md` doldur · CANVA:BRIEF-ONLY
 - **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat`
-- **Claude Code .docx/.pdf:** yeniden yükle (`uploads/`) → #628 byte-faithful extract
-- **P0:** #628/#629/#630 incele (merge yok); kuyruk 79 sourced / 2021 pending; `holding-arastirma` KeyError main’de kırmızı
+- **P0 kuyruk:** research-loop pending_research — isim uydurma yok (K-003)
