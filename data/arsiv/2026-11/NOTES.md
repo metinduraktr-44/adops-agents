@@ -11,3 +11,11 @@
 - read_prior: prev=2026-10 ts=2026-10-02T10:52:12Z skills=132
 - builder: scripts/build_agency_research_pack.py
 - status: GECTI
+
+## Research-loop continue
+- ts: 2026-11-03T11:45:23Z
+- archive_first: prior=2026-10 {'path': 'data/arsiv/2026-10/snapshot.json', 'ts': '2026-10-02T10:52:12Z', 'skills_count': 132}
+- queues: sourced=79 pending=2021 (no invented names)
+- skill_agency_registry: rebuilt stamp, no live skill invoke
+- Claude Code .docx/.pdf: VM'de yok → PR #628 extract duruyor
+- Security MODE: ASSESS-ONLY

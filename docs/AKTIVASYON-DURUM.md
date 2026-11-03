@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-11-10T11:55:44Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-15T09:58:00Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -16,7 +16,9 @@
 | Daily standup | KOŞTU | gundem/2026-09-02-standup.md |
 | HoldCo portföy | KOŞTU | gundem/2026-08-31-holding-portfoy.md |
 | Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-31.json |
-| Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-09/snapshot.json |
+| Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-11/snapshot.json + LOOP.json |
+| LLM research-loop continue | KOŞTU | scripts/research_loop_continue.py · kuyruk pending_research |
+| Claude Code güvenlik uyarıları | AYRI DAL | PR #628 · .docx/.pdf VM’de yok |
 | Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-09-02.md |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
@@ -46,7 +48,8 @@
   "daily_ops.py": 0,
   "holding_report.py": 0,
   "nightly_holding_research.py": 0,
-  "validate.py": 0
+  "validate.py": 0,
+  "research_loop_continue.py": 0
 }
 ```
 
@@ -55,7 +58,8 @@
 - Domain2 TF/OTel apply için credential + cluster onayı
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
-- **Yükle:** `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` — bu VM’de **yok** (2026-11-10 re-search 0 hit; `docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`). PR #628 taslak; byte-faithful değil.
+- **Yükle:** `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` — bu VM’de **yok** (`docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`). PR #628 taslak; byte-faithful değil.
 - **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; imza: `TASKS/SEC-T003.md`; MCP security catalog off until enable; `/sec-baslat`
 - **Creative OS:** `CONTEXT/CONTEXT_BRIEF.md` doldur (marka uydurma yok) · CANVA:BRIEF-ONLY
 - **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat` (PR #619 merge sonrası)
+- **P0 kuyruk:** research-loop 79 sourced / 2021 pending — isim uydurma yok (K-003)
