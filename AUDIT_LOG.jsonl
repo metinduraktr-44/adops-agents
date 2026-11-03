@@ -993,6 +993,7 @@
 {"ts": "2026-11-03T04:31:32Z", "op": "gunluk-operasyon", "onduty": ["ana", "dsc", "ops"], "outputs": ["gundem/2026-11-03-standup.md", "makaleler/2026-11-03-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-11-03T11:45:23Z", "op": "arastirma-dongusu", "month": "2026-11", "focus": ["prg", "sea", "soc", "mob"], "outputs": ["arsiv/2026-11-arastirma.md", "data/kaynaklar.json", "docs/ARASTIRMA-TAKVIMI.md"], "validation": "GECTI", "chain": "prev=2026-11-arastirma.md"}
 {"ts_start": "2026-11-03T11:45:23Z", "ts_end": "2026-11-03T11:45:23Z", "op": "research-loop-continue", "month": "2026-11", "prior": {"path": "data/arsiv/2026-10/snapshot.json", "ts": "2026-10-02T10:52:12Z", "skills_count": 132}, "outputs": ["data/arsiv/2026-11/LOOP.json", "data/arsiv/2026-11/NOTES.md", "data/title_top100_queues.json", "data/skill_agency_registry.json", "arsiv/2026-11-arastirma.md", "docs/ARASTIRMA-TAKVIMI.md", "docs/SKILL-AGENCY-REGISTRY.md"], "validation": "GECTI", "chain": "prev-archive-read", "k003": "pending_research only; no 900B; no invented people"}
+{"ts_start":"2026-11-03T11:45:26Z","ts_end":"2026-11-03T11:46:30Z","op":"tek-sayfa-rapor","date":"2026-11-03","outputs":["docs/RAPOR-TEK-SAYFA-2026-11-03.md"],"validation":"GECTI","merge":"none","chain":"prev=docs/RAPOR-TEK-SAYFA-2026-09-02.md","k003":"no 900B; no invented top-100; no secret minting"}
 {"ts_start":"2026-11-04T00:12:44Z","ts_end":"2026-11-04T00:12:46Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-04T04:31:24Z", "op": "gunluk-operasyon", "onduty": ["dsc", "ops", "cre"], "outputs": ["gundem/2026-11-04-standup.md", "makaleler/2026-11-04-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-11-05T00:13:05Z","ts_end":"2026-11-05T00:13:06Z","islem":"nightly","denetim":"RUN"}
@@ -1008,4 +1009,3 @@
 {"ts": "2026-11-09T06:28:05Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-11-09-liderlik.md"], "validation": "GECTI"}
 {"ts_start":"2026-11-10T00:11:38Z","ts_end":"2026-11-10T00:11:40Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-10T04:31:27Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-11-10-standup.md", "makaleler/2026-11-10-agency-ai-org-design.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
-
