@@ -1,0 +1,37 @@
+{
+  "ts": "2026-11-03T11:45:23Z",
+  "ym": "2026-11",
+  "op": "research-loop-continue",
+  "archive_first": {
+    "ym": "2026-11",
+    "prior_ym": "2026-10",
+    "prior_snapshot": {
+      "path": "data/arsiv/2026-10/snapshot.json",
+      "ts": "2026-10-02T10:52:12Z",
+      "skills_count": 132
+    },
+    "current_snapshot": {
+      "path": "data/arsiv/2026-11/snapshot.json",
+      "ts": "2026-11-02T05:07:33Z",
+      "skills_count": 132
+    },
+    "role_model_archive": "arsiv/2026-11-arastirma.md"
+  },
+  "queues": {
+    "sourced_total": 79,
+    "pending_total": 2021,
+    "path": "data/title_top100_queues.json"
+  },
+  "ran": [
+    "scripts/research_loop.py",
+    "scripts/build_skill_agency_registry.py"
+  ],
+  "not_ran": [
+    "live skill invoke (family mini-agency stamp only)",
+    "title_top100 name invention",
+    "900B prompt blobs"
+  ],
+  "claude_code_docx": "not found under uploads/ — leftover on PR #628 corpus extract",
+  "security_mode": "ASSESS-ONLY",
+  "k003": "GECTI"
+}
