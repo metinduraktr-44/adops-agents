@@ -84,7 +84,7 @@ Toplam owner-kritik P0: **~5 saat tahmin**. Agent P1 (blocked kalemler hariç, c
 | **627** | OPEN | build(deps): codeql-action 4.37.9 → 4.39.1 | https://github.com/metinduraktr-44/adops-agents/pull/627 |
 | **621** | OPEN | build(deps): actions/setup-python 5 → 7 | https://github.com/metinduraktr-44/adops-agents/pull/621 |
 
-Bu rapor PR: branch `cursor/llm-agency-research-loop-50e1` → `main` (aşağı footer’da URL). Merge **yok**.
+Bu rapor PR: https://github.com/metinduraktr-44/adops-agents/pull/629 (`cursor/llm-agency-research-loop-50e1` → `main`, draft; araştırma loop ile aynı PR). Merge **yok**.
 
 ## 6) Risk / K-003
 - 🚩 900B prompt / uydurma top-100 / secret minting → **yapılmadı** (K-003)
