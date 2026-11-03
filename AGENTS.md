@@ -21,6 +21,21 @@ In-repo Security GIGA bootstrap — Claude Code paste **cancelled** (K-003). Coe
 
 **Hard rules:** defense-only (no exploit/PoC); secrets only `${VAR}` / `vault://` / `op://` / `<REDACTED>`; no 900k prompt blob; no invented top-100 experts. MODE order: assess → implement → audit.
 
+## Claude Code security warnings (in-repo)
+
+Owner docx/pdf paste **cancelled**. Extract + Cursor equivalents:
+
+| Area | Location |
+|---|---|
+| Extract | `docs/CLAUDE-CODE-BILGILERI-VE-GUVENLIK-UYARILARI.md` |
+| Runbook (applied vs owner P0) | `docs/CLAUDE-CODE-GUVENLIK-UYGULAMA.md` |
+| Rule | `.cursor/rules/15-agent-context-hygiene.mdc` |
+| Command | `/cc-guvenlik` |
+| Guard | `scripts/prompt_injection_guard.py` |
+| Ignore | `.cursorignore` |
+
+Do not enable Auto-run/YOLO in-repo. MCP authorize is owner-gated.
+
 ## LATOS GIGA (Living AI Talent & Organization System)
 
 In-repo LATOS bootstrap — Claude Code paste **cancelled** (K-003). Coexists with Security + Canva packs.

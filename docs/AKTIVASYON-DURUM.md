@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-09-02T20:51:39Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-03T09:58:05Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -13,6 +13,8 @@
 | Creative Agency OS | AKTİF | `.cursor/plans/master-plan.md` · CANVA:BRIEF-ONLY |
 | Security GIGA pack | AKTİF (in-repo) | `docs/CURSOR-SECURITY-GIGA-MASTER-PROMPT.md` · `SECURITY_STATE.md` MODE=ASSESS-ONLY |
 | Security Claude Code paste | **İPTAL** | `docs/SECURITY-GIGA-BOOTSTRAP.md` |
+| Claude Code güvenlik uyarıları | AKTİF (in-repo; binary VM’de yok) | `docs/CLAUDE-CODE-BILGILERI-VE-GUVENLIK-UYARILARI.md` · runbook `docs/CLAUDE-CODE-GUVENLIK-UYGULAMA.md` |
+| LATOS GIGA pack | AKTİF (in-repo) | `docs/CURSOR-LATOS-GIGA-MASTER-PROMPT.md` · `LATOS_STATE.md` |
 | Daily standup | KOŞTU | gundem/2026-09-02-standup.md |
 | HoldCo portföy | KOŞTU | gundem/2026-08-31-holding-portfoy.md |
 | Gece ülke arşivi | KOŞTU | data/arsiv/holding/*/snapshot-2026-08-31.json |
@@ -56,4 +58,6 @@
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
 - **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; MCP security catalog off until enable; `/sec-baslat`
-- **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat` (PR #619 merge sonrası)
+- **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat`
+- **Claude Code güvenlik:** Cursor restart; Auto-run/YOLO kapalı; MCP Authorize ihtiyaç kadar; `.docx/.pdf` byte-faithful için yeniden yükle; `/cc-guvenlik`
+- P0 checklist: `docs/CLAUDE-CODE-GUVENLIK-UYGULAMA.md`
