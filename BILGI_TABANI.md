@@ -1539,7 +1539,7 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-03T11:45:23Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
 - [2026-11-03T11:45:23Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 - [2026-11-03T11:50:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` VM’de yok (NFC/NFD tarama 0 hit) — extract yok, içerik uydurulmadı. SEC-T003 unlock checklist yazıldı (`TASKS/SEC-T003.md`); MODE=ASSESS-ONLY kaldı. Creative master-plan iskele tikleri dosya gerçeğine çekildi; CONTEXT_BRIEF boş. `/etik-denetim` ethics false-positive (weaponization) defense-only satırla düzeltildi. LLM smoke: Anthropic PONG (OpenRouter yok). Ogrenim: isim-yalnız sohbet ≠ dosya; byte-faithful için owner upload şart. PR #628 taslak resmi Anthropic özeti — owner dosyasının yerine geçmez.
-
+- [2026-11-03T11:46:30Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-03.md; owner yapacaklar/onaylayacaklar + adam-saat band (0.5–16); merge yok. Öğrenim: aynı branch’te ikinci ajan varsa yalnız rapor path’i commit; AUDIT tek satır.
 ## 2026-11-04T00:12:46Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
