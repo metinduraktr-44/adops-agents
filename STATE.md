@@ -4,10 +4,10 @@ Türkçe not: `DEVAM`/`RESUME` bu dosyayı okur. Kaynak-doğruluk (source of tru
 
 | Field | Value |
 |---|---|
-| current_phase | Faz 0 — Bootstrap & Context |
+| current_phase | Faz 0 — Context owner-blocked (scaffold confirmed) |
 | canva_mode | CANVA:BRIEF-ONLY |
-| last_completed_phase | (none) |
-| last_update | 2026-08-27T00:00:00Z (scaffold init) |
+| last_completed_phase | Faz 0 scaffold only (CONTEXT_BRIEF empty) |
+| last_update | 2026-11-03T11:50:00Z (honest plan ticks; no fabricated brand) |
 | oauth_status | not started (user action) |
 
 ## Flags
@@ -15,9 +15,10 @@ Türkçe not: `DEVAM`/`RESUME` bu dosyayı okur. Kaynak-doğruluk (source of tru
 - `CANVA:ON` = false (enable only after the user completes Canva OAuth)
 
 ## Resume notes
-- Scaffold committed. Next action: fill `CONTEXT/CONTEXT_BRIEF.md` (Faz 0), then advance
-  `.cursor/plans/master-plan.md` in order.
-- Do NOT enable `CANVA:ON` autonomously. Do NOT run always-on/live loops.
+- Scaffold confirmed on disk. Next **owner** action: fill `CONTEXT/CONTEXT_BRIEF.md` (brand/colors/audience). Do not invent values.
+- Then advance `.cursor/plans/master-plan.md` (skills matrix, sourced research, briefs).
+- Do NOT enable `CANVA:ON` autonomously.
+- Ops heartbeat (`scripts/live_loop.sh`) is validate+timestamp only — not a Canva live loop.
 
 ## Security GIGA state (separate)
 Security mode and phases live in **`SECURITY_STATE.md`** (default `MODE=ASSESS-ONLY`).

@@ -1,6 +1,6 @@
 # SECURITY_STATE — Security GIGA Phase Tracker
 
-> Damga: 2026-08-27T12:55:00Z · TR: Varsayılan ASSESS-ONLY
+> Damga: 2026-11-04T11:40:00Z · TR: Varsayılan ASSESS-ONLY (flip yok)
 
 ## Mode flags
 
@@ -26,9 +26,10 @@
 ## Active task / next `/sec-devam`
 
 1. Owner: **Cursor restart** (skills/rules discovery)
-2. Optional: sample expert review of 20 control mappings (SEC-T002)
-3. Owner: define MODE=IMPLEMENT unlock criteria (SEC-T003) — do **not** flip yet
-4. Later: SBOM/provenance stub under TRANSPARENT_CODE when IMPLEMENT authorized
+2. Optional: sample expert review of 20 control mappings (SEC-T002) — no invented experts
+3. SEC-T003 checklist **authored**: `TASKS/SEC-T003.md` — owner must tick gates, then personally set `MODE=IMPLEMENT`. **Do not flip yet.**
+4. Owner: re-upload `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` (`docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`)
+5. Later: SBOM/provenance stub under TRANSPARENT_CODE when IMPLEMENT authorized
 
 ## Progressive content
 - Skill `references/` aggregate ≈ **1.2M** chars across depth-01..11 (no single-file 900k blob; ethics-safe rewrite)
@@ -40,3 +41,5 @@
 
 ## Last audit
 - 2026-08-27 ASSESS deepen on `cursor/security-giga-master-50e1` (PR #617)
+- 2026-11-03 SEC-T003 checklist authored; owner docs still missing; MODE unchanged
+- 2026-11-04 owner `.docx`/`.pdf` re-search **0 hits**; MODE unchanged (ASSESS-ONLY)

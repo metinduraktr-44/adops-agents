@@ -26,7 +26,7 @@
 - [x] gap + risk assessments filled from inventory
 - [x] QA findings checklist
 - [x] Skill refs expand (~900k aggregate)
-- [ ] Owner MODE=IMPLEMENT unlock criteria (SEC-T003)
+- [x] Owner MODE=IMPLEMENT unlock criteria drafted (`TASKS/SEC-T003.md`, 2026-11-03) — **sign-off still owner; MODE not flipped**
 
 ## Faz 6 — Compliance (partial)
 - [x] SoA ISO 27001 draft stub (needs expert review)
@@ -35,4 +35,4 @@
 ## Blockers
 - MCP security catalog off until authorize
 - Cursor restart required for skills discovery
-- MODE flip blocked until SEC-T003
+- MODE flip blocked until owner signs SEC-T003 gates in `SECURITY_STATE.md`
