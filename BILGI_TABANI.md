@@ -1544,9 +1544,10 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-04T04:31:24Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu consent-mode-v2-pitfalls.
-
 - [2026-11-04T11:40:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` yeniden tarandı (NFC/NFD, /workspace+/tmp+/home/ubuntu+/opt/cursor) — **0 hit**, extract yok, içerik uydurulmadı. PR #630 `origin/main` ile birleştirildi (AUDIT_LOG/BILGI_TABANI keep-both). MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter yok; Anthropic var. live_loop tmux `adops-live` var ama son pane 2026-11-03T12:42Z. Ogrenim: belge hâlâ sohbet ismi; #628 taslak byte-faithful değil. ManagePullRequest aracı bu oturumda yok — PR güncellemesi git push ile.
-
+- [2026-11-04T11:35:21Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-04T11:35:21Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+- [2026-11-04T11:37:00Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-04.md; owner yapacaklar (yön+URL+not) + onaylar; adam-saat 0.5–16; merge yok; holding-arastirma KeyError not edildi. Öğrenim: uploads yoksa #628 extract’e dokunma; ManagePullRequest MCP yoksa git push PR’ı günceller.
 ## 2026-11-05T00:13:06Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 

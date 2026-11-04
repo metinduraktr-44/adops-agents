@@ -13,7 +13,7 @@
 - status: GECTI
 
 ## Research-loop continue
-- ts: 2026-11-03T11:45:23Z
+- ts: 2026-11-04T11:35:21Z
 - archive_first: prior=2026-10 {'path': 'data/arsiv/2026-10/snapshot.json', 'ts': '2026-10-02T10:52:12Z', 'skills_count': 132}
 - queues: sourced=79 pending=2021 (no invented names)
 - skill_agency_registry: rebuilt stamp, no live skill invoke
