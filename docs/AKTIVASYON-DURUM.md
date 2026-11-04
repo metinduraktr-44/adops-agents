@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-11-03T11:45:23Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-04T11:35:21Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -19,7 +19,7 @@
 | Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-11/snapshot.json + LOOP.json |
 | LLM research-loop continue | KOŞTU | scripts/research_loop_continue.py · kuyruk pending_research |
 | Claude Code güvenlik uyarıları | AYRI DAL | PR #628 · .docx/.pdf VM’de yok |
-| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-09-02.md |
+| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-11-04.md (prev 2026-11-03) |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
 | validate.py | GEÇTİ | exit 0 |
@@ -61,4 +61,4 @@
 - **Security GIGA:** MODE=ASSESS-ONLY kalır; `/sec-baslat`
 - **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat`
 - **Claude Code .docx/.pdf:** yeniden yükle (`uploads/`) → #628 byte-faithful extract
-- **P0:** #628 incele; bu dal araştırma döngüsü (kuyruk 79 sourced / 2021 pending, isim uydurma yok)
+- **P0:** #628/#629/#630 incele (merge yok); kuyruk 79 sourced / 2021 pending; `holding-arastirma` KeyError main’de kırmızı
