@@ -1542,3 +1542,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-11-04T04:31:24Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu consent-mode-v2-pitfalls.
 
+- [2026-11-04T11:40:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` yeniden tarandı (NFC/NFD, /workspace+/tmp+/home/ubuntu+/opt/cursor) — **0 hit**, extract yok, içerik uydurulmadı. PR #630 `origin/main` ile birleştirildi (AUDIT_LOG/BILGI_TABANI keep-both). MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter yok; Anthropic var. live_loop tmux `adops-live` var ama son pane 2026-11-03T12:42Z. Ogrenim: belge hâlâ sohbet ismi; #628 taslak byte-faithful değil. ManagePullRequest aracı bu oturumda yok — PR güncellemesi git push ile.
+
