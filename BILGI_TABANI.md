@@ -1559,3 +1559,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-09T04:31:52Z] gunluk-operasyon: standup+makale üretildi; nöbet nbd/prt/prd; konu amazon-acos-tacos-playbook.
+- [2026-11-09T06:28:05Z] liderlik-sync: tutanak toplantilar/2026-11-09-liderlik.md; açık P0=8, gelir aksiyonu=19.
