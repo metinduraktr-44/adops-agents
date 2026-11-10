@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-09-02T20:51:39Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-10T11:55:44Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -55,5 +55,7 @@
 - Domain2 TF/OTel apply için credential + cluster onayı
 - OpCo native scaffold hangi markadan → söyle; ayrı PR açılır
 - Claude Code paste **gerekmiyor** — bu dosya kanıt
-- **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; MCP security catalog off until enable; `/sec-baslat`
+- **Yükle:** `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` + `.pdf` — bu VM’de **yok** (2026-11-10 re-search 0 hit; `docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md`). PR #628 taslak; byte-faithful değil.
+- **Security GIGA:** Cursor restart → skills/hooks; MODE=ASSESS-ONLY; imza: `TASKS/SEC-T003.md`; MCP security catalog off until enable; `/sec-baslat`
+- **Creative OS:** `CONTEXT/CONTEXT_BRIEF.md` doldur (marka uydurma yok) · CANVA:BRIEF-ONLY
 - **LATOS:** CONTEXT/INBOX doldur → `/latos-baslat` (PR #619 merge sonrası)
