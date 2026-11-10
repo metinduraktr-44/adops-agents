@@ -1596,3 +1596,8 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-15T04:31:10Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu capi-signal-health.
 - [2026-11-15T09:50:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (42252 dosya; .docx/.pdf=0). Extract yok. MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter env=NO; Anthropic env=YES. live_loop tmux `adops-live` PID canlı, son pane tick #88 2026-11-11T12:12Z (sleep 300; VM resume). OPEN PR aynı set: 621 MERGEABLE, 628 DRAFT CONFLICT, 629 DRAFT CONFLICT, 630 CONFLICT→main merge keep-both, 631 MERGEABLE. #627 CLOSED unmerged (9 Kas). Product merge 10–15 Kas: yok (yalnız daily/nightly). Ogrenim: belge hâlâ sohbet ismi; ManagePullRequest yok — git push + rapor; PR #630 gövdesi dokunulmadı.
 
+
+- [2026-11-10T11:55:24Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-10T11:55:24Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-10T11:56:19Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-10.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: AUDIT/BILGI conflict = kronolojik splice (incoming mid-day after same-day cron); ManagePullRequest MCP yok.
