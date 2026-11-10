@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-04T11:35:21Z",
+  "ts": "2026-11-10T11:55:24Z",
   "policy": "No invented people. Slots 1..n filled from rol_modelleri; remaining slots are search queries for monthly refresh.",
   "disciplines": {
     "prg": {
@@ -14830,7 +14830,7 @@
     }
   },
   "last_loop": {
-    "ts": "2026-11-04T11:35:21Z",
+    "ts": "2026-11-10T11:55:24Z",
     "ym": "2026-11",
     "op": "research-loop-continue",
     "prior": {

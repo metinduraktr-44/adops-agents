@@ -1,5 +1,5 @@
 # AKTİVASYON DURUMU
-> Damga: 2026-11-04T11:35:21Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
+> Damga: 2026-11-10T11:55:24Z · **Claude Code'a yapıştır = İPTAL** · Prompt **bu repoda / bu ajan tarafından uygulandı**.
 
 ## Applied layers
 | Katman | Durum | Kanıt |
@@ -19,7 +19,7 @@
 | Aylık araştırma arşivi | KOŞTU | data/arsiv/2026-11/snapshot.json + LOOP.json |
 | LLM research-loop continue | KOŞTU | scripts/research_loop_continue.py · kuyruk pending_research |
 | Claude Code güvenlik uyarıları | AYRI DAL | PR #628 · .docx/.pdf VM’de yok |
-| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-11-04.md (prev 2026-11-03) |
+| Tek sayfa rapor | YAZILDI | docs/RAPOR-TEK-SAYFA-2026-11-10.md (prev 2026-11-04) |
 | OpCo görev tahtaları | YAZILDI | docs/holding/gorevler/ |
 | Ülke ajans tahtaları | YAZILDI | docs/holding/ulkeler/ |
 | validate.py | GEÇTİ | exit 0 |
