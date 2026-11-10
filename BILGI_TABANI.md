@@ -1535,10 +1535,16 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-03T04:31:32Z] gunluk-operasyon: standup+makale üretildi; nöbet ana/dsc/ops; konu creative-fatigue-signals.
+- [2026-11-03T11:45:23Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-03T11:45:23Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+- [2026-11-03T11:46:30Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-03.md; owner yapacaklar/onaylayacaklar + adam-saat band (0.5–16); merge yok. Öğrenim: aynı branch’te ikinci ajan varsa yalnız rapor path’i commit; AUDIT tek satır.
 ## 2026-11-04T00:12:46Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-04T04:31:24Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu consent-mode-v2-pitfalls.
+- [2026-11-04T11:35:21Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-04T11:35:21Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+- [2026-11-04T11:37:00Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-04.md; owner yapacaklar (yön+URL+not) + onaylar; adam-saat 0.5–16; merge yok; holding-arastirma KeyError not edildi. Öğrenim: uploads yoksa #628 extract’e dokunma; ManagePullRequest MCP yoksa git push PR’ı günceller.
 ## 2026-11-05T00:13:06Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
@@ -1564,3 +1570,9 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-10T04:31:27Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu agency-ai-org-design.
+
+
+- [2026-11-10T11:55:24Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-10T11:55:24Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-10T11:56:19Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-10.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: AUDIT/BILGI conflict = kronolojik splice (incoming mid-day after same-day cron); ManagePullRequest MCP yok.

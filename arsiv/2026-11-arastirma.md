@@ -1,26 +1,26 @@
 # ARAŞTIRMA ARŞİVİ — 2026-11
-> Zaman damgası: 2026-11-01T06:04:16Z · Mod: deterministik iskelet
-> Geri okunan önceki arşiv: 2026-10-arastirma.md
+> Zaman damgası: 2026-11-10T11:55:24Z · Mod: deterministik iskelet
+> Geri okunan önceki arşiv: 2026-11-arastirma.md
 > Kural: veri uydurma yok · her bulgu URL'li · 'bulunamadı' açıkça yazılır.
 
 ## Önceki arşivden taşınan bağlam
 ```
-# ARAŞTIRMA ARŞİVİ — 2026-10
-> Zaman damgası: 2026-10-01T12:03:59Z · Mod: deterministik iskelet
-> Geri okunan önceki arşiv: 2026-08-arastirma.md
+# ARAŞTIRMA ARŞİVİ — 2026-11
+> Zaman damgası: 2026-11-04T11:35:21Z · Mod: deterministik iskelet
+> Geri okunan önceki arşiv: 2026-11-arastirma.md
 > Kural: veri uydurma yok · her bulgu URL'li · 'bulunamadı' açıkça yazılır.
 
 ## Önceki arşivden taşınan bağlam
 ```
-# ARAŞTIRMA ARŞİVİ — 2026-08
-> Zaman damgası: 2026-08-04T08:44:04Z · Mod: deterministik iskelet
-> Geri okunan önceki arşiv: 2026-08-arastirma.md
+# ARAŞTIRMA ARŞİVİ — 2026-11
+> Zaman damgası: 2026-11-03T11:45:23Z · Mod: deterministik iskelet
+> Geri okunan önceki arşiv: 2026-11-arastirma.md
 > Kural: veri uydurma yok · her bulgu URL'li · 'bulunamadı' açıkça yazılır.
 
 ## Önceki arşivden taşınan bağlam
 ```
-# ARAŞTIRMA ARŞİVİ — 2026-08
-> Zaman damgası: 2026-08-03T15:56:20Z · Mod: determ
+# ARAŞTIRMA ARŞİVİ — 2026-11
+> Zaman damgası: 2026-11-01T06:04:16Z · Mod: determ
 ```
 
 ## Bu ayın odak disiplinleri (rotasyon)
