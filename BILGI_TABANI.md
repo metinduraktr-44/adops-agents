@@ -1544,3 +1544,30 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-11-04T11:40:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` yeniden tarandı (NFC/NFD, /workspace+/tmp+/home/ubuntu+/opt/cursor) — **0 hit**, extract yok, içerik uydurulmadı. PR #630 `origin/main` ile birleştirildi (AUDIT_LOG/BILGI_TABANI keep-both). MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter yok; Anthropic var. live_loop tmux `adops-live` var ama son pane 2026-11-03T12:42Z. Ogrenim: belge hâlâ sohbet ismi; #628 taslak byte-faithful değil. ManagePullRequest aracı bu oturumda yok — PR güncellemesi git push ile.
 
+## 2026-11-05T00:13:06Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-05T04:31:46Z] gunluk-operasyon: standup+makale üretildi; nöbet ops/cre/str; konu claude-code-agents-for-adops.
+## 2026-11-06T00:12:51Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-06T04:31:50Z] gunluk-operasyon: standup+makale üretildi; nöbet cre/str/cls; konu dco-feed-architecture.
+## 2026-11-07T00:10:38Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-07T04:31:36Z] gunluk-operasyon: standup+makale üretildi; nöbet str/cls/nbd; konu incrementality-geo-holdouts.
+## 2026-11-08T00:13:09Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-08T04:31:33Z] gunluk-operasyon: standup+makale üretildi; nöbet cls/nbd/prt; konu sa360-bid-strategy-selection.
+## 2026-11-09T00:13:03Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-09T04:31:52Z] gunluk-operasyon: standup+makale üretildi; nöbet nbd/prt/prd; konu amazon-acos-tacos-playbook.
+- [2026-11-09T06:28:05Z] liderlik-sync: tutanak toplantilar/2026-11-09-liderlik.md; açık P0=8, gelir aksiyonu=19.
+## 2026-11-10T00:11:40Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-10T04:31:27Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu agency-ai-org-design.
+
+- [2026-11-10T11:55:44Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (54230 dosya; /workspace /tmp /home/ubuntu /opt/cursor; .docx/.pdf yok). Extract yok, içerik uydurulmadı. MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter env=NO; Anthropic env=YES. live_loop tmux `adops-live` aktif, pane 2026-11-10T11:51Z VALIDATION:GECTI. OPEN PR: 621 MERGEABLE, 628 DRAFT CONFLICT, 629 DRAFT CONFLICT, 630 OPEN (bu dal; main merge keep-both), 631 MERGEABLE (yeni; #627 CLOSED supersede). Product merge 4–10 Kas: yok (yalnız daily/nightly main). Ogrenim: belge hâlâ sohbet ismi; ManagePullRequest bu oturumda yok — git push + rapor.

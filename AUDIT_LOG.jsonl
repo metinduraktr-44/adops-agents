@@ -995,5 +995,18 @@
 {"ts_start":"2026-11-04T00:12:44Z","ts_end":"2026-11-04T00:12:46Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-04T04:31:24Z", "op": "gunluk-operasyon", "onduty": ["dsc", "ops", "cre"], "outputs": ["gundem/2026-11-04-standup.md", "makaleler/2026-11-04-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start": "2026-11-04T11:34:24Z", "ts_end": "2026-11-04T11:40:00Z", "op": "continue-agency-os", "denetim": "GECTI", "file_search": "Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf hits=0", "outputs": ["docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md", "SECURITY_STATE.md"], "validation": "GECTI", "mode": "ASSESS-ONLY", "prs": [621, 627, 628, 629, 630], "chain": "prev-run-read=BILGI_TABANI.md", "learning": "re-search still 0; merge #630 with main; do not invent extract"}
-
+{"ts_start":"2026-11-05T00:13:05Z","ts_end":"2026-11-05T00:13:06Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-05T04:31:46Z", "op": "gunluk-operasyon", "onduty": ["ops", "cre", "str"], "outputs": ["gundem/2026-11-05-standup.md", "makaleler/2026-11-05-claude-code-agents-for-adops.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-11-06T00:12:49Z","ts_end":"2026-11-06T00:12:51Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-06T04:31:50Z", "op": "gunluk-operasyon", "onduty": ["cre", "str", "cls"], "outputs": ["gundem/2026-11-06-standup.md", "makaleler/2026-11-06-dco-feed-architecture.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-11-07T00:10:37Z","ts_end":"2026-11-07T00:10:38Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-07T04:31:36Z", "op": "gunluk-operasyon", "onduty": ["str", "cls", "nbd"], "outputs": ["gundem/2026-11-07-standup.md", "makaleler/2026-11-07-incrementality-geo-holdouts.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-11-08T00:13:07Z","ts_end":"2026-11-08T00:13:09Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-08T04:31:33Z", "op": "gunluk-operasyon", "onduty": ["cls", "nbd", "prt"], "outputs": ["gundem/2026-11-08-standup.md", "makaleler/2026-11-08-sa360-bid-strategy-selection.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-11-09T00:13:02Z","ts_end":"2026-11-09T00:13:03Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-09T04:31:52Z", "op": "gunluk-operasyon", "onduty": ["nbd", "prt", "prd"], "outputs": ["gundem/2026-11-09-standup.md", "makaleler/2026-11-09-amazon-acos-tacos-playbook.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts": "2026-11-09T06:28:05Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-11-09-liderlik.md"], "validation": "GECTI"}
+{"ts_start":"2026-11-10T00:11:38Z","ts_end":"2026-11-10T00:11:40Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-10T04:31:27Z", "op": "gunluk-operasyon", "onduty": ["prt", "prd", "fin"], "outputs": ["gundem/2026-11-10-standup.md", "makaleler/2026-11-10-agency-ai-org-design.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start": "2026-11-10T11:53:30Z", "ts_end": "2026-11-10T11:55:44Z", "op": "continue-agency-os", "denetim": "GECTI", "file_search": "Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf hits=0 NFC+NFD scanned_files=54230", "outputs": ["docs/OWNER-UPLOAD-CLAUDE-CODE-DOCS.md", "SECURITY_STATE.md"], "validation": "GECTI", "ethics": "GECTI", "secret_scan": "GECTI", "mode": "ASSESS-ONLY", "canva": "BRIEF-ONLY", "keys": {"OPENROUTER_API_KEY": "NO", "ANTHROPIC_API_KEY": "YES"}, "prs_open": [621, 628, 629, 630, 631], "prs_closed_unmerged": [627], "chain": "prev-run-read=BILGI_TABANI.md", "learning": "re-search 0; do not invent extract; #627 closed superseded by #631; ManagePullRequest tool absent this session"}
 

@@ -1,6 +1,6 @@
 # Owner upload — Claude Code Bilgileri ve Güvenlik Uyarıları
 
-> Damga: 2026-11-04T11:40:00Z · **No extract** — source files were not in this VM (re-search).
+> Damga: 2026-11-10T11:55:44Z · **No extract** — source files were not in this VM (re-search).
 > TR: İçerik uydurulmaz. Byte-faithful metin için owner yüklemesi şart.
 
 ## Search result (this run)
@@ -9,8 +9,8 @@ Looked for `Claude Code Bilgileri ve Güvenlik Uyarıları.docx` and `.pdf` (NFC
 
 - `/workspace`, git tree, `/tmp`, `/home/ubuntu`, `/opt/cursor`, `/mnt`, `/cursor/stores`, `~/.cursor`
 - Downloads/Desktop/attachments/uploads (paths absent)
-- files newer than `2026-11-03 09:59 UTC` with `.docx`/`.pdf`
-- Python walk NFC+NFD filename match (2026-11-04T11:34Z)
+- Python walk NFC+NFD filename match (2026-11-10T11:53Z) — `scanned_files=54230`
+- `find` for `*.docx`/`*.pdf` with claude/güvenlik/bilgileri tokens
 
 **Hits: 0.** Chat names only. Do not treat draft PR #628 as a substitute for the owner files. Extract not invented.
 
