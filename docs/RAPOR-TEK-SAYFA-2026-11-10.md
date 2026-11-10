@@ -9,7 +9,7 @@ Main cron 10 Kasım (UTC): nightly `2026-11-10T00:11Z` yeşil, günlük `04:31Z`
 
 Aylık arşiv **2026-11** okundu; research-loop continue **idempotent** `2026-11-10T11:55:24Z`. Kuyruk: **79 sourced / 2021 pending** — isim uydurma yok. Registry damga: **696 skill / 43 aile / 81 MCP**. Claude Code `.docx`/`.pdf` VM’de **yok** (`uploads/` yok) → #628 extract dokunulmadı. Security **MODE=ASSESS-ONLY**. Canva **BRIEF-ONLY**. LATOS CONTEXT/INBOX **owner boş**. Claude Code paste **İPTAL**.
 
-**#629:** `origin/main` üzerine rebase (AUDIT/BILGI kronolojik birleşim). Push öncesi GitHub `CONFLICTING`; push sonrası beklenen `CLEAN` (doğrula PR sayfası). Bu görev **merge-onayı değil**.
+**#629:** `origin/main` üzerine rebase (AUDIT/BILGI kronolojik birleşim). Push sonrası live: `mergeable=MERGEABLE` · `mergeStateStatus=UNSTABLE` (CI). Bu görev **merge-onayı değil**.
 
 Açık PR (live `gh pr list`): #631 Dependabot codeql 4.39.3 MERGEABLE; #630 CONFLICTING; #629 draft; #628 draft CONFLICTING; #621 MERGEABLE. **#627 kapalı** (4.39.1 → 4.39.3 ile yer değişti).
 
@@ -33,7 +33,7 @@ Her satırın içinde: **yönlendirme** · **URL** · **kısa not**.
 | İş | Yön + URL + not |
 |---|---|
 | **#628 draft** | **Yön:** PR Files + Conversation; Auto-run/YOLO kapalı; merge **şimdi yok** (CONFLICTING). **URL:** https://github.com/metinduraktr-44/adops-agents/pull/628 **Not:** `.docx`/`.pdf` extract owner yüklemesi bekler. Validate yeşil (eski). |
-| **#629 draft** | **Yön:** Bu rapor+rebase+loop incele; merge yok (bu mesaj onay değil). Push sonrası conflict durumunu PR’da doğrula. **URL:** https://github.com/metinduraktr-44/adops-agents/pull/629 **Not:** K-003 pending kuyruk; 900B yok. Rebase `origin/main`. |
+| **#629 draft** | **Yön:** Bu rapor+rebase+loop incele; merge yok (bu mesaj onay değil). **URL:** https://github.com/metinduraktr-44/adops-agents/pull/629 **Not:** K-003 pending kuyruk; 900B yok. Rebase `origin/main`. Live MERGEABLE / UNSTABLE (CI). |
 | **#630 open** | **Yön:** SEC-T003 lock + upload talimatı + ethics FP; merge sende. **URL:** https://github.com/metinduraktr-44/adops-agents/pull/630 **Not:** ASSESS-ONLY. CONFLICTING. Validate yeşil. |
 | **MODE=IMPLEMENT** | **Yön:** Flip **yapma** ta ki gap/risk/SoA uzman + yazılı kriter. Komut: `/sec-gap-analizi` (ASSESS). **URL:** `SECURITY_STATE.md` **Not:** Live remediate yasak. |
 | **Unverified uzman** | **Yön:** LATOS/Security expert `pending_research` / sourced-URL; yayın = sen. **URL:** `LATOS_STATE.md` Human approval gates · `data/title_top100_queues.json` **Not:** İsim uydurma = K-003. |
@@ -97,7 +97,7 @@ Live: `gh pr list --state open` 2026-11-10T11:53Z.
 |---|---|---|---|
 | **631** | OPEN · MERGEABLE | build(deps): codeql-action 4.37.9 → 4.39.3 | https://github.com/metinduraktr-44/adops-agents/pull/631 |
 | **630** | OPEN · CONFLICTING | Continue agency OS: SEC-T003 lock, owner upload docs, ethics FP | https://github.com/metinduraktr-44/adops-agents/pull/630 |
-| **629** | **DRAFT** · rebase bu koşu | Research loop continue (archive-first, pending top-100) | https://github.com/metinduraktr-44/adops-agents/pull/629 |
+| **629** | **DRAFT** · MERGEABLE (UNSTABLE/CI) | Research loop continue (archive-first, pending top-100) | https://github.com/metinduraktr-44/adops-agents/pull/629 |
 | **628** | **DRAFT** · CONFLICTING | Claude Code güvenlik uyarıları — Cursor eşdeğerleri | https://github.com/metinduraktr-44/adops-agents/pull/628 |
 | **621** | OPEN · MERGEABLE | build(deps): actions/setup-python 5 → 7 | https://github.com/metinduraktr-44/adops-agents/pull/621 |
 
@@ -114,7 +114,7 @@ Merge **yok**. CI yeşil ≠ merge onayı.
 - 🚩 `holding-arastirma` 2026-11-10 **failure** — şema drift; bu dalda fix yok
 - 🚩 F5 kapı 2026-09-30 geçti; gelir checkbox açık
 - 🚩 Unverified uzman yayınlama = human gate
-- 🚩 #628/#630 hâlâ CONFLICTING vs main; #629 rebase+lease push
+- 🚩 #628/#630 hâlâ CONFLICTING vs main; #629 rebase+lease → MERGEABLE (CI UNSTABLE)
 - 🚩 `.docx`/`.pdf` uploads yok → #628 extract duruyor
 - ✅ paste Claude Code **İPTAL** · research-loop 2026-11-10 GECTI · kuyruk 79/2021
 
