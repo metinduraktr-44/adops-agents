@@ -1010,3 +1010,4 @@
 {"ts": "2026-11-11T04:31:33Z", "op": "gunluk-operasyon", "onduty": ["prd", "fin", "leg"], "outputs": ["gundem/2026-11-11-standup.md", "makaleler/2026-11-11-programmatic-supply-path-2026.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-11-12T00:12:44Z","ts_end":"2026-11-12T00:12:46Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-12T04:31:32Z", "op": "gunluk-operasyon", "onduty": ["fin", "leg", "tal"], "outputs": ["gundem/2026-11-12-standup.md", "makaleler/2026-11-12-skan-vs-sandbox-attribution.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
+{"ts_start":"2026-11-13T00:12:23Z","ts_end":"2026-11-13T00:12:25Z","islem":"nightly","denetim":"RUN"}
