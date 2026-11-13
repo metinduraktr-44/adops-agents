@@ -1574,3 +1574,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-12T04:31:32Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu skan-vs-sandbox-attribution.
 ## 2026-11-13T00:12:25Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-13T04:31:28Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu pmax-transparency-levers.
