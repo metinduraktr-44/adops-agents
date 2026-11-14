@@ -1578,3 +1578,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-13T04:31:28Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu pmax-transparency-levers.
 ## 2026-11-14T00:12:21Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-14T04:31:06Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
