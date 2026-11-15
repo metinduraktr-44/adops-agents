@@ -1569,5 +1569,26 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-10T04:31:27Z] gunluk-operasyon: standup+makale üretildi; nöbet prt/prd/fin; konu agency-ai-org-design.
-
 - [2026-11-10T11:55:44Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (54230 dosya; /workspace /tmp /home/ubuntu /opt/cursor; .docx/.pdf yok). Extract yok, içerik uydurulmadı. MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter env=NO; Anthropic env=YES. live_loop tmux `adops-live` aktif, pane 2026-11-10T11:51Z VALIDATION:GECTI. OPEN PR: 621 MERGEABLE, 628 DRAFT CONFLICT, 629 DRAFT CONFLICT, 630 OPEN (bu dal; main merge keep-both), 631 MERGEABLE (yeni; #627 CLOSED supersede). Product merge 4–10 Kas: yok (yalnız daily/nightly main). Ogrenim: belge hâlâ sohbet ismi; ManagePullRequest bu oturumda yok — git push + rapor.
+## 2026-11-11T00:12:38Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-11T04:31:33Z] gunluk-operasyon: standup+makale üretildi; nöbet prd/fin/leg; konu programmatic-supply-path-2026.
+## 2026-11-12T00:12:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-12T04:31:32Z] gunluk-operasyon: standup+makale üretildi; nöbet fin/leg/tal; konu skan-vs-sandbox-attribution.
+## 2026-11-13T00:12:25Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-13T04:31:28Z] gunluk-operasyon: standup+makale üretildi; nöbet leg/tal/inf; konu pmax-transparency-levers.
+## 2026-11-14T00:12:21Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-14T04:31:06Z] gunluk-operasyon: standup+makale üretildi; nöbet tal/inf/prg; konu ctv-buying-checklist.
+## 2026-11-15T00:12:48Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-15T04:31:10Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu capi-signal-health.
+- [2026-11-15T09:50:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (42252 dosya; .docx/.pdf=0). Extract yok. MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter env=NO; Anthropic env=YES. live_loop tmux `adops-live` PID canlı, son pane tick #88 2026-11-11T12:12Z (sleep 300; VM resume). OPEN PR aynı set: 621 MERGEABLE, 628 DRAFT CONFLICT, 629 DRAFT CONFLICT, 630 CONFLICT→main merge keep-both, 631 MERGEABLE. #627 CLOSED unmerged (9 Kas). Product merge 10–15 Kas: yok (yalnız daily/nightly). Ogrenim: belge hâlâ sohbet ismi; ManagePullRequest yok — git push + rapor; PR #630 gövdesi dokunulmadı.
+
