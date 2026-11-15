@@ -7,18 +7,15 @@ if [[ -z "$CMD" && ! -t 0 ]]; then
 fi
 PATTERNS=(
   'rm[[:space:]]+-rf[[:space:]]+/'
-  'curl[^
-]*\|[[:space:]]*bash'
-  'curl[^
-]*\|[[:space:]]*sh'
-  'wget[^
-]*\|[[:space:]]*bash'
-  'wget[^
-]*\|[[:space:]]*sh'
-  'base64[[:space:]]+-d[^
-]*\|[[:space:]]*sh'
+  'curl[^|]*\|[[:space:]]*bash'
+  'curl[^|]*\|[[:space:]]*sh'
+  'wget[^|]*\|[[:space:]]*bash'
+  'wget[^|]*\|[[:space:]]*sh'
+  'base64[[:space:]]+-d[^|]*\|[[:space:]]*sh'
   'mkfs\.'
-  ':(){:|:&};:'
+  ':()\{:|:\&\};:'
+  'dangerously-skip-permissions'
+  'chmod[[:space:]]+-R[[:space:]]+777[[:space:]]+/'
 )
 for pat in "${PATTERNS[@]}"; do
   if echo "$CMD" | grep -Eiq "$pat"; then
