@@ -45,3 +45,4 @@
 - 2026-11-04 owner `.docx`/`.pdf` re-search **0 hits**; MODE unchanged (ASSESS-ONLY)
 - 2026-11-10 owner `.docx`/`.pdf` re-search **0 hits** (54230 files, NFC/NFD); MODE unchanged (ASSESS-ONLY)
 - 2026-11-15 owner `.docx`/`.pdf` re-search **0 hits** (42252 files, NFC/NFD; no .docx/.pdf on disk); MODE unchanged (ASSESS-ONLY)
+- 2026-11-15T10:00Z owner-approved merge of #630+#621+#631 onto `main` `1b5d9ac`; owner `.docx`/`.pdf` re-search **0 hits** (42268 files, NFC/NFD; docx_pdf=0); MODE unchanged (ASSESS-ONLY)
