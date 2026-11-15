@@ -1601,3 +1601,8 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-10T11:55:24Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 
 - [2026-11-10T11:56:19Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-10.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: AUDIT/BILGI conflict = kronolojik splice (incoming mid-day after same-day cron); ManagePullRequest MCP yok.
+
+- [2026-11-15T09:46:56Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-15T09:46:56Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-15T09:47:41Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-15.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: CONFLICTING sonrası rebase AUDIT/BILGI kronolojik splice; ManagePullRequest MCP yok → PR body dokunma.
