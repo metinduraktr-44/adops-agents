@@ -1606,3 +1606,8 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-15T09:46:56Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 
 - [2026-11-15T09:47:41Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-15.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: CONFLICTING sonrası rebase AUDIT/BILGI kronolojik splice; ManagePullRequest MCP yok → PR body dokunma.
+
+- [2026-11-15T10:02:13Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-15T10:02:13Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-15T10:03:20Z] owner-onayliyorum-merge-continue: MERGED #630+#631+#621; #629 rebase+continue pack (holding_research v2.10 fix, SKILLS_TALENT~100, LATOS_HIERARCHY, PROMPTS INDEX stubs, CALENDAR 2026-11); rapor tek sayfa refresh; Exa needsAuth → sourced delta yok; #628 rebase sırada. validate/secret/ethics GECTI. Öğrenim: K-003 900M=INDEX stubs; merge dirty PR'ları rebase+lease.

@@ -22,14 +22,39 @@ TOP = 5
 H = json.load(open(os.path.join(ROOT, "data", "holding.json"), encoding="utf-8"))
 
 
+def country_codes():
+    """holding.json v2.10: countries is a list of {code,name,...} (not countries.hedef)."""
+    c = H.get("countries")
+    if isinstance(c, dict):
+        return c.get("hedef") or c.get("target") or [k for k in c.keys() if k != "hedef"]
+    if isinstance(c, list):
+        out = []
+        for x in c:
+            if isinstance(x, dict):
+                out.append(x.get("code") or x.get("name") or str(x))
+            else:
+                out.append(str(x))
+        return out
+    return []
+
+
 def all_units():
+    """v2.10: root IS holding (no nested H['holding']); OpCo roles often via ladder→org.json."""
     units = []
-    hold = H["holding"]
-    for r in hold["c_level"]:
-        units.append((hold["slug"], hold["name"], r["slug"], r["title"]))
-    for sub in H["subsidiaries"]:
-        for r in sub["roles"]:
-            units.append((sub["slug"], sub["name"], r["slug"], r["title"]))
+    hold_slug = H.get("slug") or "holdco"
+    hold_name = H.get("name") or H.get("name_tr") or "HoldCo"
+    for r in H.get("c_level", []):
+        units.append((hold_slug, hold_name, r["slug"], r["title"]))
+    for sub in H.get("subsidiaries", []):
+        sub_slug = sub.get("id") or sub.get("slug") or "opco"
+        sub_name = sub.get("name") or sub_slug
+        roles = sub.get("roles") or []
+        if roles:
+            for r in roles:
+                units.append((sub_slug, sub_name, r["slug"], r.get("title") or r["slug"]))
+        else:
+            # No inline roles — one OpCo lead stub (org.json has the 600 ladder)
+            units.append((sub_slug, sub_name, f"{sub_slug}-lead", f"{sub_name} Lead"))
     return units
 
 
@@ -41,7 +66,7 @@ def bootstrap():
         titles[role_slug] = {"istirak": sub_name, "title": role_title,
                              "hedef": TOP, "kisiler": [], "durum": f"arastirilacak(0/{TOP})"}
     reg = {"schema": "1", "guncelleme_utc": TS, "hedef_per_title": TOP,
-           "ulkeler": H["countries"]["hedef"],
+           "ulkeler": country_codes(),
            "not": "Her iştirak+ülke için title başına dünya top-5. Gece worklow ile büyür. Uydurma yok; URL'li.",
            "titles": titles}
     os.makedirs(os.path.dirname(REG), exist_ok=True)
@@ -68,7 +93,7 @@ def main():
     has_llm = prov is not None
 
     units = all_units()
-    ulkeler = H["countries"]["hedef"]
+    ulkeler = country_codes()
     # deterministik gece rotasyonu: bugün 3 title × 2 ülke odak
     focus = [units[(DOY * 3 + i) % len(units)] for i in range(3)]
     focus_ulke = [ulkeler[(DOY + i) % len(ulkeler)] for i in range(2)]
