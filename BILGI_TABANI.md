@@ -1611,3 +1611,4 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-15T10:02:13Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 
 - [2026-11-15T10:03:20Z] owner-onayliyorum-merge-continue: MERGED #630+#631+#621; #629 rebase+continue pack (holding_research v2.10 fix, SKILLS_TALENT~100, LATOS_HIERARCHY, PROMPTS INDEX stubs, CALENDAR 2026-11); rapor tek sayfa refresh; Exa needsAuth → sourced delta yok; #628 rebase sırada. validate/secret/ethics GECTI. Öğrenim: K-003 900M=INDEX stubs; merge dirty PR'ları rebase+lease.
+- [2026-11-15T10:06:50Z] post-merge-rapor: #630+#621+#631+#629+#628 MERGED; açık PR yok; RAPOR-TEK-SAYFA-2026-11-15 main refresh; validate GECTI. Öğrenim: dirty PR = rebase+lease sonra merge; K-003 900M=INDEX stubs.
