@@ -1,6 +1,6 @@
 # TALENT_TAXONOMY — ~100 skills scaffold
 
-> Damga: 2026-11-15T10:02:04Z · skill clusters only · **no invented people** (K-003)
+> Damga: 2026-11-15T11:07:36Z · skill clusters only · **no invented people** (K-003)
 > Expand via `/latos-yetenek-guncelle` · L1–L5 levels TBD per title
 
 | # | category | cluster | skill | level |

@@ -1,34 +1,32 @@
 # LATOS_STATE — Phase Tracker
 
-> Damga: 2026-08-27T20:16:49Z · preferred state file for LATOS GIGA pack
+> Damga: 2026-11-15T11:07:36Z · preferred state file for LATOS GIGA pack
+> prev: 2026-08-27 scaffold · light continue 2026-11-15C (no fake people)
 
 ## Current phase
-**Faz 0–1 scaffold complete** — Bootstrap + Ingestion + Title inventory seed.
+**Faz 0–1 scaffold + light continue** — Bootstrap + inventory + prompt INDEX stubs + talent taxonomy + monthly calendar stamp.
 
 ## Metrics
 | Metric | Value |
 |---|---|
-| Titles (org.json) | 600 |
+| Titles (org.json / inventory) | 600 (ROSTER intact) |
 | Git-deleted candidates | 0 |
 | Sample job cards | 6 |
-| Expert policy | pending_research only |
-| Prompt target | 122/title (scaffold) |
-| Forecast target | 200/day/title (workflow) |
+| Expert policy | pending_research only (79 sourced / 2021 pending) |
+| Prompt target | 122/title — INDEX stubs only (6 sample titles) |
+| Forecast target | 200/day/title (workflow; not one-pass) |
+| Skills talent clusters | ~100 taxonomy scaffold |
+| Skill agency registry | 696 / 43 / 81 |
 
 ## Active escalations
-- None
+- None (CONTEXT/INBOX empty — no mass job-card expansion)
 
 ## Next step
-`/latos-devam` → expand job cards batch; run `--git-scan` for deleted titles.
+Owner fills `CONTEXT/CONTEXT_BRIEF.md` → `/latos-devam` expand job cards batch; Exa Authorize → ≤5 sourced deltas/discipline.
 
 ## Coexistence
 | Pack | State file |
 |---|---|
 | LATOS GIGA | `LATOS_STATE.md` (this file) |
-| Security GIGA | `SECURITY_STATE.md` |
-| Creative Canva | branch-specific |
-
-## Human approval gates
-- git restore deleted files
-- publish verified expert lists
-- flip Security MODE to IMPLEMENT
+| Security GIGA | `SECURITY_STATE.md` (ASSESS-ONLY) |
+| Creative Canva | `STATE.md` (BRIEF-ONLY) |
