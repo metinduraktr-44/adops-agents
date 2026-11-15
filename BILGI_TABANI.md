@@ -1536,14 +1536,18 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-11-03T04:31:32Z] gunluk-operasyon: standup+makale üretildi; nöbet ana/dsc/ops; konu creative-fatigue-signals.
 
+- [2026-11-03T11:45:23Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-03T11:45:23Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 - [2026-11-03T11:50:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` VM’de yok (NFC/NFD tarama 0 hit) — extract yok, içerik uydurulmadı. SEC-T003 unlock checklist yazıldı (`TASKS/SEC-T003.md`); MODE=ASSESS-ONLY kaldı. Creative master-plan iskele tikleri dosya gerçeğine çekildi; CONTEXT_BRIEF boş. `/etik-denetim` ethics false-positive (weaponization) defense-only satırla düzeltildi. LLM smoke: Anthropic PONG (OpenRouter yok). Ogrenim: isim-yalnız sohbet ≠ dosya; byte-faithful için owner upload şart. PR #628 taslak resmi Anthropic özeti — owner dosyasının yerine geçmez.
+- [2026-11-03T11:46:30Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-03.md; owner yapacaklar/onaylayacaklar + adam-saat band (0.5–16); merge yok. Öğrenim: aynı branch’te ikinci ajan varsa yalnız rapor path’i commit; AUDIT tek satır.
 ## 2026-11-04T00:12:46Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-04T04:31:24Z] gunluk-operasyon: standup+makale üretildi; nöbet dsc/ops/cre; konu consent-mode-v2-pitfalls.
-
 - [2026-11-04T11:40:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` yeniden tarandı (NFC/NFD, /workspace+/tmp+/home/ubuntu+/opt/cursor) — **0 hit**, extract yok, içerik uydurulmadı. PR #630 `origin/main` ile birleştirildi (AUDIT_LOG/BILGI_TABANI keep-both). MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter yok; Anthropic var. live_loop tmux `adops-live` var ama son pane 2026-11-03T12:42Z. Ogrenim: belge hâlâ sohbet ismi; #628 taslak byte-faithful değil. ManagePullRequest aracı bu oturumda yok — PR güncellemesi git push ile.
-
+- [2026-11-04T11:35:21Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-04T11:35:21Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+- [2026-11-04T11:37:00Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-04.md; owner yapacaklar (yön+URL+not) + onaylar; adam-saat 0.5–16; merge yok; holding-arastirma KeyError not edildi. Öğrenim: uploads yoksa #628 extract’e dokunma; ManagePullRequest MCP yoksa git push PR’ı günceller.
 ## 2026-11-05T00:13:06Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
@@ -1592,3 +1596,18 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-15T04:31:10Z] gunluk-operasyon: standup+makale üretildi; nöbet inf/prg/sea; konu capi-signal-health.
 - [2026-11-15T09:50:00Z] continue-pass: owner `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (42252 dosya; .docx/.pdf=0). Extract yok. MODE=ASSESS-ONLY (flip yok). Canva=BRIEF-ONLY. OpenRouter env=NO; Anthropic env=YES. live_loop tmux `adops-live` PID canlı, son pane tick #88 2026-11-11T12:12Z (sleep 300; VM resume). OPEN PR aynı set: 621 MERGEABLE, 628 DRAFT CONFLICT, 629 DRAFT CONFLICT, 630 CONFLICT→main merge keep-both, 631 MERGEABLE. #627 CLOSED unmerged (9 Kas). Product merge 10–15 Kas: yok (yalnız daily/nightly). Ogrenim: belge hâlâ sohbet ismi; ManagePullRequest yok — git push + rapor; PR #630 gövdesi dokunulmadı.
 
+
+- [2026-11-10T11:55:24Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-10T11:55:24Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-10T11:56:19Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-10.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: AUDIT/BILGI conflict = kronolojik splice (incoming mid-day after same-day cron); ManagePullRequest MCP yok.
+
+- [2026-11-15T09:46:56Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-15T09:46:56Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-15T09:47:41Z] tek-sayfa-rapor: docs/RAPOR-TEK-SAYFA-2026-11-15.md; #629 origin/main rebase + lease push; owner yapacaklar (yön+URL+not); adam-saat 0.5–16; merge yok; holding-arastirma KeyError not (fix bu dalda yok). Öğrenim: CONFLICTING sonrası rebase AUDIT/BILGI kronolojik splice; ManagePullRequest MCP yok → PR body dokunma.
+
+- [2026-11-15T10:02:13Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-15T10:02:13Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-15T10:03:20Z] owner-onayliyorum-merge-continue: MERGED #630+#631+#621; #629 rebase+continue pack (holding_research v2.10 fix, SKILLS_TALENT~100, LATOS_HIERARCHY, PROMPTS INDEX stubs, CALENDAR 2026-11); rapor tek sayfa refresh; Exa needsAuth → sourced delta yok; #628 rebase sırada. validate/secret/ethics GECTI. Öğrenim: K-003 900M=INDEX stubs; merge dirty PR'ları rebase+lease.

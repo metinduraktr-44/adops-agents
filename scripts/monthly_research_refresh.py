@@ -104,8 +104,21 @@ def main() -> int:
             f"900B karakter talebi şablon+runtime expand ile karşılanır.\n"
         )
 
+    # Mid-cycle stamps: title_top100 pending-only + skill registry (no live skill invoke)
+    cont = subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "research_loop_continue.py"), "--month", YM],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if cont.returncode != 0:
+        print(cont.stdout)
+        print(cont.stderr, file=sys.stderr)
+        return cont.returncode
+
     print("WROTE aylik-arastirma", YM, prior_note)
     print(r.stdout.strip())
+    print(cont.stdout.strip())
     return 0
 
 
