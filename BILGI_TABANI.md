@@ -1617,3 +1617,6 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - [2026-11-15T11:07:16Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
 
 - [2026-11-15T11:08:00Z] 15C-pass: Vercel NOT linked (`.vercel/project.json` yok; CLI yok; MCP needsAuth) → Doctor STOP, gh fallback yok. Skill dump → `build_skill_agency_registry` + `ORG/SKILL_MATRIX.md` family map; research_loop_continue 79/2021. Açık PR []. Merged set aynı (#630/#621/#631/#629/#628). purchase_domain/PDF-sign/Windsor-auth/900M/top-100-invent 🚩. LATOS light stamp. Rapor: `docs/RAPOR-TEK-SAYFA-2026-11-15C.md`. Öğrenim: /status sadece Vercel link; ManagePullRequest bu oturumda yok → push + rapor.
+
+## 2026-11-16T00:15:01Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
