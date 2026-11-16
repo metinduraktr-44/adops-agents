@@ -1,6 +1,6 @@
 # CALENDAR/2026-11 — Expert/Talent monthly loop
 
-> Damga: 2026-11-15T11:07:36Z · READ→DELTA→DIFF→WRITE→DIGEST · 15C refresh
+> Damga: 2026-11-16T13:12:25Z · READ→DELTA→DIFF→WRITE→DIGEST · 16 refresh
 
 | Field | Value |
 |---|---|

@@ -1,6 +1,6 @@
 # PROMPTS/TITLES/cmo-brand — 122-slot INDEX
 
-> Damga: 2026-11-15T11:07:36Z · **index stubs only** · bodies via prompt_bank + mega expander
+> Damga: 2026-11-16T13:12:25Z · **index stubs only** · bodies via prompt_bank + mega expander
 > 🚩 Literal 900.000.000 karakter / slot = IMPOSSIBLE (K-003)
 
 | id | status | source |

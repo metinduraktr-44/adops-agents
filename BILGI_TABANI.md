@@ -1623,3 +1623,9 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 
 - [2026-11-16T04:38:42Z] gunluk-operasyon: standup+makale üretildi; nöbet prg/sea/soc; konu retail-media-tr-landscape.
 - [2026-11-16T06:33:30Z] liderlik-sync: tutanak toplantilar/2026-11-16-liderlik.md; açık P0=8, gelir aksiyonu=19.
+- [2026-11-16T13:12:25Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-16T13:12:25Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+- [2026-11-16T13:12:25Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-16T13:12:25Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry.
+- [2026-11-16T13:13:00Z] 16-pass: Açık PR []; #632 zaten MERGED. LATOS light: ORG C→worker pointer, SKILLS_TALENT 100 ensure, PROMPTS 6×122 INDEX stamp, CALENDAR 2026-11. Rapor: `docs/RAPOR-TEK-SAYFA-2026-11-16.md`. 🚩 all-skills live / 900M / top-100 invent / purchase_domain. ASSESS-ONLY · BRIEF-ONLY. ManagePullRequest yok → gh pr create. Öğrenim: Onaylıyorum merge = yeşil+MERGEABLE only; boş open list = merge N/A.
