@@ -19,7 +19,7 @@
 | **org.json** | **total 600** (10 C-level + 20 dept) |
 | **Belge** | `Claude Code Bilgileri ve Güvenlik Uyarıları.docx/.pdf` NFC/NFD tarama **0 hit** (`scanned_files=47191`, `docx_pdf_count=0`) — extract **uydurulmadı** |
 | **Vercel** | `.vercel/project.json` **yok** — `/status` Doctor yok; domain satın alma **🚩 refuse** |
-| **PRs** | `gh pr list --state open` → **`[]`** — **merge kuyruğu boş** |
+| **PRs** | İlk tarama **`[]`** (merge kuyruğu boş). Push sonrası **#633 DRAFT** → kural: **atlanır** (draft/conflict/fake-research merge yok) |
 | **research_loop** | **atlanıldı** — Anthropic env=yes (ücretli yayılma) + uydurma top-100 yok; kuyruk duruyor **79 sourced / 2021 pending** (`data/title_top100_queues.json` `2026-11-15T11:07:16Z`) |
 | **Bugün main cron** | nightly `2737738` · holding-arastirma `2268880` · daily-ops `219e05f` · liderlik-sync `64e2f3d` |
 
@@ -52,9 +52,10 @@
 
 ### Onaylayacakların
 
-Açık PR **yok** (`[]`). Onay bekleyen merge kuyruğu boş.
+İlk pass merge kuyruğu **boştu**. Sonra **#633** açıldı — **DRAFT**, merge **yok**.
 
-- [ ] Bu dalın PR’ı (açılırsa) — `cursor/tek-sayfa-rapor-16-c8d4` · yeşil `validate` sonrası
+- [ ] **#633** DRAFT — https://github.com/metinduraktr-44/adops-agents/pull/633 · `cursor/tek-sayfa-rapor-16-4516` · ajan birleştirmez; gövde dokunulmaz
+- [ ] Bu dal (PR yok) — `cursor/tek-sayfa-rapor-16-c8d4` · https://github.com/metinduraktr-44/adops-agents/tree/cursor/tek-sayfa-rapor-16-c8d4 · ManagePullRequest yok; `gh` read-only
 - [ ] **MODE=IMPLEMENT** — henüz **hayır** · `SECURITY_STATE.md`
 - [ ] **CANVA:ON** — OAuth yok
 - [ ] **Unverified uzman publish** — `data/title_top100_queues.json` · K-003
