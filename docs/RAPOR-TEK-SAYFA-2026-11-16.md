@@ -89,7 +89,7 @@ Band **0.5 / 1 / 2 / 4 / 8 / 16** (gün/hafta yok).
 | Durum | Liste |
 |---|---|
 | Başlangıç | `[]` (hiç açık yok) |
-| Bitiş | Bu dal PR açılacak → yeşil CI sonrası merge |
+| Bitiş | Dal push OK · `gh`/ManagePullRequest **403/yok** → owner aç: https://github.com/metinduraktr-44/adops-agents/pull/new/cursor/tek-sayfa-rapor-16-4516 |
 
 ## 7) 🚩 K-003 / all-skills refuse
 - 🚩 **all-skills live** — family mini-agency + stamp only (`data/skill_agency_registry.json` · `docs/SKILL-AGENCY-REGISTRY.md`)
