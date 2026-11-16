@@ -1,68 +1,8 @@
 {
-  "ts": "2026-11-15T11:07:36Z",
-  "skills": 696,
-  "families": 43,
-  "mcps": 81,
-  "top_families": [
-    [
-      "product-analytics",
-      108
-    ],
-    [
-      "comms-twilio",
-      56
-    ],
-    [
-      "db-relational",
-      48
-    ],
-    [
-      "obs-elastic",
-      35
-    ],
-    [
-      "data-pipeline",
-      33
-    ],
-    [
-      "web-vercel",
-      31
-    ],
-    [
-      "cloud-azure",
-      31
-    ],
-    [
-      "db-cockroach",
-      30
-    ],
-    [
-      "cicd-harness",
-      27
-    ],
-    [
-      "web-intel",
-      24
-    ],
-    [
-      "auth-identity",
-      22
-    ],
-    [
-      "backend-encore",
-      21
-    ],
-    [
-      "cloud-render",
-      21
-    ],
-    [
-      "ml-hf",
-      18
-    ],
-    [
-      "cursor-meta",
-      17
-    ]
-  ]
+  "ts": "2026-11-16T13:12:26Z",
+  "skill_count": 696,
+  "family_count": 43,
+  "mcp_count": 81,
+  "policy": "K-003: route & operate; do not invent top-100 people; do not pad prompts; auth-gated MCPs 🚩 until connected",
+  "op": "2026-11-16-refresh"
 }

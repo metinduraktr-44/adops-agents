@@ -1,10 +1,10 @@
 # LATOS_STATE — Phase Tracker
 
-> Damga: 2026-11-15T11:07:36Z · preferred state file for LATOS GIGA pack
-> prev: 2026-08-27 scaffold · light continue 2026-11-15C (no fake people)
+> Damga: 2026-11-16T13:12:25Z · preferred state file for LATOS GIGA pack
+> prev: 2026-11-15C light continue · 16 refresh (archive-first + tek-sayfa)
 
 ## Current phase
-**Faz 0–1 scaffold + light continue** — Bootstrap + inventory + prompt INDEX stubs + talent taxonomy + monthly calendar stamp.
+**Faz 0–1 scaffold + light continue** — Bootstrap + inventory + prompt INDEX stubs + talent taxonomy + monthly calendar stamp + C→worker pointer.
 
 ## Metrics
 | Metric | Value |
@@ -15,7 +15,7 @@
 | Expert policy | pending_research only (79 sourced / 2021 pending) |
 | Prompt target | 122/title — INDEX stubs only (6 sample titles) |
 | Forecast target | 200/day/title (workflow; not one-pass) |
-| Skills talent clusters | ~100 taxonomy scaffold |
+| Skills talent clusters | ~100 taxonomy scaffold (ensured) |
 | Skill agency registry | 696 / 43 / 81 |
 
 ## Active escalations

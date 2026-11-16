@@ -6,6 +6,9 @@ gerçek kadro/isim eklerse burada güncellenir. **Kişi/isim uydurulmaz.**
 Roles below are functional titles (not real individuals). Do not attach real names
 unless the owner supplies them.
 
+> **C → Worker pointer (LATOS):** Full 600-title ladder lives in `ORG/LATOS_HIERARCHY.md`
+> (org.json). This file = creative-agency HAND chart only. Damga: 2026-11-16T13:12:25Z.
+
 ## C-Suite / Leadership
 1. Chief Executive Officer (CEO)
 2. Chief Creative Officer (CCO)

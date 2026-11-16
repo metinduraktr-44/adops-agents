@@ -1,6 +1,6 @@
 # TITLE_TO_TALENT_MAP
 
-> Damga: 2026-11-15T10:02:04Z · stub · sample titles only · full 600 via `/latos-yetenek-guncelle`
+> Damga: 2026-11-16T13:12:25Z · stub · sample titles only · full 600 via `/latos-yetenek-guncelle`
 
 | title_slug | talent_clusters (3–5) | status |
 |---|---|---|

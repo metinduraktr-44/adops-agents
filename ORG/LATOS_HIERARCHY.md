@@ -1,7 +1,8 @@
 # LATOS_HIERARCHY — C → Worker (org.json)
 
-> Damga: 2026-11-15T10:02:04Z · source: `data/org.json` total=600 · **titles are roles, not people**
+> Damga: 2026-11-16T13:12:25Z · source: `data/org.json` total=600 · **titles are roles, not people**
 > Creative agency chart remains in `ORG/ORG_CHART.md` (HAND coexistence).
+> Pointer: ORG_CHART → this file for C→EVP→Director→Lead→Specialist→Analyst.
 
 ## C-level
 
