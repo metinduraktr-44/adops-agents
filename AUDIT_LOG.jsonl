@@ -1050,3 +1050,4 @@
 {"ts": "2026-11-17T01:01:53Z", "op": "holding-arastirma", "day": "2026-11-17", "focus": ["holdco-coo", "holdco-cfo", "holdco-clo"], "ulke": ["US", "AE"], "outputs": ["arsiv/holding/2026-11-17.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-16.md"}
 {"ts": "2026-11-17T04:31:22Z", "op": "gunluk-operasyon", "onduty": ["sea", "soc", "mob"], "outputs": ["gundem/2026-11-17-standup.md", "makaleler/2026-11-17-mmm-lite-for-smb.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-11-18T00:12:41Z","ts_end":"2026-11-18T00:12:43Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-18T01:01:51Z", "op": "holding-arastirma", "day": "2026-11-18", "focus": ["holdco-cto", "holdco-cdo", "adops-agents-lead"], "ulke": ["AE", "NL"], "outputs": ["arsiv/holding/2026-11-18.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-17.md"}
