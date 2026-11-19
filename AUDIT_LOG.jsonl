@@ -1054,3 +1054,4 @@
 {"ts": "2026-11-18T04:31:15Z", "op": "gunluk-operasyon", "onduty": ["soc", "mob", "ret"], "outputs": ["gundem/2026-11-18-standup.md", "makaleler/2026-11-18-creative-fatigue-signals.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-11-19T00:12:34Z","ts_end":"2026-11-19T00:12:36Z","islem":"nightly","denetim":"RUN"}
 {"ts": "2026-11-19T01:02:04Z", "op": "holding-arastirma", "day": "2026-11-19", "focus": ["permergrowth-lead", "vizatrack-lead", "movea-lead"], "ulke": ["NL", "TR"], "outputs": ["arsiv/holding/2026-11-19.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-18.md"}
+{"ts": "2026-11-19T04:31:15Z", "op": "gunluk-operasyon", "onduty": ["mob", "ret", "seo"], "outputs": ["gundem/2026-11-19-standup.md", "makaleler/2026-11-19-consent-mode-v2-pitfalls.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
