@@ -1059,3 +1059,4 @@
 {"ts": "2026-11-20T01:01:54Z", "op": "holding-arastirma", "day": "2026-11-20", "focus": ["cigkoftem-lead", "hukuk-lead", "platform-shared-lead"], "ulke": ["TR", "DE"], "outputs": ["arsiv/holding/2026-11-20.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-19.md"}
 {"ts": "2026-11-20T04:31:13Z", "op": "gunluk-operasyon", "onduty": ["ret", "seo", "cro"], "outputs": ["gundem/2026-11-20-standup.md", "makaleler/2026-11-20-claude-code-agents-for-adops.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts_start":"2026-11-21T00:12:38Z","ts_end":"2026-11-21T00:12:39Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-21T01:01:58Z", "op": "holding-arastirma", "day": "2026-11-21", "focus": ["holdco-ceo", "holdco-coo", "holdco-cfo"], "ulke": ["DE", "GB"], "outputs": ["arsiv/holding/2026-11-21.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-20.md"}
