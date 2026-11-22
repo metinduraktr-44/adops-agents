@@ -1643,3 +1643,5 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-21T04:31:37Z] gunluk-operasyon: standup+makale üretildi; nöbet seo/cro/ana; konu dco-feed-architecture.
+## 2026-11-22T00:12:51Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
