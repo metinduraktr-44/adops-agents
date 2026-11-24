@@ -1069,3 +1069,4 @@
 {"ts": "2026-11-23T04:33:48Z", "op": "gunluk-operasyon", "onduty": ["ana", "dsc", "ops"], "outputs": ["gundem/2026-11-23-standup.md", "makaleler/2026-11-23-sa360-bid-strategy-selection.md", "IS_LISTESI.md"], "validation": "GECTI", "chain": "prev-run-read=BILGI_TABANI.md"}
 {"ts": "2026-11-23T06:29:27Z", "op": "liderlik-sync", "outputs": ["toplantilar/2026-11-23-liderlik.md"], "validation": "GECTI"}
 {"ts_start":"2026-11-24T00:11:29Z","ts_end":"2026-11-24T00:11:31Z","islem":"nightly","denetim":"RUN"}
+{"ts": "2026-11-24T01:01:46Z", "op": "holding-arastirma", "day": "2026-11-24", "focus": ["movea-lead", "cigkoftem-lead", "hukuk-lead"], "ulke": ["AE", "NL"], "outputs": ["arsiv/holding/2026-11-24.md", "data/holding_kaynaklar.json"], "validation": "GECTI", "chain": "prev=2026-11-23.md"}
