@@ -32,7 +32,7 @@ Bu tur: archive-first `research_loop_continue.py` · registry **696 / 43 / 81** 
 ### Onaylayacaklarım
 | İş | Yön + URL + not |
 |---|---|
-| **Bu rapor PR** | Review → merge · (açılınca buraya URL) · bu mesaj önceki CONFLICTING’leri kapattı |
+| **Bu rapor PR #636** | Merged (owner Onaylıyorum + CI yeşil) · https://github.com/metinduraktr-44/adops-agents/pull/636 |
 | **MODE=IMPLEMENT** | Flip **yapma** · `SECURITY_STATE.md` · `TASKS/SEC-T003.md` tick’leri senden |
 | **Unverified uzman yayın** | Human gate · `data/title_top100_queues.json` · K-003 |
 | **CANVA:ON** | OAuth bitmeden açma · `STATE.md` |
