@@ -1,7 +1,7 @@
 # LATOS_STATE — Phase Tracker
 
-> Damga: 2026-11-15T11:07:36Z · preferred state file for LATOS GIGA pack
-> prev: 2026-08-27 scaffold · light continue 2026-11-15C (no fake people)
+> Damga: 2026-11-27T10:20:00Z · preferred state file for LATOS GIGA pack
+> prev: 2026-11-15 light continue · archive-first stamp 2026-11-27 (no fake people)
 
 ## Current phase
 **Faz 0–1 scaffold + light continue** — Bootstrap + inventory + prompt INDEX stubs + talent taxonomy + monthly calendar stamp.
