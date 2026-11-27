@@ -1668,3 +1668,9 @@ Sistem "öğrenmesi" burada birikir. Her gecelik döngü yeni başlık ekler; bi
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-27T04:31:17Z] gunluk-operasyon: standup+makale üretildi; nöbet str/cls/nbd; konu skan-vs-sandbox-attribution.
+- [2026-11-27T10:19:51Z] arastirma-dongusu: 2026-11 odak prg/sea/soc/mob; kaynaklar.json güncellendi; önceki arşiv=2026-11-arastirma.md.
+- [2026-11-27T10:19:51Z] research-loop-continue: 2026-11 arşiv-önce prev=2026-10; queues sourced=79 pending=2021; registry damga; skill canlı çağrı yok. Öğrenim: mid-cycle = oku arşiv → kuyruk damgala (pending kalır) → research_loop+registry; .docx yoksa #628 extract'e dokunma.
+
+### 2026-11-27 — tek sayfa + skill-route
+- Owner mega-prompt: all-skills/900M/top-100 → K-003 eşdeğer (registry stamp + archive loop).
+- Merge #635; close CONFLICTING #633/#634; rapor `docs/RAPOR-TEK-SAYFA-2026-11-27.md`.
