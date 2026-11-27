@@ -1,17 +1,17 @@
 # LATOS_STATE — Phase Tracker
 
-> Damga: 2026-11-27T10:20:00Z · preferred state file for LATOS GIGA pack
-> prev: 2026-11-15 light continue · archive-first stamp 2026-11-27 (no fake people)
+> Damga: 2026-11-27T10:36:33Z · preferred state file for LATOS GIGA pack
+> prev: 2026-11-27 archive-first stamp · job-card H004–H010 batch (no fake people)
 
 ## Current phase
-**Faz 0–1 scaffold + light continue** — Bootstrap + inventory + prompt INDEX stubs + talent taxonomy + monthly calendar stamp.
+**Faz 0–1 scaffold + heading batch** — Sample cards H001–H010 on disk; H011–H200 queued. CONTEXT_BRIEF still owner-empty.
 
 ## Metrics
 | Metric | Value |
 |---|---|
 | Titles (org.json / inventory) | 600 (ROSTER intact) |
 | Git-deleted candidates | 0 |
-| Sample job cards | 6 |
+| Sample job cards | 6 (H001–H010 files; H011–H200 queued) |
 | Expert policy | pending_research only (79 sourced / 2021 pending) |
 | Prompt target | 122/title — INDEX stubs only (6 sample titles) |
 | Forecast target | 200/day/title (workflow; not one-pass) |
@@ -22,7 +22,7 @@
 - None (CONTEXT/INBOX empty — no mass job-card expansion)
 
 ## Next step
-Owner fills `CONTEXT/CONTEXT_BRIEF.md` → `/latos-devam` expand job cards batch; Exa Authorize → ≤5 sourced deltas/discipline.
+Owner fills `CONTEXT/CONTEXT_BRIEF.md` → `/latos-devam` H011–H020 (or next 6 titles). Exa Authorize → ≤5 sourced deltas/discipline. No 600×200 one-pass.
 
 ## Coexistence
 | Pack | State file |
