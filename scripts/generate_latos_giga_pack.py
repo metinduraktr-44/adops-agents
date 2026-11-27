@@ -5,6 +5,7 @@ K-003: no 900M-char blob; no invented top-100 experts; progressive expansion via
 Usage:
   python3 scripts/generate_latos_giga_pack.py [--force]
   python3 scripts/generate_latos_giga_pack.py --git-scan
+  python3 scripts/generate_latos_giga_pack.py --expand-headings --heading-start 4 --heading-end 10
 """
 from __future__ import annotations
 
@@ -559,6 +560,62 @@ def latos_state_md(titles_count: int, deleted_count: int) -> str:
 """
 
 
+def headings_index_md(slug: str, listed_through: int) -> str:
+    """Index H001..H200. Files listed_through are scaffold; rest queued."""
+    listed_through = max(1, min(200, listed_through))
+    lines = [
+        f"# HEADINGS_INDEX — {slug}",
+        "",
+        f"> Damga: {TS}",
+        "",
+        "| id | file | status |",
+        "|---|---|---|",
+    ]
+    for n in range(1, listed_through + 1):
+        hid = f"H{n:03d}"
+        lines.append(f"| {hid} | {hid}.md | scaffold |")
+    nxt = listed_through + 1
+    if nxt <= 200:
+        lines.append(f"| H{nxt:03d}..H200 | (queued) | expand via /devam |")
+    return "\n".join(lines) + "\n"
+
+
+def expand_heading_batch(
+    titles: list[dict],
+    start: int,
+    end: int,
+    slugs: list[str],
+    force: bool,
+) -> dict:
+    """Write one heading batch for existing sample cards. Does not touch CONTEXT_BRIEF."""
+    if start < 1 or end > 200 or start > end:
+        raise SystemExit(f"invalid heading range {start}..{end} (need 1..200, start<=end)")
+    title_map = {t["slug"]: t for t in titles}
+    written = 0
+    files: list[str] = []
+    for slug in slugs:
+        if slug not in title_map and slug not in SAMPLE_TITLES:
+            continue
+        base = ROOT / "JOB_CARDS" / slug
+        if not (base / "CARD.md").exists():
+            continue
+        for n in range(start, end + 1):
+            path = base / f"H{n:03d}.md"
+            if write_if_needed(path, heading_stub(slug, n), force):
+                written += 1
+                files.append(str(path.relative_to(ROOT)))
+        if write_if_needed(base / "HEADINGS_INDEX.md", headings_index_md(slug, end), force):
+            written += 1
+            files.append(str((base / "HEADINGS_INDEX.md").relative_to(ROOT)))
+    return {
+        "written_or_updated": written,
+        "slugs": slugs,
+        "heading_start": start,
+        "heading_end": end,
+        "files": files,
+    }
+
+
 def generate_skills(force: bool) -> int:
     count = 0
     for name, desc in SKILLS:
@@ -579,14 +636,36 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--git-scan", action="store_true", help="Run git deleted-file scan")
+    ap.add_argument(
+        "--expand-headings",
+        action="store_true",
+        help="Write one H### batch for sample (or --slugs) cards; skip CONTEXT/STATE rewrite",
+    )
+    ap.add_argument("--heading-start", type=int, default=4)
+    ap.add_argument("--heading-end", type=int, default=10)
+    ap.add_argument(
+        "--slugs",
+        default="",
+        help="Comma-separated title slugs (default: SAMPLE_TITLES)",
+    )
     args = ap.parse_args()
     force = args.force
+
+    titles = load_org_titles()
+    if args.expand_headings:
+        slugs = [s.strip() for s in args.slugs.split(",") if s.strip()] or list(SAMPLE_TITLES)
+        result = expand_heading_batch(
+            titles, args.heading_start, args.heading_end, slugs, force
+        )
+        result["ts"] = TS
+        result["titles"] = len(titles)
+        print(json.dumps(result, indent=2))
+        return
 
     written = 0
     for d in DIRS:
         (ROOT / d).mkdir(parents=True, exist_ok=True)
 
-    titles = load_org_titles()
     deleted = git_deleted_paths() if (args.git_scan or True) else []
 
     files = {
@@ -615,14 +694,9 @@ def main() -> None:
         base = ROOT / "JOB_CARDS" / slug
         if write_if_needed(base / "CARD.md", job_card_md(slug, t["title"], t["dept"]), force):
             written += 1
-        idx_lines = [f"# HEADINGS_INDEX — {slug}", "", f"> Damga: {TS}", "", "| id | file | status |", "|---|---|---|"]
-        for n in range(1, 11):
-            hid = f"H{n:03d}"
-            idx_lines.append(f"| {hid} | {hid}.md | scaffold |")
-        idx_lines.append("| H011..H200 | (queued) | expand via /devam |")
-        if write_if_needed(base / "HEADINGS_INDEX.md", "\n".join(idx_lines) + "\n", force):
+        if write_if_needed(base / "HEADINGS_INDEX.md", headings_index_md(slug, 10), force):
             written += 1
-        for n in range(1, 4):
+        for n in range(1, 11):
             if write_if_needed(base / f"H{n:03d}.md", heading_stub(slug, n), force):
                 written += 1
 
